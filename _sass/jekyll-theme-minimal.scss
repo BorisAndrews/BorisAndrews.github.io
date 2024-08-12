@@ -19,6 +19,7 @@ BDA:
 Here I format the social icons.
 */
 .social-icons {
+  font-size: 56px; // Use font-size for Font Awesome icons
   // gap: 15px; // Space between icons
 
   a {
@@ -26,7 +27,7 @@ Here I format the social icons.
 
     &:hover, &:focus {
       color:#069;
-      box-shadow: 0 4px 8px rgba(0, 96, 144, 0.2); // Shadow effect
+      box-shadow: 0 4px 8px rgba(0, 96, 144, 0.2);
     }
 
     svg {
