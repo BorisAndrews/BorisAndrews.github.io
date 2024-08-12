@@ -14,6 +14,31 @@ body {
   font-weight:400;
 }
 
+/*
+BDA:
+Here I format the social icons.
+*/
+.social-icons {
+  display: flex;
+  gap: 15px; // Space between icons
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000; // Default color for icons
+
+    &:hover {
+      color: #007bff; // Blue color on hover
+    }
+
+    svg {
+      width: 24px; // Medium size for icons
+      height: 24px;
+    }
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
