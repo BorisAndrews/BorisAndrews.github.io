@@ -1,10 +1,8 @@
 title: boris andrews
 show_downloads: false
-google_analytics:
+google_analytics: G-CP6X0DRVGM
 email: boris.andrews@maths.ox.ac.uk
-description: phd student
-baseurl: ""
-url: ""
+description: dphil (phd) student, university of oxford
 
 theme: jekyll-theme-minimal
 plugins:
