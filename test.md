@@ -1,6 +1,5 @@
 ---
-layout: page  # or another layout you want to use
-title: "Test"
+title: "test"
 permalink: /test/  # this will set the URL to yoursite.com/about/
 ---
 
