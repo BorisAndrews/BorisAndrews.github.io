@@ -3,6 +3,6 @@ show_downloads: false
 email: boris.andrews@maths.ox.ac.uk
 description: dphil (phd) student, university of oxford
 
-theme: jekyll-theme-modernist
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
