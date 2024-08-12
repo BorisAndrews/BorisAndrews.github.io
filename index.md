@@ -7,7 +7,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 <br>
 
 # interests
-- structure-preserving numerical methods for pdes
+- structure-preserving numerical methods for pdes / odes
 - finite element theory (incl. mgrit / feec)
 - hybrid fluid-particle models
 - turbulent systems (incl. stabilisation / preconditioning)
