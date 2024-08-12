@@ -7,6 +7,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 <br>
 
 # interests
+
 - structure-preserving numerical methods for pdes / odes
 - finite element theory (incl. mgrit / feec)
 - hybrid fluid-particle models
@@ -14,16 +15,19 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-# publications / preprints
+# highlighted publications / preprints
 
 | date                   | title                                                                                                                                                    | authors                                                                                                                       | links                                              |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |                                                    |
 | 2024 (pre- <br> print) | [high-order conservative and accurately dissipative numerical integrators via auxiliary variables]({{ "/publications/sp-integrators/" | absolute_url }}) | boris.d.andrews <br> [patrick.e.farrell](https://pefarrell.org/)                                                              | [arXiv](https://doi.org/10.48550/arXiv.2407.11904) |
 | ongoing                | an augmented Lagrangian preconditioner for natural convection at high Reynolds number                                                                    | [p.alexei.gazca.o](https://gazcaorozco.github.io/home/) <br> boris.d.andrews <br> [patrick.e.farrell](https://pefarrell.org/) |                                                    |
 
+[view all]({{ "/publications/" | absolute_url }})
+
 <br>
 
 # short cv
+
 - **2021–2025**    <code>&#124;</code> phd (dphil) in mathematics (numerical analysis), [*university of oxford*](https://www.maths.ox.ac.uk/)
     - **thesis**      <code>&#124;</code> high-order conservative and accurately dissipative numerical integrators via auxiliary variables
     - **supervisors** <code>&#124;</code> [patrick.e.farrell](https://pefarrell.org/), [wayne.arter](https://www.linkedin.com/in/wayne-arter-86375211/)
