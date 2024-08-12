@@ -16,10 +16,10 @@ hi ! i'm boris andrews, and I'm a dphil (phd) student in the [numerical analysis
 
 # publications / preprints
 
-| date            | title                                                                                              | authors                                                                                                                     | link                                               |
-| --------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| 2024 (preprint) | `high-order conservative and accurately dissipative numerical integrators via auxiliary variables` | boris.d.andrews, <br> [patrick.e.farrell](https://pefarrell.org/)                                                           | [arXiv](https://doi.org/10.48550/arXiv.2407.11904) |
-| ongoing         | `an augmented Lagrangian preconditioner for natural convection at high Reynolds number`            | [p.alexei.gazca.o](https://gazcaorozco.github.io/home/), <br> b.d.andrews, <br> [patrick.e.farrell](https://pefarrell.org/) |                                                    |
+| date            | title                                                                                              | authors                                                                                                                       | link                                               |
+| --------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 2024 (preprint) | `high-order conservative and accurately dissipative numerical integrators via auxiliary variables` | boris.d.andrews <br> [patrick.e.farrell](https://pefarrell.org/)                                                              | [arXiv](https://doi.org/10.48550/arXiv.2407.11904) |
+| ongoing         | `an augmented Lagrangian preconditioner for natural convection at high Reynolds number`            | [p.alexei.gazca.o](https://gazcaorozco.github.io/home/) <br> boris.d.andrews <br> [patrick.e.farrell](https://pefarrell.org/) |                                                    |
 
 <br>
 
