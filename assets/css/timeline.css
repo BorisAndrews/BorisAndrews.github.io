@@ -21,12 +21,11 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: #000; /* Changed to black for better visibility */
+  background: #727272; /* Changed to black for better visibility */
 }
 
 /* Shared content box styles */
 .timeline-content {
-  border-left: 2px solid #000;
   padding-left: 15px;
   position: relative;
 }
@@ -55,7 +54,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #000;
+  background: #727272;
   top: 10px; /* Adjusted for better alignment with the content */
 }
 
