@@ -1,3 +1,4 @@
+/* Timeline container */
 .timeline {
   position: relative;
   max-width: 600px;
@@ -5,55 +6,76 @@
   padding: 20px 0;
 }
 
+/* Basic styling for all timeline items */
 .timeline-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: relative;
   margin: 20px 0;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
+/* Vertical line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ddd;
+}
+
+/* Shared content box styles */
+.timeline-content {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the date entries */
+.timeline-item.date .timeline-content {
+  background: #2196F3;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Styling for the event entries */
+.timeline-item.event .timeline-content h3 {
+  margin: 0 0 5px;
+  font-size: 1.2em;
+}
+
+.timeline-item.event .timeline-content p {
+  margin: 0;
+}
+
+/* Circles on the timeline */
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background-color: #2196F3;
-  top: 0;
-}
-
-.timeline-date {
-  background: #2196F3;
-  color: white;
-  padding: 5px 10px;
+  left: 14px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
-  font-size: 14px;
-  position: relative;
-  left: -18px;
-  top: -10px;
+  background: #2196F3;
+  border: 2px solid white;
+  top: 10px;
 }
 
-.timeline-content {
-  background: #f4f4f4;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.timeline-content h3 {
-  margin-top: 0;
-}
-
+/* Responsive design */
 @media (max-width: 600px) {
-  .timeline-content {
-    width: 100%;
-    padding: 10px;
+  .timeline-item {
+    padding-left: 50px;
   }
 
-  .timeline-item {
-    margin-left: 0;
-    padding-left: 40px;
+  .timeline::before {
+    left: 30px;
+  }
+
+  .timeline-item::before {
+    left: 24px;
   }
 }
