@@ -11,12 +11,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+
+<!-- BDA: This gives me the little social icons. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
+<!-- BDA: Changed the alt text here slightly. -->
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="portrait" />
         {% endif %}
@@ -27,9 +31,25 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
+<!--
+BDA:
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
+-->
+
+<!-- BDA: Socials. -->
+        <div class="social-icons">
+          <a href="https://github.com/yourusername" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/yourusername" target="_blank" title="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
 
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -48,6 +68,10 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
+<!--
+BDA:
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+-->
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

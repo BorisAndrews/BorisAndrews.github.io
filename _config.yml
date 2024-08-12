@@ -26,8 +26,12 @@ description: phd (dphil) student, university of oxford
 
 # Build settings
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
+
+# Socials
+twitter:
+linkedin:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
