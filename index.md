@@ -16,20 +16,20 @@ hi ! i'm boris andrews, and I'm a dphil (phd) student in the [numerical analysis
 
 # publications / preprints
 
-| year    | title                                                                                              | authors                                                                                                               |
-| ------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 2024    | `high-order conservative and accurately dissipative numerical integrators via auxiliary variables` | boris.d.andrews, <br> [patrick.e.farrell](https://pefarrell.org/)                                                           |
-| ongoing | `an augmented Lagrangian preconditioner for natural convection at high Reynolds number`            | [p.alexei.gazca.o](https://gazcaorozco.github.io/home/), <br> b.d.andrews, <br> [patrick.e.farrell](https://pefarrell.org/) |
+| date            | title                                                                                              | authors                                                                                                                     | doi                                                                    |
+| --------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| 2024 (preprint) | `high-order conservative and accurately dissipative numerical integrators via auxiliary variables` | boris.d.andrews, <br> [patrick.e.farrell](https://pefarrell.org/)                                                           | [https://doi.org/10.48550/arXiv.2407.11904](10.48550/arXiv.2407.11904) |
+| ongoing         | `an augmented Lagrangian preconditioner for natural convection at high Reynolds number`            | [p.alexei.gazca.o](https://gazcaorozco.github.io/home/), <br> b.d.andrews, <br> [patrick.e.farrell](https://pefarrell.org/) |                                                                        |
 
 <br>
 
 # short cv
 - **2021 – 2025**    <code>&#124;</code> dphil (phd) in mathematics (numerical analysis), [*university of oxford*](https://www.maths.ox.ac.uk/)
-    - `thesis`      | high-order conservative and accurately dissipative numerical integrators via auxiliary variables
-    - `supervisors` | [patrick.e.farrell](https://pefarrell.org/), [wayne.arter](https://www.linkedin.com/in/wayne-arter-86375211/)
-- **aug – oct 2022** | physics: theory and modelling internship, [*tokamak energy*](https://tokamakenergy.com/)
-- **2017 – 2021**    | master of of mathematics (mmath), [*university of oxford*](https://www.maths.ox.ac.uk/)
-    - `grade` | first (distinction)
-    - `masters thesis` | computation and approximation properties of near orthogonal matrices for tall random matrices
-    - `master supervisor` | [yuji.nakatsukasa](https://people.maths.ox.ac.uk/nakatsukasa/)
-- **jul – aug 2019** | computational fluid dynamics internship, [*perm state university*](http://en.psu.ru/)
+    - `thesis`      <code>&#124;</code> high-order conservative and accurately dissipative numerical integrators via auxiliary variables
+    - `supervisors` <code>&#124;</code> [patrick.e.farrell](https://pefarrell.org/), [wayne.arter](https://www.linkedin.com/in/wayne-arter-86375211/)
+- **aug – oct 2022** <code>&#124;</code> physics: theory and modelling internship, [*tokamak energy*](https://tokamakenergy.com/)
+- **2017 – 2021**    <code>&#124;</code> master of of mathematics (mmath), [*university of oxford*](https://www.maths.ox.ac.uk/)
+    - `grade` <code>&#124;</code> first (distinction)
+    - `masters thesis` <code>&#124;</code> computation and approximation properties of near orthogonal matrices for tall random matrices
+    - `master supervisor` <code>&#124;</code> [yuji.nakatsukasa](https://people.maths.ox.ac.uk/nakatsukasa/)
+- **jul – aug 2019** <code>&#124;</code> computational fluid dynamics internship, [*perm state university*](http://en.psu.ru/)
