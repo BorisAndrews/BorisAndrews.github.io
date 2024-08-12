@@ -12,3 +12,22 @@ permalink: /publications/sp-integrators/
 > *[...] we propose an approach for the construction of timestepping schemes that preserve dissipation laws and conserve multiple general invariants, via finite elements in time and the systematic introduction of auxiliary variables. [...] We [devise] novel arbitrary-order schemes that conserve to machine precision all known invariants of Hamiltonian ODEs [...] and arbitrary-order schemes for the compressible Navier–Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy.*
 
 ## talks
+
+{% include timeline.md %}
+
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-date">2024</div>
+    <div class="timeline-content">
+      <h3>Event Title</h3>
+      <p>Details about this event in 2024.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">2023</div>
+    <div class="timeline-content">
+      <h3>Another Event</h3>
+      <p>Details about another event in 2023.</p>
+    </div>
+  </div>
+</div>
