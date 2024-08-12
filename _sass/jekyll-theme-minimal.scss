@@ -19,13 +19,9 @@ BDA:
 Here I format the social icons.
 */
 .social-icons {
-  display: flex;
-  gap: 15px; // Space between icons
+  // gap: 15px; // Space between icons
 
   a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
     color: #267CB9;
 
     &:hover, &:focus {
