@@ -26,14 +26,15 @@ Here I format the social icons.
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #267CB9; // Default color for icons
+    color: #267CB9;
 
-    &:hover {
-      border-color: #267CB9; // Blue color on hover
+    &:hover, &:focus {
+      color:#069;
+      border-color: #267CB9;
     }
 
     svg {
-      width: 24px; // Medium size for icons
+      width: 24px;
       height: 24px;
     }
   }
