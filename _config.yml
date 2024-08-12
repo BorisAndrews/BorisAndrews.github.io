@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: boris andrews
+logo: /assets/img/portrait.jpg
 show_downloads: false
 email: boris.andrews@maths.ox.ac.uk
 description: dphil (phd) student, university of oxford
