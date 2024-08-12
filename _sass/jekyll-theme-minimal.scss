@@ -1,6 +1,11 @@
 @import "fonts";
 @import "rouge-github";
 
+/*
+BDA:
+Here I specify the fonts, in order of preference dependent on availability.
+I've added Roboto Mono before each of the default ones.
+*/
 body {
   background-color: #fff;
   padding:50px;
