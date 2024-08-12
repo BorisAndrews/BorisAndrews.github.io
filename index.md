@@ -17,10 +17,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 # highlighted publications / preprints
 
-| date                   | title                                                                                                                                                    | authors                                                                                                                       | links                                              |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |                                                    |
-| 2024 (pre- <br> print) | [high-order conservative and accurately dissipative numerical integrators via auxiliary variables]({{ "/publications/sp-integrators/" | absolute_url }}) | boris.d.andrews <br> [patrick.e.farrell](https://pefarrell.org/)                                                              | [arXiv](https://doi.org/10.48550/arXiv.2407.11904) |
-| ongoing                | an augmented Lagrangian preconditioner for natural convection at high Reynolds number                                                                    | [p.alexei.gazca.o](https://gazcaorozco.github.io/home/) <br> boris.d.andrews <br> [patrick.e.farrell](https://pefarrell.org/) |                                                    |
+{% include publications.md %}
 
 [view all]({{ "/publications/" | absolute_url }})
 

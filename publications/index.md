@@ -4,3 +4,5 @@ permalink: /publications/
 ---
 
 # publications / preprints
+
+{% include publications.md %}
