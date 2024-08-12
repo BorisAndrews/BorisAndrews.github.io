@@ -6,7 +6,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-# interests
+## interests
 
 - structure-preserving numerical methods for pdes / odes
 - finite element theory (incl. mgrit / feec)
@@ -15,7 +15,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-# publications & preprints
+## publications & preprints
 
 {% include publications.md %}
 
@@ -23,7 +23,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-# short cv
+## short cv
 
 - **2021–2025**    <code>&#124;</code> phd (dphil) in mathematics (numerical analysis), [*university of oxford*](https://www.maths.ox.ac.uk/)
     - **thesis**      <code>&#124;</code> high-order conservative and accurately dissipative numerical integrators via auxiliary variables
