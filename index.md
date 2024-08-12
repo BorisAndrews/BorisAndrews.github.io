@@ -15,7 +15,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-# highlighted publications / preprints
+# publications & preprints
 
 {% include publications.md %}
 
