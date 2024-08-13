@@ -21,9 +21,7 @@ permalink: /publications/sp-integrators/
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item</li>
+          <li><strong>mar.??</strong> | invited talk, <em>brown unversity</em></li>
         </ul></p>
       </div>
     </div>
@@ -31,8 +29,12 @@ permalink: /publications/sp-integrators/
       <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
-          <li><strong>mar.20</strong> | ukaea phd student engagement day</li>
-          <li><strong>feb.1</strong> | university of warwick junior applied mathematics seminar</li>
+          <li><strong>oct.09</strong> | internal seminar, <em>rice university</em></li>
+          <li><strong>jul.02</strong> | pdesoft, <em>university of cambridge</em></li>
+          <li><strong>jun.21</strong> | finite element fair, <em>university college london</em></li>
+          <li><strong>apr.04</strong> | exploiting algebraic and geometric structure in time-integration methods, <em>university of pisa</em></li>
+          <li><strong>mar.20</strong> | ukaea phd student engagement day, <em>ccfe</em></li>
+          <li><strong>feb.01</strong> | junior applied mathematics seminar, <em>university of warwick</em></li>
         </ul></p>
       </div>
     </div>
@@ -40,10 +42,10 @@ permalink: /publications/sp-integrators/
       <div class="info">
         <h3 class="title">2023</h3>
         <p><ul>
-          <li><strong>aug.23</strong> | ICIAM</li>
-          <li><strong>jun.13</strong> | university of oxford numerical analysis group internal seminar</li>
-          <li><strong>may.16</strong> | university of oxford junior applied mathematics seminar</li>
-          <li><strong>feb.24</strong> | met office presentation</li>
+          <li><strong>aug.23</strong> | ICIAM 2023, <em>waseda university</em></li>
+          <li><strong>jun.13</strong> | numerical analysis group internal seminar, <em>university of oxford</em></li>
+          <li><strong>may.16</strong> | junior applied mathematics seminar, <em>university of oxford</em></li>
+          <li><strong>feb.24</strong> | met office presentation, <em>university of oxford</em></li>
         </ul></p>
       </div>
     </div>
