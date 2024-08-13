@@ -19,8 +19,8 @@ permalink: /publications/sp-integrators/
   <div class="outer">
     <div class="card">
       <div class="info">
-        <p class="title"><strong>2025</strong>
-        <ul>
+        <h3 class="title">2025</h3>
+        <p><ul>
           <li>First item</li>
           <li>Second item</li>
           <li>Third item</li>
@@ -29,19 +29,21 @@ permalink: /publications/sp-integrators/
     </div>
     <div class="card">
       <div class="info">
-        <p class="title"><strong>2024</strong>
-        <ul>
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item</li>
+        <h3 class="title">2024</h3>
+        <p><ul>
+          <li><strong>mar.20</strong> | ukaea phd student engagement day</li>
+          <li><strong>feb.1</strong> | university of warwick junior applied mathematics seminar</li>
         </ul></p>
       </div>
     </div>
     <div class="card">
       <div class="info">
-        <p class="title"><strong>2023</strong>
-        <ul>
-          <li><strong>jun.13</strong> | test</li>
+        <h3 class="title">2023</h3>
+        <p><ul>
+          <li><strong>aug.23</strong> | ICIAM</li>
+          <li><strong>jun.13</strong> | university of oxford numerical analysis group internal seminar</li>
+          <li><strong>may.16</strong> | university of oxford junior applied mathematics seminar</li>
+          <li><strong>feb.24</strong> | met office presentation</li>
         </ul></p>
       </div>
     </div>
