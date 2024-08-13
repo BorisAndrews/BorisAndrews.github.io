@@ -48,12 +48,12 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 ## recent collaborators
 
-## [patrick.e.farrell](https://pefarrell.org/)
-<img src="assets/img/patrick.jpg" alt="patrick.e.farrell" width="300" />
+### [patrick.e.farrell](https://pefarrell.org/)
+<img src="collaborators/assets/img/patrick.jpg" alt="patrick.e.farrell" width="300" />
 - **affiliation** <code>&#124;</code> [*university of oxford*](https://www.maths.ox.ac.uk/)
 
-## [p.alexei.gazca.o](https://gazcaorozco.github.io/home/)
-<img src="assets/img/alexei.jpeg" alt="p.alexei.gazca.o" width="300" />
+### [p.alexei.gazca.o](https://gazcaorozco.github.io/home/)
+<img src="collaborators/assets/img/alexei.jpeg" alt="p.alexei.gazca.o" width="300" />
 - **affiliation** <code>&#124;</code> [*university of freiburg*](https://www.math.uni-freiburg.de/index.html)
 
 [view all]({{ "/collaborators/" | absolute_url }})
