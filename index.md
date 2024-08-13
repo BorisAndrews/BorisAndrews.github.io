@@ -6,16 +6,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-## interests
-
-- structure-preserving numerical methods for pdes / odes
-- finite element theory (incl. mgrit / feec)
-- hybrid fluid-particle models
-- turbulent systems (incl. stabilisation / preconditioning)
-
-<br>
-
-## short cv
+## [short cv]({{ "/cv/" | absolute_url }})
 
 - **2021–2025** <code>&#124;</code> phd (dphil) in mathematics (numerical analysis), [*university of oxford*](https://www.maths.ox.ac.uk/)
     - **thesis** <code>&#124;</code> high-order conservative and accurately dissipative numerical integrators via auxiliary variables
@@ -32,7 +23,16 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-## highlighted publications & preprints
+## interests
+
+- structure-preserving numerical methods for pdes / odes
+- finite element theory (incl. mgrit / feec)
+- hybrid fluid-particle models
+- turbulent systems (incl. stabilisation / preconditioning)
+
+<br>
+
+## [highlighted publications & preprints]({{ "/publications/" | absolute_url }})
 
 {% include publications.md %}
 
@@ -40,13 +40,13 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-## highlighted talks
+## [highlighted talks]({{ "/talks/" | absolute_url }})
 
 [view all]({{ "/talks/" | absolute_url }})
 
 <br>
 
-## recent collaborators
+## [recent collaborators]({{ "/collaborators/" | absolute_url }})
 
 ### [patrick.e.farrell](https://pefarrell.org/), [*university of oxford*](https://www.maths.ox.ac.uk/)
 <img src="collaborators/assets/img/patrick.jpg" alt="patrick.e.farrell" width="270" />

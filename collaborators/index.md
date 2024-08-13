@@ -5,8 +5,6 @@ permalink: /collaborators/
 
 # collaborators
 
-*(in order of recency of collaboration\.\.\.)*
-
 ## [patrick.e.farrell](https://pefarrell.org/)
 <img src="assets/img/patrick.jpg" alt="patrick.e.farrell" width="270" />
 - **affiliation** <code>&#124;</code> [*university of oxford*](https://www.maths.ox.ac.uk/)
