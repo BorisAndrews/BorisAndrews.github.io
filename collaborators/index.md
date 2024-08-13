@@ -17,7 +17,6 @@ permalink: /collaborators/
 - **joint publications** <code>&#124;</code> an augmented Lagrangian preconditioner for natural convection at high Reynolds number (upcoming\.\.\.)
 
 ## [yuji.nakatsukasa](https://people.maths.ox.ac.uk/nakatsukasa/)
-![p.alexei.gazca.o](assets/img/alexei.jpeg)
-<img src="assets/img/yuji.jpeg" alt="yuji.nakatsukasa" width="300" />
+<img src="assets/img/yuji.jpg" alt="yuji.nakatsukasa" width="300" />
 - **affiliation** <code>&#124;</code> [*university of oxford*](https://www.maths.ox.ac.uk/)
 - **role** <code>&#124;</code> masters thesis supervisor
