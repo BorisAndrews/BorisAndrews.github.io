@@ -23,9 +23,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-## [highlighted talks]({{ "/talks/" | absolute_url }})
-
-[view all]({{ "/talks/" | absolute_url }})
+## upcoming talks
 
 <br>
 
