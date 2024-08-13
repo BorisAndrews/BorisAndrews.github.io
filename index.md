@@ -23,6 +23,12 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
+## highlighted talks
+
+[view all]({{ "/talks/" | absolute_url }})
+
+<br>
+
 ## short cv
 
 - **2021–2025**    <code>&#124;</code> phd (dphil) in mathematics (numerical analysis), [*university of oxford*](https://www.maths.ox.ac.uk/)
