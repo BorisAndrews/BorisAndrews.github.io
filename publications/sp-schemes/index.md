@@ -17,7 +17,6 @@ permalink: /publications/sp-integrators/
 
 <div class="timeline">
     <div class="timeline-event">
-        <div class="timeline-dot"></div>
         <div class="timeline-content">Your event text goes here</div>
     </div>
     <div class="timeline-event">

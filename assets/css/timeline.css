@@ -1,7 +1,7 @@
 .timeline {
   position: relative;
   padding-left: 30px; /* Increased padding to give space for the dot */
-  border-left: 2px solid #ccc; /* Vertical line */
+  border-left: 5px solid #727272; /* Vertical line */
 }
 
 .timeline-event {
@@ -12,7 +12,7 @@
 .timeline-dot {
   width: 10px;
   height: 10px;
-  background-color: #007bff;
+  background-color: #727272;
   border-radius: 50%;
   position: absolute;
   left: -17px; /* Centers the dot on the line */
