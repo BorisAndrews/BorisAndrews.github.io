@@ -15,20 +15,6 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-## highlighted publications & preprints
-
-{% include publications.md %}
-
-[view all]({{ "/publications/" | absolute_url }})
-
-<br>
-
-## highlighted talks
-
-[view all]({{ "/talks/" | absolute_url }})
-
-<br>
-
 ## short cv
 
 - **2021–2025** <code>&#124;</code> phd (dphil) in mathematics (numerical analysis), [*university of oxford*](https://www.maths.ox.ac.uk/)
@@ -43,3 +29,31 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 - **jul–aug 2019** <code>&#124;</code> computational fluid dynamics internship, [*perm state university*](http://en.psu.ru/)
 
 [view all]({{ "/cv/" | absolute_url }})
+
+<br>
+
+## highlighted publications & preprints
+
+{% include publications.md %}
+
+[view all]({{ "/publications/" | absolute_url }})
+
+<br>
+
+## highlighted talks
+
+[view all]({{ "/talks/" | absolute_url }})
+
+<br>
+
+## recent collaborators
+
+## [patrick.e.farrell](https://pefarrell.org/)
+<img src="assets/img/patrick.jpg" alt="patrick.e.farrell" width="300" />
+- **affiliation** <code>&#124;</code> [*university of oxford*](https://www.maths.ox.ac.uk/)
+
+## [p.alexei.gazca.o](https://gazcaorozco.github.io/home/)
+<img src="assets/img/alexei.jpeg" alt="p.alexei.gazca.o" width="300" />
+- **affiliation** <code>&#124;</code> [*university of freiburg*](https://www.math.uni-freiburg.de/index.html)
+
+[view all]({{ "/collaborators/" | absolute_url }})
