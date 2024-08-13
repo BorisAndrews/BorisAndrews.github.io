@@ -1,7 +1,7 @@
 .timeline {
   position: relative;
   padding-left: 17px; /* Increased padding to give space for the dot */
-  border-left: 5px solid #727272; /* Vertical line */
+  border-left: 4px solid #727272; /* Vertical line */
 }
 
 .timeline-event {
@@ -14,9 +14,9 @@
   background-color: #727272;
   border-radius: 50%;
   position: absolute;
-  left: -17px; /* Centers the dot on the line */
+  left: -19px; /* Centers the dot on the line */
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .timeline-content {
