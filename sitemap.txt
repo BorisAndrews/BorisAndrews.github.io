@@ -1,2 +1,4 @@
 https://borisandrews.github.io/
-https://borisandrews.github.io/test/
+https://borisandrews.github.io/cv/
+https://borisandrews.github.io/publications/
+https://borisandrews.github.io/publications/sp-integrators/

@@ -1,29 +1,9 @@
 ---
-title: home
+title: cv
+permalink: /cv/
 ---
 
-hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis) at the [university of oxford](https://www.maths.ox.ac.uk/) working on structure-preserving numerical methods for pdes, under a joint [epsrc](https://www.ukri.org/councils/epsrc/) / [ccfe](https://ccfe.ukaea.uk/) studentship
-
-<br>
-
-## interests
-
-- structure-preserving numerical methods for pdes / odes
-- finite element theory (incl. mgrit / feec)
-- hybrid fluid-particle models
-- turbulent systems (incl. stabilisation / preconditioning)
-
-<br>
-
-## highlighted publications & preprints
-
-{% include publications.md %}
-
-[view all]({{ "/publications/" | absolute_url }})
-
-<br>
-
-## short cv
+# cv
 
 - **2021–2025**    <code>&#124;</code> phd (dphil) in mathematics (numerical analysis), [*university of oxford*](https://www.maths.ox.ac.uk/)
     - **thesis**      <code>&#124;</code> high-order conservative and accurately dissipative numerical integrators via auxiliary variables
@@ -35,5 +15,3 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
     - **thesis** <code>&#124;</code> computation and approximation properties of near orthogonal matrices for tall random matrices
     - **supervisor** <code>&#124;</code> [yuji.nakatsukasa](https://people.maths.ox.ac.uk/nakatsukasa/)
 - **jul–aug 2019** <code>&#124;</code> computational fluid dynamics internship, [*perm state university*](http://en.psu.ru/)
-
-[view all]({{ "/cv/" | absolute_url }})
