@@ -74,15 +74,11 @@
 .info {
   display: flex;
   flex-direction: column;
-  background: #333;
-  color: gray;
-  border-radius: 10px;
   padding: 10px;
 }
 
 /* Title of the card */
 .title {
-  color: orangered;
   position: relative;
 }
 
