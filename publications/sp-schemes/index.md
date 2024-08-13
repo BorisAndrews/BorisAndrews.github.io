@@ -16,33 +16,13 @@ permalink: /publications/sp-integrators/
 {% include timeline.md %}
 
 <div class="timeline">
-  <div class="timeline-item date">
-    <div class="timeline-content">
-      <strong>
-        2024
-      <\strong>
+    <div class="timeline-event">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">Your event text goes here</div>
     </div>
-  </div>
-
-  <div class="timeline-item event">
-    <div class="timeline-content">
-      <h3>Event Title</h3>
-      <p>Details about this event in 2024.</p>
+    <div class="timeline-event">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">Another event</div>
     </div>
-  </div>
-  
-  <div class="timeline-item date">
-    <div class="timeline-content">
-      <strong>
-        2023
-      <\strong>
-    </div>
-  </div>
-  
-  <div class="timeline-item event">
-    <div class="timeline-content">
-      <h3>Another Event</h3>
-      <p>Details about another event in 2023.</p>
-    </div>
-  </div>
+    <!-- Add more .timeline-event divs as needed -->
 </div>

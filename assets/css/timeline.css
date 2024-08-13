@@ -1,74 +1,28 @@
-/* Timeline container */
 .timeline {
   position: relative;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px 0;
+  padding-left: 20px;
+  border-left: 2px solid #ccc; /* Vertical line */
 }
 
-/* Basic styling for all timeline items */
-.timeline-item {
-  position: relative;
+.timeline-event {
+  display: flex;
+  align-items: center;
   margin: 20px 0;
-  padding-left: 40px;
-}
-
-/* Vertical line */
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 20px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: #727272; /* Changed to black for better visibility */
-}
-
-/* Shared content box styles */
-.timeline-content {
-  padding-left: 15px;
   position: relative;
 }
 
-/* Styling for the date entries */
-.timeline-item.date .timeline-content {
-  font-weight: bold;
-  padding: 5px 0; /* Less padding for a tighter look */
-}
-
-/* Styling for the event entries */
-.timeline-item.event .timeline-content h3 {
-  margin: 0 0 5px;
-  font-size: 1.2em;
-}
-
-.timeline-item.event .timeline-content p {
-  margin: 0;
-}
-
-/* Circles on the timeline */
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: 15px;
+.timeline-dot {
   width: 10px;
   height: 10px;
+  background-color: #007bff;
   border-radius: 50%;
-  background: #727272;
-  top: 10px; /* Adjusted for better alignment with the content */
+  position: absolute;
+  left: -6px; /* Adjust this to centre the dot */
+  margin-left: -3px; /* Adjust if needed */
 }
 
-/* Responsive design */
-@media (max-width: 600px) {
-  .timeline-item {
-    padding-left: 50px;
-  }
-
-  .timeline::before {
-    left: 30px;
-  }
-
-  .timeline-item::before {
-    left: 24px;
-  }
+.timeline-content {
+  padding-left: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
