@@ -87,11 +87,11 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="p.alexei.gazca.o">
-        <div class="caption">Caption 2</div>
+        <div class="caption"><a href="https://gazcaorozco.github.io/home/"><strong>p.alexei.gazca.o</strong></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>university of freiburg</em></a>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/wayne.jpeg' | relative_url }}" alt="wayne.arter">
-        <div class="caption">Caption 2</div>
+        <div class="caption"><a href="https://www.linkedin.com/in/wayne-arter-86375211/"><strong>wayne.arter</strong></a>, <br> <a href="https://ccfe.ukaea.uk/"><em>culham centre for fusion energy (ccfe)</em></a>
     </div>
 </div>
 
