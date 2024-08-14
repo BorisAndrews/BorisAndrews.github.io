@@ -88,16 +88,14 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
         <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
         <div class="caption">Caption 2</div>
     </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
+        <div class="caption">Caption 2</div>
+    </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
+        <div class="caption">Caption 2</div>
+    </div>
 </div>
-
-[**patrick.e.farrell**](https://pefarrell.org/), <br>
-[*university of oxford*](https://www.maths.ox.ac.uk/)
-
-<img src="/assets/img/collaborators/patrick.jpg" alt="patrick.e.farrell" width="167" />
-
-[**p.alexei.gazca.o**](https://gazcaorozco.github.io/home/), <br>
-[*university of freiburg*](https://www.math.uni-freiburg.de/index.html)
-
-<img src="/assets/img/collaborators/alexei.jpeg" alt="p.alexei.gazca.o" width="167" />
 
 [view all]({{ "/collaborators/" | absolute_url }})
