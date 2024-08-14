@@ -27,9 +27,9 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 ## upcoming
 
 - **09.oct.2024** <code>&#124;</code> presenting internal seminar at [*rice university*](https://mathweb.rice.edu/) on [my work on conservative integrators](publications/sp-schemes/index.md) with [patrick.e.farrell](https://pefarrell.org/)
-- **3–7.mar.2025** <code>&#124;</code> i'll be attending [siam cse25](https://www.siam.org/conferences-events/siam-conferences/cse25/) in *fort worth, texas*
-- **mar.2025** <code>&#124;</code> i'll be visiting [*brown university*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-schemes/index.md) with [patrick.e.farrell](https://pefarrell.org/)
-- **11–15.may.2025** <code>&#124;</code> i'll be attending [siam ds25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *denver, colorado*
+- **3–7.mar.2025** <code>&#124;</code> attending [siam cse25](https://www.siam.org/conferences-events/siam-conferences/cse25/) in *fort worth, texas*
+- **mar.2025** <code>&#124;</code> visiting [*brown university*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-schemes/index.md) with [patrick.e.farrell](https://pefarrell.org/)
+- **11–15.may.2025** <code>&#124;</code> attending [siam ds25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *denver, colorado*
 
 <!-- ## [short cv]({{ "/cv/" | absolute_url }}) -->
 ## short cv
