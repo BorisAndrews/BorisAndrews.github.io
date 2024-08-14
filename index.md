@@ -15,15 +15,16 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-## [highlighted publications & preprints]({{ "/publications/" | absolute_url }})
+<!-- ## [highlighted publications & preprints]({{ "/publications/" | absolute_url }}) -->
+## publications & preprints
 
 {% include publications.md %}
 
-[view all]({{ "/publications/" | absolute_url }})
+<!-- [view all]({{ "/publications/" | absolute_url }}) -->
 
 <br>
 
-## upcoming events
+## highlighted upcoming events
 
 {% include timeline.md %}
 
@@ -58,7 +59,8 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-## [short cv]({{ "/cv/" | absolute_url }})
+<!-- ## [short cv]({{ "/cv/" | absolute_url }}) -->
+## short cv
 
 - **2021–2025** <code>&#124;</code> phd (dphil) in mathematics (numerical analysis), [*university of oxford*](https://www.maths.ox.ac.uk/)
     - **thesis** <code>&#124;</code> high-order conservative and accurately dissipative numerical integrators via auxiliary variables
@@ -71,7 +73,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
     - **supervisor** <code>&#124;</code> [yuji.nakatsukasa](https://people.maths.ox.ac.uk/nakatsukasa/)
 - **jul–aug.2019** <code>&#124;</code> computational fluid dynamics internship, [*perm state university*](http://en.psu.ru/)
 
-[view all]({{ "/cv/" | absolute_url }})
+<!-- [view all]({{ "/cv/" | absolute_url }}) -->
 
 <br>
 
