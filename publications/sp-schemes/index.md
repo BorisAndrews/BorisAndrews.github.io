@@ -33,7 +33,7 @@ permalink: /publications/sp-integrators/
       <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
-          <li><b>internal seminar, <em>rice university</b></em></li>
+          <li><b>internal seminar, <em>rice university</em></b></li>
           <li>pdesoft, <em>university of cambridge</em></li>
           <li>finite element fair, <em>university college london</em></li>
           <li><b>exploiting algebraic and geometric structure in time-integration methods workshop, <em>university of pisa</em></b></li>
