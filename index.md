@@ -31,25 +31,25 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
   <div class="outer">
     <div class="card">
       <div class="info">
-        <h3 class="title">2024.oct.09</h3>
+        <h3 class="title">09.oct.2024</h3>
         <p>i'll be presenting the internal seminar at <em><a href="https://mathweb.rice.edu/">rice university</a></em> on <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></p>
       </div>
     </div>
     <div class="card">
       <div class="info">
-        <h3 class="title">2025.mar.3-7</h3>
+        <h3 class="title">3-7.mar.2025</h3>
         <p>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/cse25/">siam cse25</a> in <e>fort worth, texas</e></p>
       </div>
     </div>
     <div class="card">
       <div class="info">
-        <h3 class="title">2025.mar.??</h3>
+        <h3 class="title">??.mar.2025</h3>
         <p>i'll be visiting <em><a href="https://sites.brown.edu/scientific-computing/">brown unversity</a></em> to present <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></p>
       </div>
     </div>
     <div class="card">
       <div class="info">
-        <h3 class="title">2025.may.11-15</h3>
+        <h3 class="title">11-15.may.2025</h3>
         <p>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/ds25/">siam ds25</a> in <e>denver, colorado</e></p>
       </div>
     </div>
@@ -93,5 +93,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
         <div class="caption"><a href="https://www.linkedin.com/in/wayne-arter-86375211/"><b>wayne.arter</b></a>, <br> <a href="https://ccfe.ukaea.uk/"><em>culham centre for fusion energy (ccfe)</em></a></div>
     </div>
 </div>
+
+<br>
 
 [view all]({{ "/collaborators/" | absolute_url }})
