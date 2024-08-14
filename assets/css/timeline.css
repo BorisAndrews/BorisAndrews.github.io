@@ -74,7 +74,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  padding: 35px 5px 20px 5px; /* Reduced padding */
+  padding: 35px 5px 35px 5px; /* Reduced padding */
 }
 
 /* Title of the card */
