@@ -57,8 +57,6 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
   </div>
 </div>
 
-<br>
-
 <!-- ## [short cv]({{ "/cv/" | absolute_url }}) -->
 ## short cv
 
