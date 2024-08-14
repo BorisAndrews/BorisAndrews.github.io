@@ -5,6 +5,7 @@ https://borisandrews.github.io/publications/sp-integrators/
 CREATE:
 https://borisandrews.github.io/about-me/
 
-ADD:
-CV (PDF) with easily accessible download button
+OTHER:
+add CV (PDF) with easily accessible download button
 fix capitalisation / fun dots
+change google scholar icon

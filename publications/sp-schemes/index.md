@@ -25,7 +25,7 @@ permalink: /publications/sp-integrators/
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><b>invited talk, <em>brown unversity</em></b></li>
+          <li><b><u>invited talk, <em>brown unversity</em></b></u></li>
         </ul></p>
       </div>
     </div>
@@ -33,10 +33,10 @@ permalink: /publications/sp-integrators/
       <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
-          <li><b>internal seminar, <em>rice university</em></b></li>
+          <li><b><u>internal seminar, <em>rice university</em></b></u></li>
           <li>pdesoft, <em>university of cambridge</em></li>
           <li>finite element fair, <em>university college london</em></li>
-          <li><b>exploiting algebraic and geometric structure in time-integration methods workshop, <em>university of pisa</em></b></li>
+          <li><b><u>exploiting algebraic and geometric structure in time-integration methods workshop, <em>university of pisa</em></b></u></li>
           <li>ukaea phd student engagement day, <em>ccfe</em></li>
           <li>junior applied mathematics seminar, <em>university of warwick</em></li>
         </ul></p>
@@ -46,7 +46,7 @@ permalink: /publications/sp-integrators/
       <div class="info">
         <h3 class="title">2023</h3>
         <p><ul>
-          <li><b>ICIAM 2023, <em>waseda university</em></b></li>
+          <li><b><u>ICIAM 2023, <em>waseda university</em></b></u></li>
           <li>numerical analysis group internal seminar, <em>university of oxford</em></li>
           <li>junior applied mathematics seminar, <em>university of oxford</em></li>
           <li>met office presentation, <em>university of oxford</em></li>
