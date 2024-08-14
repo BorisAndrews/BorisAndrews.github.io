@@ -38,7 +38,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
     <div class="card">
       <div class="info">
         <h3 class="title">2025.mar.3-7</h3>
-        <p>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/cse25/">siam cse25</a> in fort worth, texas</p>
+        <p>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/cse25/">siam cse25</a> in <e>fort worth, texas</e></p>
       </div>
     </div>
     <div class="card">
@@ -50,7 +50,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
     <div class="card">
       <div class="info">
         <h3 class="title">2025.may.11-15</h3>
-        <p>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/ds25/">siam ds25</a> in denver, colorado</p>
+        <p>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/ds25/">siam ds25</a> in <e>denver, colorado</e></p>
       </div>
     </div>
   </div>
