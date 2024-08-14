@@ -24,38 +24,12 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <br>
 
-## highlighted upcoming events
+## upcoming
 
-{% include timeline.md %}
-
-<div class="timeline">
-  <div class="outer">
-    <div class="card">
-      <div class="info">
-        <h3 class="title">09.oct.2024</h3>
-        <p>i'll be presenting the internal seminar at <em><a href="https://mathweb.rice.edu/">rice university</a></em> on <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">3–7.mar.2025</h3>
-        <p>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/cse25/">siam cse25</a> in <e>fort worth, texas</e></p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">??.mar.2025</h3>
-        <p>i'll be visiting <em><a href="https://sites.brown.edu/scientific-computing/">brown unversity</a></em> to present <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">11–15.may.2025</h3>
-        <p>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/ds25/">siam ds25</a> in <e>denver, colorado</e></p>
-      </div>
-    </div>
-  </div>
-</div>
+- **09.oct.2024** <code>&#124;</code> presenting internal seminar at [*rice university*](https://mathweb.rice.edu/) on [my work on conservative integrators](publications/sp-schemes/index.md) with [patrick.e.farrell](https://pefarrell.org/)
+- **3–7.mar.2025** <code>&#124;</code> i'll be attending [siam cse25](https://www.siam.org/conferences-events/siam-conferences/cse25/) in *fort worth, texas*
+- **mar.2025** <code>&#124;</code> i'll be visiting [*brown university*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-schemes/index.md) with [patrick.e.farrell](https://pefarrell.org/)
+- **11–15.may.2025** <code>&#124;</code> i'll be attending [siam ds25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *denver, colorado*
 
 <!-- ## [short cv]({{ "/cv/" | absolute_url }}) -->
 ## short cv

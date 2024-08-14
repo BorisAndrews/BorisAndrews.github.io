@@ -1,0 +1,10 @@
+FINISH:
+https://borisandrews.github.io/cv/
+https://borisandrews.github.io/publications/sp-integrators/
+
+CREATE:
+https://borisandrews.github.io/about-me/
+
+ADD:
+CV (PDF) with easily accessible download button
+fix capitalisation / fun dots
