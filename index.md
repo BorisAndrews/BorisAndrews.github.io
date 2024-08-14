@@ -25,6 +25,29 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 ## upcoming events
 
+{% include timeline.md %}
+
+<div class="timeline">
+  <div class="outer">
+    <div class="card">
+      <div class="info">
+        <h3 class="title">2024.oct.09</h3>
+        <p><ul>
+          <li>i'll be presenting the internal seminar at <em>rice unversity</em> on <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></li>
+        </ul></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info">
+        <h3 class="title">2025.mar</h3>
+        <p><ul>
+          <li>i'll be visiting <em>brown unversity</em> to present <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></li>
+        </ul></p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <br>
 
 ## [short cv]({{ "/cv/" | absolute_url }})
