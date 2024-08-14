@@ -33,7 +33,15 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
       <div class="info">
         <h3 class="title">2024.oct.09</h3>
         <p><ul>
-          <li>i'll be presenting the internal seminar at <em>rice unversity</em> on <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></li>
+          <li>i'll be presenting the internal seminar at <a href="https://mathweb.rice.edu/"><em>rice unversity</em></a> on <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></li>
+        </ul></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info">
+        <h3 class="title">2025.mar.3-7</h3>
+        <p><ul>
+          <li>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/cse25/">siam cse25</a> in fort worth, texas
         </ul></p>
       </div>
     </div>
@@ -42,6 +50,14 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
         <h3 class="title">2025.mar</h3>
         <p><ul>
           <li>i'll be visiting <em>brown unversity</em> to present <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></li>
+        </ul></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info">
+        <h3 class="title">2025.may.11-15</h3>
+        <p><ul>
+          <li>i'll be attending <a href="https://www.siam.org/conferences-events/siam-conferences/ds25/">siam ds25</a> in denver, colorado
         </ul></p>
       </div>
     </div>
