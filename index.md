@@ -31,6 +31,8 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 - **mar.2025** <code>&#124;</code> visiting [*brown university*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-schemes/index.md) with [patrick.e.farrell](https://pefarrell.org/)
 - **11–15.may.2025** <code>&#124;</code> attending [siam ds25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *denver, colorado*
 
+<br>
+
 <!-- ## [short cv]({{ "/cv/" | absolute_url }}) -->
 ## short cv
 
