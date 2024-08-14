@@ -43,7 +43,7 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
     </div>
     <div class="card">
       <div class="info">
-        <h3 class="title">2025.mar</h3>
+        <h3 class="title">2025.mar.??</h3>
         <p>i'll be visiting <em><a href="https://sites.brown.edu/scientific-computing/">brown unversity</a></em> to present <a href="publications/sp-schemes/index.md">my work on conservative integrators</a> with <a href="https://pefarrell.org/">patrick.e.farrell</a></p>
       </div>
     </div>
@@ -76,6 +76,19 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 <br>
 
 ## [recent collaborators]({{ "/collaborators/" | absolute_url }})
+
+{% include gallery.md %}
+
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="{{ '/assets/images/collaborators/patrick.jpg' | relative_url }}" alt="Image 1">
+        <div class="caption">Caption 1</div>
+    </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/images/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
+        <div class="caption">Caption 2</div>
+    </div>
+</div>
 
 [**patrick.e.farrell**](https://pefarrell.org/), <br>
 [*university of oxford*](https://www.maths.ox.ac.uk/)
