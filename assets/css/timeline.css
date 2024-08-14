@@ -13,10 +13,10 @@
 
 /* setting padding based on even or odd */
 .card:nth-child(odd) {
-  padding: 30px 0 30px 30px;
+  padding: 0 0 0 15px; /* Reduced padding */
 }
 .card:nth-child(even) {
-  padding: 30px 30px 30px 0;
+  padding: 0 15px 0 0; /* Reduced padding */
 }
 /* Global ::before */
 .card::before {
@@ -74,7 +74,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 35px 5px 35px 5px; /* Reduced padding */
 }
 
 /* Title of the card */
@@ -100,10 +100,10 @@
 
 /* setting dot to the left if the card is odd */
 .card:nth-child(odd) > .info > .title::before {
-  left: -45px;
+  left: -25px; /* Adjusted positioning */
 }
 
-/* setting dot to the right if the card is odd */
+/* setting dot to the right if the card is even */
 .card:nth-child(even) > .info > .title::before {
-  right: -45px;
+  right: -25px; /* Adjusted positioning */
 }
