@@ -13,7 +13,7 @@ permalink: /publications/sp-integrators/
 
 ## co-authors
 
-{% include collaborators/patrick.md %}
+### {% include collaborators/patrick.md %}
 
 ## talks
 
