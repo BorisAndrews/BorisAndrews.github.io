@@ -81,11 +81,11 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <div class="gallery">
     <div class="gallery-item">
-        <img src="{{ '/assets/images/collaborators/patrick.jpg' | relative_url }}" alt="Image 1">
-        <div class="caption">Caption 1</div>
+        <img src="{{ '/assets/img/collaborators/patrick.jpg' | relative_url }}" alt="Image 1">
+        <div class="caption">patrick.e.farrell</div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/images/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
+        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
         <div class="caption">Caption 2</div>
     </div>
 </div>

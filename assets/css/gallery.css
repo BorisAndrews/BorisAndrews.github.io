@@ -1,11 +1,7 @@
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust minmax value for desired minimum size */
+    grid-template-columns: repeat(auto-fit, minmax(167px, 1fr)); /* Adjust minmax value for desired minimum size */
     gap: 20px; /* Adjust gap between images */
-}
-
-.gallery-item {
-    text-align: center;
 }
 
 .gallery-item img {
@@ -16,6 +12,4 @@
 
 .caption {
     margin-top: 10px;
-    font-size: 14px;
-    color: #555; /* Adjust caption style */
 }
