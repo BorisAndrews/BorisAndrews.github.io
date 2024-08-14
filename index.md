@@ -81,21 +81,20 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 
 <div class="gallery">
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/patrick.jpg' | relative_url }}" alt="Image 1">
-        <div class="caption">patrick.e.farrell</div>
+        <img src="{{ '/assets/img/collaborators/patrick.jpg' | relative_url }}" alt="patrick.e.farrell">
+        <div class="caption"><a href="https://pefarrell.org/"><strong>patrick.e.farrell</strong></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>university of oxford</em></a>
+    </div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
+        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="p.alexei.gazca.o">
         <div class="caption">Caption 2</div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
-        <div class="caption">Caption 2</div>
-    </div>
-    <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Image 2">
+        <img src="{{ '/assets/img/collaborators/wayne.jpeg' | relative_url }}" alt="wayne.arter">
         <div class="caption">Caption 2</div>
     </div>
 </div>
+
+<br>
 
 [view all]({{ "/collaborators/" | absolute_url }})

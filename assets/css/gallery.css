@@ -1,7 +1,7 @@
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(167px, 1fr)); /* Adjust minmax value for desired minimum size */
-    gap: 20px; /* Adjust gap between images */
+    grid-template-columns: repeat(auto-fit, 167px);
+    gap: 20px;
 }
 
 .gallery-item img {
