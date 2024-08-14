@@ -82,16 +82,15 @@ hi ! i'm boris andrews, and i'm a phd (dphil) student in the [numerical analysis
 <div class="gallery">
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/patrick.jpg' | relative_url }}" alt="patrick.e.farrell">
-        <div class="caption"><a href="https://pefarrell.org/"><b>patrick.e.farrell</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>university of oxford</em></a>
-    </div>
+        <div class="caption"><a href="https://pefarrell.org/"><b>patrick.e.farrell</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>university of oxford</em></a></div>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="p.alexei.gazca.o">
-        <div class="caption"><a href="https://gazcaorozco.github.io/home/"><b>p.alexei.gazca.o</b></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>university of freiburg</em></a>
+        <div class="caption"><a href="https://gazcaorozco.github.io/home/"><b>p.alexei.gazca.o</b></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>university of freiburg</em></a></div>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/wayne.jpeg' | relative_url }}" alt="wayne.arter">
-        <div class="caption"><a href="https://www.linkedin.com/in/wayne-arter-86375211/"><b>wayne.arter</b></a>, <br> <a href="https://ccfe.ukaea.uk/"><em>culham centre for fusion energy (ccfe)</em></a>
+        <div class="caption"><a href="https://www.linkedin.com/in/wayne-arter-86375211/"><b>wayne.arter</b></a>, <br> <a href="https://ccfe.ukaea.uk/"><em>culham centre for fusion energy (ccfe)</em></a></div>
     </div>
 </div>
 
