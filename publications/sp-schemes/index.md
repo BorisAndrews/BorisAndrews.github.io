@@ -11,14 +11,14 @@ permalink: /publications/sp-integrators/
 
 > *[...] we propose an approach for the construction of **timestepping schemes** that **preserve dissipation laws** and **conserve multiple general invariants**, via finite elements in time and the systematic introduction of auxiliary variables. [...] We [devise] novel arbitrary-order schemes that conserve to machine precision **all known invariants of Hamiltonian ODEs** [...] and arbitrary-order schemes for the **compressible Navier–Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy**.*
 
-CONSERVATION OF ENERGY:
-even if a physical system satisfies it, not all solutions from simulations of that system will.
+Symplectic integrators are often praised for their "energy-conserving properties". There's an idea that they're the **gold standard** for simulating Hamiltonian systems because they conserve energy.
+This is* a misconception (*in general).
 
-❌ NOT ALL SIMULATIONS ARE CREATED EQUAL ❌
-
-{% raw %}
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Cfiug7aCBYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-{% endraw %}
+**Symplecticity** = A technical criteria improving the group behaviour of a collection of simulations. This is great…
+…but, it **doesn't guarantee energy conservation**.
+In fact, we must choose:
+> *Symplectic integrators can't conserve energy.*
+— 📄 Ge, Marsden (1988)
 
 ## co-authors
 
