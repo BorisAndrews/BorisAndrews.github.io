@@ -46,7 +46,7 @@ Again, this means more realistic simulations.
 
 If you're:
 - doing any kind of simulation in time, and\.\.\.
-- want realistic solutions, then\.\.\.
+- want realistic solutions, then\.\.\. <br>
 **you should probably be thinking about these issues**. <br>
 And if you're thinking about these issues, then I hope our work can help you out! 😊
 
