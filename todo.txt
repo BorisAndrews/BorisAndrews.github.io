@@ -10,4 +10,3 @@ add CV (PDF) with easily accessible download button
 fix capitalisation / fun dots
 change google scholar icon
 make timelines more compact
-sort boldface not going darker in HTML environment
