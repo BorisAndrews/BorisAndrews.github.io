@@ -23,7 +23,7 @@ In fact, we must choose: <br>
 We can see this clearly in the Benjamin–Bona–Mahony (BBM) equation, a model for (among other things) long water waves. <br>
 Solutions, \\(u\\), to these equations conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\). This makes them very stable and persistent over long times.
 
-So what happens with a symplectic integrator, like 2-stage Gauss? <br>
+So what happens with a symplectic integrator (e.g. 2-stage Gauss)? <br>
 The energy of the simulated solution creeps down and down. Here, this means after a while we just get a bunch of artificial oscillatory garbage.
 
 Patrick Farrell and I propose a framework to modify simulations to keep those conservation laws. <br>
