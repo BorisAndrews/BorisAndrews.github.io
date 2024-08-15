@@ -80,6 +80,7 @@
 /* Title of the card */
 .title {
   position: relative;
+  margin-bottom: -10px;
 }
 
 /* Timeline dot  */
