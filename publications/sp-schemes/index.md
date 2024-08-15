@@ -14,14 +14,20 @@ permalink: /publications/sp-integrators/
 Symplectic integrators are often praised for their "energy-conserving properties". There's an idea that they're the **gold standard** for simulating Hamiltonian systems because they conserve energy. <br>
 This is* a misconception (*in general).
 
-**Symplecticity** = A technical criteria improving the group behaviour of a collection of simulations. This is great… <br>
-…but, it **doesn't guarantee energy conservation**. <br>
+**Symplecticity** = A technical criteria improving the group behaviour of a collection of simulations. This is great\.\.\. <br>
+\.\.\.but, it **doesn't guarantee energy conservation**. <br>
 In fact, we must choose: <br>
 > *Symplectic integrators can't conserve energy.* <br>
 > — 📄 Ge, Marsden (1988)
 
 We see this in the Benjamin–Bona–Mahony (BBM) equation, a model for (among other things) long water waves. <br>
-Solutions, \\(u\\), to these equations conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\). This makes them very stable & persistent over long times, just like real water waves!
+Solutions, \\(u\\), to these equations conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\). This makes them very stable & persistent over long times, just like real water waves.
+
+So what happens with a symplectic integrator (e.g. 2-stage Gauss)? <br>
+The energy of the simulated solution creeps down and down. Here, this means after a while we just get a bunch of artificial oscillatory garbage.
+
+Patrick Farrell and I propose a framework to modify simulations to keep those precious conservation laws. <br>
+The idea's based on a combination of auxiliary variables and finite elements in time.
 
 ## co-authors
 
