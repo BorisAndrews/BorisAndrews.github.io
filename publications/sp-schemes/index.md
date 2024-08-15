@@ -36,9 +36,7 @@ So what happens with a **modified** symplectic integrator (e.g. **modified** 2-s
 The energy of our simulated solution stays level. Thus, no wiggly garbage: much more realistic. <br>
 (N.B. The video is meant to look stationary; that's how we know we've got the right behaviour. It is loading fine!)
 
-It's not just BBM though…
-…and it's not just conservation laws.
-
+It's not just BBM though, and it's not just conservation laws. <br>
 For example, in the paper we construct simulations for compressible fluids that:
 - Conserve mass/momentum/energy.
 - Increase total entropy.
