@@ -39,7 +39,7 @@ The energy of our simulated solution stays level. Thus, no wiggly garbage: much 
 It's not just BBM though, and it's not just conservation laws. <br>
 For example, in the paper we construct simulations for compressible fluids that:
 - Conserve mass/momentum/energy.
-- Increase total entropy.
+- Increase total entropy. <br>
 Again, this means more realistic simulations.
 
 If you're:
