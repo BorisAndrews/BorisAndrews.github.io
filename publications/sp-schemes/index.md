@@ -20,6 +20,10 @@ In fact, we must choose:
 > *Symplectic integrators can't conserve energy.*
 — 📄 Ge, Marsden (1988)
 
+We see this in the Benjamin–Bona–Mahony (BBM) equation, a model for (among other things) long water waves.
+Solutions, \\(u\\), to these equations conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\).
+This makes them very stable & persistent over long times, just like real water waves!
+
 ## co-authors
 
 ### {% include collaborators/patrick.md %}
