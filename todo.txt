@@ -5,7 +5,7 @@ CREATE:
 https://borisandrews.github.io/about-me/
 
 OTHER:
-add CV (PDF) with easily accessible download button
+add cv as pdf with easily accessible download button
 change google scholar icon
 make timelines more compact
 add links to talks/universities (do these as includes)
