@@ -32,13 +32,8 @@ permalink: /cv/
 
 ## Prizes, awards & scholarships
 
-### 2021–2025 (DPhil)
-- **EPSRC studentship** <code>&#124;</code> £~70,000
-- **UKAEA studentship** <code>&#124;</code> £~12,000
-
-### 2017–2021 (MMath)
-- **Worcester College Foundation scholarship** <code>&#124;</code> £~200
-- **Worcester College collection prizes** <code>&#124;</code> £~160
+- **2021–2025 (DPhil)** <code>&#124;</code> EPSRC studentship: *£~70,000*, UKAEA studentship: *£~12,000*
+- **2017–2021 (MMath)** <code>&#124;</code> Worcester College Foundation scholarship: *£~200*, Worcester College collection prizes: *£~160*
 
 ## Seminars, workshop & conference presentations
 

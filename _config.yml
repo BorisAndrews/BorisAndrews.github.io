@@ -24,8 +24,6 @@ show_downloads: false
 email: boris.andrews@maths.ox.ac.uk
 description: PhD (DPhil) student, University of Oxford
 theme: jekyll-theme-minimal
-gems:
-  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
