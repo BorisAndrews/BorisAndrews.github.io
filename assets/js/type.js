@@ -1,18 +1,18 @@
 // scripts/script.js
 document.addEventListener("DOMContentLoaded", function() {
-  const typingElement = document.getElementById('type');
-  const text = typingElement.innerText;
-  let index = 0;
+    const typingElement = document.querySelector('.typing-content');
+    const text = typingElement.innerHTML;
+    let index = 0;
 
-  typingElement.innerText = ''; // Clear the initial text
+    typingElement.innerHTML = ''; // Clear the initial text
 
-  function typeText() {
-      if (index < text.length) {
-          typingElement.innerText += text[index];
-          index++;
-          setTimeout(typeText, 100); // Adjust the speed here (in milliseconds)
-      }
-  }
+    function typeText() {
+        if (index < text.length) {
+            typingElement.innerHTML += text[index] === ' ' ? '&nbsp;' : text[index];
+            index++;
+            setTimeout(typeText, 100); // Adjust the speed here (in milliseconds)
+        }
+    }
 
-  typeText(); // Start the typing effect
+    typeText(); // Start the typing effect
 });
