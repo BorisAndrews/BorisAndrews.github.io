@@ -95,4 +95,4 @@ And if you're thinking about these issues, then I hope our work can help you out
 
 <!-- Javascript -->
 
-<!-- {% include type.md %} -->
+<script src="/assets/js/type.js"></script>
