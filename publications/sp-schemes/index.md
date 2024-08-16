@@ -3,7 +3,7 @@ title: SP integrators
 permalink: /publications/sp-integrators/
 ---
 
-<h1 id="type">High-order conservative and accurately dissipative numerical integrators via auxiliary variables</h1>
+# High-order conservative and accurately dissipative numerical integrators via auxiliary variables
 
 ### Boris Andrews, [Patrick Farrell](https://pefarrell.org/)
 
@@ -92,7 +92,3 @@ And if you're thinking about these issues, then I hope our work can help you out
     </div>
   </div>
 </div>
-
-<!-- Javascript -->
-
-<script src="/assets/js/type.js"></script>
