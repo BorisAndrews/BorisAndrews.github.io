@@ -47,7 +47,7 @@ permalink: /cv/
 - **2023** <code>&#124;</code> ICIAM 2023 *(Waseda University)*, Numerical analysis group internal seminar *(University of Oxford)*, Junior Applied Mathematics Seminar *(University of Oxford)*, Met Office presentation *(University of Oxford)*, Internal presentation *(Tokamak Energy)*
 - **2022** <code>&#124;</code> PRISM workshop *(Missenden Abbey, UK)*
 
-*(\*Scheduled)*
+*(\*scheduled)*
 
 ## Languages
 
