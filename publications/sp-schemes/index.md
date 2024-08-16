@@ -14,15 +14,16 @@ permalink: /publications/sp-integrators/
 While the results of this work are more general, I would like to provide some exposition for it through the lens of:
 - Hamiltonian systems,
 - Symplectic integrators, and
-- the Benjamin--Bona--Mahony (BBM) equation, <br>
-as I find these results be *informative, curious, motivating, and cool*!
+- the Benjamin--Bona--Mahony (BBM) equation,
+
+as I find these results be *informative, curious, motivating, and (not least) cool*!
 
 Symplectic integrators are frequently lauded for their *"energy-conserving properties"*.
 Their status as the gold standard for simulating Hamiltonian systems is often put down to this. <br>
 However, this belief is *not entirely accurate*.
 
-**Symplecticity** enhances the collective behaviour of a group of simulations, which is beneficial. Yet, it **does not ensure energy conservation**. <br>
-As noted by Ge and Marsden (1988): <br>
+**Symplecticity** enhances the collective behaviour of a group of simulations, which is beneficial! However, it **does not guarantee energy conservation**. <br>
+In fact, as noted by *Ge and Marsden (1988)*: <br>
 > *Symplectic integrators cannot\* conserve energy.* <br>
 > *(\*in general)*
 
@@ -34,7 +35,8 @@ This decline manifests as artificial, unphysical oscillations in the solution.
 
 In our preprint, Patrick Farrell and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
 - **Finite elements in time**
-- The systematic introduction of **auxiliary variables** <br>
+- The systematic introduction of **auxiliary variables**
+
 Unlike other approaches including projection methods, this approach preserves the symmetry of the initial timestepping scheme.
 
 Applying our method to Hamiltonian systems, including the BBM equation, we derive a numerical integrator with exact energy conservation.
@@ -47,7 +49,7 @@ We use for instance to develop numerical schemes for the *compressible Navier--S
 - **Conserve mass, momentum, and energy**.
 - **Increase total entropy**. <br>
 
-Further demonstrations of the framework can be found in the paper, and we're actively working on many more at the moment! <br>
+Further demonstrations of the framework can be found in the paper, and we are actively working on many more at the moment! <br>
 The framework is general and powerful. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating realistic simulations.
 
 We would both gladly discuss it further!
