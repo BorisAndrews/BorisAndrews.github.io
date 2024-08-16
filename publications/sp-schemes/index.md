@@ -5,7 +5,7 @@ permalink: /publications/sp-integrators/
 
 # High-order conservative and accurately dissipative numerical integrators via auxiliary variables
 
-### Boris D Andrews, [Patrick E Farrell](https://pefarrell.org/)
+### Boris Andrews, [Patrick Farrell](https://pefarrell.org/)
 
 ### 16.jul.2024 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904))
 

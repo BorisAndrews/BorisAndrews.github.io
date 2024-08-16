@@ -26,9 +26,9 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 ## Upcoming
 
-- **09.oct.2024** <code>&#124;</code> Presenting internal seminar at [*Rice University*](https://mathweb.rice.edu/) on [my work on conservative integrators](publications/sp-schemes/index.md) with [Patrick E Farrell](https://pefarrell.org/)
+- **09.oct.2024** <code>&#124;</code> Presenting internal seminar at [*Rice University*](https://mathweb.rice.edu/) on [my work on conservative integrators](publications/sp-schemes/index.md) with [Patrick Farrell](https://pefarrell.org/)
 - **3–7.mar.2025** <code>&#124;</code> Attending [SIAM CSE25](https://www.siam.org/conferences-events/siam-conferences/cse25/) in *Fort Worth, Texas*
-- **mar.2025** <code>&#124;</code> Visiting [*Brown University*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-schemes/index.md) with [Patrick E Farrell](https://pefarrell.org/)
+- **mar.2025** <code>&#124;</code> Visiting [*Brown University*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-schemes/index.md) with [Patrick Farrell](https://pefarrell.org/)
 - **11–15.may.2025** <code>&#124;</code> Attending [SIAM DS25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *Denver, Colorado*
 
 <br>
@@ -38,7 +38,7 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 - **2021–2025** <code>&#124;</code> PhD (DPhil) in mathematics (numerical analysis), [*University of Oxford*](https://www.maths.ox.ac.uk/)
     - **Thesis** <code>&#124;</code> High-order conservative and accurately dissipative numerical integrators via auxiliary variables
-    - **Supervisors** <code>&#124;</code> [Patrick E Farrell](https://pefarrell.org/), [Wayne Arter](https://www.linkedin.com/in/wayne-arter-86375211/)
+    - **Supervisors** <code>&#124;</code> [Patrick Farrell](https://pefarrell.org/), [Wayne Arter](https://www.linkedin.com/in/wayne-arter-86375211/)
 - **aug–oct.2022** <code>&#124;</code> Physics: theory and modelling internship, [*Tokamak Energy*](https://tokamakenergy.com/)
   
 - **2017–2021** <code>&#124;</code> Masters in mathematics (MMath), [*University of Oxford*](https://www.maths.ox.ac.uk/)
@@ -57,12 +57,12 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 <div class="gallery">
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/patrick.jpg' | relative_url }}" alt="Patrick E Farrell">
-        <div class="caption"><a href="https://pefarrell.org/"><b>Patrick E Farrell</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+        <img src="{{ '/assets/img/collaborators/patrick.jpg' | relative_url }}" alt="Patrick Farrell">
+        <div class="caption"><a href="https://pefarrell.org/"><b>Patrick Farrell</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="P Alexei Gazca O">
-        <div class="caption"><a href="https://gazcaorozco.github.io/home/"><b>P Alexei Gazca O</b></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>University of Freiburg</em></a></div>
+        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Alexei Gazca">
+        <div class="caption"><a href="https://gazcaorozco.github.io/home/"><b>Alexei Gazca</b></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>University of Freiburg</em></a></div>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/wayne.jpeg' | relative_url }}" alt="Wayne Arter">
