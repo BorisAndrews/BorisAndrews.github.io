@@ -1,5 +1,5 @@
 ---
-title: Collaborators
+title: COLLABORATORS
 permalink: /collaborators/
 ---
 

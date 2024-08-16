@@ -1,5 +1,5 @@
 ---
-title: SP integrators
+title: SP INTEGRATORS
 permalink: /publications/sp-integrators/
 ---
 
