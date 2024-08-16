@@ -3,6 +3,9 @@ title: SP integrators
 permalink: /publications/sp-integrators/
 ---
 
+{% include type.md %}
+<h1 id="type">Hello, Boris! Here's your letter-by-letter text.</h1>
+
 # High-order conservative and accurately dissipative numerical integrators via auxiliary variables
 
 ### Boris Andrews, [Patrick Farrell](https://pefarrell.org/)
