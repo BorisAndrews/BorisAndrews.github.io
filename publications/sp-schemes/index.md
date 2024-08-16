@@ -23,9 +23,11 @@ Their status as the gold standard for simulating Hamiltonian systems is often pu
 Yet, this belief is *not entirely accurate*.
 
 **Symplecticity** enhances the collective behaviour of a group of simulations, which is beneficial! However, it **does not guarantee energy conservation**. <br>
-In fact, as noted by *Ge and Marsden (1988)*: <br>
+In fact, as noted by [*Ge and Marsden (1988)*](https://doi.org/10.1016/0375-9601(88)90773-6): <br>
 > *Symplectic integrators cannot\* conserve energy.* <br>
 > *(\*in general)*
+
+![ge_marsden_quote](assets/img/ge_marsden.png)
 
 This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a model for phenomena including long water waves. <br>
 **Solutions to the BBM equation conserve energy**, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
@@ -37,19 +39,19 @@ In our preprint, Patrick Farrell and I propose a framework to modify numerical t
 - **Finite elements in time**
 - The systematic introduction of **auxiliary variables**
 
-Unlike other approaches (e.g. projection methods) this approach preserves the symmetry of the initial timestepping scheme, crucial for realistic simulations.
+Unlike other approaches (e.g. projection methods) this approach *preserves the symmetry* of the initial timestepping scheme, crucial for realistic simulations.
 
-Applying our framework to Hamiltonian systems, including the BBM equation, we derive a numerical integrator with exact energy conservation.
+Applying our framework to Hamiltonian systems (incl. the BBM equation) we derive a general Hamiltonian integrator with exact energy conservation.
 Simulating the BBM equations using the ***modified* 2-stage Gauss method**, we observe **exact energy conservation** in the simulation.
-This *avoids the artificial oscillations* and provides much more qualitatively accurate results. <br>
+This *avoids the artificial oscillations* and provides far more qualitatively accurate results. <br>
 (Note: The video *should* appear stationary. It's loading fine; this is the correct solution behaviour!)
 
 Crucially however, our framework extends *beyond Hamiltonian systems*, and beyond conservation laws.
 For instance, we use it to develop numerical schemes for the *compressible Navier--Stokes equations* that:
-- **Conserve mass, momentum, and energy**.
-- **Increase total entropy**.
+- **Conserve mass, momentum, and energy**
+- **Increase total entropy**
 
-Further applications of the framework can be found in the paper, and we are actively working on many more at the moment! <br>
+Further applications of the framework can be found in the paper, and we are actively pursuing many more at the moment! <br>
 The framework is *general and powerful*. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating more physically realistic simulations.
 
 *We would both gladly discuss it further!*
