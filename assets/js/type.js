@@ -1,6 +1,6 @@
 // scripts/script.js
 document.addEventListener("DOMContentLoaded", function() {
-    const typingElement = document.querySelector('.typing-content');
+    const typingElement = document.getElementById('type');
     const text = typingElement.innerHTML;
     let index = 0;
 
