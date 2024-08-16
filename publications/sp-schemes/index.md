@@ -31,7 +31,7 @@ This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a m
 Solutions to the BBM equation conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
 
 Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
-This decline manifests as artificial, unphysical oscillations in the solution.
+This decline manifests as *artificial, unphysical oscillations in the solution*.
 
 In our preprint, Patrick Farrell and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
 - **Finite elements in time**
@@ -41,18 +41,18 @@ Unlike other approaches including projection methods, this approach preserves th
 
 Applying our method to Hamiltonian systems, including the BBM equation, we derive a numerical integrator with exact energy conservation.
 Simulating the BBM equations using the ***modified* 2-stage Gauss method**, we observe **exact energy conservation** in the simulation.
-This avoids the artificial oscillations and provides more qualitatively accurate results. <br>
-(Note: The video is *intended* to appear stationary. This is the correct solution behaviour.)
+This *avoids the artificial oscillations* and provides much more qualitatively accurate results. <br>
+(Note: The video *should* appear stationary. It's loading fine; this is the correct solution behaviour!)
 
 Our framework however extends beyond Hamiltonian systems, and beyond conservation laws.
-We use for instance to develop numerical schemes for the *compressible Navier--Stokes equations* that:
+For instance, we use it to develop numerical schemes for the *compressible Navier--Stokes equations* that:
 - **Conserve mass, momentum, and energy**.
-- **Increase total entropy**. <br>
+- **Increase total entropy**.
 
-Further demonstrations of the framework can be found in the paper, and we are actively working on many more at the moment! <br>
-The framework is general and powerful. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating realistic simulations.
+Further applications of the framework can be found in the paper, and we are actively working on many more at the moment! <br>
+The framework is *general and powerful*. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating more physically realistic simulations.
 
-We would both gladly discuss it further!
+*We would both gladly discuss it further!*
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
 
