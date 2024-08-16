@@ -11,16 +11,16 @@ permalink: /publications/sp-integrators/
 
 > *[...] we propose an approach for the construction of **timestepping schemes** that **preserve dissipation laws** and **conserve multiple general invariants**, via finite elements in time and the systematic introduction of auxiliary variables. [...] We [devise] novel arbitrary-order schemes that conserve to machine precision **all known invariants of Hamiltonian ODEs** [...] and arbitrary-order schemes for the **compressible Navier–Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy**.*
 
-While the results of this work are more general, I would like to provide some exposition for it through the lens of:
+While the results of this work are more general, I would like to provide some exposition for it through the lens of
 - Hamiltonian systems,
-- Symplectic integrators, and
+- symplectic integrators, and
 - the Benjamin--Bona--Mahony (BBM) equation,
 
 as I find these results be *informative, curious, motivating, and (not least) cool*!
 
 Symplectic integrators are frequently lauded for their *"energy-conserving properties"*.
 Their status as the gold standard for simulating Hamiltonian systems is often put down to this. <br>
-However, this belief is *not entirely accurate*.
+Yet, this belief is *not entirely accurate*.
 
 **Symplecticity** enhances the collective behaviour of a group of simulations, which is beneficial! However, it **does not guarantee energy conservation**. <br>
 In fact, as noted by *Ge and Marsden (1988)*: <br>
@@ -28,7 +28,7 @@ In fact, as noted by *Ge and Marsden (1988)*: <br>
 > *(\*in general)*
 
 This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a model for phenomena including long water waves. <br>
-Solutions to the BBM equation conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
+**Solutions to the BBM equation conserve energy**, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
 
 Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
 This decline manifests as *artificial, unphysical oscillations in the solution*.
@@ -37,14 +37,14 @@ In our preprint, Patrick Farrell and I propose a framework to modify numerical t
 - **Finite elements in time**
 - The systematic introduction of **auxiliary variables**
 
-Unlike other approaches including projection methods, this approach preserves the symmetry of the initial timestepping scheme.
+Unlike other approaches (e.g. projection methods) this approach preserves the symmetry of the initial timestepping scheme, crucial for realistic simulations.
 
-Applying our method to Hamiltonian systems, including the BBM equation, we derive a numerical integrator with exact energy conservation.
+Applying our framework to Hamiltonian systems, including the BBM equation, we derive a numerical integrator with exact energy conservation.
 Simulating the BBM equations using the ***modified* 2-stage Gauss method**, we observe **exact energy conservation** in the simulation.
 This *avoids the artificial oscillations* and provides much more qualitatively accurate results. <br>
 (Note: The video *should* appear stationary. It's loading fine; this is the correct solution behaviour!)
 
-Our framework however extends beyond Hamiltonian systems, and beyond conservation laws.
+Crucially however, our framework extends *beyond Hamiltonian systems*, and beyond conservation laws.
 For instance, we use it to develop numerical schemes for the *compressible Navier--Stokes equations* that:
 - **Conserve mass, momentum, and energy**.
 - **Increase total entropy**.
