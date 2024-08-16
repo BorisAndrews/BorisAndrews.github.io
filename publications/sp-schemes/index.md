@@ -3,8 +3,8 @@ title: SP integrators
 permalink: /publications/sp-integrators/
 ---
 
-<h1 id="type">Hello, Boris! Here's your letter-by-letter text.</h1>
-{% include type.md %}
+<h1 id="type">Attempt 1.</h1>
+<script src="assets/js/type.js"></script>
 
 # High-order conservative and accurately dissipative numerical integrators via auxiliary variables
 
