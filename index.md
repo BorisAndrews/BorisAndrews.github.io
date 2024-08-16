@@ -12,12 +12,24 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 <br>
 
-<!-- ## [highlighted publications & preprints]({{ "/publications/" | absolute_url }}) -->
+<!-- ## [Publications & preprints]({{ "/publications/" | absolute_url }}) -->
 ## Publications & preprints
 
 {% include publications.md %}
 
 <!-- [View all]({{ "/publications/" | absolute_url }}) -->
+
+<br>
+
+## [Short CV]({{ "/cv/" | absolute_url }})
+
+{% include education/phd.md %}
+{% include experience/tokamak_energy.md %}
+
+{% include education/mmath.md %}
+{% include experience/perm.md %}
+
+[View all]({{ "/cv/" | absolute_url }})
 
 <br>
 
@@ -31,18 +43,6 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 - **3–7.Mar** <code>&#124;</code> Attending [SIAM CSE25](https://www.siam.org/conferences-events/siam-conferences/cse25/) in *Fort Worth, Texas*, where [Patrick Farrell](https://pefarrell.org/) will be presenting [our work on conservative integrators](publications/sp-integrators/index.md)
 - **Mar** <code>&#124;</code> Visiting [*Brown University*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 - **11–15.May** <code>&#124;</code> Attending [SIAM DS25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *Denver, Colorado*, where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
-
-<br>
-
-## [Short CV]({{ "/cv/" | absolute_url }})
-
-{% include education/phd.md %}
-{% include experience/tokamak_energy.md %}
-
-{% include education/mmath.md %}
-{% include experience/perm.md %}
-
-[View all]({{ "/cv/" | absolute_url }})
 
 <br>
 

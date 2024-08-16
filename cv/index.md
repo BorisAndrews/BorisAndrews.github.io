@@ -27,20 +27,20 @@ permalink: /cv/
 
 ### [University of Oxford](https://www.maths.ox.ac.uk/)
 - **2024–2025** <code>&#124;</code> Tutor: *Computational Mathematics*
-- **2023–2024** <code>&#124;</code> Tutor: *Prelims corner*, Teaching assistant (Marker): *Numerical Linear Algebra*
+- **2023–2024** <code>&#124;</code> Tutor: *Prelims corner*, Teaching assistant: *Numerical Linear Algebra*
 - **2021–2022** <code>&#124;</code> Tutor: *Analysis I*, Teaching assistant: *Random Matrix Theory*
 
 ## Prizes, awards & scholarships
 
-### 2021–2025 (DPhil):
+### 2021–2025 (DPhil)
 - **EPSRC studentship** <code>&#124;</code> £~70,000
 - **UKAEA studentship** <code>&#124;</code> £~12,000
 
-### 2017–2021 (MMath):
+### 2017–2021 (MMath)
 - **Worcester College Foundation scholarship** <code>&#124;</code> £~200
 - **Worcester College collection prizes** <code>&#124;</code> £~160
 
-## Seminar, workshop & conference presentations
+## Seminars, workshop & conference presentations
 
 - **2025** <code>&#124;</code> SIAM DS25\* *(Denver, Colorado)*, Invited talk\* *(Brown University)*
 - **2024** <code>&#124;</code> Internal seminar\* *(Rice University)*, PDEsoft *(University of Cambridge)*, Finite Element Fair *(University College London)*, Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop *(University of Pisa)*, UKAEA PhD student engagement day *(CCFE)*, Junior Applied Mathematical Seminar *(University of Warwick)*
