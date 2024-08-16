@@ -22,7 +22,7 @@ As noted by Ge and Marsden (1988): <br>
 *(\*in general)*
 
 This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a model for phenomena including long water waves. <br>
-Solutions to the BBM equation conserve energy, \(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\), contributing to their stability and persistence over time.
+Solutions to the BBM equation conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
 
 Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
 This decline manifests as artificial, unphysical oscillations in the solution.
@@ -63,6 +63,7 @@ We would both gladly discuss it further!
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
+          <li><strong>SIAM DS25, <em>Denver, Colorado</em></strong></li>
           <li><strong>Invited talk, <em>Brown Unversity</em></strong></li>
         </ul></p>
       </div>
