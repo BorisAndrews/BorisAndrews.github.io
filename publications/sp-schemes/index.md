@@ -11,42 +11,43 @@ permalink: /publications/sp-integrators/
 
 > *[...] we propose an approach for the construction of **timestepping schemes** that **preserve dissipation laws** and **conserve multiple general invariants**, via finite elements in time and the systematic introduction of auxiliary variables. [...] We [devise] novel arbitrary-order schemes that conserve to machine precision **all known invariants of Hamiltonian ODEs** [...] and arbitrary-order schemes for the **compressible Navier–Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy**.*
 
-<!-- Symplectic integrators are often praised for their *"energy-conserving properties"*. There is an idea that they are the **gold standard** for simulating Hamiltonian systems because they conserve energy. <br>
-This is\* a misconception. *(\*in general)*
+Let me provide some exposition for the results of our research, through the lens of Hamiltonian systems, symplectic integrators, and the Benjamin--Bona--Mahony (BBM) equation.
 
-**Symplecticity** improves the group behaviour of a collection of simulations. This is great\.\.\. <br>
-\.\.\.but, it **doesn't guarantee energy conservation**. <br>
-In fact, we must choose: <br>
-> *Symplectic integrators can't conserve energy.* <br>
-> — 📄 Ge, Marsden (1988)
+Symplectic integrators are frequently lauded for their *"energy-conserving properties"*, often considered the gold standard for simulating Hamiltonian systems due to this property. <br>
+However, this belief is *not entirely accurate*.
 
-We can see this clearly in the Benjamin–Bona–Mahony (BBM) equation, a model for (among other things) long water waves. <br>
-Solutions, \\(u\\), to these equations conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\). This makes them very stable and persistent over long times.
+**Symplecticity** enhances the collective behaviour of a group of simulations, which is beneficial. Yet, it **does not ensure energy conservation**. <br>
+As noted by Ge and Marsden (1988): <br>
+> Symplectic integrators cannot\* conserve energy. <br>
+*(\*in general)*
 
-So what happens with a symplectic integrator (e.g. 2-stage Gauss)? <br>
-The energy of the simulated solution creeps down and down. Here, this means after a while we just get a bunch of artificial oscillatory garbage.
+This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a model for phenomena including long water waves. <br>
+Solutions to the BBM equation conserve energy, \(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\), contributing to their stability and persistence over time.
 
-Patrick Farrell and I propose a framework to modify simulations to keep those conservation laws. <br>
-The idea is based on a combination of auxiliary variables and finite elements in time.
+Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
+This decline manifests as artificial, unphysical oscillations in the solution.
 
-As an example, we apply it to Hamiltonian systems. This gives us a way to modify a simulation of a Hamiltonian system so it conserves energy. <br>
-As an example of a Hamiltonian system, we consider BBM.
+In our preprint, Patrick Farrell and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
+- **Finite elements in time**
+- The systematic introduction of **auxiliary variables** <br>
+Unlike other approaches including projection methods, this approach preserves the symmetry of the initial timestepping scheme.
 
-So what happens with a **modified** symplectic integrator (e.g. **modified** 2-stage Gauss)? <br>
-The energy of our simulated solution stays level. Thus, no wiggly garbage: much more realistic. <br>
-(N.B. The video is meant to look stationary; that's how we know we've got the right behaviour. It is loading fine!)
+Applying our method to Hamiltonian systems, including the BBM equation, we derive a numerical integrator with exact energy conservation.
+Simulating the BBM equations using the ***modified* 2-stage Gauss method**, we observe **exact energy conservation** in the simulation.
+This avoids the artificial oscillations and provides more qualitatively accurate results. <br>
+(Note: The video is *intended* to appear stationary. This is the correct solution behaviour.)
 
-It's not just BBM though, and it's not just conservation laws. <br>
-For example, in the paper we construct simulations for compressible fluids that:
-- Conserve mass/momentum/energy.
-- Increase total entropy. <br>
-Again, this means more realistic simulations.
+Our framework however extends beyond Hamiltonian systems, and beyond conservation laws.
+We use for instance to develop numerical schemes for the *compressible Navier--Stokes equations* that:
+- **Conserve mass, momentum, and energy**.
+- **Increase total entropy**. <br>
 
-If you're:
-- doing any kind of simulation in time, and\.\.\.
-- want realistic solutions, then\.\.\. <br>
-**you should probably be thinking about these issues**. <br>
-And if you're thinking about these issues, then I hope our work can help you out! 😊 -->
+Further demonstrations of the framework can be found in the paper, and we're actively working on many more at the moment! <br>
+The framework is general and powerful. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating realistic simulations.
+
+We would both gladly discuss it further!
+- <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
+- <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
 
 ## Co-authors
 
