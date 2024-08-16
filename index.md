@@ -33,7 +33,7 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 <br>
 
-## Announcements
+## Announcements & upcoming
 
 ### 2024
 - **Sept–Oct** <code>&#124;</code> Supervising undegraduate summer project
