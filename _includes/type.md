@@ -1,1 +1,1 @@
-<script src="assets/js/type.js"></script>
+<script src="/assets/js/type.js"></script>

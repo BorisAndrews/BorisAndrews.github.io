@@ -3,10 +3,7 @@ title: SP integrators
 permalink: /publications/sp-integrators/
 ---
 
-<h1 id="type">Attempt 1.</h1>
-<script src="/assets/js/type.js"></script> <!-- Move this to end -->
-
-# High-order conservative and accurately dissipative numerical integrators via auxiliary variables
+<h1 id="type">High-order conservative and accurately dissipative numerical integrators via auxiliary variables</h1>
 
 ### Boris Andrews, [Patrick Farrell](https://pefarrell.org/)
 
@@ -95,3 +92,7 @@ And if you're thinking about these issues, then I hope our work can help you out
     </div>
   </div>
 </div>
+
+<!-- Javascript -->
+
+<!-- {% include type.md %} -->

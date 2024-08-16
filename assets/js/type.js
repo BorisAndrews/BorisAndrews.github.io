@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (index < text.length) {
             typingElement.innerHTML += text[index] === ' ' ? '&nbsp;' : text[index];
             index++;
-            setTimeout(typeText, 100); // Adjust the speed here (in milliseconds)
+            setTimeout(typeText, 20); // Adjust the speed here (in milliseconds)
         }
     }
 
