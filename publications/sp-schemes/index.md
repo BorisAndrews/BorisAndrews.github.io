@@ -37,6 +37,8 @@ This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a m
 Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
 This decline manifests as *artificial, unphysical oscillations in the solution*.
 
+![2-stage_gauss](assets/vid/no_av.mp4)
+
 In our preprint, Patrick Farrell and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
 - **Finite elements in time**
 - The systematic introduction of **auxiliary variables**
@@ -47,6 +49,8 @@ Applying our framework to Hamiltonian systems (incl. the BBM equation) we derive
 Simulating the BBM equations using the ***modified* 2-stage Gauss method**, we observe **exact energy conservation** in the simulation.
 This *avoids the artificial oscillations* and provides far more qualitatively accurate results. <br>
 (Note: The video *should* appear stationary. It's loading fine; this is the correct solution behaviour!)
+
+![modified_2-stage_gauss](assets/vid/av.mp4)
 
 Crucially however, our framework extends *beyond Hamiltonian systems*, and beyond conservation laws.
 For instance, we use it to develop numerical schemes for the *compressible Navier--Stokes equations* that:
