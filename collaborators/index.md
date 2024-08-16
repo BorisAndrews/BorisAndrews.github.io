@@ -1,9 +1,9 @@
 ---
-title: collaborators
+title: Collaborators
 permalink: /collaborators/
 ---
 
-# collaborators
+# Collaborators
 
 ## {% include collaborators/patrick.md %}
 

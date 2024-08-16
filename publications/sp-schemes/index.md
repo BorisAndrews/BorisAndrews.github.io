@@ -1,11 +1,11 @@
 ---
-title: sp.integrators
+title: SP integrators
 permalink: /publications/sp-integrators/
 ---
 
-# high-order conservative and accurately dissipative numerical integrators via auxiliary variables
+# High-order conservative and accurately dissipative numerical integrators via auxiliary variables
 
-### boris.d.andrews, [patrick.e.farrell](https://pefarrell.org/)
+### Boris D Andrews, [Patrick E Farrell](https://pefarrell.org/)
 
 ### 16.jul.2024 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904))
 
@@ -62,7 +62,7 @@ And if you're thinking about these issues, then I hope our work can help you out
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><strong>invited talk, <em>brown unversity</em></strong></li>
+          <li><strong>Invited talk, <em>Brown Unversity</em></strong></li>
         </ul></p>
       </div>
     </div>
@@ -70,12 +70,12 @@ And if you're thinking about these issues, then I hope our work can help you out
       <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
-          <li><strong>internal seminar, <em>rice university</em></strong></li>
-          <li>pdesoft, <em>university of cambridge</em></li>
-          <li>finite element fair, <em>university college london</em></li>
-          <li><strong>exploiting algebraic and geometric structure in time-integration methods workshop, <em>university of pisa</em></strong></li>
-          <li>ukaea phd student engagement day, <em>ccfe</em></li>
-          <li>junior applied mathematics seminar, <em>university of warwick</em></li>
+          <li><strong>Internal seminar, <em>Rice University</em></strong></li>
+          <li>PDEsoft, <em>University of Cambridge</em></li>
+          <li>Finite Element Fair, <em>University College London (UCL)</em></li>
+          <li><strong>Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop, <em>University of Pisa</em></strong></li>
+          <li>UKAEA PhD student engagement day, <em>CCFE</em></li>
+          <li>Junior Applied Mathematics Seminar, <em>University of Warwick</em></li>
         </ul></p>
       </div>
     </div>
@@ -83,10 +83,10 @@ And if you're thinking about these issues, then I hope our work can help you out
       <div class="info">
         <h3 class="title">2023</h3>
         <p><ul>
-          <li><strong>ICIAM 2023, <em>waseda university</em></strong></li>
-          <li>numerical analysis group internal seminar, <em>university of oxford</em></li>
-          <li>junior applied mathematics seminar, <em>university of oxford</em></li>
-          <li>met office presentation, <em>university of oxford</em></li>
+          <li><strong>ICIAM 2023, <em>Waseda University</em></strong></li>
+          <li>Numerical analysis group internal seminar, <em>University of Oxford</em></li>
+          <li>Junior Applied Mathematics Seminar, <em>University of Oxford</em></li>
+          <li>Met Office presentation, <em>University of Oxford</em></li>
         </ul></p>
       </div>
     </div>
