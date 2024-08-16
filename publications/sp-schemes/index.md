@@ -11,15 +11,20 @@ permalink: /publications/sp-integrators/
 
 > *[...] we propose an approach for the construction of **timestepping schemes** that **preserve dissipation laws** and **conserve multiple general invariants**, via finite elements in time and the systematic introduction of auxiliary variables. [...] We [devise] novel arbitrary-order schemes that conserve to machine precision **all known invariants of Hamiltonian ODEs** [...] and arbitrary-order schemes for the **compressible Navier–Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy**.*
 
-Let me provide some exposition for the results of our research, through the lens of Hamiltonian systems, symplectic integrators, and the Benjamin--Bona--Mahony (BBM) equation.
+While the results of this work are more general, I would like to provide some exposition for it through the lens of:
+- Hamiltonian systems,
+- Symplectic integrators, and
+- the Benjamin--Bona--Mahony (BBM) equation, <br>
+as I find these results be *informative, curious, motivating, and cool*!
 
-Symplectic integrators are frequently lauded for their *"energy-conserving properties"*, often considered the gold standard for simulating Hamiltonian systems due to this property. <br>
+Symplectic integrators are frequently lauded for their *"energy-conserving properties"*.
+Their status as the gold standard for simulating Hamiltonian systems is often put down to this. <br>
 However, this belief is *not entirely accurate*.
 
 **Symplecticity** enhances the collective behaviour of a group of simulations, which is beneficial. Yet, it **does not ensure energy conservation**. <br>
 As noted by Ge and Marsden (1988): <br>
-> Symplectic integrators cannot\* conserve energy. <br>
-*(\*in general)*
+> *Symplectic integrators cannot\* conserve energy.* <br>
+> *(\*in general)*
 
 This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a model for phenomena including long water waves. <br>
 Solutions to the BBM equation conserve energy, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
