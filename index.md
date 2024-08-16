@@ -26,10 +26,10 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 ## Upcoming
 
-- **09.Oct.2024** <code>&#124;</code> Presenting internal seminar at [*Rice University*](https://mathweb.rice.edu/) on [my work on conservative integrators](publications/sp-schemes/index.md) with [Patrick Farrell](https://pefarrell.org/)
-- **3–7.Mar.2025** <code>&#124;</code> Attending [SIAM CSE25](https://www.siam.org/conferences-events/siam-conferences/cse25/) in *Fort Worth, Texas*, where [Patrick Farrell](https://pefarrell.org/) will be presenting [our work on conservative integrators](publications/sp-schemes/index.md)
-- **Mar.2025** <code>&#124;</code> Visiting [*Brown University*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-schemes/index.md) with [Patrick Farrell](https://pefarrell.org/)
-- **11–15.May.2025** <code>&#124;</code> Attending [SIAM DS25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *Denver, Colorado*, where I will be presenting [my work on conservative integrators](publications/sp-schemes/index.md) with [Patrick Farrell](https://pefarrell.org/)
+- **09.Oct.2024** <code>&#124;</code> Presenting internal seminar at [*Rice University*](https://mathweb.rice.edu/) on [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
+- **3–7.Mar.2025** <code>&#124;</code> Attending [SIAM CSE25](https://www.siam.org/conferences-events/siam-conferences/cse25/) in *Fort Worth, Texas*, where [Patrick Farrell](https://pefarrell.org/) will be presenting [our work on conservative integrators](publications/sp-integrators/index.md)
+- **Mar.2025** <code>&#124;</code> Visiting [*Brown University*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
+- **11–15.May.2025** <code>&#124;</code> Attending [SIAM DS25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *Denver, Colorado*, where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 
 <br>
 
