@@ -3,6 +3,6 @@ title: Publications
 permalink: /publications/
 ---
 
-# Publications & preprints
+# PUBLICATIONS & PREPRINTS
 
 {% include publications.md %}

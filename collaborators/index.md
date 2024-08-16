@@ -3,7 +3,7 @@ title: Collaborators
 permalink: /collaborators/
 ---
 
-# Collaborators
+# COLLABORATORS
 
 ## {% include collaborators/patrick.md %}
 
