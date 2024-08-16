@@ -4,7 +4,7 @@ permalink: /publications/sp-integrators/
 ---
 
 <h1 id="type">Attempt 1.</h1>
-<script src="assets/js/type.js"></script>
+<script src="/assets/js/type.js"></script> <!-- Move this to end -->
 
 # High-order conservative and accurately dissipative numerical integrators via auxiliary variables
 
