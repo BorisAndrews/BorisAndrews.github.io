@@ -1,0 +1,4 @@
+- Structure-preserving numerical methods for PDEs/ODEs
+- Finite element theory (incl. MGRiT/FEEC)
+- Hybrid fluid-particle models
+- Turbulent systems (incl. stabilisation/preconditioning)

@@ -8,10 +8,7 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 ## Interests
 
-- Structure-preserving numerical methods for PDEs/ODEs
-- Finite element theory (incl. MGRiT/FEEC)
-- Hybrid fluid-particle models
-- Turbulent systems (incl. stabilisation/preconditioning)
+{% include interests.md %}
 
 <br>
 
@@ -37,21 +34,15 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 <br>
 
-<!-- ## [short cv]({{ "/cv/" | absolute_url }}) -->
-## Short CV
+## [Short CV]({{ "/cv/" | absolute_url }})
 
-- **2021–2025** <code>&#124;</code> PhD (DPhil) in mathematics (numerical analysis), [*University of Oxford*](https://www.maths.ox.ac.uk/)
-    - **Thesis** <code>&#124;</code> High-order conservative and accurately dissipative numerical integrators via auxiliary variables
-    - **Supervisors** <code>&#124;</code> [Patrick Farrell](https://pefarrell.org/), [Wayne Arter](https://www.linkedin.com/in/wayne-arter-86375211/)
-- **Aug–Oct.2022** <code>&#124;</code> Physics: theory and modelling internship, [*Tokamak Energy*](https://tokamakenergy.com/)
-  
-- **2017–2021** <code>&#124;</code> Masters in mathematics (MMath), [*University of Oxford*](https://www.maths.ox.ac.uk/)
-    - **Grade** <code>&#124;</code> First (distinction)
-    - **Thesis** <code>&#124;</code> Computation and approximation properties of near orthogonal matrices for tall random matrices
-    - **Supervisor** <code>&#124;</code> [Yuji Nakatsukasa](https://people.maths.ox.ac.uk/nakatsukasa/)
-- **Jul–Aug.2019** <code>&#124;</code> Computational fluid dynamics internship, [*Perm State University*](http://en.psu.ru/)
+{% include education/phd.md %}
+{% include experience/tokamak_energy.md %}
 
-<!-- [View all]({{ "/cv/" | absolute_url }}) -->
+{% include education/mmath.md %}
+{% include experience/perm.md %}
+
+[View all]({{ "/cv/" | absolute_url }})
 
 <br>
 

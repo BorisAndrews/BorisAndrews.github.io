@@ -8,4 +8,4 @@ OTHER:
 add CV (PDF) with easily accessible download button
 change google scholar icon
 make timelines more compact
-add links to talks
+add links to talks/universities (do these as includes)

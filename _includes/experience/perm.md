@@ -1,0 +1,1 @@
+- **Jul–Aug.2019** <code>&#124;</code> Computational fluid dynamics internship, [*Perm State University*](http://en.psu.ru/)
