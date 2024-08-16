@@ -40,7 +40,7 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
 <video controls style="width: 100%; height: auto;">
   <source src="assets/vid/no_av.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video><br>
 
 In our preprint, Patrick Farrell and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
 - **Finite elements in time**
@@ -56,7 +56,7 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
 <video controls style="width: 100%; height: auto;">
   <source src="assets/vid/av.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video><br>
 
 Crucially however, our framework extends *beyond Hamiltonian systems*, and beyond conservation laws.
 For instance, we use it to develop numerical schemes for the *compressible Navier--Stokes equations* that:
@@ -66,7 +66,7 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
 <video controls style="width: 100%; height: auto;">
   <source src="assets/vid/compressible_ns.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video><br>
 
 Further applications of the framework can be found in the paper, and we are actively pursuing many more at the moment! <br>
 The framework is *general and powerful*. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating more physically realistic simulations.
