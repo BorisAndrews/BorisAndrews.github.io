@@ -37,7 +37,7 @@ This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a m
 Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
 This decline manifests as *artificial, unphysical oscillations in the solution*.
 
-<video controls>
+<video controls style="width: 100%; height: auto;">
   <source src="assets/vid/no_av.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -53,7 +53,7 @@ Simulating the BBM equations using the ***modified* 2-stage Gauss method**, we o
 This *avoids the artificial oscillations* and provides far more qualitatively accurate results. <br>
 (Note: The video *should* appear stationary. It's loading fine; this is the correct solution behaviour!)
 
-<video controls>
+<video controls style="width: 100%; height: auto;">
   <source src="assets/vid/av.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -63,7 +63,7 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
 - **Conserve mass, momentum, and energy**
 - **Increase total entropy**
 
-<video controls>
+<video controls style="width: 100%; height: auto;">
   <source src="assets/vid/compressible_ns.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
