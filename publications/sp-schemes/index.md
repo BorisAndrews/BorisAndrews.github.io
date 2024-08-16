@@ -48,11 +48,11 @@ If you're:
 **you should probably be thinking about these issues**. <br>
 And if you're thinking about these issues, then I hope our work can help you out! 😊 -->
 
-## co-authors
+## Co-authors
 
 ### {% include collaborators/patrick.md %}
 
-## talks
+## Talks
 
 {% include timeline.md %}
 
