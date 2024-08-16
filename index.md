@@ -20,7 +20,7 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 {% include publications.md %}
 
-<!-- [view all]({{ "/publications/" | absolute_url }}) -->
+<!-- [View all]({{ "/publications/" | absolute_url }}) -->
 
 <br>
 
@@ -47,7 +47,7 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
     - **Supervisor** <code>&#124;</code> [Yuji Nakatsukasa](https://people.maths.ox.ac.uk/nakatsukasa/)
 - **jul–aug.2019** <code>&#124;</code> Computational fluid dynamics internship, [*Perm State University*](http://en.psu.ru/)
 
-<!-- [view all]({{ "/cv/" | absolute_url }}) -->
+<!-- [View all]({{ "/cv/" | absolute_url }}) -->
 
 <br>
 
@@ -72,4 +72,4 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 <br>
 
-[view all]({{ "/collaborators/" | absolute_url }})
+[View all]({{ "/collaborators/" | absolute_url }})
