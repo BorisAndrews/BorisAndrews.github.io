@@ -3,6 +3,8 @@ title: SP integrators
 permalink: /publications/sp-integrators/
 ---
 
+# TESTING AN ALL CAPS TITLE
+
 # High-order conservative and accurately dissipative numerical integrators via auxiliary variables
 
 ### Boris Andrews, [Patrick Farrell](https://pefarrell.org/)
