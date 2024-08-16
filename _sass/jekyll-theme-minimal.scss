@@ -3,44 +3,36 @@
 
 /*
 BDA:
-Here I specify the fonts, in order of preference dependent on availability.
+Font specification, in order of preference dependent on availability.
 I've added JetBrains Mono before each of the default ones.
 */
 body {
-  background-color: #FFF;
+  background-color: #FBF6E5;
   padding:50px;
   font: 14px/1.5 "JetBrains Mono", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  color:#6C7A82;
   font-weight:400;
 }
 
 /*
 BDA:
-Here I format the social icons.
+Social icons.
 */
 .social-icons {
   font-size: 28px;
   gap: 14px;
-
   a {
-    color: #267CB9;
-
+    color: #578ACC;
     &:hover, &:focus {
-      color:#069;
+      color:#3736EF;
     }
   }
 }
 
-/*
-BDA:
-Here I tweak the background colour to a very pale parchment shade.
-*/
-body {
-  background-color: #FEFCF3;
-}
+{{{}}}
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#252A2C;
   margin:0 0 20px;
 }
 
@@ -57,20 +49,20 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#485156;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#B3532A;
 }
 
 a {
-  color:#267CB9;
+  color:#578ACC;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:#3736EF;
   font-weight: bold;
 }
 
@@ -98,7 +90,7 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family: "JetBrains Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
 }
 
@@ -200,7 +192,7 @@ ul.downloads {
 }
 
 strong {
-  color:#222;
+  color:#252A2C;
   font-weight:700;
 }
 
@@ -212,7 +204,7 @@ strong {
 .downloads a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#252A2C;
 }
 
 section {
