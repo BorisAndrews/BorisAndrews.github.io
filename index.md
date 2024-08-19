@@ -2,7 +2,7 @@
 title: HOME
 ---
 
-Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the [University of Oxford](https://www.maths.ox.ac.uk/) working on structure-preserving numerical methods for PDEs, under a joint [EPSRC](https://www.ukri.org/councils/epsrc/)/[CCFE](https://ccfe.ukaea.uk/) studentship.
+Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %} working on structure-preserving numerical methods for PDEs, under a joint [EPSRC](https://www.ukri.org/councils/epsrc/)/[CCFE](https://ccfe.ukaea.uk/) studentship.
 
 <br>
 
@@ -36,7 +36,7 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 ## Announcements & upcoming
 
 ### 2024
-- **16–18.SEPT** <code>&#124;</code> Attending [Firedrake User Meeting 2024](https://www.firedrakeproject.org/firedrake_24.html) at [*University of Oxford*](https://www.maths.ox.ac.uk/), where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
+- **16–18.SEPT** <code>&#124;</code> Attending [Firedrake User Meeting 2024](https://www.firedrakeproject.org/firedrake_24.html) at *{% include universities/oxford.md %}*, where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 - **SEPT–OCT** <code>&#124;</code> Supervising undegraduate summer project
 - **09.OCT** <code>&#124;</code> Presenting internal seminar at *{% include universities/rice.md %}* on [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 

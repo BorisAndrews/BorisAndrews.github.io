@@ -25,7 +25,7 @@ permalink: /cv/
 
 ## Teaching
 
-### [University of Oxford](https://www.maths.ox.ac.uk/)
+### {% include universities/oxford.md %}
 - **2024–2025** <code>&#124;</code> Tutor: *Computational Mathematics*
 - **2023–2024** <code>&#124;</code> Tutor: *Prelims corner*, Teaching assistant: [*Numerical Linear Algebra*](https://courses.maths.ox.ac.uk/course/view.php?id=5024)
 - **2021–2022** <code>&#124;</code> Tutor: [*Analysis I*](https://courses.maths.ox.ac.uk/course/view.php?id=48), Teaching assistant: [*Random Matrix Theory*](https://courses.maths.ox.ac.uk/course/view.php?id=160)
@@ -38,8 +38,8 @@ permalink: /cv/
 ## Seminars, workshop & conference presentations
 
 - **2025** <code>&#124;</code> {% include conferences/2025/siam_ds25.md %}\* *(Denver, Colorado)*, Invited talk\* *({% include universities/brown.md %})*
-- **2024** <code>&#124;</code> Internal seminar\* *({% include universities/rice.md %})*, {% include conferences/2024/firedrake.md %}\* *(University of Oxford)*, PDEsoft *(University of Cambridge)*, Finite Element Fair *(University College London)*, Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop *(University of Pisa)*, UKAEA PhD student engagement day *(CCFE)*, Junior Applied Mathematical Seminar *(University of Warwick)*
-- **2023** <code>&#124;</code> ICIAM 2023 *(Waseda University)*, Numerical analysis group internal seminar *(University of Oxford)*, Junior Applied Mathematics Seminar *(University of Oxford)*, Met Office presentation *(University of Oxford)*, Internal presentation *(Tokamak Energy)*
+- **2024** <code>&#124;</code> Internal seminar\* *({% include universities/rice.md %})*, {% include conferences/2024/firedrake.md %}\* *({% include universities/oxford.md %})*, {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})*, {% include universities/fe_fair.md %} *({% include universities/ucl.md %})*, {% include conferences/pisa_workshop.md %} *(University of Pisa)*, UKAEA PhD student engagement day *(CCFE)*, Junior Applied Mathematical Seminar *(University of Warwick)*
+- **2023** <code>&#124;</code> ICIAM 2023 *(Waseda University)*, Numerical analysis group internal seminar *({% include universities/oxford.md %})*, Junior Applied Mathematics Seminar *({% include universities/oxford.md %})*, Met Office presentation *({% include universities/oxford.md %})*, Internal presentation *(Tokamak Energy)*
 - **2022** <code>&#124;</code> PRISM workshop *(Missenden Abbey, UK)*
 
 *(\*scheduled)*
