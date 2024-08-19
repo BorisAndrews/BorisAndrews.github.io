@@ -38,7 +38,7 @@ permalink: /cv/
 ## Seminars, workshop & conference presentations
 
 - **2025** <code>&#124;</code> {% include conferences/2025/siam_ds25.md %}\* *(Denver, Colorado)*, Invited talk\* *({% include universities/brown.md %})*
-- **2024** <code>&#124;</code> Internal seminar\* *({% include universities/rice.md %})*, {% include conferences/2024/firedrake.md %}\* *({% include universities/oxford.md %})*, {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})*, {% include universities/fe_fair.md %} *({% include universities/ucl.md %})*, {% include conferences/pisa_workshop.md %} *(University of Pisa)*, UKAEA PhD student engagement day *(CCFE)*, Junior Applied Mathematical Seminar *(University of Warwick)*
+- **2024** <code>&#124;</code> Internal seminar\* *({% include universities/rice.md %})*, {% include conferences/2024/firedrake.md %}\* *({% include universities/oxford.md %})*, {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})*, {% include universities/fe_fair.md %} *({% include universities/ucl.md %})*, {% include conferences/pisa_workshop.md %} *({% include universities/pisa.md %})*, UKAEA PhD student engagement day *({% include organisations/ccfe/short.md %})*, Junior Applied Mathematical Seminar *({% include universities/warwick.md %})*
 - **2023** <code>&#124;</code> ICIAM 2023 *(Waseda University)*, Numerical analysis group internal seminar *({% include universities/oxford.md %})*, Junior Applied Mathematics Seminar *({% include universities/oxford.md %})*, Met Office presentation *({% include universities/oxford.md %})*, Internal presentation *(Tokamak Energy)*
 - **2022** <code>&#124;</code> PRISM workshop *(Missenden Abbey, UK)*
 

@@ -1,1 +1,1 @@
-[Univeristy College London](https://www.ucl.ac.uk/maths/research/numerical-analysis-and-scientific-computing)
+[University College London](https://www.ucl.ac.uk/maths/research/numerical-analysis-and-scientific-computing)
