@@ -7,7 +7,7 @@ permalink: /publications/sp-integrators/
 
 ### Boris Andrews, [Patrick Farrell](https://pefarrell.org/)
 
-### 16.Jul.2024 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904))
+### 16.JUL.2024 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904))
 
 > *[...] we propose an approach for the construction of **timestepping schemes** that **preserve dissipation laws** and **conserve multiple general invariants**, via finite elements in time and the systematic introduction of auxiliary variables. [...] We [devise] novel arbitrary-order schemes that conserve to machine precision **all known invariants of Hamiltonian ODEs** [...] and arbitrary-order schemes for the **compressible Navier–Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy**.*
 
@@ -99,6 +99,8 @@ The framework is *general and powerful*. If you are investigating any type of tr
         <h3 class="title">2024</h3>
         <p><ul>
           <li><strong>Internal seminar, <em>Rice University</em></strong></li>
+          <li>Firedrake User Meeting 2024, <em>University of Oxford</em></li>
+          ⬆️ Upcoming | Past ⬇️
           <li>PDEsoft, <em>University of Cambridge</em></li>
           <li>Finite Element Fair, <em>University College London (UCL)</em></li>
           <li><strong>Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop, <em>University of Pisa</em></strong></li>
