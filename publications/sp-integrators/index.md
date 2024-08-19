@@ -68,7 +68,7 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
   Your browser does not support the video tag.
 </video><br>
 
-Further applications of the framework can be found in the paper, and we are actively pursuing many more at the moment! <br>
+Further applications of the framework can be found [in our preprint](https://doi.org/10.48550/arXiv.2407.11904), and we are actively pursuing many more at the moment! <br>
 The framework is *general and powerful*. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating more physically realistic simulations.
 
 *We would both gladly discuss it further!*
