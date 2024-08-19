@@ -100,7 +100,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
         <p><ul>
           <li><strong>Internal seminar, <em>Rice University</em></strong></li>
           <li>Firedrake User Meeting 2024, <em>University of Oxford</em></li>
-          ⬆️ Upcoming | Past ⬇️
+          <div style="text-align: center;">⬆️ UPCOMING | PAST ⬇️</div>
           <li>PDEsoft, <em>University of Cambridge</em></li>
           <li>Finite Element Fair, <em>University College London (UCL)</em></li>
           <li><strong>Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop, <em>University of Pisa</em></strong></li>
