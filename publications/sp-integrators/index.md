@@ -46,7 +46,7 @@ In our preprint, Patrick Farrell and I propose a framework to modify numerical t
 - **Finite elements in time**
 - The systematic introduction of **auxiliary variables**
 
-Unlike other techniques for the construction of energy-conserving schemes (e.g. projection methods) this approach *preserves the symmetry* of the initial timestepping scheme, crucial for realistic simulations.
+N.B. Unlike other techniques for the construction of energy-conserving schemes (e.g. projection methods) this approach *preserves the symmetry* of the initial timestepping scheme, another property that is crucial for realistic simulations.
 
 Applying our framework to Hamiltonian systems (incl. the BBM equation) we derive a general Hamiltonian integrator with exact energy conservation.
 Simulating the BBM equations using the ***modified* 2-stage Gauss method**, we observe **exact energy conservation** in the simulation.
