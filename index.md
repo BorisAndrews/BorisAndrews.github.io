@@ -36,6 +36,7 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 ## Announcements & upcoming
 
 ### 2024
+- **16–18.SEPT** <code>&#124;</code> Attending [Firedrake User Meeting 2024](https://www.firedrakeproject.org/firedrake_24.html) at [*University of Oxford*](https://www.maths.ox.ac.uk/), where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 - **SEPT–OCT** <code>&#124;</code> Supervising undegraduate summer project
 - **09.OCT** <code>&#124;</code> Presenting internal seminar at [*Rice University*](https://mathweb.rice.edu/) on [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 
