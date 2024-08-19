@@ -1,1 +1,1 @@
-- **Aug–Oct.2022** <code>&#124;</code> Physics: theory and modelling internship, [*Tokamak Energy*](https://tokamakenergy.com/)
+- **AUG–OCT.2022** <code>&#124;</code> Physics: theory and modelling internship, [*Tokamak Energy*](https://tokamakenergy.com/)
