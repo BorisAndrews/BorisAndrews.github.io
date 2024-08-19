@@ -39,7 +39,7 @@ permalink: /cv/
 
 - **2025** <code>&#124;</code> {% include conferences/2025/siam_ds25.md %}\* *(Denver, Colorado)*, Invited talk\* *({% include universities/brown.md %})*
 - **2024** <code>&#124;</code> Internal seminar\* *({% include universities/rice.md %})*, {% include conferences/2024/firedrake.md %}\* *({% include universities/oxford.md %})*, {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})*, {% include conferences/fe_fair.md %} *({% include universities/ucl.md %})*, {% include conferences/pisa_workshop.md %} *({% include universities/pisa.md %})*, UKAEA PhD student engagement day *({% include organisations/ccfe/short.md %})*, Junior Applied Mathematical Seminar *({% include universities/warwick.md %})*
-- **2023** <code>&#124;</code> {% include conferences/2023/iciam.md %} *(Waseda University)*, Numerical analysis group internal seminar *({% include universities/oxford.md %})*, Junior Applied Mathematics Seminar *({% include universities/oxford.md %})*, Met Office presentation *({% include universities/oxford.md %})*, Internal presentation *(Tokamak Energy)*
+- **2023** <code>&#124;</code> {% include conferences/2023/iciam.md %} *({% include universities/waseda.md %})*, {% include conferences\2023\internal_seminar.md %} *({% include universities/oxford.md %})*, {% include conferences/2023/jams.md %} *({% include universities/oxford.md %})*, Met Office presentation *({% include universities/oxford.md %})*, Internal presentation *({% include organisations/tokamak_energy.md %})*
 - **2022** <code>&#124;</code> PRISM workshop *(Missenden Abbey, UK)*
 
 *(\*scheduled)*
