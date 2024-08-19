@@ -27,8 +27,8 @@ permalink: /cv/
 
 ### [University of Oxford](https://www.maths.ox.ac.uk/)
 - **2024–2025** <code>&#124;</code> Tutor: *Computational Mathematics*
-- **2023–2024** <code>&#124;</code> Tutor: *Prelims corner*, Teaching assistant: *Numerical Linear Algebra*
-- **2021–2022** <code>&#124;</code> Tutor: *Analysis I*, Teaching assistant: *Random Matrix Theory*
+- **2023–2024** <code>&#124;</code> Tutor: *Prelims corner*, Teaching assistant: [*Numerical Linear Algebra*](https://courses.maths.ox.ac.uk/course/view.php?id=5024)
+- **2021–2022** <code>&#124;</code> Tutor: [*Analysis I*](https://courses.maths.ox.ac.uk/course/view.php?id=48), Teaching assistant: [*Random Matrix Theory*](https://courses.maths.ox.ac.uk/course/view.php?id=160)
 
 ## Prizes, awards & scholarships
 
@@ -37,8 +37,8 @@ permalink: /cv/
 
 ## Seminars, workshop & conference presentations
 
-- **2025** <code>&#124;</code> SIAM DS25\* *(Denver, Colorado)*, Invited talk\* *(Brown University)*
-- **2024** <code>&#124;</code> Internal seminar\* *(Rice University)*, PDEsoft *(University of Cambridge)*, Finite Element Fair *(University College London)*, Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop *(University of Pisa)*, UKAEA PhD student engagement day *(CCFE)*, Junior Applied Mathematical Seminar *(University of Warwick)*
+- **2025** <code>&#124;</code> {% include conferences/2025/siam_ds25.md %}\* *(Denver, Colorado)*, Invited talk\* *({% include universities/brown.md %})*
+- **2024** <code>&#124;</code> Internal seminar\* *({% include universities/rice.md %})*, {% include conferences/2024/firedrake.md %}\* *(University of Oxford)*, PDEsoft *(University of Cambridge)*, Finite Element Fair *(University College London)*, Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop *(University of Pisa)*, UKAEA PhD student engagement day *(CCFE)*, Junior Applied Mathematical Seminar *(University of Warwick)*
 - **2023** <code>&#124;</code> ICIAM 2023 *(Waseda University)*, Numerical analysis group internal seminar *(University of Oxford)*, Junior Applied Mathematics Seminar *(University of Oxford)*, Met Office presentation *(University of Oxford)*, Internal presentation *(Tokamak Energy)*
 - **2022** <code>&#124;</code> PRISM workshop *(Missenden Abbey, UK)*
 

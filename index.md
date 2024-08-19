@@ -38,11 +38,11 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 ### 2024
 - **16–18.SEPT** <code>&#124;</code> Attending [Firedrake User Meeting 2024](https://www.firedrakeproject.org/firedrake_24.html) at [*University of Oxford*](https://www.maths.ox.ac.uk/), where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 - **SEPT–OCT** <code>&#124;</code> Supervising undegraduate summer project
-- **09.OCT** <code>&#124;</code> Presenting internal seminar at [*Rice University*](https://mathweb.rice.edu/) on [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
+- **09.OCT** <code>&#124;</code> Presenting internal seminar at *{% include universities/rice.md %}* on [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 
 ### 2025
 - **3–7.MAR** <code>&#124;</code> Attending [SIAM CSE25](https://www.siam.org/conferences-events/siam-conferences/cse25/) in *Fort Worth, Texas*, where [Patrick Farrell](https://pefarrell.org/) will be presenting [our work on conservative integrators](publications/sp-integrators/index.md)
-- **MAR** <code>&#124;</code> Visiting [*Brown University*](https://sites.brown.edu/scientific-computing/) to present [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
+- **MAR** <code>&#124;</code> Visiting *{% include universities/brown.md %}* to present [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 - **11–15.MAY** <code>&#124;</code> Attending [SIAM DS25](https://www.siam.org/conferences-events/siam-conferences/ds25/) in *Denver, Colorado*, where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with [Patrick Farrell](https://pefarrell.org/)
 
 <br>
