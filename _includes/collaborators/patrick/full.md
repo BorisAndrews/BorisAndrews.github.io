@@ -1,4 +1,4 @@
-[Patrick Farrell](https://pefarrell.org/)
+{% include collaborators/patrick/short.md %}
 <img src="/assets/img/collaborators/patrick.jpg" alt="Patrick Farrell" width="167" />
 - **Affiliation** <code>&#124;</code> [*University of Oxford*](https://www.maths.ox.ac.uk/)
 <!-- - **Role** <code>&#124;</code> PhD (DPhil) co-supervisor -->

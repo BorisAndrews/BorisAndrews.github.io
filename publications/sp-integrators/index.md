@@ -77,7 +77,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
 
 ## Co-authors
 
-### {% include collaborators/patrick.md %}
+### {% include collaborators/patrick/full.md %}
 
 ## Talks
 

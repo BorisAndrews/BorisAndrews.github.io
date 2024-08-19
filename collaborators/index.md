@@ -5,10 +5,10 @@ permalink: /collaborators/
 
 # COLLABORATORS
 
-## {% include collaborators/patrick.md %}
+## {% include collaborators/patrick/full.md %}
 
-## {% include collaborators/alexei.md %}
+## {% include collaborators/alexei/full.md %}
 
-## {% include collaborators/wayne.md %}
+## {% include collaborators/wayne/full.md %}
 
-## {% include collaborators/yuji.md %}
+## {% include collaborators/yuji/full.md %}
