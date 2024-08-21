@@ -16,7 +16,7 @@ permalink: /cv/
 
 ## Publications & preprints
 
-{% include publications.md %}
+{% include publications/lists/long.md %}
 
 ## Professional experience
 

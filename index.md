@@ -14,10 +14,7 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 ## [Highlighted publications & preprints]({{ "/publications/" | absolute_url }})
 
-{% include publications/title.md %}
-{% include publications/sp-integrators.md %}
-{% include publications/natural-convection.md %}
-{% include publications/ap-integrators.md %}
+{% include publications/lists/short.md %}
 
 [View all]({{ "/publications/" | absolute_url }})
 
