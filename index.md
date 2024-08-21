@@ -12,12 +12,14 @@ Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis 
 
 <br>
 
-<!-- ## [Publications & preprints]({{ "/publications/" | absolute_url }}) -->
-## Publications & preprints
+## [Highlighted publications & preprints]({{ "/publications/" | absolute_url }})
 
-{% include publications.md %}
+{% include publications/title.md %}
+{% include publications/sp-integrators.md %}
+{% include publications/natural-convection.md %}
+{% include publications/ap-integrators.md %}
 
-<!-- [View all]({{ "/publications/" | absolute_url }}) -->
+[View all]({{ "/publications/" | absolute_url }})
 
 <br>
 

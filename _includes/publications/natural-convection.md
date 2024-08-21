@@ -1,0 +1,1 @@
+| Upcoming\.\.\. | An augmented Lagrangian preconditioner for natural convection at high Reynolds number | [Alexei Gazca](https://gazcaorozco.github.io/home/), <br> Boris Andrews, <br> [Patrick Farrell](https://pefarrell.org/) |
