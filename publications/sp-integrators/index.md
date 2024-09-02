@@ -37,6 +37,14 @@ This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a m
 Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
 This decline manifests as *artificial, unphysical oscillations in the solution*.
 
+<div style="width: 300px; padding: 20px; background-color: #f0f0f0; border: 2px solid #ccc; text-align: center; cursor: pointer; margin: 20px auto;" 
+        onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    Click me to reveal details!
+    <div class="details" style="display: none; margin-top: 10px;">
+        🎉 Surprise! Here are the hidden details. 🎉
+    </div>
+</div>
+
 <video controls style="width: 100%; height: auto;">
   <source src="assets/vid/no_av.mp4" type="video/mp4">
   Your browser does not support the video tag.
