@@ -2,12 +2,16 @@
     width: 80%;
     padding: 20px;
     color: #FBF6E5;
+    background-color: #6C7A82;
     text-align: center;
     cursor: pointer;
     margin: 20px auto;
     border: none;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, #6C7A82, #252A2C);
+}
+
+.reveal-box:hover {
+    background-color: #252A2C;
 }
 
 .details {

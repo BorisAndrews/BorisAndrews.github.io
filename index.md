@@ -2,7 +2,7 @@
 title: HOME
 ---
 
-Hi! I'm Boris Andrews, and I'm a PhD (DPhil) student in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %} working on structure-preserving numerical methods for PDEs, under a joint {% include organisations/epsrc.md %}/{% include organisations/ccfe/short.md %} studentship.
+Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %} working on structure-preserving numerical methods for PDEs, under a joint {% include organisations/epsrc.md %}/{% include organisations/ccfe/short.md %} studentship.
 
 <br>
 
