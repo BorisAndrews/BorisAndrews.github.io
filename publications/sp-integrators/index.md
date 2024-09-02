@@ -46,7 +46,7 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
         onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     Test
     <div class="details" style="display: none; margin-top: 10px;">
-        Does LaTeX work? \\(\frac{1}{2}\\)
+        Does LaTeX work? \(\frac{1}{2}\)
     </div>
 </div>
 
@@ -130,3 +130,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
     </div>
   </div>
 </div>
+
+<!-- MathJax for LaTeX -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
