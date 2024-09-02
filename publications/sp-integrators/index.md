@@ -43,7 +43,7 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
 </video><br>
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>Full integrator specifications</b>
+    <b>FULL INTEGRATOR SPECIFICATIONS</b>
     <div class="details">
         The full BBM equation is
         \[
@@ -83,7 +83,7 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
   Your browser does not support the video tag.
 </video><br>
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>Full integrator specifications</b>
+    <b>FULL INTEGRATOR SPECIFICATIONS</b>
     <div class="details">
         Over a timestep \(T_n = [t_n, t_{n+1}]\), define the space-time finite element space
         \[
@@ -113,7 +113,7 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
   Your browser does not support the video tag.
 </video><br>
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>Full integrator specifications</b>
+    <b>FULL INTEGRATOR SPECIFICATIONS</b>
     <div class="details">
         Honestly, this is way too complicated for a little box on a website, sorry!
         Check out Section 5 of the preprint for the full details.
