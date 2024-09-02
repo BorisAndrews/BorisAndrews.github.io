@@ -62,11 +62,12 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
         and assume periodic boundary conditions.
         Define \(U\) to be the space of Hermite finite elements of uniform width 2, and take a uniform timestep \(1\). <br>
         Take the following semi-discrete variational formulation:
-        find \(u \in U\) such that
+        find \(u \in C^1(\mathbb{R}_+; U)\) such that for all \(v \in U\),
         \[
-            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x.
+            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x,
         \]
-        Solve this using the 2-stage Gauss method.
+        at all time \(t \in \mathbb{R}_+\).
+        Discretise this in time using the 2-stage Gauss method. <br>
         The above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
     </div>
 </div>
@@ -86,6 +87,25 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
   <source src="assets/vid/av.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
+
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>Full integrator specification</b>
+    <div class="details">
+        Over a timestep \(T_n = [t_n, t_{n+1}]\), define the space-time finite element space
+        \[
+            X_n \coloneqq \{u \in P_2(T_n; U) : u(t_n) \text{ satisfies known initial data}\},
+        \]
+        where \(P_s(T_n; U)\) is the space of degree-\(s\) polynomials from \(T_n\) to \(U\).
+        Note that \(\dot{X}_n = P_1(T_n; U)\). <\br>
+        Take the following semi-discrete variational formulation:
+        find \((u, w) \in X_n \times \dot{X}_n\) such that for all \(v \in U\),
+        \[
+            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x.
+        \]
+        Solve this using the 2-stage Gauss method.
+        The above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
+    </div>
+</div>
 
 <div style="width: 80%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
         onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
