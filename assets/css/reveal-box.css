@@ -5,9 +5,8 @@
     color: #FBF6E5;
     text-align: center;
     cursor: pointer;
-    font-family: Arial, sans-serif;
+    margin: 20px auto;
     border: none;
-    box-sizing: border-box;
 }
 
 .details {
