@@ -30,7 +30,7 @@ In fact, as noted by [*Ge and Marsden (1988)*](https://doi.org/10.1016/0375-9601
 ![ge_marsden_quote](assets/img/ge_marsden.png)
 
 This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a model for phenomena including long water waves. <br>
-**Solutions to the BBM equation conserve energy**, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
+**Solutions to the BBM equation conserve energy**, \\(\int(\frac{1}{2}u^2 + \frac{1}{6}u^3)\\), contributing to their stability and persistence over time.
 
 ![waves_off_timor_sea](assets/img/waves_off_timor_sea.jpg)
 
