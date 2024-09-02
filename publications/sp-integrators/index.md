@@ -32,6 +32,16 @@ In fact, as noted by [*Ge and Marsden (1988)*](https://doi.org/10.1016/0375-9601
 This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a model for phenomena including long water waves. <br>
 **Solutions to the BBM equation conserve energy**, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
 
+<div style="width: 300px; padding: 20px; background-color: #f0f0f0; border: 2px solid #ccc; text-align: center; cursor: pointer; margin: 20px auto;" 
+        onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    Full BBM equation
+    <div class="details" style="display: none; margin-top: 10px;">
+        \[
+            \dot{u} - u_{xx} = - u_x - uu_x
+        \]
+    </div>
+</div>
+
 ![waves_off_timor_sea](assets/img/waves_off_timor_sea.jpg)
 
 Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
@@ -44,9 +54,10 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
 
 <div style="width: 300px; padding: 20px; background-color: #f0f0f0; border: 2px solid #ccc; text-align: center; cursor: pointer; margin: 20px auto;" 
         onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    Test
+    Full integrator specification
     <div class="details" style="display: none; margin-top: 10px;">
-        Does LaTeX work? \(\frac{1}{2}\)
+        Up to projection 
+        Define \(U\) to be space of Hermite finite elements of uniform width 2, and take a uniform timestep \(\Delta t = 1\).
     </div>
 </div>
 
