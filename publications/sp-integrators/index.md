@@ -91,19 +91,21 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>Full integrator specifications</b>
     <div class="details">
-        Over a timestep $T_n = [t_n, t_{n+1}]$, define the space-time finite element space
+        Over a timestep \(T_n = [t_n, t_{n+1}]\), define the space-time finite element space
         \[
             X_n \coloneqq \{u \in P_2(T_n; U) : u(t_n) \text{ satisfies known initial data}\},
         \]
-        where $P_s(T_n; U)$ is the space of degree-$s$ polynomials from $T_n$ to $U$.
-        Note that $\dot{X}_n = P_1(T_n; U)$. <\br>
-        Take the following semi-discrete variational formulation:
-        find $(u, w_H) \in X_n \times \dot{X}_n$ such that for all $(v, v_H) \in \dot{X}_n \times \dot{X}_n$,
-        \begin{align*}
-            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x.
-        \begin{align*}
-        Solve this using the 2-stage Gauss method.
-        The above video is at time $20000$ with a moving camera of speed $\frac{1 + \sqrt{5}}{2}$.
+        where \(P_s(T_n; U)\) is the space of degree-\(s\) polynomials from \(T_n\) to \(U\).
+        Note that \(\dot{X}_n = P_1(T_n; U)\). <\br>
+        Take the following fully discrete variational formulation over \(T_n\):
+        find \((u, \tilde{w}) \in X_n \times \dot{X}_n\) such that for all \((v, \tilde{v}) \in \dot{X}_n \times \dot{X}_n\),
+        \[
+            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega(\tilde{w}v_x + \tilde{w}_xv_xx),  \\
+            \int_\Omega(\tilde{w}\tilde{v} + \tilde{w}_x\tilde{v}_x)  =  \int_\Omega\left(u + \frac{1}{2}u^2\right)\tilde{v}_x.
+        \]
+        The introduced auxiliary variable \(\tilde{w}\) approximates \((1 - \partial_x^2)^{-1}\left[u + \frac{1}{2}u^2\right]\).
+        We can see this scheme conserves \(H\) by taking \((v, \tilde{v}) = ()\). <br>
+        Again, the above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
     </div>
 </div>
 
