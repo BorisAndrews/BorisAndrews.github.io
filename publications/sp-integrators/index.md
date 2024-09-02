@@ -50,7 +50,6 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
   <source src="assets/vid/no_av.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
-
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>Full integrator specifications</b>
     <div class="details">
@@ -87,7 +86,6 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
   <source src="assets/vid/av.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
-
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>Full integrator specifications</b>
     <div class="details">
@@ -96,15 +94,15 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
             X_n \coloneqq \{u \in P_2(T_n; U) : u(t_n) \text{ satisfies known initial data}\},
         \]
         where \(P_s(T_n; U)\) is the space of degree-\(s\) polynomials from \(T_n\) to \(U\).
-        Note that \(\dot{X}_n = P_1(T_n; U)\). <\br>
+        Note that \(\dot{X}_n = P_1(T_n; U)\). <br>
         Take the following fully discrete variational formulation over \(T_n\):
         find \((u, \tilde{w}) \in X_n \times \dot{X}_n\) such that for all \((v, \tilde{v}) \in \dot{X}_n \times \dot{X}_n\),
         \[
-            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega(\tilde{w}v_x + \tilde{w}_xv_xx),  \\
+            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega(\tilde{w}v_x + \tilde{w}_xv_{xx}),  \\
             \int_\Omega(\tilde{w}\tilde{v} + \tilde{w}_x\tilde{v}_x)  =  \int_\Omega\left(u + \frac{1}{2}u^2\right)\tilde{v}_x.
         \]
-        The introduced auxiliary variable \(\tilde{w}\) approximates \((1 - \partial_x^2)^{-1}\left[u + \frac{1}{2}u^2\right]\).
-        We can see this scheme conserves \(H\) by taking \((v, \tilde{v}) = ()\). <br>
+        The introduced auxiliary variable \(\tilde{w}\) as introduced by our framework approximates \((1 - \partial_x^2)^{-1}\!\left[u + \frac{1}{2}u^2\right]\!\).
+        We can see this scheme conserves \(H\) over \(T_n\) by taking \((v, \tilde{v}) = (\tilde{w}, \dot{u})\). <br>
         Again, the above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
     </div>
 </div>
@@ -118,6 +116,13 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
   <source src="assets/vid/compressible_ns.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>Full integrator specifications</b>
+    <div class="details">
+        Honestly, this is way too complicated for a little box on a website. <br>
+        Check out Section 5 of the preprint for the full details!
+    </div>
+</div>
 
 Further applications of the framework can be found [in our preprint](https://doi.org/10.48550/arXiv.2407.11904), and we are actively pursuing many more at the moment! <br>
 The framework is *general and powerful*. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating more physically realistic simulations.
