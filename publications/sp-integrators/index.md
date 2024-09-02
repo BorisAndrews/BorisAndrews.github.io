@@ -52,7 +52,7 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
 </video><br>
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>Full integrator specification</b>
+    <b>Full integrator specifications</b>
     <div class="details">
         Define the domain \(\Omega \coloneqq (-50, 50)\).
         Up to projection, take initial conditions to be a soliton of speed \(\frac{1 + \sqrt{5}}{2}\),
@@ -89,36 +89,21 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
 </video><br>
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>Full integrator specification</b>
+    <b>Full integrator specifications</b>
     <div class="details">
-        Over a timestep \(T_n = [t_n, t_{n+1}]\), define the space-time finite element space
+        Over a timestep $T_n = [t_n, t_{n+1}]$, define the space-time finite element space
         \[
             X_n \coloneqq \{u \in P_2(T_n; U) : u(t_n) \text{ satisfies known initial data}\},
         \]
-        where \(P_s(T_n; U)\) is the space of degree-\(s\) polynomials from \(T_n\) to \(U\).
-        Note that \(\dot{X}_n = P_1(T_n; U)\). <\br>
+        where $P_s(T_n; U)$ is the space of degree-$s$ polynomials from $T_n$ to $U$.
+        Note that $\dot{X}_n = P_1(T_n; U)$. <\br>
         Take the following semi-discrete variational formulation:
-        find \((u, w) \in X_n \times \dot{X}_n\) such that for all \(v \in U\),
-        \[
+        find $(u, w_H) \in X_n \times \dot{X}_n$ such that for all $(v, v_H) \in \dot{X}_n \times \dot{X}_n$,
+        \begin{align*}
             \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x.
-        \]
+        \begin{align*}
         Solve this using the 2-stage Gauss method.
-        The above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
-    </div>
-</div>
-
-<div style="width: 80%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
-        onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>Full integrator specification</b>
-    <div class="details" style="display: none; margin-top: 10px;">
-        Over a timestep \(T_n = [t_n, t_{n+1}]\), define the space-time finite element space
-        Take the following fully discrete variational formulation:
-        find \(u \in U\) such that
-        \[
-            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x.
-        \]
-        Solve this using the 2-stage Gauss method.
-        The above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
+        The above video is at time $20000$ with a moving camera of speed $\frac{1 + \sqrt{5}}{2}$.
     </div>
 </div>
 
