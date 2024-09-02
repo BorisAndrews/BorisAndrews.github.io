@@ -67,7 +67,7 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
             \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x.
         \]
         Solve this using the 2-stage Gauss method.
-        The above video is at time \(20000\).
+        The above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
     </div>
 </div>
 
@@ -86,6 +86,21 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
   <source src="assets/vid/av.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
+
+<div style="width: 80%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
+        onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>Full integrator specification</b>
+    <div class="details" style="display: none; margin-top: 10px;">
+        Over a timestep \(T_n = [t_n, t_{n+1}]\), define the space-time finite element space
+        Take the following fully discrete variational formulation:
+        find \(u \in U\) such that
+        \[
+            \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x.
+        \]
+        Solve this using the 2-stage Gauss method.
+        The above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
+    </div>
+</div>
 
 Crucially however, our framework extends *beyond Hamiltonian systems*, and beyond conservation laws.
 For instance, we use it to develop numerical schemes for the *compressible Navier--Stokes equations* that:
@@ -151,7 +166,3 @@ The framework is *general and powerful*. If you are investigating any type of tr
     </div>
   </div>
 </div>
-
-<!-- MathJax for LaTeX -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
