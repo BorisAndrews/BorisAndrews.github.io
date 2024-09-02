@@ -40,7 +40,8 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
 <video controls style="width: 100%; height: auto;">
   <source src="assets/vid/no_av.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video><br>
+</video>
+
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>FULL INTEGRATOR SPECIFICATIONS</b>
@@ -81,7 +82,8 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
 <video controls style="width: 100%; height: auto;">
   <source src="assets/vid/av.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video><br>
+</video>
+
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>FULL INTEGRATOR SPECIFICATIONS</b>
     <div class="details">
@@ -111,7 +113,8 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
 <video controls style="width: 100%; height: auto;">
   <source src="assets/vid/compressible_ns.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video><br>
+</video>
+
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>FULL INTEGRATOR SPECIFICATIONS</b>
     <div class="details">
