@@ -32,9 +32,9 @@ In fact, as noted by [*Ge and Marsden (1988)*](https://doi.org/10.1016/0375-9601
 This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a model for phenomena including long water waves. <br>
 **Solutions to the BBM equation conserve energy**, \\(\int[\frac{1}{2}u^2 + \frac{1}{6}u^3]\\), contributing to their stability and persistence over time.
 
-<div style="width: 100%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
+<div style="width: 80%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
         onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <strong>Full BBM equation</strong>
+    <b>Full BBM equation</b>
     <div class="details" style="display: none; margin-top: 10px;">
         \[
             \dot{u} - u_{xx} = - u_x - uu_x
@@ -52,18 +52,24 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
   Your browser does not support the video tag.
 </video><br>
 
-<div style="width: 100%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
+<div style="width: 80%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
         onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <strong>Full integrator specification</strong>
+    <b>Full integrator specification</b>
     <div class="details" style="display: none; margin-top: 10px;">
+        Define the domain \(\Omega \coloneqq (-50, 50)\).
         Up to projection, take initial conditions to be a soliton of speed \(\frac{1 + \sqrt{5}}{2}\),
         \[
-            u(0)  =  \frac{3\sqrt{5} - 3}{2}{\rm sech}\!\left(\!\left(\sqrt{5} - 1\right)\!x\right)\!^2,
+            u(0)  =  \frac{3\sqrt{5} - 3}{2}{\rm sech}\!\left(\!\left(\sqrt{5} - 1\right)x\right)^2,
         \]
         and assume periodic boundary conditions.
-        Define \(U\) to be space of Hermite finite elements of uniform width 2, and take a uniform timestep \(\Delta t = 1\). <br>
-        Take the following variational formulation:
-        find \(u \in U\)...
+        Define \(U\) to be the space of Hermite finite elements of uniform width 2, and take a uniform timestep \(\Delta t = 1\). <br>
+        Take the following semi-discrete variational formulation:
+        find \(u \in U\) such that
+        \[
+            \int_\Omega[\dot{u}v + \dot{u}_xv_x]  =  \int_\Omega\left(u + \frac{1}{2}u^2\right)v_x.
+        \]
+        Solve this using the 2-stage Gauss method.
+        The 
     </div>
 </div>
 
