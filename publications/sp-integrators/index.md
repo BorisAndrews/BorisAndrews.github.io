@@ -61,13 +61,13 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
         \[
             \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x,
         \]
-        at all time \(t \in \mathbb{R}_+\).
+        at all times \(t \in \mathbb{R}_+\).
         Discretise this in time using the 2-stage Gauss method. <br>
         The above video is at time \(20000\) with a moving camera of speed \(\frac{1 + \sqrt{5}}{2}\).
     </div>
 </div>
 
-In our preprint, Patrick Farrell and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
+In our preprint, {% include collaborators/patrick/short.md %} and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
 - **Finite elements in time**
 - The systematic introduction of **auxiliary variables**
 
