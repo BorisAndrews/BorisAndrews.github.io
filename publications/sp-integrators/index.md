@@ -34,15 +34,6 @@ This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a m
 
 ![waves_off_timor_sea](assets/img/waves_off_timor_sea.jpg)
 
-{% include reveal-box.md %}
-
-<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>Full BBM equation</b>
-    <div class="details">
-        \(\dot{u} - u_{xx} = - u_x - uu_x\)
-    </div>
-</div>
-
 Simulating the BBM equations using the 2-stage Gauss method, a **symplectic integrator**, we observe a **gradual decline in the simulated energy**. <br>
 This decline manifests as *artificial, unphysical oscillations in the solution*.
 
@@ -50,9 +41,14 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
   <source src="assets/vid/no_av.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
+{% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>Full integrator specifications</b>
     <div class="details">
+        The full BBM equation is
+        \[
+            \dot{u} - u_{xx} = - u_x - uu_x.
+        \]
         Define the domain \(\Omega \coloneqq (-50, 50)\).
         Up to projection, take initial conditions to be a soliton of speed \(\frac{1 + \sqrt{5}}{2}\),
         \[
