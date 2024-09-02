@@ -34,10 +34,11 @@ This limitation is evident in the *Benjamin–Bona–Mahony (BBM)* equation, a m
 
 ![waves_off_timor_sea](assets/img/waves_off_timor_sea.jpg)
 
-<div style="width: 80%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
-        onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+{% include reveal-box.md %}
+
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>Full BBM equation</b>
-    <div class="details" style="display: none; margin-top: 10px;">
+    <div class="details">
         \(\dot{u} - u_{xx} = - u_x - uu_x\)
     </div>
 </div>
@@ -50,10 +51,9 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
   Your browser does not support the video tag.
 </video><br>
 
-<div style="width: 80%; padding: 20px; background-color: #6C7A82; color: #FBF6E5; text-align: center; cursor: pointer; margin: 20px auto; border: none;" 
-        onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>Full integrator specification</b>
-    <div class="details" style="display: none; margin-top: 10px;">
+    <div class="details">
         Define the domain \(\Omega \coloneqq (-50, 50)\).
         Up to projection, take initial conditions to be a soliton of speed \(\frac{1 + \sqrt{5}}{2}\),
         \[
