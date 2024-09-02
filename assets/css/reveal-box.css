@@ -1,13 +1,13 @@
 .reveal-box {
     width: 80%;
     padding: 20px;
-    background-color: #6C7A82;
     color: #FBF6E5;
     text-align: center;
     cursor: pointer;
     margin: 20px auto;
     border: none;
     border-radius: 10px;
+    background-image: linear-gradient(to bottom, #6C7A82, #252A2C);
 }
 
 .details {
