@@ -47,7 +47,7 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
     <div class="details">
         The full BBM equation is
         \[
-            \dot{u} - u_{xx} = - u_x - uu_x.
+            \dot{u} - \dot{u}_{xx} = - u_x - uu_x.
         \]
         Define the domain \(\Omega \coloneqq (-50, 50)\).
         Up to projection, take initial conditions to be a soliton of speed \(\frac{1 + \sqrt{5}}{2}\),
@@ -115,8 +115,8 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>Full integrator specifications</b>
     <div class="details">
-        Honestly, this is way too complicated for a little box on a website. <br>
-        Check out Section 5 of the preprint for the full details!
+        Honestly, this is way too complicated for a little box on a website, sorry!
+        Check out Section 5 of the preprint for the full details.
     </div>
 </div>
 
