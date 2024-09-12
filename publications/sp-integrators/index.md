@@ -72,7 +72,12 @@ In our [preprint](https://doi.org/10.48550/arXiv.2407.11904), {% include collabo
 - **Finite elements in time**
 - The systematic introduction of **auxiliary variables**
 
-N.B. Unlike other techniques for the construction of energy-conserving schemes (e.g. projection methods) this approach *preserves the symmetry* of the initial timestepping scheme, another property that is crucial for realistic simulations.
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>TECHNICAL NOTE ON SYMMETRY</b>
+    <div class="details">
+        N.B. Unlike other techniques for the construction of energy-conserving schemes (e.g. projection methods) this approach <i>preserves the symmetry</i> of the initial timestepping scheme, another property that is crucial for realistic simulations.
+    </div>
+</div>
 
 Applying our framework to Hamiltonian systems (incl. the BBM equation) we derive a general Hamiltonian integrator with exact energy conservation.
 Simulating the BBM equations using the ***modified* 2-stage Gauss method**, we observe **exact energy conservation** in the simulation.
