@@ -11,6 +11,19 @@ permalink: /publications/sp-integrators/
 
 > *[...] we propose an approach for the construction of **timestepping schemes** that **preserve dissipation laws** and **conserve multiple general invariants**, via finite elements in time and the systematic introduction of auxiliary variables. [...] We [devise] novel arbitrary-order schemes that conserve to machine precision **all known invariants of Hamiltonian ODEs** [...] and arbitrary-order schemes for the **compressible Navier–Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy**.*
 
+{% include reveal-box.md %}
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>FULL ABSTRACT</b>
+    <div class="details">
+        Numerical methods for the simulation of transient systems with structure-preserving properties are known to exhibit greater accuracy and physical reliability, in particular over long durations.
+        These schemes are often built on powerful geometric ideas for broad classes of problems, such as Hamiltonian or reversible systems.
+        However, there remain difficulties in devising timestepping schemes that conserve non-quadratic invariants or dissipation laws.
+        In this work, we propose an approach for the construction of timestepping schemes that preserve dissipation laws and conserve multiple general invariants, via finite elements in time and the systematic introduction of auxiliary variables.
+        The approach generalises several existing ideas in the literature, including Gauss methods, the framework of Cohen & Hairer, and the energy- and helicity-conserving scheme of Rebholz.
+        We demonstrate the ideas by devising novel arbitrary-order schemes that conserve to machine precision all known invariants of Hamiltonian ODEs, including the Kepler and Kovalevskaya problems, and arbitrary-order schemes for the compressible Navier-Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy.
+    </div>
+</div>
+
 While the results of this work are more general, I would like to provide some exposition for it through the lens of
 - Hamiltonian systems,
 - symplectic integrators, and
@@ -42,7 +55,6 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
   Your browser does not support the video tag.
 </video>
 
-{% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>FULL INTEGRATOR SPECIFICATIONS</b>
     <div class="details">
