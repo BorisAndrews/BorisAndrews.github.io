@@ -51,8 +51,8 @@ Simulating the BBM equations using the 2-stage Gauss method, a **symplectic inte
 This decline manifests as *artificial, unphysical oscillations in the solution*.
 
 <video controls style="width: 100%; height: auto;">
-  <source src="assets/vid/no_av.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+    <source src="assets/vid/no_av.mp4" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -97,8 +97,8 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
 (Note: The video *should* appear stationary. It's loading fine; this is the correct solution behaviour!)
 
 <video controls style="width: 100%; height: auto;">
-  <source src="assets/vid/av.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+    <source src="assets/vid/av.mp4" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -128,8 +128,8 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
 - **Increase total entropy**
 
 <video controls style="width: 100%; height: auto;">
-  <source src="assets/vid/compressible_ns.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+    <source src="assets/vid/compressible_ns.mp4" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
