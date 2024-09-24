@@ -45,7 +45,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 - **11–15.MAY\*** <code>&#124;</code> Attending {% include conferences/2025/ds.md %} in *Denver, Colorado*, where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with {% include collaborators/patrick/short.md %}
 - **15–20.JUN\*** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*
 
-*(\*provisional)*
+*(\*scheduled/provisional)*
 
 <br>
 
