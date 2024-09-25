@@ -36,10 +36,11 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 
 ### 2024
 - **SEPT–OCT** <code>&#124;</code> Supervising undegraduate summer project, Sebastian Ohlig, investigating structure-preserving numerical simulations for the [Toda lattice](https://en.wikipedia.org/wiki/Toda_lattice)
-- **09.OCT\*** <code>&#124;</code> Presenting internal seminar at *{% include universities/rice.md %}* on [my work on conservative integrators](publications/sp-integrators/index.md) with {% include collaborators/patrick/short.md %}
+- **09.OCT\*** <code>&#124;</code> Presenting internal seminar at *{% include universities/rice.md %}* on upcoming work into structure-preserving methods for [GENERIC systems](https://en.wikipedia.org/wiki/GENERIC_formalism)
 
 ### 2025
-- **28.FEB–1.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/firedrake_usa.md %} in *Fort Worth, Texas*, where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md)
+- **FEB–MAR\*** <code>&#124;</code> Visiting {% include universities/rice.md %}, where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with {% include collaborators/patrick/short.md %}
+- **28.FEB–1.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/firedrake_usa.md %} in *Fort Worth, Texas*, where I will be presenting upcoming work on structure-preserving methods for inhomogeneous boundary-value problems
 - **3–7.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/cse.md %} in *Fort Worth, Texas*, where {% include collaborators/patrick/short.md %} will be presenting [our work on conservative integrators](publications/sp-integrators/index.md)
 - **MAR\*** <code>&#124;</code> Visiting *{% include universities/brown.md %}* to present [my work on conservative integrators](publications/sp-integrators/index.md) with {% include collaborators/patrick/short.md %}
 - **11–15.MAY\*** <code>&#124;</code> Attending {% include conferences/2025/ds.md %} in *Denver, Colorado*, where I will be presenting [my work on conservative integrators](publications/sp-integrators/index.md) with {% include collaborators/patrick/short.md %}
