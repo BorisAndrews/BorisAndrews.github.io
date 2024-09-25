@@ -35,7 +35,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 ## Announcements & upcoming
 
 ### 2024
-- **SEPT–OCT** <code>&#124;</code> Supervising undegraduate summer project, Sebastian Ohlig, investigating structure-preserving numerical simulations for the [Toda lattice](https://en.wikipedia.org/wiki/Toda_lattice)
+- **SEPT–OCT** <code>&#124;</code> Supervising undegraduate summer project, {% include collaborators/sebastian/short.md %}, investigating structure-preserving numerical simulations for the [Toda lattice](https://en.wikipedia.org/wiki/Toda_lattice)
 - **09.OCT\*** <code>&#124;</code> Presenting internal seminar at *{% include universities/rice.md %}* on upcoming work into structure-preserving methods for [GENERIC systems](https://en.wikipedia.org/wiki/GENERIC_formalism)
 
 ### 2025
