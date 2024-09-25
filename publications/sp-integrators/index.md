@@ -173,6 +173,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
         <p><ul>
           <li>Internal seminar, <em>Rice University</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
+          <li>Computing Division technical meeting, <em>CCFE</em></li>
           <li>Firedrake User Meeting 2024, <em>University of Oxford</em></li>
           <li>PDEsoft, <em>University of Cambridge</em></li>
           <li>Finite Element Fair, <em>University College London (UCL)</em></li>
