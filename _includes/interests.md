@@ -1,4 +1,4 @@
-- **Structure-preserving numerical methods for PDEs/ODEs**
-- **Finite element theory** <code>&#124;</code> MGRiT/FEEC
-- **Hybrid fluid-particle models**
+- **Structure-preserving numerical methods for PDEs/ODEs** <code>&#124;</code> Conservation & dissipation structures/Global & local energy estimates
+- **Finite element theory** <code>&#124;</code> Finite element exterior calculus/Domain decomposition/Multigrid in time
+- **Hybrid fluid-particle models** <code>&#124;</code> Plasma modelling
 - **Turbulent systems** <code>&#124;</code> Stabilisation/Preconditioning
