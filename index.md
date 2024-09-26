@@ -6,7 +6,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 
 <br>
 
-## Interests
+## Research interests
 
 {% include interests.md %}
 
@@ -72,3 +72,12 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 <br>
 
 [View all]({{ "/collaborators/" | absolute_url }})
+
+<br>
+
+## Other interests
+
+- **Languages/Linguistics** <code>&#124;</code> Dutch/Japanese
+- **Board games** <code>&#124;</code> Heavy/Light/Cooperative/I don't care so long as it's with my friends
+- **Piano** <code>&#124;</code> Improvisation/Although not if anyone's listening
+- **Table football** <code>&#124;</code> Competitive spirit/Non-competitive skill level
