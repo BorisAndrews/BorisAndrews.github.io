@@ -87,4 +87,4 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
     ❓ **Quizzes** <code>&#124;</code> Running/Doing/Losing <br>
     🍫 **Chocolate** <code>&#124;</code> Eating/Eating/Eating <br>
 
-*(in no particular order)*
+*(In no particular order)*
