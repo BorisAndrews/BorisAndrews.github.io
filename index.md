@@ -80,9 +80,11 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 - **Languages/Linguistics** 🗺️ Dutch/Japanese
 - **Board games** 🎲 Heavy/Light/Cooperative/I don't care so long as it's with my friends
 - **Piano** 🎹 Music theory/Improvisation so long as nobody's listening
+- **Murder mysteries** 🩸 Movies in particular
 - **Table football** ⚽ Competitive spirit/Non-competitive skill level
 - **Flags** 🏳️ Just love them
 - **Taekwondo** 🥋 Not done it properly in a long time though
-- **Murder mysteries** 🩸 Movies in particular
 - **Quizzes** ❓ Running/Doing/Losing
 - **Chocolate** 🍫 Eating/Eating/Eating
+
+*(In no particular order)*
