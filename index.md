@@ -77,14 +77,14 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 
 ## Other interests
 
-    🗺️ **Languages/Linguistics** <code>&#124;</code> Dutch/Japanese <br>
-    🎲 **Board games** <code>&#124;</code> Heavy/Light/Cooperative/I don't care so long as it's with my friends <br>
-    🎹 **Piano** <code>&#124;</code> Music theory/Improvisation so long as nobody's listening <br>
-    🩸 **Murder mysteries** <code>&#124;</code> Movies in particular <br>
-    ⚽ **Table football** <code>&#124;</code> Competitive spirit/Non-competitive skill level <br>
-    🏳️ **Flags** <code>&#124;</code> Just love them <br>
-    🥋 **Taekwondo** <code>&#124;</code> Not done it properly in a long time though <br>
-    ❓ **Quizzes** <code>&#124;</code> Running/Doing/Losing <br>
-    🍫 **Chocolate** <code>&#124;</code> Eating/Eating/Eating <br>
+  🗺️ **Languages/Linguistics** <code>&#124;</code> Dutch/Japanese <br>
+  🎲 **Board games** <code>&#124;</code> Heavy/Light/Cooperative/I don't care so long as it's with my friends <br>
+  🎹 **Piano** <code>&#124;</code> Music theory/Improvisation so long as nobody's listening <br>
+  🩸 **Murder mysteries** <code>&#124;</code> Movies in particular <br>
+  ⚽ **Table football** <code>&#124;</code> Competitive spirit/Non-competitive skill level <br>
+  🏳️ **Flags** <code>&#124;</code> Just love them <br>
+  🥋 **Taekwondo** <code>&#124;</code> Not done it properly in a long time though <br>
+  ❓ **Quizzes** <code>&#124;</code> Running/Doing/Losing <br>
+  🍫 **Chocolate** <code>&#124;</code> Eating/Eating/Eating <br>
 
 *(In no particular order)*
