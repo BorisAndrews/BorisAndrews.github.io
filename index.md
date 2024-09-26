@@ -77,7 +77,8 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 
 ## Other interests
 
-- **Languages/Linguistics** <code>&#124;</code> Dutch/Japanese
-- **Board games** <code>&#124;</code> Heavy/Light/Cooperative/I don't care so long as it's with my friends
-- **Piano** <code>&#124;</code> Improvisation/Although not if anyone's listening
-- **Table football** <code>&#124;</code> Competitive spirit/Non-competitive skill level
+- **Languages/Linguistics** 🗺️ Dutch/Japanese
+- **Board games** 🎲 Heavy/Light/Cooperative/I don't care so long as it's with my friends
+- **Piano** 🎹 Music theory/Improvisation so long as nobody's listening
+- **Table football** ⚽ Competitive spirit/Non-competitive skill level
+- **Flags** 🏳️ Just love them
