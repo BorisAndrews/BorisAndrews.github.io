@@ -64,6 +64,10 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
         <div class="caption"><a href="https://gazcaorozco.github.io/home/"><b>Alexei Gazca</b></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>University of Freiburg</em></a></div>
     </div>
     <div class="gallery-item">
+        <img src="{{ '/assets/img/collaborators/sebastian.jpeg' | relative_url }}" alt="Wayne Arter">
+        <div class="caption"><a href="https://www.linkedin.com/in/sebastian-ohlig-4013ab212/"><b>Sebastian Ohlig</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+    </div>
+    <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/wayne.jpeg' | relative_url }}" alt="Wayne Arter">
         <div class="caption"><a href="https://www.linkedin.com/in/wayne-arter-86375211/"><b>Wayne Arter</b></a>, <br> <a href="https://ccfe.ukaea.uk/"><em>Culham Centre for Fusion Energy (CCFE)</em></a></div>
     </div>
