@@ -2,7 +2,7 @@
 title: HOME
 ---
 
-Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %} working on structure-preserving numerical methods for PDEs, under a joint {% include organisations/epsrc.md %}/{% include organisations/ccfe/short.md %} studentship.
+Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %} working on structure-preserving numerical methods for PDEs, under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship.
 
 <br>
 
@@ -69,7 +69,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/wayne.jpeg' | relative_url }}" alt="Wayne Arter">
-        <div class="caption"><a href="https://www.linkedin.com/in/wayne-arter-86375211/"><b>Wayne Arter</b></a>, <br> <a href="https://ccfe.ukaea.uk/"><em>Culham Centre for Fusion Energy (CCFE)</em></a></div>
+        <div class="caption"><a href="https://www.linkedin.com/in/wayne-arter-86375211/"><b>Wayne Arter</b></a>, <br> <a href="https://www.gov.uk/government/organisations/uk-atomic-energy-authority/"><em>UK Atomic Energy Authority (UKAEA)</em></a></div>
     </div>
 </div>
 

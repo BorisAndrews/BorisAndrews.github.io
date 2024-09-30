@@ -173,12 +173,12 @@ The framework is *general and powerful*. If you are investigating any type of tr
         <p><ul>
           <li>Internal seminar, <em>Rice University</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
-          <li>Computing Division technical meeting, <em>CCFE</em></li>
+          <li>Computing Division technical meeting, <em>UKAEA</em></li>
           <li>Firedrake User Meeting 2024, <em>University of Oxford</em></li>
           <li>PDEsoft, <em>University of Cambridge</em></li>
           <li>Finite Element Fair, <em>University College London (UCL)</em></li>
           <li><strong>Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop, <em>University of Pisa</em></strong></li>
-          <li>UKAEA PhD student engagement day, <em>CCFE</em></li>
+          <li>UKAEA PhD student engagement day, <em>UKAEA</em></li>
           <li>Junior Applied Mathematics Seminar, <em>University of Warwick</em></li>
         </ul></p>
       </div>
