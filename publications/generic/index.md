@@ -38,7 +38,7 @@ Examples of such systems include:
 - the Boltzmann equation
 - pretty much any *irreversible* thermodynamic system
 
-We can apply the framework from [mine and Patrick Farrell's preprint]({{ "/publications/sp-integrators/" | absolute_url }}) to preserve both the **conservative** and **non-dissipation** structures.
+We can apply the framework from [mine and Patrick Farrell's preprint](publications/sp-integrators/index.md) to preserve both the **conservative** and **non-dissipation** structures.
 As such, we have a general way to construct structure-preserving finite-element methods for any of the above with arbitrary finite elements, and at arbitrary order in space and time.
 These properties are **crucial** for accurately capturing the dynamics of these systems.
 
@@ -52,9 +52,17 @@ These properties are **crucial** for accurately capturing the dynamics of these 
   <div class="outer">
     <div class="card">
       <div class="info">
+        <h3 class="title">2025</h3>
+        <p><ul>
+          <li><strong>Invited talk, <em>Brown Unversity</em></strong></li>
+        </ul></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
-          <li><strong>Internal seminar, <em>Rice University</em></strong></li>
+          <li>Internal seminar, <em>Rice University</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
         </ul></p>
       </div>
