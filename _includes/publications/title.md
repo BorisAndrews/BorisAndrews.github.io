@@ -1,2 +1,2 @@
-| Date | Title | Authors |
+| Date | Title | Co-authors |
 | --- | --- | --- |

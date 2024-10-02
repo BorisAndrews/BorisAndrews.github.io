@@ -1,1 +1,1 @@
-| Upcoming, <br> Draft available on request | High-order asymptotic-preserving integrators for charged particles in arbitrary magnetic fields | Boris Andrews |
+| Upcoming, <br> Draft available on request | High-order asymptotic-preserving integrators for charged particles in arbitrary magnetic fields | |
