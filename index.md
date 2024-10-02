@@ -4,7 +4,7 @@ title: HOME
 
 Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, working on structure-preserving numerical methods for PDEs under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship.
 
-***I'm also currently on the postdoc job market!***
+<div style="text-align: center;"><strong><em><span style="color: #B3532A;">I'm also currently on the postdoc job market!</span></em></strong></div>
 
 <br>
 
