@@ -9,7 +9,7 @@ permalink: /publications/inhomogeneous-bvps/
 
 ### Upcoming, Draft available on request
 
-*(Information available soon!)*
+*(Details available soon!)*
 
 ## Talks
 

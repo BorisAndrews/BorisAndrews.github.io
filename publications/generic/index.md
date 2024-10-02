@@ -10,8 +10,8 @@ permalink: /publications/generic/
 ### Upcoming, Draft available on request
 
 The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
-- a conserved energy
-- a non-decreasing entropy
+- a *conserved* energy
+- a *non-decreasing* entropy
 
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -38,9 +38,9 @@ Examples of such systems include:
 - the Boltzmann equation
 - pretty much any *irreversible* thermodynamic system
 
-We can apply the framework from [mine and Patrick Farrell's preprint](publications/sp-integrators/index.md) to preserve both the **conservative** and **non-dissipation** structures.
-As such, we have a general way to construct structure-preserving finite-element methods for any of the above with arbitrary finite elements, and at arbitrary order in space and time.
-These properties are **crucial** for accurately capturing the dynamics of these systems.
+We can apply the framework from [mine and Patrick Farrell's preprint](publications/sp-integrators/index.md) to preserve both the *conservative* and *non-dissipation* structures.
+As such, we have a **general way to construct structure-preserving finite-element methods for any of the above systems**, with arbitrary finite elements and at arbitrary order in space and time.
+These properties are *crucial* for accurately capturing the dynamics of these systems.
 
 *(Further details available soon!)*
 
