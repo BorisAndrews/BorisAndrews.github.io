@@ -1,0 +1,1 @@
+| Upcoming, <br> Draft available on request | [High-order structure-preserving finite-elements methods for inhomogeneous boundary-value problems via auxiliary variables]({{ "/publications/inhomogeneous-bvps/" | absolute_url }}) | |
