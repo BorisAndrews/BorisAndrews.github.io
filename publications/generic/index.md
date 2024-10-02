@@ -19,7 +19,7 @@ permalink: /publications/generic/
   <div class="outer">
     <div class="card">
       <div class="info">
-        <h3 class="title">2025</h3>
+        <h3 class="title">2024</h3>
         <p><ul>
           <li><strong>Internal seminar, <em>Rice University</em></strong></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>

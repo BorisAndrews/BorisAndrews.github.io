@@ -22,7 +22,7 @@ permalink: /publications/inhomogeneous-bvps/
         <h3 class="title">2025</h3>
         <p><ul>
           <li><strong>Firedrake User Meeting USA 2025, <em>Fort Worth, Texas</em></strong></li>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
+          <!-- <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div> -->
         </ul></p>
       </div>
     </div>
