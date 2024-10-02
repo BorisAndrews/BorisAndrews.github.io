@@ -24,12 +24,12 @@ permalink: /publications/sp-integrators/
     </div>
 </div>
 
-While the results of this work are more general, I would like to provide some exposition for it through the lens of
-- Hamiltonian systems,
-- symplectic integrators, and
-- the Benjamin--Bona--Mahony (BBM) equation,
+While the results of this work are more general, I would like to provide some exposition for it through the lens of:
+- Hamiltonian systems
+- symplectic integrators
+- the Benjamin--Bona--Mahony (BBM) equation
 
-as I find these results be informative, curious, motivating, and (not least) *cool*!
+I find these results be informative, curious, motivating, and (not least) *cool*!
 
 Symplectic integrators are frequently lauded for their *"energy-conserving properties"*.
 Their status as the gold standard for simulating Hamiltonian systems is often put down to this. <br>
