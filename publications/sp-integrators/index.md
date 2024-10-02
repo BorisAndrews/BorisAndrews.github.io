@@ -171,6 +171,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
       <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
+          <li>Internal seminar, <em>Rice University</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
           <li>Computing Division technical meeting, <em>UKAEA</em></li>
           <li>Firedrake User Meeting 2024, <em>University of Oxford</em></li>
