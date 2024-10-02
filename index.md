@@ -16,7 +16,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 
 {% include publications/lists/short.md %}
 
-*(Click titles for further details!)*
+*(Click titles for further details)*
 
 [View all]({{ "/publications/" | absolute_url }})
 
