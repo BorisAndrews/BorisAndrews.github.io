@@ -37,13 +37,13 @@ permalink: /cv/
 
 ## Prizes, awards & scholarships
 
-- **2021–2025 (DPhil)** <code>&#124;</code> EPSRC studentship: *£~70,000*, UKAEA studentship: *£~12,000*
-- **2017–2021 (MMath)** <code>&#124;</code> Worcester College Foundation scholarship: *£~200*, Worcester College collection prizes: *£~160*
+- **2021–2025 (DPhil)** <code>&#124;</code> EPSRC studentship, UKAEA studentship
+- **2017–2021 (MMath)** <code>&#124;</code> Worcester College Foundation scholarship, Worcester College collection prizes
 
-## Seminars, workshop & conference presentations
+## Seminar, workshop & conference presentations
 
 - **2025** <code>&#124;</code> {% include conferences/2025/ds.md %}\* *(Denver, Colorado)*, Invited talk\* *({% include universities/brown.md %})*, {% include conferences/2025/firedrake_usa.md %}\* *(Fort Worth, Texas)*, Numerical Mathematics & Scientific Computing seminar\* *({% include universities/rice.md %})*
-- **2024** <code>&#124;</code> Internal seminar\* *({% include universities/rice.md %})*, Computing Division technical meeting\* *({% include organisations/ukaea/short.md %})*, {% include conferences/2024/firedrake.md %} *({% include universities/oxford.md %})*, {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})*, {% include conferences/2024/fe_fair.md %} *({% include universities/ucl.md %})*, {% include conferences/2024/pisa_workshop.md %} *({% include universities/pisa.md %})*, UKAEA PhD student engagement day *({% include organisations/ukaea/short.md %})*, Junior Applied Mathematical Seminar *({% include universities/warwick.md %})*
+- **2024** <code>&#124;</code> Internal seminar\* *({% include universities/rice.md %})*, Computing Division technical meeting *({% include organisations/ukaea/short.md %})*, {% include conferences/2024/firedrake.md %} *({% include universities/oxford.md %})*, {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})*, {% include conferences/2024/fe_fair.md %} *({% include universities/ucl.md %})*, {% include conferences/2024/pisa_workshop.md %} *({% include universities/pisa.md %})*, UKAEA PhD student engagement day *({% include organisations/ukaea/short.md %})*, Junior Applied Mathematical Seminar *({% include universities/warwick.md %})*
 - **2023** <code>&#124;</code> {% include conferences/2023/iciam.md %} *({% include universities/waseda.md %})*, {% include conferences/2023/internal_seminar.md %} *({% include universities/oxford.md %})*, {% include conferences/2023/jams.md %} *({% include universities/oxford.md %})*, Met Office presentation *({% include universities/oxford.md %})*, Internal presentation *({% include organisations/tokamak_energy.md %})*
 - **2022** <code>&#124;</code> PRISM workshop *(Missenden Abbey, UK)*
 
@@ -51,6 +51,11 @@ permalink: /cv/
 
 ## Languages
 
-- **Native** <code>&#124;</code> English
+- **Fluent** <code>&#124;</code> English
 - **Intermediate** <code>&#124;</code> Dutch
 - **Beginner** <code>&#124;</code> Japanese, German
+
+## Programming languages
+
+- **Experienced** <code>&#124;</code> Python *(Firedrake)*, MATLAB, LaTeX
+- **Limited** <code>&#124;</code> Julia, C, Fortran, HTML
