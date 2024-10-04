@@ -2,7 +2,7 @@
     width: 80%;
     padding: 20px;
     color: #FBF6E5;
-    background-color: #6C7A82;
+    background: repeating-linear-gradient(135deg, #6C7A82, #6C7A82 10px, #616E75 10px, #616E75 20px);
     text-align: center;
     cursor: pointer;
     margin: 20px auto;
@@ -11,7 +11,7 @@
 }
 
 .reveal-box:hover {
-    background-color: #252A2C;
+    background: repeating-linear-gradient(135deg, #252A2C, #252A2C 10px, #1A1D1F 10px, #1A1D1F 20px);
 }
 
 .details {
