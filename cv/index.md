@@ -6,9 +6,9 @@ permalink: /cv/
 # CV
 
 {% include reveal-box.md %}
-<a href="/cv/" style="text-decoration: none;"><div class="reveal-box"><b>
-    CV
-</b></div></a>
+<a href="/assets/pdf/cv.pdf" class="reveal-box" style="text-decoration: none; display: block;">
+    <b>Download full PDF</b>
+</a>
 
 ## Education
 
