@@ -1,0 +1,302 @@
+\documentclass[12pt,a4paper,roman]{moderncv}
+\usepackage{palatino}
+\moderncvstyle{classic}
+
+\definecolor{color0}{rgb}{0,0,0}% black -- text
+\definecolor{color1}{rgb}{0.7686274509803922, 0.3058823529411765, 0.3215686274509804} % seabornred -- headers
+\definecolor{color2}{rgb}{0.7,0.7,0.7}% grey -- something else in moderncv (generally grey anyway so we're using it for the footer)
+
+\usepackage[]{geometry}
+\usepackage{etoolbox}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+
+%for social icons
+% \usepackage{fontawesome}
+
+% For margins
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ left=10mm,
+ right=10mm,
+ top=10mm,
+ bottom=20mm
+}
+
+
+% moderncv requirements
+\name{}{}
+\title{}
+
+% footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\usepackage{datetime2}
+\rfoot{\textcolor{color2}{\fontfamily{qag}\selectfont \textbf{Last updated: October 2024}}}
+
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0.2980392156862745, 0.4470588235294118, 0.6901960784313725}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\begin{document}
+
+{
+\fontfamily{qag}\selectfont
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{\textbf{Boris Andrews}} \\ [7.5pt]
+\href{https://scholar.google.co.uk/citations?user=J2ZsQZ0AAAAJ/}{\raisebox{-0.05\height}\faGoogle} \ $|$ \ 
+\href{https://github.com/BorisAndrews/}{\raisebox{-0.05\height}\faGithub} \ $|$ \ 
+\href{https://orcid.org/0000-0003-1769-3432/}{\raisebox{-0.05\height}\faOrcid} \ $|$ \ 
+\href{https://www.linkedin.com/in/boris-andrews-966631191/}{\raisebox{-0.05\height}\faLinkedin} \ $|$ \ 
+\href{mailto:boris.andrews@maths.ox.ac.uk}{\raisebox{-0.05\height}\faEnvelope \ boris.andrews@maths.ox.ac.uk} \\
+\href{https://borisandrews.github.io/}{\raisebox{-0.05\height}\faGlobe \ borisandrews.github.io}
+\end{tabularx}
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{\textsc{Education}}
+
+\cventry{2021 -- 2025 (predicted)}{University of Oxford}{PhD (DPhil) in Mathematics (Numerical Analysis)}{}{}{\begin{itemize}
+    \item Thesis: Structure-preserving finite-element methods via auxiliary variables: conservative and accurately dissipative integrators, and energy estimates for inhomogeneous boundary-value problems
+    \item Supervisors: \href{https://pefarrell.org/}{Patrick Farrell}, \href{https://www.linkedin.com/in/wayne-arter-86375211/}{Wayne Arter}
+\end{itemize}}
+
+\vspace{1mm}
+
+\cventry{2017 -- 2021}{University of Oxford}{Integrated Masters in Mathematics (MMath)}{First (Distinction)}{}{\begin{itemize}
+    \item Thesis: Computation and approximation properties of near orthogonal matrices for tall random matrices
+    \item Supervisor: \href{https://people.maths.ox.ac.uk/nakatsukasa/}{Yuji Nakatsukasa}
+\end{itemize}}
+
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{\textsc{Research Interests}}
+
+\cventry{}{Structure-preserving numerical methods for PDEs/ODEs}{Conservation and dissipation structures/Global \& local energy estimates}{}{}{}
+\cventry{}{Finite element theory}{Finite element exterior calculus/Domain decomposition/Parallel in time}{}{}{}
+\cventry{}{Hybrid fluid-particle models}{Plasma modelling}{}{}{}
+\cventry{}{Turbulent systems}{Stabilisation/Preconditioning}{}{}{}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS & PREPRINTS
+%----------------------------------------------------------------------------------------
+
+\section{\textsc{Publications \& Preprints}}
+
+\cventry{Preprints}{\href{https://doi.org/10.48550/arXiv.2407.11904}{High-order conservative and accurately dissipative numerical integrators via auxiliary variables}}{with \href{https://pefarrell.org/}{Patrick Farrell}}{July 2024}{}{\begin{itemize}
+    \item  Submitted to Foundations of Computational Mathematics
+\end{itemize}}
+
+\vspace{1mm}
+
+\cventry{Upcoming \emph{(Draft on request)}}{An augmented Lagrangian preconditioner for natural convection at high Reynolds number}{with \href{https://gazcaorozco.github.io/home/}{Alexei Gazca}, \href{https://pefarrell.org/}{Patrick Farrell}, \href{https://www.linkedin.com/in/benjamin-castellaz-242629210/}{Benjamin Castellaz}}{}{}{}
+
+\vspace{-4mm}
+
+\cventry{}{High-order conservative--dissipative integrators for reversible--irreversible systems}{}{}{}{}
+
+\vspace{1mm}
+
+\cventry{}{Structure-preserving finite-elements methods for inhomogeneous boundary-value problems via auxiliary variables}{}{}{}{}
+
+\vspace{1mm}
+
+\cventry{}{High-order asymptotic-preserving integrators for charged particles in arbitrary magnetic fields}{}{}{}{}
+
+\vspace{1mm}
+
+\cventry{Upcoming}{Conservative integrators exhibit greater stability than symplectic integrators on the Toda lattice}{with \href{https://www.linkedin.com/in/sebastian-ohlig-4013ab212/}{Sebastian Ohlig}, \href{https://pefarrell.org/}{Patrick Farrell}}{}{}{}
+
+\vspace{1mm}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+
+\section{\textsc{Professional Experience}}
+
+\cventry{Aug -- Oct 2024}{Tokamak Energy}{Internship}{Physics: theory and modelling}{}{}
+
+\vspace{1mm}
+
+\cventry{Jul -- Aug 2019}{Perm State University}{Internship}{Computational fluid dynamics}{}{}
+
+% \vspace{1mm}
+
+
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+
+\section{\textsc{Teaching Experience}}
+
+\cventry{2024 -- 2025}{Tutor}{University of Oxford}{Computational Mathematics}{}{}
+
+\vspace{1mm}
+
+\cventry{2023 -- 2024}{Tutor}{University of Oxford}{Prelims corner}{}{}
+
+\vspace{1mm}
+
+\cventry{}{Teaching assistant}{University of Oxford}{Numerical Linear Algebra}{}{}
+
+\vspace{1mm}
+
+\cventry{2021 -- 2022}{Teaching assistant}{University of Oxford}{Random Matrix Theory}{}{}
+
+\vspace{1mm}
+
+\cventry{}{Stipendiary lecturer}{Oriel College, University of Oxford}{Analysis I}{}{}
+
+\vspace{1mm}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PRIZES, AWARDS AND SCHOLARSHIPS
+%----------------------------------------------------------------------------------------
+
+\section{\textsc{Prizes, Awards and Scholarships}}
+
+\cventry{2021 -- 2025}{DPhil studentship}{Engineering and Physical Sciences Research Council (EPSRC)}{}{}{}
+
+\vspace{1mm}
+
+\cventry{}{DPhil studentship}{United Kingdom Atomic Energy Authority (UKAEA)}{}{}{}
+
+\vspace{1mm}
+
+\cventry{2017 -- 2021}{Foundation scholarship}{Worcester College, University of Oxford}{}{}{}
+
+\vspace{1mm}
+
+\cventry{}{Collection prizes}{Worcester College, University of Oxford}{}{}{}
+
+\vspace{1mm}
+
+
+
+%----------------------------------------------------------------------------------------
+%	SEMINAR AND CONFERENCE PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section{\textsc{Seminar, Workshop and Conference Presentations} \small{\textcolor{color0}{(*scheduled/provisional)}}}
+
+\cventry{2025}{
+    \textbf{SIAM DS25}* \normalfont{\emph{(Denver, Colorado)}} $\vert$
+    \textbf{Invited talk}* \normalfont{\emph{(Brown University)}} $\vert$
+    \textbf{Firedrake User Meeting USA 2025}* \normalfont{\emph{(Fort Worth, Texas)}} $\vert$
+    \textbf{Numerical Mathematics \& Scientific Computing seminar}* \normalfont{\emph{(Rice University)}}
+}{}{}{}{}
+
+\vspace{1mm}
+
+\cventry{2024}{
+    \textbf{Internal seminar}* \normalfont{\emph{(Rice University)}} $\vert$
+    \textbf{Computing Division technical meeting} \normalfont{\emph{(UKAEA)}} $\vert$
+    \textbf{Firedrake User Meeting 2024} \normalfont{\emph{(University of Oxford)}} $\vert$
+    \textbf{PDEsoft} \normalfont{\emph{(University of Cambridge)}} $\vert$
+    \textbf{European Finite Element Fair} \normalfont{\emph{(University College London)}} $\vert$
+    \textbf{Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop} \normalfont{\emph{(University of Pisa)}} $\vert$
+    \textbf{UKAEA PhD student engagement day} \normalfont{\emph{(UKAEA)}} $\vert$
+    \textbf{Junior Applied Mathematical Seminar} \normalfont{\emph{(University of Warwick)}}
+}{}{}{}{}
+
+\vspace{1mm}
+
+\cventry{2023}{
+    \textbf{ICIAM 2023} \normalfont{\emph{(Waseda University)}} $\vert$
+    \textbf{Numerical analysis group internal seminar} \normalfont{\emph{(University of Oxford)}} $\vert$
+    \textbf{Junior Applied Mathematics Seminar} \normalfont{\emph{(University of Oxford)}} $\vert$
+    \textbf{Met Office presentation} \normalfont{\emph{(University of Oxford)}} $\vert$
+    \textbf{Internal presentation} \normalfont{\emph{(Tokamak Energy)}}
+}{}{}{}{}
+
+\vspace{1mm}
+
+\cventry{2022}{
+    \textbf{PRISM workshop} \normalfont{\emph{(Missenden Abbey, UK)}}
+}{}{}{}{}
+
+\vspace{1mm}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PROGRAMMING LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{\textsc{Programming Languages}}
+
+\cventry{}{
+    \textbf{Experienced:} \normalfont{Python \emph{(Firedrake)}, MATLAB, LaTeX} $\vert$
+    \textbf{Limited:} \normalfont{Julia, C, Fortran, HTML}
+}{}{}{}{}
+
+\vspace{1mm}
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{\textsc{Languages}}
+
+\cventry{}{
+    \textbf{Fluent:} \normalfont{English} $\vert$
+    \textbf{Intermediate:} \normalfont{Dutch} $\vert$
+    \textbf{Beginner:} \normalfont{Japanese, German}
+}{}{}{}{}
+
+\vspace{1mm}
+
+
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{\textsc{References}}
+
+\hspace{26.5mm}
+\begin{tabular}{p{0.5\linewidth} p{0.5\linewidth}}
+    \textbf{Prof Patrick Farrell} & \textbf{Prof Endre Süli FRS}\\
+    Mathematical Institute & Mathematical Institute \\
+    University of Oxford & University of Oxford  \\
+    \href{mailto:patrick.farrell@maths.ox.ac.uk}{patrick.farrell@maths.ox.ac.uk} & 
+    \href{mailto:endre.suli@maths.ox.ac.uk}{endre.suli@maths.ox.ac.uk} \\
+    \vspace{1mm}
+    \textbf{Dr Wayne Arter} &  \\
+    UK Atomic Energy Authority (UKAEA) & \\
+    \href{mailto:wayne.arter@ukaea.uk}{wayne.arter@ukaea.uk}
+\end{tabular}
+
+
+
+\end{document}
