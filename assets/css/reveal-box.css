@@ -2,7 +2,7 @@
     width: 80%;
     padding: 20px;
     color: #FBF6E5;
-    background: repeating-linear-gradient(135deg, #6C7A82, #6C7A82 10px, #66737A 10px, #66737A 20px);
+    background: repeating-linear-gradient(135deg, #6C7A82, #6C7A82 10px, #6B7880 10px, #6B7880 20px);
     text-align: center;
     cursor: pointer;
     margin: 20px auto;
@@ -12,7 +12,7 @@
 
 .reveal-box:hover {
     color: #FBF6E5;
-    background: repeating-linear-gradient(135deg, #252A2C, #252A2C 10px, #1E2224 10px, #1E2224 20px);
+    background: repeating-linear-gradient(135deg, #252A2C, #252A2C 10px, #23282A 10px, #23282A 20px);
 }
 
 .details {
