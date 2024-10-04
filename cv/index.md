@@ -59,3 +59,7 @@ permalink: /cv/
 
 - **Experienced** <code>&#124;</code> Python *(Firedrake)*, MATLAB, LaTeX
 - **Limited** <code>&#124;</code> Julia, C, Fortran, HTML
+
+<a href="/assets/pdf/cv.pdf" class="reveal-box" style="text-decoration: none; display: block;">
+    <b>Download full PDF</b>
+</a>
