@@ -34,10 +34,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 {% include education/mmath.md %}
 {% include experience/perm.md %}
 
-{% include reveal-box.md %}
-<a href="/assets/pdf/cv.pdf" class="reveal-box" style="text-decoration: none; display: block;" target="_blank">
-    <b>Download full PDF</b>
-</a>
+{% include cv-download.md %}
 
 [View all]({{ "/cv/" | absolute_url }})
 
