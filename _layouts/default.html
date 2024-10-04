@@ -50,7 +50,10 @@ BDA:
 -->
 
 <!-- BDA: Link to Oxford contact button. -->
-        <p class="view"><a href="https://www.maths.ox.ac.uk/user/10859/contact">Contact me!</a></p>
+        {% include reveal-box.md %}
+        <a href="https://www.maths.ox.ac.uk/user/10859/contact/" style="text-decoration: none;"><div class="reveal-box"><p class = "view"><b>
+            Contact me!
+        </b></p></div></a>
         
 <!-- BDA: Link to email. -->
         <p class="view"><a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a></p>
@@ -76,6 +79,11 @@ BDA:
         
 <!-- BDA: Link to Oxford website. -->
         <p class="view"><a href="https://www.maths.ox.ac.uk/people/boris.andrews">University of Oxford profile</a></p>
+
+<!-- BDA: Link to CV. -->
+        <a href="/cv/" style="text-decoration: none;"><div class="reveal-box"><b>
+            CV
+        </b></div></a>
 
         {% if site.show_downloads %}
         <ul class="downloads">
