@@ -51,7 +51,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 - **28.FEB–1.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/firedrake_usa.md %} in *Fort Worth, Texas*, where I hope to be presenting [upcoming work on structure-preserving methods for inhomogeneous boundary-value problems](/publications/inhomogeneous-bvps/)
 - **3–7.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/cse.md %} in *Fort Worth, Texas*, where {% include collaborators/patrick/short.md %} will be presenting [our work on conservative integrators](/publications/sp-integrators/)
 - **MAR\*** <code>&#124;</code> Visiting *{% include universities/brown.md %}* to present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, with a focus on [upcoming work into structure-preserving methods for GENERIC systems](/publications/generic/)
-- **11–15.MAY\*** <code>&#124;</code> Attending {% include conferences/2025/ds.md %} in *Denver, Colorado*, where hope to be presenting [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}
+- **11–15.MAY\*** <code>&#124;</code> Attending {% include conferences/2025/ds.md %} in *Denver, Colorado*, where I hope to be presenting [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}
 - **15–20.JUN\*** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*
 
 *(\*scheduled/provisional)*
