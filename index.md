@@ -42,9 +42,6 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 
 ## Announcements & upcoming
 
-### 2024
-- **09.OCT** <code>&#124;</code> Presenting internal seminar at *{% include universities/rice.md %}* on [upcoming work into structure-preserving methods for GENERIC systems](/publications/generic/)
-
 ### 2025
 - **FEB\*** <code>&#124;</code> Planning to visit *{% include universities/baylor.md %}*
 - **FEB–MAR\*** <code>&#124;</code> Visiting *{% include universities/rice.md %}*, where I will be presenting [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} at the Numerical Mathematics and Scientific Computing seminar
