@@ -5,10 +5,7 @@ permalink: /cv/
 
 # CV
 
-{% include reveal-box.md %}
-<a href="/assets/pdf/cv.pdf" style="text-decoration: none;"><div class="reveal-box"><b>
-    Download full PDF
-</b></div></a>
+{% include cv-download.md %}
 
 ## Education
 
@@ -59,3 +56,5 @@ permalink: /cv/
 
 - **Experienced** <code>&#124;</code> Python *(Firedrake)*, MATLAB, LaTeX
 - **Limited** <code>&#124;</code> Julia, C, Fortran, HTML
+
+{% include cv-download.md %}
