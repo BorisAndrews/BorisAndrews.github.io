@@ -71,16 +71,16 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
         <div class="caption"><a href="https://pefarrell.org/"><b>Patrick Farrell</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
+        <img src="{{ '/assets/img/collaborators/kaibo.jpg' | relative_url }}" alt="Kaibo Hu">
+        <div class="caption"><a href="https://kaibohu.github.io/"><b>Kaibo Hu</b></a>, <br> <a href="https://www.maths.ed.ac.uk/school-of-mathematics/"><em>University of Edinburgh</em></a></div>
+    </div>
+    <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Alexei Gazca">
         <div class="caption"><a href="https://gazcaorozco.github.io/home/"><b>Alexei Gazca</b></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>University of Freiburg</em></a></div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/ben.jpeg' | relative_url }}" alt="Benjamin Castellaz">
-        <div class="caption"><a href="https://www.linkedin.com/in/benjamin-castellaz-242629210/"><b>Benjamin Castellaz</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/sebastian.jpeg' | relative_url }}" alt="Sebastian Ohlig">
-        <div class="caption"><a href="https://www.linkedin.com/in/sebastian-ohlig-4013ab212/"><b>Sebastian Ohlig</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+        <img src="{{ '/assets/img/collaborators/mingdong.png' | relative_url }}" alt="Mingdong He">
+        <div class="caption"><a href="https://sites.google.com/view/mingdonghe/home/"><b>Mingdong He</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
 </div>
 
