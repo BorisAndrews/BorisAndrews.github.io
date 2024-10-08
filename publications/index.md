@@ -7,4 +7,4 @@ permalink: /publications/
 
 {% include publications/lists/long.md %}
 
-*(Click titles for further details)*
+*(Click titles for further details and talks)*
