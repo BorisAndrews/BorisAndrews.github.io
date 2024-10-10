@@ -39,7 +39,7 @@ Examples of such systems include:
 - pretty much any *irreversible* thermodynamic system
 
 We can apply the framework from [mine and Patrick Farrell's preprint](/publications/sp-integrators/) to preserve both the **conservative** and **non-dissipation** structures.
-As such, we have a *general way to construct structure-preserving finite-element methods for any of the above systems*, with arbitrary finite elements and at arbitrary order in space and time.
+As such, we have a *general way to construct structure-preserving finite element methods for any of the above systems*, with arbitrary finite elements and at arbitrary order in space and time.
 
 These properties are **crucial for accurately capturing the dynamics** of these systems.
 
