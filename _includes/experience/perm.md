@@ -1,1 +1,1 @@
-- **JUL–AUG.2019** <code>&#124;</code> Computational fluid dynamics internship, *{% include universities/perm.md %}*
+- **JUL–AUG.2019** <code>&#124;</code> Computational fluid dynamics internship *({% include universities/perm.md %})*

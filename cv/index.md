@@ -22,6 +22,7 @@ permalink: /cv/
 
 ## Professional experience
 
+{% include experience/sebastian.md %}
 {% include experience/tokamak_energy.md %}
 {% include experience/perm.md %}
 
