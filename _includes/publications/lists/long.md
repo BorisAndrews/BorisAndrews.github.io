@@ -4,6 +4,6 @@
 {% include publications/all/generic.md %}
 {% include publications/all/natural-convection.md %}
 {% include publications/all/inhomogeneous-bvps.md %}
+{% include publications/all/integrable.md %}
 {% include publications/all/ap-integrators.md %}
-{% include publications/all/thesis.md %}
 {% include publications/all/toda.md %}
