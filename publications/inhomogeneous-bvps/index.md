@@ -3,7 +3,7 @@ title: INHOMOGENEOUS BVPs
 permalink: /publications/inhomogeneous-bvps/
 ---
 
-# STRUCTURE-PRESERVING FINITE-ELEMENT METHODS FOR INHOMOGENEOUS BOUNDARY-VALUE PROBLEMS VIA AUXILIARY VARIABLES
+# STRUCTURE-PRESERVING FINITE ELEMENT METHODS FOR INHOMOGENEOUS BOUNDARY-VALUE PROBLEMS VIA AUXILIARY VARIABLES
 
 ### Boris Andrews
 
@@ -21,6 +21,7 @@ permalink: /publications/inhomogeneous-bvps/
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
+          <li><strong>EMS School on Mathematical Modelling, Numerical Analysis and Scientific Computing, <em>Kácov, Czechia</em></strong></li>
           <li><strong>Firedrake User Meeting USA 2025, <em>Fort Worth, Texas</em></strong></li>
           <!-- <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div> -->
         </ul></p>

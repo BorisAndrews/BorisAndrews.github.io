@@ -1,12 +1,2 @@
-FINISH:
-https://borisandrews.github.io/cv/
-
-CREATE:
-https://borisandrews.github.io/about-me/
-
-OTHER:
-add cv as pdf with easily accessible download button
 change google scholar icon
-make timelines more compact
 add links to talks/universities (do these as includes)
-find a low-effort way to keep the last updated date up-to-date on my sitemap

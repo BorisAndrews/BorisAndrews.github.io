@@ -20,7 +20,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 
 {% include publications/lists/short.md %}
 
-*(Click titles for further details)*
+*(Click titles for further details and talks)*
 
 [View all]({{ "/publications/" | absolute_url }})
 
@@ -42,9 +42,6 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 
 ## Announcements & upcoming
 
-### 2024
-- **09.OCT** <code>&#124;</code> Presenting internal seminar at *{% include universities/rice.md %}* on [upcoming work into structure-preserving methods for GENERIC systems](/publications/generic/)
-
 ### 2025
 - **FEB\*** <code>&#124;</code> Planning to visit *{% include universities/baylor.md %}*
 - **FEB–MAR\*** <code>&#124;</code> Visiting *{% include universities/rice.md %}*, where I will be presenting [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} at the Numerical Mathematics and Scientific Computing seminar
@@ -52,7 +49,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 - **3–7.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/cse.md %} in *Fort Worth, Texas*, where {% include collaborators/patrick/short.md %} will be presenting [our work on conservative integrators](/publications/sp-integrators/)
 - **MAR\*** <code>&#124;</code> Visiting *{% include universities/brown.md %}* to present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, with a focus on [upcoming work into structure-preserving methods for GENERIC systems](/publications/generic/)
 - **11–15.MAY\*** <code>&#124;</code> Attending {% include conferences/2025/ds.md %} in *Denver, Colorado*, where I hope to be presenting [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}
-- **15–20.JUN\*** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*
+- **15–20.JUN\*** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*, where I intend to present [upcoming work on structure-preserving methods for inhomogeneous boundary-value problems](/publications/inhomogeneous-bvps/)
 
 *(\*scheduled/provisional)*
 
@@ -68,16 +65,16 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
         <div class="caption"><a href="https://pefarrell.org/"><b>Patrick Farrell</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
+        <img src="{{ '/assets/img/collaborators/kaibo.jpg' | relative_url }}" alt="Kaibo Hu">
+        <div class="caption"><a href="https://kaibohu.github.io/"><b>Kaibo Hu</b></a>, <br> <a href="https://www.maths.ed.ac.uk/school-of-mathematics/"><em>University of Edinburgh</em></a></div>
+    </div>
+    <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Alexei Gazca">
         <div class="caption"><a href="https://gazcaorozco.github.io/home/"><b>Alexei Gazca</b></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>University of Freiburg</em></a></div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/ben.jpeg' | relative_url }}" alt="Benjamin Castellaz">
-        <div class="caption"><a href="https://www.linkedin.com/in/benjamin-castellaz-242629210/"><b>Benjamin Castellaz</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/sebastian.jpeg' | relative_url }}" alt="Sebastian Ohlig">
-        <div class="caption"><a href="https://www.linkedin.com/in/sebastian-ohlig-4013ab212/"><b>Sebastian Ohlig</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+        <img src="{{ '/assets/img/collaborators/mingdong.png' | relative_url }}" alt="Mingdong He">
+        <div class="caption"><a href="https://sites.google.com/view/mingdonghe/home/"><b>Mingdong He</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
 </div>
 
