@@ -1,1 +1,1 @@
-[Wayne Arter](https://www.linkedin.com/in/wayne-arter-86375211/)
+[Wayne Arter](https://scholar.google.co.uk/citations?user=XRAFAoEAAAAJ)
