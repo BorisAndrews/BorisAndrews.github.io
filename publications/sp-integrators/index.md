@@ -161,7 +161,6 @@ The framework is *general and powerful*. If you are investigating any type of tr
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><strong>SIAM DS25, <em>Denver, Colorado</em></strong></li>
           <li><strong>Invited talk, <em>Brown Unversity</em></strong></li>
           <li><strong>Numerical Mathematics & Scientific Computing seminar, <em>Rice University</em></strong></li>
         </ul></p>

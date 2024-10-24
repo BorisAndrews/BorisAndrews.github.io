@@ -1,1 +1,0 @@
-[SIAM DS25](https://www.siam.org/conferences-events/siam-conferences/ds25/)
