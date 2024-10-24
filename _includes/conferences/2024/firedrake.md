@@ -1,1 +1,1 @@
-[Firedrake User Meeting 2024](https://www.firedrakeproject.org/firedrake_24.html)
+[Firedrake User Meeting](https://www.firedrakeproject.org/firedrake_24.html)

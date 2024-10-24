@@ -1,1 +1,1 @@
-Firedrake User Meeting USA 2025
+Firedrake User Meeting USA
