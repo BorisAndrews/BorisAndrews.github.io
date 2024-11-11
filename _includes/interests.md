@@ -1,4 +1,4 @@
-- **Structure-preserving numerical methods for PDEs/ODEs** <code>&#124;</code> Conservative & dissipative integrators/Preserving global & local energy estimates & conservation laws/Asymptotic-preserving integrators/Geometric machine learning
-- **Finite element theory** <code>&#124;</code> Finite element exterior calculus (FEEC)/Domain decomposition/Parallel in time (PinT)
-- **Plasma modelling** <code>&#124;</code> Magnetohydrodynamics (MHD)/Hybrid fluid-particle models
-- **Turbulent systems** <code>&#124;</code> Stabilisation/Preconditioning
+- **Structure-preserving numerical methods for PDEs & ODEs** <code>&#124;</code> Conservative & dissipative integrators / Preserving global & local energy estimates & conservation laws / Asymptotic-preserving integrators / Geometric machine learning
+- **Finite element theory** <code>&#124;</code> Finite element exterior calculus (FEEC) / Domain decomposition / Parallel in time (PinT)
+- **Plasma modelling** <code>&#124;</code> Magnetohydrodynamics (MHD) / Hybrid fluid-particle models
+- **Turbulent systems** <code>&#124;</code> Stabilisation / Preconditioning
