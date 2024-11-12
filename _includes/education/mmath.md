@@ -1,4 +1,4 @@
-- **2017–2021** <code>&#124;</code> Masters in mathematics (MMath), *{% include universities/oxford.md %}*
-    - **Grade** <code>&#124;</code> First (distinction)
+- **2017–2021** <code>&#124;</code> Masters in Mathematics (MMath), *{% include universities/oxford.md %}*
+    - **Grade** <code>&#124;</code> First (Distinction)
     - **Thesis** <code>&#124;</code> Computation and approximation properties of near orthogonal matrices for tall random matrices
     - **Supervisor** <code>&#124;</code> [Yuji Nakatsukasa](https://people.maths.ox.ac.uk/nakatsukasa/)
