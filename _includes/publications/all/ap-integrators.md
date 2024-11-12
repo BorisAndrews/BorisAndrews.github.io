@@ -1,1 +1,1 @@
-| Upcoming, <br> Draft available on request | High-order asymptotic-preserving integrators for charged particles in arbitrary magnetic fields | |
+| Upcoming, <br> Draft available on request | Uniformly accurate magnetic moment--preserving integrators for charged particles | |
