@@ -43,11 +43,12 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) student in the [numerica
 ## Announcements & upcoming
 
 ### 2025
-- **FEB\*** <code>&#124;</code> Planning to visit *{% include universities/baylor.md %}*
-- **FEB–MAR\*** <code>&#124;</code> Visiting *{% include universities/rice.md %}*, where I will be presenting [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} at the Numerical Mathematics and Scientific Computing seminar
-- **28.FEB–1.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/firedrake_usa.md %} in *Fort Worth, Texas*, where I hope to be presenting [upcoming work on structure-preserving methods for inhomogeneous boundary-value problems](/publications/inhomogeneous-bvps/)
-- **3–7.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/cse.md %} in *Fort Worth, Texas*, where {% include collaborators/patrick/short.md %} will be presenting [our work on conservative integrators](/publications/sp-integrators/)
-- **MAR\*** <code>&#124;</code> Visiting *{% include universities/brown.md %}* to present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, with a focus on [upcoming work into structure-preserving methods for GENERIC systems](/publications/generic/)
+- **FEB\*** <code>&#124;</code> Visiting *{% include universities/baylor.md %}*
+- **28.FEB–01.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/firedrake_usa.md %} in *{% include universities/baylor.md %}*, where I hope to be presenting [upcoming work on structure-preserving methods for inhomogeneous boundary-value problems](/publications/inhomogeneous-bvps/)
+- **03–07.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/cse.md %} in *Fort Worth, Texas*, where {% include collaborators/patrick/short.md %} will be presenting [our work on conservative integrators](/publications/sp-integrators/)
+- **08.MAR–09.MAR\*** <code>&#124;</code> Attending {% include conferences/2025/fe_rodeo.md %} in *{% include universities/rice.md %}*, where...
+- **MAR\*** <code>&#124;</code> Visiting *{% include universities/rice.md %}*, where I will be presenting [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} at the Numerical Mathematics and Scientific Computing seminar
+- **FEB–MAR\*** <code>&#124;</code> Visiting *{% include universities/brown.md %}* to present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, with a focus on [upcoming work into structure-preserving methods for GENERIC systems](/publications/generic/)
 - **15–20.JUN\*** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*, where I intend to present [upcoming work on structure-preserving methods for inhomogeneous boundary-value problems](/publications/inhomogeneous-bvps/)
 
 *(\*scheduled/provisional)*
