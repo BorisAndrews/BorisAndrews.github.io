@@ -3,4 +3,4 @@
 {% include publications/all/mhd.md %}
 {% include publications/all/generic.md %}
 {% include publications/all/natural-convection.md %}
-{% include publications/all/inhomogeneous-bvps.md %}
+{% include publications/all/bvps.md %}
