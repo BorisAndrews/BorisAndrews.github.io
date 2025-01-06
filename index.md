@@ -44,9 +44,10 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) candidate in the [numeri
 
 ### 2025
 - **24.FEB–12.MAR** <code>&#124;</code> Visiting the US, travelling from Rhode Island (Providence) to Texas (Fort Worth -> Houston)
-  - **24–28.FEB** <code>&#124;</code> Visiting *{% include universities/brown.md %}* to present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} at the Scientific Computing Seminar (28.FEB) with a focus on [upcoming work into structure-preserving methods for GENERIC systems](/publications/generic/)
-  - **03–07.MAR** <code>&#124;</code> Attending {% include conferences/2025/cse.md %} in *Fort Worth, Texas*, where I will be presenting [my work on conservative integrators](/publications/sp-integrators/) at the minisymposium on Computational Methods for non-Newtonian Flows (04.MAR)
-  - **10–11/12.MAR** <code>&#124;</code> Visiting *{% include universities/rice.md %}*, where I will be presenting a special lecture on [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} (10/11.MAR)
+    - **24–28.FEB** <code>&#124;</code> Visiting *{% include universities/brown.md %}* to present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} at the Scientific Computing Seminar (28.FEB) with a focus on [upcoming work into structure-preserving methods for GENERIC systems](/publications/generic/)
+    - **29.FEB\*** <code>&#124;</code> Attending {% include conferences/2025/firedrake_usa.md %} at *{% include universities/baylor.md %}* *(if I have time!)* to present [upcoming work on structure-preserving methods for boundary-value problems](/publications/bvps/) *(again, if I have time!)*
+    - **03–07.MAR** <code>&#124;</code> Attending {% include conferences/2025/cse.md %} in *Fort Worth, Texas*, where I will be presenting [my work on conservative integrators](/publications/sp-integ rators/) at the minisymposium on Computational Methods for non-Newtonian Flows (04.MAR)
+    - **10–11/12.MAR** <code>&#124;</code> Visiting *{% include universities/rice.md %}*, where I will be presenting a special lecture on [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} (10/11.MAR)
 - **15–20.JUN\*** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*, where I intend to present [upcoming work on structure-preserving methods for boundary-value problems](/publications/bvps/)
 
 *(\*scheduled/provisional)*
