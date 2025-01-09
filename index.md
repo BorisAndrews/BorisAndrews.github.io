@@ -49,6 +49,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) candidate in the [numeri
     - **03–07.MAR** <code>&#124;</code> Attending {% include conferences/2025/cse.md %} in *Fort Worth, TX*, where I will be presenting [my work on conservative integrators](/publications/sp-integ rators/) at the minisymposium on Computational Methods for non-Newtonian Flows (04.MAR)
     - **10–11/12.MAR** <code>&#124;</code> Visiting *{% include universities/rice.md %}*, where I will be presenting a special lecture on [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} (10/11.MAR)
 - **15–20.JUN\*** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*, where I intend to present [upcoming work on structure-preserving methods for boundary-value problems](/publications/bvps/)
+- **24–27.JUN\*** <code>&#124;</code> Hosting (and presenting at) a minisymposium at the {% include conferences/2025/strathclyde.md %} at the *{% include universities/strathclyde.md %}*
 
 *(\*provisional)*
 

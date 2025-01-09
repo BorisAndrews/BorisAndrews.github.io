@@ -1,2 +1,0 @@
-change google scholar icon
-add links to talks/universities (do these as includes)
