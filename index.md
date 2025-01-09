@@ -50,7 +50,7 @@ Hi! I'm Boris Andrews, and I'm a final-year PhD (DPhil) candidate in the [numeri
     - **10–11/12.MAR** <code>&#124;</code> Visiting *{% include universities/rice.md %}*, where I will be presenting a special lecture on [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} (10/11.MAR)
 - **15–20.JUN\*** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*, where I intend to present [upcoming work on structure-preserving methods for boundary-value problems](/publications/bvps/)
 
-*(\*scheduled/provisional)*
+*(\*provisional)*
 
 <br>
 
