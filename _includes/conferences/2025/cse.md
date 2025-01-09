@@ -1,1 +1,1 @@
-[SIAM CSE25](https://meetings.siam.org/sess/dsp_talk.cfm?p=140848)
+[SIAM CSE](https://meetings.siam.org/sess/dsp_talk.cfm?p=140848)
