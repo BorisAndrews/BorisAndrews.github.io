@@ -161,7 +161,8 @@ The framework is *general and powerful*. If you are investigating any type of tr
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><strong>Invited talk, <em>Brown Unversity</em></strong></li>
+          <li><strong>Scientific Computing seminar, <em>Brown Unversity</em></strong></li>
+          <li><strong>Minisymposium talk, <em>SIAM CSE</em></strong></li>
           <li><strong>Numerical Mathematics & Scientific Computing seminar, <em>Rice University</em></strong></li>
         </ul></p>
       </div>
@@ -173,7 +174,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
           <li>External ("tiny desk") seminar, <em>Rice University</em></li>
           <li>Computing Division technical meeting, <em>UKAEA</em></li>
-          <li>Firedrake User Meeting 2024, <em>University of Oxford</em></li>
+          <li>Firedrake User Meeting, <em>University of Oxford</em></li>
           <li>PDEsoft, <em>University of Cambridge</em></li>
           <li>Finite Element Fair, <em>University College London (UCL)</em></li>
           <li><strong>Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop, <em>University of Pisa</em></strong></li>
@@ -186,7 +187,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
       <div class="info">
         <h3 class="title">2023</h3>
         <p><ul>
-          <li><strong>ICIAM 2023, <em>Waseda University</em></strong></li>
+          <li><strong>ICIAM, <em>Waseda University</em></strong></li>
           <li>Numerical analysis group internal seminar, <em>University of Oxford</em></li>
           <li>Junior Applied Mathematics Seminar, <em>University of Oxford</em></li>
           <li>Met Office presentation, <em>University of Oxford</em></li>
