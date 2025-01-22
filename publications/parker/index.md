@@ -99,7 +99,7 @@ The *Parker conjecture* supposes that ideal magnetic relaxation may develop tang
 our scheme should prove vital for numerical investigations into its validity.
 
 We hope our work can both **motivate the use of conservative/structure-preserving integrators**, and introduce **numerical discretisations** as a valid tool for **investigations into the Parker conjecture**;
-we would all *gladly* discuss it further:
+*we would all gladly discuss it further!*
 - <a href="mailto:mingdong.he@maths.ox.ac.uk">mingdong.he@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
 - <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>
@@ -107,3 +107,11 @@ we would all *gladly* discuss it further:
 
 **Note:**
 this scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
+
+## Co-authors
+
+### {% include collaborators/mingdong/full.md %}
+
+### {% include collaborators/patrick/full.md %}
+
+### {% include collaborators/kaibo/full.md %}
