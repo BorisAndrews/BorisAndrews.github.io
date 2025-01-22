@@ -74,15 +74,24 @@ In the equilibrium state therefore, the **magnetic field should not vanish**.
         This has a neat <em>topological</em> interpretation!
         (Hence <em>"topology-preserving"</em> in the title.) <br>
         The helicity \(\mathcal{H}\) can be interpreted as a continuous analogue of an idea from <b>knot theory</b>: the <em>linking number</em>.
-        This represents the number of times a pair of loops winds around the other (1, 2, 3 in the image below). <br>
-        <img src="assets/img/linking.jpeg" alt="linking_numbers">
+        This represents the number of times a pair of loops winds around the other (1, 2, 3 in the image below). <br><br>
+        <img src="assets/img/linking.jpeg" alt="linking_numbers"><br>
         The helicity \(\mathcal{H}\) essentially quantifies how <b>knotted</b> the intial magnetic field is.
         The conservation of \(\mathcal{H}\) implies that magnetic relaxation <b>cannot untie these knots</b>. <br>
         Essentially, the relaxation process should <b>loosen the knots</b>, but <b>not untie them</b>.
     </div>
 </div>
 
-[Why?]
+While these structures exist on the continuous level, they are not necessarily preserved in the simulation.
+In particular, existing numerical schemes typically do not conserve \\(\mathcal{H}\\).
+
+In our work, we construct a numerical scheme that **conserves** \\(\mathcal{H}\\) **exactly**;
+compare with the \\(H(\mathrm{div})\\) scheme in the figure below, in which \\(\mathcal{H}\\) converges to \\(0\\).
+Together with the Arnold inequality, this ensures \\(\mathcal{E}\\) cannot decay to \\(0\\), and that the magnetic field will not artificially vanish.
+
+![sp_laws](assets/img/sp_laws.jpeg)
+
+
 
 [This has a neat topological interpretation, hence *"topology-preserving"* in the title.]
 
