@@ -9,6 +9,43 @@ permalink: /publications/parker/
 
 ### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654))
 
+> *This work presents an **energy- and helicity-preserving** finite element discretization for the **magneto-frictional system**, for investigating the **Parker conjecture**. The algorithm **preserves a discrete version of the topological barrier** and a discrete Arnold inequality.*
+
+{% include reveal-box.md %}
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>FULL ABSTRACT</b>
+    <div class="details">
+        The Parker conjecture, which explores whether magnetic fields in perfectly conducting plasmas can develop tangential discontinuities during magnetic relaxation, remains an open question in astrophysics.
+        Helicity conservation provides a topological barrier during relaxation, preventing topologically nontrivial initial data relaxing to trivial solutions;
+        preserving this mechanism discretely over long time periods is therefore crucial for numerical simulation.
+        This work presents an energy- and helicity-preserving finite element discretization for the magneto-frictional system, for investigating the Parker conjecture.
+        The algorithm preserves a discrete version of the topological barrier and a discrete Arnold inequality.
+        We also discuss extensions to domains with nontrivial topology.
+    </div>
+</div>
+
+***[What is the Parker problem]***
+
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>FULL DETAILS</b>
+    <div class="details">
+        The general GENERIC ODE in \(\mathbf{x} : \mathbb{R}_+ \to \mathbb{R}^d\) is
+        \[
+            \dot{\mathbf{x}}  =  L(\mathbf{x})\nabla E(\mathbf{x}) + M(\mathbf{x})\nabla S(\mathbf{x}).
+        \]
+        Here, \(E, S : \mathbb{R}^d \to \mathbb{R}\) are the (conserved) energy and (non-decreasing) entropy, and \(L, M : \mathbb{R}^d \to \mathbb{R}^{d\times d}\) are the skew-symmetric (Poisson) matrix and positive-semidefinite (friction) matrix.
+        With the following orthogonality conditions,
+        \[
+            \nabla S(\mathbf{x})^\top L(\mathbf{x}) = 0,  \qquad
+            \nabla H(\mathbf{x})^\top M(\mathbf{x}) = 0,
+        \]
+        the conservation of \(E\) and non-dissipation of \(S\) can be identified by testing against \(\nabla E\) and \(\nabla S\) respectively.
+        Extending to PDEs is fiddly (for the introduction of Fréchet derivatives) but similar.
+    </div>
+</div>
+
+---
+
 The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
 - a *conserved* energy
 - a *non-decreasing* entropy
