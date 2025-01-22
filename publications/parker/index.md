@@ -9,7 +9,7 @@ permalink: /publications/parker/
 
 ### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654))
 
-> *This work presents an **energy- and helicity-preserving** finite element discretization for the **magneto-frictional system**, for investigating the **Parker conjecture**. The algorithm **preserves a discrete version of the topological barrier** and a discrete Arnold inequality.*
+> *[...] This work presents an **energy- and helicity-preserving** finite element discretization for the **magneto-frictional system**, for investigating the **Parker conjecture**. The algorithm **preserves a discrete version of the topological barrier** and a discrete Arnold inequality. [...]*
 
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -24,8 +24,6 @@ permalink: /publications/parker/
     </div>
 </div>
 
-[Attribute Mingdong]
-
 The results of this work are, to me, *tremendously exciting*.
 They demonstrate how utterly vital it is, when designing a numerical simulation, that you **preserve your conservation and dissipation laws** from the continuous level to the discrete.
 
@@ -34,7 +32,7 @@ MHD systems are typically long-duration, large-scale plasmas (e.g. the Sun, in p
 
 ![solar_corona](assets/img/corona.jpg)
 
-In this work, we develop accurate **numerical simulations** for a certain **magnetic relaxation** model: *the magneto-frictional equations*.
+In this work, we develop **accurate numerical simulations** for a certain **magnetic relaxation** model: *the magneto-frictional equations*.
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>MAGNETO-FRICTIONAL EQUATIONS</b>
@@ -71,10 +69,12 @@ since \\(\mathcal{H}\\) is constant, this means \\(\mathcal{E}\\) can never reac
 In the equilibrium state therefore, the **magnetic field should not vanish**.
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>TOPOLOGICAL INTERPRETATION</b>
+    <b>FUN TOPOLOGICAL DIVERSION</b>
     <div class="details">
         This has a neat <em>topological</em> interpretation!
-        (Hence <em>"topology-preserving"</em> in the title.)
+        (Hence <em>"topology-preserving"</em> in the title.) <br>
+        The helicity \(\mathcal{H}\) can be interpreted as a continuous analogue of an idea from <strong>knot theory</strong>: the <em>linking number</em>.
+        This represents the number of times a pair of loops winds around the other (1, 2, 3 in the image below). <br>
 
         <img src="assets/img/linking.jpeg" alt="linking_numbers">
     </div>
