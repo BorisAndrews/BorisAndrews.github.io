@@ -61,8 +61,7 @@ The magneto-frictional equations **conserve** a quantity called the *helicity*, 
 </div>
 
 If \\(\mathcal{E}\\) ever hits \\(0\\), the system has necessarily relaxed to a *trivial steady state*, i.e. the magnetic field has just vanished everywhere.
-The interest thing however is that **this should never be the case**.
-
+The interest thing however is that **this should never be the case**. <br>
 A simple inequality, the *Arnold inequality*, says that \\(\mathcal{E}\\) **can not pass below a certain multiple of** \\(\mathcal{H}\\);
 since \\(\mathcal{H}\\) is constant, this means \\(\mathcal{E}\\) can never reach \\(0\\).
 In the equilibrium state therefore, the **magnetic field should not vanish**.
@@ -75,32 +74,31 @@ In the equilibrium state therefore, the **magnetic field should not vanish**.
         The helicity \(\mathcal{H}\) can be interpreted as a continuous analogue of an idea from <b>knot theory</b>: the <em>linking number</em>.
         This represents the number of times a pair of loops winds around the other (1, 2, 3 in the image below). <br><br>
         <img src="assets/img/linking.jpeg" alt="linking_numbers"><br><br>
-        The helicity \(\mathcal{H}\) essentially quantifies how <b>knotted</b> the intial magnetic field is.
+        Essentially, \(\mathcal{H}\) quantifies how <b>knotted</b> the intial magnetic field is.
         The conservation of \(\mathcal{H}\) implies that magnetic relaxation <b>cannot untie these knots</b>. <br>
-        Essentially, the relaxation process should <b>loosen the knots</b>, but <b>not untie them</b>.
+        It should <b>loosen the knots</b>, but <b>never untie them</b>.
     </div>
 </div>
 
 While these structures exist on the continuous level, they are not necessarily preserved in the simulation.
-In particular, existing numerical schemes typically do not conserve \\(\mathcal{H}\\).
-
+In particular, **existing numerical schemes typically do not conserve** \\(\mathcal{H}\\). <br>
 In our work, we construct a numerical scheme that **conserves** \\(\mathcal{H}\\) **exactly**;
-compare with the \\(H(\mathrm{div})\\) scheme in the figure below, in which \\(\mathcal{H}\\) converges to \\(0\\).
+compare with the \\(H(\mathrm{div})\\) scheme in the figure below, in which \\(\mathcal{H}\\) dissipates to \\(0\\).
 Together with the Arnold inequality, this ensures \\(\mathcal{E}\\) cannot decay to \\(0\\)...
 
 ![sp_laws](assets/img/sp_laws.jpeg)
 
-...and that **the computed magnetic field will not artificially vanish**.
+...and that the **computed magnetic field will not artificially vanish**!
 
 ![field_lines](assets/img/field_lines.jpeg)
 
 I'd like to conclude this by emphasising:
-this is essentially the **first magnetic relaxation simulation that does not artificially dissipate to nothing**. <br>
+*this is essentially the **first magnetic relaxation simulation that does not artificially dissipate to nothing***. <br>
 This means it's the first that can be used to investigate these equations' long-term behaviour.
 The *Parker conjecture* supposes that ideal magnetic relaxation may develop tangential discontinuities;
 our scheme should prove vital for numerical investigations into its validity.
 
-We hope our work can both **motivate the use of conservative/structure-preserving integrators**, and introduce numerical discretisations as a valid tool for **numerical investigations into the Parker conjecture**;
+We hope our work can both **motivate the use of conservative/structure-preserving integrators**, and introduce **numerical discretisations** as a valid tool for **investigations into the Parker conjecture**;
 we would all *gladly* discuss it further:
 - <a href="mailto:mingdong.he@maths.ox.ac.uk">mingdong.he@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
