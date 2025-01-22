@@ -25,10 +25,10 @@ permalink: /publications/parker/
 </div>
 
 The results of this work are, to me, *tremendously exciting*.
-They demonstrate how utterly vital it is, when designing a numerical simulation, that you **preserve your conservation and dissipation laws** from the continuous level to the discrete.
+They demonstrate how vital it is, when designing a numerical simulation, that you **preserve your conservation and dissipation laws** from the continuous level to the discrete.
 
 *Magnetic relaxation* is the process by which a magnetic or **magnetohydrodynamic (MHD)** system **converges to its equilibrium/steady state**.
-MHD systems are typically long-duration, large-scale plasmas (e.g. the Sun, in particular its corona visible in the photo below) or liquid metals (e.g. the Earth's core).
+These systems are typically long-duration, large-scale plasmas (e.g. the Sun, in particular its corona visible in the photo below) or liquid metals (e.g. the Earth's core).
 
 ![solar_corona](assets/img/corona.jpg)
 
@@ -37,7 +37,6 @@ In this work, we develop **accurate numerical simulations** for a certain **magn
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>MAGNETO-FRICTIONAL EQUATIONS</b>
     <div class="details">
-        The system is given by
         \[
             \dot{\mathbf{B}} + \mathrm{curl}\,\mathbf{E} = \mathbf{0},  \\
             \mathbf{E} + \mathbf{u}\times\mathbf{B} = \mathbf{0},  \\
@@ -57,12 +56,12 @@ The magneto-frictional equations **conserve** a quantity called the *helicity*, 
             \mathcal{H} \coloneqq \int\mathbf{A}\cdot\mathbf{B},  \qquad
             \mathcal{E} \coloneqq \int\mathbf{B}\cdot\mathbf{B},
         \]
-        where \(\mathbf{A}\) is the magnetic potential satisfying \(\mathcal{B} = \mathrm{curl}\,\mathbf{A}\).
+        where \(\mathbf{A}\) is the magnetic potential satisfying \(\mathbf{B} = \mathrm{curl}\,\mathbf{A}\).
     </div>
 </div>
 
-If \\(\mathcal{E}\\) ever hits \\(0\\), the system has relaxed to a *trivial steady state*, i.e. the magnetic field has vanished everywhere.
-The interest thing however is that **this should never happen**.
+If \\(\mathcal{E}\\) ever hits \\(0\\), the system has necessarily relaxed to a *trivial steady state*, i.e. the magnetic field has just vanished everywhere.
+The interest thing however is that **this should never be the case**.
 
 A simple inequality, the *Arnold inequality*, says that \\(\mathcal{E}\\) **can not pass below a certain multiple of** \\(\mathcal{H}\\);
 since \\(\mathcal{H}\\) is constant, this means \\(\mathcal{E}\\) can never reach \\(0\\).
@@ -75,7 +74,7 @@ In the equilibrium state therefore, the **magnetic field should not vanish**.
         (Hence <em>"topology-preserving"</em> in the title.) <br>
         The helicity \(\mathcal{H}\) can be interpreted as a continuous analogue of an idea from <b>knot theory</b>: the <em>linking number</em>.
         This represents the number of times a pair of loops winds around the other (1, 2, 3 in the image below). <br><br>
-        <img src="assets/img/linking.jpeg" alt="linking_numbers"><br>
+        <img src="assets/img/linking.jpeg" alt="linking_numbers"><br><br>
         The helicity \(\mathcal{H}\) essentially quantifies how <b>knotted</b> the intial magnetic field is.
         The conservation of \(\mathcal{H}\) implies that magnetic relaxation <b>cannot untie these knots</b>. <br>
         Essentially, the relaxation process should <b>loosen the knots</b>, but <b>not untie them</b>.
