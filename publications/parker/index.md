@@ -48,6 +48,19 @@ In this work, we develop accurate **numerical simulations** for a certain **magn
     </div>
 </div>
 
+The magneto-frictional equations **conserve** a quantity called the *helicity*, \(\mathcal{H}\), and **dissipate** a quantity called the *energy*, \(\mathcal{E}\).
+
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>DEFINITIONS FOR \(\mathcal{H}, \mathcal{E}\)</b>
+    <div class="details">
+        \[
+            \mathcal{H} \coloneqq \int\mathbf{A}\cdot\mathbf{B},  \qquad
+            \mathcal{E} \coloneqq \int\mathbf{B}\cdot\mathbf{B},
+        \]
+        where \(\mathbf{A}\) is the magnetic potential satisfying \(\mathcal{B} = \mathrm{curl}\,\mathbf{A}\).
+    </div>
+</div>
+
 The Parker conjecture supposes that ideal magnetic relaxation may develop tangential discontinuities.
 
 ---
