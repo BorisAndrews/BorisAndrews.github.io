@@ -96,7 +96,7 @@ Together with the Arnold inequality, this ensures \\(\mathcal{E}\\) cannot decay
 ![field_lines](assets/img/field_lines.jpeg)
 
 I'd like to conclude this by emphasising:
-to all extents and purposes, this is essentially the **first magnetic relaxation simulation that does not artificially dissipate to nothing**. <br>
+this is essentially the **first magnetic relaxation simulation that does not artificially dissipate to nothing**. <br>
 This means it's the first that can be used to investigate these equations' long-term behaviour.
 The *Parker conjecture* supposes that ideal magnetic relaxation may develop tangential discontinuities;
 our scheme should prove vital for numerical investigations into its validity.
