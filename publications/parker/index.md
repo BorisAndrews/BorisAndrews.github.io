@@ -24,25 +24,25 @@ permalink: /publications/parker/
     </div>
 </div>
 
-***[What is the Parker problem]***
+[Why do we care about magnetic relaxation]
+
+[I like this work, because it demonstrates how utterly vital SP can be]
+
+In this work, we develop accurate **numerical simulations** for a certain **magnetic relaxation** model: *the magneto-frictional equations*.
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>FULL DETAILS</b>
+    <b>MAGNETO-FRICTIONAL EQUATIONS</b>
     <div class="details">
-        The general GENERIC ODE in \(\mathbf{x} : \mathbb{R}_+ \to \mathbb{R}^d\) is
         \[
-            \dot{\mathbf{x}}  =  L(\mathbf{x})\nabla E(\mathbf{x}) + M(\mathbf{x})\nabla S(\mathbf{x}).
-        \]
-        Here, \(E, S : \mathbb{R}^d \to \mathbb{R}\) are the (conserved) energy and (non-decreasing) entropy, and \(L, M : \mathbb{R}^d \to \mathbb{R}^{d\times d}\) are the skew-symmetric (Poisson) matrix and positive-semidefinite (friction) matrix.
-        With the following orthogonality conditions,
-        \[
-            \nabla S(\mathbf{x})^\top L(\mathbf{x}) = 0,  \qquad
-            \nabla H(\mathbf{x})^\top M(\mathbf{x}) = 0,
+            \dot(\mathbf{B}) + \mathrm{curl}\mathbf{E} = \mathbf{0},  \\
+            \mathbf{E} + \mathbf{u}\times\mathbf{B} = \mathbf{0},
         \]
         the conservation of \(E\) and non-dissipation of \(S\) can be identified by testing against \(\nabla E\) and \(\nabla S\) respectively.
         Extending to PDEs is fiddly (for the introduction of Fréchet derivatives) but similar.
     </div>
 </div>
+
+The Parker conjecture supposes that ideal magnetic relaxation may develop tangential discontinuities.
 
 ---
 
