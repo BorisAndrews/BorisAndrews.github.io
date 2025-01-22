@@ -1,6 +1,6 @@
 {% include publications/title.md %}
 {% include publications/all/sp-integrators.md %}
-{% include publications/all/mhd.md %}
+{% include publications/all/parker.md %}
 {% include publications/all/generic.md %}
 {% include publications/all/natural-convection.md %}
 {% include publications/all/bvps.md %}

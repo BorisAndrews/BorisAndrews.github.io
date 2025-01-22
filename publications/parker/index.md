@@ -1,0 +1,46 @@
+---
+title: PARKER PROBLEM
+permalink: /publications/parker/
+---
+
+# TOPOLOGY-PRESERVING DISCRETIZATION FOR THE MAGNETO-FRICTIONAL EQUATIONS ARISING IN THE PARKER CONJECTURE
+
+### {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %}, {% include collaborators/kaibo/short.md %}, Boris Andrews
+
+### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654))
+
+The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
+- a *conserved* energy
+- a *non-decreasing* entropy
+
+{% include reveal-box.md %}
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>FULL DETAILS</b>
+    <div class="details">
+        The general GENERIC ODE in \(\mathbf{x} : \mathbb{R}_+ \to \mathbb{R}^d\) is
+        \[
+            \dot{\mathbf{x}}  =  L(\mathbf{x})\nabla E(\mathbf{x}) + M(\mathbf{x})\nabla S(\mathbf{x}).
+        \]
+        Here, \(E, S : \mathbb{R}^d \to \mathbb{R}\) are the (conserved) energy and (non-decreasing) entropy, and \(L, M : \mathbb{R}^d \to \mathbb{R}^{d\times d}\) are the skew-symmetric (Poisson) matrix and positive-semidefinite (friction) matrix.
+        With the following orthogonality conditions,
+        \[
+            \nabla S(\mathbf{x})^\top L(\mathbf{x}) = 0,  \qquad
+            \nabla H(\mathbf{x})^\top M(\mathbf{x}) = 0,
+        \]
+        the conservation of \(E\) and non-dissipation of \(S\) can be identified by testing against \(\nabla E\) and \(\nabla S\) respectively.
+        Extending to PDEs is fiddly (for the introduction of Fréchet derivatives) but similar.
+    </div>
+</div>
+
+As the name suggests, this is **extremely general**.
+Examples of such systems include:
+- the *compressible* Navier–Stokes equations
+- the Boltzmann equation
+- pretty much any *irreversible* thermodynamic system
+
+We can apply the framework from [mine and Patrick Farrell's preprint](/publications/sp-integrators/) to preserve both the **conservative** and **non-dissipation** structures.
+As such, we have a *general way to construct structure-preserving finite element methods for any of the above systems*, with arbitrary finite elements and at arbitrary order in space and time.
+
+These properties are **crucial for accurately capturing the dynamics** of these systems.
+
+*(Further details available soon!)*
