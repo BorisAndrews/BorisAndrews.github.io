@@ -33,12 +33,14 @@ In this work, we develop accurate **numerical simulations** for a certain **magn
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>MAGNETO-FRICTIONAL EQUATIONS</b>
     <div class="details">
+        The system is given by
         \[
             \dot(\mathbf{B}) + \mathrm{curl}\mathbf{E} = \mathbf{0},  \\
-            \mathbf{E} + \mathbf{u}\times\mathbf{B} = \mathbf{0},
+            \mathbf{E} + \mathbf{u}\times\mathbf{B} = \mathbf{0},  \\
+            \mathbf{j} = \mathrm{curl}\mathbf{B},  \\
+            \mathbf{u} = \mathbf{j}\times\mathbf{B},
         \]
-        the conservation of \(E\) and non-dissipation of \(S\) can be identified by testing against \(\nabla E\) and \(\nabla S\) respectively.
-        Extending to PDEs is fiddly (for the introduction of Fréchet derivatives) but similar.
+        where \(\mathbf{E}, \mathbf{B}\) are the electric and magnetic fields (respectively) and \(\mathbf{u}, \mathbf{j}\) are the fluid's internal velocity and current (respectively).
     </div>
 </div>
 
