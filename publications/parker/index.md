@@ -24,9 +24,13 @@ permalink: /publications/parker/
     </div>
 </div>
 
-[Why do we care about magnetic relaxation]
+The results of this work are, to me, *tremendously exciting*.
+They demonstrate how utterly vital it is, when designing a numerical simulation, that you preserve your conservation and dissipation laws from the continuous level to the discrete.
 
-[I like this work, because it demonstrates how utterly vital SP can be]
+*Magnetic relaxation* is the process by which a magnetic or **magnetohydrodynamic (MHD)** system **converges to its equilibrium/steady state**.
+MHD systems are typically long-duration, large-scale plasmas (e.g. the Sun) or liquid metals (e.g. the Earth's core).
+
+![solar_corona](assets/img/corona.jpg)
 
 In this work, we develop accurate **numerical simulations** for a certain **magnetic relaxation** model: *the magneto-frictional equations*.
 
@@ -35,9 +39,9 @@ In this work, we develop accurate **numerical simulations** for a certain **magn
     <div class="details">
         The system is given by
         \[
-            \dot(\mathbf{B}) + \mathrm{curl}\mathbf{E} = \mathbf{0},  \\
+            \dot{\mathbf{B}} + \mathrm{curl}\,\mathbf{E} = \mathbf{0},  \\
             \mathbf{E} + \mathbf{u}\times\mathbf{B} = \mathbf{0},  \\
-            \mathbf{j} = \mathrm{curl}\mathbf{B},  \\
+            \mathbf{j} = \mathrm{curl}\,\mathbf{B},  \\
             \mathbf{u} = \mathbf{j}\times\mathbf{B},
         \]
         where \(\mathbf{E}, \mathbf{B}\) are the electric and magnetic fields (respectively) and \(\mathbf{u}, \mathbf{j}\) are the fluid's internal velocity and current (respectively).
