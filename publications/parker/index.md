@@ -24,11 +24,13 @@ permalink: /publications/parker/
     </div>
 </div>
 
+[Attribute Mingdong]
+
 The results of this work are, to me, *tremendously exciting*.
-They demonstrate how utterly vital it is, when designing a numerical simulation, that you preserve your conservation and dissipation laws from the continuous level to the discrete.
+They demonstrate how utterly vital it is, when designing a numerical simulation, that you **preserve your conservation and dissipation laws** from the continuous level to the discrete.
 
 *Magnetic relaxation* is the process by which a magnetic or **magnetohydrodynamic (MHD)** system **converges to its equilibrium/steady state**.
-MHD systems are typically long-duration, large-scale plasmas (e.g. the Sun) or liquid metals (e.g. the Earth's core).
+MHD systems are typically long-duration, large-scale plasmas (e.g. the Sun, in particular its corona visible in the photo below) or liquid metals (e.g. the Earth's core).
 
 ![solar_corona](assets/img/corona.jpg)
 
@@ -48,7 +50,7 @@ In this work, we develop accurate **numerical simulations** for a certain **magn
     </div>
 </div>
 
-The magneto-frictional equations **conserve** a quantity called the *helicity*, \(\mathcal{H}\), and **dissipate** a quantity called the *energy*, \(\mathcal{E}\).
+The magneto-frictional equations **conserve** a quantity called the *helicity*, \\(\mathcal{H}\\), and **dissipate** a quantity called the *energy*, \\(\mathcal{E}\\).
 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>DEFINITIONS FOR \(\mathcal{H}, \mathcal{E}\)</b>
@@ -60,6 +62,29 @@ The magneto-frictional equations **conserve** a quantity called the *helicity*, 
         where \(\mathbf{A}\) is the magnetic potential satisfying \(\mathcal{B} = \mathrm{curl}\,\mathbf{A}\).
     </div>
 </div>
+
+If \\(\mathcal{E}\\) ever hits \\(0\\), the system has relaxed to a *trivial steady state*, i.e. the magnetic field has vanished everywhere.
+The interest thing however is that **this should never happen**.
+
+A simple inequality, the *Arnold inequality*, says that \\(\mathcal{E}\\) **can not pass below a certain multiple of** \\(\mathcal{H}\\);
+since \\(\mathcal{H}\\) is constant, this means \\(\mathcal{E}\\) can never reach \\(0\\).
+In the equilibrium state therefore, the **magnetic field should not vanish**.
+
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>TOPOLOGICAL INTERPRETATION</b>
+    <div class="details">
+        This has a neat <em>topological</em> interpretation!
+        (Hence <em>"topology-preserving"</em> in the title.)
+
+        <img src="assets/img/linking.jpeg" alt="linking_numbers">
+    </div>
+</div>
+
+[Why?]
+
+[This has a neat topological interpretation, hence *"topology-preserving"* in the title.]
+
+---
 
 The Parker conjecture supposes that ideal magnetic relaxation may develop tangential discontinuities.
 
