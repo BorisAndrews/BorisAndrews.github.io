@@ -95,44 +95,18 @@ Together with the Arnold inequality, this ensures \\(\mathcal{E}\\) cannot decay
 
 ![field_lines](assets/img/field_lines.jpeg)
 
----
+I'd like to conclude this by emphasising:
+to all extents and purposes, this is essentially the **first magnetic relaxation simulation that does not artificially dissipate to nothing**. <br>
+This means it's the first that can be used to investigate these equations' long-term behaviour.
+The *Parker conjecture* supposes that ideal magnetic relaxation may develop tangential discontinuities;
+our scheme should prove vital for numerical investigations into its validity.
 
-The Parker conjecture supposes that ideal magnetic relaxation may develop tangential discontinuities.
+We hope our work can both **motivate the use of conservative/structure-preserving integrators**, and introduce numerical discretisations as a valid tool for **numerical investigations into the Parker conjecture**;
+we would all *gladly* discuss it further:
+- <a href="mailto:mingdong.he@maths.ox.ac.uk">mingdong.he@maths.ox.ac.uk</a>
+- <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
+- <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>
+- <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 
----
-
-The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
-- a *conserved* energy
-- a *non-decreasing* entropy
-
-{% include reveal-box.md %}
-<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
-    <b>FULL DETAILS</b>
-    <div class="details">
-        The general GENERIC ODE in \(\mathbf{x} : \mathbb{R}_+ \to \mathbb{R}^d\) is
-        \[
-            \dot{\mathbf{x}}  =  L(\mathbf{x})\nabla E(\mathbf{x}) + M(\mathbf{x})\nabla S(\mathbf{x}).
-        \]
-        Here, \(E, S : \mathbb{R}^d \to \mathbb{R}\) are the (conserved) energy and (non-decreasing) entropy, and \(L, M : \mathbb{R}^d \to \mathbb{R}^{d\times d}\) are the skew-symmetric (Poisson) matrix and positive-semidefinite (friction) matrix.
-        With the following orthogonality conditions,
-        \[
-            \nabla S(\mathbf{x})^\top L(\mathbf{x}) = 0,  \qquad
-            \nabla H(\mathbf{x})^\top M(\mathbf{x}) = 0,
-        \]
-        the conservation of \(E\) and non-dissipation of \(S\) can be identified by testing against \(\nabla E\) and \(\nabla S\) respectively.
-        Extending to PDEs is fiddly (for the introduction of Fréchet derivatives) but similar.
-    </div>
-</div>
-
-As the name suggests, this is **extremely general**.
-Examples of such systems include:
-- the *compressible* Navier–Stokes equations
-- the Boltzmann equation
-- pretty much any *irreversible* thermodynamic system
-
-We can apply the framework from [mine and Patrick Farrell's preprint](/publications/sp-integrators/) to preserve both the **conservative** and **non-dissipation** structures.
-As such, we have a *general way to construct structure-preserving finite element methods for any of the above systems*, with arbitrary finite elements and at arbitrary order in space and time.
-
-These properties are **crucial for accurately capturing the dynamics** of these systems.
-
-*(Further details available soon!)*
+**Note:**
+this scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
