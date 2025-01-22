@@ -87,13 +87,13 @@ In particular, existing numerical schemes typically do not conserve \\(\mathcal{
 
 In our work, we construct a numerical scheme that **conserves** \\(\mathcal{H}\\) **exactly**;
 compare with the \\(H(\mathrm{div})\\) scheme in the figure below, in which \\(\mathcal{H}\\) converges to \\(0\\).
-Together with the Arnold inequality, this ensures \\(\mathcal{E}\\) cannot decay to \\(0\\), and that the magnetic field will not artificially vanish.
+Together with the Arnold inequality, this ensures \\(\mathcal{E}\\) cannot decay to \\(0\\)...
 
 ![sp_laws](assets/img/sp_laws.jpeg)
 
+...and that **the computed magnetic field will not artificially vanish**.
 
-
-[This has a neat topological interpretation, hence *"topology-preserving"* in the title.]
+![field_lines](assets/img/field_lines.jpeg)
 
 ---
 
