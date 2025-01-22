@@ -98,8 +98,9 @@ This means it's the first that can be used to investigate these equations' long-
 The *Parker conjecture* supposes that ideal magnetic relaxation may develop tangential discontinuities;
 our scheme should prove vital for numerical investigations into its validity.
 
-We hope our work can both **motivate the use of conservative/structure-preserving integrators**, and introduce **numerical discretisations** as a valid tool for **investigations into the Parker conjecture**;
-*we would all gladly discuss it further!*
+We hope our work can both **motivate the use of conservative/structure-preserving integrators**, and introduce **numerical discretisations** as a valid tool for **investigations into the Parker conjecture**.
+
+*We would all gladly discuss it further!*
 - <a href="mailto:mingdong.he@maths.ox.ac.uk">mingdong.he@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
 - <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>

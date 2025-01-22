@@ -164,6 +164,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
           <li><strong>Scientific Computing seminar, <em>Brown Unversity</em></strong></li>
           <li><strong>Minisymposium talk, <em>SIAM CSE</em></strong></li>
           <li><strong>Numerical Mathematics & Scientific Computing seminar, <em>Rice University</em></strong></li>
+          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
         </ul></p>
       </div>
     </div>
@@ -171,7 +172,6 @@ The framework is *general and powerful*. If you are investigating any type of tr
       <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
           <li>External ("tiny desk") seminar, <em>Rice University</em></li>
           <li>Computing Division technical meeting, <em>UKAEA</em></li>
           <li>Firedrake User Meeting, <em>University of Oxford</em></li>
