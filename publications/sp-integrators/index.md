@@ -149,7 +149,7 @@ The framework is *general and powerful*. If you are investigating any type of tr
 
 ## Related works
 
-For a neat application of these ideas to a problem in *magnetic relaxation* that really highlights the importance of these ideas, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations].
+For a neat application of these ideas to a problem in *magnetic relaxation* that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations].
 
 ## Co-authors
 
