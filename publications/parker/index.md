@@ -76,11 +76,11 @@ In the equilibrium state therefore, the **magnetic field should not vanish**.
         <img src="assets/img/linking.jpeg" alt="linking_numbers"><br><br>
         Essentially, \(\mathcal{H}\) quantifies how <b>knotted</b> the intial magnetic field is.
         The conservation of \(\mathcal{H}\) implies that magnetic relaxation <b>cannot untie these knots</b>. <br>
-        It should <b>loosen the knots</b>, but <b>never untie them</b>.
+        It should <b>loosen them</b>, but <b>never untie them</b>.
     </div>
 </div>
 
-While these structures exist on the continuous level, they are not necessarily preserved in the simulation.
+While these structures exist on the continuous level, they are not necessarily preserved in any old simulation.
 In particular, **existing numerical schemes typically do not conserve** \\(\mathcal{H}\\). <br>
 In our work, we construct a numerical scheme that **conserves** \\(\mathcal{H}\\) **exactly**;
 compare with the \\(H(\mathrm{div})\\) scheme in the figure below, in which \\(\mathcal{H}\\) dissipates to \\(0\\).
