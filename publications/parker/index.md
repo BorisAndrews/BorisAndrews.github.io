@@ -72,7 +72,7 @@ In the equilibrium state therefore, the **magnetic field should not vanish**.
         This has a neat <em>topological</em> interpretation!
         (Hence <em>"topology-preserving"</em> in the title.) <br>
         The helicity \(\mathcal{H}\) can be interpreted as a continuous analogue of an idea from <b>knot theory</b>: the <em>linking number</em>.
-        This represents the number of times a pair of loops winds around the other (1, 2, 3 in the image below). <br><br>
+        This represents the number of times a pair of loops winds around each other (1, 2, 3 in the image below). <br><br>
         <img src="assets/img/linking.jpeg" alt="linking_numbers"><br><br>
         Essentially, \(\mathcal{H}\) quantifies how <b>knotted</b> the intial magnetic field is.
         The conservation of \(\mathcal{H}\) implies that magnetic relaxation <b>cannot untie these knots</b>. <br>
