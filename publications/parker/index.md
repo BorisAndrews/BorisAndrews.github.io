@@ -106,8 +106,9 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 - <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 
-**Note:**
-this scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
+## Related works
+
+This scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
 
 ## Co-authors
 
