@@ -60,7 +60,7 @@ The magneto-frictional equations **conserve** a quantity called the *helicity*, 
     </div>
 </div>
 
-If \\(\mathcal{E}\\) ever hits \\(0\\), the system has necessarily relaxed to a *trivial steady state*, i.e. the magnetic field has just vanished everywhere.
+If \\(\mathcal{E}\\) ever hits \\(0\\), the system has necessarily relaxed to a *trivial steady state*, i.e. the magnetic field has simply vanished everywhere.
 The interest thing however is that **this should never be the case**. <br>
 A simple inequality, the *Arnold inequality*, says that \\(\mathcal{E}\\) **can not pass below a certain multiple of** \\(\mathcal{H}\\);
 since \\(\mathcal{H}\\) is constant, this means \\(\mathcal{E}\\) can never reach \\(0\\).
@@ -109,7 +109,7 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 ## Related works
 
 This scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
-
+just 
 ## Co-authors
 
 ### {% include collaborators/mingdong/full.md %}
