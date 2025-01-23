@@ -83,7 +83,7 @@ In the equilibrium state therefore, the **magnetic field should not vanish**.
 While these structures exist on the continuous level, they are not necessarily preserved in any old simulation.
 In particular, **existing numerical schemes typically do not conserve** \\(\mathcal{H}\\). <br>
 In our work, we construct a numerical scheme that **conserves** \\(\mathcal{H}\\) **exactly**;
-you can compare our scheme (solid red lines) with the typical scheme (dashed blue line) in which \\(\mathcal{H}\\) dissipates to \\(0\\) in the figure beloe.
+you can compare our scheme (solid red lines) with the typical scheme (dashed blue line) in which \\(\mathcal{H}\\) dissipates to \\(0\\) in the figure below.
 Together with the Arnold inequality, this ensures \\(\mathcal{E}\\) cannot decay to \\(0\\)...
 
 ![sp_laws](assets/img/sp_laws.jpeg)
