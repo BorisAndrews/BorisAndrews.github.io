@@ -1,0 +1,21 @@
+.reveal-box {
+    width: 80%;
+    padding: 20px;
+    color: #FBF6E5;
+    background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px);
+    text-align: center;
+    cursor: pointer;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.reveal-box:hover {
+    color: #FBF6E5;
+    background: repeating-linear-gradient(135deg, #3a1b0e, #3a1b0e 10px, #36190d 10px, #36190d 20px);
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+}
