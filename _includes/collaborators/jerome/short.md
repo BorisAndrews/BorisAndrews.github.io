@@ -1,0 +1,1 @@
+[Jérôme Droniou](https://imag.umontpellier.fr/~droniou/)
