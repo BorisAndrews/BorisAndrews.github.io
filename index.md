@@ -4,10 +4,10 @@ title: HOME
 
 Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [numerical analysis research group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, working on **structure-preserving numerical methods for PDEs** under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship.
 
-{% include highlight-box.md %}
+<!-- {% include highlight-box.md %}
 <a href="/publications/parker/" class="highlight-box"><div><b>
     I'm also currently on the postdoc job market!
-</b></div></a>
+</b></div></a> -->
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
     I'm also currently on the postdoc job market!
