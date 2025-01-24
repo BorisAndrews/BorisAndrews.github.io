@@ -56,6 +56,7 @@ These properties are **crucial for accurately capturing the dynamics** of these 
         <h3 class="title">2025</h3>
         <p><ul>
           <li><strong>Invited talk, <em>Brown Unversity</em></strong></li>
+          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
         </ul></p>
       </div>
     </div>
@@ -63,7 +64,6 @@ These properties are **crucial for accurately capturing the dynamics** of these 
       <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
           <li>External ("tiny desk") seminar, <em>Rice University</em></li>
         </ul></p>
       </div>

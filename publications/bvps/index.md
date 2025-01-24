@@ -23,7 +23,7 @@ permalink: /publications/bvps/
         <p><ul>
           <li><strong>EMS School on Mathematical Modelling, Numerical Analysis and Scientific Computing, <em>Kácov, Czechia</em></strong></li>
           <li>Firedrake User Meeting USA, <em>Baylor University</em></li>
-          <!-- <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div> -->
+          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
         </ul></p>
       </div>
     </div>

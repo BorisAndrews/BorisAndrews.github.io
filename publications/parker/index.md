@@ -109,7 +109,7 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 ## Related works
 
 This scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
-just 
+
 ## Co-authors
 
 ### {% include collaborators/mingdong/full.md %}
@@ -117,3 +117,21 @@ just
 ### {% include collaborators/patrick/full.md %}
 
 ### {% include collaborators/kaibo/full.md %}
+
+## Talks
+
+{% include timeline.md %}
+
+<div class="timeline">
+  <div class="outer">
+    <div class="card">
+      <div class="info">
+        <h3 class="title">2025</h3>
+        <p><ul>
+          <li><strong>ACOMEN, <em>Ghent University</em></strong></li>
+          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
+        </ul></p>
+      </div>
+    </div>
+  </div>
+</div>
