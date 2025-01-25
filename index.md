@@ -7,7 +7,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [nu
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/parker/';"><b>
     Check out my latest preprint! 3
-</b></a>
+</b></div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
     I'm also currently on the postdoc job market!
