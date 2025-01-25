@@ -16,11 +16,12 @@ permalink: /publications/sp-integrators/
     <b>FULL ABSTRACT</b>
     <div class="details">
         Numerical methods for the simulation of transient systems with structure-preserving properties are known to exhibit greater accuracy and physical reliability, in particular over long durations.
-        These schemes are often built on powerful geometric ideas for broad classes of problems, such as Hamiltonian or reversible systems.
-        However, there remain difficulties in devising timestepping schemes that conserve non-quadratic invariants or dissipation laws.
-        In this work, we propose an approach for the construction of timestepping schemes that preserve dissipation laws and conserve multiple general invariants, via finite elements in time and the systematic introduction of auxiliary variables.
-        The approach generalises several existing ideas in the literature, including Gauss methods, the framework of Cohen & Hairer, and the energy- and helicity-conserving scheme of Rebholz.
-        We demonstrate the ideas by devising novel arbitrary-order schemes that conserve to machine precision all known invariants of Hamiltonian ODEs, including the Kepler and Kovalevskaya problems, and arbitrary-order schemes for the compressible Navier-Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy.
+        However, there remain difficulties in devising geometric numerical integrators that preserve dissipation laws and conserve non-quadratic invariants.
+        In this work, we propose a framework for the construction of timestepping schemes that preserve dissipation laws and conserve multiple general invariants.
+        The framework employs finite elements in time and systematically introduces auxiliary variables;
+        it extends to arbitrary order in time.
+        We demonstrate the ideas by devising novel integrators that conserve (to machine precision) all known invariants of general conservative ODEs, energy-conserving finite-element discretisations of general Hamiltonian PDEs, and finite-element schemes for the compressible Navier-Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy.
+        The approach generalises and unifies several existing ideas in the literature, including Gauss methods, the framework of Cohen & Hairer, and the energy- and helicity-conserving scheme of Rebholz.
     </div>
 </div>
 
