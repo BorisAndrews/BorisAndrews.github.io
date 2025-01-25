@@ -16,7 +16,7 @@ permalink: /publications/sp-integrators/
     <b>FULL ABSTRACT</b>
     <div class="details">
         Numerical methods for the simulation of transient systems with structure-preserving properties are known to exhibit greater accuracy and physical reliability, in particular over long durations.
-        However, there remain difficulties in devising geometric numerical integrators that preserve dissipation laws and conserve non-quadratic invariants.
+        However, there remain difficulties in devising geometric numerical integrators that preserve dissipation laws and conserve non-quadratic invariants. <br>
         In this work, we propose a framework for the construction of timestepping schemes that preserve dissipation laws and conserve multiple general invariants.
         The framework employs finite elements in time and systematically introduces auxiliary variables;
         it extends to arbitrary order in time.
