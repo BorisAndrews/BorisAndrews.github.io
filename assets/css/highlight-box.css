@@ -1,4 +1,4 @@
-.reveal-box {
+.highlight-box {
     width: 80%;
     padding: 20px;
     color: #FBF6E5;
@@ -10,7 +10,7 @@
     border-radius: 10px;
 }
 
-.reveal-box:hover {
+.highlight-box:hover {
     color: #FBF6E5;
     background: repeating-linear-gradient(135deg, #3a1b0e, #3a1b0e 10px, #36190d 10px, #36190d 20px);
 }
