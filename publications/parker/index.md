@@ -17,7 +17,7 @@ permalink: /publications/parker/
     <div class="details">
         The Parker conjecture, which explores whether magnetic fields in perfectly conducting plasmas can develop tangential discontinuities during magnetic relaxation, remains an open question in astrophysics.
         Helicity conservation provides a topological barrier during relaxation, preventing topologically nontrivial initial data relaxing to trivial solutions;
-        preserving this mechanism discretely over long time periods is therefore crucial for numerical simulation. <br>
+        preserving this mechanism discretely over long time periods is therefore crucial for numerical simulation. <br><br>
         This work presents an energy- and helicity-preserving finite element discretization for the magneto-frictional system, for investigating the Parker conjecture.
         The algorithm preserves a discrete version of the topological barrier and a discrete Arnold inequality.
         We also discuss extensions to domains with nontrivial topology.
