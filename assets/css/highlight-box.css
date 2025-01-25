@@ -12,7 +12,7 @@
 
 .highlight-box:hover {
     color: #FBF6E5;
-    background: repeating-linear-gradient(135deg,	#78381C, #78381C 10px, 	#673018 10px, 	#673018 20px);
+    background: repeating-linear-gradient(135deg, #78381C, #78381C 10px, 	#673018 10px, 	#673018 20px);
 }
 
 .details {
