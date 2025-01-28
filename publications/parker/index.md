@@ -9,8 +9,14 @@ permalink: /publications/parker/
 
 ### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654))
 
+{% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2501.11654';"><b>
+    CHECK OUT ON ARXIV!
+</b></div>
+
 > *[...] This work presents an **energy- and helicity-preserving** finite element discretization for the **magneto-frictional system**, for investigating the **Parker conjecture**. The algorithm **preserves a discrete version of the topological barrier** and a discrete Arnold inequality. [...]*
 
+{% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>FULL ABSTRACT</b>
     <div class="details">

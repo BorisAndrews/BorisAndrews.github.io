@@ -9,9 +9,8 @@ permalink: /publications/sp-integrators/
 
 ### 16.JUL.2024 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904))
 
-
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2501.11654';"><b>
+<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2407.11904';"><b>
     CHECK OUT ON ARXIV!
 </b></div>
 
