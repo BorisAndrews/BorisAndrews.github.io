@@ -149,6 +149,10 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
 Further applications of the framework can be found in our [preprint](https://doi.org/10.48550/arXiv.2407.11904), and we are actively pursuing many more at the moment! <br>
 The framework is *general and powerful*. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating more physically realistic simulations.
 
+<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2407.11904';"><b>
+    CHECK OUT ON ARXIV!
+</b></div>
+
 *We would both gladly discuss it further!*
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>

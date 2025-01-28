@@ -105,6 +105,10 @@ our scheme should prove vital for numerical investigations into its validity.
 
 We hope our work can both **motivate the use of conservative/structure-preserving integrators**, and introduce **numerical discretisations** as a valid tool for **investigations into the Parker conjecture**.
 
+<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2501.11654';"><b>
+    CHECK OUT ON ARXIV!
+</b></div>
+
 *We would all gladly discuss it further!*
 - <a href="mailto:mingdong.he@maths.ox.ac.uk">mingdong.he@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
