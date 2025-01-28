@@ -1,4 +1,4 @@
-{% include reveal-box.md %}
-<a href="/cv/assets/pdf/cv.pdf" class="reveal-box" style="text-decoration: none; display: block;" target="_blank">
-    <b>DOWNLOAD FULL PDF</b>
-</a>
+{% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='/cv/assets/pdf/cv.pdf';"><b>
+    DOWNLOAD FULL PDF
+</b></div>
