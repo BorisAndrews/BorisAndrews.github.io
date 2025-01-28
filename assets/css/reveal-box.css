@@ -8,11 +8,13 @@
     margin: 20px auto;
     border: none;
     border-radius: 10px;
+    transition: padding 0.4s ease;
 }
 
 .reveal-box:hover {
     color: #FBF6E5;
     background: repeating-linear-gradient(135deg, #252A2C, #252A2C 10px, #202527 10px, #202527 20px);
+    padding: 20px 20px 25px 20px;
 }
 
 .details {
