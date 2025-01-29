@@ -1,1 +1,1 @@
-- **JUN.2025** <code>&#124;</code> Joint hosting of minisymposium at the {% include conferences/2025/strathclyde.md %} at the *({% include universities/strathclyde.md %})*, with {% include collaborators/charlie/short.md %}, on structure-preserving finite element methods
+- **JUN.2025\*** <code>&#124;</code> Joint hosting of minisymposium at the {% include conferences/2025/strathclyde.md %} at the *{% include universities/strathclyde.md %}*, with {% include collaborators/charlie/short.md %}, on structure-preserving finite element methods
