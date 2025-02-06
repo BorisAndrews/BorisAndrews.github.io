@@ -1,1 +1,1 @@
-| Upcoming, <br> Draft available on request | Uniformly accurate magnetic moment--preserving integrators for charged particles | |
+| Upcoming, <br> Draft available on request | [Uniformly accurate magnetic moment--preserving integrators for charged particles]({{ "/publications/ap-integrators/" | absolute_url }}) | |

@@ -1,9 +1,9 @@
 ---
-title: BVPs
-permalink: /publications/bvps/
+title: AP INTEGRATORS
+permalink: /publications/ap-integrators/
 ---
 
-# GLOBALLY AND LOCALLY STRUCTURE-PRESERVING MIXED FINITE ELEMENT METHODS FOR BOUNDARY-VALUE PROBLEMS
+# UNIFORMLY ACCURATE MAGNETIC MOMENT--PRESERVING INTEGRATORS FOR CHARGED PARTICLES
 
 ### Boris Andrews
 
@@ -21,7 +21,7 @@ permalink: /publications/bvps/
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><strong>EMS School on Mathematical Modelling, Numerical Analysis and Scientific Computing, <em>Kácov, Czechia</em></strong></li>
+          <li><strong>Self-Consistency Group Seminar, <em>CHaRMNET</em></strong></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
         </ul></p>
       </div>
