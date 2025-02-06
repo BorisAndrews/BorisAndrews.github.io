@@ -46,7 +46,7 @@ permalink: /cv/
 
 ### Invited talks & minisymposium presentations
 
-- **2025** <code>&#124;</code> {% include conferences/2025/acomen.md %}\* *({% include universities/ghent.md %})* / Numerical Mathematics & Scientific Computing Seminar\* *({% include universities/rice.md %})* / {% include conferences/2025/cse.md %}\* *(Fort Worth, Texas)* / Self-Consistency Group seminar\* *({% include organisations/charmnet/short.md %})* / Scientific Computing Seminar\* *({% include universities/brown.md %})*
+- **2025** <code>&#124;</code> {% include conferences/2025/acomen.md %}\* *({% include universities/ghent.md %})* / Self-Consistency Group seminar\* *({% include organisations/charmnet/short.md %})* / Numerical Mathematics & Scientific Computing Seminar\* *({% include universities/rice.md %})* / {% include conferences/2025/cse.md %}\* *(Fort Worth, Texas)* / Scientific Computing Seminar\* *({% include universities/brown.md %})*
 - **2024** <code>&#124;</code> External seminar *({% include universities/rice.md %})*
 
 ## Other seminar, workshop & conference presentations
