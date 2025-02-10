@@ -45,7 +45,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 <br>
 
-## Announcements & upcoming
+## Upcoming
 
 <!-- ### 2025 -->
 - **24.FEB–12.MAR** <code>&#124;</code> **US VISIT** <code>&#124;</code> Visiting the *US: RI (Providence) -> TX (Fort Worth -> Houston)*
