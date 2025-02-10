@@ -49,7 +49,7 @@ permalink: /cv/
 - **2025** <code>&#124;</code> {% include conferences/2025/acomen.md %}\* *({% include universities/ghent.md %})* / Self-Consistency Group seminar\* *({% include organisations/charmnet/short.md %})* / Numerical Mathematics & Scientific Computing Seminar\* *({% include universities/rice.md %})* / {% include conferences/2025/cse.md %}\* *(Fort Worth, Texas)* / {% include visits/2025/brown.md %}\* *({% include universities/brown.md %})*
 - **2024** <code>&#124;</code> External seminar *({% include universities/rice.md %})*
 
-## Other seminar, workshop & conference presentations
+### Other seminar, workshop & conference presentations
 
 - **2025** <code>&#124;</code> {% include conferences/2025/strathclyde.md %}\* *({% include universities/strathclyde.md %})* / {% include conferences/2025/ems_school.md %}\* *(Kácov, Czechia)* / Numerical Analysis Group Internal Seminar\* *({% include universities/oxford.md %})*
 - **2024** <code>&#124;</code> Computing Division technical meeting *({% include organisations/ukaea/short.md %})* / {% include conferences/2024/firedrake.md %} *({% include universities/oxford.md %})* / {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})* / {% include conferences/2024/fe_fair.md %} *({% include universities/ucl.md %})* / {% include conferences/2024/pisa_workshop.md %} *({% include universities/pisa.md %})* / UKAEA PhD student engagement day *({% include organisations/ukaea/short.md %})* / Junior Applied Mathematical Seminar *({% include universities/warwick.md %})*
