@@ -1,1 +1,1 @@
-| In preparation | Enstrophy-stable integrators for the 2D incompressible Navier--Stokes equations | |
+| Upcoming | Enstrophy-stable integrators for the 2D incompressible Navier--Stokes equations | |

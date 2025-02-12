@@ -1,1 +1,1 @@
-| In preparation, <br> Draft available on request | Structure-preserving finite element methods via auxiliary variables: conservative and accurately dissipative integrators, and energy estimates for inhomogeneous boundary-value problems *(Phd (DPhil) thesis)* | |
+| Upcoming, <br> Draft available on request | Structure-preserving finite element methods via auxiliary variables: conservative and accurately dissipative integrators, and energy estimates for inhomogeneous boundary-value problems *(Phd (DPhil) thesis)* | |

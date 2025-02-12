@@ -1,1 +1,1 @@
-| In preparation | Conservative integrators exhibit greater stability than symplectic integrators on the Toda lattice | {% include collaborators/sebastian/short.md %} |
+| Upcoming | Conservative integrators exhibit greater stability than symplectic integrators on the Toda lattice | {% include collaborators/sebastian/short.md %} |

@@ -1,1 +1,1 @@
-| In preparation, <br> Draft available on request | An augmented Lagrangian preconditioner for natural convection at high Reynolds number | {% include collaborators/alexei/short.md %}, <br> {% include collaborators/ben/short.md %}, <br> {% include collaborators/patrick/short.md %} |
+| Upcoming, <br> Draft available on request | An augmented Lagrangian preconditioner for natural convection at high Reynolds number | {% include collaborators/alexei/short.md %}, <br> {% include collaborators/ben/short.md %}, <br> {% include collaborators/patrick/short.md %} |
