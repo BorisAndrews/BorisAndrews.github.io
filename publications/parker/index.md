@@ -5,7 +5,7 @@ permalink: /publications/parker/
 
 # TOPOLOGY-PRESERVING DISCRETIZATION FOR THE MAGNETO-FRICTIONAL EQUATIONS ARISING IN THE PARKER CONJECTURE
 
-### {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %}, {% include collaborators/kaibo/short.md %}, Boris Andrews
+### {% include collaborators/mingdong/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} / {% include collaborators/kaibo/short.md %} / Boris Andrews
 
 ### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654))
 
