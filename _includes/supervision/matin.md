@@ -1,0 +1,1 @@
+- **FEB–AUG.2025** <code>&#124;</code> Matin Shams, *MMSC special projection & dissertation*, studying enstrophy-stable integrators for the 2D Navier--Stokes Equations

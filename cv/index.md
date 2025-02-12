@@ -16,32 +16,40 @@ permalink: /cv/
 
 {% include interests.md %}
 
+## Prizes, awards & scholarships
+
+- **2021–2025 (DPhil)** <code>&#124;</code> EPSRC studentship / UKAEA studentship
+- **2017–2021 (MMath)** <code>&#124;</code> Worcester College Foundation scholarship / Worcester College collection prizes
+
+## Programming languages
+
+- **Experienced** <code>&#124;</code> Python *(Firedrake)* / MATLAB / LaTeX
+- **Limited** <code>&#124;</code> Julia / C / Fortran / HTML
+
+## Languages
+
+- **Fluent** <code>&#124;</code> English
+- **Intermediate** <code>&#124;</code> Dutch
+- **Beginner** <code>&#124;</code> Japanese / German
+
 ## Publications & preprints
 
 {% include publications/lists/long.md %}
 
-## Professional experience
-
-{% include experience/strathclyde.md %}
-{% include experience/matin.md %}
-{% include experience/sebastian.md %}
-{% include experience/tokamak_energy.md %}
-{% include experience/perm.md %}
-
-*(\*scheduled/provisional)*
-
 ## Teaching
 
-### {% include universities/oxford.md %}
+### {% include universities/oxford.md %} (2021–2025)
 
 - **2024–2025** <code>&#124;</code> Tutor: *Computational Mathematics*
 - **2023–2024** <code>&#124;</code> Tutor: *Prelims corner* / Teaching assistant: [*Numerical Linear Algebra*](https://courses.maths.ox.ac.uk/course/view.php?id=5024)
 - **2021–2022** <code>&#124;</code> Tutor: [*Analysis I*](https://courses.maths.ox.ac.uk/course/view.php?id=48) / Teaching assistant: [*Random Matrix Theory*](https://courses.maths.ox.ac.uk/course/view.php?id=160)
 
-## Prizes, awards & scholarships
+## Supervision
 
-- **2021–2025 (DPhil)** <code>&#124;</code> EPSRC studentship / UKAEA studentship
-- **2017–2021 (MMath)** <code>&#124;</code> Worcester College Foundation scholarship / Worcester College collection prizes
+### {% include universities/oxford.md %} (2021–2025)
+
+{% include supervision/matin.md %}
+{% include supervision/sebastian.md %}
 
 ## Talks
 
@@ -59,15 +67,12 @@ permalink: /cv/
 
 *(\*scheduled/provisional)*
 
-## Languages
+## Professional experience
 
-- **Fluent** <code>&#124;</code> English
-- **Intermediate** <code>&#124;</code> Dutch
-- **Beginner** <code>&#124;</code> Japanese / German
+{% include experience/strathclyde.md %}
+{% include experience/tokamak_energy.md %}
+{% include experience/perm.md %}
 
-## Programming languages
-
-- **Experienced** <code>&#124;</code> Python *(Firedrake)* / MATLAB / LaTeX
-- **Limited** <code>&#124;</code> Julia / C / Fortran / HTML
+*(\*scheduled/provisional)*
 
 {% include cv-download.md %}
