@@ -7,7 +7,7 @@ permalink: /publications/ap-integrators/
 
 ### Boris Andrews
 
-### In preparation, Draft available on request
+### In preparation <code>&#124;</code> Draft available on request
 
 *(Details available soon!)*
 

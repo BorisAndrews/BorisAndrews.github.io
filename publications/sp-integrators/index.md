@@ -5,7 +5,7 @@ permalink: /publications/sp-integrators/
 
 # HIGH-ORDER CONSERVATIVE AND ACCURATELY DISSIPATIVE NUMERICAL INTEGRATORS VIA AUXILIARY VARIABLES
 
-### Boris Andrews, {% include collaborators/patrick/short.md %}
+### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
 ### 16.JUL.2024 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904))
 
