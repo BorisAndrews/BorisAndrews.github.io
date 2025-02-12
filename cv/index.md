@@ -21,17 +21,6 @@ permalink: /cv/
 - **2021–2025 (DPhil)** <code>&#124;</code> EPSRC studentship / UKAEA studentship
 - **2017–2021 (MMath)** <code>&#124;</code> Worcester College Foundation scholarship / Worcester College collection prizes
 
-## Programming languages
-
-- **Experienced** <code>&#124;</code> Python *(Firedrake)* / MATLAB / LaTeX
-- **Limited** <code>&#124;</code> Julia / C / Fortran / HTML
-
-## Languages
-
-- **Fluent** <code>&#124;</code> English
-- **Intermediate** <code>&#124;</code> Dutch
-- **Beginner** <code>&#124;</code> Japanese / German
-
 ## Publications & preprints
 
 {% include publications/lists/long.md %}
@@ -74,5 +63,16 @@ permalink: /cv/
 {% include experience/perm.md %}
 
 *(\*scheduled/provisional)*
+
+## Programming languages
+
+- **Experienced** <code>&#124;</code> Python *(Firedrake)* / MATLAB / LaTeX
+- **Limited** <code>&#124;</code> Julia / C / Fortran / HTML
+
+## Languages
+
+- **Fluent** <code>&#124;</code> English
+- **Intermediate** <code>&#124;</code> Dutch
+- **Beginner** <code>&#124;</code> Japanese / German
 
 {% include cv-download.md %}
