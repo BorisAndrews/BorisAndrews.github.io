@@ -1,1 +1,1 @@
-| Upcoming, <br> *(Draft on request)* | [Globally and locally structure-preserving mixed finite element methods for boundary-value problems]({{ "/publications/bvps/" | absolute_url }}) | |
+| Upcoming <br> *(Draft on request)* | [Globally and locally structure-preserving mixed finite element methods for boundary-value problems]({{ "/publications/bvps/" | absolute_url }}) | |
