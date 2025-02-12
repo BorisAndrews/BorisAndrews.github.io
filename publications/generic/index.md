@@ -7,7 +7,7 @@ permalink: /publications/generic/
 
 ### Boris Andrews
 
-### In preparation <code>&#124;</code> Draft available on request
+### In preparation *(Draft available on request)*
 
 The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
 - a *conserved* energy
