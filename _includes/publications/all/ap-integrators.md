@@ -1,1 +1,1 @@
-| Upcoming, <br> Draft available on request | [Uniformly accurate asymptotic-preserving integrators for charged particles]({{ "/publications/ap-integrators/" | absolute_url }}) | |
+| In preparation, <br> Draft available on request | [Uniformly accurate asymptotic-preserving integrators for charged particles]({{ "/publications/ap-integrators/" | absolute_url }}) | |
