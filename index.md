@@ -5,8 +5,8 @@ title: HOME
 Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, working on **structure-preserving numerical methods for PDEs** under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship/CASE award.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/parker/';"><b>
-    CHECK OUT MY LATEST PREPRINT!
+<div class="highlight-box" onclick="window.location.href='kaibohu.github.io/';"><b>
+    EXCITED TO ANNOUNCE I'LL BE STARTING A POSTDOC AT THE UNIVERSITY OF EDINBURGH WITH KAIBO HU IN SEPTEMBER!
 </b></div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
