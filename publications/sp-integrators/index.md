@@ -175,10 +175,12 @@ For a neat application of these ideas to a problem in *magnetic relaxation* that
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><strong>Scientific Computing seminar, <em>Brown Unversity</em></strong></li>
-          <li><strong>Minisymposium talk, <em>SIAM CSE</em></strong></li>
-          <li><strong>Numerical Mathematics & Scientific Computing seminar, <em>Rice University</em></strong></li>
+          <li>Biennial Numerical Analysis Conference, <em>University of Strathclyde</em></li>
+          <li>Numerical Analysis Group internal seminar, <em>University of Oxford</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
+          <li><strong>Numerical Mathematics & Scientific Computing seminar, <em>Rice University</em></strong></li>
+          <li><strong>Minisymposium talk, <em>SIAM CSE</em></strong></li>
+          <li><strong>Scientific Computing seminar, <em>Brown Unversity</em></strong></li>
         </ul></p>
       </div>
     </div>
@@ -202,7 +204,7 @@ For a neat application of these ideas to a problem in *magnetic relaxation* that
         <h3 class="title">2023</h3>
         <p><ul>
           <li><strong>ICIAM, <em>Waseda University</em></strong></li>
-          <li>Numerical analysis group internal seminar, <em>University of Oxford</em></li>
+          <li>Numerical Analysis Group internal seminar, <em>University of Oxford</em></li>
           <li>Junior Applied Mathematics Seminar, <em>University of Oxford</em></li>
           <li>Met Office presentation, <em>University of Oxford</em></li>
         </ul></p>

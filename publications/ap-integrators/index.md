@@ -21,7 +21,7 @@ permalink: /publications/ap-integrators/
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><strong>Self-Consistency Group Seminar, <em>CHaRMNET</em></strong></li>
+          <li><strong>Self-Consistency Group seminar, <em>CHaRMNET</em></strong></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
         </ul></p>
       </div>
