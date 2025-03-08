@@ -6,7 +6,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://kaibohu.github.io/';"><b>
-    EXCITED TO ANNOUNCE I'LL BE STARTING A POSTDOC AT THE UNIVERSITY OF EDINBURGH WITH KAIBO HU!
+    EXCITING NEWS: I'LL BE STARTING A POSTDOC IN EDINBURGH WITH KAIBO HU IN SEPTEMBER!
 </b></div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
