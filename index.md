@@ -5,9 +5,9 @@ title: HOME
 Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, working on **structure-preserving numerical methods for PDEs** under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship/CASE award.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://kaibohu.github.io/';"><b>
-    EXCITING NEWS: I'LL BE STARTING A POSTDOC IN EDINBURGH WITH KAIBO HU IN SEPTEMBER!
-</b></div>
+<div class="highlight-box" onclick="window.location.href='https://kaibohu.github.io/';">
+    <b>EXCITING NEWS:</b> I'LL BE STARTING A POSTDOC IN EDINBURGH WITH KAIBO HU IN SEPTEMBER!
+</div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
     I'm also currently on the postdoc job market!
@@ -52,7 +52,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 - **MAY–JUN** <code>&#124;</code> **INTERNAL SEMINAR** <code>&#124;</code> Presenting my leaving [Numerical Analysis Group internal seminar](https://www.maths.ox.ac.uk/events/list/670), culminating my time here in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the *{% include universities/oxford.md %}*
 - **15–20.JUN\*** <code>&#124;</code> **EMS SCHOOL** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*<!-- , where I intend to present [upcoming work on structure-preserving methods for boundary-value problems](/publications/bvps/) -->
 - **24–27.JUN\*** <code>&#124;</code> **BIENNIAL NA CONFERENCE** <code>&#124;</code> Together with {% include collaborators/charlie/short.md %}, hosting *(and presenting at)* a minisymposium on structure-preserving FEMs at the {% include conferences/2025/strathclyde.md %} at the *{% include universities/strathclyde.md %}*, where I will present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}
-<!-- - **8.SEP** <code>&#124;</code> **EDINBURGH** <code>&#124;</code> Starting a postdoc at the {% include universities/edinburgh.md %} -->
+- **8.SEP** <code>&#124;</code> **EDINBURGH** <code>&#124;</code> Starting a postdoc at the *{% include universities/edinburgh.md %}*, under the ERC Starting Grant "GeoFEM" (investigating the discretisation of geometric objects with finite elements) with PI {% include collaborators/kaibo/short.md %}, wherein I intend I intend to apply the theory of [conservative finite-element integrators](/publications/sp-integrators/) I've developed during my PhD (DPhil) to derive structure-preserving methods in numerical relativity
 - **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Speaking at a minisymposium on Maxwell, MHD, and derived models at {% include conferences/2025/acomen.md %}, hosted at *{% include universities/ghent.md %}*, thanks to the invite of {% include collaborators/jerome/short.md %} on behalf of the {% include organisations/nemesis.md %} PIs, where I will likely present [my work on structure-preserving integrators for the Parker problem](/publications/parker/) with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}
 
 *(\*provisional)*
