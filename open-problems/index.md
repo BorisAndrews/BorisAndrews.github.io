@@ -21,19 +21,17 @@ permalink: /open-problems/
 
 (Index)
 
-😇☺😊🙂😐😭😨😰☹
-
 ## BIG
 
 (Spiel)
 
-<!-- ### <span style="color: #55A868;">Easy</span> -->
+<!-- ### <span style="color: #55A868;">😇 Easy 😇</span> -->
 
 ### <span style="color: #CCB974;">😐 Intermediate 😐</span>
 
 #### Drifts (In a natural way)
 
-### <span style="color: #C44E52;">Hard</span>
+### <span style="color: #C44E52;">😰 Hard 😰</span>
 
 #### Arbitrarily many invariants for PDEs (E.g. KdV)
 
@@ -41,52 +39,46 @@ permalink: /open-problems/
 
 #### Maximum principles
 
-
-
 ## Medium
 
 (Spiel)
 
-#### Superconvergence
+### <span style="color: #55A868;">😇 Easy 😇</span>
 
-#### Viscoelastic (Oldroyd-B)/Matrix-values problems
-
-#### Projection of u in MHD
+#### Viscoelastic (Oldroyd-B)/Matrix-valued problems
 
 #### Delay DEs
 
-#### Non-collocation RK methods
-
-### <span style="color: #55A868;">Easy</span>
-
 ### <span style="color: #CCB974;">😐 Intermediate 😐</span>
 
-### <span style="color: #C44E52;">Hard</span>
+#### Superconvergence
+
+#### Projection of u in MHD
+
+#### Non-collocation RK methods
+
+### <span style="color: #C44E52;">😰 Hard 😰</span>
 
 #### Proximal Galerkin/LVPP
 
 #### SDEs
 
-
-
 ## (small)
 
 (Spiel)
 
+### <span style="color: #55A868;">😇 Easy 😇</span>
+
 #### Model order reduction
+
+#### Compressible MHD
+
+### <span style="color: #CCB974;">😐 Intermediate 😐</span>
 
 #### Hamiltonian systems in Lie groups
 
 #### Proof of exponential decay
 
-#### Compressible MHD
-
-### <span style="color: #55A868;">Easy</span>
-
-### <span style="color: #CCB974;">😐 Intermediate 😐</span>
-
-### <span style="color: #C44E52;">Hard</span>
-
-#### Test
+<!-- ### <span style="color: #C44E52;">😰 Hard 😰</span> -->
 
 (Reward options)
