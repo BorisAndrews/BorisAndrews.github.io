@@ -21,6 +21,8 @@ permalink: /open-problems/
 
 (Index)
 
+---
+
 ## BIG
 
 (Spiel)
@@ -38,6 +40,10 @@ permalink: /open-problems/
 #### Arbitrarily many dissipated quantities for ODEs(/PDEs)
 
 #### Maximum principles
+
+Tester text
+
+---
 
 ## Medium
 
@@ -63,6 +69,8 @@ permalink: /open-problems/
 
 #### SDEs
 
+---
+
 ## (small)
 
 (Spiel)
@@ -81,4 +89,8 @@ permalink: /open-problems/
 
 <!-- ### <span style="color: #C44E52;">😰 Hard 😰</span> -->
 
+---
+
 (Reward options)
+
+(Credit to Tabea & Ridg)
