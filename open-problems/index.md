@@ -35,7 +35,7 @@ permalink: /open-problems/
 
 ### <span style="color: #C44E52;">😰 Hard 😰</span>
 
-#### Arbitrarily many invariants for PDEs (E.g. KdV)
+#### Arbitrarily many invariants for PDEs (E.g. KdV) in a local way
 
 #### Arbitrarily many dissipated quantities for ODEs(/PDEs)
 
