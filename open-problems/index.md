@@ -3,18 +3,26 @@ title: OPEN PROBLEMS
 permalink: /open-problems/
 ---
 
-# BORIS'S OPEN PROBLEM REPOSITORY
+# OPEN PROBLEMS & REWARDS
+
+### Boris's BIG questions
 
 (Intro)
+
+(What is this?)
+
+(What are the rewards and how do I obtain them?)
+
+(How do I rank hardness?)
 
 (Index)
 
 ## Big
 
-### <span style="color: red;">Easy</span>
+### <span style="color: #55A868;">Easy</span>
 
-### Intermediate
+### <span style="color: #CCB974;">Intermediate</span>
 
-### Hard
+### <span style="color: #C44E52;">Hard</span>
 
 (Reward options)
