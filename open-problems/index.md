@@ -11,6 +11,8 @@ permalink: /open-problems/
 
 (This is all stuff I'm not working on currently (got to keep the best ideas to myself))
 
+(Contact me if you're working on/interested in any of these problems! I'd love to collab)
+
 (What is this?)
 
 (What are the rewards and how do I obtain them?)
@@ -19,7 +21,7 @@ permalink: /open-problems/
 
 (Reward options)
 
-(Colourise stars)
+(Link to page on homepage)
 
 (Link to open problems on other pages ("Related open problems"))
 
@@ -36,15 +38,15 @@ permalink: /open-problems/
 
 ### Drifts (In a natural way) {#drifts}
 
-#### Size: BIG <code>&#124;</code> Difficulty: Intermediate
+#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
 ### Proximal Galerkin/LVPP
 
-#### Size: Medium <code>&#124;</code> Difficulty: Hard
+#### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-### Extension of the auxiliary variable framework to SDEs
+### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to SDEs
 
-#### Size: Medium <code>&#124;</code> Difficulty: Hard
+#### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
 ---
 
