@@ -40,21 +40,29 @@ permalink: /open-problems/
 
 In [my work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
 This is very cool!
-However, when this idea is applied to PDEs in semi-discrete form, the resultant schemes destroy the locality of the scheme, ruining the sparsity of the assembled problem and rendering the integrator effectively useless.
-One might consider for example the [Korteweg–De Vries equation](https://en.wikipedia.org/wiki/Korteweg%E2%80%93De_Vries_equation), which, while having infinitely many invariants, it seems difficult to conserve any more than 2.
+However, when this idea is applied to PDEs in semi-discrete form, the resultant discretisations destroy the locality of the variational formulation, ruining the sparsity of the assembled problem and rendering the integrator effectively useless.
 
-*Adapt my scheme to give an integrator for general conservative PDEs that conserves arbitrarily many invariants.*
-*In particular, the discretised variational form must be local in space.*
+> *Adapt my scheme to give an integrator for general conservative PDEs that conserves arbitrarily many invariants; in particular, the discretised variational form must be local in space.*
+
+One might consider for example the [Korteweg–De Vries equation](https://en.wikipedia.org/wiki/Korteweg%E2%80%93De_Vries_equation), which, while having infinitely many invariants, it seems difficult to conserve any more than 2.
 
 ### Dissipative integrator for ODEs with arbitrarily many dissipated quantities {#dissipative-odes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-All the better if PDEs too
+Again, in [my work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
+While the results of the manuscript further extend to dissipated quantities, the scheme in question does not, and it's not at all obvious how to extend it as such.
+
+> *Adapt my scheme to give an integrator for general ODEs that dissipates arbitrarily many invariants.*
+
+All the better if you manage to dissipate arbitrarily many invariants for PDEs in the process!
 
 ### Maximum principles through the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
+
+Maximum principles can typically be proved through variational identites.
+[My work on structure-preserving integrators](/publications/sp-integrators/) shows that 
 
 ---
 
