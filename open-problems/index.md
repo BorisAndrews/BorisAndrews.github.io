@@ -28,6 +28,9 @@ permalink: /open-problems/
 (Link to open problems on other pages ("Related open problems"))
 
 {% include open-problems/title.md %}
+{% include open-problems/all/conservative-pdes.md %}
+{% include open-problems/all/dissipative-odes.md %}
+{% include open-problems/all/maximum-principles.md %}
 {% include open-problems/all/drifts.md %}
 
 ---

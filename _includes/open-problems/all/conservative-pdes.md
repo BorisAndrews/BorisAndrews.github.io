@@ -1,0 +1,1 @@
+| [Conservative integrators for PDEs with arbitrarily many invariants](/open-problems/#conservative-pdes) | {% include stars/5.md %} |

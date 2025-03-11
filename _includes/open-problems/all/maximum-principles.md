@@ -1,0 +1,1 @@
+| [Discrete maximum principles via the auxiliary variable framework](/open-problems/#maximum-principles) | {% include stars/5.md %} |

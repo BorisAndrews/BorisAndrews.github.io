@@ -1,0 +1,1 @@
+| [Dissipative integrators for ODEs with arbitrarily many dissipated quantities](/open-problems/#dissipative-odes) | {% include stars/5.md %} |
