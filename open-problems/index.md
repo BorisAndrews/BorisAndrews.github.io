@@ -48,14 +48,12 @@ dependent on the star rating in question, I'll buy you something (ranging from m
 {% include open-problems/all/lvpp.md %}
 {% include open-problems/all/sdes.md %}
 
-Current?
-
 <br>
 
 ---
 
 <div style="text-align: center;">
-    ## {% include stars/5.md %}
+  <h2>{% include stars/5.md %}</h2>
 </div>
 
 ---
