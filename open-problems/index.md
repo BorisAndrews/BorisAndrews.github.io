@@ -36,7 +36,7 @@ permalink: /open-problems/
 
 ---
 
-### Conservative integrator for PDEs with arbitrarily many invariants {#conservative-pdes}
+### Conservative integrators for PDEs with arbitrarily many invariants {#conservative-pdes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
@@ -50,7 +50,7 @@ One might consider for example the [Korteweg–De Vries equation](https://en.wik
 
 ---
 
-### Dissipative integrator for ODEs with arbitrarily many dissipated quantities {#dissipative-odes}
+### Dissipative integrators for ODEs with arbitrarily many dissipated quantities {#dissipative-odes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
@@ -63,7 +63,7 @@ All the better if you manage to dissipate arbitrarily many invariants for PDEs i
 
 ---
 
-### Maximum principles via the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
+### Discrete maximum principles via the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
