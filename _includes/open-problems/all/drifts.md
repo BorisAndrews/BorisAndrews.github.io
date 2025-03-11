@@ -1,1 +1,1 @@
-| [Drifts (In a natural way)](/open-problems/#drifts) | ★★★★☆ |
+| [Drifts (in a natural way)](/open-problems/#drifts) | {% include stars/4.md %} |

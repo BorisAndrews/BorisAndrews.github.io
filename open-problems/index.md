@@ -28,11 +28,11 @@ permalink: /open-problems/
 
 ---
 
-## ★★★★★
+## {% include stars/5.md %}
 
 ---
 
-## ★★★★☆
+## {% include stars/4.md %}
 
 ### Drifts (In a natural way) {#drifts}
 
@@ -42,17 +42,21 @@ permalink: /open-problems/
 
 #### Size: Medium <code>&#124;</code> Difficulty: Hard
 
----
+### Extension of the auxiliary variable framework to SDEs
 
-## ★★★☆☆
-
----
-
-## ★★☆☆☆
+#### Size: Medium <code>&#124;</code> Difficulty: Hard
 
 ---
 
-## ★☆☆☆☆
+## {% include stars/3.md %}
+
+---
+
+## {% include stars/2.md %}
+
+---
+
+## {% include stars/1.md %}
 
 ---
 
