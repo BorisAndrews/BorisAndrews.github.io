@@ -67,7 +67,7 @@ All the better if you manage to dissipate arbitrarily many invariants for PDEs i
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-Maximum (and minimum) principles can typically be proven by variational identites (e.g. by testing against \({\text min}(u, 0)\))
+Maximum (and minimum) principles can typically be proven by variational identites (e.g. by testing against \\(\text{min}(u, 0)\\))
 [My work on structure-preserving integrators](/publications/sp-integrators/) gives a general framework for preserving conservation and dissipation laws by preserving variational identities.
 It seems that one would be able, however the piece adamantly refuse to fall into place.
 
@@ -82,7 +82,7 @@ I hope they come to fruition!
 
 ---
 
-### Drifts {#drifts}
+### Preservation of [guiding centre drifts](https://en.wikipedia.org/wiki/Guiding_center) through [auxiliary variables](/publications/sp-integrators/) {#drifts}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
@@ -96,9 +96,11 @@ There are a lot of very nasty "quick fixes" in the particle-pusher literature, a
 
 ---
 
-### Proximal Galerkin/LVPP {#proximal-galerkin}
+### Connections between the [latent variable proximal point (LVPP) algorithm](https://doi.org/10.48550/arXiv.2503.05672) and [auxiliary variables](/publications/sp-integrators/) {#proximal-galerkin}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
+
+The [LVPP algorithm](https://doi.org/10.48550/arXiv.2503.05672) uses auxiliary variables to improve the behaviour of an iterative algorithm.
 
 ---
 
