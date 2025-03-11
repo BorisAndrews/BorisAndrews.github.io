@@ -21,17 +21,17 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 <br>
 
-## [Highlighted publications & preprints]({{ "/publications/" | absolute_url }})
+## [Highlighted publications & preprints](/publications/)
 
 {% include publications/lists/short.md %}
 
 *(Click titles for further details and talks)*
 
-[View all]({{ "/publications/" | absolute_url }})
+[View all](/publications/)
 
 <br>
 
-## [Short CV]({{ "/cv/" | absolute_url }})
+## [Short CV](/cv/)
 
 {% include education/phd.md %}
 {% include experience/tokamak_energy.md %}
@@ -41,9 +41,17 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 {% include cv-download.md %}
 
-[View all]({{ "/cv/" | absolute_url }})
+[View all](/cv/)
 
 <br>
+
+<!-- ## [Open problems and rewards](/open-problems/)
+
+In an effort
+
+[View all](/open-problems/)
+
+<br> -->
 
 ## Upcoming
 
@@ -59,7 +67,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 <br>
 
-## [Recent collaborators]({{ "/collaborators/" | absolute_url }})
+## [Recent collaborators](/collaborators/)
 
 {% include gallery.md %}
 
@@ -84,7 +92,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 <br>
 
-[View all]({{ "/collaborators/" | absolute_url }})
+[View all](/collaborators/)
 
 <br>
 

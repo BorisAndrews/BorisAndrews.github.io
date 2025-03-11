@@ -133,7 +133,7 @@ It could very well be possible though, just might need some outside-the-box thin
 
 <br>
 
----
+<!-- ---
 
 ## {% include stars/3.md %}
 
@@ -207,14 +207,14 @@ It could very well be possible though, just might need some outside-the-box thin
 
 ### Compressible MHD
 
-#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
+#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %} -->
 
 ---
 
 *(Credits to {% include collaborators/tabea/short.md %} for the idea & {% include collaborators/ridg/short.md %} for the inspiration for this page!)*
 
----
+<!-- ---
 
 To add:
 
-- Existence for comp. NS
+- Existence for comp. NS -->
