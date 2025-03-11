@@ -34,17 +34,25 @@ permalink: /open-problems/
 
 (Spiel)
 
-### Arbitrarily many invariants for PDEs (E.g. KdV)
+### Conservative integrator for PDEs with arbitrarily many invariants {#conservative-pdes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-Must be done in a local way
+In [my work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
+This is very cool!
+However, when this idea is applied to PDEs in semi-discrete form, the resultant schemes destroy the locality of the scheme, ruining the sparsity of the assembled problem and rendering the integrator effectively useless.
+One might consider for example the [Korteweg–De Vries equation](https://en.wikipedia.org/wiki/Korteweg%E2%80%93De_Vries_equation), which, while having infinitely many invariants, it seems difficult to conserve any more than 2.
 
-### Arbitrarily many dissipated quantities for ODEs(/PDEs)
+*Adapt my scheme to give an integrator for general conservative PDEs that conserves arbitrarily many invariants.*
+*In particular, the discretised variational form must be local in space.*
+
+### Dissipative integrator for ODEs with arbitrarily many dissipated quantities {#dissipative-odes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-### Maximum principles
+All the better if PDEs too
+
+### Maximum principles through the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
@@ -73,6 +81,10 @@ Must be done in a natural way
 ## {% include stars/3.md %}
 
 (Spiel)
+
+### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to general adiabatic invariants {#adiabatic}
+
+#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
 ### Superconvergence
 
@@ -130,5 +142,4 @@ Must be done in a natural way
 
 To add:
 
-- General AP integrators
 - Existence for comp. NS
