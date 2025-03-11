@@ -161,10 +161,15 @@ The framework is *general and powerful*. If you are investigating any type of tr
 
 For a neat application of these ideas to a problem in *magnetic relaxation* that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
 
-<!-- ## Related open problems
+## Related open problems
 
 {% include open-problems/title.md %}
-{% include open-problems/all/drifts.md %} -->
+{% include open-problems/all/conservative-pdes.md %}
+{% include open-problems/all/dissipative-odes.md %}
+{% include open-problems/all/maximum-principles.md %}
+{% include open-problems/all/drifts.md %}
+{% include open-problems/all/lvpp.md %}
+{% include open-problems/all/sdes.md %}
 
 ## Co-authors
 

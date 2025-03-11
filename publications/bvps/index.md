@@ -11,6 +11,11 @@ permalink: /publications/bvps/
 
 *(Details available soon!)*
 
+## Related open problems
+
+{% include open-problems/title.md %}
+{% include open-problems/all/lvpp.md %}
+
 ## Talks
 
 {% include timeline.md %}

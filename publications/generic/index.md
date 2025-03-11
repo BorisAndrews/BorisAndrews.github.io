@@ -45,6 +45,12 @@ These properties are **crucial for accurately capturing the dynamics** of these 
 
 *(Further details available soon!)*
 
+## Related open problems
+
+{% include open-problems/title.md %}
+{% include open-problems/all/conservative-pdes.md %}
+{% include open-problems/all/dissipative-odes.md %}
+
 ## Talks
 
 {% include timeline.md %}

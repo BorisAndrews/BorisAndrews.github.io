@@ -11,6 +11,11 @@ permalink: /publications/ap-integrators/
 
 *(Details available soon!)*
 
+## Related open problems
+
+{% include open-problems/title.md %}
+{% include open-problems/all/drifts.md %}
+
 ## Talks
 
 {% include timeline.md %}
