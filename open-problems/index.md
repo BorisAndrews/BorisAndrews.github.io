@@ -52,7 +52,7 @@ Dependent on the star rating in question, I'll buy you something (ranging from m
 
 ---
 
-## {% include stars/5.md %}
+<p style="text-align: center;">## {% include stars/5.md %}</p>
 
 ---
 
