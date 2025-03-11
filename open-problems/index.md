@@ -32,6 +32,7 @@ permalink: /open-problems/
 {% include open-problems/all/dissipative-odes.md %}
 {% include open-problems/all/maximum-principles.md %}
 {% include open-problems/all/drifts.md %}
+{% include open-problems/all/lvpp.md %}
 
 ---
 
@@ -99,11 +100,17 @@ There are a lot of very nasty "quick fixes" in the particle-pusher literature, a
 
 ---
 
-### Connections between the [latent variable proximal point (LVPP) algorithm](https://doi.org/10.48550/arXiv.2503.05672) and [auxiliary variables](/publications/sp-integrators/) {#proximal-galerkin}
+### Connections between the [latent variable proximal point (LVPP) algorithm](https://doi.org/10.48550/arXiv.2503.05672) and my [auxiliary variable framework](/publications/sp-integrators/) {#lvpp}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
 The [LVPP algorithm](https://doi.org/10.48550/arXiv.2503.05672) uses auxiliary variables to improve the behaviour of an iterative algorithm.
+My [auxiliary variable framework](/publications/sp-integrators/) uses auxiliary variables to improves the behaviour of an iterative algorithm (except in this case that iterative algorithm is a timestepping scheme).
+
+> *Uncover a meaningful connection between the LVPP algorithm and my auxiliary variable framework.*
+
+I've been search here for years, and I really think there is something here!
+I'd be interested to say any way in which the two can be related which leads to new insights/improved algorithms.
 
 ---
 
