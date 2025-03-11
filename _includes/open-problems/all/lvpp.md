@@ -1,1 +1,1 @@
-| [Connections between the latent variable proximal point algorithm and my auxiliary variable framework](/open-problems/#maximum-principles) | {% include stars/4.md %} |
+| [Connections between the latent variable proximal point algorithm and my auxiliary variable framework](/open-problems/#lvpp) | {% include stars/4.md %} |

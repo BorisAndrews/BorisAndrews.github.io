@@ -44,7 +44,7 @@ permalink: /open-problems/
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-In [my work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
+In my [work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
 This is very cool!
 However, when this idea is applied to PDEs in semi-discrete form, the resultant discretisations destroy the locality of the variational formulation, ruining the sparsity of the assembled problem and rendering the integrator effectively useless.
 
@@ -58,7 +58,7 @@ One might consider for example the [Korteweg–De Vries equation](https://en.wik
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-Again, in [my work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
+Again, in my [work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
 While the results of the manuscript further extend to dissipated quantities, the scheme in question does not, and it's not at all obvious how to extend it as such.
 
 > *Adapt my scheme to give an integrator for general ODEs that dissipates arbitrarily many invariants.*

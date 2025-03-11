@@ -1,1 +1,1 @@
-| [Drifts (in a natural way)](/open-problems/#drifts) | {% include stars/4.md %} |
+| [Preservation of guiding centre drifts through auxiliary variables](/open-problems/#drifts) | {% include stars/4.md %} |
