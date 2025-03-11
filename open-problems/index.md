@@ -19,6 +19,8 @@ permalink: /open-problems/
 
 (Reward options)
 
+(Colourise stars)
+
 (Link to open problems on other pages ("Related open problems"))
 
 {% include open-problems/title.md %}
@@ -32,7 +34,7 @@ permalink: /open-problems/
 
 ## ★★★★☆
 
-### Drifts (In a natural way)
+### Drifts (In a natural way) {#drifts}
 
 #### Size: BIG <code>&#124;</code> Difficulty: Intermediate
 

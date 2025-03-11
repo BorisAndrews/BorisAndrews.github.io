@@ -1,1 +1,1 @@
-| Drifts | ★★★★☆ |
+| [Drifts (In a natural way)](/open-problems/#drifts) | ★★★★☆ |
