@@ -26,6 +26,34 @@ permalink: /open-problems/
 
 ---
 
+## ★★★★★
+
+---
+
+## ★★★★☆
+
+### Drifts (In a natural way)
+
+#### Size: BIG <code>&#124;</code> Difficulty: Intermediate
+
+### Proximal Galerkin/LVPP
+
+#### Size: Medium <code>&#124;</code> Difficulty: Hard
+
+---
+
+## ★★★☆☆
+
+---
+
+## ★★☆☆☆
+
+---
+
+## ★☆☆☆☆
+
+---
+
 ## BIG
 
 (Spiel)
@@ -95,5 +123,3 @@ Tester text
 ---
 
 *(Credits to {% include collaborators/tabea/short.md %} for the idea & {% include collaborators/ridg/short.md %} for the inspiration for this page!)*
-
-## ★★★☆☆

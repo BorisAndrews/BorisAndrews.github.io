@@ -1,2 +1,2 @@
-| Problem | Size | Difficulty | Reward |
-| --- | --- | --- | --- |
+| Problem | Reward |
+| --- | --- |
