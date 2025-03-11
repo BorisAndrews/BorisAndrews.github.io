@@ -74,11 +74,39 @@ Must be done in a natural way
 
 (Spiel)
 
+### Superconvergence
+
+#### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+### Projection of u in MHD
+
+#### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+### Non-collocation RK methods
+
+#### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
 ---
 
 ## {% include stars/2.md %}
 
 (Spiel)
+
+### Viscoelastic (Oldroyd-B)/Matrix-valued problems
+
+#### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
+
+### Application to delay DEs
+
+#### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
+
+### Hamiltonian systems in Lie groups
+
+#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+### Proof of exponential decay
+
+#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
 ---
 
@@ -86,62 +114,21 @@ Must be done in a natural way
 
 (Spiel)
 
----
+### Model order reduction
 
-## BIG
+#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
-(Spiel)
+### Compressible MHD
 
-### <span style="color: #C44E52;">😰 Hard 😰</span>
-
-Tester text
-
----
-
-## Medium
-
-(Spiel)
-
-### <span style="color: #55A868;">😇 Easy 😇</span>
-
-#### Viscoelastic (Oldroyd-B)/Matrix-valued problems
-
-#### Delay DEs
-
-### <span style="color: #CCB974;">😐 Intermediate 😐</span>
-
-#### Superconvergence
-
-#### Projection of u in MHD
-
-#### Non-collocation RK methods
-
-### <span style="color: #C44E52;">😰 Hard 😰</span>
-
-#### Proximal Galerkin/LVPP
-
-#### SDEs
-
----
-
-## (small)
-
-(Spiel)
-
-### <span style="color: #55A868;">😇 Easy 😇</span>
-
-#### Model order reduction
-
-#### Compressible MHD
-
-### <span style="color: #CCB974;">😐 Intermediate 😐</span>
-
-#### Hamiltonian systems in Lie groups
-
-#### Proof of exponential decay
-
-<!-- ### <span style="color: #C44E52;">😰 Hard 😰</span> -->
+#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
 ---
 
 *(Credits to {% include collaborators/tabea/short.md %} for the idea & {% include collaborators/ridg/short.md %} for the inspiration for this page!)*
+
+---
+
+To add:
+
+- General AP integrators
+- Existence for comp. NS
