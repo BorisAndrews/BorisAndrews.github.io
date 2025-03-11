@@ -14,8 +14,10 @@ This list *(currently ongoing...)* collates all the big questions that have foun
 Please do [let me know](https://www.maths.ox.ac.uk/user/10859/contact) if you're interested in any of these/currently working on something similar;
 I would love to hear from you!
 
-In an effort to align more with the world of pure maths, I've asigned to each of these a score for **difficulty** and my own **highly subject interest in the question being resolved**;
+I've asigned to each of these a score for **difficulty** *(highly subjective)* and my own **personal interest in the question being resolved** *(also highly subjective)*;
 this is rated in stars, going from {% include stars/1.md %} to {% include stars/5.md %}.
+Dependent on the star rating in question, I'll buy you something (ranging from maybe <span style="color: #4C72B0;">a coffee</span> to <span style="color: #C44E52;">dinner</span>) next time we meet in-person if you manage to solve any of these!
+(Consider it a more hip version of the FIelds medal.)
 
 <!-- (Intro)
 
@@ -34,6 +36,8 @@ this is rated in stars, going from {% include stars/1.md %} to {% include stars/
 (Link to page on homepage)
 
 (Link to open problems on other pages ("Related open problems")) -->
+
+<br>
 
 {% include open-problems/title.md %}
 {% include open-problems/all/conservative-pdes.md %}
@@ -237,4 +241,5 @@ It could very well be possible though, just might need some outside-the-box thin
 
 To add:
 
-- Existence for comp. NS -->
+- Existence for comp. NS
+- Preconditioners -->
