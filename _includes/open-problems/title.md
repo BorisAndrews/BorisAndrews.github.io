@@ -1,2 +1,2 @@
-| Problem | Size | Difficulty | Reward rank |
+| Problem | Size | Difficulty | Reward |
 | --- | --- | --- | --- |

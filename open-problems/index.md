@@ -94,4 +94,6 @@ Tester text
 
 ---
 
-*(Credits to {% include collaborators/tabea/short.md %} for the idea & {% include collaborators/ridg/short.md %} for the inspiration for this page)*
+*(Credits to {% include collaborators/tabea/short.md %} for the idea & {% include collaborators/ridg/short.md %} for the inspiration for this page!)*
+
+☆✩★★
