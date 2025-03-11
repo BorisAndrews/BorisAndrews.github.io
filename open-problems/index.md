@@ -5,6 +5,8 @@ permalink: /open-problems/
 
 # OPEN PROBLEMS & REWARDS
 
+---
+
 ### a.k.a. Boris's BIG questions
 
 (Intro)
@@ -31,8 +33,6 @@ permalink: /open-problems/
 ---
 
 ## {% include stars/5.md %}
-
-(Spiel)
 
 ---
 
@@ -67,27 +67,40 @@ All the better if you manage to dissipate arbitrarily many invariants for PDEs i
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-Maximum principles can typically be proven by variational identites.
+Maximum (and minimum) principles can typically be proven by variational identites (e.g. by testing against \({\text min}(u, 0)\))
 [My work on structure-preserving integrators](/publications/sp-integrators/) gives a general framework for preserving conservation and dissipation laws by preserving variational identities.
-It seems that one would be able 
+It seems that one would be able, however the piece adamantly refuse to fall into place.
 
-Many thanks to 
+> *Show by example that auxiliary variables may be used to derive numerical integrators for PDEs that exhibit discrete maximum principles.*
+
+Many thanks to {% include collaborators/yohance/short.md %} for useful discussions and insights here.
+I hope they come to fruition!
 
 ---
 
 ## {% include stars/4.md %}
 
-(Spiel)
+---
 
 ### Drifts {#drifts}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
-Must be done in a natural way
+In an [upcoming preprint](/publications/ap-integrators/), I adapt my [auxiliary variable framework](/publications/sp-integrators/) to the preservation of the magnetic moment of a charged particle as an adiabatic invariant.
+This is exciting, but in practice the structure of interest for such simulations is the preservation of [guiding centre](https://en.wikipedia.org/wiki/Guiding_center) drifts.
+
+> *Using auxiliary variables, construct an asymptotic-preserving integrator for charged particles that preserves energy conservation, adiabatic invariance of the magnetic moment, and guiding centre drifts; this must be done in a natural way that is uniformly accurate in the magnetic field strength.*
+
+I'm letting "a natural way" do a lot of heavy lifting here, a term that I am leaving 100% up to my own jurisdiction.
+There are a lot of very nasty "quick fixes" in the particle-pusher literature, and I really believe there's an elegant way to do this.
+
+---
 
 ### Proximal Galerkin/LVPP {#proximal-galerkin}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
+
+---
 
 ### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to SDEs {#sdes}
 
@@ -97,19 +110,25 @@ Must be done in a natural way
 
 ## {% include stars/3.md %}
 
-(Spiel)
+---
 
 ### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to general adiabatic invariants {#adiabatic}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
+---
+
 ### Superconvergence
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
+---
+
 ### Projection of u in MHD
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+---
 
 ### Non-collocation RK methods
 
@@ -119,19 +138,25 @@ Must be done in a natural way
 
 ## {% include stars/2.md %}
 
-(Spiel)
+---
 
 ### Viscoelastic (Oldroyd-B)/Matrix-valued problems
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
+---
+
 ### Application to delay DEs
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
+---
+
 ### Hamiltonian systems in Lie groups
 
 #### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+---
 
 ### Proof of exponential decay
 
@@ -141,11 +166,13 @@ Must be done in a natural way
 
 ## {% include stars/1.md %}
 
-(Spiel)
+---
 
 ### Model order reduction
 
 #### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
+
+---
 
 ### Compressible MHD
 
