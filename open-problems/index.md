@@ -79,6 +79,7 @@ It seems that one would be able, however the piece adamantly refuse to fall into
 
 Many thanks to {% include collaborators/yohance/short.md %} for useful discussions and insights here.
 I hope they come to fruition!
+This ties in with the [open problem on the latent variable proximal point algorithm](#lvpp).
 
 ---
 
