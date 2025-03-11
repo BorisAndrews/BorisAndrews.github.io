@@ -5,11 +5,9 @@ permalink: /open-problems/
 
 # OPEN PROBLEMS & REWARDS
 
----
-
 ### a.k.a. Boris's BIG questions
 
-(Intro)
+<!-- (Intro)
 
 (This is all stuff I'm not working on currently (got to keep the best ideas to myself))
 
@@ -25,7 +23,7 @@ permalink: /open-problems/
 
 (Link to page on homepage)
 
-(Link to open problems on other pages ("Related open problems"))
+(Link to open problems on other pages ("Related open problems")) -->
 
 {% include open-problems/title.md %}
 {% include open-problems/all/conservative-pdes.md %}
@@ -33,6 +31,9 @@ permalink: /open-problems/
 {% include open-problems/all/maximum-principles.md %}
 {% include open-problems/all/drifts.md %}
 {% include open-problems/all/lvpp.md %}
+{% include open-problems/all/sdes.md %}
+
+<br>
 
 ---
 
@@ -81,6 +82,8 @@ Many thanks to {% include collaborators/yohance/short.md %} for useful discussio
 I hope they come to fruition!
 This ties in with the [open problem on the latent variable proximal point algorithm](#lvpp).
 
+<br>
+
 ---
 
 ## {% include stars/4.md %}
@@ -128,6 +131,8 @@ The auxiliary variables introduced by framework are simply gradients (or at leas
 I don't know much about SDE integrators, so this a little outside my remit.
 It could very well be possible though, just might need some outside-the-box thinking!
 
+<br>
+
 ---
 
 ## {% include stars/3.md %}
@@ -156,6 +161,8 @@ It could very well be possible though, just might need some outside-the-box thin
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
+<br>
+
 ---
 
 ## {% include stars/2.md %}
@@ -183,6 +190,8 @@ It could very well be possible though, just might need some outside-the-box thin
 ### Proof of exponential decay
 
 #### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+<br>
 
 ---
 

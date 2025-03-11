@@ -1,0 +1,1 @@
+| [Extension of the auxiliary variable framework to SDEs](/open-problems/#sdes) | {% include stars/4.md %} |
