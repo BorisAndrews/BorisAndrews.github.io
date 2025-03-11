@@ -32,13 +32,33 @@ permalink: /open-problems/
 
 ## {% include stars/5.md %}
 
+(Spiel)
+
+### Arbitrarily many invariants for PDEs (E.g. KdV)
+
+#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
+
+Must be done in a local way
+
+### Arbitrarily many dissipated quantities for ODEs(/PDEs)
+
+#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
+
+### Maximum principles
+
+#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
+
 ---
 
 ## {% include stars/4.md %}
 
-### Drifts (In a natural way) {#drifts}
+(Spiel)
+
+### Drifts {#drifts}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+Must be done in a natural way
 
 ### Proximal Galerkin/LVPP {#proximal-galerkin}
 
@@ -52,13 +72,19 @@ permalink: /open-problems/
 
 ## {% include stars/3.md %}
 
+(Spiel)
+
 ---
 
 ## {% include stars/2.md %}
 
+(Spiel)
+
 ---
 
 ## {% include stars/1.md %}
+
+(Spiel)
 
 ---
 
@@ -66,19 +92,7 @@ permalink: /open-problems/
 
 (Spiel)
 
-<!-- ### <span style="color: #55A868;">😇 Easy 😇</span> -->
-
-### <span style="color: #CCB974;">😐 Intermediate 😐</span>
-
-#### Drifts (In a natural way)
-
 ### <span style="color: #C44E52;">😰 Hard 😰</span>
-
-#### Arbitrarily many invariants for PDEs (E.g. KdV) in a local way
-
-#### Arbitrarily many dissipated quantities for ODEs(/PDEs)
-
-#### Maximum principles
 
 Tester text
 
