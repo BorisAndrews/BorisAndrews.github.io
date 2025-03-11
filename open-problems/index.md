@@ -111,7 +111,8 @@ My [auxiliary variable framework](/publications/sp-integrators/) uses auxiliary 
 > *Uncover a meaningful connection between the LVPP algorithm and my auxiliary variable framework.*
 
 I've been search here for years, and I really think there is something here!
-I'd be interested to say any way in which the two can be related which leads to new insights/improved algorithms.
+I'd be interested to see any way in which the two can be related which leads to new insights/improved algorithms.
+This ties in with the [open problem on discrete maximum principles](#maximum-principles).
 
 ---
 
