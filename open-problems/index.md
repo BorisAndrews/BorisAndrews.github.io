@@ -17,9 +17,12 @@ permalink: /open-problems/
 
 (How do I rank hardness?)
 
-(Thanks to Tabea)
+(Reward options)
 
-(Index)
+(Link to open problems on other pages ("Related open problems"))
+
+{% include open-problems/title.md %}
+{% include open-problems/all/drifts.md %}
 
 ---
 
@@ -91,6 +94,4 @@ Tester text
 
 ---
 
-(Reward options)
-
-(Credit to Tabea & Ridg)
+*(Credits to {% include collaborators/tabea/short.md %} for the idea & {% include collaborators/ridg/short.md %} for the inspiration for this page)*

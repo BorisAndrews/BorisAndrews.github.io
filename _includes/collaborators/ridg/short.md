@@ -1,0 +1,1 @@
+[Ridgway Scott](https://people.cs.uchicago.edu/~ridg/)
