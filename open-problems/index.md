@@ -5,7 +5,7 @@ permalink: /open-problems/
 
 # OPEN PROBLEMS & REWARDS
 
-### a.k.a. Boris's BIG questions
+### a.k.a. Boris's BIG brainteasers
 
 Welcome to my **open problems**!
 This list *(currently ongoing...)* collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
@@ -147,7 +147,7 @@ This ties in with the [open problem on discrete maximum principles](#maximum-pri
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
 [Itô's lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma) gives an identity for the [SDE](https://en.wikipedia.org/wiki/Stochastic_differential_equation) satisfied by a function of a stochastic process.
-The auxiliary variables introduced by [my framework](/publications/sp-integrators/) are simply gradients (or at least, projections thereof) therefore, whereas it appears those that would be needed to preserve the SDEs deriving from Itô's lemma would need to be in some way stochastic?
+The auxiliary variables introduced by [my framework](/publications/sp-integrators/) are simply gradients (or at least, projections thereof), whereas it appears those that would be needed to preserve the SDEs deriving from Itô's lemma would need to be in some way stochastic?
 
 > *Apply my auxiliary variable framework to preserve a meaningful and non-trivial stochastic conservation/dissipation structure for an SDE.*
 
