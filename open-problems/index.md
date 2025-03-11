@@ -38,9 +38,9 @@ permalink: /open-problems/
 
 ## {% include stars/5.md %}
 
---- {#conservative-pdes}
+---
 
-### Conservative integrators for PDEs with arbitrarily many invariants
+### Conservative integrators for PDEs with arbitrarily many invariants {#conservative-pdes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
@@ -52,9 +52,9 @@ However, when this idea is applied to PDEs in semi-discrete form, the resultant 
 
 One might consider for example the [Korteweg–De Vries equation](https://en.wikipedia.org/wiki/Korteweg%E2%80%93De_Vries_equation), which, while having infinitely many invariants, it seems difficult to conserve any more than 2.
 
---- {#dissipative-odes}
+---
 
-### Dissipative integrators for ODEs with arbitrarily many dissipated quantities
+### Dissipative integrators for ODEs with arbitrarily many dissipated quantities {#dissipative-odes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
@@ -65,9 +65,9 @@ While the results of the manuscript further extend to dissipated quantities, the
 
 All the better if you manage to dissipate arbitrarily many invariants for PDEs in the process!
 
---- {#maximum-principles}
+---
 
-### Discrete maximum principles via the [auxiliary variable framework](/publications/sp-integrators/)
+### Discrete maximum principles via the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
@@ -116,9 +116,17 @@ This ties in with the [open problem on discrete maximum principles](#maximum-pri
 
 ---
 
-### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to SDEs {#sdes}
+### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to [SDEs](https://en.wikipedia.org/wiki/Stochastic_differential_equation) {#sdes}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
+
+[Itô's lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma) gives an identity for the [SDE](https://en.wikipedia.org/wiki/Stochastic_differential_equation) satisfied by a function of a stochastic process.
+The auxiliary variables introduced by framework are simply gradients (or at least, projections thereof) therefore, whereas it appears those that would be needed to preserve the SDEs deriving from Itô's lemma would need to be in some way stochastic?
+
+> *Apply my [auxiliary variable framework](/publications/sp-integrators/) to preserve a meaningful and non-trivial stochastic conservation/dissipation structure for an SDE.*
+
+I don't know much about SDE integrators, so this a little outside my remit.
+It could very well be possible though, just might need some outside-the-box thinking!
 
 ---
 
@@ -126,9 +134,9 @@ This ties in with the [open problem on discrete maximum principles](#maximum-pri
 
 ---
 
-### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to general adiabatic invariants {#adiabatic}
+### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to general adiabatic invariants
 
-#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %}
+#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %} {#adiabatic}
 
 ---
 
