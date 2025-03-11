@@ -45,13 +45,14 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 <br>
 
-<!-- ## [Open problems and rewards](/open-problems/)
+## [Open problems](/open-problems/)
 
-In an effort
+I'm working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
+You can find it [here](/open-problems/).
 
 [View all](/open-problems/)
 
-<br> -->
+<br>
 
 ## Upcoming
 
