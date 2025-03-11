@@ -105,7 +105,9 @@ This ties in with the [open problem on the latent variable proximal point algori
 
 ---
 
-## {% include stars/4.md %}
+<div style="text-align: center;">
+    <h2>{% include stars/4.md %}</h2>
+</div>
 
 ---
 
@@ -154,9 +156,11 @@ It could very well be possible though, just might need some outside-the-box thin
 
 <br>
 
-<!-- ---
-
-## {% include stars/3.md %}
+<!-- -
+--
+<div style="text-align: center;">
+    <h2>{% include stars/3.md %}</h2>
+</div>
 
 ---
 
@@ -188,7 +192,9 @@ It could very well be possible though, just might need some outside-the-box thin
 
 ---
 
-## {% include stars/2.md %}
+<div style="text-align: center;">
+    <h2>{% include stars/2.md %}</h2>
+</div>
 
 ---
 
@@ -220,7 +226,9 @@ It could very well be possible though, just might need some outside-the-box thin
 
 ---
 
-## {% include stars/1.md %}
+<div style="text-align: center;">
+    <h2>{% include stars/1.md %}</h2>
+</div>
 
 ---
 
