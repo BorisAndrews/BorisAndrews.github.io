@@ -38,9 +38,9 @@ permalink: /open-problems/
 
 ## {% include stars/5.md %}
 
----
+--- {#conservative-pdes}
 
-### Conservative integrators for PDEs with arbitrarily many invariants {#conservative-pdes}
+### Conservative integrators for PDEs with arbitrarily many invariants
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
@@ -52,9 +52,9 @@ However, when this idea is applied to PDEs in semi-discrete form, the resultant 
 
 One might consider for example the [Korteweg–De Vries equation](https://en.wikipedia.org/wiki/Korteweg%E2%80%93De_Vries_equation), which, while having infinitely many invariants, it seems difficult to conserve any more than 2.
 
----
+--- {#dissipative-odes}
 
-### Dissipative integrators for ODEs with arbitrarily many dissipated quantities {#dissipative-odes}
+### Dissipative integrators for ODEs with arbitrarily many dissipated quantities
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
@@ -65,9 +65,9 @@ While the results of the manuscript further extend to dissipated quantities, the
 
 All the better if you manage to dissipate arbitrarily many invariants for PDEs in the process!
 
----
+--- {#maximum-principles}
 
-### Discrete maximum principles via the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
+### Discrete maximum principles via the [auxiliary variable framework](/publications/sp-integrators/)
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
