@@ -7,6 +7,16 @@ permalink: /open-problems/
 
 ### a.k.a. Boris's BIG questions
 
+Welcome to my **open problems**!
+This list *(currently ongoing...)* collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
+- have decided not to tackle (for the time being);
+- would be very keen to see solved.
+Please do [let me know](https://www.maths.ox.ac.uk/user/10859/contact) if you're interested in any of these/currently working on something similar;
+I would love to hear from you!
+
+In an effort to align more with the world of pure maths, I've asigned to each of these a score for **difficulty** and my own **highly subject interest in the question being resolved**;
+this is rated in stars, going from {% include stars/1.md %} to {% include stars/5.md %}.
+
 <!-- (Intro)
 
 (This is all stuff I'm not working on currently (got to keep the best ideas to myself))
@@ -40,6 +50,8 @@ permalink: /open-problems/
 ## {% include stars/5.md %}
 
 ---
+
+<br>
 
 ### Conservative integrators for PDEs with arbitrarily many invariants {#conservative-pdes}
 
@@ -90,6 +102,8 @@ This ties in with the [open problem on the latent variable proximal point algori
 
 ---
 
+<br>
+
 ### Preservation of [guiding centre drifts](https://en.wikipedia.org/wiki/Guiding_center) through [auxiliary variables](/publications/sp-integrators/) {#drifts}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/2.md %}
@@ -139,6 +153,8 @@ It could very well be possible though, just might need some outside-the-box thin
 
 ---
 
+<br>
+
 ### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to general adiabatic invariants
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %} {#adiabatic}
@@ -169,6 +185,8 @@ It could very well be possible though, just might need some outside-the-box thin
 
 ---
 
+<br>
+
 ### Viscoelastic (Oldroyd-B)/Matrix-valued problems
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
@@ -198,6 +216,8 @@ It could very well be possible though, just might need some outside-the-box thin
 ## {% include stars/1.md %}
 
 ---
+
+<br>
 
 ### Model order reduction
 
