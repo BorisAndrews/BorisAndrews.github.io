@@ -40,11 +40,11 @@ permalink: /open-problems/
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
-### Proximal Galerkin/LVPP
+### Proximal Galerkin/LVPP {#proximal-galerkin}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to SDEs
+### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to SDEs {#sdes}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
