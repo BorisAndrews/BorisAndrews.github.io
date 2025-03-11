@@ -34,6 +34,8 @@ permalink: /open-problems/
 
 (Spiel)
 
+---
+
 ### Conservative integrator for PDEs with arbitrarily many invariants {#conservative-pdes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
@@ -46,6 +48,8 @@ However, when this idea is applied to PDEs in semi-discrete form, the resultant 
 
 One might consider for example the [Korteweg–De Vries equation](https://en.wikipedia.org/wiki/Korteweg%E2%80%93De_Vries_equation), which, while having infinitely many invariants, it seems difficult to conserve any more than 2.
 
+---
+
 ### Dissipative integrator for ODEs with arbitrarily many dissipated quantities {#dissipative-odes}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
@@ -57,12 +61,17 @@ While the results of the manuscript further extend to dissipated quantities, the
 
 All the better if you manage to dissipate arbitrarily many invariants for PDEs in the process!
 
-### Maximum principles through the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
+---
+
+### Maximum principles via the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-Maximum principles can typically be proved through variational identites.
-[My work on structure-preserving integrators](/publications/sp-integrators/) shows that 
+Maximum principles can typically be proven by variational identites.
+[My work on structure-preserving integrators](/publications/sp-integrators/) gives a general framework for preserving conservation and dissipation laws by preserving variational identities.
+It seems that one would be able 
+
+Many thanks to 
 
 ---
 
