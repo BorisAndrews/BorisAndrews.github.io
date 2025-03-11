@@ -9,7 +9,7 @@ permalink: /open-problems/
 
 Welcome to my **open problems**!
 This list *(currently ongoing...)* collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
-- Have decided not to tackle (for the time being);
+- Have decided not to tackle *(for the time being)*;
 - Would be very keen to see solved.
 
 Please do [let me know](https://www.maths.ox.ac.uk/user/10859/contact) if you're interested in any of these/currently working on something similar;
