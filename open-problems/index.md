@@ -51,8 +51,9 @@ Dependent on the star rating in question, I'll buy you something (ranging from m
 <br>
 
 ---
-
-<p style="text-align: center;">## {% include stars/5.md %}</p>
+<div style="text-align: center;">
+    ## {% include stars/5.md %}
+</div>
 
 ---
 
