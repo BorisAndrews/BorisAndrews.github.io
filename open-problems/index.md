@@ -142,8 +142,8 @@ It could very well be possible though, just might need some outside-the-box thin
 
 <br>
 
-<!-- -
---
+---
+
 <div style="text-align: center;">
     <h2>{% include stars/3.md %}</h2>
 </div>
@@ -156,11 +156,24 @@ It could very well be possible though, just might need some outside-the-box thin
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %} {#adiabatic}
 
+Again, in an [upcoming preprint](/publications/ap-integrators/), I adapt my [auxiliary variable framework](/publications/sp-integrators/) to the preservation of the magnetic moment of a charged particle as an adiabatic invariant.
+
+> *Apply my auxiliary variable framework to preserve general adiabatic invariants.*
+
+It seems to me, on the surface at least, that the construction and ideas in the preprint could very well be generalised to arbitrary invariants.
+
 ---
 
 ### Superconvergence
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+In the analysis in my [auxiliary variable framework](/publications/sp-integrators/) preprint, we show that our scheme has \\(\mathcal{O}[\Delta t^s]\\) convergence, however in practice we observe \\(\mathcal{O}[\Delta t^{2s}]\\) superconvergence at timesteps.
+
+> *...*
+
+I fully expect the classical superconvergence result to hold.
+The only obstacle I believe is my lack of knowledge about proving such results for CPG integrators.
 
 ---
 
@@ -228,7 +241,7 @@ It could very well be possible though, just might need some outside-the-box thin
 
 ### Compressible MHD
 
-#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %} -->
+#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
 ---
 
@@ -239,4 +252,5 @@ It could very well be possible though, just might need some outside-the-box thin
 To add:
 
 - Existence for comp. NS
-- Preconditioners -->
+- Preconditioners
+- Explicit integrators -->
