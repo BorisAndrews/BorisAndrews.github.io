@@ -142,7 +142,7 @@ It could very well be possible though, just might need some outside-the-box thin
 
 <br>
 
----
+<!-- ---
 
 <div style="text-align: center;">
     <h2>{% include stars/3.md %}</h2>
@@ -164,22 +164,24 @@ It seems to me, on the surface at least, that the construction and ideas in the 
 
 ---
 
-### Superconvergence
+### Superconvergence of the [auxiliary variable framework](/publications/sp-integrators/)
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
 In the analysis in my [auxiliary variable framework](/publications/sp-integrators/) preprint, we show that our scheme has \\(\mathcal{O}[\Delta t^s]\\) convergence, however in practice we observe \\(\mathcal{O}[\Delta t^{2s}]\\) superconvergence at timesteps.
 
-> *...*
+> *Complete the proof of convergence for the auxiliary variable framework, and show superconvergence holds (under sufficient regularity conditions, of course).*
 
 I fully expect the classical superconvergence result to hold.
-The only obstacle I believe is my lack of knowledge about proving such results for CPG integrators.
+The only obstacle, I believe, is my lack of knowledge about proving such results for CPG integrators!
 
 ---
 
 ### Projection of u in MHD
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+In my recent preprint on [topology-preserving integrators in MHD](/publications/parker/), we use 
 
 ---
 
@@ -241,7 +243,7 @@ The only obstacle I believe is my lack of knowledge about proving such results f
 
 ### Compressible MHD
 
-#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
+#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %} -->
 
 ---
 
