@@ -119,6 +119,11 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 
 This scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
 
+## Related open problems
+
+{% include open-problems/title.md %}
+{% include open-problems/all/5-field.md %}
+{% include open-problems/all/compressible-mhd.md %}
 ## Co-authors
 
 ### {% include collaborators/mingdong/full.md %}

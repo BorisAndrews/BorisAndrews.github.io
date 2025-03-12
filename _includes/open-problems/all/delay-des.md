@@ -1,0 +1,1 @@
+| [Application of the auxiliary variable framework to delay DEs](/open-problems/#delay-des) | {% include stars/2.md %} |

@@ -50,6 +50,8 @@ These properties are **crucial for accurately capturing the dynamics** of these 
 {% include open-problems/title.md %}
 {% include open-problems/all/conservative-pdes.md %}
 {% include open-problems/all/dissipative-odes.md %}
+{% include open-problems/all/viscoelastic.md %}
+{% include open-problems/all/compressible-mhd.md %}
 
 ## Talks
 

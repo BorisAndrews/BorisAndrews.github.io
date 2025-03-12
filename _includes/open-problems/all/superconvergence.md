@@ -1,0 +1,1 @@
+| [Superconvergence of the auxiliary variable framework](/open-problems/#superconvergence) | {% include stars/3.md %} |

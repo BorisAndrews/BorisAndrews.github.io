@@ -8,7 +8,7 @@ permalink: /open-problems/
 ### a.k.a. Boris's BIG brainteasers
 
 Welcome to my **open problems**!
-This list *(currently ongoing...)* collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
+This list collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
 - Have decided not to tackle *(for the time being)*;
 - Would be very keen to see solved.
 
@@ -33,6 +33,15 @@ Remove note that says "currently ongoing" -->
 {% include open-problems/all/drifts.md %}
 {% include open-problems/all/lvpp.md %}
 {% include open-problems/all/sdes.md %}
+{% include open-problems/all/adiabatic.md %}
+{% include open-problems/all/superconvergence.md %}
+{% include open-problems/all/5-field.md %}
+{% include open-problems/all/collocation.md %}
+{% include open-problems/all/viscoelastic.md %}
+{% include open-problems/all/delay-des.md %}
+{% include open-problems/all/lie-groups.md %}
+{% include open-problems/all/roms.md %}
+{% include open-problems/all/compressible-mhd.md %}
 
 <br>
 
@@ -142,7 +151,7 @@ It could very well be possible though, just might need some outside-the-box thin
 
 <br>
 
-<!-- ---
+---
 
 <div style="text-align: center;">
     <h2>{% include stars/3.md %}</h2>
@@ -152,9 +161,9 @@ It could very well be possible though, just might need some outside-the-box thin
 
 <br>
 
-### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to general adiabatic invariants
+### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to general adiabatic invariants {#adiabatic}
 
-#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %} {#adiabatic}
+#### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
 Again, in an [upcoming preprint](/publications/ap-integrators/), I adapt my [auxiliary variable framework](/publications/sp-integrators/) to the preservation of the magnetic moment of a charged particle as an adiabatic invariant.
 
@@ -164,7 +173,7 @@ It seems to me, on the surface at least, that the construction and ideas in the 
 
 ---
 
-### Superconvergence of the [auxiliary variable framework](/publications/sp-integrators/)
+### Superconvergence of the [auxiliary variable framework](/publications/sp-integrators/) {#superconvergence}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
@@ -177,17 +186,40 @@ The only obstacle, I believe, is my lack of knowledge about proving such results
 
 ---
 
-### Projection of u in MHD
+### 5-field vs. [4-field](/publications/parker/) topology-preserving discretisations for the magneto-frictional equations {#5-field}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
-In my recent preprint on [topology-preserving integrators in MHD](/publications/parker/), we use 
+Ok, you'll have to stick with me here cause this one's a long explanation...
+
+In my recent preprint on [topology-preserving integrators in MHD](/publications/parker/), we propose a topology-preserving 4-field \\(\mathbf{B}_h, \mathbf{E}_h, \mathbf{H}_h, \mathbf{j}_h\\) discretisation for the magneto-frictional equations;
+the field \\(\mathbf{H}_h\\) is a projection of \\(\mathbf{B}_h\\) onto a different finite element space, and \\(\mathbf{j}_h\\) a projection of \\(\mathrm{curl}\mathbf{B}_h\\).
+This has the exciting property that, in the limit, it exhibits a non-trivial field configuration for which everywhere \\(\mathbf{H}_h\times\mathbf{j}_h = \mathbf{0}\\), mimicking the result on the continuous level wherein, in the limit, \\(\mathbf{B}\times\mathrm{curl}\mathbf{B} = \mathbf{0}\\)!
+I have a hunch however, that this isn't the wonderous result it may appear on the surface.
+My fear is that, while in the continuous setting the set of field configurations such that \\(\mathbf{B}\times\mathrm{curl}\mathbf{B} = \mathbf{0}\\) may be rich and infinite-dimensional, the discrete condition \\(\mathbf{H}_h\times\mathbf{j}_h = \mathbf{0}\\) might only admit a manifold of very limited dimension.
+This would be a disaster if so.
+The effect would be that, effectively, our discretisation could accuratively reproduce the long-time behaviour of the actual magneto-frictional equations 0% of the time.
+
+Now, without much trouble, one can readily define a 5-field \\(\mathbf{B}_h, \mathbf{E}_h, \mathbf{H}_h, \mathbf{j}_h, \mathbf{u}_h\\) formulation without breaking any of the structures;
+the field \\(\mathbf{u}_h\\) is a projection of \\(\mathbf{H}_h\times\mathbf{j}_h\\).
+Solutions to this scheme would satisfy, in the limit, \\(\mathbf{u}-h = \mathbf{0}\\), which should admit a much richer space of possible solutions!
+
+> *Back up my hunch; show that a 5-field topology-preserving discretisation of the magneto-frictional equation exhibits a richer space of dynamics in the long time limit, either through example or (ideally) proof.*
+
+Hardest part about this is trying to figure out what on Earth I'm talking about.
 
 ---
 
-### Non-collocation RK methods
+### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to time discretisations beyond collocation RK methods {#collocation}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
+
+The [auxiliary variable framework](/publications/sp-integrators/) gives a methodology for modifying certain classes of time discretisations to be structure-preserving, including collocation RK methods, and CPG.
+There are, however, a vast world of RK methods that are not collocation RK methods:- RK4 and multi-step methods to name but a few.
+
+> *Extend the auxiliary variable framework to allow for the structure-preserving modification of RK methods beyond collocation methods.*
+
+If explicit methods like RK4 were included within the framework, this could be a huge boon for the accessibility of the work!
 
 <br>
 
@@ -201,27 +233,42 @@ In my recent preprint on [topology-preserving integrators in MHD](/publications/
 
 <br>
 
-### Viscoelastic (Oldroyd-B)/Matrix-valued problems
+### Application of the [auxiliary variable framework](/publications/sp-integrators/) to a viscoelastic fluid system {#viscoelastic}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
+This should be a simple enough application of the [framework](/publications/sp-integrators/).
+These kind of systems (e.g. Oldroyd-B fluids) are ripe for the picking;
+they typically have both a conserved energy and dissipated entropy to preserve.
+
+> *Apply the auxiliary variable framework to a problem in viscoelastic fluid dynamics.*
+
+I've been in discussion with Aaron Brunk about an application in viscoelastic phase separation.
+
 ---
 
-### Application to delay DEs
+### Application of the [auxiliary variable framework](/publications/sp-integrators/) to delay DEs {#delay-des}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
+This could be fun!
+I've never really looked into the problem;
+I don't know much about delay DEs and their structures, but I believe this should be possible.
+
+> *Apply the auxiliary variable framework to a delay DE.*
+
 ---
 
-### Hamiltonian systems in Lie groups
+### Conservative integrators for Hamiltonian systems in Lie groups {#lie-groups}
 
 #### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
----
+Conservative integrators for Hamiltonian systems are generally posed over vector/function spaces, however the canonical space for such systems is often Lie groups.
 
-### Proof of exponential decay
+> *Derive a conservative integrator for Hamiltonian systems in Lie groups (or show me something good exists in the literature that I've missed!).*
 
-#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/2.md %}
+Maybe this could be done by adapting my [auxiliary variable framework](/publications/sp-integrators/) to problems posed over Lie groups, however things get really wonky here;
+the associated test functions live in the Lie algebra, which get very annoyed when you try to project them into the Lie group.
 
 <br>
 
@@ -235,15 +282,29 @@ In my recent preprint on [topology-preserving integrators in MHD](/publications/
 
 <br>
 
-### Model order reduction
+### Stable reduced order models (ROMs) from the [auxiliary variable framework](/publications/sp-integrators/) {#roms}
 
 #### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
+One way of deriving ROMs is through very coarse finite element discretisations.
+My [framework](/publications/sp-integrators/) could very well be applied in such a case, to derive conservative and dissipative reduced order models.
+
+> *Bring the auxiliary variable framework to the world of reduced order modelling.*
+
+One need not consider the CPG time discretisation for this to be interesting;
+the auxiliary variables alone give stable ODE systems, which is interesting enough!
+
 ---
 
-### Compressible MHD
+### Structure-preserving integrators for compressible MHD {#compressible-mhd}
 
-#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %} -->
+#### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
+
+The compressible MHD equations are typically the equations of interest in fusion modelling (at least, within the realm of continuum mechanics).
+We have defined stable integrators for the [compressible NS equations](/publications/sp-integrators/) and in [MHD](/publications/parker/) deriving from the [auxiliary variable framework](/publications/sp-integrators/);
+constructing stable integrators for the compressible MHD equations should hopefully just be a case of combining the two!
+
+> *Combine the stable auxiliary-variable integrators for the compressible NS equations and MHD to deriving a stable auxiliary-variable integrator in compressible MHD.* 
 
 ---
 
@@ -255,4 +316,7 @@ To add:
 
 - Existence for comp. NS
 - Preconditioners
-- Explicit integrators -->
+- Explicit integrators
+- Can we get symplectic integrators via AVCPG? Relations to Ari Stern's work on multisymplecticity?
+- Add link to Ari Stern/Aaron Brunk as collaborators
+- Rob Kirby's quesiton of proving exponential decay -->

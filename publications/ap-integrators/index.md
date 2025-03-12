@@ -15,6 +15,7 @@ permalink: /publications/ap-integrators/
 
 {% include open-problems/title.md %}
 {% include open-problems/all/drifts.md %}
+{% include open-problems/all/adiabatic.md %}
 
 ## Talks
 

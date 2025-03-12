@@ -1,0 +1,1 @@
+| [Application of the auxiliary variable framework to a viscoelastic fluid system](/open-problems/#viscoelastic) | {% include stars/2.md %} |

@@ -1,0 +1,1 @@
+| [Structure-preserving integrators for compressible MHD](/open-problems/#compressible-mhd) | {% include stars/1.md %} |

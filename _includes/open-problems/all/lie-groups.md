@@ -1,0 +1,1 @@
+| [Conservative integrators for Hamiltonian systems in Lie groups](/open-problems/#lie-groups) | {% include stars/2.md %} |

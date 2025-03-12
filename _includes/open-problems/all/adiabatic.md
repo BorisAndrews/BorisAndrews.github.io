@@ -1,0 +1,1 @@
+| [Extension of the auxiliary variable framework to general adiabatic invariants](/open-problems/#adiabatic) | {% include stars/3.md %} |

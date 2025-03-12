@@ -1,0 +1,1 @@
+| [Extension of the auxiliary variable framework to time discretisations beyond collocation RK methods](/open-problems/#collocation) | {% include stars/3.md %} |

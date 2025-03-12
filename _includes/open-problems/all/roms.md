@@ -1,0 +1,1 @@
+| [Stable reduced order models from the auxiliary variable framework](/open-problems/#roms) | {% include stars/1.md %} |
