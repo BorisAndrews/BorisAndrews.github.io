@@ -124,6 +124,7 @@ This scheme can be viewed as a special case of my *previous* work with {% includ
 {% include open-problems/title.md %}
 {% include open-problems/all/5-field.md %}
 {% include open-problems/all/compressible-mhd.md %}
+
 ## Co-authors
 
 ### {% include collaborators/mingdong/full.md %}
