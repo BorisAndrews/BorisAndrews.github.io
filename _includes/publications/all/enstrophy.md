@@ -1,1 +1,1 @@
-| Upcoming | Enstrophy-stable integrators for the 2D incompressible Navier--Stokes equations | Matin Shams |
+| Upcoming | [Enstrophy-stable integrators for the 2D incompressible Navier--Stokes equations]({{ "/publications/enstrophy/" | absolute_url }}) | {% include collaborators/matin/short.md %} |

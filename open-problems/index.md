@@ -306,6 +306,8 @@ constructing stable integrators for the compressible MHD equations should hopefu
 
 > *Combine the stable auxiliary-variable integrators for the compressible NS equations and MHD to deriving a stable auxiliary-variable integrator in compressible MHD.* 
 
+<br>
+
 ---
 
 *(Credits to {% include collaborators/tabea/short.md %} for the idea & {% include collaborators/ridg/short.md %} for the inspiration for this page!)*
