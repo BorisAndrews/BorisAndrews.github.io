@@ -48,7 +48,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 ## [Open problems](/open-problems/)
 
 I'm working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
-You can find it [here](/open-problems/).
+You can find it [**here**](/open-problems/).
 
 [View all](/open-problems/)
 
@@ -68,7 +68,7 @@ You can find it [here](/open-problems/).
   - {% include collaborators/rami/short.md %}, *(Brown University)*
 - **20–22.AUG** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Speaking at a minisymposium on finite element complexes for structure-preservation at {% include conferences/2025/eccomas.md %}, in *Aachen, Germany*, thanks to the invite of {% include collaborators/adam/short.md %} and {% include collaborators/charlie/short.md %}, where I will likely present [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
 - **8.SEP** <code>&#124;</code> **EDINBURGH** <code>&#124;</code> Starting a postdoc at the *{% include universities/edinburgh.md %}*, under the ERC Starting Grant "GeoFEM" (investigating the discretisation of geometric objects with finite elements) with PI {% include collaborators/kaibo/short.md %}, wherein I intend I intend to apply the theory of [conservative finite-element integrators](/publications/sp-integrators/) I've developed during my PhD (DPhil) to derive structure-preserving methods in numerical relativity
-- **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Speaking at a minisymposium on Maxwell, MHD, and derived models at {% include conferences/2025/acomen.md %}, hosted at *{% include universities/ghent.md %}*, thanks to the invite of {% include collaborators/jerome/short.md %} on behalf of the {% include organisations/nemesis.md %} PIs, where I will likely present [my work on structure-preserving integrators for the Parker problem](/publications/parker/) with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}
+- **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Speaking at a minisymposium on Maxwell, MHD, and derived models at {% include conferences/2025/acomen.md %}, hosted at *{% include universities/ghent.md %}*, thanks to the invite of {% include collaborators/jerome/short.md %} on behalf of the {% include organisations/nemesis.md %} PIs, where I will present [my work on structure-preserving integrators for the Parker problem](/publications/parker/) with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}
 
 *(\*provisional)*
 

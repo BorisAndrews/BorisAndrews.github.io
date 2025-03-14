@@ -5,7 +5,7 @@ permalink: /publications/enstrophy/
 
 # ENSTROPHY-STABLE INTEGRATORS FOR THE 2D INCOMPRESSIBLE NAVIER--STOKES EQUATIONS
 
-### Boris Andrews <code>&#124;</code> {% include collaborators/charlie/short.md %}
+### Boris Andrews <code>&#124;</code> {% include collaborators/matin/short.md %}
 
 ### In preparation
 
