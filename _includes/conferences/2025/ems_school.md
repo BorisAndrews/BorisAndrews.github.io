@@ -1,1 +1,1 @@
-[EMS School on Mathematical Modelling, Numerical Analysis and Scientific Computing](https://www.siam.org/conferences-events/siam-conferences/ds25/)
+[EMS School on Mathematical Modelling, Numerical Analysis and Scientific Computing](https://ems-masc.cuni.cz/)
