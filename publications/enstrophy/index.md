@@ -11,6 +11,10 @@ permalink: /publications/enstrophy/
 
 *(Details available soon!)*
 
+## RELATED WORKS
+
+This represents a particularly exciting application of my earlier work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative and dissipative finite element integrators](/publications/sp-integrators/), using the ideas to help in stabilisation efforts at high Reynolds numbers.
+
 ## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
