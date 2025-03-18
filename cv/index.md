@@ -66,13 +66,13 @@ permalink: /cv/
 
 ## Programming languages
 
-- **Experienced** <code>&#124;</code> Python *(Firedrake)* / MATLAB / LaTeX
-- **Limited** <code>&#124;</code> Julia / C / Fortran / HTML
+- **EXPERIENCED** <code>&#124;</code> Python *(Firedrake)* / MATLAB / LaTeX
+- **LIMITED** <code>&#124;</code> Julia / C / Fortran / HTML
 
 ## Languages
 
-- **Fluent** <code>&#124;</code> English
-- **Intermediate** <code>&#124;</code> Dutch
-- **Beginner** <code>&#124;</code> Japanese / German
+- **FLUENT** <code>&#124;</code> English
+- **INTERMEDIATE** <code>&#124;</code> Dutch
+- **BEGINNER** <code>&#124;</code> Japanese / German
 
 {% include cv-download.md %}

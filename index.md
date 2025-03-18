@@ -61,11 +61,11 @@ You can find it [**here**](/open-problems/).
 - **MAY–JUN** <code>&#124;</code> **INTERNAL SEMINAR** <code>&#124;</code> Presenting my leaving [Numerical Analysis Group internal seminar](https://www.maths.ox.ac.uk/events/list/670), culminating my time here in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the *{% include universities/oxford.md %}*
 - **15–20.JUN\*** <code>&#124;</code> **EMS SCHOOL** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*<!-- , where I intend to present [upcoming work on structure-preserving methods for boundary-value problems](/publications/bvps/) -->
 - **24–27.JUN** <code>&#124;</code> **BIENNIAL NA CONFERENCE** <code>&#124;</code> Together with {% include collaborators/charlie/short.md %}, hosting *(and presenting at)* a [minisymposium on structure-preserving FEMs](https://numericalanalysisconference.org.uk/conferences/2025/minisymposia) at the {% include conferences/2025/strathclyde.md %} at the *{% include universities/strathclyde.md %}*, where I will present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} — other speakers include:
-  - {% include collaborators/aaron/short.md %}, *(Johannes Gutenberg-Universität Mainz)*
-  - {% include collaborators/franziska/short.md %}, *(TU Darmstadt)*
-  - {% include collaborators/mingdong/short.md %}, *(University of Oxford)*
-  - {% include collaborators/kaibo/short.md %}, *(University of Edinburgh)*
-  - {% include collaborators/rami/short.md %}, *(Brown University)*
+  - {% include collaborators/aaron/short.md %} *(Johannes Gutenberg-Universität Mainz)*
+  - {% include collaborators/franziska/short.md %} *(TU Darmstadt)*
+  - {% include collaborators/mingdong/short.md %} *(University of Oxford)*
+  - {% include collaborators/kaibo/short.md %} *(University of Edinburgh)*
+  - {% include collaborators/rami/short.md %} *(Brown University)*
 - **20–22.AUG** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Speaking at a minisymposium on finite element complexes for structure-preservation at {% include conferences/2025/eccomas.md %}, in *Aachen, Germany*, thanks to the invite of {% include collaborators/adam/short.md %} and {% include collaborators/charlie/short.md %}, where I will likely present [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
 - **8.SEP** <code>&#124;</code> **EDINBURGH** <code>&#124;</code> Starting a postdoc at the *{% include universities/edinburgh.md %}*, under the ERC Starting Grant "GeoFEM" (investigating the discretisation of geometric objects with finite elements) with PI {% include collaborators/kaibo/short.md %}, wherein I intend I intend to apply the theory of [conservative finite-element integrators](/publications/sp-integrators/) I've developed during my PhD (DPhil) to derive structure-preserving methods in numerical relativity
 - **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Speaking at a minisymposium on Maxwell, MHD, and derived models at {% include conferences/2025/acomen.md %}, hosted at *{% include universities/ghent.md %}*, thanks to the invite of {% include collaborators/jerome/short.md %} on behalf of the {% include organisations/nemesis.md %} PIs, where I will present [my work on structure-preserving integrators for the Parker problem](/publications/parker/) with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}
@@ -105,14 +105,16 @@ You can find it [**here**](/open-problems/).
 
 ## Other interests
 
-🌐 **Languages/Linguistics** <code>&#124;</code> Dutch/Japanese <br>
-🎲 **Board games** <code>&#124;</code> Heavy/Light/Cooperative/I don't care so long as it's with my friends <br>
-🎹 **Piano** <code>&#124;</code> Music theory/Improvisation so long as nobody's listening <br>
-🩸 **Murder mysteries** <code>&#124;</code> Movies in particular <br>
-⚽ **Table football** <code>&#124;</code> Competitive spirit/Non-competitive skill <br>
-🗺️ **Maps/Flags** <code>&#124;</code> Just love them <br>
-🥋 **Taekwondo** <code>&#124;</code> Not done it properly in a long time though <br>
-❓ **Quizzes** <code>&#124;</code> Running/Doing/Losing <br>
-🍫 **Chocolate** <code>&#124;</code> Eating/Eating/Eating <br>
+🌐 **LANGUAGES/LINGUISTICS** <code>&#124;</code> Dutch/Japanese <br>
+🎲 **BOARD GAMES** <code>&#124;</code> Heavy/Light/Cooperative/I don't care so long as it's with my friends <br>
+🎹 **PIANO** <code>&#124;</code> Music theory/Improvisation so long as nobody's listening <br>
+🍴 **FOOD/COOKING** <code>&#124;</code> Anything East/Southeast Asian <br>
+🩸 **MURDER MYSTERIES** <code>&#124;</code> Movies in particular <br>
+⚽ **TABLE FOOTBALL** <code>&#124;</code> Competitive spirit/Non-competitive skill <br>
+🗺️ **MAPS/FLAGS** <code>&#124;</code> Just love them <br>
+🐒 **MONKEYS** <code>&#124;</code> Just love them <br>
+🥋 **TAEKWONDO** <code>&#124;</code> Not done it properly in a long time though <br>
+❓ **QUIZZES** <code>&#124;</code> Running/Doing/Losing <br>
+🍫 **CHOCOLATE** <code>&#124;</code> Eating/Eating/Eating <br>
 
 *(In no particular order)*
