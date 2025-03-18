@@ -15,13 +15,13 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 <br>
 
-## Research interests
+## RESEARCH INTERESTS
 
 {% include interests.md %}
 
 <br>
 
-## [Highlighted publications & preprints](/publications/)
+## [HIGHLIGHTED PUBLICATIONS & PREPRINTS](/publications/)
 
 {% include publications/lists/short.md %}
 
@@ -31,7 +31,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 <br>
 
-## [Short CV](/cv/)
+## [SHORT CV](/cv/)
 
 {% include education/phd.md %}
 {% include experience/tokamak_energy.md %}
@@ -45,7 +45,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 <br>
 
-## [Open problems](/open-problems/)
+## [OPEN PROBLEMS](/open-problems/)
 
 I'm working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
 You can find it [<strong>here</strong>](/open-problems/).
@@ -54,7 +54,7 @@ You can find it [<strong>here</strong>](/open-problems/).
 
 <br>
 
-## Upcoming
+## UPCOMING
 
 <!-- ### 2025 -->
 - **27.MAY** <code>&#124;</code> **CHaRMNET SEMINAR** <code>&#124;</code> Giving a seminar at the Self-Consistency Group of the {% include organisations/charmnet/full.md %}, where I will present [upcoming work on asymptotic-preserving integrators for charged particles problems](/publications/ap-integrators/), thanks to the invite of {% include collaborators/lee/short.md %}
@@ -74,7 +74,7 @@ You can find it [<strong>here</strong>](/open-problems/).
 
 <br>
 
-## [Recent collaborators](/collaborators/)
+## [RECENT COLLABORATORS](/collaborators/)
 
 {% include gallery.md %}
 
@@ -103,15 +103,15 @@ You can find it [<strong>here</strong>](/open-problems/).
 
 <br>
 
-## Other interests
+## OTHER INTERESTS
 
-🌐 **LANGUAGES/LINGUISTICS** <code>&#124;</code> Dutch / Japanese <br>
+🌐 **LANGUAGES / LINGUISTICS** <code>&#124;</code> Dutch / Japanese <br>
 🎲 **BOARD GAMES** <code>&#124;</code> Heavy / Light / Cooperative / I don't care so long as it's with my friends <br>
 🎹 **PIANO** <code>&#124;</code> Music theory / Improvisation so long as nobody's listening <br>
-🍴 **FOOD/COOKING** <code>&#124;</code> Anything East / Southeast Asian <br>
+🍴 **FOOD / COOKING** <code>&#124;</code> Anything East / Southeast Asian <br>
 🩸 **MURDER MYSTERIES** <code>&#124;</code> Movies in particular <br>
 ⚽ **TABLE FOOTBALL** <code>&#124;</code> Competitive spirit / Non-competitive skill <br>
-🗺️ **MAPS/FLAGS** <code>&#124;</code> Just love them <br>
+🗺️ **MAPS / FLAGS** <code>&#124;</code> Just love them <br>
 🐒 **MONKEYS** <code>&#124;</code> Just love them <br>
 🥋 **TAEKWONDO** <code>&#124;</code> Not done it properly in a long time though <br>
 ❓ **QUIZZES** <code>&#124;</code> Running / Doing / Losing <br>

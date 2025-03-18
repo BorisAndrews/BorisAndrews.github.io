@@ -40,7 +40,7 @@ permalink: /cv/
 {% include supervision/matin.md %}
 {% include supervision/sebastian.md %}
 
-## Talks
+## TALKS
 
 ### Invited talks & minisymposium presentations
 

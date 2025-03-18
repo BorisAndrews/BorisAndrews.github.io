@@ -11,12 +11,16 @@ permalink: /publications/enstrophy/
 
 *(Details available soon!)*
 
-## Related open problems
+## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
 {% include open-problems/all/roms.md %}
 
-## Talks
+## CO-AUTHORS
+
+### {% include collaborators/matin/full.md %}
+
+## TALKS
 
 {% include timeline.md %}
 

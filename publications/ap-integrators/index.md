@@ -11,13 +11,13 @@ permalink: /publications/ap-integrators/
 
 *(Details available soon!)*
 
-## Related open problems
+## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
 {% include open-problems/all/drifts.md %}
 {% include open-problems/all/adiabatic.md %}
 
-## Talks
+## TALKS
 
 {% include timeline.md %}
 

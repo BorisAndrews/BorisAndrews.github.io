@@ -115,17 +115,17 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 - <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 
-## Related works
+## RELATED WORKS
 
 This scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
 
-## Related open problems
+## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
 {% include open-problems/all/5-field.md %}
 {% include open-problems/all/compressible-mhd.md %}
 
-## Co-authors
+## CO-AUTHORS
 
 ### {% include collaborators/mingdong/full.md %}
 
@@ -133,7 +133,7 @@ This scheme can be viewed as a special case of my *previous* work with {% includ
 
 ### {% include collaborators/kaibo/full.md %}
 
-## Talks
+## TALKS
 
 {% include timeline.md %}
 

@@ -45,7 +45,7 @@ These properties are **crucial for accurately capturing the dynamics** of these 
 
 *(Further details available soon!)*
 
-## Related open problems
+## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
 {% include open-problems/all/conservative-pdes.md %}
@@ -53,7 +53,7 @@ These properties are **crucial for accurately capturing the dynamics** of these 
 {% include open-problems/all/viscoelastic.md %}
 {% include open-problems/all/compressible-mhd.md %}
 
-## Talks
+## TALKS
 
 {% include timeline.md %}
 
