@@ -48,7 +48,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 ## [Open problems](/open-problems/)
 
 I'm working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
-You can find it [**here**](/open-problems/).
+You can find it [<strong>here</strong>](/open-problems/).
 
 [View all](/open-problems/)
 
@@ -105,16 +105,16 @@ You can find it [**here**](/open-problems/).
 
 ## Other interests
 
-🌐 **LANGUAGES/LINGUISTICS** <code>&#124;</code> Dutch/Japanese <br>
-🎲 **BOARD GAMES** <code>&#124;</code> Heavy/Light/Cooperative/I don't care so long as it's with my friends <br>
-🎹 **PIANO** <code>&#124;</code> Music theory/Improvisation so long as nobody's listening <br>
-🍴 **FOOD/COOKING** <code>&#124;</code> Anything East/Southeast Asian <br>
+🌐 **LANGUAGES/LINGUISTICS** <code>&#124;</code> Dutch / Japanese <br>
+🎲 **BOARD GAMES** <code>&#124;</code> Heavy / Light / Cooperative / I don't care so long as it's with my friends <br>
+🎹 **PIANO** <code>&#124;</code> Music theory / Improvisation so long as nobody's listening <br>
+🍴 **FOOD/COOKING** <code>&#124;</code> Anything East / Southeast Asian <br>
 🩸 **MURDER MYSTERIES** <code>&#124;</code> Movies in particular <br>
-⚽ **TABLE FOOTBALL** <code>&#124;</code> Competitive spirit/Non-competitive skill <br>
+⚽ **TABLE FOOTBALL** <code>&#124;</code> Competitive spirit / Non-competitive skill <br>
 🗺️ **MAPS/FLAGS** <code>&#124;</code> Just love them <br>
 🐒 **MONKEYS** <code>&#124;</code> Just love them <br>
 🥋 **TAEKWONDO** <code>&#124;</code> Not done it properly in a long time though <br>
-❓ **QUIZZES** <code>&#124;</code> Running/Doing/Losing <br>
-🍫 **CHOCOLATE** <code>&#124;</code> Eating/Eating/Eating <br>
+❓ **QUIZZES** <code>&#124;</code> Running / Doing / Losing <br>
+🍫 **CHOCOLATE** <code>&#124;</code> Eating / Eating / Eating <br>
 
 *(In no particular order)*
