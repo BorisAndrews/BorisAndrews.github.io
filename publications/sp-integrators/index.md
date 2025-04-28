@@ -86,7 +86,7 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
     </div>
 </div>
 
-In our [preprint](https://doi.org/10.48550/arXiv.2407.11904), {% include collaborators/patrick/short.md %} and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
+In our [preprint](https://arxiv.org/abs/2407.11904v2), {% include collaborators/patrick/short.md %} and I propose a framework to modify numerical time discretisations to preserve conservation laws exactly. We achieve this through:
 - **Finite elements in time**
 - The systematic introduction of **auxiliary variables**
 
@@ -146,10 +146,10 @@ For instance, we use it to develop numerical schemes for the *compressible Navie
     </div>
 </div>
 
-Further applications of the framework can be found in our [preprint](https://doi.org/10.48550/arXiv.2407.11904), and we are actively pursuing many more at the moment! <br>
+Further applications of the framework can be found in our [preprint](https://arxiv.org/abs/2407.11904v2), and we are actively pursuing many more at the moment! <br>
 The framework is *general and powerful*. If you are investigating any type of transient system, we hope our work can provide a simple approach for generating more physically realistic simulations.
 
-<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2407.11904';"><b>
+<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2407.11904v2';"><b>
     CHECK OUT ON ARXIV!
 </b></div>
 
@@ -158,6 +158,9 @@ The framework is *general and powerful*. If you are investigating any type of tr
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
 
 ## RELATED WORKS
+
+This manuscript is currently being partitioned into multiple submissions.
+Part 1, covering the general framework alongside applications to the incompressible and compressible Navier–Stokes equations, can be found [here](/publications/sp-integrators-a/).
 
 For a neat application of these ideas to a problem in *magnetic relaxation* that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
 
