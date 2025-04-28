@@ -11,7 +11,7 @@ permalink: /publications/sp-integrators-a/
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators';"><b>
-    CLICK HERE TO CHECK OUT MY EARLIER MANUSCRIPT, CURRENTLY BEING PARTITIONED INTO MULTIPLE SUBMISSIONS, OF WHICH THIS CONSTITUTES PART 1
+    THIS REPRESENTS PART 1 OF AN EARLIER MANUSCRIPT, CURRENTLY BEING PARTITIONED INTO MULTIPLE SUBMISSIONS — CLICK HERE TO CHECK IT OUT!
 </b></div>
 
 *(Details available soon!)*
