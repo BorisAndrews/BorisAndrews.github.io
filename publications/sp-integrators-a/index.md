@@ -3,7 +3,7 @@ title: SP INTEGRATORS (PART 1)
 permalink: /publications/sp-integrators-a/
 ---
 
-# HIGH-ORDER CONSERVATIVE AND ACCURATELY DISSIPATIVE NUMERICAL INTEGRATORS VIA AUXILIARY VARIABLES
+# ENFORCING CONSERVATION LAWS AND DISSIPATION INEQUALITIES NUMERICALLY VIA AUXILIARY VARIABLES
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
@@ -11,7 +11,7 @@ permalink: /publications/sp-integrators-a/
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators';"><b>
-    CLICK HERE TO CHECK OUT MY EARLIER MANUSCRIPT, OF WHICH THIS CONSTITUTES PART 1
+    CLICK HERE TO CHECK OUT MY EARLIER MANUSCRIPT, CURRENTLY BEING PARTITIONED INTO MULTIPLE SUBMISSIONS, OF WHICH THIS CONSTITUTES PART 1
 </b></div>
 
 *(Details available soon!)*
