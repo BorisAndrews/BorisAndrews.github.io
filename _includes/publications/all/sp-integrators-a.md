@@ -1,1 +1,1 @@
-| Upcoming <br> (Draft on request) | [High-order conservative and accurately dissipative numerical integrators via auxiliary variables]({{ "/publications/sp-integrators-1/" | absolute_url }}) | {% include collaborators/patrick/short.md %} |
+| Upcoming <br> (Draft on request) | [Enforcing conservation laws and dissipation inequalities numerically via auxiliary variables]({{ "/publications/sp-integrators-a/" | absolute_url }}) | {% include collaborators/patrick/short.md %} |
