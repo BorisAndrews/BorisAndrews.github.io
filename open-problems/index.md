@@ -186,7 +186,7 @@ The only obstacle, I believe, is my lack of knowledge about proving such results
 
 ---
 
-### 5-field vs. [4-field](/publications/parker/) topology-preserving discretisations for the magneto-frictional equations {#5-field}
+### 5-field vs. [4-field](/publications/parker/) topology-preserving discretisations for the magneto-frictional equations {#five-field}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
