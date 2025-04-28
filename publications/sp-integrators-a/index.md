@@ -10,9 +10,10 @@ permalink: /publications/sp-integrators-a/
 ### In preparation *(Draft available on request)*
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators';"><b>
-    THIS REPRESENTS PART 1 OF AN EARLIER MANUSCRIPT, CURRENTLY BEING PARTITIONED INTO MULTIPLE SUBMISSIONS — CLICK HERE TO CHECK IT OUT!
-</b></div>
+<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators';">
+    THIS REPRESENTS PART 1 OF AN EARLIER MANUSCRIPT, CURRENTLY BEING PARTITIONED INTO MULTIPLE SUBMISSIONS <br>
+    <b>CLICK HERE TO CHECK IT OUT!</b>
+</div>
 
 *(Details available soon!)*
 
