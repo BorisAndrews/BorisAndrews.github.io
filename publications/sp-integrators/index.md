@@ -10,10 +10,10 @@ permalink: /publications/sp-integrators/
 ### 16.JUL.2024 ([arXiv](https://arxiv.org/abs/2407.11904v2)) <!-- <code>&#124;</code> This manuscript is currently being partitioned into 2 parts -->
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a';"><b>
+<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a';">
     THIS MANUSCRIPT IS CURRENTLY BEING PARTITIONED INTO MULTIPLE SUBMISSIONS <br>
     <b>CLICK HERE TO CHECK OUT PART 1!</b>
-</b></div>
+</div>
 
 > *[...] we propose an approach for the construction of **timestepping schemes** that **preserve dissipation laws** and **conserve multiple general invariants**, via finite elements in time and the systematic introduction of auxiliary variables. [...] We [devise] novel arbitrary-order schemes that conserve to machine precision **all known invariants of Hamiltonian ODEs** [...] and arbitrary-order schemes for the **compressible Navier–Stokes equations that conserve mass, momentum, and energy, and provably possess non-decreasing entropy**.*
 
