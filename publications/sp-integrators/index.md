@@ -7,10 +7,11 @@ permalink: /publications/sp-integrators/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### 16.JUL.2024 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904))
+<!-- ### 16.JUL.2024 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904)) -->
+### 16.JUL.2024 ([original full manuscript, arXiv](https://arxiv.org/abs/2407.11904v2)) <code>&#124;</code> ??.APR.2025 ([part 1 of partitioned manuscript, arXiv](https://doi.org/10.48550/arXiv.2407.11904))
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2407.11904';"><b>
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2407.11904';"><b>
     CHECK OUT ON ARXIV!
 </b></div>
 

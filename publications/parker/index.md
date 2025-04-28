@@ -10,7 +10,7 @@ permalink: /publications/parker/
 ### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654))
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://arxiv.org/abs/2501.11654';"><b>
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2501.11654';"><b>
     CHECK OUT ON ARXIV!
 </b></div>
 
