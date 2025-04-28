@@ -193,10 +193,10 @@ The only obstacle, I believe, is my lack of knowledge about proving such results
 Ok, you'll have to stick with me here cause this one's a long explanation...
 
 In my recent preprint on [topology-preserving integrators in MHD](/publications/parker/), we propose a topology-preserving 4-field \\(\mathbf{B}_h, \mathbf{E}_h, \mathbf{H}_h, \mathbf{j}_h\\) discretisation for the magneto-frictional equations;
-the field \\(\mathbf{H}_h\\) is a projection of \\(\mathbf{B}_h\\) onto a different finite element space, and \\(\mathbf{j}_h\\) a projection of \\(\mathrm{curl}\mathbf{B}_h\\).
-This has the exciting property that, in the limit, it exhibits a non-trivial field configuration for which everywhere \\(\mathbf{H}_h\times\mathbf{j}_h = \mathbf{0}\\), mimicking the result on the continuous level wherein, in the limit, \\(\mathbf{B}\times\mathrm{curl}\mathbf{B} = \mathbf{0}\\)!
+the field \\(\mathbf{H}_h\\) is a projection of \\(\mathbf{B}_h\\) onto a different finite element space, and \\(\mathbf{j}_h\\) a projection of \\(\mathrm{curl}\,\mathbf{B}_h\\).
+This has the exciting property that, in the limit, it exhibits a non-trivial field configuration for which everywhere \\(\mathbf{H}_h\times\mathbf{j}_h = \mathbf{0}\\), mimicking the result on the continuous level wherein, in the limit, \\(\mathbf{B}\times\mathrm{curl}\,\mathbf{B} = \mathbf{0}\\)!
 I have a hunch however, that this isn't the wonderous result it may appear on the surface.
-My fear is that, while in the continuous setting the set of field configurations such that \\(\mathbf{B}\times\mathrm{curl}\mathbf{B} = \mathbf{0}\\) may be rich and infinite-dimensional, the discrete condition \\(\mathbf{H}_h\times\mathbf{j}_h = \mathbf{0}\\) might only admit a manifold of very limited dimension.
+My fear is that, while in the continuous setting the set of field configurations such that \\(\mathbf{B}\times\mathrm{curl}\,\mathbf{B} = \mathbf{0}\\) may be rich and infinite-dimensional, the discrete condition \\(\mathbf{H}_h\times\mathbf{j}_h = \mathbf{0}\\) might only admit a manifold of very limited dimension.
 This would be a disaster if so.
 The effect would be that, effectively, our discretisation could accuratively reproduce the long-time behaviour of the actual magneto-frictional equations 0% of the time.
 
