@@ -13,7 +13,8 @@ permalink: /publications/
 
 {% include publications/lists/other.md %}
 
-## IN PREPARATION (Draft available on request)
+## IN PREPARATION
+### (Draft available on request)
 
 {% include publications/lists/drafts.md %}
 
@@ -21,4 +22,4 @@ permalink: /publications/
 
 {% include publications/lists/upcoming.md %}
 
-*(Click titles for further details, open problems, talks and more)*
+*(Click titles for further details, [open problems](/open-problems/), talks and more)*
