@@ -7,7 +7,7 @@ permalink: /publications/sp-integrators-a/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### In preparation *(Draft available on request)*
+### In preparation (Draft available on request)
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators';">
