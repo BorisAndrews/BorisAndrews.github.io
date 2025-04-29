@@ -1,1 +1,1 @@
-| Upcoming <br> (Draft on request) | [Enforcing conservation laws and dissipation inequalities numerically via auxiliary variables]({{ "/publications/sp-integrators-a/" | absolute_url }}) | {% include collaborators/patrick/short.md %} |
+| [Enforcing conservation laws and dissipation inequalities numerically via auxiliary variables]({{ "/publications/sp-integrators-a/" | absolute_url }}) | {% include collaborators/patrick/short.md %} |

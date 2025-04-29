@@ -1,1 +1,1 @@
-| Upcoming <br> (Draft on request) | [Conservative–dissipative integrators for reversible–irreversible systems]({{ "/publications/generic/" | absolute_url }}) | |
+| [Conservative–dissipative integrators for reversible–irreversible systems]({{ "/publications/generic/" | absolute_url }}) | |

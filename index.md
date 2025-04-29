@@ -23,7 +23,22 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 ## [HIGHLIGHTED PUBLICATIONS & PREPRINTS](/publications/)
 
-{% include publications/lists/short.md %}
+### Preprints
+
+{% include publications/titles/wide.md %}
+{% include publications/all/sp-integrators.md %}
+
+### Other manuscripts
+
+{% include publications/titles/wide.md %}
+{% include publications/all/parker.md %}
+
+### In preparation (Draft available on request)
+
+{% include publications/titles/thin.md %}
+{% include publications/all/ap-integrators.md %}
+{% include publications/all/natural-convection.md %}
+{% include publications/all/generic.md %}
 
 *(Click titles for further details and talks)*
 
