@@ -29,7 +29,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 {% include publications/all/sp-integrators-a.md %}
 {% include publications/all/parker.md %}
 
-### Other manuscripts
+### Other works
 
 {% include publications/titles/wide.md %}
 {% include publications/all/sp-integrators.md %}

@@ -23,11 +23,11 @@ permalink: /cv/
 
 ## [PUBLICATIONS & PREPRINTS](/publications/)
 
-### Preprints
+### Preprints (In review)
 
 {% include publications/lists/preprints.md %}
 
-### Other manuscripts
+### Other works
 
 {% include publications/lists/other.md %}
 

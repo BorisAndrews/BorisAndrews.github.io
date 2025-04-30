@@ -15,13 +15,32 @@ permalink: /publications/sp-integrators-a/
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
-*(Details available soon!)*
+> *We propose a general strategy for **enforcing multiple conservation laws** and **dissipation inequalities** in the **numerical solution of initial value problems**. [...] We demonstrate these ideas by their application to the **Navier-Stokes equations**. We generalize [...] the **energy-dissipating and helicity-tracking** scheme of Rebholz for the **incompressible** [...] equations, and devise the first time discretization of the **compressible** equations that **conserves mass, momentum, and energy, and provably dissipates entropy**.*
+
+{% include reveal-box.md %}
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>FULL ABSTRACT</b>
+    <div class="details">
+        We propose a general strategy for enforcing multiple conservation laws and dissipation inequalities in the numerical solution of initial value problems.
+        The key idea is to represent each conservation law or dissipation inequality by means of an associated test function;
+        we introduce auxiliary variables representing the projection of these test functions onto a discrete test set, and modify the equation to use these new variables.
+        We demonstrate these ideas by their application to the Navier-Stokes equations.
+        We generalize to arbitrary order the energy-dissipating and helicity-tracking scheme of Rebholz for the incompressible Navier-Stokes equations, and devise the first time discretization of the compressible equations that conserves mass, momentum, and energy, and provably dissipates entropy.
+    </div>
+</div>
+
+In my [earlier work](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, we proposed a framework for the construction of **finite-element integrators** that **preserve multiple conservation laws** and **dissipation inequalities**, alongside various applications to various PDE systems.
+This preprint re-establishes this framework, alongside the discussions of its applications to the **Navier–Stokes equations**, deriving *(to arbitrary order)* integrators that:
+- for the **incompressible** equations, *dissipate energy* and, in the ideal case, *conserve helicity*;
+- for the **compressible** equations, *conserve mass, momentum and energy* and *generate entropy*.
+
+For further details, check out my earlier manuscript [here](/publications/sp-integrators/).
 
 ## RELATED WORKS
 
-This work represents part 1 of a resubmission of an [earlier manuscript](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}.
+As stated above, this work represents part 1 of a resubmission of an [earlier manuscript](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, partitioned into multiple parts.
 
-For a neat application of these ideas to a problem in *magnetic relaxation* that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
+For a neat and related application of these ideas to a problem in *magnetic relaxation* that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
 
 ## RELATED OPEN PROBLEMS
 

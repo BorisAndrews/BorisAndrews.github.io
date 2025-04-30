@@ -10,7 +10,7 @@ permalink: /publications/
 
 {% include publications/lists/preprints.md %}
 
-## OTHER MANUSCRIPTS
+## OTHER WORKS
 
 {% include publications/lists/other.md %}
 
