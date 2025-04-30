@@ -29,8 +29,10 @@ permalink: /publications/sp-integrators-a/
     </div>
 </div>
 
-In my [earlier work](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, we proposed a framework for the construction of **finite-element integrators** that **preserve multiple conservation laws** and **dissipation inequalities**, alongside various applications to various PDE systems.
-This preprint re-establishes this framework, alongside the discussions of its applications to the **Navier–Stokes equations**, deriving *(to arbitrary order)* integrators that:
+In my [earlier work](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, we proposed a framework for the construction of **finite-element integrators** that **preserve multiple conservation laws** and **dissipation inequalities**, alongside various applications to different PDE systems.
+This preprint serves as **part 1** of a partition of this work.
+
+We re-establish the framework, including alongside the discussions of its applications to the **Navier–Stokes equations**, deriving *(to arbitrary order)* integrators that:
 - for the **incompressible** equations, *dissipate energy* and, in the ideal case, *conserve helicity*;
 - for the **compressible** equations, *conserve mass, momentum and energy* and *generate entropy*.
 
