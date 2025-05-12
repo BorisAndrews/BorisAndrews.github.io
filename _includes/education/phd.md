@@ -1,3 +1,3 @@
 - **2021–2025** <code>&#124;</code> PhD (DPhil) in Mathematics (Numerical Analysis), *{% include universities/oxford.md %}*
-    - **THESIS** <code>&#124;</code> Structure-preserving FEMs via auxiliary variables: conservative & accurately dissipative integrators / global & local structures for BVPs
+    - **THESIS** <code>&#124;</code> Structure preservation in finite element methods & numerical integration via auxiliary variables
     - **SUPERVISORS** <code>&#124;</code> [Patrick Farrell](https://pefarrell.org/), [Wayne Arter](https://www.linkedin.com/in/wayne-arter-86375211/)
