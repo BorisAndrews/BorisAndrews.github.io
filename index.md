@@ -2,7 +2,10 @@
 title: HOME
 ---
 
-Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, working on **structure-preserving numerical methods for PDEs** under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship/CASE award.
+Hi!
+I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, working on **structure-preserving numerical methods for PDEs** under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship/CASE award.
+
+Come September, my position here'll be transitioning to a **postdoc** with {% include collaborators/kaibo/short.md %} under the ERC Starting Grant for **{% include organisations/geofem.md %}**.
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
@@ -39,7 +42,7 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 {% include publications/titles/thin.md %}
 {% include publications/all/ap-integrators.md %}
 {% include publications/all/natural-convection.md %}
-{% include publications/all/generic.md %}
+{% include publications/all/enstrophy.md %}
 
 *(Click titles for further details and talks)*
 

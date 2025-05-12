@@ -7,7 +7,7 @@ permalink: /publications/enstrophy/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/matin/short.md %}
 
-### In preparation
+### In preparation (Draft available on request)
 
 *(Details available soon!)*
 
