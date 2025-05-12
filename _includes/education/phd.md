@@ -1,3 +1,3 @@
-- **2021–2025** <code>&#124;</code> PhD (DPhil), Numerical Analysis, *{% include universities/oxford.md %}*
+- **2021–2025 *(predicted)*** <code>&#124;</code> PhD (DPhil), Numerical Analysis, *{% include universities/oxford.md %}*
     - **THESIS** <code>&#124;</code> Structure preservation in FEMs & numerical integration via auxiliary variables
-    - **SUPERVISORS** <code>&#124;</code> [Patrick Farrell](https://pefarrell.org/), [Wayne Arter](https://www.linkedin.com/in/wayne-arter-86375211/)
+    - **SUPERVISORS** <code>&#124;</code> {% include collaborators/patrick/short.md %}, {% include collaborators/wayne/short.md %}

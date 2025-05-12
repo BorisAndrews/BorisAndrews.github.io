@@ -1,1 +1,1 @@
-- **AUG–OCT.2022** <code>&#124;</code> Physics: theory and modelling internship *({% include organisations/tokamak_energy.md %})*
+- **AUG–OCT.2022** <code>&#124;</code> Physics: theory and modelling internship, *{% include organisations/tokamak_energy.md %}*
