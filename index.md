@@ -5,8 +5,8 @@ title: HOME
 Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, working on **structure-preserving numerical methods for PDEs** under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship/CASE award.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://kaibohu.github.io/';">
-    <b>EXCITING NEWS:</b> I'LL BE STARTING A POSTDOC IN EDINBURGH WITH KAIBO HU IN SEPTEMBER!
+<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
+    CLICK <b>HERE</b> TO CHECK OUT MY MOST RECENT SUBMISSION!
 </div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
@@ -23,7 +23,23 @@ Hi! I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Nu
 
 ## [HIGHLIGHTED PUBLICATIONS & PREPRINTS](/publications/)
 
-{% include publications/lists/short.md %}
+### Preprints (In review)
+
+{% include publications/titles/wide.md %}
+{% include publications/all/sp-integrators-a.md %}
+{% include publications/all/parker.md %}
+
+### Other works
+
+{% include publications/titles/wide.md %}
+{% include publications/all/sp-integrators.md %}
+
+### In preparation (Draft available on request)
+
+{% include publications/titles/thin.md %}
+{% include publications/all/ap-integrators.md %}
+{% include publications/all/natural-convection.md %}
+{% include publications/all/generic.md %}
 
 *(Click titles for further details and talks)*
 
@@ -58,7 +74,7 @@ You can find it [<strong>here</strong>](/open-problems/).
 
 <!-- ### 2025 -->
 - **21–22.MAY** <code>&#124;</code> **EDINBURGH VISIT** <code>&#124;</code> Visiting {% include collaborators/kaibo/short.md %} at the {% include universities/edinburgh.md %}
-- **27.MAY** <code>&#124;</code> **CHaRMNET SEMINAR** <code>&#124;</code> Giving a seminar at the Self-Consistency Group of the {% include organisations/charmnet/full.md %}, where I will present [upcoming work on asymptotic-preserving integrators for charged particles problems](/publications/ap-integrators/), thanks to the invite of {% include collaborators/lee/short.md %}
+- **03.JUN** <code>&#124;</code> **CHaRMNET SEMINAR** <code>&#124;</code> Giving a seminar at the Self-Consistency Group of the {% include organisations/charmnet/full.md %}, where I will present [upcoming work on asymptotic-preserving integrators for charged particles problems](/publications/ap-integrators/), thanks to the invite of {% include collaborators/lee/short.md %}
 - **12.JUN** <code>&#124;</code> **INTERNAL SEMINAR** <code>&#124;</code> Presenting my leaving [Numerical Analysis Group internal seminar](https://www.maths.ox.ac.uk/events/list/670), culminating my time here in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the *{% include universities/oxford.md %}*
 - **15–20.JUN** <code>&#124;</code> **EMS SCHOOL** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*<!-- , where I intend to present [upcoming work on structure-preserving methods for boundary-value problems](/publications/bvps/) -->
 - **24–27.JUN** <code>&#124;</code> **BIENNIAL NA CONFERENCE** <code>&#124;</code> Together with {% include collaborators/charlie/short.md %}, hosting (and presenting at) a [minisymposium on structure-preserving FEMs](https://numericalanalysisconference.org.uk/conferences/2025/minisymposia) at the {% include conferences/2025/strathclyde.md %} at the *{% include universities/strathclyde.md %}*, where I will present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} — other speakers include:
@@ -68,7 +84,7 @@ You can find it [<strong>here</strong>](/open-problems/).
   - {% include collaborators/kaibo/short.md %} *(University of Edinburgh)*
   - {% include collaborators/rami/short.md %} *(Brown University)*
 - **20–22.AUG** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Speaking at a minisymposium on finite element complexes for structure-preservation at {% include conferences/2025/eccomas.md %}, in *Aachen, Germany*, thanks to the invite of {% include collaborators/adam/short.md %} and {% include collaborators/charlie/short.md %}, where I will likely present [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
-- **8.SEP** <code>&#124;</code> **EDINBURGH** <code>&#124;</code> Starting a postdoc at the *{% include universities/edinburgh.md %}*, under the ERC Starting Grant "GeoFEM" (investigating the discretisation of geometric objects with finite elements) with PI {% include collaborators/kaibo/short.md %}, wherein I intend I intend to apply the theory of [conservative finite-element integrators](/publications/sp-integrators/) I've developed during my PhD (DPhil) to derive structure-preserving methods in numerical relativity
+- **08.SEP** <code>&#124;</code> **EDINBURGH** <code>&#124;</code> Starting a postdoc at the *{% include universities/edinburgh.md %}*, under the ERC Starting Grant "GeoFEM" (investigating the discretisation of geometric objects with finite elements) with PI {% include collaborators/kaibo/short.md %}, wherein I intend I intend to apply the theory of [conservative finite-element integrators](/publications/sp-integrators/) I've developed during my PhD (DPhil) to derive structure-preserving methods in numerical relativity
 - **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Speaking at a minisymposium on Maxwell, MHD, and derived models at {% include conferences/2025/acomen.md %}, hosted at *{% include universities/ghent.md %}*, thanks to the invite of {% include collaborators/jerome/short.md %} on behalf of the {% include organisations/nemesis.md %} PIs, where I will present [my work on structure-preserving integrators for the Parker problem](/publications/parker/) with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}
 
 *(\*provisional)*

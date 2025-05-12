@@ -21,9 +21,23 @@ permalink: /cv/
 - **2021–2025 (DPhil)** <code>&#124;</code> EPSRC studentship / UKAEA studentship
 - **2017–2021 (MMath)** <code>&#124;</code> Worcester College Foundation scholarship / Worcester College collection prizes
 
-## PUBLICATIONS & PREPRINTS
+## [PUBLICATIONS & PREPRINTS](/publications/)
 
-{% include publications/lists/long.md %}
+### Preprints (In review)
+
+{% include publications/lists/preprints.md %}
+
+### Other works
+
+{% include publications/lists/other.md %}
+
+### In preparation (Draft available on request)
+
+{% include publications/lists/drafts.md %}
+
+### In preparation
+
+{% include publications/lists/upcoming.md %}
 
 ## TEACHING
 
