@@ -35,6 +35,7 @@ This represents a particularly exciting application of my earlier work with {% i
         <h3 class="title">2025</h3>
         <p><ul>
           <li><strong>ECCOMAS Thematic Conference on Modern Finite Element Technologies, <em>Aachen, Germany</em></strong></li>
+          <li>GeoFEM lecture, <em>University of Edinburgh</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
         </ul></p>
       </div>
