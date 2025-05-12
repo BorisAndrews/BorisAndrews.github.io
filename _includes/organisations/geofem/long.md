@@ -1,1 +1,1 @@
-ERC Starting Grant for {% include organisations/geofem.md %}
+ERC Starting Grant for {% include organisations/geofem/short.md %}
