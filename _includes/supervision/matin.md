@@ -1,1 +1,2 @@
-- **FEB–AUG.2025** <code>&#124;</code> {% include collaborators/matin/short.md %}, *MMSC special projection & dissertation*, studying enstrophy-stable integrators for the 2D Navier--Stokes Equations
+- **FEB–AUG.2025** <code>&#124;</code> {% include collaborators/matin/short.md %}, MMSC special projection & dissertation
+    - **PROJECT** <code>&#124;</code> Enstrophy-stable integrators for the 2D Navier--Stokes Equations
