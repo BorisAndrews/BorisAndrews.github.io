@@ -45,7 +45,7 @@ permalink: /cv/
 
 ## TEACHING
 
-### {% include universities/oxford.md %} (2021–2025)
+<!-- ### {% include universities/oxford.md %} (2021–2025) -->
 
 - **2024–2025** <code>&#124;</code> Tutor: *Computational Mathematics*
 - **2023–2024** <code>&#124;</code> Tutor: *Prelims corner* / Teaching assistant: [*Numerical Linear Algebra*](https://courses.maths.ox.ac.uk/course/view.php?id=5024)
@@ -53,7 +53,7 @@ permalink: /cv/
 
 ## SUPERVISION
 
-### {% include universities/oxford.md %} (2021–2025)
+<!-- ### {% include universities/oxford.md %} (2021–2025) -->
 
 {% include supervision/matin.md %}
 {% include supervision/sebastian.md %}
