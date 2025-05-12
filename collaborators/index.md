@@ -5,6 +5,8 @@ permalink: /collaborators/
 
 # COLLABORATORS
 
+*(\*in preparation)*
+
 ## {% include collaborators/patrick/full.md %}
 
 ## {% include collaborators/kaibo/full.md %}
