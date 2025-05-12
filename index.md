@@ -46,10 +46,7 @@ Come September, my position here'll be transitioning to a **postdoc** with {% in
 ## [SHORT CV](/cv/)
 
 {% include education/phd.md %}
-{% include experience/tokamak_energy.md %}
-
 {% include education/mmath.md %}
-{% include experience/perm.md %}
 
 {% include cv-download.md %}
 
