@@ -72,7 +72,7 @@ You can find it [<strong>here</strong>](/open-problems/).
 - **15–20.JUN** <code>&#124;</code> **EMS SCHOOL** <code>&#124;</code> Attending the {% include conferences/2025/ems_school.md %} in *Kácov, Czechia*<!-- , where I intend to present [upcoming work on structure-preserving methods for boundary-value problems](/publications/bvps/) -->
 - **24–27.JUN** <code>&#124;</code> **BIENNIAL NA CONFERENCE** <code>&#124;</code> Together with {% include collaborators/charlie/short.md %}, hosting (and presenting at) a [minisymposium on structure-preserving FEMs](https://numericalanalysisconference.org.uk/conferences/2025/minisymposia) at the {% include conferences/2025/strathclyde.md %} at the *{% include universities/strathclyde.md %}*, where I will present [my work on conservative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %} — other speakers include:
   - {% include collaborators/aaron/short.md %} *(Johannes Gutenberg-Universität Mainz)*
-  - {% include collaborators/franziska/short.md %} *(TU Darmstadt)*
+  - ~~{% include collaborators/franziska/short.md %} *(TU Darmstadt)*~~ (Sadly no longer able to attend)
   - {% include collaborators/mingdong/short.md %} *(University of Oxford)*
   - {% include collaborators/kaibo/short.md %} *(University of Edinburgh)*
   - {% include collaborators/rami/short.md %} *(Brown University)*
