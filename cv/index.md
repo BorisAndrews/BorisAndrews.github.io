@@ -7,6 +7,10 @@ permalink: /cv/
 
 {% include cv-download.md %}
 
+## EMPLOYMENT
+
+{% include employment/oxford.md %}
+
 ## EDUCATION
 
 {% include education/phd.md %}
