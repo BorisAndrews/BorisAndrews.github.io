@@ -37,13 +37,6 @@ Come September, my position here'll be transitioning to a **postdoc** with {% in
 {% include publications/titles/wide.md %}
 {% include publications/all/sp-integrators.md %}
 
-### In preparation (Draft available on request)
-
-{% include publications/titles/thin.md %}
-{% include publications/all/ap-integrators.md %}
-{% include publications/all/natural-convection.md %}
-{% include publications/all/enstrophy.md %}
-
 *(Click titles for further details and talks)*
 
 [View all](/publications/)
