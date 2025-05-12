@@ -77,10 +77,10 @@ You can find it [<strong>here</strong>](/open-problems/).
   - {% include collaborators/kaibo/short.md %} *(University of Edinburgh)*
   - {% include collaborators/rami/short.md %} *(Brown University)*
 - **20–22.AUG** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Speaking at a minisymposium on finite element complexes for structure-preservation at {% include conferences/2025/eccomas.md %}, in *Aachen, Germany*, thanks to the invite of {% include collaborators/adam/short.md %} and {% include collaborators/charlie/short.md %}, where I will likely present [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
-- **08.SEP** <code>&#124;</code> **POSTDOC** <code>&#124;</code> Transitioning to a postdoctoral research associate position under the {% include organisations/geofem/long.md %}, investigating the discretisation of geometric objects with finite elements, with PI {% include collaborators/kaibo/short.md %}, wherein I intend to apply the theory of [conservative finite-element integrators](/publications/sp-integrators/) I've developed during my PhD (DPhil) to derive structure-preserving methods in numerical relativity
+- **08.SEP** <code>&#124;</code> **POSTDOC** <code>&#124;</code> Transitioning from PhD candidate to a Postdoctoral Research Associate position under the {% include organisations/geofem/long.md %} with PI {% include collaborators/kaibo/short.md %}, wherein I intend to use my theory of [conservative finite-element integrators](/publications/sp-integrators/) to derive structure-preserving methods in numerical relativity
 - **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Speaking at a minisymposium on Maxwell, MHD, and derived models at {% include conferences/2025/acomen.md %}, hosted at *{% include universities/ghent.md %}*, thanks to the invite of {% include collaborators/jerome/short.md %} on behalf of the {% include organisations/nemesis.md %} PIs, where I will present [my work on structure-preserving integrators for the Parker problem](/publications/parker/) with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}
 
-*(\*provisional)*
+<!-- *(\*provisional)* -->
 
 <br>
 
