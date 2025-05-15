@@ -34,7 +34,7 @@ This represents a particularly exciting application of my earlier work with {% i
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><strong>ACOMEN, <em>Ghent University \& University of Liège</em></strong></li>
+          <li><strong>ACOMEN, <em>Ghent University & University of Liège</em></strong></li>
           <li><strong>ECCOMAS Thematic Conference on Modern Finite Element Technologies, <em>Aachen, Germany</em></strong></li>
           <li>Numerical Analysis Group internal seminar, <em>University of Oxford</em></li>
           <li><strong>ACM Colloquium, <em>University of Edinburgh & Heriot-Watt Unversity</em></strong></li>
