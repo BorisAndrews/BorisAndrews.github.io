@@ -143,7 +143,7 @@ This scheme can be viewed as a special case of my *previous* work with {% includ
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li><strong>ACOMEN, <em>Ghent University</em></strong></li>
+          <li>ACOMEN, <em>Ghent University \& University of Liège</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
           <li><strong>METHODS Group seminar, <em>Brown University</em></strong></li>
         </ul></p>
