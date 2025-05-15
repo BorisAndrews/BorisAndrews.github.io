@@ -1,1 +1,1 @@
-[Ghent University](https://www.ugent.be/)
+[Ghent University](https://cage.ugent.be/)
