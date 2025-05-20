@@ -47,7 +47,7 @@ These properties are **crucial for accurately capturing the dynamics** of these 
 
 ## RELATED WORKS
 
-This scheme can be viewed as a special case of my earlier work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative and dissipative finite element integrators](/publications/sp-integrators/).
+This scheme can be viewed as a **special case of my earlier work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative and dissipative finite element integrators](/publications/sp-integrators/).
 
 ## RELATED OPEN PROBLEMS
 

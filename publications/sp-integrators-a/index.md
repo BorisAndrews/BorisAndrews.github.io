@@ -42,13 +42,13 @@ For further details, check out my earlier manuscript [here](/publications/sp-int
 
 Check out Patrick's **Langtangen Seminar** on our work at *[Simula](https://www.simula.no/)* here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe><br>
 
 ## RELATED WORKS
 
 As stated above, this work represents part 1 of a resubmission of an [earlier manuscript](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, partitioned into multiple parts.
 
-For a neat and related application of these ideas to a problem in *magnetic relaxation* that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
+For a neat and related application of these ideas to a problem in **magnetic relaxation** that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
 
 ## RELATED OPEN PROBLEMS
 
