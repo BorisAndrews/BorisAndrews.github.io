@@ -162,7 +162,10 @@ The framework is *general and powerful*. If you are investigating any type of tr
 
 Check out Patrick's **Langtangen Seminar** on our work at *[Simula](https://www.simula.no/)* here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe><br>
+{% include video-container.md %}
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
+</div><br>
 
 ## RELATED WORKS
 
