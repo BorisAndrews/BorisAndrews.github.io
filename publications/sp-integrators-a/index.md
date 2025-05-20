@@ -38,6 +38,12 @@ We re-establish the framework, including alongside the discussions of its applic
 
 For further details, check out my earlier manuscript [here](/publications/sp-integrators/).
 
+## VIDEOS
+
+Check out Patrick's **Langtangen Seminar** on our work at *[Simula](https://www.simula.no/)* here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
+
 ## RELATED WORKS
 
 As stated above, this work represents part 1 of a resubmission of an [earlier manuscript](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, partitioned into multiple parts.
