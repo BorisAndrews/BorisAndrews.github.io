@@ -158,6 +158,12 @@ The framework is *general and powerful*. If you are investigating any type of tr
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
 
+## VIDEOS
+
+Check out Patrick's **Langtangen Seminar** on our work at *[Simula](https://www.simula.no/)* here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
+
 ## RELATED WORKS
 
 This manuscript is currently being partitioned into multiple submissions.
