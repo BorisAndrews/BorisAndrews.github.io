@@ -1,1 +1,1 @@
-[ACM Colloqium](https://maths.ed.ac.uk/events/acm)
+[ACM Colloqium](https://calendar.google.com/calendar/u/0/event?eid=XzY0cDMwZ2hnNzRxNDZiYTM2dDI0NmI5azhjb2s2YmExNjRxajZiOWg4NHIzZ2NxNDZkMWthY3BoODggZGcxdjZtNG5tNHBxNnY1bmhva2Q5bWc2c2NAZw)
