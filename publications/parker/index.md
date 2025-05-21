@@ -144,8 +144,8 @@ This scheme can be viewed as a **special case of my previous work** with {% incl
         <h3 class="title">2025</h3>
         <p><ul>
           <li>ACOMEN, <em>Ghent University \& University of Liège</em></li>
-          <li><strong>ACM Colloquium, <em>University of Edinburgh & Heriot-Watt Unversity</em></strong></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
+          <li><strong>ACM Colloquium, <em>University of Edinburgh & Heriot-Watt Unversity</em></strong></li>
           <li>METHODS Group seminar, <em>Brown University</em></li>
         </ul></p>
       </div>
