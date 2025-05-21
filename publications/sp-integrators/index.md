@@ -160,12 +160,14 @@ The framework is *general and powerful*. If you are investigating any type of tr
 
 ## VIDEOS
 
-Check out Patrick's **Langtangen Seminar** on our work at *[Simula](https://www.simula.no/)* here:
+Check out Patrick's **Langtangen Seminar** (22.APR.2025) on our work at *[Simula](https://www.simula.no/)* below:
 
 {% include video-container.md %}
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
 </div><br>
+
+His earlier **ACM Colloquium** (13.NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} can be found [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
 
 ## RELATED WORKS
 
