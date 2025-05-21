@@ -115,6 +115,15 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 - <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 
+## VIDEOS
+
+This work was discussed in Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)*, on our [earlier work on general geometric numerical integrators](/publications/sp-integrators/):
+
+{% include video-container.md %}
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
+</div><br>
+
 ## RELATED WORKS
 
 This scheme can be viewed as a **special case of my previous work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
