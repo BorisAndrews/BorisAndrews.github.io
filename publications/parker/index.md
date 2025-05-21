@@ -117,7 +117,7 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 
 ## VIDEOS
 
-This work was discussed in Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)*, on our [earlier work on general geometric numerical integrators](/publications/sp-integrators/):
+This work was discussed during Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)*, on our [earlier more general work on geometric numerical integrators](/publications/sp-integrators/):
 
 {% include video-container.md %}
 <div class="video-container">
@@ -152,7 +152,7 @@ This scheme can be viewed as a **special case of my previous work** with {% incl
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li>ACOMEN, <em>Ghent University \& University of Liège</em></li>
+          <li>ACOMEN, <em>Ghent University & University of Liège</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
           <li><strong>ACM Colloquium, <em>University of Edinburgh & Heriot-Watt Unversity</em></strong></li>
           <li>METHODS Group seminar, <em>Brown University</em></li>
