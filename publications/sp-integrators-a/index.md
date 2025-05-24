@@ -40,7 +40,7 @@ For further details, check out my earlier manuscript [here](/publications/sp-int
 
 ## VIDEOS
 
-Check out Patrick's **Langtangen Seminar** (22.APR.2025) on our work at *[Simula](https://www.simula.no/)* below:
+Check out Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)* below:
 
 {% include video-container.md %}
 <div class="video-container">
