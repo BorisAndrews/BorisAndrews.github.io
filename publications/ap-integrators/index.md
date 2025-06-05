@@ -33,8 +33,8 @@ one adiabatic invariant in particular in fact: the magnetic moment.
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
+          <div style="text-align: center; padding: 10px 0;"><strong>⬇️ PAST ⬇️</strong></div>
           <li><strong>Self-Consistency Group seminar, <em>CHaRMNET</em></strong></li>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
         </ul></p>
       </div>
     </div>
