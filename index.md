@@ -73,7 +73,7 @@ You can find it [<strong>here</strong>](/open-problems/).
   - ~~{% include collaborators/franziska/short.md %}~~ (Sadly no longer available)
   - {% include collaborators/mingdong/short.md %}
   - {% include collaborators/kaibo/short.md %}
-  - {% include collaborators/rami/short.md %}
+  - ~~{% include collaborators/rami/short.md %}~~ (Sadly no longer available)
 - **20–22.AUG** <code>&#124;</code> **MFET** <code>&#124;</code> Speaking at a minisymposium on finite element complexes for structure-preservation at {% include conferences/2025/mfet.md %} in *Aachen, Germany*, thanks to the invite of {% include collaborators/adam/short.md %} and {% include collaborators/charlie/short.md %}, where I will present (for the first time!) [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
 - **08.SEP** <code>&#124;</code> **POSTDOC** <code>&#124;</code> Transitioning from PhD candidate to a Postdoctoral Research Associate position under the {% include organisations/geofem/long.md %} with PI {% include collaborators/kaibo/short.md %}, wherein I intend to use my theory of [conservative finite-element integrators](/publications/sp-integrators/) to derive structure-preserving methods in numerical relativity
 - **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Attending {% include conferences/2025/acomen.md %}, jointly hosted by *{% include universities/ghent.md %}* and the *{% include universities/liege.md %}*, where I will be speaking at two minisymposia:

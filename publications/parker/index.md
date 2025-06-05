@@ -117,7 +117,7 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 
 ## VIDEOS
 
-This work was discussed during Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)*, on our [earlier more general work on geometric numerical integrators](/publications/sp-integrators/):
+You can find some discussion of this work in Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)*, on our [earlier more general work on geometric numerical integrators](/publications/sp-integrators/), below:
 
 {% include video-container.md %}
 <div class="video-container">
