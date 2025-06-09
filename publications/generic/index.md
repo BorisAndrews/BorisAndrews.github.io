@@ -21,7 +21,7 @@ The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extend
         \[
             \dot{\mathbf{x}}  =  L(\mathbf{x})\nabla E(\mathbf{x}) + M(\mathbf{x})\nabla S(\mathbf{x}).
         \]
-      Here, \(E, S : \mathbb{R}^d \to \mathbb{R}\) are the (conserved) energy and (non-decreasing) entropy, and \(L, M : \mathbb{R}^d \to \mathbb{R}^{d\times d}\) are the skew-symmetric (Poisson) matrix and positive-semidefinite (friction) matrix.
+      Here, \(E, S : \mathbb{R}^d \to \mathbb{R}\) are the (conserved) energy and (non-decreasing) entropy, and \(L, M : \mathbb{R}^d \to \mathbb{R}^{d\times d}\) are the skew-symmetric (Poisson) matrix and positive semi-definite (friction) matrix.
         With the following orthogonality conditions,
         \[
             \nabla S(\mathbf{x})^\top L(\mathbf{x}) = 0,  \qquad
