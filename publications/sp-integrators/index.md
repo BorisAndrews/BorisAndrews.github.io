@@ -158,12 +158,23 @@ The framework is *general and powerful*. If you are investigating any type of tr
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
 
+## VIDEOS
+
+Check out Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)* below:
+
+{% include video-container.md %}
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
+</div><br>
+
+His earlier **ACM Colloquium** (13.NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} can be found [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
+
 ## RELATED WORKS
 
 This manuscript is currently being partitioned into multiple submissions.
-Part 1, covering the general framework alongside applications to the incompressible and compressible Navier–Stokes equations, can be found [here](/publications/sp-integrators-a/).
+Part 1, covering the **general framework** alongside **applications to the incompressible and compressible Navier–Stokes equations**, can be found [here](/publications/sp-integrators-a/).
 
-For a neat application of these ideas to a problem in *magnetic relaxation* that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
+For a neat application of these ideas to a problem in **magnetic relaxation** that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
 
 ## RELATED OPEN PROBLEMS
 
@@ -197,7 +208,6 @@ For a neat application of these ideas to a problem in *magnetic relaxation* that
         <h3 class="title">2025</h3>
         <p><ul>
           <li>Biennial Numerical Analysis Conference, <em>University of Strathclyde</em></li>
-          <li>Numerical Analysis Group internal seminar, <em>University of Oxford</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
           <li><strong>Numerical Mathematics & Scientific Computing seminar, <em>Rice University</em></strong></li>
           <li><strong>SIAM CSE, <em>Fort Worth, Texas</em></strong></li>

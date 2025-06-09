@@ -38,11 +38,22 @@ We re-establish the framework, including alongside the discussions of its applic
 
 For further details, check out my earlier manuscript [here](/publications/sp-integrators/).
 
+## VIDEOS
+
+Check out Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)* below:
+
+{% include video-container.md %}
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
+</div><br>
+
+His earlier **ACM Colloquium** (13.NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} can be found [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
+
 ## RELATED WORKS
 
 As stated above, this work represents part 1 of a resubmission of an [earlier manuscript](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}, partitioned into multiple parts.
 
-For a neat and related application of these ideas to a problem in *magnetic relaxation* that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
+For a neat and related application of these ideas to a problem in **magnetic relaxation** that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
 
 ## RELATED OPEN PROBLEMS
 

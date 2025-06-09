@@ -15,7 +15,7 @@ permalink: /publications/
 {% include publications/lists/other.md %}
 
 ## IN PREPARATION
-### (Draft available on request)
+### (Drafts available on request)
 
 {% include publications/lists/drafts.md %}
 

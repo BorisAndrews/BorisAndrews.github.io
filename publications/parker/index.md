@@ -115,9 +115,18 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 - <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 
+## VIDEOS
+
+You can find some discussion of this work in Patrick's **Langtangen Seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)*, on our [earlier more general work on geometric numerical integrators](/publications/sp-integrators/), below:
+
+{% include video-container.md %}
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/wfFcZsxicw0" frameborder="0" allowfullscreen></iframe>
+</div><br>
+
 ## RELATED WORKS
 
-This scheme can be viewed as a special case of my *previous* work with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
+This scheme can be viewed as a **special case of my previous work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
 
 ## RELATED OPEN PROBLEMS
 
@@ -143,9 +152,9 @@ This scheme can be viewed as a special case of my *previous* work with {% includ
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <li>ACOMEN, <em>Ghent University \& University of Liège</em></li>
-          <li><strong>ACM Colloquium, <em>University of Edinburgh & Heriot-Watt Unversity</em></strong></li>
+          <li>ACOMEN, <em>Ghent University & University of Liège</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
+          <li><strong>ACM Colloquium, <em>University of Edinburgh & Heriot-Watt Unversity</em></strong></li>
           <li>METHODS Group seminar, <em>Brown University</em></li>
         </ul></p>
       </div>
