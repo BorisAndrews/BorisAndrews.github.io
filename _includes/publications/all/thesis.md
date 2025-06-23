@@ -1,1 +1,1 @@
-| Structure-preserving finite element methods via auxiliary variables: conservative and accurately dissipative integrators, and energy estimates for inhomogeneous boundary-value problems *(Phd (DPhil) thesis)* | |
+| Geometric numerical integration via auxiliary variables *(Phd (DPhil) thesis)* | |
