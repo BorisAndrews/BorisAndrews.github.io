@@ -76,7 +76,7 @@ This decline manifests as *artificial, unphysical oscillations in the solution*.
         \]
         and assume periodic boundary conditions.
         Define \(U\) to be the space of Hermite finite elements of uniform width 2, and take a uniform timestep \(1\). <br>
-        Take the following semi-discrete variational formulation:
+        Take the following semidiscrete variational formulation:
         find \(u \in C^1(\mathbb{R}_+; U)\) such that for all \(v \in U\),
         \[
             \int_\Omega(\dot{u}v + \dot{u}_xv_x)  =  \int_\Omega\!\left(u + \frac{1}{2}u^2\right)v_x,
