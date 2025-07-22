@@ -74,13 +74,12 @@ permalink: /cv/
 
 *(\*scheduled/provisional)*
 
-## PROFESSIONAL EXPERIENCE
+## OTHER EXPERIENCE
 
 {% include experience/strathclyde.md %}
 {% include experience/tokamak_energy.md %}
-{% include experience/perm.md %}
-
-*(\*scheduled/provisional)*
+{% include experience/summer_school.md %}
+<!-- {% include experience/perm.md %} -->
 
 ## LANGUAGES
 

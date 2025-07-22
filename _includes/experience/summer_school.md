@@ -1,0 +1,1 @@
+- **JUL.2022** <code>&#124;</code> [Plasma physics summer school](https://culhamsummerschool.org.uk/), *{% include organisations/ukaea.md %}*
