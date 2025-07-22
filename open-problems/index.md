@@ -61,7 +61,7 @@ Remove note that says "currently ongoing" -->
 
 In my [work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
 This is very cool!
-However, when this idea is applied to PDEs in semi-discrete form, the resultant discretisations destroy the locality of the variational formulation, ruining the sparsity of the assembled problem and rendering the integrator effectively useless.
+However, when this idea is applied to PDEs in semidiscrete form, the resultant discretisations destroy the locality of the variational formulation, ruining the sparsity of the assembled problem and rendering the integrator effectively useless.
 
 > *Adapt my scheme to give an integrator for general conservative PDEs that conserves arbitrarily many invariants; in particular, the discretised variational form must be local in space.*
 
