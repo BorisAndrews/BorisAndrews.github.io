@@ -3,7 +3,7 @@ title: PARKER PROBLEM
 permalink: /publications/parker/
 ---
 
-# TOPOLOGY-PRESERVING DISCRETIZATION FOR THE MAGNETO-FRICTIONAL EQUATIONS ARISING IN THE PARKER CONJECTURE
+# HELICITY-PRESERVING FINITE ELEMENT DISCRETIZATION FOR MAGNETIC RELAXATION
 
 ### {% include collaborators/mingdong/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/kaibo/short.md %} <code>&#124;</code> Boris Andrews
 
@@ -75,7 +75,6 @@ In the equilibrium state therefore, the **magnetic field should not vanish**.
     <b>FUN TOPOLOGICAL DIVERSION</b>
     <div class="details">
         This has a neat <em>topological</em> interpretation!
-        (Hence <em>"topology-preserving"</em> in the title.) <br>
         The helicity \(\mathcal{H}\) can be interpreted as a continuous analogue of an idea from <b>knot theory</b>: the <em>linking number</em>.
         This represents the number of times a pair of loops winds around each other (1, 2, 3 in the image below). <br><br>
         <img src="assets/img/linking.jpeg" alt="linking_numbers"><br><br>

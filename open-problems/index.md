@@ -186,13 +186,13 @@ The only obstacle, I believe, is my lack of knowledge about proving such results
 
 ---
 
-### 5-field vs. [4-field](/publications/parker/) topology-preserving discretisations for the magneto-frictional equations {#five-field}
+### 5-field vs. [4-field](/publications/parker/) helicity-preserving finite element discretisations for magnetic relaxation {#five-field}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
 Ok, you'll have to stick with me here cause this one's a long explanation...
 
-In my recent preprint on [topology-preserving integrators in MHD](/publications/parker/), we propose a topology-preserving 4-field \\(\mathbf{B}_h, \mathbf{E}_h, \mathbf{H}_h, \mathbf{j}_h\\) discretisation for the magneto-frictional equations;
+In my recent preprint on [helicity-preserving integrators in MHD](/publications/parker/), we propose a helicity-preserving 4-field \\(\mathbf{B}_h, \mathbf{E}_h, \mathbf{H}_h, \mathbf{j}_h\\) discretisation for the magneto-frictional equations;
 the field \\(\mathbf{H}_h\\) is a projection of \\(\mathbf{B}_h\\) onto a different finite element space, and \\(\mathbf{j}_h\\) a projection of \\(\mathrm{curl}\,\mathbf{B}_h\\).
 This has the exciting property that, in the limit, it exhibits a non-trivial field configuration for which everywhere \\(\mathbf{H}_h\times\mathbf{j}_h = \mathbf{0}\\), mimicking the result on the continuous level wherein, in the limit, \\(\mathbf{B}\times\mathrm{curl}\,\mathbf{B} = \mathbf{0}\\)!
 I have a hunch however, that this isn't the wonderous result it may appear on the surface.
@@ -204,7 +204,7 @@ Now, without much trouble, one can readily define a 5-field \\(\mathbf{B}_h, \ma
 the field \\(\mathbf{u}_h\\) is a projection of \\(\mathbf{H}_h\times\mathbf{j}_h\\).
 Solutions to this scheme would satisfy, in the limit, \\(\mathbf{u}-h = \mathbf{0}\\), which should admit a much richer space of possible solutions!
 
-> *Back up my hunch; show that a 5-field topology-preserving discretisation of the magneto-frictional equation exhibits a richer space of dynamics in the long time limit, either through example or (ideally) proof.*
+> *Back up my hunch; show that a 5-field helicity-preserving discretisation of the magneto-frictional equation exhibits a richer space of dynamics in the long time limit, either through example or (ideally) proof.*
 
 Hardest part about this is trying to figure out what on Earth I'm talking about.
 

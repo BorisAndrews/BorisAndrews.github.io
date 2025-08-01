@@ -1,1 +1,1 @@
-| [5-field vs. 4-field topology-preserving discretisations for the magneto-frictional equations](/open-problems/#five-field) | {% include stars/3.md %} |
+| [5-field vs. 4-field helicity-preserving finite element discretisations for magnetic relaxation](/open-problems/#five-field) | {% include stars/3.md %} |
