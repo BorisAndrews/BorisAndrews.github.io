@@ -3,7 +3,7 @@ title: ENSTROPHY
 permalink: /publications/enstrophy/
 ---
 
-# ENSTROPHY-STABLE INTEGRATORS FOR THE 2D INCOMPRESSIBLE NAVIER--STOKES EQUATIONS
+# ENSTROPHY-STABLE INTEGRATORS FOR THE INCOMPRESSIBLE NAVIER--STOKES EQUATIONS ON UNDER-RESOLVED MESHES
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/matin/short.md %}
 
