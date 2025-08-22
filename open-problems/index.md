@@ -20,9 +20,9 @@ This is rated in stars, going from {% include stars/1.md %} to {% include stars/
 dependent on the star rating in question, I'll buy you something *(ranging from maybe <span style="color: #4C72B0;">a coffee</span> to <span style="color: #C44E52;">dinner</span>)* next time we meet in-person if you manage to solve any of them!
 *(Consider it a more hip version of the Fields medal.)*
 
-<!-- (Link to open problems on other pages ("Related open problems")) 
+<!-- IDEAS:
 
-Remove note that says "currently ongoing" -->
+Does enstrophy tracking actually mean anything for the regularity of solutions in 3D? -->
 
 <br>
 
