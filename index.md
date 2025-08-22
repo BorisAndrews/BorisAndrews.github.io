@@ -54,15 +54,6 @@ Come September, my position here'll be transitioning to a **postdoc** with {% in
 
 <br>
 
-## [OPEN PROBLEMS](/open-problems/)
-
-I'm working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
-You can find it [<strong>here</strong>](/open-problems/).
-
-[View all](/open-problems/)
-
-<br>
-
 ## UPCOMING
 
 <!-- ### 2025 -->
@@ -103,6 +94,15 @@ You can find it [<strong>here</strong>](/open-problems/).
 <br>
 
 [View all](/collaborators/)
+
+<br>
+
+## [OPEN PROBLEMS](/open-problems/)
+
+I'm working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
+You can find it [<strong>here</strong>](/open-problems/).
+
+[View all](/open-problems/)
 
 <br>
 
