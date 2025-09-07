@@ -6,7 +6,7 @@ permalink: /cv/
 # CV
 
 {% include cv-download.md %}
-
+  
 ## EMPLOYMENT
 
 {% include employment/oxford.md %}
