@@ -3,9 +3,8 @@ title: HOME
 ---
 
 Hi!
-I'm Boris Andrews, and I'm a **final-year PhD** (DPhil) candidate in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, working on **structure-preserving numerical methods for PDEs** under a joint {% include organisations/epsrc.md %}/{% include organisations/ukaea/short.md %} studentship/CASE award.
-
-Come September, my position here'll be transitioning to a **postdoc** with {% include collaborators/kaibo/short.md %} under the ERC Starting Grant for **{% include organisations/geofem/short.md %}**.
+I'm Boris Andrews, and I'm a **postdoctoral research associate** (postdoc) in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, under the {% include organisations/geofem/long.md %}.
+My work generally focuses on **structure-preserving/compatible numerical methods for PDEs**.
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
@@ -57,7 +56,6 @@ Come September, my position here'll be transitioning to a **postdoc** with {% in
 ## UPCOMING
 
 <!-- ### 2025 -->
-- **08.SEP** <code>&#124;</code> **POSTDOC** <code>&#124;</code> Transitioning from PhD candidate to a Postdoctoral Research Associate position under the {% include organisations/geofem/long.md %} with PI {% include collaborators/kaibo/short.md %}, wherein I intend to use my theory of [conservative finite-element integrators](/publications/sp-integrators/) to derive structure-preserving methods in numerical relativity
 - **15–17.SEP** <code>&#124;</code> **FIREDRAKE '25** <code>&#124;</code> My Masters (MMSC) student {% include collaborators/matin/short.md %} will be attending the {% include conferences/2025/firedrake.md %} at the {% include universities/leeds.md %}, where he will present [our upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/)
 - **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Attending {% include conferences/2025/acomen.md %}, jointly hosted by *{% include universities/ghent.md %}* and the *{% include universities/liege.md %}*, where I will be speaking at two minisymposia:
   - On Maxwell, MHD, and derived models, thanks to the invite of {% include collaborators/jerome/short.md %} on behalf of the {% include organisations/nemesis.md %} PIs, where I will present [my work on structure-preserving integrators for the Parker problem](/publications/parker/) with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}
