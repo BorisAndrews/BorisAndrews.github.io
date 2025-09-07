@@ -4,7 +4,8 @@ title: HOME
 
 Hi!
 I'm Boris Andrews, and I'm a **postdoctoral research associate** (postdoc) in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, under the {% include organisations/geofem/long.md %}.
-My work generally focuses on **structure-preserving/compatible numerical methods for PDEs**.
+
+My work generally focuses on **structure-preserving/compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
