@@ -1,1 +1,1 @@
-| Geometric numerical integration via auxiliary variables *(Phd (DPhil) thesis)* | |
+| 29.AUG.2025 <br> ([link](/assets/pdf/thesis.pdf)) | Geometric numerical integration via auxiliary variables *(Phd (DPhil) thesis)* | |
