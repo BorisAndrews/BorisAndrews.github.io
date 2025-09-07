@@ -1,3 +1,3 @@
 - **2021–2025** <code>&#124;</code> PhD (DPhil), Numerical Analysis, *{% include universities/oxford.md %}*
-    - **THESIS** <code>&#124;</code> Geometric numerical integration via auxiliary variables
+    - **THESIS** <code>&#124;</code> [Geometric numerical integration via auxiliary variables](/assets/pdf/thesis.pdf)
     - **SUPERVISORS** <code>&#124;</code> {% include collaborators/patrick/short.md %}, {% include collaborators/wayne/short.md %}
