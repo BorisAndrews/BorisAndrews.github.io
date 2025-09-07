@@ -9,7 +9,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/assets/pdf/thesis.pdf';">
-    I RECENTLY SUBMITTED MY <b>PHD (DPHIL) THESIS</b> — CLICK HERE TO CHECK IT OUT!
+    I RECENTLY DEFENDED MY <b>PHD (DPHIL) THESIS</b> — CLICK HERE TO CHECK IT OUT!
 </div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
