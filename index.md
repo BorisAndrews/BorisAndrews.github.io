@@ -79,7 +79,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/kaibo.jpg' | relative_url }}" alt="Kaibo Hu">
-        <div class="caption"><a href="https://kaibohu.github.io/"><b>Kaibo Hu</b></a>, <br> <a href="https://www.maths.ed.ac.uk/school-of-mathematics/"><em>University of Edinburgh</em></a></div>
+        <div class="caption"><a href="https://kaibohu.github.io/"><b>Kaibo Hu</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Alexei Gazca">
