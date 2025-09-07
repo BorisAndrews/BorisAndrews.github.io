@@ -1,3 +1,3 @@
-- **2025–2027** <code>&#124;</code> Postdoctoral Research Associate, Numerical Analysis, *{% include universities/oxford.md %}*
+- **2025–2027 (predicted)** <code>&#124;</code> Postdoctoral Research Associate, Numerical Analysis, *{% include universities/oxford.md %}*
     - **PROJECT** <code>&#124;</code> {% include organisations/geofem/long.md %}
     - **ADVISOR** <code>&#124;</code> {% include collaborators/kaibo/short.md %}

@@ -45,8 +45,8 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ## [SHORT CV](/cv/)
 
+{% include employment/oxford.md %}
 {% include education/phd.md %}
-{% include education/mmath.md %}
 
 {% include cv-download.md %}
 
