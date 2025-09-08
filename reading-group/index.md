@@ -10,13 +10,7 @@ Spiel
 
 Link to Teams group
 
-...
-<span class="toggle-header"><h2>2025–2026</h2></span>
-<div class="toggle-content">
-<h3>Michaelmas term</h3>
-</div>
-
-<!-- ## 2025–2026
+## 2025–2026
 
 ### Michaelmas term
 
@@ -33,4 +27,4 @@ Link to Teams group
 
 ## –2025
 
-For records of prior years, see {% include collaborators/charlie/short.md %}'s page [here](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group). -->
+For records of prior years, see {% include collaborators/charlie/short.md %}'s page [here](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group).
