@@ -4,6 +4,8 @@ permalink: /reading-group/
 layout: blank
 ---
 
-# READING GROUP
+# OXFORD FEM READING GROUP
 
-## Testing
+## 2025–2026
+
+### Michaelmas term
