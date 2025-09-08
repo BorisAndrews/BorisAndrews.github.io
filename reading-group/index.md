@@ -14,6 +14,6 @@ layout: blank
 | --- | --- | --- | --- |
 | 1 | 15.OCT | ?? | ?? |
 
-## –2024
+## –2025
 
-[link](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group)
+[Legacy link](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group)
