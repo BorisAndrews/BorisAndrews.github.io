@@ -10,6 +10,6 @@ layout: blank
 
 ### Michaelmas term
 
-| Week | Date | Paper |
-| --- | --- | --- |
-| 1 | ?? | ?? |
+| Week | Date | Paper | Presenter |
+| --- | --- | --- | --- |
+| 1 | ?? | ?? | ?? |
