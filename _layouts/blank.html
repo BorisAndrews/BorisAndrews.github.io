@@ -6,23 +6,12 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   </head>
   <body>
     <h3 style="margin: 1em 0 2em 0;">
-      <a href="{{ '/' | relative_url }}">&larr; Back to home</a>
+      <a href="{{ '/' | relative_url }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to home</a>
     </h3>
     {{ content }}
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      document.querySelectorAll('.toggle-header').forEach(function(header) {
-        header.addEventListener('click', function() {
-          var content = header.nextElementSibling;
-          if (content && content.classList.contains('toggle-content')) {
-            content.style.display = (content.style.display === 'block') ? 'none' : 'block';
-          }
-        });
-      });
-    });
-    </script>
   </body>
 </html>
