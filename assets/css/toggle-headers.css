@@ -1,0 +1,14 @@
+.toggle-content {
+  display: none;
+  margin-bottom: 1em;
+}
+
+.toggle-header {
+  cursor: pointer;
+  color: #578ACC;
+  user-select: none;
+}
+
+.toggle-header:hover {
+  text-decoration: underline;
+}

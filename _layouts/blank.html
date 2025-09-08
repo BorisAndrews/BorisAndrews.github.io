@@ -12,5 +12,17 @@
       <a href="{{ '/' | relative_url }}">&larr; Back to home</a>
     </h3>
     {{ content }}
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll('.toggle-header').forEach(function(header) {
+        header.addEventListener('click', function() {
+          var content = header.nextElementSibling;
+          if (content && content.classList.contains('toggle-content')) {
+            content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+          }
+        });
+      });
+    });
+    </script>
   </body>
 </html>
