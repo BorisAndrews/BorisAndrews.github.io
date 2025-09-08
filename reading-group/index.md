@@ -9,3 +9,7 @@ layout: blank
 ## 2025–2026
 
 ### Michaelmas term
+
+| Week | Date | Paper |
+| --- | --- | --- |
+| 1 | ?? | ?? |
