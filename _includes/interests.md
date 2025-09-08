@@ -1,4 +1,4 @@
-- **STRUCTURE-PRESERVING NUMERICAL METHODS FOR PDEs & ODEs** <code>&#124;</code> Conservative & dissipative integrators / Global & local energy estimates / Asymptotic-preserving integrators / Geometric ML
+- **STRUCTURE-PRESERVING / COMPATIBLE NUMERICAL METHODS FOR PDEs & ODEs** <code>&#124;</code> Conservative & dissipative integrators / Global & local energy estimates / Asymptotic-preserving integrators / Geometric ML
 - **FINITE ELEMENT THEORY** <code>&#124;</code> FEEC / Domain decomposition / PinT
 - **PLASMA MODELLING** <code>&#124;</code> MHD / Hybrid fluid-particle models
 - **TURBULENT SYSTEMS** <code>&#124;</code> Stabilisation / Preconditioning
