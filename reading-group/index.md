@@ -12,4 +12,8 @@ layout: blank
 
 | Week | Date | Paper | Presenter |
 | --- | --- | --- | --- |
-| 1 | ?? | ?? | ?? |
+| 1 | 15.OCT | ?? | ?? |
+
+## –2024
+
+[link](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group)
