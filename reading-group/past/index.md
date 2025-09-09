@@ -6,7 +6,7 @@ layout: blank
 
 # OXFORD FEM READING GROUP
 
-Spiel
+Homepage for the {% include universities/oxford.md %} finite element methods reading group!
 
 ## UPCOMING
 
@@ -20,6 +20,6 @@ Click [here](/reading-group/) to hide the records of past presentations.
 
 For prior years, see {% include collaborators/charlie/short.md %}'s page [here](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group).
 
-## SUGGESTED READS
+## [SUGGESTED READS](/reading-group/suggested/)
 
-{% include reading-group/suggested.md %}
+Click [here](/reading-group/suggested/) to view the list of suggested papers.

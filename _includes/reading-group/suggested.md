@@ -1,7 +1,7 @@
 ### 2023
 
 - **E. Zampa**, **A. Alonso Rodríguez** and **F. Rapetti**, Using the FES framework to derive new physical degrees of freedom for finite element spaces of differential forms, *Advances in Computational Mathematics*, 49 (2023), [doi:10.1007/s10444-022-10001-3](https://doi.org/10.1007/s10444-022-10001-3).
-- **H. Liu**, **M. Neilan** and **M. Baris Otus**, A divergence-free finite element method for the Stokes problem with boundary correction, *Journal of Numerical Mathematics*, 31 (2023), [doi:10.1515/jnma-2021-0125](https://doi.org/10.1515/jnma-2021-0125).
+- **H. Liu**, **M. Neilan** and **M. B. Otus**, A divergence-free finite element method for the Stokes problem with boundary correction, *Journal of Numerical Mathematics*, 31 (2023), [doi:10.1515/jnma-2021-0125](https://doi.org/10.1515/jnma-2021-0125).
 
 ### 2022
 
@@ -12,7 +12,7 @@
 ### 2021
 
 - **E. Bueler**, The full approximation storage multigrid scheme: A 1D finite element example, preprint (2021), [arXiv:2101.05408](https://arxiv.org/abs/2101.05408).
-- **M. Neilan** and **B. Otus**, Divergence-free Scott--Vogelius Elements on Curved Domains, *SIAM Journal on Numerical Analysis*, 59 (2021), [doi:10.1137/20M1360098](https://doi.org/10.1137/20M1360098).
+- **M. Neilan** and **M. B. Otus**, Divergence-free Scott--Vogelius Elements on Curved Domains, *SIAM Journal on Numerical Analysis*, 59 (2021), [doi:10.1137/20M1360098](https://doi.org/10.1137/20M1360098).
 
 ### 2020
 
