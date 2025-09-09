@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="{{ '/assets/css/accordion.css' | absolute_url }}">

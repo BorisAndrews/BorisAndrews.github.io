@@ -10,6 +10,8 @@ Spiel
 
 Link to Teams group
 
+{% include accordion.md %}
+
 <div class="accordion">
   <h1 class="accordion-header">Big Section</h1>
   <div class="accordion-content">
