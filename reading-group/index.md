@@ -6,7 +6,7 @@ layout: blank
 
 # OXFORD FEM READING GROUP
 
-Homepage for the {% include universities/oxford.md %} finite element methods reading group!
+Homepage for the **{% include universities/oxford.md %} finite element methods reading group**!
 
 ## UPCOMING
 
