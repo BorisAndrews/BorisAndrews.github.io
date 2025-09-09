@@ -18,6 +18,6 @@ Click [here](/reading-group/past/) to view the records of past presentations.
 
 ## [SUGGESTED READS](/reading-group/)
 
-{% include reading-group/suggested.md %}
-
 Click [here](/reading-group/) to hide the suggested reads.
+
+{% include reading-group/suggested.md %}
