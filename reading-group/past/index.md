@@ -1,6 +1,6 @@
 ---
 title: READING GROUP
-permalink: /reading-group/
+permalink: /reading-group/past/
 layout: blank
 ---
 
@@ -12,9 +12,13 @@ Homepage for the **{% include universities/oxford.md %} finite element methods r
 
 {% include reading-group/upcoming.md %}
 
-## [PAST](/reading-group/past/)
+## [PAST](/reading-group/)
 
-Click [here](/reading-group/past/) to view the records of past presentations.
+Click [here](/reading-group/) to hide the records of past presentations.
+
+### –2025
+
+For prior years, see {% include collaborators/charlie/short.md %}'s page [here](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group).
 
 ## [SUGGESTED READS](/reading-group/suggested/)
 

@@ -97,10 +97,19 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 <br>
 
+## [OXFORD FEM READING GROUP](/reading-group/)
+
+I run the **finite element methods reading group** in the Numerical Analysis Group here at the {% include universities/oxford.md %}.
+You can find information on upcoming presentations **[here](/reading-group/)**.
+
+[View all](/reading-group/)
+
+<br>
+
 ## [OPEN PROBLEMS](/open-problems/)
 
 I'm working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
-You can find it [<strong>here</strong>](/open-problems/).
+You can find it **[here](/open-problems/)**.
 
 [View all](/open-problems/)
 

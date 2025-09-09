@@ -1,6 +1,6 @@
 ---
 title: READING GROUP
-permalink: /reading-group/
+permalink: /reading-group/suggested/
 layout: blank
 ---
 
@@ -16,6 +16,8 @@ Homepage for the **{% include universities/oxford.md %} finite element methods r
 
 Click [here](/reading-group/past/) to view the records of past presentations.
 
-## [SUGGESTED READS](/reading-group/suggested/)
+## [SUGGESTED READS](/reading-group/)
 
-Click [here](/reading-group/suggested/) to view the list of suggested papers.
+Click [here](/reading-group/) to hide the suggested reads.
+
+{% include reading-group/suggested.md %}
