@@ -12,7 +12,7 @@ Spiel
 
 {% include reading-group/upcoming.md %}
 
-## PAST
+## [PAST](/reading-group/)
 
 Click [here](/reading-group/) to hide the records of past presentations.
 
