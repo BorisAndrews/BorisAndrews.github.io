@@ -100,7 +100,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ## [OXFORD FEM READING GROUP](/reading-group/)
 
 I run the **finite element methods reading group** in the Numerical Analysis Group here at the {% include universities/oxford.md %}.
-You can find information on upcoming presentations [<strong>here</strong>](/reading-group/).
+You can find information on upcoming presentations [**here**](/reading-group/).
 
 [View all](/reading-group/)
 
