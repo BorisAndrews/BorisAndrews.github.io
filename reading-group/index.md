@@ -10,7 +10,35 @@ Spiel
 
 Link to Teams group
 
-## 2025–2026
+<div class="accordion">
+  <h1 class="accordion-header">Big Section</h1>
+  <div class="accordion-content">
+    <div class="accordion">
+      <h2 class="accordion-header">Smaller Section</h2>
+      <div class="accordion-content">
+        <p>Content under an H2.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="accordion">
+  <h2 class="accordion-header">Smaller Section</h2>
+  <div class="accordion-content">
+    <p>Content under an H2.</p>
+  </div>
+</div>
+
+<div class="accordion">
+  <h3 class="accordion-header">Even Smaller</h3>
+  <div class="accordion-content">
+    <p>Content under an H3.</p>
+  </div>
+</div>
+
+<script src="assets/js/accordion.js"></script>
+
+<!-- ## 2025–2026
 
 ### Michaelmas term
 
@@ -27,4 +55,4 @@ Link to Teams group
 
 ## –2025
 
-For records of prior years, see {% include collaborators/charlie/short.md %}'s page [here](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group).
+For records of prior years, see {% include collaborators/charlie/short.md %}'s page [here](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group). -->
