@@ -35,26 +35,20 @@ For records of prior years, see {% include collaborators/charlie/short.md %}'s p
 
 ## SUGGESTED READS
 
-### 2025
-
 ### 2023
 
 - **E. Zampa**, **A. Alonso Rodríguez** and **F. Rapetti**, Using the FES framework to derive new physical degrees of freedom for finite element spaces of differential forms, *Advances in Computational Mathematics*, 49 (2023), [doi:10.1007/s10444-022-10001-3](https://doi.org/10.1007/s10444-022-10001-3).
-
 - **H. Liu**, **M. Neilan** and **M. Baris Otus**, A divergence-free finite element method for the Stokes problem with boundary correction, *Journal of Numerical Mathematics*, 31 (2023), [doi:10.1515/jnma-2021-0125](https://doi.org/10.1515/jnma-2021-0125).
 
 ### 2022
 
 - **K. Kean**, **M. Neilan** and **M. Schneier**, The Scott–Vogelius method for the Stokes problem on anisotropic meshes, *International Journal of Numerical Analysis and Modeling*, 19 (2022), [article](http://global-sci.org/intro/article_detail/ijnam/20475.html).
-
 - **L. Allen** and **R. C. Kirby**, Bounds-constrained polynomial approximation using the Bernstein basis, *Numerische Mathematik*, 152 (2022), [doi:10.1007/s00211-022-01311-1](https://doi.org/10.1007/s00211-022-01311-1).
-
 - **B. Cockburn** and **S. Xia**, An adjoint-based super-convergent Galerkin approximation of eigenvalues, *Journal of Computational Physics*, 449 (2022), [doi:10.1016/j.jcp.2021.110816](https://doi.org/10.1016/j.jcp.2021.110816).
 
 ### 2021
 
 - **E. Bueler**, The full approximation storage multigrid scheme: A 1D finite element example, preprint (2021), [arXiv:2101.05408](https://arxiv.org/abs/2101.05408).
-
 - **M. Neilan** and **B. Otus**, Divergence-free Scott--Vogelius Elements on Curved Domains, *SIAM Journal on Numerical Analysis*, 59 (2021), [doi:10.1137/20M1360098](https://doi.org/10.1137/20M1360098).
 
 ### 2020
@@ -64,7 +58,6 @@ For records of prior years, see {% include collaborators/charlie/short.md %}'s p
 ### 2019
 
 - **M. Neilan** and **M. Wu**, Discrete Miranda–Talenti estimates and applications to linear and nonlinear PDEs, *Journal of Computational and Applied Mathematics*, 356 (2019), [doi:10.1016/j.cam.2019.01.032](https://doi.org/10.1016/j.cam.2019.01.032).
-
 - **X. Hu**, **J. Zu** and **L. T. Zikatanov**, Randomized and fault-tolerant method of subspace corrections, *Research in the Mathematical Sciences*, 6 (2019), [doi:10.1007/s40687-019-0187-z](https://doi.org/10.1007/s40687-019-0187-z).
 
 ### 2016
@@ -78,7 +71,6 @@ For records of prior years, see {% include collaborators/charlie/short.md %}'s p
 ### 2012
 
 - **M. Holst** and **A. Stern**, Geometric variational crimes: Hilbert complexes, finite element exterior calculus and problems on hypersurfaces, *Foundations of Computational Mathematics*, 12 (2012), [doi:10.1007/s10208-012-9119-7](https://doi.org/10.1007/s10208-012-9119-7).
-
 - **M. Holst** and **A. Stern**, Semilinear mixed problems on Hilbert complexes and their numerical approximation, *Foundations of Computational Mathematics*, 12 (2012), [doi:10.1007/s10208-011-9110-8](https://doi.org/10.1007/s10208-011-9110-8).
 
 ### 2009
