@@ -1,6 +1,6 @@
 ### 2025–2026
 
-***Michaelmas term***
+*Michaelmas term*
 
 | Week | Date | Paper | Presenter |
 | --- | --- | --- | --- |
