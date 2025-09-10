@@ -2,7 +2,7 @@
 
 *Michaelmas term*
 
-| Week | Date | Paper | Presenter |
+| Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
 | 1 | 14.OCT | *TBA...* | *TBA...* |
 | 2 | 21.OCT | *TBA...* | *TBA...* |
