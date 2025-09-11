@@ -1,0 +1,1 @@
+- **2025–2027 (predicted)** <code>&#124;</code> Organisation of the weekly [finite element methods reading group](/reading-group/), *{% include universities/oxford.md %}*
