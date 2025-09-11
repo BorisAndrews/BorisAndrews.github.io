@@ -4,7 +4,7 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 14.OCT | *TBA...* | *TBA...* |
+| 1 | 14.OCT | *TBA...* | *TBA... (probably me)* |
 | 2 | 21.OCT | *TBA...* | *TBA...* |
 | 3 | 28.OCT | *TBA...* | *TBA...* |
 | 4 | 04.NOV | *TBA...* | *TBA...* |
