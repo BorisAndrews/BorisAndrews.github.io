@@ -4,8 +4,8 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 14.OCT | *TBA...* | *TBA... <br> (probably me)* |
-| 2 | 21.OCT | *TBA...* | *TBA...* |
+| 1 | 14.OCT | *TBA...* | Me |
+| 2 | 21.OCT | *TBA...* | {% include collaborators/kars/short.md %} |
 | 3 | 28.OCT | *TBA...* | *TBA...* |
 | 4 | 04.NOV | *TBA...* | *TBA...* |
 | 5 | 11.NOV | *TBA...* | *TBA...* |
