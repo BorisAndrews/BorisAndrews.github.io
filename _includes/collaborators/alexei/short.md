@@ -1,1 +1,1 @@
-[Alexei Gazca](https://gazcaorozco.github.io/home/)
+[Alexei Gazca](https://karlin.mff.cuni.cz/~gazca/home/)

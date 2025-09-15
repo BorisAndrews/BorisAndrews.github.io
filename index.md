@@ -83,7 +83,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Alexei Gazca">
-        <div class="caption"><a href="https://gazcaorozco.github.io/home/"><b>Alexei Gazca</b></a>, <br> <a href="https://www.math.uni-freiburg.de/index.html"><em>University of Freiburg</em></a></div>
+        <div class="caption"><a href="https://karlin.mff.cuni.cz/~gazca/home/"><b>Alexei Gazca</b></a>, <br> <a href="https://www.mff.cuni.cz/en/math/muuk/institute"><em>Charles University</em></a></div>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/mingdong.png' | relative_url }}" alt="Mingdong He">
