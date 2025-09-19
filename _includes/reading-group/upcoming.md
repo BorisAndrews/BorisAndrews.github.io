@@ -4,7 +4,7 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 14.OCT | *TBA...* | [Me](/) |
+| 1 | 14.OCT | *The Stokes complex, its elements, and why splitting makes a difference* | [Me](/) |
 | 2 | 21.OCT | *TBA...* | {% include collaborators/kars/short.md %} |
 | 3 | 28.OCT | *TBA...* | *TBA...* |
 | 4 | 04.NOV | *TBA...* | *TBA...* |
