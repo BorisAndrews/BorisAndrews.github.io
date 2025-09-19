@@ -2,6 +2,7 @@
 - Finite element systems, and why we split
 - Long steps for fixed point iterations
 - Stokes complexes, the BGG construction, and all that jazz 
+- Lie advection equations, and their topology-preserving properties
 -->
 
 ### 2024
