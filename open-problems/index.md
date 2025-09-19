@@ -76,9 +76,9 @@ One might consider for example the [Korteweg–De Vries equation](https://en.wik
 Again, in my [work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
 While the results of the manuscript further extend to dissipated quantities, the scheme in question does not, and it's not at all obvious how to extend it as such.
 
-> *Adapt my scheme to give an integrator for general ODEs that dissipates arbitrarily many invariants.*
+> *Adapt my scheme to give an integrator for general ODEs that preserves arbitrarily many dissipation inequalities.*
 
-All the better if you manage to dissipate arbitrarily many invariants for PDEs in the process!
+All the better if you manage to dissipate arbitrarily many such quantities for PDEs in the process!
 
 ---
 

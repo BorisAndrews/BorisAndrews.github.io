@@ -58,10 +58,6 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ## UPCOMING
 
 <!-- ### 2025 -->
-- **15–17.SEP** <code>&#124;</code> **FIREDRAKE '25** <code>&#124;</code> My Masters (MMSC) student {% include collaborators/matin/short.md %} will be attending the {% include conferences/2025/firedrake.md %} at the {% include universities/leeds.md %}, where he will present [our upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/)
-- **15–19.SEP** <code>&#124;</code> **ACOMEN** <code>&#124;</code> Attending {% include conferences/2025/acomen.md %}, jointly hosted by *{% include universities/ghent.md %}* and the *{% include universities/liege.md %}*, where I will be speaking at two minisymposia:
-  - On Maxwell, MHD, and derived models, thanks to the invite of {% include collaborators/jerome/short.md %} on behalf of the {% include organisations/nemesis.md %} PIs, where I will present [my work on structure-preserving integrators for the Parker problem](/publications/parker/) with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}
-  - On numerical methods for flow and related problems, thanks to the invite of {% include collaborators/nils/short.md %}, where I will present [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
 - **23.OCT** <code>&#124;</code> **INTERNAL SEMINAR** <code>&#124;</code> Presenting the [Numerical Analysis Group internal seminar](https://www.maths.ox.ac.uk/events/list/670), where I will discuss [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
 
 <!-- *(\*provisional)* -->
