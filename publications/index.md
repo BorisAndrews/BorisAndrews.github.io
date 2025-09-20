@@ -19,7 +19,7 @@ permalink: /publications/
 
 {% include publications/lists/drafts.md %}
 
-## IN PREPARATION
+### (Drafts not yet available)
 
 {% include publications/lists/upcoming.md %}
 
