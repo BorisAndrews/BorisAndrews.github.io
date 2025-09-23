@@ -3,7 +3,7 @@ title: HOME
 ---
 
 Hi!
-I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, under the {% include organisations/geofem/long.md %}.
+I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, under the {% include organisations/geofem/full.md %}.
 
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
