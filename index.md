@@ -9,7 +9,8 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
-    MY WORK WITH PATRICK FARRELL ON <b>GENERAL CONSTRUCTIONS FOR STABLE FINITE ELEMENT INTEGRATORS</b> WAS RECENTLY ACCEPTED AT SISC — CLICK HERE TO CHECK IT OUT!
+    MY WORK WITH PATRICK FARRELL ON GENERAL CONSTRUCTIONS FOR STABLE FINITE ELEMENT INTEGRATORS WAS RECENTLY ACCEPTED AT SISC <br>
+    <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
