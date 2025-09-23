@@ -1,2 +1,2 @@
-- **SEP–OCT.2024** <code>&#124;</code> {% include collaborators/sebastian/short.md %}, undergraduate summer internship
+- **SEP–OCT.2024** <code>&#124;</code> {% include collaborators/sebastian/short.md %}, Undergraduate summer internship
     - **PROJECT** <code>&#124;</code> Stability of conservative vs. symplectic integrators on the Toda lattice
