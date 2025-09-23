@@ -77,6 +77,7 @@ permalink: /cv/
 ## OTHER EXPERIENCE
 
 {% include experience/reading_group.md %}
+{% include experience/esi.md %}
 {% include experience/strathclyde.md %}
 {% include experience/tokamak_energy.md %}
 {% include experience/summer_school.md %}
