@@ -5,9 +5,9 @@ permalink: /publications/sp-integrators-a/
 
 # ENFORCING CONSERVATION LAWS AND DISSIPATION INEQUALITIES NUMERICALLY VIA AUXILIARY VARIABLES
 
-### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}, Upcoming ({% include journals/sisc.md %})
+### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### 29.APR.2025 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904))
+### 29.APR.2025 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904)), Upcoming ({% include journals/sisc.md %})
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators';">
