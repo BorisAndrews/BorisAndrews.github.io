@@ -27,6 +27,10 @@ permalink: /cv/
 
 ## [PUBLICATIONS & PREPRINTS](/publications/)
 
+### Preprints (Accepted for publication)
+
+{% include publications/lists/accepted.md %}
+
 ### Preprints (In review)
 
 {% include publications/lists/review.md %}
