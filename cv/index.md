@@ -29,7 +29,7 @@ permalink: /cv/
 
 ### Preprints (In review)
 
-{% include publications/lists/preprints.md %}
+{% include publications/lists/review.md %}
 
 ### Other works
 
