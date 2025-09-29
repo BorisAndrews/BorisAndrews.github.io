@@ -7,7 +7,8 @@
 
 ### 2024
 
-- **B. Grimmer**, Provably faster gradient descent via long steps, *SIAM Journal on Optimization*, 34 (2024), [doi:10.1137/23M1588408](https://doi.org/10.1137/23M1588408) {#long-steps}
+- **B. Grimmer**, Provably faster gradient descent via long steps, *SIAM Journal on Optimization*, 34 (2024), [doi:10.1137/23M1588408](https://doi.org/10.1137/23M1588408)
+{: #long-steps}
 
 ### 2023
 
