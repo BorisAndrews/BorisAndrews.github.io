@@ -4,7 +4,7 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 14.OCT | *Long steps in gradient descent methods ([Grimmer, 2024](/reading-group/suggested/#long-steps))* | [Me](/) |
+| 1 | 14.OCT | *Long steps in gradient descent methods ([Grimmer, 2024](/reading-group/suggested/#grimmer-2024))* | [Me](/) |
 | 2 | 21.OCT | *TBA...* | {% include collaborators/kars/short.md %} |
 | 3 | 28.OCT | *TBA...* | *TBA...* |
 | 4 | 04.NOV | *TBA...* | *TBA...* |
