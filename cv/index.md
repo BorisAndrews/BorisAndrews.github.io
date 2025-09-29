@@ -27,9 +27,13 @@ permalink: /cv/
 
 ## [PUBLICATIONS & PREPRINTS](/publications/)
 
+### Preprints (Accepted for publication)
+
+{% include publications/lists/accepted.md %}
+
 ### Preprints (In review)
 
-{% include publications/lists/preprints.md %}
+{% include publications/lists/review.md %}
 
 ### Other works
 
@@ -77,6 +81,7 @@ permalink: /cv/
 ## OTHER EXPERIENCE
 
 {% include experience/reading_group.md %}
+{% include experience/esi.md %}
 {% include experience/strathclyde.md %}
 {% include experience/tokamak_energy.md %}
 {% include experience/summer_school.md %}

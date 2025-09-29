@@ -3,13 +3,14 @@ title: HOME
 ---
 
 Hi!
-I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, under the {% include organisations/geofem/long.md %}.
+I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis/) at the {% include universities/oxford.md %}, under the {% include organisations/geofem/full.md %}.
 
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/assets/pdf/thesis.pdf';">
-    I RECENTLY DEFENDED MY <b>PHD (DPHIL) THESIS</b> — CLICK HERE TO CHECK IT OUT!
+<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
+    MY WORK WITH PATRICK FARRELL ON GENERAL CONSTRUCTIONS FOR STABLE FINITE ELEMENT INTEGRATORS WAS RECENTLY ACCEPTED AT SISC <br>
+    <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
@@ -26,10 +27,14 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ## [HIGHLIGHTED PUBLICATIONS & PREPRINTS](/publications/)
 
-### Preprints (In review)
+### Preprints (Accepted for publication)
 
 {% include publications/titles/wide.md %}
 {% include publications/all/sp-integrators-a.md %}
+
+### Preprints (In review)
+
+{% include publications/titles/wide.md %}
 {% include publications/all/parker.md %}
 
 ### Other works
@@ -57,9 +62,11 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ## UPCOMING
 
-<!-- ### 2025 -->
+### 2025
 - **23.OCT** <code>&#124;</code> **INTERNAL SEMINAR** <code>&#124;</code> Presenting the [Numerical Analysis Group internal seminar](https://www.maths.ox.ac.uk/events/list/670), where I will discuss [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
 
+### 2026
+- **20.APR–05.JUN** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the *{% include universities/vienna.md %}*
 <!-- *(\*provisional)* -->
 
 <br>

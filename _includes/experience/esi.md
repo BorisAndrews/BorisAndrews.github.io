@@ -1,0 +1,1 @@
+- **APR–JUN.2026** <code>&#124;</code> Attendance of the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %}, *{% include universities/vienna.md %}*
