@@ -8,7 +8,7 @@ layout: blank
 
 Homepage for the **{% include universities/oxford.md %} finite element methods reading group**!
 
-Meetings this academic year will be hosted on **Tuesdays** from **14:00–15:00 GMT**.
+Meetings this academic year will be hosted on **Fridays** from **15:00–16:00 GMT**.
 
 ## UPCOMING
 

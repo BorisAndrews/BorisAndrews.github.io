@@ -4,11 +4,11 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 14.OCT | *Long steps in gradient descent methods ([Grimmer, 2024](/reading-group/suggested/#grimmer-2024))* | [Me](/) |
-| 2 | 21.OCT | *TBA...* | {% include collaborators/kars/short.md %} |
-| 3 | 28.OCT | *TBA...* | *TBA...* |
-| 4 | 04.NOV | *TBA...* | *TBA...* |
-| 5 | 11.NOV | *TBA...* | *TBA...* |
-| 6 | 18.NOV | *TBA...* | *TBA...* |
-| 7 | 25.NOV | *TBA...* | *TBA...* |
-| 8 | 02.DEC | *TBA...* | *TBA...* |
+| 1 | 17.OCT | *Long steps in gradient descent methods ([Grimmer, 2024](/reading-group/suggested/#grimmer-2024))* | [Me](/) |
+| 2 | 24.OCT | *TBA...* | {% include collaborators/kars/short.md %} |
+| 3 | 31.OCT | *TBA...* | *TBA...* |
+| 4 | 07.NOV | *TBA...* | *TBA...* |
+| 5 | 14.NOV | *TBA...* | *TBA...* |
+| 6 | 21.NOV | *TBA...* | *TBA...* |
+| 7 | 28.NOV | *TBA...* | *TBA...* |
+| 8 | 05.DEC | *TBA...* | *TBA...* |
