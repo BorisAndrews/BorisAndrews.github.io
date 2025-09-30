@@ -1,7 +1,7 @@
 <!-- 
 - Finite element systems, and why we split
 - Long steps for fixed point iterations
-- Stokes complexes, the BGG construction, and all that jazz 
+- Exotic complexes (Stokes complexes, the BGG construction (incl. the isomorphism of symmetric trace-free matrices to complex numbers in 2D), and why you should care) 
 - Lie advection equations, and their topology-preserving properties
 -->
 
