@@ -8,9 +8,13 @@ layout: blank
 
 {% include reading-group/intro.md %}
 
-## SCHEDULE
+## UPCOMING
 
-{% include reading-group/schedule.md %}
+{% include reading-group/upcoming/schedule.md %}
+
+### [REFERENCES](/reading-group/references/)
+
+Click [here](/reading-group/references/) to view references for upcoming presentations.
 
 ## [PAST PRESENTATIONS](/reading-group/past/)
 

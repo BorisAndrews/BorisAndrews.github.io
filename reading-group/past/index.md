@@ -8,17 +8,19 @@ layout: blank
 
 {% include reading-group/intro.md %}
 
-## SCHEDULE
+## UPCOMING
 
-{% include reading-group/schedule.md %}
+{% include reading-group/upcoming/schedule.md %}
+
+### [REFERENCES](/reading-group/references/)
+
+Click [here](/reading-group/references/) to view references for upcoming presentations.
 
 ## [PAST PRESENTATIONS](/reading-group/)
 
 Click [here](/reading-group/) to hide the records of past presentations.
 
-### –2025
-
-For prior years, see {% include collaborators/charlie/short.md %}'s page [here](https://sites.google.com/view/charlieparker2/oxford-fem-reading-group).
+{% include reading-group/past/schedule.md %}
 
 ## [SUGGESTED READS](/reading-group/suggested/)
 

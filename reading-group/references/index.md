@@ -1,6 +1,6 @@
 ---
 title: READING GROUP
-permalink: /reading-group/
+permalink: /reading-group/references/
 layout: blank
 ---
 
@@ -12,9 +12,11 @@ layout: blank
 
 {% include reading-group/upcoming/schedule.md %}
 
-### [REFERENCES](/reading-group/references/)
+### [REFERENCES](/reading-group/)
 
-Click [here](/reading-group/references/) to view references for upcoming presentations.
+Click [here](/reading-group/) to hide references for upcoming presentations.
+
+{% include reading-group/upcoming/references.md %}
 
 ## [PAST](/reading-group/past/)
 
