@@ -15,7 +15,7 @@ permalink: /publications/sp-integrators-a/
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
-> *We propose a general strategy for **enforcing multiple conservation laws** and **dissipation inequalities** in the **numerical solution of initial value problems**. [...] We demonstrate these ideas by their application to the **Navier-Stokes equations**. We generalize [...] the **energy-dissipating and helicity-tracking** scheme of Rebholz for the **incompressible** [...] equations, and devise the first time discretization of the **compressible** equations that **conserves mass, momentum, and energy, and provably dissipates entropy**.*
+> *We propose a general strategy for **enforcing multiple conservation laws** and **dissipation inequalities** in the **numerical solution of initial value problems**. [...] We demonstrate these ideas by their application to the **Navier-Stokes equations**. We generalize [...] the **energy-dissipating and helicity-tracking** scheme of Rebholz for the **incompressible** [...] equations, and devise a time discretization of the **compressible** equations that **conserves mass, momentum, and energy, and provably dissipates entropy**.*
 
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -25,7 +25,7 @@ permalink: /publications/sp-integrators-a/
         The key idea is to represent each conservation law or dissipation inequality by means of an associated test function;
         we introduce auxiliary variables representing the projection of these test functions onto a discrete test set, and modify the equation to use these new variables.
         We demonstrate these ideas by their application to the Navier-Stokes equations.
-        We generalize to arbitrary order the energy-dissipating and helicity-tracking scheme of Rebholz for the incompressible Navier-Stokes equations, and devise the first time discretization of the compressible equations that conserves mass, momentum, and energy, and provably dissipates entropy.
+        We generalize to arbitrary order the energy-dissipating and helicity-tracking scheme of Rebholz for the incompressible Navier-Stokes equations, and devise a time discretization of the compressible equations that conserves mass, momentum, and energy, and provably dissipates entropy.
     </div>
 </div>
 
