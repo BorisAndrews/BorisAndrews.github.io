@@ -5,11 +5,6 @@
 - Lie advection equations, and their topology-preserving properties
 -->
 
-***2024***
-
-- **B. Grimmer**, Provably faster gradient descent via long steps, *SIAM Journal on Optimization*, 34 (2024), [doi:10.1137/23M1588408](https://doi.org/10.1137/23M1588408)
-{: #grimmer-2024}
-
 ***2023***
 
 - **E. Zampa**, **A. Alonso Rodríguez** and **F. Rapetti**, Using the FES framework to derive new physical degrees of freedom for finite element spaces of differential forms, *Advances in Computational Mathematics*, 49 (2023), [doi:10.1007/s10444-022-10001-3](https://doi.org/10.1007/s10444-022-10001-3)
@@ -34,11 +29,6 @@
 
 - **M. Neilan** and **M. Wu**, Discrete Miranda–Talenti estimates and applications to linear and nonlinear PDEs, *Journal of Computational and Applied Mathematics*, 356 (2019), [doi:10.1016/j.cam.2019.01.032](https://doi.org/10.1016/j.cam.2019.01.032)
 - **X. Hu**, **J. Zu** and **L. T. Zikatanov**, Randomized and fault-tolerant method of subspace corrections, *Research in the Mathematical Sciences*, 6 (2019), [doi:10.1007/s40687-019-0187-z](https://doi.org/10.1007/s40687-019-0187-z)
-
-***2017***
-
-- **I. S. Duff**, **A. M. Erisman** and **J. K. Reid**, *Direct Methods for Sparse Matrices*. Oxford University Press, 2017
-{: #duff-erisman-reid-2017}
 
 ***2016***
 
