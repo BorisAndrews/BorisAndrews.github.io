@@ -16,7 +16,7 @@ layout: blank
 
 Click [here](/reading-group/references/) to view references for upcoming presentations.
 
-## [PAST PRESENTATIONS](/reading-group/)
+## [PAST](/reading-group/)
 
 Click [here](/reading-group/) to hide the records of past presentations.
 
