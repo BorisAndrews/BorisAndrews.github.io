@@ -7,7 +7,7 @@
 
 ### 2024
 
-- **B. Grimmer**, Provably faster gradient descent via long steps, *SIAM Journal on Optimization*, 34 (2024), [doi:10.1137/23M1588408](https://doi.org/10.1137/23M1588408)
+- **B. Grimmer**, Provably faster gradient descent via long steps, *SIAM Journal on Optimization*, 34 (2024), [doi:10.1137/23M1588408](https://doi.org/10.1137/23M1588408).
 {: #grimmer-2024}
 
 ### 2023
@@ -24,7 +24,7 @@
 ### 2021
 
 - **E. Bueler**, The full approximation storage multigrid scheme: A 1D finite element example, preprint (2021), [arXiv:2101.05408](https://arxiv.org/abs/2101.05408).
-- **M. Neilan** and **M. B. Otus**, Divergence-free Scott--Vogelius Elements on Curved Domains, *SIAM Journal on Numerical Analysis*, 59 (2021), [doi:10.1137/20M1360098](https://doi.org/10.1137/20M1360098).
+- **M. Neilan** and **M. B. Otus**, Divergence-free Scott–Vogelius Elements on Curved Domains, *SIAM Journal on Numerical Analysis*, 59 (2021), [doi:10.1137/20M1360098](https://doi.org/10.1137/20M1360098).
 
 ### 2020
 
@@ -34,6 +34,11 @@
 
 - **M. Neilan** and **M. Wu**, Discrete Miranda–Talenti estimates and applications to linear and nonlinear PDEs, *Journal of Computational and Applied Mathematics*, 356 (2019), [doi:10.1016/j.cam.2019.01.032](https://doi.org/10.1016/j.cam.2019.01.032).
 - **X. Hu**, **J. Zu** and **L. T. Zikatanov**, Randomized and fault-tolerant method of subspace corrections, *Research in the Mathematical Sciences*, 6 (2019), [doi:10.1007/s40687-019-0187-z](https://doi.org/10.1007/s40687-019-0187-z).
+
+### 2017
+
+- **I. S. Duff**, **A. M. Erisman** and **J. K. Reid**, *Direct Methods for Sparse Matrices*. Oxford University Press, 2017.
+{: #duff-erisman-reid-2017}
 
 ### 2016
 
@@ -58,7 +63,7 @@
 
 ### 2006
 
-- **C. Carstensen**, Clément Interpolation and Its Role in Adaptive Finite Element Error Control, in *Partial Differential Equations and Functional Analysis*, Operator Theory: Advances and Applications 168, E. Koelink, J. van Neerven, B. de Pagter, G. Sweers, A. Luger, H. Woracek, eds, vol. 168, Birkhäuser, Basel, 2006, pp. 27–43, [doi:10.1007/3-7643-7601-5_2](https://doi.org/10.1007/3-7643-7601-5_2).
+- **C. Carstensen**, Clément Interpolation and Its Role in Adaptive Finite Element Error Control, in *Partial Differential Equations and Functional Analysis*, Operator Theory: Advances and Applications 168, vol. 168, Birkhäuser, Basel, 2006, pp. 27–43, [doi:10.1007/3-7643-7601-5_2](https://doi.org/10.1007/3-7643-7601-5_2).
 
 ### 2005
 
