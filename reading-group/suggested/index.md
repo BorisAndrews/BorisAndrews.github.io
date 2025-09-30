@@ -6,13 +6,15 @@ layout: blank
 
 # OXFORD FEM READING GROUP
 
-Homepage for the **{% include universities/oxford.md %} finite element methods reading group**!
-
-Meetings this academic year will be hosted on **Tuesdays** from **14:00–15:00 GMT**.
+{% include reading-group/intro.md %}
 
 ## UPCOMING
 
-{% include reading-group/upcoming.md %}
+{% include reading-group/upcoming/schedule.md %}
+
+### [REFERENCES](/reading-group/references/)
+
+Click [here](/reading-group/references/) to view references for upcoming presentations.
 
 ## [PAST](/reading-group/past/)
 
@@ -20,6 +22,6 @@ Click [here](/reading-group/past/) to view the records of past presentations.
 
 ## [SUGGESTED READS](/reading-group/)
 
-Click [here](/reading-group/) to hide the suggested reads.
+Click [here](/reading-group/) to hide the list of suggested papers.
 
 {% include reading-group/suggested.md %}
