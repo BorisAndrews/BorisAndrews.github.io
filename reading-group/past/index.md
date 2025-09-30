@@ -8,11 +8,11 @@ layout: blank
 
 {% include reading-group/intro.md %}
 
-## UPCOMING
+## SCHEDULE
 
-{% include reading-group/upcoming.md %}
+{% include reading-group/schedule.md %}
 
-## [PAST](/reading-group/)
+## [PAST PRESENTATIONS](/reading-group/)
 
 Click [here](/reading-group/) to hide the records of past presentations.
 

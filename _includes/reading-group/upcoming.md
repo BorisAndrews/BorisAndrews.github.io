@@ -2,13 +2,6 @@
 
 *Michaelmas term*
 
-| Week | Date | Topic | Presenter |
-| --- | --- | --- | --- |
-| 1 | 17.OCT | *Long steps in gradient descent methods ([Grimmer, 2024](/reading-group/suggested/#grimmer-2024))* | [Me](/) |
-| 2 | 24.OCT | *Sparse parallel solvers ([Duff, Erisman & Reid, 2017](/reading-group/suggested/#duff-erisman-reid-2017))* | {% include collaborators/kars/short.md %} |
-| 3 | 31.OCT | *TBA...* | *TBA...* |
-| 4 | 07.NOV | *TBA...* | *TBA...* |
-| 5 | 14.NOV | *TBA...* | *TBA...* |
-| 6 | 21.NOV | *TBA...* | *TBA...* |
-| 7 | 28.NOV | *TBA...* | *TBA...* |
-| 8 | 05.DEC | *TBA...* | *TBA...* |
+- **I. S. Duff**, **A. M. Erisman** and **J. K. Reid**, *Direct Methods for Sparse Matrices*. Oxford University Press, 2017
+
+- **B. Grimmer**, Provably faster gradient descent via long steps, *SIAM Journal on Optimization*, 34 (2024), [doi:10.1137/23M1588408](https://doi.org/10.1137/23M1588408)
