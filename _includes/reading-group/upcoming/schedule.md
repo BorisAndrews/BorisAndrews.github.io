@@ -13,7 +13,7 @@
 | 7 | 28.NOV | *TBA...* | *TBA...* |
 | 8 | 05.DEC | *TBA...* | *TBA...* |
 
-*Christmas holiday*
+<!-- *Christmas holiday*
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
@@ -22,4 +22,4 @@
 | 4 | 26.DEC | *(On break)* | |
 | 4 | 02.JAN | *(On break)* | |
 | 3 | 09.JAN | *TBA...* | *TBA...* |
-| 4 | 16.JAN | *TBA...* | *TBA...* |
+| 4 | 16.JAN | *TBA...* | *TBA...* | -->
