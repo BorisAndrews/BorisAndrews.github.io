@@ -5,6 +5,10 @@
 - Lie advection equations, and their topology-preserving properties
 -->
 
+***2025***
+
+- **M. Mehrenberger**, **T. D. Nguyen**, **E. Serre** and **F. Schwander**, A new quasi-asymptotic-preserving mixed formulation with discontinuous Galerkin method for highly anisotropic diffusion equations, preprint (2025), [link](https://hal.science/hal-05234610)
+
 ***2023***
 
 - **E. Zampa**, **A. Alonso Rodríguez** and **F. Rapetti**, Using the FES framework to derive new physical degrees of freedom for finite element spaces of differential forms, *Advances in Computational Mathematics*, 49 (2023), [doi:10.1007/s10444-022-10001-3](https://doi.org/10.1007/s10444-022-10001-3)
