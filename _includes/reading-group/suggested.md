@@ -24,7 +24,7 @@ N.B. I'm very poor at keeping this list up-to-date, so if you're looking for mor
 
 ***2021***
 
-- **E. Bueler**, The full approximation storage multigrid scheme: A 1D finite element example, preprint (2021), [arXiv:2101.05408](https://arxiv.org/abs/2101.05408)
+- **E. Bueler**, The full approximation storage multigrid scheme: A 1D finite element example, preprint (2021), [doi:10.48550/arXiv.2101.05408](https://doi.org/10.48550/arXiv.2101.05408)
 - **M. Neilan** and **M. B. Otus**, Divergence-free Scott–Vogelius Elements on Curved Domains, *SIAM Journal on Numerical Analysis*, 59 (2021), [doi:10.1137/20M1360098](https://doi.org/10.1137/20M1360098)
 
 ***2020***
