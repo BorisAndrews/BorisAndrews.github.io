@@ -5,6 +5,8 @@
 - Lie advection equations, and their topology-preserving properties
 -->
 
+N.B. I'm very poor at keeping this list up-to-date, so if you're looking for more recent recommendations then just shoot me a message!
+
 ***2025***
 
 - **M. Mehrenberger**, **T. D. Nguyen**, **E. Serre** and **F. Schwander**, A new quasi-asymptotic-preserving mixed formulation with discontinuous Galerkin method for highly anisotropic diffusion equations, preprint (2025), [link](https://hal.science/hal-05234610)
