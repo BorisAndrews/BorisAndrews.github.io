@@ -1,4 +1,5 @@
-<!-- 
+<!--
+- General chat through with anyone in the group about what they're currently working on, for the new folks  
 - Finite element systems, and why we split
 - Long steps for fixed point iterations
 - Exotic complexes (Stokes complexes, the BGG construction (incl. the isomorphism of symmetric trace-free matrices to complex numbers in 2D), and why you should care) 
