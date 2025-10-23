@@ -4,7 +4,7 @@
 - Long steps for fixed point iterations
 - Exotic complexes (Stokes complexes, the BGG construction (incl. the isomorphism of symmetric trace-free matrices to complex numbers in 2D), and why you should care) 
 - Lie advection equations, and their topology-preserving properties
-- How DG methods can be derived through mollification
+- DG methods (how they can be derived through mollification/HDG + static condensation)
 -->
 
 N.B. I'm very poor at keeping this list up-to-date, so if you're looking for more recent recommendations then just shoot me a message!

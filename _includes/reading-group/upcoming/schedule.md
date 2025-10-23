@@ -5,7 +5,7 @@
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
 | 1 | 17.OCT | Long steps in gradient descent methods ([Grimmer, 2024](/reading-group/references/#grimmer-2024); [Zhigljavsky, Pronzato & Bukina, 2013](/reading-group//references/#zhigljavsky-pronzato-bukina-2013)) | [Me (Boris Andrews)](/) |
-| 2 | 24.OCT | Sparse parallel solvers ([Duff, Erisman & Reid, 2017](/reading-group/references/#duff-erisman-reid-2017)) | {% include collaborators/kars/short.md %} |
+| 2 | 24.OCT | Sparse direct solvers ([Duff, Erisman & Reid, 2017](/reading-group/references/#duff-erisman-reid-2017)) | {% include collaborators/kars/short.md %} |
 | 3 | 31.OCT | *TBA...* | *TBA...* |
 | 4 | 07.NOV | *TBA...* | *TBA...* |
 | 5 | 14.NOV | *TBA...* | *TBA...* |
