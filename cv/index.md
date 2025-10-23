@@ -71,12 +71,12 @@ permalink: /cv/
 
 ### Other seminar, workshop & conference presentations
 
-- **2025** <code>&#124;</code> Numerical Analysis Group internal seminar\* *({% include universities/oxford.md %})* / {% include conferences/2025/strathclyde.md %} *({% include universities/strathclyde.md %})*
+- **2025** <code>&#124;</code> Numerical Analysis Group internal seminar *({% include universities/oxford.md %})* / {% include conferences/2025/strathclyde.md %} *({% include universities/strathclyde.md %})*
 - **2024** <code>&#124;</code> Computing Division technical meeting *({% include organisations/ukaea/short.md %})* / {% include conferences/2024/firedrake.md %} *({% include universities/oxford.md %})* / {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})* / {% include conferences/2024/fe_fair.md %} *({% include universities/ucl.md %})* / {% include conferences/2024/pisa_workshop.md %} *({% include universities/pisa.md %})* / UKAEA PhD student engagement day *({% include organisations/ukaea/short.md %})* / Junior Applied Mathematical Seminar *({% include universities/warwick.md %})*
 - **2023** <code>&#124;</code> {% include conferences/2023/iciam.md %} *({% include universities/waseda.md %})* / {% include conferences/2023/internal_seminar.md %} *({% include universities/oxford.md %})* / {% include conferences/2023/jams.md %} *({% include universities/oxford.md %})* / Met Office presentation *({% include universities/oxford.md %})* / Internal presentation *({% include organisations/tokamak_energy.md %})*
 - **2022** <code>&#124;</code> PRISM workshop *(Missenden Abbey, UK)*
 
-*(\*scheduled/provisional)*
+<!-- *(\*scheduled/provisional)* -->
 
 ## OTHER EXPERIENCE
 
