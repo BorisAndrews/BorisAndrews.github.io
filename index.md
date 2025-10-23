@@ -62,9 +62,6 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ## UPCOMING
 
-### 2025
-- **23.OCT** <code>&#124;</code> **INTERNAL SEMINAR** <code>&#124;</code> Presenting the [Numerical Analysis Group internal seminar](https://www.maths.ox.ac.uk/events/list/670), where I will discuss [upcoming work on enstrophy-stable integrators for the Navier–Stokes equations](/publications/enstrophy/) with {% include collaborators/matin/short.md %}
-
 ### 2026
 - **20.APR–05.JUN** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the *{% include universities/vienna.md %}*
 <!-- *(\*provisional)* -->
