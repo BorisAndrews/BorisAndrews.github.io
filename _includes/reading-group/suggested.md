@@ -11,6 +11,7 @@ N.B. I'm very poor at keeping this list up-to-date, so if you're looking for mor
 
 ***2025***
 
+- **A. H. Chen**, **J. Hsu**, **Z. Liu**, **M. Macklin**, **Y. Yang** and **C. Yuksel**, Offset geometric contact, *ACM Transactions on Graphics (SIGGRAPH 2025)*, 44 (2025), [link](https://graphics.cs.utah.edu/research/projects/ogc/Offset_Geometric_Contact-SIGGRAPH2025.pdf)
 - **M. Mehrenberger**, **T. D. Nguyen**, **E. Serre** and **F. Schwander**, A new quasi-asymptotic-preserving mixed formulation with discontinuous Galerkin method for highly anisotropic diffusion equations, preprint (2025), [link](https://hal.science/hal-05234610)
 
 ***2023***
