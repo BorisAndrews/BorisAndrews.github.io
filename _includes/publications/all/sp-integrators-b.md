@@ -1,0 +1,1 @@
+| [Energy- and entropy-stable time discretisations for conservative and GENERIC systems]({{ "/publications/sp-integrators-b/" | absolute_url }}) | {% include collaborators/patrick/short.md %} |

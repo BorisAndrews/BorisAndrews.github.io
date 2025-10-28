@@ -1,13 +1,15 @@
 ---
-title: GENERIC PDEs
-permalink: /publications/generic/
+title: SP INTEGRATORS (PART 2)
+permalink: /publications/sp-integrators-b/
 ---
 
-# CONSERVATIVE-DISSIPATIVE INTEGRATORS FOR REVERSIBLE-IRREVERSIBLE SYSTEMS
+# ENERGY- AND ENTROPY-STABLE TIME DISCRETISATIONS FOR CONSERVATIVE AND GENERIC SYSTEMS
 
-### Boris Andrews
+### {% include collaborators/patrick/short.md %} <code>&#124;</code> Boris Andrews
 
 ### In preparation (Draft available on request)
+
+*(Full details available soon! Details below cover the material in the manuscript on GENERIC systems only.)*
 
 The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
 - a *conserved* energy
@@ -38,12 +40,10 @@ Examples of such systems include:
 - the Boltzmann equation
 - pretty much any *irreversible* thermodynamic system
 
-We can apply the framework from [mine and Patrick Farrell's preprint](/publications/sp-integrators/) to preserve both the **conservative** and **non-dissipation** structures.
+We can apply the framework from [mine and Patrick Farrell's preprint](/publications/sp-integrators-a/) to preserve both the **conservative** and **non-dissipation** structures.
 As such, we have a *general way to construct structure-preserving finite element methods for any of the above systems*, with arbitrary finite elements and at arbitrary order in space and time.
 
 These properties are **crucial for accurately capturing the dynamics** of these systems.
-
-*(Further details available soon!)*
 
 ## RELATED WORKS
 
@@ -67,8 +67,8 @@ This scheme can be viewed as a **special case of my earlier work** with {% inclu
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
+          <!-- <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div> -->
           <li><strong>Invited talk, <em>Brown Unversity</em></strong></li>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
         </ul></p>
       </div>
     </div>
