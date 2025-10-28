@@ -2,15 +2,17 @@
 - General chat through with anyone in the group about what they're currently working on, for the new folks  
 - Finite element systems, and why we split
 - Long steps for fixed point iterations
-- Exotic complexes (Stokes complexes, the BGG construction (incl. the isomorphism of symmetric trace-free matrices to complex numbers in 2D), and why you should care) 
+- Exotic complexes (Stokes complexes, the BGG construction (Incl. the isomorphism of symmetric trace-free matrices to complex numbers in 2D), and why you should care) 
 - Lie advection equations, and their topology-preserving properties
-- How DG methods can be derived through mollification
+- DG methods (How they can be derived through mollification/HDG + static condensation)
+- When non-conforming elements are useful (Pathological BCs/Triangulated manifolds/Low DoF numbers)
 -->
 
 N.B. I'm very poor at keeping this list up-to-date, so if you're looking for more recent recommendations then just shoot me a message!
 
 ***2025***
 
+- **A. H. Chen**, **J. Hsu**, **Z. Liu**, **M. Macklin**, **Y. Yang** and **C. Yuksel**, Offset geometric contact, *ACM Transactions on Graphics (TOG)*, 44 (2025), [doi:10.1145/3731205](https://doi.org/10.1145/3731205)
 - **M. Mehrenberger**, **T. D. Nguyen**, **E. Serre** and **F. Schwander**, A new quasi-asymptotic-preserving mixed formulation with discontinuous Galerkin method for highly anisotropic diffusion equations, preprint (2025), [link](https://hal.science/hal-05234610)
 
 ***2023***
