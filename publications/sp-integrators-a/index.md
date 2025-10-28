@@ -76,7 +76,7 @@ For a neat and related application of these ideas to a problem in **magnetic rel
         <h3 class="title">2025</h3>
         <p><ul>
           <!-- <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div> -->
-          <div style="text-align: center; padding: 10px 0;"><strong>⬇️ PAST ⬇️</strong></div>
+          <!-- <div style="text-align: center; padding: 10px 0;"><strong>⬇️ PAST ⬇️</strong></div> -->
           <li>Biennial Numerical Analysis Conference, <em>University of Strathclyde</em></li>
           <li><strong>Numerical Mathematics & Scientific Computing seminar, <em>Rice University</em></strong></li>
           <li><strong>SIAM CSE, <em>Fort Worth, Texas</em></strong></li>

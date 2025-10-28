@@ -9,7 +9,7 @@ permalink: /publications/sp-integrators-b/
 
 ### In preparation (Draft available on request)
 
-*(Full details available soon! Details below cover the material in the manuscript on GENERIC systems only.)*
+*(Full details available soon! Details below offer a brief overview of the material in the manuscript on GENERIC systems only.)*
 
 The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
 - a *conserved* energy

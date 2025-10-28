@@ -19,8 +19,8 @@ permalink: /collaborators/
 
 ## {% include collaborators/matin/full.md %}
 
-## {% include collaborators/sebastian/full.md %}
+<!-- ## {% include collaborators/sebastian/full.md %} -->
 
-## {% include collaborators/wayne/full.md %}
+<!-- ## {% include collaborators/wayne/full.md %} -->
 
-## {% include collaborators/yuji/full.md %}
+<!-- ## {% include collaborators/yuji/full.md %} -->
