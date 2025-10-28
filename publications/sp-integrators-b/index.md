@@ -3,7 +3,7 @@ title: SP INTEGRATORS (PART 2)
 permalink: /publications/sp-integrators-b/
 ---
 
-# ENERGY- AND ENTROPY-STABLE TIME DISCRETISATIONS FOR CONSERVATIVE AND GENERIC SYSTEMS
+# CONSERVATIVE AND DISSIPATIVE TIME DISCRETISATIONS FOR CONSERVATIVE AND GENERIC SYSTEMS
 
 ### {% include collaborators/patrick/short.md %} <code>&#124;</code> Boris Andrews
 
