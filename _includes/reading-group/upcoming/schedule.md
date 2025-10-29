@@ -9,7 +9,7 @@
 | 3 | 31.OCT | Group meeting | Everyone |
 | 4 | 07.NOV | Preconditioners for PDE timesteppers ([Southworth *et al.*, 2022](/reading-group/references/#southworth-et-al-2022)) | {% include collaborators/charlie/short.md %} |
 | 5 | 14.NOV | *TBA...* | {% include collaborators/jakub/short.md %} |
-| 6 | 21.NOV | *TBA...* | *TBA...* |
+| 6 | 21.NOV | *TBA...* | {% include collaborators/mingdong/short.md %} |
 | 7 | 28.NOV | *TBA...* | *TBA...* |
 | 8 | 05.DEC | *TBA...* | *TBA...* |
 
