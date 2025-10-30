@@ -1,0 +1,1 @@
+| Automated Galerkin time stepping in Irksome | {% include collaborators/pablo/short.md %}, <br> {% include collaborators/patrick/short.md %}, <br> {% include collaborators/rob/short.md %}, <br> {% include collaborators/scott/short.md %} |

@@ -11,13 +11,19 @@ permalink: /collaborators/
 
 ## {% include collaborators/kaibo/full.md %}
 
-## {% include collaborators/mingdong/full.md %}
-
 ## {% include collaborators/alexei/full.md %}
 
-<!-- ## {% include collaborators/ben/full.md %} -->
+## {% include collaborators/mingdong/full.md %}
 
 ## {% include collaborators/matin/full.md %}
+
+## {% include collaborators/pablo/full.md %}
+
+## {% include collaborators/rob/full.md %}
+
+## {% include collaborators/scott/full.md %}
+
+<!-- ## {% include collaborators/ben/full.md %} -->
 
 <!-- ## {% include collaborators/sebastian/full.md %} -->
 
