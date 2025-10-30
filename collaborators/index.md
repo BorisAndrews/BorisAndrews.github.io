@@ -22,11 +22,3 @@ permalink: /collaborators/
 ## {% include collaborators/rob/full.md %}
 
 ## {% include collaborators/scott/full.md %}
-
-<!-- ## {% include collaborators/ben/full.md %} -->
-
-<!-- ## {% include collaborators/sebastian/full.md %} -->
-
-<!-- ## {% include collaborators/wayne/full.md %} -->
-
-<!-- ## {% include collaborators/yuji/full.md %} -->
