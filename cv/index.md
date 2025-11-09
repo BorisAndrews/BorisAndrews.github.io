@@ -66,6 +66,7 @@ permalink: /cv/
 
 ### Invited talks & minisymposium presentations
 
+- **2026** <code>&#124;</code> {% include conferences/2026/eccomas.md %} *(Munich, Germany)*
 - **2025** <code>&#124;</code> (2×){% include conferences/2025/acomen.md %} *({% include universities/ghent.md %})* / {% include conferences/2025/mfet.md %} *(Aachen, Germany)* / Self-Consistency Group seminar *({% include organisations/charmnet/short.md %})* / {% include visits/2025/edinburgh.md %} *({% include universities/edinburgh.md %} & {% include universities/heriot-watt.md %})* / Numerical Mathematics & Scientific Computing Seminar *({% include universities/rice.md %})* / {% include conferences/2025/cse.md %} *(Fort Worth, Texas)* / {% include visits/2025/brown.md %} *({% include universities/brown.md %})* / METHODS Group seminar *({% include universities/brown.md %})*
 - **2024** <code>&#124;</code> External seminar *({% include universities/rice.md %})*
 
