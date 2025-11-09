@@ -67,7 +67,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
   - **08–09.JAN** <code>&#124;</code> **ICSPFEM** <code>&#124;</code> Attending the {% include conferences/2026/icspfem.md %} at the [Academy of Mathematics and Systems Science (AMSS)](https://amss.cas.cn/) in Beijing
   - **12–16.JAN** <code>&#124;</code> **TENSOR FEM WORKSHOP** <code>&#124;</code> Attending the {% include conferences/2026/tensor.md %} at the [Tsinghua Sanya International Mathematics Forum (TSIMF)](https://www.tsimf.cn/), part of {% include universities/tsinghua.md %}, in Sanya
 - **20.APR–05.JUN** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %}
-- **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the {% include conferences/2026/eccomas.md %} at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, on the kind invite of {% include collaborators/nils.md %} and {% include collaborators/peter.md %}
+- **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the {% include conferences/2026/eccomas.md %} at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, on the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %}
 <!-- *(\*provisional)* -->
 
 <br>
