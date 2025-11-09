@@ -63,7 +63,8 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ## UPCOMING
 
 ### 2026
-- **20.APR–05.JUN** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the *{% include universities/vienna.md %}*
+- **08–09.JAN** <code>&#124;</code> **ICSPFEM** <code>&#124;</code> Attending the {% include conferences/2026/icspfem.md %} at the *{% include organisations/amss/full.md %}* in *Beijing*
+- **20.APR–05.JUN** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the *{% include organisations/esi/full.md %}* within the *{% include universities/vienna.md %}*
 <!-- *(\*provisional)* -->
 
 <br>
