@@ -1,0 +1,1 @@
+[Workshop on Finite Element Tensor Calculus](https://www.tsimf.cn/meeting/detail?id=417)
