@@ -1,1 +1,1 @@
-[ECCOMAS World Congress on Computational Mechanics (WCCM)](https://wccm-eccomas2026.org/)
+[ECCOMAS World Congress on Computational Mechanics (WCCM)](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c)
