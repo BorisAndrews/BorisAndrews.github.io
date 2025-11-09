@@ -63,8 +63,9 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ## UPCOMING
 
 ### 2026
-- **08–09.JAN** <code>&#124;</code> **ICSPFEM** <code>&#124;</code> Attending the {% include conferences/2026/icspfem.md %} at the *{% include organisations/amss/full.md %}* in *Beijing*
-- **12–16.JAN** <code>&#124;</code> **TENSOR FEM WORKSHOP** <code>&#124;</code> Attending the {% include conferences/2026/tensor.md %} at the *{% include organisations/tsimf/full.md %}*, part of *{% include universities/tsinghua.md %}*, in *Sanya*
+- **08–16.JAN** <code>&#124;</code> **CHINA VISIT**
+  - **08–09.JAN** <code>&#124;</code> **ICSPFEM** <code>&#124;</code> Attending the {% include conferences/2026/icspfem.md %} at the *{% include organisations/amss/full.md %}* in *Beijing*
+  - **12–16.JAN** <code>&#124;</code> **TENSOR FEM WORKSHOP** <code>&#124;</code> Attending the {% include conferences/2026/tensor.md %} at the *{% include organisations/tsimf/full.md %}*, part of *{% include universities/tsinghua.md %}*, in *Sanya*
 - **20.APR–05.JUN** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the *{% include organisations/esi/full.md %}* within the *{% include universities/vienna.md %}*
 <!-- *(\*provisional)* -->
 
