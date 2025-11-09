@@ -207,7 +207,7 @@ For a neat application of these ideas to a problem in **magnetic relaxation** th
       <div class="info">
         <h3 class="title">2026</h3>
         <p><ul>
-          <li>WCCM ECCOMAS, <em>Munich</em></li>
+          <li>ECCOMAS WCCM, <em>Munich</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
         </ul></p>
       </div>

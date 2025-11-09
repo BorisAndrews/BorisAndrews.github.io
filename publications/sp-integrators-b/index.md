@@ -67,7 +67,7 @@ This scheme can be viewed as a **special case of my earlier work** with {% inclu
       <div class="info">
         <h3 class="title">2026</h3>
         <p><ul>
-          <li>WCCM ECCOMAS, <em>Munich</em></li>
+          <li>ECCOMAS WCCM, <em>Munich</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
         </ul></p>
       </div>

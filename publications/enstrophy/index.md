@@ -37,7 +37,7 @@ This represents a particularly exciting **application of my earlier work** with 
           <!-- <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div> -->
           <li>Numerical Analysis Group Internal Seminar, <em>University of Oxford</em></li>
           <li><strong>ACOMEN, <em>Ghent University</em></strong></li>
-          <li><strong>ECCOMAS Thematic Conference on Modern Finite Element Technologies (MFET), <em>Aachen, Germany</em></strong></li>
+          <li><strong>ECCOMAS MFET, <em>Aachen, Germany</em></strong></li>
         </ul></p>
       </div>
     </div>
