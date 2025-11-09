@@ -1,1 +1,1 @@
-[Numerical Analysis Group internal seminar](https://www.maths.ox.ac.uk/node/63939)
+[Numerical Analysis Group Internal Seminar](https://www.maths.ox.ac.uk/node/63939)
