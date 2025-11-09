@@ -86,9 +86,9 @@ For a neat and related application of these ideas to a problem in **magnetic rel
         <p><ul>
           <div style="text-align: center; padding: 10px 0;"><strong>⬇️ PAST ⬇️</strong></div>
           <li>Biennial Numerical Analysis Conference, <em>University of Strathclyde</em></li>
-          <li><strong>Numerical Mathematics & Scientific Computing seminar, <em>Rice University</em></strong></li>
+          <li><strong>Numerical Mathematics & Scientific Computing Seminar, <em>Rice University</em></strong></li>
           <li><strong>SIAM CSE, <em>Fort Worth, Texas</em></strong></li>
-          <li><strong>Scientific Computing seminar, <em>Brown Unversity</em></strong></li>
+          <li><strong>Scientific Computing Seminar, <em>Brown Unversity</em></strong></li>
         </ul></p>
       </div>
     </div>
@@ -96,13 +96,13 @@ For a neat and related application of these ideas to a problem in **magnetic rel
       <div class="info">
         <h3 class="title">2024</h3>
         <p><ul>
-          <li>External ("tiny desk") seminar, <em>Rice University</em></li>
-          <li>Computing Division technical meeting, <em>UKAEA</em></li>
+          <li>External ("tiny desk") Seminar, <em>Rice University</em></li>
+          <li>Computing Division Technical Meeting, <em>UKAEA</em></li>
           <li>Firedrake User Meeting, <em>University of Oxford</em></li>
           <li>PDEsoft, <em>University of Cambridge</em></li>
           <li>Finite Element Fair, <em>University College London (UCL)</em></li>
           <li><strong>Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop, <em>University of Pisa</em></strong></li>
-          <li>UKAEA PhD student engagement day, <em>UKAEA</em></li>
+          <li>UKAEA PhD Student Engagement Day, <em>UKAEA</em></li>
           <li>Junior Applied Mathematics Seminar, <em>University of Warwick</em></li>
         </ul></p>
       </div>
@@ -112,12 +112,11 @@ For a neat and related application of these ideas to a problem in **magnetic rel
         <h3 class="title">2023</h3>
         <p><ul>
           <li><strong>ICIAM, <em>Waseda University</em></strong></li>
-          <li>Numerical Analysis Group internal seminar, <em>University of Oxford</em></li>
+          <li>Numerical Analysis Group Internal Seminar, <em>University of Oxford</em></li>
           <li>Junior Applied Mathematics Seminar, <em>University of Oxford</em></li>
-          <li>Met Office presentation, <em>University of Oxford</em></li>
+          <li>Met Office Presentation, <em>University of Oxford</em></li>
         </ul></p>
       </div>
     </div>
   </div>
 </div>
-
