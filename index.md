@@ -63,8 +63,8 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ## UPCOMING
 
 ### 2026
-- **08–16.JAN** <code>&#124;</code> **CHINA VISIT**
-  - **08–09.JAN** <code>&#124;</code> **ICSPFEM** <code>&#124;</code> Attending the {% include conferences/2026/icspfem.md %} at the [Academy of Mathematics and Systems Science (AMSS)](https://amss.cas.cn/) in Beijing
+- **09–16.JAN** <code>&#124;</code> **CHINA VISIT**
+  - **09–10.JAN** <code>&#124;</code> **ICSPFEM** <code>&#124;</code> Attending the {% include conferences/2026/icspfem.md %} at the [Academy of Mathematics and Systems Science (AMSS)](https://amss.cas.cn/) in Beijing
   - **12–16.JAN** <code>&#124;</code> **TENSOR FEM WORKSHOP** <code>&#124;</code> Attending the {% include conferences/2026/tensor.md %} at the [Tsinghua Sanya International Mathematics Forum (TSIMF)](https://www.tsimf.cn/), part of {% include universities/tsinghua.md %}, in Sanya
 - **20.APR–05.JUN** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %}
 
