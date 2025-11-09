@@ -1,0 +1,1 @@
+[ECCOMAS World Congress on Computational Mechanics (WCCM)](https://wccm-eccomas2026.org/)
