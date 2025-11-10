@@ -6,13 +6,13 @@ permalink: /publications/
 # PUBLICATIONS & PREPRINTS
 
 ## Preprints
-### (Accepted for publication)
+<!-- ### (Accepted for publication) -->
 
 {% include publications/lists/accepted.md %}
 
-### (In review)
+<!-- ### (In review) -->
 
-{% include publications/lists/review.md %}
+<!-- {% include publications/lists/review.md %} -->
 
 ## OTHER WORKS
 

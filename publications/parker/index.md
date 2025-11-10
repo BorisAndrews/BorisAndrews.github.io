@@ -7,7 +7,7 @@ permalink: /publications/parker/
 
 ### {% include collaborators/mingdong/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/kaibo/short.md %} <code>&#124;</code> Boris Andrews
 
-### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654))
+### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654)) <code>&#124;</code> Upcoming ({% include journals/sisc.md %})
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2501.11654';"><b>

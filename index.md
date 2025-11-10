@@ -27,15 +27,16 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ## [HIGHLIGHTED PUBLICATIONS & PREPRINTS](/publications/)
 
-### Preprints (Accepted for publication)
+<!-- ### Preprints (Accepted for publication) -->
+### Preprints
 
 {% include publications/titles/wide.md %}
 {% include publications/all/sp-integrators-a.md %}
-
-### Preprints (In review)
-
-{% include publications/titles/wide.md %}
 {% include publications/all/parker.md %}
+
+<!-- ### Preprints (In review)
+
+{% include publications/titles/wide.md %} -->
 
 ### Other works
 
