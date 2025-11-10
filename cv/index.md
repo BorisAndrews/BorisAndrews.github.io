@@ -27,13 +27,14 @@ permalink: /cv/
 
 ## [PUBLICATIONS & PREPRINTS](/publications/)
 
-### Preprints (Accepted for publication)
+<!-- ### Preprints (Accepted for publication) -->
+### Preprints
 
 {% include publications/lists/accepted.md %}
 
-### Preprints (In review)
+<!-- ### Preprints (In review)
 
-{% include publications/lists/review.md %}
+{% include publications/lists/review.md %} -->
 
 ### Other works
 
