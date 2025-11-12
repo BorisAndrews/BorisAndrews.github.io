@@ -11,7 +11,7 @@
 | 5 | 14.NOV | From classical thermodynamics to fluid motion ([Málek & Průša, 2018](/reading-group/references/#malek-prusa-2018)) | {% include collaborators/jakub/short.md %} |
 | 6 | 21.NOV | *TBA...* | {% include collaborators/mingdong/short.md %} |
 | 7 | 28.NOV | *TBA...* | *TBA...* |
-| 8 | 05.DEC | *TBA...* | *TBA...* |
+| 8 | 05.DEC | *TBA...* | {% include collaborators/tom/short.md %} |
 
 <!-- *Christmas holiday*
 
