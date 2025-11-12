@@ -1,1 +1,1 @@
-| 18.JUL.2025 <br> ([download](/assets/pdf/thesis.pdf)) | Geometric numerical integration via auxiliary variables <br> *(PhD (DPhil) thesis)* | |
+| 02.NOV.2025 <br> ([access](https://ora.ox.ac.uk/objects/uuid:ad3393be-7bb8-40c9-bdb9-980f412eabce)) | Geometric numerical integration via auxiliary variables <br> *(PhD (DPhil) thesis)* | |
