@@ -8,6 +8,9 @@
 - **B. Grimmer**, Provably faster gradient descent via long steps, *SIAM Journal on Optimization*, 34 (2024), [doi:10.1137/23M1588408](https://doi.org/10.1137/23M1588408)
   {: #grimmer-2024}
 
+- **W. Layton**, *Introduction to the Numerical Analysis of Incompressible Viscous Flows*. SIAM, 2018
+  {: #layton-2018}
+
 - **J. Málek**, **V. Průša**, *Derivation of Equations for Continuum Mechanics and Thermodynamics of Fluids*. In Handbook of Mathematical Analysis in Mechanics of Viscous Fluids. Springer, Cham, 2018. [doi:10.1007/978-3-319-13344-7_1](https://doi.org/10.1007/978-3-319-13344-7_1)
   {: #malek-prusa-2018}
 
