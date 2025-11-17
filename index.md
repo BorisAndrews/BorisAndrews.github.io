@@ -9,7 +9,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
-    MY WORK WITH PATRICK FARRELL STABLE PDE INTEGRATORS WAS RECENTLY PUBLISHED IN SISC <br>
+    MY WORK WITH PATRICK FARRELL ON STABLE PDE INTEGRATORS WAS RECENTLY PUBLISHED IN SISC <br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
