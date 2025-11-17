@@ -8,8 +8,8 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/parker/';">
-    MY WORK WITH MINGDONG HE, PATRICK FARRELL & KAIBO HU ON HELICITY-STABLE INTEGRATORS FOR MAGNETIC RELAXATION WAS RECENTLY ACCEPTED AT SISC <br>
+<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
+    MY WORK WITH PATRICK FARRELL STABLE PDE INTEGRATORS WAS RECENTLY PUBLISHED IN SISC <br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
@@ -27,11 +27,14 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ## [HIGHLIGHTED PUBLICATIONS & PREPRINTS](/publications/)
 
-<!-- ### Preprints (Accepted for publication) -->
-### Preprints
+### Papers (Upcoming)
 
 {% include publications/titles/wide.md %}
 {% include publications/all/sp-integrators-a.md %}
+
+### Preprints (Accepted for publication)
+
+{% include publications/titles/wide.md %}
 {% include publications/all/parker.md %}
 
 <!-- ### Preprints (In review)
