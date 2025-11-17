@@ -1,1 +1,1 @@
-Oberwolfach workshop on Structure Preserving Methods
+Oberwolfach Workshop on Structure Preserving Methods
