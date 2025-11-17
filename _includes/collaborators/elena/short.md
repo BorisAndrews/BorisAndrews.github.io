@@ -1,0 +1,1 @@
+[Elena Celledoni](https://www.ntnu.edu/employees/elena.celledoni)

@@ -70,10 +70,15 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 - **09–16.JAN** <code>&#124;</code> **CHINA VISIT**
   - **09–10.JAN** <code>&#124;</code> **ICSPFEM** <code>&#124;</code> Attending the {% include conferences/2026/icspfem.md %} at the [Academy of Mathematics and Systems Science (AMSS)](https://amss.cas.cn/) in Beijing
   - **12–16.JAN** <code>&#124;</code> **TENSOR FEM WORKSHOP** <code>&#124;</code> Attending the {% include conferences/2026/tensor.md %} at the [Tsinghua Sanya International Mathematics Forum (TSIMF)](https://www.tsimf.cn/), part of {% include universities/tsinghua.md %}, in Sanya
+
 - **20.APR–05.JUN** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %}
 
-- **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the [ECCOMAS World Congress on Computational Mechanics (WCCM)](https://wccm-eccomas2026.org/) at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, in the [minisymposium on space-time finite element discretisations](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c) on the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}
-<!-- *(\*provisional)* -->
+- **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the {% include conferences/2026/eccomas.md %} at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, in the [minisymposium on space-time finite element discretisations](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c) on the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}
+
+### 2027
+- **18–23.APR** <code>&#124;</code> **OBERWOLFACH*** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/artur/short.md %}, {% include collaborators/sina/short.md %} and {% include collaborators/ari/short.md %}
+
+*(\*provisional)*
 
 <br>
 
