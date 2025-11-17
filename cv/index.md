@@ -27,26 +27,33 @@ permalink: /cv/
 
 ## [PUBLICATIONS & PREPRINTS](/publications/)
 
-<!-- ### Preprints (Accepted for publication) -->
-### Preprints
+<!-- ### Papers
 
-{% include publications/lists/accepted.md %}
+{% include publications/lists/1-papers.md %} -->
+
+### Papers (Upcoming)
+
+{% include publications/lists/2-upcoming.md %}
+
+### Preprints (Accepted for publication)
+
+{% include publications/lists/3-accepted.md %}
 
 <!-- ### Preprints (In review)
 
-{% include publications/lists/review.md %} -->
+{% include publications/lists/4-review.md %} -->
 
 ### Other works
 
-{% include publications/lists/other.md %}
+{% include publications/lists/5-other.md %}
 
 ### In preparation (Drafts available on request)
 
-{% include publications/lists/drafts.md %}
+{% include publications/lists/6-drafts.md %}
 
 ### In preparation (Drafts not yet available)
 
-{% include publications/lists/upcoming.md %}
+{% include publications/lists/7-future.md %}
 
 ## TEACHING
 
