@@ -7,7 +7,7 @@ permalink: /publications/sp-integrators-a/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### 29.APR.2025 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904)) <code>&#124;</code> ??.DEC.2025 ([SISC](https://doi.org/10.1137/25M1756673))
+### 29.APR.2025 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904)) <code>&#124;</code> 31.DEC.2025 ([SISC](https://doi.org/10.1137/25M1756673))
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators';">
