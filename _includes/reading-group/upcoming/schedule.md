@@ -8,7 +8,7 @@
 | 2 | 24.OCT | Sparse direct solvers ([Duff, Erisman & Reid, 2017](/reading-group/references/#duff-erisman-reid-2017)) | {% include collaborators/kars/short.md %} |
 | 3 | 31.OCT | *Group meeting* | |
 | 4 | 07.NOV | [Preconditioners for PDE timesteppers](/assets/pdf/reading-group/charlie/timestepper-preconditioning.pdf) ([Southworth *et al.*, 2022](/reading-group/references/#southworth-et-al-2022)) | {% include collaborators/charlie/short.md %} |
-| 5 | 14.NOV | From classical thermodynamics to fluid motion ([Málek & Průša, 2018](/reading-group/references/#malek-prusa-2018)) | {% include collaborators/jakub/short.md %} |
+| 5 | 14.NOV | [From classical thermodynamics to fluid motion](/assets/pdf/reading-group/jakub/thermodynamics.pdf) ([Málek & Průša, 2018](/reading-group/references/#malek-prusa-2018)) | {% include collaborators/jakub/short.md %} |
 | 6 | 21.NOV | [Turbulence](/assets/pdf/reading-group/mingdong/turbulence.pdf) ([Layton, 2018](/reading-group/references/#layton-2018)) | {% include collaborators/mingdong/short.md %} |
 | 7 | 28.NOV | *Break* | |
 | 8 | 05.DEC | *TBA...* | {% include collaborators/tom/short.md %} |
