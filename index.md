@@ -76,7 +76,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 - **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the {% include conferences/2026/eccomas.md %} at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, in the [minisymposium on space-time finite element discretisations](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c) on the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}
 
 ### 2027
-- **18–23.APR** <code>&#124;</code> **OBERWOLFACH*** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
+- **18–23.APR** <code>&#124;</code> **OBERWOLFACH*** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
 
 *(\*provisional)*
 
