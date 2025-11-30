@@ -130,7 +130,7 @@ This *avoids the artificial oscillations* and provides far more qualitatively ac
 </div>
 
 Crucially however, our framework extends *beyond Hamiltonian systems*, and beyond conservation laws.
-For instance, we use it to develop numerical schemes for the *compressible Navier--Stokes equations* that:
+For instance, we use it to develop numerical schemes for the *compressible Navier–Stokes equations* that:
 - **Conserve mass, momentum, and energy**
 - **Increase total entropy**
 

@@ -1,1 +1,1 @@
-| Helicity- and enstrophy-stable integrators for the Navier--Stokes--Voigt equations | |
+| Helicity- and enstrophy-stable integrators for the Navier–Stokes–Voigt equations | |
