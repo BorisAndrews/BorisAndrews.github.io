@@ -14,7 +14,7 @@ permalink: /publications/sp-integrators-b/
     CHECK OUT ON ARXIV!
 </b></div>
 
-> *[...] we present two novel contributions: (i) an arbitrary-order time discretisation for **general conservative ordinary differential equations** that **conserves all known invariants** and (ii) an **energy-conserving** and **entropy-dissipating** scheme for [...] differential equations written in the **GENERIC** format [...]. In both cases the underlying strategy is the same: the systematic introduction of auxiliary variables [...]. We illustrate the advantages of our approximations with numerical examples of the **Kepler** and **Kovalevskaya problems**, a **combustion engine model**, and the **Benjamin–Bona–Mahony** equation.*
+> *[...] we present two novel contributions: (i) an arbitrary-order time discretisation for **general conservative ordinary differential equations** that **conserves all known invariants** and (ii) an **energy-conserving** and **entropy-dissipating** scheme for [...] differential equations written in the **GENERIC** format [...]. We illustrate the advantages of our approximations with numerical examples of the **Kepler** and **Kovalevskaya problems**, a **combustion engine model**, and the **Benjamin–Bona–Mahony** equation.*
 
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
