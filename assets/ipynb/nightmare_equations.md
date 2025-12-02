@@ -239,9 +239,3 @@ Interpretation (per line):
 - $\boldsymbol J_i$: species diffusion flux; $\sum_i \boldsymbol J_i=\boldsymbol 0$.
 - $\boldsymbol J_e$: energy flux.
 - $\boldsymbol S$: viscous stress tensor (symmetric).
-
----
-
-
-
-If you’d like, I can also scaffold a Firedrake/Irksome mixed formulation file that mirrors this weak form and plugs into your existing Galerkin-in-time utilities.
