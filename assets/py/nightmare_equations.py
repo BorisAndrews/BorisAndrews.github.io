@@ -5,15 +5,15 @@ from pathlib import Path
 
 
 def stefan_maxwell_irksome(
-    Nspec:      int = 2,
-    Nx:         int = 16,
+    Nspec:      int = 3,
+    Nx:         int = 30,
     deg:        int = 1,
     vdeg:       int = 2,
-    timedeg:    int = 2,
-    Nt:         int = 100,
-    dt:         float = 1e-3,
-    Kval:       float = 1.0e0,
-    nu:         float = 1.0e1,
+    timedeg:    int = 1,
+    Nt:         float = 1e2,
+    dt:         float = 1e-7,
+    Kval:       float = 1.0e-2,
+    eta:        float = 1.0e-2,
     scheme:     str = "radau",
     output_dir: str = "output/",
     write_qois: bool = False,
@@ -32,9 +32,10 @@ def stefan_maxwell_irksome(
 
     # Convert parameters to UFL objects
     K_c = Constant(Kval)
-    nu_c = Constant(nu)
+    nu_c = Constant(eta)
     dt_c = Constant(dt)
-    V_i = [0.8,0.2]
+    # Specific volumes matching NGSolve setup
+    V_i = [0.35, 0.35, 0.8]
 
     # Mesh and coordinate (2D periodic box)
     mesh = PeriodicUnitSquareMesh(Nx, Nx)
@@ -137,14 +138,16 @@ def stefan_maxwell_irksome(
 
     # Time integrator
     t = Constant(0.0)
-    sp = {  # Example linear solver settings (tune as needed)
+    sp = {  # Nonlinear/linear solver settings
         "snes_monitor" : None,
         "snes_converged_reason" : None,
+        "snes_atol" : 1e-6,
+        "snes_max_it": 100,
         # "ksp_monitor" : None,
         # "ksp_converged_reason" : None,
     }
     scheme_dict = {
-        "cpg"   : ContinuousPetrovGalerkinScheme(timedeg, quadrature_scheme="radau", quadrature_degree=2*timedeg-2),  # Can up degree as needed
+        "cpg"   : ContinuousPetrovGalerkinScheme(timedeg, quadrature_degree=2*timedeg-1),  # Can up degree as needed
         "gauss" : GaussLegendre(timedeg),
         "radau" : RadauIIA(timedeg)
     }
@@ -159,12 +162,33 @@ def stefan_maxwell_irksome(
             solver_parameters=sp
         )
 
-    # Initial conditions (Idk just trying this out)
-    rho_ic = 1 + 0.2*sin(4*pi*x)*cos(2*pi*y) #0.6 + 0.2 * sin(2*pi*x) * sin(2*pi*y)
-    rho_out[0].interpolate(rho_ic)
-    rho_out[1].interpolate(1.0/V_i[1]*(1-V_i[0]*rho_ic))
-    theta_out.interpolate(1.1)
+    # Initial conditions aligned with Aaron's NGSolve code
+    I_between = lambda val, a, b : conditional(And(gt(val, a), lt(val, b)), 1.0, 0.0)
+
+    Iy01 = I_between(y, 0.1, 0.2)
+    Iy89 = I_between(y, 0.8, 0.9)
+    Ix01 = I_between(x, 0.1, 0.2)
+    Ix89 = I_between(x, 0.8, 0.9)
+
+    Ix01Iy01 = Ix01 * Iy01
+    Ix89Iy01 = Ix89 * Iy01
+    Ix01Iy89 = Ix01 * Iy89
+    Ix89Iy89 = Ix89 * Iy89
+
+    Icircle = conditional(lt((x - 0.5)**2 + (y - 0.5)**2, 0.25**2), 1.0, 0.0)
+
+    rho1_ic = 0.2 + 0.9*(Iy01 + Iy89 + Ix01 + Ix89) - 0.9*(Ix01Iy01 + Ix89Iy01 + Ix01Iy89 + Ix89Iy89)
+    rho2_ic = 0.2 + 0.9*Icircle
+    rho3_ic = (1.0/V_i[2]) - (V_i[1]/V_i[2])*rho2_ic - (V_i[0]/V_i[2])*rho1_ic
+
+    rho_out[0].interpolate(rho1_ic)
+    rho_out[1].interpolate(rho2_ic)
+    rho_out[2].interpolate(rho3_ic)
+
+    u0 = as_vector((-sin(pi*x)**2 * sin(2*pi*y), sin(pi*y)**2 * sin(2*pi*x)))
+    theta_out.interpolate(2.0)
     rho_tot_out = sum(rho_out)
+    m_out.interpolate(sqrt(rho_tot_out) * u0)
     rho_s_out.interpolate(rho_tot_out * ln(theta_out) - sum([rho_out[i] * ln(rho_out[i]/rho_tot_out) for i in range(Nspec)]))
 
     # Set up outputs
@@ -205,7 +229,7 @@ def stefan_maxwell_irksome(
         vtk.write(*rho_out, u_out, rho_s_out, *mu_out, p_out, theta_out, m_out, time=float(t))
 
     # Time loop
-    for _ in range(Nt):
+    for _ in range(round(Nt)):
         stepper.advance()
         t.assign(float(t) + float(dt_c))
         if write_vtk: vtk.write(*rho_out, u_out, rho_s_out, *mu_out, p_out, theta_out, m_out, time=float(t))
