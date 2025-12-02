@@ -10,10 +10,9 @@ permalink: /publications/sp-integrators-a/
 ### 29.APR.2025 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904)) <code>&#124;</code> 31.DEC.2025 ([SISC](https://doi.org/10.1137/25M1756673))
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators';">
-    THIS REPRESENTS PART 1 OF AN EARLIER MANUSCRIPT, CURRENTLY BEING PARTITIONED INTO MULTIPLE SUBMISSIONS <br>
-    <b>CLICK HERE TO CHECK IT OUT!</b>
-</div>
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.1137/25M1756673';"><b>
+    CHECK OUT IN SISC!
+</b></div>
 
 > *We propose a general strategy for **enforcing multiple conservation laws** and **dissipation inequalities** in the **numerical solution of initial value problems**. [...] We demonstrate these ideas by their application to the **Navier-Stokes equations**. We generalize [...] the **energy-dissipating and helicity-tracking** scheme of Rebholz for the **incompressible** [...] equations, and devise a time discretization of the **compressible** equations that **conserves mass, momentum, and energy, and provably dissipates entropy**.*
 

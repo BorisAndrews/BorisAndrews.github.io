@@ -8,8 +8,8 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
-    MY WORK WITH PATRICK FARRELL ON STABLE PDE INTEGRATORS WAS RECENTLY PUBLISHED IN SISC <br>
+<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-b/';">
+    PATRICK FARRELL AND I JUST PUT OUT A PREPRINT ON STABLE INTEGRATORS FOR MULTI-CONSERVATIVE AND GENERIC SYSTEMS <br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
@@ -27,25 +27,29 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ## [HIGHLIGHTED PUBLICATIONS & PREPRINTS](/publications/)
 
-### Papers (Upcoming)
+### Papers
+
+*(Upcoming)*
 
 {% include publications/titles/wide.md %}
 {% include publications/all/sp-integrators-a.md %}
 
-### Preprints (Accepted for publication)
+### Preprints
+
+*(Accepted for publication)*
 
 {% include publications/titles/wide.md %}
 {% include publications/all/parker.md %}
 
-<!-- ### Preprints (In review)
+*(In review)*
 
-{% include publications/titles/wide.md %} -->
+{% include publications/titles/wide.md %}
+{% include publications/all/sp-integrators-b.md %}
 
 ### Other works
 
 {% include publications/titles/wide.md %}
 {% include publications/all/thesis.md %}
-{% include publications/all/sp-integrators.md %}
 
 *(Click titles for further details and talks)*
 
@@ -77,7 +81,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 - **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the {% include conferences/2026/eccomas.md %} at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, in the [minisymposium on space-time finite element discretisations](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c) on the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators/) with {% include collaborators/patrick/short.md %}
 
 ### 2027
-- **18–23.APR** <code>&#124;</code> **OBERWOLFACH*** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
+- **18–23.APR** <code>&#124;</code> **OBERWOLFACH*** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
 
 *(\*provisional)*
 

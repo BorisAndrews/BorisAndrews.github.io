@@ -3,11 +3,30 @@ title: SP INTEGRATORS (PART 2)
 permalink: /publications/sp-integrators-b/
 ---
 
-# CONSERVATIVE AND DISSIPATIVE TIME DISCRETISATIONS FOR CONSERVATIVE AND GENERIC SYSTEMS
+# CONSERVATIVE AND DISSIPATIVE DISCRETISATIONS OF MULTI-CONSERVATIVE ODEs AND GENERIC SYSTEMS
 
-### {% include collaborators/patrick/short.md %} <code>&#124;</code> Boris Andrews
+### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### In preparation (Draft available on request)
+### 28.NOV.2025 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) <code>&#124;</code> In review ({% include journals/camwa.md %})
+
+{% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
+    CHECK OUT ON ARXIV!
+</b></div>
+
+> *[...] we present two novel contributions: (i) an arbitrary-order time discretisation for **general conservative ordinary differential equations** that **conserves all known invariants** and (ii) an **energy-conserving** and **entropy-dissipating** scheme for [...] differential equations written in the **GENERIC** format [...]. We illustrate the advantages of our approximations with numerical examples of the **Kepler** and **Kovalevskaya problems**, a **combustion engine model**, and the **Benjamin–Bona–Mahony** equation.*
+
+{% include reveal-box.md %}
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>FULL ABSTRACT</b>
+    <div class="details">
+        Partial differential equations (PDEs) describing thermodynamically isolated systems typically possess conserved quantities (like mass, momentum, and energy) and dissipated quantities (like entropy).
+        Preserving these conservation and dissipation laws on discretisation in time can yield vastly better approximations for the same computational effort, compared to schemes that are not structure-preserving. <br><br>
+        In this work we present two novel contributions: (i) an arbitrary-order time discretisation for general conservative ordinary differential equations that conserves all known invariants and (ii) an energy-conserving and entropy-dissipating scheme for both ordinary and partial differential equations written in the GENERIC format, a superset of Poisson and gradient-descent systems.
+        In both cases the underlying strategy is the same: the systematic introduction of auxiliary variables, allowing for the replication at the discrete level of the proofs of conservation or dissipation.
+        We illustrate the advantages of our approximations with numerical examples of the Kepler and Kovalevskaya problems, a combustion engine model, and the Benjamin-Bona-Mahony equation.
+    </div>
+</div>
 
 *(Full details available soon! Details below offer a brief overview of the material in the manuscript on GENERIC systems only.)*
 

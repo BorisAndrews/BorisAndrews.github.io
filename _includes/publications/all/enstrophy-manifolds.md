@@ -1,1 +1,1 @@
-| Enstrophy-stable integrators for the Navier--Stokes equations on manifolds | |
+| Enstrophy-stable integrators for the Navier–Stokes equations on manifolds | |

@@ -1,5 +1,5 @@
 ---
-title: PARKER PROBLEM
+title: MAGNETIC RELAXATION
 permalink: /publications/parker/
 ---
 
