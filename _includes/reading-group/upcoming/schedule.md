@@ -24,4 +24,17 @@
 | 3 | 09.JAN | *TBA...* | *TBA...* |
 | 4 | 16.JAN | *TBA...* | *TBA...* | -->
 
+*Hilary term*
+
+| Week | Date | Topic | Presenter |
+| --- | --- | --- | --- |
+| 1 | 23.JAN | *TBA...* | *TBA...* |
+| 2 | 30.JAN | *TBA...* | *TBA...* |
+| 3 | 06.FEB | *TBA...* | *TBA...* |
+| 4 | 13.FEB | *TBA...* | *TBA...* |
+| 5 | 20.FEB | *TBA...* | *TBA...* |
+| 6 | 27.FEB | *TBA...* | *TBA...* |
+| 7 | 06.MAR | *TBA...* | *TBA...* |
+| 8 | 13.MAR | *TBA...* | *TBA...* |
+
 *Slides and notes can be found, when available, by clicking the topic titles.*
