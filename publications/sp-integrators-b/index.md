@@ -21,7 +21,7 @@ permalink: /publications/sp-integrators-b/
     <b>FULL ABSTRACT</b>
     <div class="details">
         Partial differential equations (PDEs) describing thermodynamically isolated systems typically possess conserved quantities (like mass, momentum, and energy) and dissipated quantities (like entropy).
-        Preserving these conservation and dissipation laws on discretisation in time can yield vastly better approximations for the same computational effort, compared to schemes that are not structure-preserving.
+        Preserving these conservation and dissipation laws on discretisation in time can yield vastly better approximations for the same computational effort, compared to schemes that are not structure-preserving. <br><br>
         In this work we present two novel contributions: (i) an arbitrary-order time discretisation for general conservative ordinary differential equations that conserves all known invariants and (ii) an energy-conserving and entropy-dissipating scheme for both ordinary and partial differential equations written in the GENERIC format, a superset of Poisson and gradient-descent systems.
         In both cases the underlying strategy is the same: the systematic introduction of auxiliary variables, allowing for the replication at the discrete level of the proofs of conservation or dissipation.
         We illustrate the advantages of our approximations with numerical examples of the Kepler and Kovalevskaya problems, a combustion engine model, and the Benjamin-Bona-Mahony equation.
