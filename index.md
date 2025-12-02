@@ -8,8 +8,8 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a/';">
-    MY WORK WITH PATRICK FARRELL ON STABLE PDE INTEGRATORS WAS RECENTLY PUBLISHED IN SISC <br>
+<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-b/';">
+    PATRICK FARRELL AND I JUST PUT OUT A PREPRINT STABLE INTEGRATORS FOR MULTI-CONSERVATIVE AND GENERIC SYSTEMS <br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
