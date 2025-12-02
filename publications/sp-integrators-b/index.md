@@ -5,7 +5,7 @@ permalink: /publications/sp-integrators-b/
 
 # CONSERVATIVE AND DISSIPATIVE DISCRETISATIONS OF MULTI-CONSERVATIVE ODEs AND GENERIC SYSTEMS
 
-### {% include collaborators/patrick/short.md %} <code>&#124;</code> Boris Andrews
+### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
 ### 28.NOV.2025 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266))
 
