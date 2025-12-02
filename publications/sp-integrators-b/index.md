@@ -9,6 +9,11 @@ permalink: /publications/sp-integrators-b/
 
 ### 28.NOV.2025 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266))
 
+{% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
+    CHECK OUT ON ARXIV!
+</b></div>
+
 *(Full details available soon! Details below offer a brief overview of the material in the manuscript on GENERIC systems only.)*
 
 The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
