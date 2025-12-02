@@ -10,11 +10,11 @@ def stefan_maxwell_irksome(
     deg:        int = 1,
     vdeg:       int = 2,
     timedeg:    int = 1,
-    Nt:         float = 1e2,
+    Nt:         float = 1e3,
     dt:         float = 1e-4,
     Kval:       float = 1.0e-2,
     eta:        float = 1.0e-2,
-    scheme:     str = "radau",
+    scheme:     str = "gauss",
     output_dir: str = "output/",
     write_qois: bool = True,
     write_vtk:  bool = True,
@@ -95,6 +95,9 @@ def stefan_maxwell_irksome(
           - inner(rho[i] * u, grad(psi[i]))
           + inner(diff_flux_i, grad(psi[i]))
         ) * dx
+    '''
+    psi[i] = mu[i] - V_i[i] * p
+    '''
     for i in range(Nspec):  # Chemical potential
         F += (
             inner(mu[i], zeta[i])
@@ -108,11 +111,14 @@ def stefan_maxwell_irksome(
       - inner(p, div(v))
       + sum([
             inner(rho[i] * grad(mu[i]), v)
-          - V_i[i] * inner(rho[i] * p, v)
+          - V_i[i] * inner(rho[i] * grad(p), v)
         for i in range(Nspec)])
       + inner(rho_s * grad(theta), v)
     ) * dx
-    F += (  # Modified momenutm
+    '''
+    v = u
+    '''
+    F += (  # Modified momentum
         inner(m, w)
       - inner(sqrt_rho * u, w)
     ) * dx
@@ -122,6 +128,9 @@ def stefan_maxwell_irksome(
             V_i[i] * inner(M_ij(i, j) * grad(mu[j] / theta), grad(q))
         for j in range(Nspec)]) for i in range(Nspec)])
     ) * dx
+    '''
+    q = p
+    '''
     F += (  # Entropy
         inner(Dt(rho_s), omega)
       - inner(rho_s * u, grad(omega))
@@ -131,6 +140,9 @@ def stefan_maxwell_irksome(
             inner(M_ij(i, j) * grad(mu[j] / theta), grad(mu[i] * omega / theta))
         for j in range(Nspec)]) for i in range(Nspec)])
     ) * dx
+    '''
+    omega = theta
+    '''
     F += (  # Temperature
         inner(theta, gamma)
       - inner(d_rho_e_d_rhos, gamma)
@@ -141,7 +153,7 @@ def stefan_maxwell_irksome(
     sp = {  # Nonlinear/linear solver settings
         "snes_monitor" : None,
         "snes_converged_reason" : None,
-        "snes_atol" : 1e-6,
+        "snes_atol" : 1e-5,
         "snes_max_it" : 100,
         "snes_type" : "newtonls",
         "snes_linesearch_type" : "bt",
