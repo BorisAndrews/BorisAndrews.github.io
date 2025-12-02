@@ -11,12 +11,12 @@ def stefan_maxwell_irksome(
     vdeg:       int = 2,
     timedeg:    int = 1,
     Nt:         float = 1e2,
-    dt:         float = 1e-7,
+    dt:         float = 1e-4,
     Kval:       float = 1.0e-2,
     eta:        float = 1.0e-2,
     scheme:     str = "radau",
     output_dir: str = "output/",
-    write_qois: bool = False,
+    write_qois: bool = True,
     write_vtk:  bool = True,
 ):
     """
@@ -32,7 +32,7 @@ def stefan_maxwell_irksome(
 
     # Convert parameters to UFL objects
     K_c = Constant(Kval)
-    nu_c = Constant(eta)
+    eta_c = Constant(eta)
     dt_c = Constant(dt)
     # Specific volumes matching NGSolve setup
     V_i = [0.35, 0.35, 0.8]
@@ -49,9 +49,9 @@ def stefan_maxwell_irksome(
     # Solution functions
     z = Function(Z, name="state")
     z_split = split(z)
-    rho = z_split[0:Nspec]; u = z_split[Nspec]; rho_s = z_split[Nspec+1]; mu = z_split[(Nspec+2):(2*Nspec+2)]; p = z_split[2*Nspec+2]; theta = z_split[2*Nspec+3]; m = z_split[2*Nspec+4]
+    rho = z_split[0:Nspec]; m = z_split[Nspec]; rho_s = z_split[Nspec+1]; mu = z_split[(Nspec+2):(2*Nspec+2)]; p = z_split[2*Nspec+2]; theta = z_split[2*Nspec+3]; u = z_split[2*Nspec+4]
     z_out = z.subfunctions
-    rho_out = z_out[0:Nspec]; u_out = z_out[Nspec]; rho_s_out = z_out[Nspec+1]; mu_out = z_out[(Nspec+2):(2*Nspec+2)]; p_out = z_out[2*Nspec+2]; theta_out = z_out[2*Nspec+3]; m_out = z_out[2*Nspec+4]
+    rho_out = z_out[0:Nspec]; m_out = z_out[Nspec]; rho_s_out = z_out[Nspec+1]; mu_out = z_out[(Nspec+2):(2*Nspec+2)]; p_out = z_out[2*Nspec+2]; theta_out = z_out[2*Nspec+3]; u_out = z_out[2*Nspec+4]
 
     # Split tests (UFL)
     tests = TestFunctions(Z)
@@ -62,7 +62,7 @@ def stefan_maxwell_irksome(
     sqrt_rho = sqrt(rho_tot)
     rho_F = sum([rho[i] * ln(rho[i]/rho_tot) for i in range(Nspec)])
     rho_e = rho_tot * exp((rho_s + rho_F)/rho_tot)
-    rho_e_tot = 0.5 * rho_tot * inner(u, u) + rho_e
+    rho_e_tot = 0.5 * inner(m, m) + rho_e
 
     # Helpers for rho (hard - require variable objects for implicit differentiation)
     rho_var = [variable(r) for r in rho]
@@ -73,11 +73,8 @@ def stefan_maxwell_irksome(
     d_rho_e_d_rhoi = [diff(rho_e_var, rho_var[i]) for i in range(Nspec)]
     d_rho_e_d_rhos = diff(rho_e_var, rho_s_var)
 
-    # Mobility M_{ij} and related fluxes
-    def M_ij(i, j):
-        return (0.1*rho[i] if i == j else 0.0) - 0.1*rho[i] * rho[j] / rho_tot
-    def grad_mu_over_theta(j):
-        return grad(mu[j] / theta)
+    # Mobility M_{ij}
+    def M_ij(i, j): return (0.1*rho[i] if i == j else 0.0) - 0.1*rho[i] * rho[j] / rho_tot
 
     # Skew-symmetric convection form C(rho u, v, w)
     def C_skw(rho_u, v_in, w_in):
@@ -86,13 +83,13 @@ def stefan_maxwell_irksome(
           - inner(dot(grad(w_in), rho_u), v_in)
         )
 
-    # Symmetric gradient
+    # Deviatoric strain (symmetric gradient of u)
     Du = sym(grad(u))
 
     # Residual
     F = 0
     for i in range(Nspec):  # Mass (for each species)
-        diff_flux_i = sum(M_ij(i, j) * grad_mu_over_theta(j) for j in range(Nspec))
+        diff_flux_i = sum(M_ij(i, j) * grad(mu[j] / theta) for j in range(Nspec))
         F += (
             inner(Dt(rho[i]), psi[i])
           - inner(rho[i] * u, grad(psi[i]))
@@ -100,40 +97,43 @@ def stefan_maxwell_irksome(
         ) * dx
     for i in range(Nspec):  # Chemical potential
         F += (
-            (mu[i] - d_rho_e_d_rhoi[i] - V_i[i] * p) * zeta[i]
+            inner(mu[i], zeta[i])
+          - inner(d_rho_e_d_rhoi[i], zeta[i])
+          - V_i[i] * inner(p, zeta[i])
         ) * dx
-    rhou = rho_tot * u  # Momentum
-    F += (
+    F += (  # Momentum
         inner(sqrt_rho * Dt(m), v)
-      + C_skw(rhou, u, v)
-      + 2.0 * nu_c * inner(Du, sym(grad(v)))
+      + C_skw(rho_tot * u, u, v)
+      + 2.0 * eta_c * inner(Du, sym(grad(v)))
       - inner(p, div(v))
       + sum([
-            inner(rho[i] * grad(mu[i] - V_i[i] * p), v)
+            inner(rho[i] * grad(mu[i]), v)
+          - V_i[i] * inner(rho[i] * p, v)
         for i in range(Nspec)])
       + inner(rho_s * grad(theta), v)
     ) * dx
-    F += (  # Auxiliary momentum-like thing
-        (inner(m, w) - inner(sqrt_rho * u, w))
+    F += (  # Modified momenutm
+        inner(m, w)
+      - inner(sqrt_rho * u, w)
     ) * dx
     F += (  # Pseudo-incompressibility
-        div(u) * q
+        inner(div(u), q)
       + sum([sum([
-            V_i[i] * inner(M_ij(i, j) * grad_mu_over_theta(j), grad(q))
+            V_i[i] * inner(M_ij(i, j) * grad(mu[j] / theta), grad(q))
         for j in range(Nspec)]) for i in range(Nspec)])
     ) * dx
-    inv_theta = 1.0 / theta  # Entropy
-    F += (
+    F += (  # Entropy
         inner(Dt(rho_s), omega)
       - inner(rho_s * u, grad(omega))
-      - 2.0 * nu_c * inner(Du, grad(u)) * inv_theta * omega
-      - K_c * inner(grad(inv_theta), grad(omega * inv_theta))
+      - 2.0 * eta_c * inner(inner(Du, Du) / theta, omega)
+      - K_c * inner(grad(1 / theta), grad(omega / theta))
       - sum([sum([
-            inner(grad_mu_over_theta(j), grad((omega * mu[i]) * inv_theta)) * M_ij(i, j)
+            inner(M_ij(i, j) * grad(mu[j] / theta), grad(mu[i] * omega / theta))
         for j in range(Nspec)]) for i in range(Nspec)])
     ) * dx
     F += (  # Temperature
-        (theta - d_rho_e_d_rhos) * gamma
+        inner(theta, gamma)
+      - inner(d_rho_e_d_rhos, gamma)
     ) * dx
 
     # Time integrator
@@ -142,7 +142,9 @@ def stefan_maxwell_irksome(
         "snes_monitor" : None,
         "snes_converged_reason" : None,
         "snes_atol" : 1e-6,
-        "snes_max_it": 100,
+        "snes_max_it" : 100,
+        "snes_type" : "newtonls",
+        "snes_linesearch_type" : "bt",
         # "ksp_monitor" : None,
         # "ksp_converged_reason" : None,
     }
@@ -219,20 +221,20 @@ def stefan_maxwell_irksome(
         vtk = VTKFile(str(out_path / "u.pvd"))
         for (i, rho_out_) in enumerate(rho_out):
             rho_out_.rename(f"Density #{round(i)} (rho_{round(i)})")
-        u_out.rename("Velocity (u)")
+        m_out.rename("Modified momentum (m)")
         rho_s_out.rename("Specific entropy (rho s)")
         for (i, mu_out_) in enumerate(mu_out):
             mu_out_.rename(f"Chemical potential #{round(i)} (mu_{round(i)})")
         p_out.rename("Pressure (p)")
         theta_out.rename("Temperature (theta)")
-        m_out.rename("Modified momentum (m)")
-        vtk.write(*rho_out, u_out, rho_s_out, *mu_out, p_out, theta_out, m_out, time=float(t))
+        u_out.rename("Velocity (u)")
+        vtk.write(*rho_out, m_out, rho_s_out, *mu_out, p_out, theta_out, u_out, time=float(t))
 
     # Time loop
     for _ in range(round(Nt)):
         stepper.advance()
         t.assign(float(t) + float(dt_c))
-        if write_vtk: vtk.write(*rho_out, u_out, rho_s_out, *mu_out, p_out, theta_out, m_out, time=float(t))
+        if write_vtk: vtk.write(*rho_out, m_out, rho_s_out, *mu_out, p_out, theta_out, u_out, time=float(t))
         record_and_log()
 
     return {"time": t_arr, "energy": E_arr, "entropy": S_arr}
