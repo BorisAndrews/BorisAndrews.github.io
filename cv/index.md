@@ -27,19 +27,21 @@ permalink: /cv/
 
 ## [PUBLICATIONS & PREPRINTS](/publications/)
 
-<!-- ### Papers
+### Papers
 
-{% include publications/lists/1-papers.md %} -->
+<!-- {% include publications/lists/1-papers.md %} -->
 
-### Papers (Upcoming)
+*(Upcoming)*
 
 {% include publications/lists/2-upcoming.md %}
 
-### Preprints (Accepted for publication)
+### Preprints
+
+*(Accepted for publication)*
 
 {% include publications/lists/3-accepted.md %}
 
-### Preprints (In review)
+*(In review)*
 
 {% include publications/lists/4-review.md %}
 
@@ -47,11 +49,13 @@ permalink: /cv/
 
 {% include publications/lists/5-other.md %}
 
-### In preparation (Drafts available on request)
+### In preparation
+
+*(Drafts available on request)*
 
 {% include publications/lists/6-drafts.md %}
 
-### In preparation (Drafts not yet available)
+*(Drafts not yet available)*
 
 {% include publications/lists/7-future.md %}
 
