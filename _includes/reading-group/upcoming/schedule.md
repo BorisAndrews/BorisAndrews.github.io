@@ -10,8 +10,8 @@
 | 4 | 07.NOV | [Preconditioners for PDE timesteppers](/assets/pdf/reading-group/charlie/timestepper-preconditioning.pdf) ([Southworth *et al.*, 2022](/reading-group/references/#southworth-et-al-2022)) | {% include collaborators/charlie/short.md %} |
 | 5 | 14.NOV | [From classical thermodynamics to fluid motion](/assets/pdf/reading-group/jakub/thermodynamics.pdf) ([Málek & Průša, 2018](/reading-group/references/#malek-prusa-2018)) | {% include collaborators/jakub/short.md %} |
 | 6 | 21.NOV | [Turbulence](/assets/pdf/reading-group/mingdong/turbulence.pdf) ([Layton, 2018](/reading-group/references/#layton-2018)) | {% include collaborators/mingdong/short.md %} |
-| 7 | 28.NOV | *Break* | |
-| 8 | 05.DEC | *TBA...* | {% include collaborators/tom/short.md %} |
+| 7 | 28.NOV | *(Break)* | |
+| 8 | 05.DEC | The Grad-Shafranov equation: MHD equilibria and how to find them ([Shnack, 2009](/reading-group/references/#shnack-2009); [He *et al.*, 2025](/reading-group/references/#he-et-al-2025); [Blickhan, Stratton \& Kaptanoglu, 2025](/reading-group/references/#blickhan-stratton-kaptanoglu-2025)) | {% include collaborators/tom/short.md %} |
 
 <!-- *Christmas holiday*
 
@@ -19,8 +19,8 @@
 | --- | --- | --- | --- |
 | 3 | 12.DEC | *TBA...* | *TBA...* |
 | 4 | 19.DEC | *TBA...* | *TBA...* |
-| 4 | 26.DEC | *(On break)* | |
-| 4 | 02.JAN | *(On break)* | |
+| 4 | 26.DEC | *(Break)* | |
+| 4 | 02.JAN | *(Break)* | |
 | 3 | 09.JAN | *TBA...* | *TBA...* |
 | 4 | 16.JAN | *TBA...* | *TBA...* | -->
 
