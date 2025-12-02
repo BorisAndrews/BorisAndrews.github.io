@@ -2,17 +2,19 @@ from firedrake import *
 from irksome import *
 from pathlib import Path
 
+
+
 def stefan_maxwell_irksome(
     Nspec:      int = 2,
     Nx:         int = 16,
     deg:        int = 1,
     vdeg:       int = 2,
-    timedeg:    int = 1,
+    timedeg:    int = 2,
     Nt:         int = 100,
-    dt:         float = 1e-5,
-    Kval:       float = 1.0e-2,
+    dt:         float = 1e-3,
+    Kval:       float = 1.0e0,
     nu:         float = 1.0e1,
-    scheme:     str = "cpg",
+    scheme:     str = "radau",
     output_dir: str = "output/",
     write_qois: bool = False,
     write_vtk:  bool = True,
@@ -142,14 +144,20 @@ def stefan_maxwell_irksome(
         # "ksp_converged_reason" : None,
     }
     scheme_dict = {
-        "cpg"   : ContinuousPetrovGalerkinScheme(timedeg, quadrature_degree=2*timedeg-1),  # Can up degree as needed
-        "gauss" : GaussLegendre(timedeg)
+        "cpg"   : ContinuousPetrovGalerkinScheme(timedeg, quadrature_scheme="radau", quadrature_degree=2*timedeg-2),  # Can up degree as needed
+        "gauss" : GaussLegendre(timedeg),
+        "radau" : RadauIIA(timedeg)
     }
-    stepper = TimeStepper(
-        F, scheme_dict[scheme.lower()], t, dt_c, z,
-        # solver_parameters=sp
-        solver_parameters=sp, aux_indices=[Nspec+2+i for i in range(Nspec+3)]
-    )
+    if scheme == "cpg":
+        stepper = TimeStepper(
+            F, scheme_dict[scheme.lower()], t, dt_c, z,
+            solver_parameters=sp, aux_indices=[Nspec+2+i for i in range(Nspec+3)]
+        )
+    else:
+        stepper = TimeStepper(
+            F, scheme_dict[scheme.lower()], t, dt_c, z,
+            solver_parameters=sp
+        )
 
     # Initial conditions (Idk just trying this out)
     rho_ic = 1 + 0.2*sin(4*pi*x)*cos(2*pi*y) #0.6 + 0.2 * sin(2*pi*x) * sin(2*pi*y)
@@ -157,7 +165,7 @@ def stefan_maxwell_irksome(
     rho_out[1].interpolate(1.0/V_i[1]*(1-V_i[0]*rho_ic))
     theta_out.interpolate(1.1)
     rho_tot_out = sum(rho_out)
-    rho_s_out.interpolate(rho_tot_out *ln(theta_out) - sum([rho_out[i] * ln(rho_out[i]/rho_tot_out) for i in range(Nspec)]))
+    rho_s_out.interpolate(rho_tot_out * ln(theta_out) - sum([rho_out[i] * ln(rho_out[i]/rho_tot_out) for i in range(Nspec)]))
 
     # Set up outputs
     E_form = rho_e_tot * dx
@@ -204,5 +212,7 @@ def stefan_maxwell_irksome(
         record_and_log()
 
     return {"time": t_arr, "energy": E_arr, "entropy": S_arr}
+
+
 
 output_dict = stefan_maxwell_irksome()

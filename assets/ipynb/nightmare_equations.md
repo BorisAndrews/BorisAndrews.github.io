@@ -130,7 +130,7 @@ $$
 \;+
 \nabla\!\Big(\tfrac{\mu}{\theta}\Big)^{\!\top} M\,\nabla\!\Big(\tfrac{\mu}{\theta}\Big)
 \;+
-  	frac{1}{\theta}\,\boldsymbol S : \nabla\boldsymbol u,
+\tfrac{1}{\theta}\,\boldsymbol S : \nabla\boldsymbol u,
 $$
 which is nonnegative due to $K\ge 0$, $M\succeq 0$, and $\boldsymbol S$’s coercivity.
 
