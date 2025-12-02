@@ -12,7 +12,7 @@
   {: #grimmer-2024}
 
 - **M. He**, **P. E. Farrell**, **K. Hu** and **B. D. Andrews**, Helicity-preserving finite element discretization for magnetic relaxation, arXiv (2025), [doi:10.48550/arXiv.2501.11654](https://doi.org/10.48550/arXiv.2501.11654)
-  {: #he-farrell-hu-andrews-2025}
+  {: #he-et-al-2025}
 
 - **W. Layton**, *Introduction to the Numerical Analysis of Incompressible Viscous Flows*. SIAM, 2018
   {: #layton-2018}
