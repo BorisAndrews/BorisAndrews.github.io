@@ -39,9 +39,9 @@ permalink: /cv/
 
 {% include publications/lists/3-accepted.md %}
 
-<!-- ### Preprints (In review)
+### Preprints (In review)
 
-{% include publications/lists/4-review.md %} -->
+{% include publications/lists/4-review.md %}
 
 ### Other works
 

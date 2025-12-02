@@ -6,9 +6,8 @@ permalink: /publications/
 # PUBLICATIONS & PREPRINTS
 
 ## PAPERS
-<!-- ### (Accepted for publication)
 
-{% include publications/lists/1-papers.md %} -->
+<!--{% include publications/lists/1-papers.md %} -->
 
 ### (Upcoming)
 
@@ -19,9 +18,9 @@ permalink: /publications/
 
 {% include publications/lists/3-accepted.md %}
 
-<!-- ### (In review) -->
+### (In review)
 
-<!-- {% include publications/lists/4-review.md %} -->
+{% include publications/lists/4-review.md %}
 
 ## OTHER WORKS
 

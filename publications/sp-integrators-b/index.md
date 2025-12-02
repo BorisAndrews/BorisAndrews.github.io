@@ -7,7 +7,7 @@ permalink: /publications/sp-integrators-b/
 
 ### {% include collaborators/patrick/short.md %} <code>&#124;</code> Boris Andrews
 
-### In preparation (Draft available on request)
+### 28.NOV.2025 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266))
 
 *(Full details available soon! Details below offer a brief overview of the material in the manuscript on GENERIC systems only.)*
 
