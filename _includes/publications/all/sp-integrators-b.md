@@ -1,1 +1,1 @@
-| 28.NOV.2025 <br> ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) | [Conservative and dissipative time discretisations for conservative and GENERIC systems]({{ "/publications/sp-integrators-b/" | absolute_url }}) | {% include collaborators/patrick/short.md %} |
+| 28.NOV.2025 <br> ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) | [Conservative and dissipative discretisations of multi-conservative ODEs and GENERIC systems]({{ "/publications/sp-integrators-b/" | absolute_url }}) | {% include collaborators/patrick/short.md %} |
