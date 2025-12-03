@@ -130,7 +130,7 @@ $$
 \;+
 \nabla\!\Big(\tfrac{\mu}{\theta}\Big)^{\!\top} M\,\nabla\!\Big(\tfrac{\mu}{\theta}\Big)
 \;+
-  	frac{1}{\theta}\,\boldsymbol S : \nabla\boldsymbol u,
+\tfrac{1}{\theta}\,\boldsymbol S : \nabla\boldsymbol u,
 $$
 which is nonnegative due to $K\ge 0$, $M\succeq 0$, and $\boldsymbol S$’s coercivity.
 
@@ -239,9 +239,3 @@ Interpretation (per line):
 - $\boldsymbol J_i$: species diffusion flux; $\sum_i \boldsymbol J_i=\boldsymbol 0$.
 - $\boldsymbol J_e$: energy flux.
 - $\boldsymbol S$: viscous stress tensor (symmetric).
-
----
-
-
-
-If you’d like, I can also scaffold a Firedrake/Irksome mixed formulation file that mirrors this weak form and plugs into your existing Galerkin-in-time utilities.
