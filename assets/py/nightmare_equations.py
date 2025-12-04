@@ -95,9 +95,6 @@ def stefan_maxwell_irksome(
           - inner(rho[i] * u, grad(psi[i]))
           + inner(diff_flux_i, grad(psi[i]))
         ) * dx
-    '''
-    psi[i] = mu[i] - V_i[i] * p
-    '''
     for i in range(Nspec):  # Chemical potential
         F += (
             inner(mu[i], zeta[i])
@@ -115,9 +112,6 @@ def stefan_maxwell_irksome(
         for i in range(Nspec)])
       + inner(rho_s * grad(theta), v)
     ) * dx
-    '''
-    v = u
-    '''
     F += (  # Modified momentum
         inner(m, w)
       - inner(sqrt_rho * u, w)
@@ -128,9 +122,6 @@ def stefan_maxwell_irksome(
             V_i[i] * inner(M_ij(i, j) * grad(mu[j] / theta), grad(q))
         for j in range(Nspec)]) for i in range(Nspec)])
     ) * dx
-    '''
-    q = p
-    '''
     F += (  # Entropy
         inner(Dt(rho_s), omega)
       - inner(rho_s * u, grad(omega))
@@ -140,9 +131,6 @@ def stefan_maxwell_irksome(
             inner(M_ij(i, j) * grad(mu[j] / theta), grad(mu[i] * omega / theta))
         for j in range(Nspec)]) for i in range(Nspec)])
     ) * dx
-    '''
-    omega = theta
-    '''
     F += (  # Temperature
         inner(theta, gamma)
       - inner(d_rho_e_d_rhos, gamma)
@@ -199,10 +187,12 @@ def stefan_maxwell_irksome(
     rho_out[1].interpolate(rho2_ic)
     rho_out[2].interpolate(rho3_ic)
 
-    u0 = as_vector((-sin(pi*x)**2 * sin(2*pi*y), sin(pi*y)**2 * sin(2*pi*x)))
-    theta_out.interpolate(2.0)
+    u_ic = as_vector((-sin(pi*x)**2 * sin(2*pi*y), sin(pi*y)**2 * sin(2*pi*x)))
     rho_tot_out = sum(rho_out)
-    m_out.interpolate(sqrt(rho_tot_out) * u0)
+    u_out.interpolate(u_ic)
+    m_out.interpolate(sqrt(rho_tot_out) * u_ic)
+
+    theta_out.interpolate(2.0)
     rho_s_out.interpolate(rho_tot_out * ln(theta_out) - sum([rho_out[i] * ln(rho_out[i]/rho_tot_out) for i in range(Nspec)]))
 
     # Set up outputs
