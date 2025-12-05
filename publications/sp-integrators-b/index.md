@@ -28,11 +28,13 @@ permalink: /publications/sp-integrators-b/
     </div>
 </div>
 
-*(Full details available soon! Details below offer a brief overview of the material in the manuscript on GENERIC systems only.)*
+### Multi-conservative ODEs
 
-The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extends Hamiltonian systems to include both:
-- a *conserved* energy
-- a *non-decreasing* entropy
+### GENERIC systems
+
+The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) defines a special class of ODEs and PDEs with both:
+- a *conserved* energy;
+- a *non-decreasing* entropy.
 
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -42,7 +44,7 @@ The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extend
         \[
             \dot{\mathbf{x}}  =  L(\mathbf{x})\nabla E(\mathbf{x}) + M(\mathbf{x})\nabla S(\mathbf{x}).
         \]
-      Here, \(E, S : \mathbb{R}^d \to \mathbb{R}\) are the (conserved) energy and (non-decreasing) entropy, and \(L, M : \mathbb{R}^d \to \mathbb{R}^{d\times d}\) are the skew-symmetric (Poisson) matrix and positive semidefinite (friction) matrix.
+        Here, \(E, S : \mathbb{R}^d \to \mathbb{R}\) are the (conserved) energy and (non-decreasing) entropy, and \(L, M : \mathbb{R}^d \to \mathbb{R}^{d\times d}\) are the skew-symmetric (Poisson) matrix and positive semidefinite (friction) matrix.
         With the following orthogonality conditions,
         \[
             \nabla S(\mathbf{x})^\top L(\mathbf{x}) = 0,  \qquad
@@ -55,11 +57,11 @@ The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) extend
 
 As the name suggests, this is **extremely general**.
 Examples of such systems include:
-- the *compressible* Navier–Stokes equations
-- the Boltzmann equation
-- pretty much any *irreversible* thermodynamic system
+- the *compressible* Navier–Stokes equations;
+- the Boltzmann equation;
+- pretty much any *irreversible* thermodynamic system.
 
-We can apply the framework from [mine and Patrick Farrell's preprint](/publications/sp-integrators-a/) to preserve both the **conservative** and **non-dissipation** structures.
+We apply the framework from [mine and Patrick Farrell's previous paper](/publications/sp-integrators-a/) to construct numercial integrators preserve both the **conservative** and **non-dissipation** structures.
 As such, we have a *general way to construct structure-preserving finite element methods for any of the above systems*, with arbitrary finite elements and at arbitrary order in space and time.
 
 These properties are **crucial for accurately capturing the dynamics** of these systems.
