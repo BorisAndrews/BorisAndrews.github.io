@@ -37,6 +37,6 @@
 | 7 | 06.MAR* | *TBA...* | *TBA...* |
 | 8 | 13.MAR | *TBA...* | *TBA...* |
 
-**Due to clashes, meetings marked with asterices will be in S1.37*
+**Due to clashes, meetings marked with asterices will be in S1.37.*
 
 *Slides and notes can be found, when available, by clicking the topic titles.*
