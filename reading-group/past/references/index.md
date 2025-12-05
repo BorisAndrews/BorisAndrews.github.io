@@ -1,6 +1,6 @@
 ---
 title: READING GROUP
-permalink: /reading-group/past/
+permalink: /reading-group/past/references/
 layout: blank
 ---
 
@@ -22,9 +22,11 @@ Click [here](/reading-group/) to hide the records of past presentations.
 
 {% include reading-group/past/schedule.md %}
 
-### [REFERENCES](/reading-group/past/references/)
+### [REFERENCES](/reading-group/past/)
 
-Click [here](/reading-group/past/references/) to view references for past presentations.
+Click [here](/reading-group/past/) to hide references for upcoming presentations.
+
+{% include reading-group/past/references.md %}
 
 ## [SUGGESTED READS](/reading-group/suggested/)
 
