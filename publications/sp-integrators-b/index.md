@@ -28,6 +28,8 @@ permalink: /publications/sp-integrators-b/
     </div>
 </div>
 
+*(The following overview is a work in progress! Come back soon.)*
+
 ### Multi-conservative ODEs
 
 ### GENERIC systems
