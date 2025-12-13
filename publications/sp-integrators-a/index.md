@@ -49,7 +49,7 @@ That's not something you want to just *"accept"* when you're simulating the air 
 
 ### The challenge
 
-Conserving simple, quadratic quantities (e.g. the $L^2$ energy in Navier–Stokes) is pretty well-understood (in particular in finite element discretisations).
+Conserving simple, quadratic quantities (e.g. the \(L^2\) energy in Navier–Stokes) is pretty well-understood (in particular in finite element discretisations).
 The challenge spikes dramatically when dealing with **non-quadratic quantities of interest**, in particular when there are **multiple such structures**.
 
 Standard time-stepping schemes generally force an unhappy compromise:
