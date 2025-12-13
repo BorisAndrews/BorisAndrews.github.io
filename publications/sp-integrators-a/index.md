@@ -141,7 +141,7 @@ Just to get you excited, here's a fun video of some numerical results from the p
     <source src="assets/vid/compressible_ns.mp4" type="video/mp4">
     Your browser does not support the video tag.
     Sorry you're missing out on the pretty colours!
-</video>
+</video><br>
 
 ### Ready to upgrade *your* integrator?
 
