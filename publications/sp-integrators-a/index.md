@@ -44,9 +44,8 @@ approximate solutions only necessarily satisfy physical laws approximately.
 When a solver fails to respect these invariants, simulations can drift.
 They can become unstable.
 They can produce physically impossible results, like the coffee in your cup magically generating its own energy and jumping onto your desk.
-That's not something you want to just *"accept"* when you're simulating the air flowing past the wings of an aircraft.
-Preserving these properties isn't just *"nice to have"*;
-it's vital for long-term stability and physical fidelity.
+
+That's not something you want to just *"accept"* when you're simulating the air flowing past the wings of an aircraft...
 
 ### The challenge
 
