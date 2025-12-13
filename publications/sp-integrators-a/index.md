@@ -88,14 +88,15 @@ Our work unifies these distinct ideas.
         Symplectic integrators are frequently lauded for their <i>"energy-conserving properties"</i>.
         Their status as the gold standard for simulating Hamiltonian systems is often put down to this. <br><br>
 
-        Yet, this belief is <i>not entirely accurate</i>... <br><br>
+        Yet, this belief is not <i>entirely</i> accurate... <br><br>
         
-        Symplecticity enhances the <i>collective</i> behaviour of a group of simulations. This is great!
+        Symplecticity enhances the <i>collective</i> behaviour of a group of simulations. <br>
+        Don't get me wrong, this is great!
         If I'm e.g. simulating the motion of a host of example asteroids passing through our solar system, it'd nice to have an accurate prediction about what percent of these might hit Earth. <br><br>
 
         However, this <b>does not guarantee energy conservation</b>. <br><br>
 
-        In fact, as noted by [<i>Ge and Marsden (1988)</i>](https://doi.org/10.1016/0375-9601(88)90773-6): <br>
+        In fact, as noted by <a href="https://doi.org/10.1016/0375-9601(88)90773-6"><i>Ge and Marsden (1988)</i></a>: <br>
         <b><i>Symplectic integrators cannot (in general) conserve energy.</i></b> <br><br>
 
         <img src="assets/img/ge_marsden.png" alt="ge_marsden_quote">
