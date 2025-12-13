@@ -127,7 +127,7 @@ You can find information on upcoming presentations **[here](/reading-group/)**.
 
 ## [OPEN PROBLEMS](/open-problems/)
 
-I'm working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
+I'm *(very intermittently...)* working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
 You can find it **[here](/open-problems/)**.
 
 [View all](/open-problems/)

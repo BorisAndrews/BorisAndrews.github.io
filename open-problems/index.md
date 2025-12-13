@@ -8,7 +8,7 @@ permalink: /open-problems/
 ### a.k.a. Boris's BIG brainteasers
 
 Welcome to my **open problems**!
-This list collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
+This *(very intermittently updated...)* list collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
 - Have decided not to tackle *(for the time being)*;
 - Would be very keen to see solved.
 
