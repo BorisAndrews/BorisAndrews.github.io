@@ -43,7 +43,7 @@ the **Kepler problem**, a simple 2-body gravitional system, e.g. for a planet or
 Of course **energy** is conserved;
 that's always the case.
 But there's also the **angular momentum**, which encodes the speed of the orbit.
-And then (less famously) there's a final conserved invariant of the **[Runge-Lenz (RL) vector](https://en.wikipedia.org/wiki/Laplace%E2%80%93Runge%E2%80%93Lenz_vector)**, which encodes the angle of the orbit;
+And then (less famously) there's a final conserved invariant of the [<b>Runge-Lenz (RL) vector</b>](https://en.wikipedia.org/wiki/Laplace%E2%80%93Runge%E2%80%93Lenz_vector), which encodes the angle of the orbit;
 conservation of the RL vector is what prevents a planet's orbit from [precessing](https://en.wikipedia.org/wiki/Apsidal_precession).
 
 Implicit midpoint would here conserve energy and angular momentum—*both are quadratic*—both it won't conserve the non-polynomial RL vector.
