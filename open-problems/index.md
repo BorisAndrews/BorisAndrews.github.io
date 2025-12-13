@@ -129,7 +129,7 @@ There are a lot of very nasty "quick fixes" in the particle-pusher literature, a
 The [LVPP algorithm](https://doi.org/10.48550/arXiv.2503.05672) uses auxiliary variables to improve the behaviour of an iterative algorithm.
 My [auxiliary variable framework](/publications/sp-integrators-a/) uses auxiliary variables to improves the behaviour of an iterative algorithm (except in this case that iterative algorithm is a timestepping scheme).
 
-> *Uncover a meaningful connection between the LVPP algorithm and my auxiliary variable framework.*
+> *Uncover a meaningful connection between the LVPP algorithm and the auxiliary variable framework.*
 
 I've been search here for years, and I really think there is something here!
 I'd be interested to see any way in which the two can be related which leads to new insights/improved algorithms.
@@ -144,7 +144,7 @@ This ties in with the [open problem on discrete maximum principles](#maximum-pri
 [Itô's lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma) gives an identity for the [SDE](https://en.wikipedia.org/wiki/Stochastic_differential_equation) satisfied by a function of a stochastic process.
 The auxiliary variables introduced by [my framework](/publications/sp-integrators-a/) are simply gradients (or at least, projections thereof), whereas it appears those that would be needed to preserve the SDEs deriving from Itô's lemma would need to be in some way stochastic?
 
-> *Apply my auxiliary variable framework to preserve a meaningful and non-trivial stochastic conservation/dissipation structure for an SDE.*
+> *Apply the auxiliary variable framework to preserve a meaningful and non-trivial stochastic conservation/dissipation structure for an SDE.*
 
 I don't know much about SDE integrators, so this a little outside my remit.
 It could very well be possible though, just might need some outside-the-box thinking!
@@ -167,7 +167,7 @@ It could very well be possible though, just might need some outside-the-box thin
 
 Again, in an [upcoming preprint](/publications/ap-integrators/), I adapt my [auxiliary variable framework](/publications/sp-integrators-a/) to the preservation of the magnetic moment of a charged particle as an adiabatic invariant.
 
-> *Apply my auxiliary variable framework to preserve general adiabatic invariants.*
+> *Apply the auxiliary variable framework to preserve general adiabatic invariants.*
 
 It seems to me, on the surface at least, that the construction and ideas in the preprint could very well be generalised to arbitrary invariants.
 
