@@ -95,7 +95,7 @@ Simulating these accurately is ***tricky***.
 Despite being a simple modification to a Hamiltonian system, the introduced dissipative component means symplectic integrators can really fail quite badly.
 
 In the manuscript, for example, we consider a simple dissipative thermodynamic engine, that should *in theory* slow to a halt.
-Using implicit midpoint *(red)* however, we find the numerical solution can perform as bad as to accelerate faster and faster and faster, until the solver fails *(and presumably the engine explodes)*.
+Using implicit midpoint *(red)* however, we find the numerical solution can perform as bad as to accelerate faster and *faster* and *FASTER*, until the solver fails *(and presumably the engine explodes)*.
 
 ![engine](assets/img/engine.png)
 
@@ -103,8 +103,9 @@ We apply the framework from [our previous paper](/publications/sp-integrators-a/
 As such, we have a *general way to construct structure-preserving ODE integrators and finite element methods for any of the above systems*.
 You can see the results with our comparable 1-stage scheme *(green)* in the figure above;
 nice and dissipative!
+For a PDE example, the manuscript presents an integrator for the **Boltzmann equation** that preserves both the **conservation of energy** and **generation of entropy**.
 
-Preserving these properties is **crucial** for **accurately capturing the dynamics of these systems**.
+Preserving these properties is *crucial for accurately capturing the dynamics of these systems*.
 
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
     CHECK OUT ON ARXIV!
