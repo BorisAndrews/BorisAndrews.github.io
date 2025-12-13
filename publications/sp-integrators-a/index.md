@@ -96,7 +96,7 @@ Our work unifies these distinct ideas.
 
         However, this <b>does not guarantee energy conservation</b>. <br><br>
 
-        In fact, as noted by <a href="https://doi.org/10.1016/0375-9601(88)90773-6"><i>Ge and Marsden (1988)</i></a>: <br>
+        In fact, as noted by Ge & Marsden in 1988: <br>
         <b><i>Symplectic integrators cannot (in general) conserve energy.</i></b> <br><br>
 
         <img src="assets/img/ge_marsden.png" alt="ge_marsden_quote">
