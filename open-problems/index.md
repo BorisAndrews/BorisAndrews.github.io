@@ -177,7 +177,7 @@ It seems to me, on the surface at least, that the construction and ideas in the 
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
-In the analysis in my [auxiliary variable framework](/publications/sp-integrators-a/) preprint, we show that our scheme has \\(\mathcal{O}[\Delta t^s]\\) convergence, however in practice we observe \\(\mathcal{O}[\Delta t^{2s}]\\) superconvergence at timesteps.
+In the analysis of my [auxiliary variable framework](/publications/sp-integrators-a/) presented in [my thesis](https://ora.ox.ac.uk/objects/uuid:ad3393be-7bb8-40c9-bdb9-980f412eabce), we show \\(\mathcal{O}[\Delta t^s]\\) convergence, however in practice we observe \\(\mathcal{O}[\Delta t^{2s}]\\) superconvergence at timesteps.
 
 > *Complete the proof of convergence for the auxiliary variable framework, and show superconvergence holds (under sufficient regularity conditions, of course).*
 
