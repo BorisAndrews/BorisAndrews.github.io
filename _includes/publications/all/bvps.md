@@ -1,1 +1,1 @@
-| [Globally and locally structure-preserving mixed finite element methods for boundary-value problems]({{ "/publications/bvps/" | absolute_url }}) | |
+| Globally and locally structure-preserving mixed finite element methods for boundary-value problems | |
