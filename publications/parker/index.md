@@ -1,4 +1,4 @@
----
+  ---
 title: MAGNETIC RELAXATION
 permalink: /publications/parker/
 ---
@@ -125,7 +125,7 @@ You can find some discussion of this work in Patrick's **Langtangen Seminar** (2
 
 ## RELATED WORKS
 
-This scheme can be viewed as a **special case of my previous work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators/).
+This scheme can be viewed as a **special case of my previous work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators-a/).
 
 ## RELATED OPEN PROBLEMS
 
