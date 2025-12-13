@@ -169,8 +169,8 @@ His earlier **ACM Colloquium** (13.NOV.2024) at the {% include universities/edin
 ## RELATED WORKS
 
 In a [recently submitted manuscript](/publications/sp-integrators/), {% include collaborators/patrick/short.md %} and I apply these ideas to two very general classes of problems:
-- **Arbitrary ODEs with multiple invariants**, for which we construct a general integrator that's able to preserve as many invariants as desired
-- **Arbitrary ODEs and PDEs from the GENERIC formalism**, a general class of energy-conserving and entropy-generating system, for which we're similarly able to construct a general integrator that preserves both of these properties
+- **Arbitrary ODEs with multiple invariants**: we construct a general integrator that's able to preserve as many invariants as desired
+- **Arbitrary ODEs and PDEs from the GENERIC formalism**, a general class of energy-conserving and entropy-generating system: we're similarly able to construct a general integrator that preserves both of these properties
 
 For a neat and related application of these ideas to a problem in **magnetic relaxation** that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
 
