@@ -177,7 +177,18 @@ For a neat and related application of these ideas to a problem in **magnetic rel
 ## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
+{% include open-problems/all/conservative-pdes.md %}
+{% include open-problems/all/dissipative-odes.md %}
+{% include open-problems/all/maximum-principles.md %}
+{% include open-problems/all/lvpp.md %}
+{% include open-problems/all/sdes.md %}
+{% include open-problems/all/adiabatic.md %}
+{% include open-problems/all/superconvergence.md %}
+{% include open-problems/all/collocation.md %}
 {% include open-problems/all/viscoelastic.md %}
+{% include open-problems/all/delay-des.md %}
+{% include open-problems/all/lie-groups.md %}
+{% include open-problems/all/roms.md %}
 {% include open-problems/all/compressible-mhd.md %}
 
 ## CO-AUTHORS
