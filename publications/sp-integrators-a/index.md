@@ -71,11 +71,11 @@ These have been effective in preserving the behaviour of arbitrary, potentially 
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
     <b>A QUICK NOTE ON FINITE ELEMENTS IN TIME</b>
     <div class="details">
-        Our framework relies on finite elements in time, specifically a class of integrators called **continuous Petrov-Galerkin (CPG)** methods <br><br>.
+        Our framework relies on finite elements in time, specifically a class of integrators called <b>continuous Petrov-Galerkin (CPG)</b> methods. <br><br>
 
         Unlike classical Runge–Kutta (RK) methods which treat time as a sequence of discrete points, CPG treats time as a continuous dimension (similar to space in traditional finite elements).
         This works for arbitrary order in time, and in theory is no more computationally difficult than a classical implicit RK method:
-        The $S$-stage CPG method has no more degrees of freedom than an $S$-stage implicit RK method. <br><br>
+        The \(S\)-stage CPG method has no more degrees of freedom than an \(S\)-stage implicit RK method. <br><br>
 
         To see why CPG is so vital for non-quadratic quantities of interest, you'll just have to read the paper!
     </div>
