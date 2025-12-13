@@ -44,25 +44,25 @@ Of course **energy** is conserved;
 that's always the case.
 But there's also the **angular momentum**, which encodes the speed of the orbit.
 And then (less famously) there's a final conserved invariant of the **[Runge-Lenz (RL) vector](https://en.wikipedia.org/wiki/Laplace%E2%80%93Runge%E2%80%93Lenz_vector)**, which encodes the angle of the orbit;
-conservation of the RL vector prevents a planetary orbits from [precessing](https://en.wikipedia.org/wiki/Apsidal_precession).
+conservation of the RL vector is what prevents a planet's orbit from [precessing](https://en.wikipedia.org/wiki/Apsidal_precession).
 
 Implicit midpoint would here conserve energy and angular momentum—*both are quadratic*—both it won't conserve the non-polynomial RL vector.
-Naturally then, despite it being wideplace and well loved in the literature, such simulations exhibit some pretty shocking unphysical precession.
+Naturally then (despite it being commonplace and well loved in the literature) such simulations exhibit some pretty shocking unphysical precession.
 
 ![implicit_midpoint](assets/img/implicit_midpoint.png)
 
-In this recent manuscript, {% include collaborators/patrick/short.md %} use our [auxiliary variable framework](/publications/sp-integrators-a/) to construct a an integrator for **general ODE systems** with **multiple invariants** that conserves **every known invariant**.
+In this manuscript, {% include collaborators/patrick/short.md %} and I employ our [auxiliary variable framework](/publications/sp-integrators-a/) to construct an integrator for **general ODE systems** with **multiple invariants** that conserves **every known invariant**.
 
 ![andrews_farrell](assets/img/andrews_farrell.png)
 
-Simulations of the Kepler problem (above) and the [Kovalevskaya top](https://en.wikipedia.org/wiki/Lagrange,_Euler,_and_Kovalevskaya_tops#Kovalevskaya_top) show some really substantial improvements in the quality of the numerical solutions.
+Simulations of the Kepler problem *(above)* and the [Kovalevskaya top](https://en.wikipedia.org/wiki/Lagrange,_Euler,_and_Kovalevskaya_tops#Kovalevskaya_top) show some very substantial improvements in the quality of the numerical solutions.
 
 ### GENERIC systems
 
 The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) is somewhat of a *"grand unified theory"* for non-equilibrium thermodynamics.
 It describes systems that simultaneously exhibit both:
-- **Reversible dynamics** (like Hamiltonian mechanics) with a *conserved energy*.
-- **Irreversible dynamics** (like friction or heat diffusion) with a *generated entropy*.
+- **reversible dynamics** (like Hamiltonian mechanics) with a *conserved energy*, and
+- **irreversible dynamics** (like friction or heat diffusion) with a *generated entropy*.
 
 It's like an extension of Hamiltonian mechanics that doesn't just incorporate the **First Law of Thermodynamics** *(energy conservation)*, but the **Second Law** *(entropy generation)* too.
 
