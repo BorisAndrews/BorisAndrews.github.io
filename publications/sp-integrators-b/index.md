@@ -128,7 +128,7 @@ His earlier **ACM Colloquium** (13.NOV.2024) at the {% include universities/edin
 
 ## RELATED WORKS
 
-As stated above, the construction of the both schemes in this manuscript employ the framework presented **my earlier work** with {% include collaborators/patrick/short.md %}, on [conservative and dissipative finite element integrators](/publications/sp-integrators-a/).
+As stated above, the construction of both the schemes in this manuscript employs the framework presented in my earlier work with {% include collaborators/patrick/short.md %}, on [conservative and dissipative finite element integrators](/publications/sp-integrators-a/).
 
 ## RELATED OPEN PROBLEMS
 
