@@ -30,7 +30,7 @@ permalink: /publications/sp-integrators-b/
 
 *(The following overview is a work in progress! Come back soon.)*
 
-### Multi-conservative ODEs
+<!-- ### Multi-conservative ODEs
 
 ### GENERIC systems
 
@@ -66,11 +66,11 @@ Examples of such systems include:
 We apply the framework from [mine and Patrick Farrell's previous paper](/publications/sp-integrators-a/) to construct numercial integrators preserve both the **conservative** and **non-dissipation** structures.
 As such, we have a *general way to construct structure-preserving finite element methods for any of the above systems*, with arbitrary finite elements and at arbitrary order in space and time.
 
-These properties are **crucial for accurately capturing the dynamics** of these systems.
+These properties are **crucial for accurately capturing the dynamics** of these systems. -->
 
 ## RELATED WORKS
 
-This scheme can be viewed as a **special case of my earlier work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative and dissipative finite element integrators](/publications/sp-integrators/).
+The construction of the schemes in this manuscript uses **my earlier work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative and dissipative finite element integrators](/publications/sp-integrators-a/).
 
 ## RELATED OPEN PROBLEMS
 
