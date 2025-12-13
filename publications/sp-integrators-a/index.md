@@ -168,7 +168,7 @@ His earlier **ACM Colloquium** (13.NOV.2024) at the {% include universities/edin
 
 ## RELATED WORKS
 
-In a [recently submitted manuscript](/publications/sp-integrators/), {% include collaborators/patrick/short.md %} and I apply these ideas to two very general classes of problems:
+In a [recently submitted manuscript](/publications/sp-integrators-b/), {% include collaborators/patrick/short.md %} and I apply these ideas to two very general classes of problems:
 - **Arbitrary ODEs with multiple invariants:**
 We construct a general integrator that's able to preserve as many invariants as desired
 - **Arbitrary ODEs and PDEs from the GENERIC formalism:**
