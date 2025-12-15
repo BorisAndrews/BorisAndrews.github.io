@@ -8,7 +8,7 @@ permalink: /open-problems/
 ### a.k.a. Boris's BIG brainteasers
 
 Welcome to my **open problems**!
-This list collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
+This *(very intermittently updated...)* list collates all the big questions that have found there way onto my paper/whiteboard during my research, that I:
 - Have decided not to tackle *(for the time being)*;
 - Would be very keen to see solved.
 
@@ -59,7 +59,7 @@ Does enstrophy tracking actually mean anything for the regularity of solutions i
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-In my [work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
+In my [work on conservative integrators through auxiliary variables](/publications/sp-integrators-a/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
 This is very cool!
 However, when this idea is applied to PDEs in semidiscrete form, the resultant discretisations destroy the locality of the variational formulation, ruining the sparsity of the assembled problem and rendering the integrator effectively useless.
 
@@ -73,7 +73,7 @@ One might consider for example the [Korteweg–De Vries equation](https://en.wik
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
-Again, in my [work on conservative integrators through auxiliary variables](/publications/sp-integrators/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
+Again, in my [work on conservative integrators through auxiliary variables](/publications/sp-integrators-a/), I derived an integrator for general conservative ODEs that conserves arbitrarily many invariants.
 While the results of the manuscript further extend to dissipated quantities, the scheme in question does not, and it's not at all obvious how to extend it as such.
 
 > *Adapt my scheme to give an integrator for general ODEs that preserves arbitrarily many dissipation inequalities.*
@@ -82,12 +82,12 @@ All the better if you manage to dissipate arbitrarily many such quantities for P
 
 ---
 
-### Discrete maximum principles via the [auxiliary variable framework](/publications/sp-integrators/) {#maximum-principles}
+### Discrete maximum principles via the [auxiliary variable framework](/publications/sp-integrators-a/) {#maximum-principles}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
 Maximum (and minimum) principles can typically be proven by variational identites (e.g. by testing against \\(\text{min}(u, 0)\\))
-[My work on structure-preserving integrators](/publications/sp-integrators/) gives a general framework for preserving conservation and dissipation laws by preserving variational identities.
+[My work on structure-preserving integrators](/publications/sp-integrators-a/) gives a general framework for preserving conservation and dissipation laws by preserving variational identities.
 It seems that one would be able, however the piece adamantly refuse to fall into place.
 
 > *Show by example that auxiliary variables may be used to derive numerical integrators for PDEs that exhibit discrete maximum principles.*
@@ -108,11 +108,11 @@ This ties in with the [open problem on the latent variable proximal point algori
 
 <br>
 
-### Preservation of [guiding centre drifts](https://en.wikipedia.org/wiki/Guiding_center) through [auxiliary variables](/publications/sp-integrators/) {#drifts}
+### Preservation of [guiding centre drifts](https://en.wikipedia.org/wiki/Guiding_center) through [auxiliary variables](/publications/sp-integrators-a/) {#drifts}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
-In an [upcoming preprint](/publications/ap-integrators/), I adapt my [auxiliary variable framework](/publications/sp-integrators/) to the preservation of the magnetic moment of a charged particle as an adiabatic invariant.
+In an [upcoming preprint](/publications/ap-integrators/), I adapt my [auxiliary variable framework](/publications/sp-integrators-a/) to the preservation of the magnetic moment of a charged particle as an adiabatic invariant.
 This is exciting, but in practice the structure of interest for such simulations is the preservation of [guiding centre](https://en.wikipedia.org/wiki/Guiding_center) drifts.
 
 > *Using auxiliary variables, construct an asymptotic-preserving integrator for charged particles that preserves energy conservation, adiabatic invariance of the magnetic moment, and guiding centre drifts; this must be done in a natural way that is uniformly accurate in the magnetic field strength.*
@@ -122,14 +122,14 @@ There are a lot of very nasty "quick fixes" in the particle-pusher literature, a
 
 ---
 
-### Connections between the [latent variable proximal point (LVPP) algorithm](https://doi.org/10.48550/arXiv.2503.05672) and my [auxiliary variable framework](/publications/sp-integrators/) {#lvpp}
+### Connections between the [latent variable proximal point (LVPP) algorithm](https://doi.org/10.48550/arXiv.2503.05672) and my [auxiliary variable framework](/publications/sp-integrators-a/) {#lvpp}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
 The [LVPP algorithm](https://doi.org/10.48550/arXiv.2503.05672) uses auxiliary variables to improve the behaviour of an iterative algorithm.
-My [auxiliary variable framework](/publications/sp-integrators/) uses auxiliary variables to improves the behaviour of an iterative algorithm (except in this case that iterative algorithm is a timestepping scheme).
+My [auxiliary variable framework](/publications/sp-integrators-a/) uses auxiliary variables to improves the behaviour of an iterative algorithm (except in this case that iterative algorithm is a timestepping scheme).
 
-> *Uncover a meaningful connection between the LVPP algorithm and my auxiliary variable framework.*
+> *Uncover a meaningful connection between the LVPP algorithm and the auxiliary variable framework.*
 
 I've been search here for years, and I really think there is something here!
 I'd be interested to see any way in which the two can be related which leads to new insights/improved algorithms.
@@ -137,14 +137,14 @@ This ties in with the [open problem on discrete maximum principles](#maximum-pri
 
 ---
 
-### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to [SDEs](https://en.wikipedia.org/wiki/Stochastic_differential_equation) {#sdes}
+### Extension of the [auxiliary variable framework](/publications/sp-integrators-a/) to [SDEs](https://en.wikipedia.org/wiki/Stochastic_differential_equation) {#sdes}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/3.md %}
 
 [Itô's lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma) gives an identity for the [SDE](https://en.wikipedia.org/wiki/Stochastic_differential_equation) satisfied by a function of a stochastic process.
-The auxiliary variables introduced by [my framework](/publications/sp-integrators/) are simply gradients (or at least, projections thereof), whereas it appears those that would be needed to preserve the SDEs deriving from Itô's lemma would need to be in some way stochastic?
+The auxiliary variables introduced by [my framework](/publications/sp-integrators-a/) are simply gradients (or at least, projections thereof), whereas it appears those that would be needed to preserve the SDEs deriving from Itô's lemma would need to be in some way stochastic?
 
-> *Apply my auxiliary variable framework to preserve a meaningful and non-trivial stochastic conservation/dissipation structure for an SDE.*
+> *Apply the auxiliary variable framework to preserve a meaningful and non-trivial stochastic conservation/dissipation structure for an SDE.*
 
 I don't know much about SDE integrators, so this a little outside my remit.
 It could very well be possible though, just might need some outside-the-box thinking!
@@ -161,23 +161,23 @@ It could very well be possible though, just might need some outside-the-box thin
 
 <br>
 
-### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to general adiabatic invariants {#adiabatic}
+### Extension of the [auxiliary variable framework](/publications/sp-integrators-a/) to general adiabatic invariants {#adiabatic}
 
 #### {% include interest/3.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
-Again, in an [upcoming preprint](/publications/ap-integrators/), I adapt my [auxiliary variable framework](/publications/sp-integrators/) to the preservation of the magnetic moment of a charged particle as an adiabatic invariant.
+Again, in an [upcoming preprint](/publications/ap-integrators/), I adapt my [auxiliary variable framework](/publications/sp-integrators-a/) to the preservation of the magnetic moment of a charged particle as an adiabatic invariant.
 
-> *Apply my auxiliary variable framework to preserve general adiabatic invariants.*
+> *Apply the auxiliary variable framework to preserve general adiabatic invariants.*
 
 It seems to me, on the surface at least, that the construction and ideas in the preprint could very well be generalised to arbitrary invariants.
 
 ---
 
-### Superconvergence of the [auxiliary variable framework](/publications/sp-integrators/) {#superconvergence}
+### Superconvergence of the [auxiliary variable framework](/publications/sp-integrators-a/) {#superconvergence}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
-In the analysis in my [auxiliary variable framework](/publications/sp-integrators/) preprint, we show that our scheme has \\(\mathcal{O}[\Delta t^s]\\) convergence, however in practice we observe \\(\mathcal{O}[\Delta t^{2s}]\\) superconvergence at timesteps.
+In the analysis of my [auxiliary variable framework](/publications/sp-integrators-a/) presented in [my thesis](https://ora.ox.ac.uk/objects/uuid:ad3393be-7bb8-40c9-bdb9-980f412eabce), we show \\(\mathcal{O}[\Delta t^s]\\) convergence, however in practice we observe \\(\mathcal{O}[\Delta t^{2s}]\\) superconvergence at timesteps.
 
 > *Complete the proof of convergence for the auxiliary variable framework, and show superconvergence holds (under sufficient regularity conditions, of course).*
 
@@ -210,11 +210,11 @@ Hardest part about this is trying to figure out what on Earth I'm talking about.
 
 ---
 
-### Extension of the [auxiliary variable framework](/publications/sp-integrators/) to time discretisations beyond collocation RK methods {#collocation}
+### Extension of the [auxiliary variable framework](/publications/sp-integrators-a/) to time discretisations beyond collocation RK methods {#collocation}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/2.md %}
 
-The [auxiliary variable framework](/publications/sp-integrators/) gives a methodology for modifying certain classes of time discretisations to be structure-preserving, including collocation RK methods, and CPG.
+The [auxiliary variable framework](/publications/sp-integrators-a/) gives a methodology for modifying certain classes of time discretisations to be structure-preserving, including collocation RK methods, and CPG.
 There are, however, a vast world of RK methods that are not collocation RK methods:- RK4 and multi-step methods to name but a few.
 
 > *Extend the auxiliary variable framework to allow for the structure-preserving modification of RK methods beyond collocation methods.*
@@ -233,11 +233,11 @@ If explicit methods like RK4 were included within the framework, this could be a
 
 <br>
 
-### Application of the [auxiliary variable framework](/publications/sp-integrators/) to a viscoelastic fluid system {#viscoelastic}
+### Application of the [auxiliary variable framework](/publications/sp-integrators-a/) to a viscoelastic fluid system {#viscoelastic}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
-This should be a simple enough application of the [framework](/publications/sp-integrators/).
+This should be a simple enough application of the [framework](/publications/sp-integrators-a/).
 These kind of systems (e.g. Oldroyd-B fluids) are ripe for the picking;
 they typically have both a conserved energy and dissipated entropy to preserve.
 
@@ -247,7 +247,7 @@ I've been in discussion with Aaron Brunk about an application in viscoelastic ph
 
 ---
 
-### Application of the [auxiliary variable framework](/publications/sp-integrators/) to delay DEs {#delay-des}
+### Application of the [auxiliary variable framework](/publications/sp-integrators-a/) to delay DEs {#delay-des}
 
 #### {% include interest/2.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
@@ -267,7 +267,7 @@ Conservative integrators for Hamiltonian systems are generally posed over vector
 
 > *Derive a conservative integrator for Hamiltonian systems in Lie groups (or show me something good exists in the literature that I've missed!).*
 
-Maybe this could be done by adapting my [auxiliary variable framework](/publications/sp-integrators/) to problems posed over Lie groups, however things get really wonky here;
+Maybe this could be done by adapting my [auxiliary variable framework](/publications/sp-integrators-a/) to problems posed over Lie groups, however things get really wonky here;
 the associated test functions live in the Lie algebra, which get very annoyed when you try to project them into the Lie group.
 
 <br>
@@ -282,12 +282,12 @@ the associated test functions live in the Lie algebra, which get very annoyed wh
 
 <br>
 
-### Stable reduced order models (ROMs) from the [auxiliary variable framework](/publications/sp-integrators/) {#roms}
+### Stable reduced order models (ROMs) from the [auxiliary variable framework](/publications/sp-integrators-a/) {#roms}
 
 #### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
 One way of deriving ROMs is through very coarse finite element discretisations.
-My [framework](/publications/sp-integrators/) could very well be applied in such a case, to derive conservative and dissipative reduced order models.
+My [framework](/publications/sp-integrators-a/) could very well be applied in such a case, to derive conservative and dissipative reduced order models.
 
 > *Bring the auxiliary variable framework to the world of reduced order modelling.*
 
@@ -301,7 +301,7 @@ the auxiliary variables alone give stable ODE systems, which is interesting enou
 #### {% include interest/1.md %} <code>&#124;</code> {% include difficulty/1.md %}
 
 The compressible MHD equations are typically the equations of interest in fusion modelling (at least, within the realm of continuum mechanics).
-We have defined stable integrators for the [compressible NS equations](/publications/sp-integrators/) and in [MHD](/publications/parker/) deriving from the [auxiliary variable framework](/publications/sp-integrators/);
+We have defined stable integrators for the [compressible NS equations](/publications/sp-integrators-a/) and in [MHD](/publications/parker/) deriving from the [auxiliary variable framework](/publications/sp-integrators-a/);
 constructing stable integrators for the compressible MHD equations should hopefully just be a case of combining the two!
 
 > *Combine the stable auxiliary-variable integrators for the compressible NS equations and MHD to deriving a stable auxiliary-variable integrator in compressible MHD.* 

@@ -7,11 +7,11 @@ permalink: /publications/sp-integrators/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### 16.JUL.2024 ([arXiv](https://arxiv.org/abs/2407.11904v2)) <!-- <code>&#124;</code> This manuscript is currently being partitioned into 2 parts -->
+### 16.JUL.2024 ([arXiv](https://arxiv.org/abs/2407.11904v2))
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-a';">
-    THIS MANUSCRIPT IS CURRENTLY BEING PARTITIONED INTO MULTIPLE SUBMISSIONS <br>
+    THIS MANUSCRIPT WAS RESUBMITTED AFTER BEING PARTITIONED INTO MULTIPLE SUBMISSIONS <br>
     <b>CLICK HERE TO CHECK OUT PART 1!</b>
 </div>
 
