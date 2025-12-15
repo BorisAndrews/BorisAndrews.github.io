@@ -9,12 +9,12 @@ def stefan_maxwell_irksome(
     Nx:         int = 30,
     deg:        int = 1,
     vdeg:       int = 2,
-    timedeg:    int = 1,
+    timedeg:    int = 2,
     Nt:         float = 1e3,
     dt:         float = 1e-4,
     Kval:       float = 1e-2,
     eta:        float = 1e-2,
-    eps:        float = 1e-5,
+    theta_min:  float = 1e-6,  # Quick fix to avoid instability when negative theta is hit during the Newton solve | Shouldn't affect solution if value is below minimum theta value
     scheme:     str = "cpg",
     output_dir: str = "output/",
     write_qois: bool = True,
@@ -35,7 +35,6 @@ def stefan_maxwell_irksome(
     K_c = Constant(Kval)
     eta_c = Constant(eta)
     dt_c = Constant(dt)
-    eps_c = Constant(eps if scheme == "cpg" else 0)  # HOTFIX: eps is included to prevent an error at t=0 with the theta IC in CPG; ideally this would not be here!
     # Specific volumes matching NGSolve setup
     V_i = [0.35, 0.35, 0.8]
 
@@ -88,10 +87,17 @@ def stefan_maxwell_irksome(
     # Deviatoric strain (symmetric gradient of u)
     Du = sym(grad(u))
 
+    # Safe inverse theta to avoid instability
+    inv_theta = conditional(
+        ge(theta, theta_min),
+        1/theta,
+        (2*theta_min - theta)/theta_min**2
+    )
+
     # Residual
     F = 0
     for i in range(Nspec):  # Mass (for each species)
-        diff_flux_i = sum(M_ij(i, j) * grad(mu[j] / (theta + eps_c)) for j in range(Nspec))
+        diff_flux_i = sum(M_ij(i, j) * grad(mu[j] * inv_theta) for j in range(Nspec))
         F += (
             inner(Dt(rho[i]), psi[i])
           - inner(rho[i] * u, grad(psi[i]))
@@ -121,16 +127,16 @@ def stefan_maxwell_irksome(
     F += (  # Pseudo-incompressibility
         inner(div(u), q)
       + sum([sum([
-            V_i[i] * inner(M_ij(i, j) * grad(mu[j] / (theta + eps_c)), grad(q))
+            V_i[i] * inner(M_ij(i, j) * grad(mu[j] * inv_theta), grad(q))
         for j in range(Nspec)]) for i in range(Nspec)])
     ) * dx
     F += (  # Entropy
         inner(Dt(rho_s), omega)
       - inner(rho_s * u, grad(omega))
-      - 2.0 * eta_c * inner(inner(Du, Du) / (theta + eps_c), omega)
-      - K_c * inner(grad(1 / (theta + eps_c)), grad(omega / (theta + eps_c)))
+      - 2.0 * eta_c * inner(inner(Du, Du) * inv_theta, omega)
+      - K_c * inner(grad(inv_theta), grad(omega * inv_theta))
       - sum([sum([
-            inner(M_ij(i, j) * grad(mu[j] / (theta + eps_c)), grad(mu[i] * omega / (theta + eps_c)))
+            inner(M_ij(i, j) * grad(mu[j] * inv_theta), grad(mu[i] * omega * inv_theta))
         for j in range(Nspec)]) for i in range(Nspec)])
     ) * dx
     F += (  # Temperature
@@ -240,7 +246,6 @@ def stefan_maxwell_irksome(
         t.assign(float(t) + float(dt_c))
         if write_vtk: vtk.write(*rho_out, m_out, rho_s_out, *mu_out, p_out, theta_out, u_out, time=float(t))
         record_and_log()
-        eps_c.assign(0)  # HOTFIX: After the initial solve, eps is set back to 0
 
     return {"time": t_arr, "energy": E_arr, "entropy": S_arr}
 
