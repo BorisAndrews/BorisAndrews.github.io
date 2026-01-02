@@ -34,8 +34,8 @@ This represents a particularly exciting **application of my earlier work** with 
       <div class="info">
         <h3 class="title">2026</h3>
         <p><ul>
-          <li>Workshop on Finite Element Tensor Calculus, <em>TSIMF</em></li>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
+          <li>Workshop on Finite Element Tensor Calculus, <em>Tsinghua University</em></li>
+          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
         </ul></p>
       </div>
     </div>
@@ -43,6 +43,7 @@ This represents a particularly exciting **application of my earlier work** with 
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
+          <div style="text-align: center; padding: 10px 0;"><strong>⬇️ PAST ⬇️</strong></div>
           <li>Numerical Analysis Group Internal Seminar, <em>University of Oxford</em></li>
           <li><strong>ACOMEN, <em>Ghent University</em></strong></li>
           <li><strong>ECCOMAS MFET, <em>Aachen, Germany</em></strong></li>
