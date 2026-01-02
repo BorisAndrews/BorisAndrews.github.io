@@ -29,7 +29,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ### Papers
 
-*(Upcoming)*
+<!-- *(Upcoming)* -->
 
 {% include publications/titles/wide.md %}
 {% include publications/all/sp-integrators-a.md %}

@@ -29,11 +29,11 @@ permalink: /cv/
 
 ### Papers
 
-<!-- {% include publications/lists/1-papers.md %} -->
+{% include publications/lists/1-papers.md %}
 
-*(Upcoming)*
+<!-- *(Upcoming)*
 
-{% include publications/lists/2-upcoming.md %}
+{% include publications/lists/2-upcoming.md %} -->
 
 ### Preprints
 
