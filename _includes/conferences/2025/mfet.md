@@ -1,1 +1,1 @@
-[ECCOMAS Thematic Conference on Modern Finite Element Technologies (MFET)](https://mfet2025.de/)
+[ECCOMAS Thematic Conference on Modern Finite Element Technologies](https://mfet2025.de/)
