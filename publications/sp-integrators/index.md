@@ -202,7 +202,7 @@ For a neat application of these ideas to a problem in **magnetic relaxation** th
 {% include timeline.md %}
 
 <div class="timeline">
-<div class="outer">
+  <div class="outer">
     <div class="card">
       <div class="info">
         <h3 class="title">2026</h3>

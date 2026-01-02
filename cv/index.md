@@ -76,21 +76,22 @@ permalink: /cv/
 
 ## TALKS
 
-### Invited talks & minisymposium presentations
+### Invited talks & minisymposium presentations 
 
-- **2027** <code>&#124;</code> {% include conferences/2027/oberwolfach.md %} *({% include organisations/oberwolfach.md %})*
-- **2026** <code>&#124;</code> {% include conferences/2026/eccomas.md %} *(Munich, Germany)*
+- **2027** <code>&#124;</code> {% include conferences/2027/oberwolfach.md %}* *({% include organisations/oberwolfach.md %})*
+- **2026** <code>&#124;</code> {% include conferences/2026/eccomas.md %}* *(Munich, Germany)*
 - **2025** <code>&#124;</code> (2×){% include conferences/2025/acomen.md %} *({% include universities/ghent.md %})* / {% include conferences/2025/mfet.md %} *(Aachen, Germany)* / Self-Consistency Group Seminar *({% include organisations/charmnet/short.md %})* / {% include visits/2025/edinburgh.md %} *({% include universities/edinburgh.md %} & {% include universities/heriot-watt.md %})* / Numerical Mathematics & Scientific Computing Seminar *({% include universities/rice.md %})* / {% include conferences/2025/cse.md %} *(Fort Worth, Texas)* / {% include visits/2025/brown.md %} *({% include universities/brown.md %})* / METHODS Group Seminar *({% include universities/brown.md %})*
 - **2024** <code>&#124;</code> External Seminar *({% include universities/rice.md %})*
 
 ### Other seminar, workshop & conference presentations
 
+- **2026** <code>&#124;</code> {% include conferences/2026/tensor.md %}* *({% include organisations/tsimf/short.md %})*
 - **2025** <code>&#124;</code> {% include conferences/2025/internal_seminar.md %} *({% include universities/oxford.md %})* / {% include conferences/2025/strathclyde.md %} *({% include universities/strathclyde.md %})*
 - **2024** <code>&#124;</code> Computing Division Technical Meeting *({% include organisations/ukaea/short.md %})* / {% include conferences/2024/firedrake.md %} *({% include universities/oxford.md %})* / {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})* / {% include conferences/2024/fe_fair.md %} *({% include universities/ucl.md %})* / {% include conferences/2024/pisa_workshop.md %} *({% include universities/pisa.md %})* / UKAEA PhD Student Engagement Day *({% include organisations/ukaea/short.md %})* / Junior Applied Mathematical Seminar *({% include universities/warwick.md %})*
 - **2023** <code>&#124;</code> {% include conferences/2023/iciam.md %} *({% include universities/waseda.md %})* / {% include conferences/2023/internal_seminar.md %} *({% include universities/oxford.md %})* / {% include conferences/2023/jams.md %} *({% include universities/oxford.md %})* / Met Office Presentation *({% include universities/oxford.md %})* / Internal Presentation *({% include organisations/tokamak_energy.md %})*
 - **2022** <code>&#124;</code> PRISM Workshop *(Missenden Abbey, UK)*
 
-<!-- *(\*scheduled/provisional)* -->
+*(\*scheduled/provisional)*
 
 ## OTHER EXPERIENCE
 
