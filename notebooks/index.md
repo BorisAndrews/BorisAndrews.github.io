@@ -7,6 +7,7 @@ permalink: /notebooks/
 
 | Last modified | Notebook |
 | --- | --- |
+| 06.JAN.26 | [Mollifers & applications in FEMs](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/mollifiers.ipynb) |
 | 01.JAN.26 | [Stokes element testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/stokes_testing.ipynb) |
 | 15.DEC.25 | [Viscosity solutions through penalty methods](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/viscosity_solutions.ipynb) |
 | 12.DEC.25 | [Euler vs. the inviscid limit of Navier–Stokes](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/euler.ipynb) |
