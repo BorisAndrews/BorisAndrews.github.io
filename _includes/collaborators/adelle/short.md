@@ -1,0 +1,1 @@
+[Adelle Wright](https://engineering.wisc.edu/directory/profile/adelle-wright/)
