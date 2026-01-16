@@ -1,1 +1,1 @@
-[University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)
+[University of the Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/)
