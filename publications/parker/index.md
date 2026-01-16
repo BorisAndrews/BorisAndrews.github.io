@@ -151,10 +151,10 @@ This scheme can be viewed as a **special case of my previous work** with {% incl
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <!-- <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div> -->
+          <div style="text-align: center; padding: 10px 0;"><strong>⬇️ PAST ⬇️</strong></div>
           <li>ECCOMAS MFET, <em>Aachen, Germany</em></li>
           <li>ACOMEN, <em>Ghent University</em></li>
-          <li><strong>ACM Colloquium, <em>University of Edinburgh & Heriot-Watt Unversity</em></strong></li>
+          <li>ACM Colloquium, <em>University of Edinburgh & Heriot-Watt Unversity</em></li>
           <li>METHODS Group Seminar, <em>Brown University</em></li>
         </ul></p>
       </div>

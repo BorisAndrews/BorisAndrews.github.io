@@ -148,8 +148,10 @@ As stated above, the construction of both the schemes in this manuscript employs
       <div class="info">
         <h3 class="title">2026</h3>
         <p><ul>
+          <li>SciCADE, <em>University of Edinburgh</em></li>
           <li>ECCOMAS WCCM, <em>Munich</em></li>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING ⬆️</strong></div>
+          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
+          <li>Invited Seminar, <em>University of the Chinese Academy of Sciences</em></li>
         </ul></p>
       </div>
     </div>
@@ -157,11 +159,10 @@ As stated above, the construction of both the schemes in this manuscript employs
       <div class="info">
         <h3 class="title">2025</h3>
         <p><ul>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬇️ PAST ⬇️</strong></div>
           <li>Biennial Numerical Analysis Conference, <em>University of Strathclyde</em></li>
-          <li><strong>Numerical Mathematics & Scientific Computing Seminar, <em>Rice University</em></strong></li>
-          <li><strong>SIAM CSE, <em>Fort Worth, Texas</em></strong></li>
-          <li><strong>Scientific Computing Seminar, <em>Brown Unversity</em></strong></li>
+          <li>Numerical Mathematics & Scientific Computing Seminar, <em>Rice University</em></li>
+          <li>SIAM CSE, <em>Fort Worth, Texas</em></li>
+          <li>Scientific Computing Seminar, <em>Brown Unversity</em></li>
         </ul></p>
       </div>
     </div>
@@ -174,7 +175,7 @@ As stated above, the construction of both the schemes in this manuscript employs
           <li>Firedrake User Meeting, <em>University of Oxford</em></li>
           <li>PDEsoft, <em>University of Cambridge</em></li>
           <li>Finite Element Fair, <em>University College London (UCL)</em></li>
-          <li><strong>Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop, <em>University of Pisa</em></strong></li>
+          <li>Exploiting Algebraic and Geometric Structure in Time-integration Methods workshop, <em>University of Pisa</em></li>
           <li>UKAEA PhD Student Engagement Day, <em>UKAEA</em></li>
           <li>Junior Applied Mathematics Seminar, <em>University of Warwick</em></li>
         </ul></p>
@@ -184,7 +185,7 @@ As stated above, the construction of both the schemes in this manuscript employs
       <div class="info">
         <h3 class="title">2023</h3>
         <p><ul>
-          <li><strong>ICIAM, <em>Waseda University</em></strong></li>
+          <li>ICIAM, <em>Waseda University</em></li>
           <li>Numerical Analysis Group Internal Seminar, <em>University of Oxford</em></li>
           <li>Junior Applied Mathematics Seminar, <em>University of Oxford</em></li>
           <li>Met Office Presentation, <em>University of Oxford</em></li>

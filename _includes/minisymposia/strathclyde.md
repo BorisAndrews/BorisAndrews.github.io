@@ -1,0 +1,4 @@
+- **JUN.2025** <code>&#124;</code> {% include conferences/2025/strathclyde.md %}, *{% include universities/strathclyde.md %}*
+  - **TOPIC** <code>&#124;</code> [Structure-preserving finite element methods](https://numericalanalysisconference.org.uk/conferences/2025/minisymposia)
+  - **CO-ORGANISERS** <code>&#124;</code> {% include collaborators/charlie/short.md %}
+  - **SPEAKERS** <code>&#124;</code> {% include collaborators/aaron/short.md %}, {% include collaborators/mingdong/short.md %}, {% include collaborators/kaibo/short.md %}, {% include collaborators/rami/short.md %}

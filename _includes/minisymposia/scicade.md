@@ -1,0 +1,4 @@
+- **JUL.2026** <code>&#124;</code> {% include conferences/2026/scicade.md %}, *{% include universities/edinburgh.md %}*
+  - **TOPIC** <code>&#124;</code> Topology-preserving finite element methods for magnetohydrodynamics
+  - **CO-ORGANISERS** <code>&#124;</code> {% include collaborators/patrick/short.md %}, {% include collaborators/kaibo/short.md %}
+  - **SPEAKERS** <code>&#124;</code> {% include collaborators/tobias/short.md %}, {% include collaborators/mingdong/short.md %}, {% include collaborators/gunnar/short.md %}, {% include collaborators/shipeng/short.md %}, {% include collaborators/adelle/short.md %}, {% include collaborators/anthony/short.md %}, Qian Zhang
