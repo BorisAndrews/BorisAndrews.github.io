@@ -74,7 +74,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 - **09–23.JAN** <code>&#124;</code> **CHINA VISIT**
   - **09–10.JAN** <code>&#124;</code> **ICSPFEM** <code>&#124;</code> Attending the {% include conferences/2026/icspfem.md %} at the [Academy of Mathematics and Systems Science (AMSS)](https://amss.cas.cn/) in Beijing
   - **12–16.JAN** <code>&#124;</code> **TENSOR FEM WORKSHOP** <code>&#124;</code> Attending the {% include conferences/2026/tensor.md %} at the {% include organisations/tsimf/full.md %}, part of {% include universities/tsinghua.md %}, in Sanya
-  - **19–23.JAN** <code>&#124;</code> **UCAS** <code>&#124;</code> Visiting the {% include universities/ucas.md %}, on the kind invite of {% include collaborators/shipeng/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators-a/) with {% include collaborators/patrick/short.md %}
+  - **19–23.JAN** <code>&#124;</code> **UCAS** <code>&#124;</code> Visiting the {% include universities/cas.md %}, on the kind invite of {% include collaborators/shipeng/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators-a/) with {% include collaborators/patrick/short.md %}
 
 - **20.APR–15.MAY** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %}
 
