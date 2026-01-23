@@ -4,7 +4,7 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 23.JAN | Virtual elements methods in exterior calculus | Olav Tyssvang |
+| 1 | 23.JAN | [Differential forms and virtual elements](/assets/pdf/reading-group/olav/differential-forms.pdf) | Olav Tyssvang |
 | 2 | 30.JAN | Mollifiers & applications in FEMs | [Me (Boris Andrews)](/) |
 | 3 | 06.FEB* | *TBA...* | *TBA...* |
 | 4 | 13.FEB | *TBA...* | *TBA...* |
