@@ -5,8 +5,8 @@
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
 | 1 | 23.JAN | [Differential forms and virtual elements](/assets/pdf/reading-group/olav/differential-forms.pdf) | Olav Tyssvang |
-| 2 | 30.JAN | Mollifiers & applications in FEMs | [Me (Boris Andrews)](/) |
-| 3 | 06.FEB* | *TBA...* | *TBA...* |
+| 2 | 30.JAN | Dissipative systems with non-trivial equilibria ([Bressan *et al.*, 2025](/reading-group/upcoming/references/#bressan-et-al-2025); [Bressan *et al.*, 2018](/reading-group/upcoming/references/#bressan-et-al-2018)) | {% include collaborators/mingdong/short.md %} |
+| 3 | 06.FEB* | Mollifiers & applications in FEMs | [Me (Boris Andrews)](/) |
 | 4 | 13.FEB | *TBA...* | *TBA...* |
 | 5 | 20.FEB | *TBA...* | *TBA...* |
 | 6 | 27.FEB | *TBA...* | *TBA...* |
