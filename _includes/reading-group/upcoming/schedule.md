@@ -4,10 +4,10 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 23.JAN | [Differential forms and virtual elements](/assets/pdf/reading-group/olav/differential-forms.pdf) ([Arnold, 2018](/reading-group/references/#arnold-2018); [Beirao da Veiga *et al.*, 2023](/reading-group/references/#beirao-da-veiga-et-al-2023)) | Olav Tyssvang |
-| 2 | 30.JAN | Finding equilibria of Hamiltonian systems ([Bressan *et al.*, 2025](/reading-group/references/#bressan-et-al-2025); [Bressan *et al.*, 2018](/reading-group/references/#bressan-et-al-2018)) | {% include collaborators/mingdong/short.md %} |
+| 1 | 23.JAN | [Differential forms and virtual elements](/assets/pdf/reading-group/olav/differential-forms.pdf) ([Arnold, 2018](/reading-group/references/#arnold-2018); [Beirao da Veiga *et al.*, 2023](/reading-group/references/#beirao-da-veiga-et-al-2023)) | {% include collaborators/olav/short.md %} |
+| 2 | 30.JAN | [Finding equilibria of Hamiltonian systems](/assets/pdf/reading-group/mingdong/metriplectic-equilibria.pdf) ([Bressan *et al.*, 2025](/reading-group/references/#bressan-et-al-2025); [Bressan *et al.*, 2018](/reading-group/references/#bressan-et-al-2018)) | {% include collaborators/mingdong/short.md %} |
 | 3 | 06.FEB* | Mollifiers & applications in FEMs | [Me (Boris Andrews)](/) |
-| 4 | 13.FEB | *TBA...* | *TBA...* |
+| 4 | 13.FEB | Free-boundary and two-phase MHD | {% include collaborators/ganghui/short.md %} |
 | 5 | 20.FEB | *TBA...* | *TBA...* |
 | 6 | 27.FEB | *TBA...* | *TBA...* |
 | 7 | 06.MAR* | *TBA...* | *TBA...* |
