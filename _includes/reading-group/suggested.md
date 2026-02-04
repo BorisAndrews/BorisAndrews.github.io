@@ -1,7 +1,6 @@
 <!--
 - Finite element systems, and why we split
-- Long steps for fixed point iterations
-- Exotic complexes (Stokes complexes, the BGG construction (Incl. the isomorphism of symmetric trace-free matrices to complex numbers in 2D), and why you should care) 
+- Exotic complexes (Stokes complexes, the BGG construction (Incl. the isomorphism of symmetric trace-free matrices to complex numbers in 2D), and why you should care)
 - Lie advection equations, and their topology-preserving properties
 - DG methods (How they can be derived through mollification/HDG + static condensation)
 - Non-conforming elements (What they are/When they're useful (Pathological BCs/Triangulated manifolds/Low DoF numbers))

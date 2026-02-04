@@ -8,7 +8,7 @@ For prior years, see {% include collaborators/charlie/short.md %}'s page [here](
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 17.OCT | [Long steps in gradient descent methods](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/long_steps.ipynb) ([Grimmer, 2024](/reading-group/past/references/#grimmer-2024); [Zhigljavsky, Pronzato & Bukina, 2013](/reading-group/past/references/#zhigljavsky-pronzato-bukina-2013)) | [Me (Boris Andrews)](/) |
+| 1 | 17.OCT | [Long steps in gradient descent methods](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/long_steps.ipynb) ([Grimmer, 2024](/reading-group/past/references/#grimmer-2024); [Zhigljavsky, Pronzato & Bukina, 2013](/reading-group/past/references/#zhigljavsky-pronzato-bukina-2013)) | [Me (Boris Andrews)](/) |
 | 2 | 24.OCT | Sparse direct solvers ([Duff, Erisman & Reid, 2017](/reading-group/past/references/#duff-erisman-reid-2017)) | {% include collaborators/kars/short.md %} |
 | 3 | 31.OCT | Group meeting | Everyone |
 | 4 | 07.NOV | [Preconditioners for PDE timesteppers](/assets/pdf/reading-group/charlie/timestepper-preconditioning.pdf) ([Southworth *et al.*, 2022](/reading-group/past/references/#southworth-et-al-2022)) | {% include collaborators/charlie/short.md %} |
