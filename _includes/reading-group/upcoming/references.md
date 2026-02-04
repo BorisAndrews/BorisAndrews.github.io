@@ -13,3 +13,6 @@
 
 - **C. Bressan**, **M. Kraus**, **O. Maj** and **P. J. Morrison**, Metriplectic relaxation to equilibria, *arXiv* (2025), [doi:10.48550/arXiv.2506.09787](https://doi.org/10.48550/arXiv.2506.09787)
   {: #bressan-et-al-2025}
+
+- **L. C. Evans**, *Partial Differential Equations*. AMS, 2010
+  {: #evans-2010}
