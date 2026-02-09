@@ -11,8 +11,6 @@ permalink: /collaborators/
 
 ## {% include collaborators/kaibo/full.md %}
 
-## {% include collaborators/alexei/full.md %}
-
 ## {% include collaborators/mingdong/full.md %}
 
 ## {% include collaborators/matin/full.md %}

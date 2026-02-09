@@ -1,1 +1,0 @@
-| An augmented Lagrangian preconditioner for natural convection at high Reynolds number | {% include collaborators/alexei/short.md %}, <br> {% include collaborators/patrick/short.md %} |

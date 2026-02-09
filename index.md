@@ -86,7 +86,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 <br>
 
-## [RECENT COLLABORATORS](/collaborators/)
+<!-- ## [RECENT COLLABORATORS](/collaborators/)
 
 {% include gallery.md %}
 
@@ -113,7 +113,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 [View all](/collaborators/)
 
-<br>
+<br> -->
 
 ## [OXFORD FEM READING GROUP](/reading-group/)
 
