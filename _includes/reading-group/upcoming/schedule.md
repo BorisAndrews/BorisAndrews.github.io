@@ -9,7 +9,7 @@
 | 3 | 06.FEB* | [Mollifiers & applications in FEMs](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/mollifiers.ipynb) ([Evans, 2010](/reading-group/references/#evans-2010)) | [Me (Boris Andrews)](/) |
 | 4 | 13.FEB | Free-boundary and two-phase MHD | {% include collaborators/ganghui/short.md %} |
 | 5 | 20.FEB | *TBA...* | *TBA...* |
-| 6 | 27.FEB | *TBA...* | *TBA...* |
+| 6 | 27.FEB* | *TBA...* | *TBA...* |
 | 7 | 06.MAR* | *TBA...* | *TBA...* |
 | 8 | 13.MAR | *TBA...* | *TBA...* |
 
