@@ -20,6 +20,7 @@ permalink: /notebooks/
 
 | Last modified | Notebook |
 | --- | --- |
+| 11.FEB.26 | [Enstrophy testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/enstrophy.ipynb) |
 | 04.FEB.26 | [Onsager testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/onsager.ipynb) |
 | 01.JAN.26 | [Stokes element testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/stokes_testing.ipynb) |
 | 01.DEC.25 | [Aaron's nightmare equations](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/nightmare_equations.ipynb) |
