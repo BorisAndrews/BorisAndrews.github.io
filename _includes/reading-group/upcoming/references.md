@@ -6,7 +6,7 @@
   {: #arnold-2018}
 
 - **L. Beirao Da Veiga**, **F. Brezzi**, **D. Marini** and **A. Russo**, The virtual element method, *Acta Numerica* (2023) [doi:10.1017/S0962492922000095](https://doi.org/10.1017/S0962492922000095)
-  {: #beirao-daveiga-et-al-2023}
+  {: #beiraodaveiga-et-al-2023}
 
 - **C. Bressan**, **M. Kraus**, **P. J. Morrison** and **O. Maj**, Relaxation to magnetohydrodynamics equilibria via collision brackets, *Journal of Physics: Conference Series*, 1125 (2018), [doi:10.1088/1742-6596/1125/1/012002](https://doi.org/10.1088/1742-6596/1125/1/012002)
   {: #bressan-et-al-2018}
@@ -17,8 +17,8 @@
 - **L. C. Evans**, *Partial Differential Equations*. AMS, 2010
   {: #evans-2010}
 
-- **J.-F. Gerbeau**, **C. Le Bris**, **T. Lelièvre** *Mathematical Methods for the Magnetohydrodynamics of Liquid Metals*. Clarendon Press, 2006
+- **J.-F. Gerbeau**, **C. Le Bris** and **T. Lelièvre** *Mathematical Methods for the Magnetohydrodynamics of Liquid Metals*. Clarendon Press, 2006
   {: #gerbeau-lebris-lelievre-2006}
 
-- **X. Gu**, **C. Luo**, **J. Zhang**, Local well-posedness of the free-boundary incompressible magnetohydrodynamics with surface tension, *Journal de Mathématiques Pures et Appliquées* (2024) [doi:10.1016/j.matpur.2023.12.009](https://doi.org/10.1016/j.matpur.2023.12.009)
+- **X. Gu**, **C. Luo** and **J. Zhang**, Local well-posedness of the free-boundary incompressible magnetohydrodynamics with surface tension, *Journal de Mathématiques Pures et Appliquées* (2024) [doi:10.1016/j.matpur.2023.12.009](https://doi.org/10.1016/j.matpur.2023.12.009)
   {: #gu-luo-zhang-2024}
