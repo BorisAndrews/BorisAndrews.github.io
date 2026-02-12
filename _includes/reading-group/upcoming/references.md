@@ -17,7 +17,7 @@
 - **L. C. Evans**, *Partial Differential Equations*. AMS, 2010
   {: #evans-2010}
 
-- **J.-F. Gerbeau**, **C. Le Bris** and **T. Lelièvre** *Mathematical Methods for the Magnetohydrodynamics of Liquid Metals*. Clarendon Press, 2006
+- **J.-F. Gerbeau**, **C. Le Bris** and **T. Lelièvre**, *Mathematical Methods for the Magnetohydrodynamics of Liquid Metals*. Clarendon Press, 2006
   {: #gerbeau-lebris-lelievre-2006}
 
 - **X. Gu**, **C. Luo** and **J. Zhang**, Local well-posedness of the free-boundary incompressible magnetohydrodynamics with surface tension, *Journal de Mathématiques Pures et Appliquées* (2024) [doi:10.1016/j.matpur.2023.12.009](https://doi.org/10.1016/j.matpur.2023.12.009)
