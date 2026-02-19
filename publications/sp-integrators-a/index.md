@@ -143,8 +143,6 @@ Just to get you excited, here's a fun video of some numerical results from the p
     Sorry you're missing out on the pretty colours!
 </video><br>
 
-### Ready to upgrade *your* integrator?
-
 If you're looking to build simulations that are both simple and physically meaningful, we invite you to explore the full details of the framework, proofs, and implementation strategies in the manuscript.
 
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.1137/25M1756673';"><b>
