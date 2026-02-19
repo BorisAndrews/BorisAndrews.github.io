@@ -1,4 +1,4 @@
-  ---
+---
 title: MAGNETIC RELAXATION
 permalink: /publications/parker/
 ---
