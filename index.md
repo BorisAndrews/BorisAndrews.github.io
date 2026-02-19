@@ -75,7 +75,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 - **01–05.JUN** <code>&#124;</code> **FIREDRAKE** <code>&#124;</code> Planning to attend the {% include conferences/2026/firedrake.md %} at the {% include universities/oxford.md %}, where I will likely present upcoming work with {% include collaborators/matin/short.md %} and {% include collaborators/patrick/short.md %} on enstrophy-stable integrators for the Navier–Stokes equations
 
-- **29.JUN–03.JUL** <code>&#124;</code> **SciCADE*** <code>&#124;</code> Attending the 2026 conference on [Scientific Computing and Differential Equations (SciCADE)](https://scicade.org/) at the {% include universities/edinburgh.md %}, where:
+- **29.JUN–03.JUL** <code>&#124;</code> **SciCADE** <code>&#124;</code> Attending the 2026 conference on [Scientific Computing and Differential Equations (SciCADE)](https://scicade.org/) at the {% include universities/edinburgh.md %}, where:
   - I will be speaking at a minisymposium on geometric numerical integration, thanks to the invite of {% include collaborators/evan/short.md %} and {% include collaborators/ari/short.md %}, where I will likely present [my work on conservative and dissipative integrators](/publications/sp-integrators-a/) with {% include collaborators/patrick/short.md %}
   - {% include collaborators/patrick/short.md %}, {% include collaborators/kaibo/short.md %} and I will be hosting a minisymposium on structure-preserving methods in MHD, including talks from {% include collaborators/tobias/short.md %}, {% include collaborators/mingdong/short.md %}, {% include collaborators/gunnar/short.md %}, {% include collaborators/shipeng/short.md %}, {% include collaborators/adelle/short.md %}, {% include collaborators/anthony/short.md %} and Qian Zhang
 
@@ -83,8 +83,6 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ### 2027
 - **18–23.APR** <code>&#124;</code> **OBERWOLFACH*** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
-
-*(\*provisional)*
 
 <br>
 
