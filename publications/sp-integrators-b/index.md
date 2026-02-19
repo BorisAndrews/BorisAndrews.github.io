@@ -100,7 +100,7 @@ Using implicit midpoint *(red)* however, we find the numerical solution can perf
 ![engine](assets/img/engine.png)
 
 We apply the framework from [our previous paper](/publications/sp-integrators-a/) to construct numerical integrators that preserve both the **conservative** and **dissipative** structures.
-As such, we have a *general way to construct structure-preserving ODE integrators and finite element methods for any of the above systems*.
+As such, we have a *general way to construct structure-preserving integrators for any of the above ODE and PDE systems*.
 You can see the results with our comparable 1-stage scheme *(green)* in the figure above;
 nice and dissipative!
 For a PDE example, the manuscript presents an integrator for the **Boltzmann equation** that preserves both the **conservation of energy** and **generation of entropy**.
