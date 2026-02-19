@@ -29,7 +29,7 @@ permalink: /publications/sp-integrators-b/
 </div>
 
 You can view this preprint as the *"spiritual successor"* to my [previous work](/publications/sp-integrators-a/) with {% include collaborators/patrick/short.md %}.
-In Part 1, we showed how one can jointly employ **auxiliary variables** and **finite elements in time** to preserve multiple, general conervation laws and dissipation inequalities in our PDE disrcetisations.
+In Part 1, we showed how one can jointly employ **auxiliary variables** and **finite elements in time** to preserve multiple, general conservation laws and dissipation inequalities in PDE discretisations.
 This was exciting work, as classical approaches for constructing timestepping schemes (such as Runge–Kutta methods and symplectic integrators) typically fail to preserve the behaviour of non-quadratic invariants, and other bespoke structure-preserving integrator were typically limited to a maximum of one preserved quantity of interest.
 
 Now in Part 2, we show just how powerful this idea can be, with two related examples...
@@ -38,31 +38,31 @@ Now in Part 2, we show just how powerful this idea can be, with two related exam
 
 *Many* physical systems have *many* invariants.
 
-Let me fix ideas with somewhat of a canonical example (one which we consider in the manuscript):
+I'll fix ideas with somewhat of a canonical example (at least, one we consider in the manuscript):
 the **Kepler problem**, a simple 2-body gravitional system, e.g. for a planet orbiting a star.
-Of course **energy** is conserved;
-that's always the case.
+Of course **energy** is conserved, that's always the case.
 But there's also the **angular momentum**, which encodes the speed of the orbit.
-And then (less famously) there's a final conserved invariant of the [<b>Runge-Lenz (RL) vector</b>](https://en.wikipedia.org/wiki/Laplace%E2%80%93Runge%E2%80%93Lenz_vector), which encodes the angle of the orbit;
+And then (less famously) there's a final conserved invariant called the [<b>Runge-Lenz (RL) vector</b>](https://en.wikipedia.org/wiki/Laplace%E2%80%93Runge%E2%80%93Lenz_vector), which encodes the angle of the orbit;
 conservation of the RL vector is what prevents a planet's orbit from [precessing](https://en.wikipedia.org/wiki/Apsidal_precession).
 
-Implicit midpoint would here conserve energy and angular momentum—*both are quadratic*—both it won't conserve the non-polynomial RL vector.
-Naturally then (despite it being commonplace and well loved in the literature) such simulations exhibit some pretty shocking unphysical precession.
+Implicit midpoint would here conserve energy and angular momentum—*both are quadratic*—but it won't conserve the non-polynomial RL vector.
+Naturally then (despite it being commonplace and well loved in the literature) such simulations exhibit some pretty shocking unphysical precession:
 
 ![implicit_midpoint](assets/img/implicit_midpoint.png)
 
 In this manuscript, {% include collaborators/patrick/short.md %} and I employ our [auxiliary variable framework](/publications/sp-integrators-a/) to construct an integrator for **general ODE systems** with **multiple invariants** that conserves **every known invariant**.
+Here it is on the same Kepler problem: 
 
 ![andrews_farrell](assets/img/andrews_farrell.png)
 
-Simulations of the Kepler problem *(above)* and the [Kovalevskaya top](https://en.wikipedia.org/wiki/Lagrange,_Euler,_and_Kovalevskaya_tops#Kovalevskaya_top) show some very substantial improvements in the quality of the numerical solutions.
+Simulations of the Kepler problem and the [Kovalevskaya top](https://en.wikipedia.org/wiki/Lagrange,_Euler,_and_Kovalevskaya_tops#Kovalevskaya_top) *(detailed in the manuscript)* show some very substantial improvements in the quality of the numerical solutions.
 
 ### GENERIC systems
 
 The [GENERIC formalism](https://en.wikipedia.org/wiki/GENERIC_formalism/) is somewhat of a *"grand unified theory"* for non-equilibrium thermodynamics.
 It describes systems that simultaneously exhibit both:
-- **reversible dynamics** (like Hamiltonian mechanics) with a *conserved energy*, and
-- **irreversible dynamics** (like friction or heat diffusion) with a *generated entropy*.
+- **reversible dynamics** (like Hamiltonian mechanics) with a *conserved energy*...
+- ...and **irreversible dynamics** (like friction or heat diffusion) with a *generated entropy*.
 
 It's like an extension of Hamiltonian mechanics that doesn't just incorporate the **First Law of Thermodynamics** *(energy conservation)*, but the **Second Law** *(entropy generation)* too.
 
