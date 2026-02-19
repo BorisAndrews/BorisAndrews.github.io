@@ -53,8 +53,8 @@ Conserving simple, quadratic quantities (e.g. the energy in Navier–Stokes) is 
 The challenge spikes dramatically when dealing with **non-quadratic quantities of interest**, in particular when there are **multiple such structures**.
 
 Standard time-stepping schemes generally force an unhappy compromise:
-- Either accept some drift in your conserved quantities,
-- or introduce some *"artificial dissipation"* (a fictious damping force to keep the simulation stable at the cost of accuracy).
+- Either accept some drift in your conserved quantities...
+- ...or introduce some *"artificial dissipation"* (a fictious damping force to keep the simulation stable at the cost of accuracy).
 
 Conservative or accurately dissipative PDE integrators have then generally historically been constructed on an *ad-hoc* system-by-system basis.
 
