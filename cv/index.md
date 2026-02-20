@@ -8,7 +8,7 @@ permalink: /cv/
 {% include cv-download.md %}
 
 Below is an online version of my CV.
-You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf)].
+You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
  
 ## EMPLOYMENT
 
