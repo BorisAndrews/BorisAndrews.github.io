@@ -10,7 +10,7 @@
 | 4 | 13.FEB | Free-boundary and two-phase MHD ([Gerbeau, Le Bris & Lelièvre, 2006](/reading-group/references/#gerbeau-lebris-lelievre-2006); [Gu, Luo & Zhang, 2024](/reading-group/references/#gu-luo-zhang-2024)) | {% include collaborators/ganghui/short.md %} |
 | 5 | 20.FEB | *(Break...)* | |
 | 6 | 27.FEB* | Distributional elements beyond simplices | {% include collaborators/yizhou/short.md %} |
-| 7 | 06.MAR* | *TBA...* | *TBA...* |
+| 7 | 06.MAR* | Unfitted FEM | Xinpei Zhang |
 | 8 | 13.MAR | *TBA...* | *TBA...* |
 
 **Due to clashes, meetings marked with asterices will be in S1.37.*
