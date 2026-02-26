@@ -9,7 +9,7 @@
 | 3 | 06.FEB* | [Mollifiers & applications in FEMs](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/mollifiers.ipynb) ([Evans, 2010](/reading-group/references/#evans-2010)) | [Me (Boris Andrews)](/) |
 | 4 | 13.FEB | Free-boundary and two-phase MHD ([Gerbeau, Le Bris & Lelièvre, 2006](/reading-group/references/#gerbeau-lebris-lelievre-2006); [Gu, Luo & Zhang, 2024](/reading-group/references/#gu-luo-zhang-2024)) | {% include collaborators/ganghui/short.md %} |
 | 5 | 20.FEB | *(Break...)* | |
-| 6 | 27.FEB* | Distributional elements beyond simplices | {% include collaborators/yizhou/short.md %} |
+| 6 | 27.FEB* | Distributional elements ([Braess & Schöberl, 2008](/reading-group/references/#braess-schoberl-2008); [Christiansen, 2011](/reading-group/references/#christiansen-2011)) | {% include collaborators/yizhou/short.md %} |
 | 7 | 06.MAR* | Unfitted FEM | Xinpei Zhang |
 | 8 | 13.MAR | *TBA...* | *TBA...* |
 
