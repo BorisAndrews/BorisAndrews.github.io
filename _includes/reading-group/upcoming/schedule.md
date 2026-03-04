@@ -10,7 +10,7 @@
 | 4 | 13.FEB | Free-boundary and two-phase MHD ([Gerbeau, Le Bris & Lelièvre, 2006](/reading-group/references/#gerbeau-lebris-lelievre-2006); [Gu, Luo & Zhang, 2024](/reading-group/references/#gu-luo-zhang-2024)) | {% include collaborators/ganghui/short.md %} |
 | 5 | 20.FEB | *(Break...)* | |
 | 6 | 27.FEB* | Distributional elements ([Braess & Schöberl, 2008](/reading-group/references/#braess-schoberl-2008); [Christiansen, 2011](/reading-group/references/#christiansen-2011)) | {% include collaborators/yizhou/short.md %} |
-| 7 | 06.MAR* | Unfitted FEM | Xinpei Zhang |
+| 7 | 06.MAR* | Unfitted FEM ([Nitsche, 1972](/reading-group/references/#nitsche-1972); [Hansbo & Hansbo, 2002](/reading-group/references/#hansbo-hansbo-2002); [Burman, 2010](/reading-group/references/#burman-2010); [Burman et al., 2025](/reading-group/references/#burman-et-al-2025)) | Xinpei Zhang |
 | 8 | 13.MAR | *TBA...* | {% include collaborators/yuechen/short.md %} |
 
 **Due to clashes, meetings marked with asterices will be in S1.37.*
