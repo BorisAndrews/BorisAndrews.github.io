@@ -11,7 +11,7 @@
 | 5 | 20.FEB | *(Break...)* | |
 | 6 | 27.FEB* | Distributional elements ([Braess & Schöberl, 2008](/reading-group/references/#braess-schoberl-2008); [Christiansen, 2011](/reading-group/references/#christiansen-2011)) | {% include collaborators/yizhou/short.md %} |
 | 7 | 06.MAR* | Unfitted FEM | Xinpei Zhang |
-| 8 | 13.MAR | *TBA...* | *TBA...* |
+| 8 | 13.MAR | *TBA...* | {% include collaborators/yuechen/short.md %} |
 
 **Due to clashes, meetings marked with asterices will be in S1.37.*
 
