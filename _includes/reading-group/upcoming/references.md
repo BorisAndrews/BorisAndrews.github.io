@@ -16,6 +16,12 @@
 
 - **C. Bressan**, **M. Kraus**, **P. J. Morrison** and **O. Maj**, Relaxation to magnetohydrodynamics equilibria via collision brackets, *Journal of Physics: Conference Series*, 1125 (2018), [doi:10.1088/1742-6596/1125/1/012002](https://doi.org/10.1088/1742-6596/1125/1/012002)
   {: #bressan-et-al-2018}
+  
+- **E. Burman**, Ghost penalty, *Comptes Rendus Mathématique*, 348.21–22 (2010), [doi:10.1016/j.crma.2010.10.006](https://doi.org/10.1016/j.crma.2010.10.006)
+  {: #burman-2010}
+
+- **E. Burman**, **P. Hansbo**, **M. G. Larson** and **S. Zahedi**, Cut finite element methods, *Acta Numerica*, 34 (2025), 1–121, [doi:10.1017/S0962492925000017](https://doi.org/10.1017/S0962492925000017)
+  {: #burman-et-al-2025}
 
 - **S. H. Christiansen**, On the linearization of Regge calculus, *Numerische Mathematik*, 119.4 (2011), [doi:10.1007/s00211-011-0394-z](https://doi.org/10.1007/s00211-011-0394-z)
   {: #christiansen-2011}
@@ -28,15 +34,6 @@
 
 - **X. Gu**, **C. Luo** and **J. Zhang**, Local well-posedness of the free-boundary incompressible magnetohydrodynamics with surface tension, *Journal de Mathématiques Pures et Appliquées* (2024) [doi:10.1016/j.matpur.2023.12.009](https://doi.org/10.1016/j.matpur.2023.12.009)
   {: #gu-luo-zhang-2024}
-
-
-
-
-- **E. Burman**, Ghost penalty, *Comptes Rendus Mathématique*, 348.21–22 (2010), [doi:10.1016/j.crma.2010.10.006](https://doi.org/10.1016/j.crma.2010.10.006)
-  {: #burman-2010}
-
-- **E. Burman**, **P. Hansbo**, **M. G. Larson** and **S. Zahedi**, Cut finite element methods, *Acta Numerica*, 34 (2025), 1–121, [doi:10.1017/S0962492925000017](https://doi.org/10.1017/S0962492925000017)
-  {: #burman-et-al-2025}
 
 - **A. Hansbo** and **P. Hansbo**, An unfitted finite element method, based on Nitsche's method, for elliptic interface problems, *Computer Methods in Applied Mechanics and Engineering*, 191.47–48 (2002), [doi:10.1016/S0045-7825(02)00524-8](https://doi.org/10.1016/S0045-7825(02)00524-8)
   {: #hansbo-hansbo-2002}
