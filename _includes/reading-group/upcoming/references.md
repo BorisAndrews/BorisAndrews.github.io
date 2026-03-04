@@ -20,7 +20,7 @@
 - **E. Burman**, Ghost penalty, *Comptes Rendus Mathématique*, 348.21–22 (2010), [doi:10.1016/j.crma.2010.10.006](https://doi.org/10.1016/j.crma.2010.10.006)
   {: #burman-2010}
 
-- **E. Burman**, **P. Hansbo**, **M. G. Larson** and **S. Zahedi**, Cut finite element methods, *Acta Numerica*, 34 (2025), 1–121, [doi:10.1017/S0962492925000017](https://doi.org/10.1017/S0962492925000017)
+- **E. Burman**, **P. Hansbo**, **M. G. Larson** and **S. Zahedi**, Cut finite element methods, *Acta Numerica*, 34 (2025), [doi:10.1017/S0962492925000017](https://doi.org/10.1017/S0962492925000017)
   {: #burman-et-al-2025}
 
 - **S. H. Christiansen**, On the linearization of Regge calculus, *Numerische Mathematik*, 119.4 (2011), [doi:10.1007/s00211-011-0394-z](https://doi.org/10.1007/s00211-011-0394-z)
