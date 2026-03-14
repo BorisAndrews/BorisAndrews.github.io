@@ -1,18 +1,18 @@
 ***2025–2026***
 
-*Hilary term*
+*Trinity term*
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 23.JAN | [Differential forms and virtual elements](/assets/pdf/reading-group/olav/differential-forms.pdf) ([Arnold, 2018](/reading-group/references/#arnold-2018); [Beirao da Veiga *et al.*, 2023](/reading-group/references/#beiraodaveiga-et-al-2023)) | {% include collaborators/olav/short.md %} |
-| 2 | 30.JAN | [Finding equilibria of Hamiltonian systems](/assets/pdf/reading-group/mingdong/metriplectic-equilibria.pdf) ([Bressan *et al.*, 2025](/reading-group/references/#bressan-et-al-2025); [Bressan *et al.*, 2018](/reading-group/references/#bressan-et-al-2018)) | {% include collaborators/mingdong/short.md %} |
-| 3 | 06.FEB* | [Mollifiers & applications in FEMs](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/mollifiers.ipynb) ([Evans, 2010](/reading-group/references/#evans-2010)) | [Me (Boris Andrews)](/) |
-| 4 | 13.FEB | Free-boundary and two-phase MHD ([Gerbeau, Le Bris & Lelièvre, 2006](/reading-group/references/#gerbeau-lebris-lelievre-2006); [Gu, Luo & Zhang, 2024](/reading-group/references/#gu-luo-zhang-2024)) | {% include collaborators/ganghui/short.md %} |
-| 5 | 20.FEB | *(Break...)* | |
-| 6 | 27.FEB* | Distributional elements ([Braess & Schöberl, 2008](/reading-group/references/#braess-schoberl-2008); [Christiansen, 2011](/reading-group/references/#christiansen-2011)) | {% include collaborators/yizhou/short.md %} |
-| 7 | 06.MAR* | Unfitted FEM ([Nitsche, 1972](/reading-group/references/#nitsche-1972); [Hansbo & Hansbo, 2002](/reading-group/references/#hansbo-hansbo-2002); [Burman, 2010](/reading-group/references/#burman-2010); [Burman et al., 2025](/reading-group/references/#burman-et-al-2025)) | Xinpei Zhang |
-| 8 | 13.MAR | *TBA...* | {% include collaborators/yuechen/short.md %} |
+| 1 | 01.MAY | *TBA...* | *TBA...* |
+| 2 | 08.MAY | *TBA...* | *TBA...* |
+| 3 | 15.MAY | *TBA...* | *TBA...* |
+| 4 | 22.MAY | *TBA...* | *TBA...* |
+| 5 | 29.MAY | *TBA...* | *TBA...* |
+| 6 | 05.JUN | *TBA...* | *TBA...* |
+| 7 | 12.JUN | *TBA...* | *TBA...* |
+| 8 | 19.JUN | *TBA...* | *TBA...* |
 
-**Due to clashes, meetings marked with asterices will be in S1.37.*
+<!-- **Due to clashes, meetings marked with asterices will be in S1.37.* -->
 
 *Slides and notes can be found, when available, by clicking the topic titles.*
