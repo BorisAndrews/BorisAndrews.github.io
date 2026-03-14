@@ -15,4 +15,6 @@
 
 <!-- **Due to clashes, meetings marked with asterices will be in S1.37.* -->
 
-*Slides and notes can be found, when available, by clicking the topic titles.*
+*While the schedule for trinity term isn't yet finalised, we may likely be on hiatus for the first half, since many of us will be at the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %}.*
+
+<!-- *Slides and notes can be found, when available, by clicking the topic titles.* -->
