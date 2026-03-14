@@ -9,7 +9,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/parker/';">
-    MY WORK WITH MINGDONG HE, PATRICK FARRELL AND KAIBO HU WAS JUST PUBLISHED IN SISC. <br>
+    MY WORK WITH MINGDONG HE, PATRICK FARRELL AND KAIBO HU ON MAGNETIC RELAXATION WAS JUST PUBLISHED IN SISC <br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
