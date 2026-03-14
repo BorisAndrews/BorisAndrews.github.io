@@ -34,15 +34,15 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 {% include publications/lists/1-papers.md %}
 
-<!-- *(Upcoming)*
+*(Upcoming)*
 
-{% include publications/lists/2-upcoming.md %} -->
+{% include publications/lists/2-upcoming.md %}
 
 ### Preprints
 
-*(Accepted for publication)*
+<!-- *(Accepted for publication)* -->
 
-{% include publications/lists/3-accepted.md %}
+<!-- {% include publications/lists/3-accepted.md %} -->
 
 *(In review)*
 

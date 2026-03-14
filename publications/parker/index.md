@@ -7,11 +7,11 @@ permalink: /publications/parker/
 
 ### {% include collaborators/mingdong/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/kaibo/short.md %} <code>&#124;</code> Boris Andrews
 
-### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654)) <code>&#124;</code> Upcoming ({% include journals/sisc.md %})
+### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654)) <code>&#124;</code> 30.APR.2026 ([SISC](https://doi.org/10.1137/25M1727540))
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2501.11654';"><b>
-    CHECK OUT ON ARXIV!
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.1137/25M1727540';"><b>
+    CHECK OUT IN SISC!
 </b></div>
 
 > *[...] This work presents an **energy- and helicity-preserving** finite element discretization for the **magneto-frictional system**, for investigating the **Parker conjecture**. The algorithm **preserves a discrete version of the topological barrier** and a discrete Arnold inequality. [...]*

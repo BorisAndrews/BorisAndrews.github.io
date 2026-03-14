@@ -9,14 +9,15 @@ permalink: /publications/
 
 {% include publications/lists/1-papers.md %}
 
-<!-- ### (Upcoming)
+### (Upcoming)
 
-{% include publications/lists/2-upcoming.md %} -->
+{% include publications/lists/2-upcoming.md %}
 
 ## PREPRINTS
-### (Accepted for publication)
 
-{% include publications/lists/3-accepted.md %}
+<!-- ### (Accepted for publication) -->
+
+<!-- {% include publications/lists/3-accepted.md %} -->
 
 ### (In review)
 
@@ -27,6 +28,7 @@ permalink: /publications/
 {% include publications/lists/5-other.md %}
 
 ## IN PREPARATION
+
 ### (Drafts available on request)
 
 {% include publications/lists/6-drafts.md %}

@@ -8,8 +8,8 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/sp-integrators-b/';">
-    PATRICK FARRELL AND I JUST PUT OUT A PREPRINT ON STABLE INTEGRATORS FOR MULTI-CONSERVATIVE AND GENERIC SYSTEMS <br>
+<div class="highlight-box" onclick="window.location.href='/publications/parker/';">
+    MY WORK WITH MINGDONG HE, PATRICK FARRELL AND KAIBO HU WAS JUST PUBLISHED IN SISC. <br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
@@ -29,17 +29,19 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ### Papers
 
-<!-- *(Upcoming)* -->
-
 {% include publications/titles/wide.md %}
 {% include publications/all/sp-integrators-a.md %}
 
-### Preprints
-
-*(Accepted for publication)*
+*(Upcoming)*
 
 {% include publications/titles/wide.md %}
 {% include publications/all/parker.md %}
+
+### Preprints
+
+<!-- *(Accepted for publication)* -->
+
+<!-- {% include publications/titles/wide.md %} -->
 
 *(In review)*
 
