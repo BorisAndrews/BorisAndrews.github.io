@@ -1,2 +1,0 @@
-- **FEB–AUG.2026** <code>&#124;</code> {% include collaborators/shiyao/short.md %}, MMSC dissertation
-    - **PROJECT** <code>&#124;</code> Numerical evolution of magnetic field topologies

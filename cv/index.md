@@ -75,7 +75,6 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 ### {% include universities/oxford.md %} (2025–2027)
 
 {% include supervision/oscar.md %}
-{% include supervision/shiyao.md %}
 
 ### {% include universities/oxford.md %} (2021–2025)
 
