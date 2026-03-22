@@ -86,7 +86,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 - **AUTUMN** <code>&#124;</code> **NACHDIPLOM** <code>&#124;</code> Planning to attend the {% include conferences/2026/nachdiplom.md %} given by {% include collaborators/kaibo/short.md %} at {% include universities/eth.md %}
 
 ### 2027
-- **18–23.APR** <code>&#124;</code> **OBERWOLFACH*** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
+- **18–23.APR** <code>&#124;</code> **OBERWOLFACH** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
 
 <br>
 
