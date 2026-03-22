@@ -142,7 +142,7 @@ You can find it **[here](/open-problems/)**.
 🌐 **LANGUAGES / LINGUISTICS** <code>&#124;</code> Dutch / Japanese <br>
 🎲 **BOARD GAMES** <code>&#124;</code> Heavy / Light / Cooperative / I don't care so long as it's with my friends <br>
 🎹 **PIANO** <code>&#124;</code> Music theory / Improvisation so long as nobody's listening <br>
-🍴 **FOOD / COOKING** <code>&#124;</code> Anything East / Southeast Asian <br>
+<!-- 🍴 **FOOD / COOKING** <code>&#124;</code> Anything East / Southeast Asian <br> -->
 🩸 **MURDER MYSTERIES** <code>&#124;</code> Movies in particular <br>
 ⚽ **TABLE FOOTBALL** <code>&#124;</code> Competitive spirit / Non-competitive skill <br>
 🗺️ **MAPS / FLAGS** <code>&#124;</code> Just love them <br>
