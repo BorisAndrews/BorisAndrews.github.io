@@ -83,8 +83,10 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 - **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the [ECCOMAS World Congress on Computational Mechanics (WCCM)](https://wccm-eccomas2026.org/) at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, in the [minisymposium on space-time finite element discretisations](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c) on the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators-a/) with {% include collaborators/patrick/short.md %}
 
+- **AUTUMN** <code>&#124;</code> **NACHDIPLOM** <code>&#124;</code> Planning to attend the {% include conferences/2026/nachdiplom.md %} given by {% include collaborators/kaibo/short.md %} at {% include universities/eth.md %}
+
 ### 2027
-- **18–23.APR** <code>&#124;</code> **OBERWOLFACH*** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
+- **18–23.APR** <code>&#124;</code> **OBERWOLFACH** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
 
 <br>
 
@@ -140,7 +142,7 @@ You can find it **[here](/open-problems/)**.
 🌐 **LANGUAGES / LINGUISTICS** <code>&#124;</code> Dutch / Japanese <br>
 🎲 **BOARD GAMES** <code>&#124;</code> Heavy / Light / Cooperative / I don't care so long as it's with my friends <br>
 🎹 **PIANO** <code>&#124;</code> Music theory / Improvisation so long as nobody's listening <br>
-🍴 **FOOD / COOKING** <code>&#124;</code> Anything East / Southeast Asian <br>
+<!-- 🍴 **FOOD / COOKING** <code>&#124;</code> Anything East / Southeast Asian <br> -->
 🩸 **MURDER MYSTERIES** <code>&#124;</code> Movies in particular <br>
 ⚽ **TABLE FOOTBALL** <code>&#124;</code> Competitive spirit / Non-competitive skill <br>
 🗺️ **MAPS / FLAGS** <code>&#124;</code> Just love them <br>
