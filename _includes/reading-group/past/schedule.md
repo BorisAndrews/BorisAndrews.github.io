@@ -27,7 +27,7 @@ For prior years, see {% include collaborators/charlie/short.md %}'s page [here](
 | 4 | 13.FEB | [Free-boundary and two-phase MHD](/assets/pdf/reading-group/ganghui/mhd-extensions.pdf) ([Gerbeau, Le Bris & Lelièvre, 2006](/reading-group/past/references/#gerbeau-lebris-lelievre-2006); [Gu, Luo & Zhang, 2024](/reading-group/past/references/#gu-luo-zhang-2024)) | {% include collaborators/ganghui/short.md %} |
 | 5 | 20.FEB | *(Break...)* | |
 | 6 | 27.FEB | [Distributional elements](/assets/pdf/reading-group/yizhou/distributional-elements.pdf) ([Braess & Schöberl, 2008](/reading-group/past/references/#braess-schoberl-2008); [Christiansen, 2011](/reading-group/past/references/#christiansen-2011)) | {% include collaborators/yizhou/short.md %} |
-| 7 | 06.MAR | Unfitted FEM ([Nitsche, 1972](/reading-group/past/references/#nitsche-1972); [Hansbo & Hansbo, 2002](/reading-group/past/references/#hansbo-hansbo-2002); [Burman, 2010](/reading-group/past/references/#burman-2010); [Burman et al., 2025](/reading-group/past/references/#burman-et-al-2025)) | Xinpei Zhang |
+| 7 | 06.MAR | [Unfitted FEM](/assets/pdf/reading-group/xinpei/unfitted-fem.pdf) ([Nitsche, 1972](/reading-group/past/references/#nitsche-1972); [Hansbo & Hansbo, 2002](/reading-group/past/references/#hansbo-hansbo-2002); [Burman, 2010](/reading-group/past/references/#burman-2010); [Burman et al., 2025](/reading-group/past/references/#burman-et-al-2025)) | Xinpei Zhang |
 | 8 | 13.MAR | Contact manifolds ([Arnold, 1989](/reading-group/past/references/#arnold-1989); [Rumin, 1994](/reading-group/past/references/#rumin-1994)) | {% include collaborators/yuechen/short.md %} |
 
 *Slides and notes can be found, when available, by clicking the topic titles.*
