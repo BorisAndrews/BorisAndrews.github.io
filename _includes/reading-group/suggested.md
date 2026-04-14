@@ -5,6 +5,7 @@
 - DG methods (How they can be derived through mollification/HDG + static condensation)
 - Non-conforming elements (What they are/When they're useful (Pathological BCs/Triangulated manifolds/Low DoF numbers))
 - Local (cellwise) structures (Why they matter/How we show them)
+- Dual-weighted residuals and adaptivity
 -->
 
 N.B. I'm very poor at keeping this list up-to-date, so if you're looking for more recent recommendations then just shoot me a message!
