@@ -1,0 +1,1 @@
+- **SEP–DEC.2026** <code>&#124;</code> Co-wrote the {% include conferences/2026/nachidplom.md %} on Finite Element Tensor Calculus with {% include collaborators/kaibo/short.md %}, *{% include universities/eth.md %}*

@@ -1,1 +1,1 @@
-[Nachdiplom lectures](https://math.ethz.ch/fim/activities/nachdiplom-lectures.html)
+[Nachdiplom Lectures](https://math.ethz.ch/fim/activities/nachdiplom-lectures.html)
