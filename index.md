@@ -7,11 +7,11 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
-{% include highlight-box.md %}
+<!-- {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='/publications/parker/';">
     MY WORK WITH MINGDONG HE, PATRICK FARRELL AND KAIBO HU ON MAGNETIC RELAXATION WAS JUST PUBLISHED IN SISC <br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
-</div>
+</div> -->
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
     I'm also currently on the postdoc job market!
@@ -83,7 +83,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 - **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the [ECCOMAS World Congress on Computational Mechanics (WCCM)](https://wccm-eccomas2026.org/) at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, in the [minisymposium on space-time finite element discretisations](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c) on the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators-a/) with {% include collaborators/patrick/short.md %}
 
-- **AUTUMN** <code>&#124;</code> **NACHDIPLOM** <code>&#124;</code> Planning to attend the {% include conferences/2026/nachdiplom.md %} given by {% include collaborators/kaibo/short.md %} at {% include universities/eth.md %}
+- **14.SEP–18.DEC** <code>&#124;</code> **NACHDIPLOM** <code>&#124;</code> Visiting {% include universities/eth.md %} for the duration of the {% include conferences/2026/nachdiplom.md %} on finite element tensor calculus, written by Kaibo and me and presented by {% include collaborators/kaibo/short.md %}
 
 ### 2027
 - **18–23.APR** <code>&#124;</code> **OBERWOLFACH** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
