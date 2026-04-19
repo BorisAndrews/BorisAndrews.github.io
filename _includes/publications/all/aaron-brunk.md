@@ -1,0 +1,1 @@
+| Energy- and entropy-stable discretisations for the quasi-incompressible Maxwell–Stefan equations | {% include collaborators/aaron/short.md %}, {% include collaborators/patrick/short.md %}, {% include collaborators/maria/short.md %} |

@@ -33,8 +33,8 @@ permalink: /publications/
 
 {% include publications/lists/6-drafts.md %}
 
-### (Drafts not yet available)
+<!-- ### (Drafts not yet available)
 
-{% include publications/lists/7-future.md %}
+{% include publications/lists/7-future.md %} -->
 
 *(Click titles for further details, [open problems](/open-problems/), talks and more)*

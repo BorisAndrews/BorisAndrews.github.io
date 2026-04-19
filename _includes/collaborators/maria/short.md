@@ -1,0 +1,1 @@
+[Mária Lukácová-Medviďová](https://www.numerik.mathematik.uni-mainz.de/prof-dr-maria-lukacova-medvidova/)
