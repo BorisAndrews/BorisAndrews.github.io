@@ -1,1 +1,1 @@
-| Conservative and accurately dissipative finite element integrators for geometric PDEs | {% include collaborators/ganghui/short.md %}, {% include collaborators/patrick/short.md %} |
+| Conservative and accurately dissipative finite element integrators for geometric PDEs | {% include collaborators/ganghui/short.md %}, <br> {% include collaborators/patrick/short.md %} |

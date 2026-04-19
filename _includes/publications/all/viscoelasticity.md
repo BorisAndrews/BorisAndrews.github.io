@@ -1,1 +1,1 @@
-| Energy-stable discretisations of viscoelastic flows | {% include collaborators/dennis/short.md %}, {% include collaborators/patrick/short.md %} |
+| Energy-stable discretisations of viscoelastic flows | {% include collaborators/dennis/short.md %}, <br> {% include collaborators/patrick/short.md %} |
