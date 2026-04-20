@@ -28,3 +28,5 @@ permalink: /collaborators/
 ## {% include collaborators/matin/full.md %}
 
 ## {% include collaborators/dennis/full.md %}
+
+## {% include collaborators/ganghui/full.md %}
