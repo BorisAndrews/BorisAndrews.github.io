@@ -7,14 +7,13 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
-<!-- {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='/publications/parker/';">
-    MY WORK WITH MINGDONG HE, PATRICK FARRELL AND KAIBO HU ON MAGNETIC RELAXATION WAS JUST PUBLISHED IN SISC <br>
-    <b>CLICK HERE TO CHECK IT OUT!</b>
-</div> -->
+{% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='https://www.esi.ac.at/events/e585/';">
+    <b>CURRENTLY IN VIENNA FOR THE ESI PROGRAMME ON DIFFERENTIAL COMPLEXES</b>
+</div>
 
 <!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
-    I'm also currently on the postdoc job market!
+    CURRENTLY IN VIENNA FOR THE ESI WORKSHOP 
 </b></div> -->
 
 <br>
