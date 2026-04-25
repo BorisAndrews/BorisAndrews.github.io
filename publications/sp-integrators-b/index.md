@@ -117,7 +117,7 @@ Preserving these properties is *crucial for accurately capturing the dynamics of
 
 ## VIDEOS
 
-Check out Patrick's seminar at the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (20.APR.2026) below:
+Check out Patrick's opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (20.APR.2026) below:
 
 {% include video-container.md %}
 <div class="video-container">
