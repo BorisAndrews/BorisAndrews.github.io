@@ -72,7 +72,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ## UPCOMING
 
 ### 2026
-- **20.APR–15.MAY** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %}
+- **20.APR–15.MAY** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %}, where I will also give a talk on upcoming work on enstrophy stabilisation for Navier–Stokes, with {% include collaborators/patrick/short.md %} and {% include collaborators/matin/short.md %}
 
 - **03–05.JUN** <code>&#124;</code> **FIREDRAKE** <code>&#124;</code> Planning to attend the {% include conferences/2026/firedrake.md %} at the {% include universities/oxford.md %}, where I will discuss the recent support for finite elements in time in Irksome with {% include collaborators/pablo/short.md %}, {% include collaborators/colin/short.md %}, {% include collaborators/patrick/short.md %}, {% include collaborators/rob/short.md %} and {% include collaborators/scott/short.md %}
 
