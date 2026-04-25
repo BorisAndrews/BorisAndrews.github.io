@@ -124,7 +124,7 @@ Check out Patrick's seminar at the {% include conferences/2026/esi.md %} at the 
     <iframe src="https://www.youtube.com/embed/6Q2foG1AyPI" frameborder="0" allowfullscreen></iframe>
 </div><br>
 
-You can find his earlier **Langtangen seminar** (22.APR.2025) at *[Simula](https://www.simula.no/)* [here](https://www.youtube.com/watch?v=wfFcZsxicw0), and **ACM Colloquium** (13.NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
+You can find his earlier **Langtangen seminar** (22.APR.2025) at [Simula](https://www.simula.no/) [here](https://www.youtube.com/watch?v=wfFcZsxicw0), and **ACM Colloquium** (13.NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
 
 ## RELATED WORKS
 
