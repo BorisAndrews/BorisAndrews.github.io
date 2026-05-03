@@ -17,8 +17,6 @@ permalink: /collaborators/
 
 ## {% include collaborators/aaron/full.md %}
 
-## {% include collaborators/colin/full.md %}
-
 ## {% include collaborators/rob/full.md %}
 
 ## {% include collaborators/maria/full.md %}
