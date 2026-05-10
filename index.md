@@ -92,7 +92,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 <div class="gallery">
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/patrick.jpg' | relative_url }}" alt="Patrick Farrell">
-        <div class="caption"><a href="https://pefarrell.org/"><b>Patrick Farrell</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+        <div class="caption"><a href="https://pefarrell.org/"><b>Patrick Farrell</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a> & <a href="https://www.mff.cuni.cz/en/math/muuk/institute"><em>Charles University</em></a></div>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/kaibo.jpg' | relative_url }}" alt="Kaibo Hu">
