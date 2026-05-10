@@ -1,5 +1,5 @@
 {% include collaborators/patrick/short.md %}
 <img src="/assets/img/collaborators/patrick.jpg" alt="Patrick Farrell" width="167" />
-- **Affiliation** <code>&#124;</code> {% include universities/oxford.md %}
+- **Affiliation** <code>&#124;</code> {% include universities/oxford.md %} / {% include universities/charles.md %}
 <!-- - **Role** <code>&#124;</code> PhD (DPhil) co-supervisor -->
 - **Joint publications** <code>&#124;</code> [Helicity-preserving finite element discretization for magnetic relaxation](/publications/parker/) / [Enforcing conservation laws and dissipation inequalities numerically via auxiliary variables](/publications/sp-integrators-a/) / [Conservative and dissipative discretisations of multi-conservative ODEs and GENERIC systems](/publications/sp-integrators-b/) / [Arbitrary-order structure-preserving discretizations for geometric curvature flows](/publications/geometric-flows/) / Automated Galerkin time stepping in Irksome* / Enstrophy-stable integrators for the incompressible Navier–Stokes equations* / Energy-stable discretisations of viscoelastic flows* / Energy- and entropy-stable discretisations for the quasi-incompressible Maxwell–Stefan equations*
