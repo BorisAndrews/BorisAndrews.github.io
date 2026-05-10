@@ -11,10 +11,10 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 <div class="highlight-box" onclick="window.location.href='https://www.esi.ac.at/events/e585/';">
     <b>CURRENTLY IN VIENNA FOR THE ESI PROGRAMME ON DIFFERENTIAL COMPLEXES</b>
 </div>
-
-<!-- <div style="background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px); color: #FBF6E5; padding: 20px; text-align: center; width: 80%; margin: 0 auto; border-radius: 10px;"><b>
-    CURRENTLY IN VIENNA FOR THE ESI WORKSHOP 
-</b></div> -->
+<!-- <div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/geometric-flows/';">
+    I RECENTLY SUBMITTED A PREPRINT WITH GANGHUI ZHANG AND PATRICK FARRELL ON STRUCTURE-PRESERVING METHODS FOR GEOMTERIC FLOWS <br><br>
+    <b>CLICK HERE TO CHECK IT OUT!</b>
+</div> -->
 
 <br>
 
