@@ -1,1 +1,1 @@
-| 16.JUL.2024 <br> ([arXiv](https://arxiv.org/abs/2407.11904v2)) | [High-order conservative and accurately dissipative numerical integrators via auxiliary variables]({{ "/publications/sp-integrators/" | absolute_url }}) | {% include collaborators/patrick/short.md %} |
+| 16.JUL.2024 <br> ([arXiv](https://arxiv.org/abs/2407.11904v2)) | [High-order conservative and accurately dissipative numerical integrators via auxiliary variables](/publications/sp-integrators/) | {% include collaborators/patrick/short.md %} |

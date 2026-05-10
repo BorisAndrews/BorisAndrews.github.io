@@ -1,0 +1,1 @@
+| 10.MAY.2026 <br> arXiv, <br> In review <br> ({% include journals/sisc.md %}) | [Arbitrary-order structure-preserving discretizations for geometric curvature flows](/publications/geometric-flows/) | {% include collaborators/ganghui/short.md %}, <br> {% include collaborators/patrick/short.md %} |

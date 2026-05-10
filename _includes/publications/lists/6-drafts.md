@@ -3,4 +3,3 @@
 {% include publications/all/enstrophy.md %}
 {% include publications/all/viscoelasticity.md %}
 {% include publications/all/aaron-brunk.md %}
-{% include publications/all/geometric-pdes.md %}
