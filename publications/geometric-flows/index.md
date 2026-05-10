@@ -14,7 +14,7 @@ permalink: /publications/geometric-flows/
     CHECK OUT ON ARXIV!
 </b></div> -->
 
-> *[...] we present the first discretization of **geometric curvature flows** [...] that **preserves the evolution of area and volume** at **arbitrary order in space and time**. The key idea is to introduce **auxiliary variables** in a particular way so that the derivation of the area dissipation law can be replicated after discretization with continuous Petrov--Galerkin in time. [...] The proposed scheme also **preserves mesh quality** in the same manner as the **minimal deformation rate** strategy. [...]*
+> *[...] we present the first discretization of **geometric curvature flows** [...] that **preserves the evolution of area and volume** at **arbitrary order in space and time**. The key idea is to introduce **auxiliary variables** in a particular way so that the derivation of the area dissipation law can be replicated after discretization with continuous Petrov–Galerkin in time. [...] The proposed scheme also **preserves mesh quality** in the same manner as the **minimal deformation rate** strategy. [...]*
 
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -25,7 +25,7 @@ permalink: /publications/geometric-flows/
         it is desirable to preserve these properties on discretization.
         This has motivated a substantial body of research on structure-preserving discretizations for these flows, albeit at low order in time. <br><br>
         In this work, we present the first discretization of geometric curvature flows (curve shortening/mean curvature flow and curve/surface diffusion) that preserves the evolution of area and volume at arbitrary order in space and time.
-        The key idea is to introduce auxiliary variables in a particular way so that the derivation of the area dissipation law can be replicated after discretization with continuous Petrov--Galerkin in time.
+        The key idea is to introduce auxiliary variables in a particular way so that the derivation of the area dissipation law can be replicated after discretization with continuous Petrov–Galerkin in time.
         These auxiliary variables are indicated by a general strategy for structure-preservation in time that applies to many other problems.
         The proposed scheme also preserves mesh quality in the same manner as the minimal deformation rate strategy.
         We demonstrate its structure-preserving properties and high-order convergence on several benchmark examples.
