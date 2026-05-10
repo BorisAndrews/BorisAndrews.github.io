@@ -9,9 +9,9 @@ permalink: /publications/
 
 {% include publications/lists/1-papers.md %}
 
-### (Upcoming)
+<!-- ### (Upcoming) -->
 
-{% include publications/lists/2-upcoming.md %}
+<!-- {% include publications/lists/2-upcoming.md %} -->
 
 ## PREPRINTS
 
