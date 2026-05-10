@@ -85,7 +85,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 <br>
 
-<!-- ## [RECENT COLLABORATORS](/collaborators/)
+## [RECENT COLLABORATORS](/collaborators/)
 
 {% include gallery.md %}
 
@@ -99,8 +99,8 @@ My work generally focuses on **structure-preserving / compatible numerical metho
         <div class="caption"><a href="https://kaibohu.github.io/"><b>Kaibo Hu</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/alexei.jpeg' | relative_url }}" alt="Alexei Gazca">
-        <div class="caption"><a href="https://karlin.mff.cuni.cz/~gazca/home/"><b>Alexei Gazca</b></a>, <br> <a href="https://www.mff.cuni.cz/en/math/muuk/institute"><em>Charles University</em></a></div>
+        <img src="{{ '/assets/img/collaborators/ganghui.webp' | relative_url }}" alt="Ganghui Zhang">
+        <div class="caption"><a href="https://scholar.google.com/citations?user=DDKP7AgAAAAJ"><b>Ganghui Zhang</b></a>, <br> <a href="https://www.polyu.edu.hk/ama/"><em>Hong Kong Polytechnic University</em></a></div>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/mingdong.png' | relative_url }}" alt="Mingdong He">
@@ -112,7 +112,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 [View all](/collaborators/)
 
-<br> -->
+<br>
 
 ## [OXFORD FEM READING GROUP](/reading-group/)
 
