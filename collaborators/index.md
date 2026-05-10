@@ -9,6 +9,8 @@ permalink: /collaborators/
 
 ## {% include collaborators/patrick/full.md %}
 
+## {% include collaborators/ganghui/full.md %}
+
 ## {% include collaborators/mingdong/full.md %}
 
 ## {% include collaborators/kaibo/full.md %}
@@ -26,5 +28,3 @@ permalink: /collaborators/
 ## {% include collaborators/matin/full.md %}
 
 ## {% include collaborators/dennis/full.md %}
-
-## {% include collaborators/ganghui/full.md %}
