@@ -1,6 +1,6 @@
 ---
 title: GEOMETRIC FLOWS
-permalink: /publications/geometric-pdes/
+permalink: /publications/geometric-flows/
 ---
 
 # ARBITRARY-ORDER STRUCTURE-PRESERVING DISCRETIZATIONS FOR GEOMETRIC CURVATURE FLOWS
