@@ -107,8 +107,8 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 ## OTHER EXPERIENCE
 
-{% include experience/reading_group.md %}
 {% include experience/esi.md %}
+{% include experience/reading_group.md %}
 {% include experience/tokamak_energy.md %}
 {% include experience/summer_school.md %}
 <!-- {% include experience/perm.md %} -->
