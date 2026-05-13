@@ -38,18 +38,12 @@ permalink: /publications/geometric-flows/
     CHECK OUT ON ARXIV!
 </b></div> -->
 
-<!-- *We would both gladly discuss it further!*
+<!-- *We would gladly discuss it further!*
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a> -->
 
-<!-- ## RELATED WORKS
-
-As stated above, the construction of both the schemes in this manuscript employs the framework presented in my earlier work with {% include collaborators/patrick/short.md %}, on [conservative and dissipative finite element integrators](/publications/sp-integrators-a/). -->
+<!-- ## RELATED WORKS -->
 
 <!-- ## RELATED OPEN PROBLEMS
 
-{% include open-problems/title.md %}
-{% include open-problems/all/conservative-pdes.md %}
-{% include open-problems/all/dissipative-odes.md %}
-{% include open-problems/all/viscoelastic.md %}
-{% include open-problems/all/compressible-mhd.md %} -->
+{% include open-problems/title.md %} -->
