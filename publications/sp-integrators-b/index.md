@@ -148,7 +148,6 @@ As stated above, the construction of both the schemes in this manuscript employs
       <div class="info">
         <h3 class="title">2026</h3>
         <p><ul>
-          <li>SciCADE, <em>University of Edinburgh</em></li>
           <li>ECCOMAS WCCM, <em>Munich</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
           <li>Invited Seminar, <em>Chinese Academy of Sciences</em></li>

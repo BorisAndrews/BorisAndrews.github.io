@@ -9,6 +9,8 @@ permalink: /publications/geometric-flows/
 
 ### 28.NOV.2025 (arXiv) <code>&#124;</code> In review ({% include journals/sisc.md %})
 
+*The manuscript has been submitted to arXiv and is currently pending moderation; it will be made publicly available shortly.*
+
 <!-- {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
     CHECK OUT ON ARXIV!
