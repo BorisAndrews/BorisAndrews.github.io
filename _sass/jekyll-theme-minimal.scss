@@ -29,6 +29,25 @@ Social icons.
   }
 }
 
+header nav {
+  margin: 15px 0;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li { margin: 5px 0; }
+  a {
+    color: #578ACC;
+    font-weight: bold;
+    font-size: 13px;
+    &:hover, &:focus {
+      color: #3736EF;
+      font-weight: bold;
+    }
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#B3532A;
   margin:0 0 20px;
@@ -262,6 +281,10 @@ footer {
     position:absolute;
     right:50px;
     top:52px;
+  }
+
+  header nav ul {
+    position:static;
   }
 }
 
