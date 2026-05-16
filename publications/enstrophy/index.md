@@ -5,7 +5,7 @@ permalink: /publications/enstrophy/
 
 # ENSTROPHY-STABLE INTEGRATORS FOR THE INCOMPRESSIBLE NAVIER–STOKES EQUATIONS
 
-### Boris Andrews <code>&#124;</code> {% include collaborators/matin/short.md %}
+### Boris Andrews <code>&#124;</code> {% include collaborators/matin/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
 ### In preparation (Draft available on request)
 
@@ -23,6 +23,8 @@ This represents a particularly exciting **application of my earlier work** with 
 ## CO-AUTHORS
 
 ### {% include collaborators/matin/full.md %}
+
+### {% include collaborators/patrick/full.md %}
 
 ## VIDEOS
 
@@ -43,7 +45,8 @@ Check out my talk at the {% include conferences/2026/esi.md %} at the {% include
       <div class="info">
         <h3 class="title">2026</h3>
         <p><ul>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬇️ PAST ⬇️</strong></div>
+          <li>SciCADE, <em>University of Edinburgh</em></li>
+          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ FUTURE | PAST ⬇️</strong></div>
           <li>Programme on Differential Complexes, <em>Erwin Schrödinger International Institute (ESI), Vienna</em></li>
           <li>Workshop on Finite Element Tensor Calculus, <em>Tsinghua University</em></li>
         </ul></p>
