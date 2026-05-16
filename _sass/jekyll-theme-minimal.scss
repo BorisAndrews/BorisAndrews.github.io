@@ -166,10 +166,6 @@ kbd {
 header {
   width:270px;
   float:left;
-  position:sticky;
-  top:50px;
-  max-height:calc(100vh - 100px);
-  overflow-y:auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
