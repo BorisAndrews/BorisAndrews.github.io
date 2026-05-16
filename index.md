@@ -8,13 +8,10 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://www.esi.ac.at/events/e585/';">
-    <b>CURRENTLY IN VIENNA FOR THE ESI PROGRAMME ON DIFFERENTIAL COMPLEXES</b>
-</div>
-<!-- <div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/geometric-flows/';">
-    I RECENTLY SUBMITTED A PREPRINT WITH GANGHUI ZHANG AND PATRICK FARRELL ON STRUCTURE-PRESERVING METHODS FOR GEOMTERIC FLOWS <br><br>
+<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/geometric-flows/';">
+    I RECENTLY SUBMITTED A PREPRINT WITH GANGHUI ZHANG AND PATRICK FARRELL ON STRUCTURE-PRESERVING METHODS FOR GEOMETRIC FLOWS <br><br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
-</div> -->
+</div>
 
 <br>
 
@@ -68,7 +65,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ## UPCOMING
 
 ### 2026
-- **20.APR–15.MAY** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attending the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %}, where I will also give a talk on upcoming work on enstrophy stabilisation for Navier–Stokes, with {% include collaborators/patrick/short.md %} and {% include collaborators/matin/short.md %}
+- **20.APR–15.MAY** <code>&#124;</code> **ESI PROGRAMME** <code>&#124;</code> Attended the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %}, where I also gave a talk on upcoming work on enstrophy stabilisation for Navier–Stokes, with {% include collaborators/patrick/short.md %} and {% include collaborators/matin/short.md %}
 
 - **03–05.JUN** <code>&#124;</code> **FIREDRAKE** <code>&#124;</code> Planning to attend the {% include conferences/2026/firedrake.md %} at the {% include universities/oxford.md %}, where I will discuss the recent support for finite elements in time in Irksome with {% include collaborators/pablo/short.md %}, {% include collaborators/patrick/short.md %}, {% include collaborators/rob/short.md %} and {% include collaborators/scott/short.md %}
 
@@ -78,7 +75,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 - **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the [ECCOMAS World Congress on Computational Mechanics (WCCM)](https://wccm-eccomas2026.org/) at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, in the [minisymposium on space-time finite element discretisations](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c) on the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %}, where I will present [my work on conservative and dissipative integrators](/publications/sp-integrators-a/) with {% include collaborators/patrick/short.md %}
 
-- **14.SEP–18.DEC** <code>&#124;</code> **NACHDIPLOM** <code>&#124;</code> Visiting {% include universities/eth.md %} as co-editor of the {% include conferences/2026/nachdiplom.md %} on Finite Element Tensor Calculus with {% include collaborators/kaibo/short.md %}; contributed volume in preparation for publication
+- **14.SEP–18.DEC** <code>&#124;</code> **NACHDIPLOM** <code>&#124;</code> Visiting {% include universities/eth.md %} as co-editor of the {% include conferences/2026/nachdiplom.md %} on Finite Element Tensor Calculus with {% include collaborators/kaibo/short.md %} (contributed volume in preparation for publication)
 
 ### 2027
 - **18–23.APR** <code>&#124;</code> **OBERWOLFACH** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
