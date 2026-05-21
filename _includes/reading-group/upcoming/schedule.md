@@ -4,17 +4,15 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 01.MAY | *(Break...)* | |
-| 2 | 08.MAY | *(Break...)* | |
-| 3 | 15.MAY | *(Break...)* | |
-| 4 | 22.MAY | *(Break...)* | |
-| 5 | 29.MAY | *TBA...* | *TBA...* |
-| 6 | 05.JUN | *(Break...)* | |
-| 7 | 12.JUN | *TBA...* | *TBA...* |
-| 8 | 19.JUN | *TBA...* | *TBA...* |
+| 1 | 28.MAY | *(Break...)* | |
+| 2 | 05.MAY | *(Break...)* | |
+| 3 | 12.MAY | *(Break...)* | |
+| 4 | 19.MAY | *(Break...)* | |
+| 5 | 26.MAY | *(Break...)* | |
+| 6 | 02.JUN\* | *TBA...* | Me (Boris Andrews) |
+| 7 | 09.JUN\*\* | *TBA...* | *TBA...* |
+| 8 | 16.JUN\*\* | *TBA...* | *TBA...* |
 
-<!-- **Due to clashes, meetings marked with asterices will be in S1.37.* -->
-
-*We'll be on hiatus for the first half of term, since many of us will be at the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %}.*
+**Due to clashes, meetings marked with \* will be in S1.37; those marked with \*\* will be all the way in S0.29.*
 
 <!-- *Slides and notes can be found, when available, by clicking the topic titles.* -->
