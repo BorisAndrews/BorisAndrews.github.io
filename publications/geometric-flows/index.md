@@ -7,14 +7,12 @@ permalink: /publications/geometric-flows/
 
 ### {% include collaborators/ganghui/short.md %} <code>&#124;</code> Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### 28.NOV.2025 (arXiv) <code>&#124;</code> In review ({% include journals/sisc.md %})
+### 19.MAY.2026 ([arXiv](https://doi.org/10.48550/arXiv.2605.20371)) <code>&#124;</code> In review ({% include journals/sisc.md %})
 
-*The manuscript has been submitted to arXiv and is currently pending moderation; it will be made publicly available shortly.*
-
-<!-- {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
+{% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2605.20371';"><b>
     CHECK OUT ON ARXIV!
-</b></div> -->
+</b></div>
 
 > *[...] we present the first discretization of **geometric curvature flows** [...] that **preserves the evolution of area and volume** at **arbitrary order in space and time**. The key idea is to introduce **auxiliary variables** in a particular way so that the derivation of the area dissipation law can be replicated after discretization with continuous Petrov–Galerkin in time. [...] The proposed scheme also **preserves mesh quality** in the same manner as the **minimal deformation rate** strategy. [...]*
 
@@ -36,9 +34,9 @@ permalink: /publications/geometric-flows/
 
 *Details coming soon!*
 
-<!-- <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2605.20371';"><b>
     CHECK OUT ON ARXIV!
-</b></div> -->
+</b></div>
 
 <!-- *We would gladly discuss it further!*
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
