@@ -9,7 +9,7 @@
 | 3 | 12.MAY | *(Break...)* | |
 | 4 | 19.MAY | *(Break...)* | |
 | 5 | 26.MAY | *(Break...)* | |
-| 6 | 02.JUN\* | *TBA...* | Me (Boris Andrews) |
+| 6 | 02.JUN\* | *TBA...* | [Me (Boris Andrews)](/) |
 | 7 | 09.JUN\*\* | High-order spaces of differential forms ([Christiansen & Rapetti, 2016](/reading-group/references/#christiansen-rapetti-2016)) | {% include collaborators/olav/short.md %} |
 | 8 | 16.JUN\*\* | *TBA...* | *TBA...* |
 
