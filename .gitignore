@@ -8,3 +8,4 @@
 *.vtu
 *.csv
 *.synctex(busy)
+!**/CLAUDE.md
