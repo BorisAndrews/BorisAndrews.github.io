@@ -1,1 +1,1 @@
-Olav Tyssvang
+[Olav Tyssvang](https://karltyssvang.github.io/)
