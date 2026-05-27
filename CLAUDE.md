@@ -46,7 +46,7 @@ The site is data-driven via includes — avoid duplicating information by adding
 | `gallery.md` | Collaborator photo gallery |
 | `timeline.md` | CV timeline component |
 
-Usage in pages: `{% include collaborators/patrick/short.md %}`, `{% include journals/sisc.md %}`, etc.
+Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `collaborators/patrick/short.md`, `journals/sisc.md`.
 
 ## Style conventions
 
