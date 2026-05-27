@@ -16,9 +16,9 @@ permalink: /notebooks/
 
 ## CODE
 
+| [Material robustness](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/material_robustness.ipynb) |
 | [Enstrophy testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/enstrophy.ipynb) |
 | [Onsager testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/onsager.ipynb) |
 | [Stokes element testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/stokes_testing.ipynb) |
 | [Aaron's nightmare equations](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/nightmare_equations.ipynb) |
 | [Galerkin in time](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/galerkin_in_time.ipynb) |
-| [Material robustness testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/material_robustness.ipynb) |
