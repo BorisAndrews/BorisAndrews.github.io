@@ -27,6 +27,7 @@ No Makefile. Edit source files directly; compiled CSS is in `assets/css/` (do no
 | `open-problems/` | Open problems page |
 | `assets/img/` | Images (portrait, collaborator photos, favicon) |
 | `assets/pdf/` | PDF files |
+| `assets/ipynb/` | Jupyter notebooks, referenced from the private `notebooks/` page |
 
 ## `_includes/` structure
 
