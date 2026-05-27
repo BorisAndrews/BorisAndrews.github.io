@@ -79,3 +79,7 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 - `assets/css/` — compiled, regenerated on build.
 - `googleddcaaf3c3cd4feed.html` — Google Search Console verification file.
 - `sitemap.xml` — keep in sync with actual pages if edited manually.
+
+## Adding CLAUDE.md files
+
+Any new CLAUDE.md created inside this directory must be added to the `exclude` list in `_config.yml`. Jekyll processes all `.md` files it finds, and Liquid syntax in CLAUDE.md files will break the build. The current excludes are `CLAUDE.md` and `assets/ipynb/CLAUDE.md`.
