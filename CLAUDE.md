@@ -59,7 +59,7 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 - **Paper page pattern** (see `publications/geometric-flows/index.md` as canonical example):
   1. YAML front matter with `title` and `permalink`
   2. Full paper title as `# H1`
-  3. Authors line using `{% include collaborators/... %}` for co-authors
+  3. Authors line using Liquid include tags for co-authors (e.g. `collaborators/patrick/short.md`)
   4. Date + venue line
   5. Optional `highlight-box` for arXiv/DOI link
   6. Pull-quote abstract snippet in `> blockquote`
