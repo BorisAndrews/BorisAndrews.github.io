@@ -9,7 +9,7 @@
 | 3 | 12.MAY | *(Break...)* | |
 | 4 | 19.MAY | *(Break...)* | |
 | 5 | 26.MAY | *(Break...)* | |
-| 6 | 02.JUN\* | Material robustness in BGG ([Brubeck, Parker & Zerbinati, 2026](/reading-group/references/#brubeck-parker-zerbinati-2026); [Arnold & Hu, 2021](/reading-group/references/#arnold-hu-2021)) | [Me (Boris Andrews)](/) |
+| 6 | 02.JUN\* | [Material robustness in elasticity](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/material_robustness.ipynb) ([Brubeck, Parker & Zerbinati, 2026](/reading-group/references/#brubeck-parker-zerbinati-2026); [Arnold & Hu, 2021](/reading-group/references/#arnold-hu-2021)) | [Me (Boris Andrews)](/) |
 | 7 | 09.JUN\*\* | High-order spaces of differential forms ([Christiansen & Rapetti, 2016](/reading-group/references/#christiansen-rapetti-2016)) | {% include collaborators/olav/short.md %} |
 | 8 | 16.JUN\*\* | *TBA...* | *TBA...* |
 
