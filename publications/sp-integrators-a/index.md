@@ -208,6 +208,7 @@ For a neat and related application of these ideas to a problem in **magnetic rel
         <p><ul>
           <li>ECCOMAS WCCM, <em>Munich</em></li>
           <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
+          <li>Firedrake User Meeting, <em>University of Oxford</em></li>
           <li>Invited Seminar, <em>Chinese Academy of Sciences</em></li>
         </ul></p>
       </div>
