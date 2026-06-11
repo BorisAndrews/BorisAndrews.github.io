@@ -13,6 +13,6 @@
 | 7 | 09.JUN\*\* | [High-order spaces of differential forms](/assets/pdf/reading-group/olav/high-order.pdf) ([Christiansen & Rapetti, 2016](/reading-group/references/#christiansen-rapetti-2016)) | {% include collaborators/olav/short.md %} |
 | 8 | 16.JUN\*\*\* | *TBA...* | {% include collaborators/tom/short.md %} |
 
-**Due to clashes, meetings marked with \* will be in S1.37; those marked with \*\* will down in S0.29; those marked with \*\*\* will be all the way in N3.12.*
+**Due to clashes, meetings marked with \* will be in S1.37. Those marked with \*\* will down in S0.29. Those marked with \*\*\* will be all the way in N3.12.*
 
 <!-- *Slides and notes can be found, when available, by clicking the topic titles.* -->
