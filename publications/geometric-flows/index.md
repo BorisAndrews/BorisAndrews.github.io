@@ -65,7 +65,7 @@ A key insight of this work is that area and volume stability can be re-introduce
 
 This yields fully discrete, structure-preserving discretisations for MCF and SD at **arbitrary polynomial orders** in space and time;
 in particular, we impose practically no restrictions on the finite element spaces used.
-This strategy (using auxiliary variables and CPG to replicate preserve structures after discretisation) is taken directly from my **general framework** with {% include collaborators/patrick/short.md %}, described in an [earlier companion paper](/publications/sp-integrators-a/)
+This strategy (using auxiliary variables and CPG to replicate preserve structures after discretisation) is taken directly from my **general framework** with {% include collaborators/patrick/short.md %}, described in an [earlier companion paper](/publications/sp-integrators-a/).
 
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -83,7 +83,8 @@ This strategy (using auxiliary variables and CPG to replicate preserve structure
             &= -\int_{T_n} (\nabla_{\mathcal{M}} \mathbf{X},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}},
         \end{aligned}\]
 
-        for all \((y, \mathbf{Q}, s, \mathbf{\Lambda}) \in \mathbb{P}_{s-1}(T_n; \mathbb{V} \times \mathbb{V}^d \times \mathbb{V} \times \mathbb{V}^d)\). <br><br>
+        for all \((y, \mathbf{Q}, s, \mathbf{\Lambda}) \in \mathbb{P}_{s-1}(T_n; \mathbb{V} \times \mathbb{V}^d \times \mathbb{V} \times \mathbb{V}^d)\).
+        (Sorry I had to make the equations a little ugly to fit them into this box!)  <br><br>
 
         The MDR tangential motion is encoded in the \(p\) variable.
         The auxiliary variables \((\kappa, \mathbf{R})\) are introduced to preserve area dissipation;
