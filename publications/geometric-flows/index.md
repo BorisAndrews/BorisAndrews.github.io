@@ -76,7 +76,8 @@ This strategy (using auxiliary variables and CPG to replicate preserve structure
 
         \[\begin{aligned}
             \int_{T_n} (\dot{\mathbf{X}} \cdot \mathbf{n},\, y)_{\mathcal{M}} &= -\int_{T_n} (\kappa,\, y)_{\mathcal{M}}, \\
-            \int_{T_n} \big[(\nabla_{\mathcal{M}} \dot{\mathbf{X}},\, \nabla_{\mathcal{M}} \mathbf{Q})_{\mathcal{M}} + (p\mathbf{n},\, \mathbf{Q})_{\mathcal{M}}\big] &= 0, \\
+            \int_{T_n} \big[(\nabla_{\mathcal{M}} \dot{\mathbf{X}},\, \nabla_{\mathcal{M}} \mathbf{Q})_{\mathcal{M}} &+ (p\mathbf{n},\, \mathbf{Q})_{\mathcal{M}}\big]  \\
+            &= 0, \\
             \int_{T_n} (\mathbf{R} \cdot \mathbf{n},\, s)_{\mathcal{M}} &= 0, \\
             \int_{T_n} \big[(\nabla_{\mathcal{M}} \mathbf{R},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}} &+ (\kappa\,\mathbf{n},\, \mathbf{\Lambda})_{\mathcal{M}}\big]  \\
             &= -\int_{T_n} (\nabla_{\mathcal{M}} \mathbf{X},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}},
