@@ -120,7 +120,7 @@ a video!
 
 ## VIDEOS
 
-{% include collaborators/patrick/short.md %}'s opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (20.APR.2026) is primarily about the [general auxiliary variable framework](/publications/sp-integrators-a/), but briefly touches on geometric flows towards the end:
+{% include collaborators/patrick/short.md %}'s opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (20.APR.2026) is primarily about the [general auxiliary variable framework](/publications/sp-integrators-a/), but briefly touches on this work during the motivation:
 
 {% include video-container.md %}
 <div class="video-container">
