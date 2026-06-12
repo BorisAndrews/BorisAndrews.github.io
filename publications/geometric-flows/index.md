@@ -74,19 +74,22 @@ This strategy (using auxiliary variables and CPG to replicate preserve structure
         Over a given timestep \(T_n\), the \(s\)-stage MCF discretisation is defined as follows:
         Find \(\mathbf{X} \in \mathbb{P}_s(T_n; \mathbb{V}^d)\) satisfying initial data, and \((p, \mathbf{R}, \kappa) \in \mathbb{P}_{s-1}(T_n; \mathbb{V} \times \mathbb{V}^d \times \mathbb{V})\), satisfying: <br><br>
 
-        \[\int_{T_n} (\dot{\mathbf{X}} \cdot \mathbf{n},\, y)_{\mathcal{M}} = -\int_{T_n} (\kappa,\, y)_{\mathcal{M}},\]
-        \[\int_{T_n} \big[(\nabla_{\mathcal{M}} \dot{\mathbf{X}},\, \nabla_{\mathcal{M}} \mathbf{Q})_{\mathcal{M}} + (p\mathbf{n},\, \mathbf{Q})_{\mathcal{M}}\big] = 0,\]
-        \[\int_{T_n} (\mathbf{R} \cdot \mathbf{n},\, \sigma)_{\mathcal{M}} = 0,\]
-        \[\int_{T_n} \big[(\nabla_{\mathcal{M}} \mathbf{R},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}} + (\kappa\,\mathbf{n},\, \mathbf{\Lambda})_{\mathcal{M}}\big] = -\int_{T_n} (\nabla_{\mathcal{M}} \mathbf{X},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}},\]
+        \[\begin{aligned}
+            \int_{T_n} (\dot{\mathbf{X}} \cdot \mathbf{n},\, y)_{\mathcal{M}} &= -\int_{T_n} (\kappa,\, y)_{\mathcal{M}}, \\
+            \int_{T_n} \big[(\nabla_{\mathcal{M}} \dot{\mathbf{X}},\, \nabla_{\mathcal{M}} \mathbf{Q})_{\mathcal{M}} + (p\mathbf{n},\, \mathbf{Q})_{\mathcal{M}}\big] &= 0, \\
+            \int_{T_n} (\mathbf{R} \cdot \mathbf{n},\, \sigma)_{\mathcal{M}} &= 0, \\
+            \int_{T_n} \big[(\nabla_{\mathcal{M}} \mathbf{R},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}} + (\kappa\,\mathbf{n},\, \mathbf{\Lambda})_{\mathcal{M}}\big] & \\
+            &= -\int_{T_n} (\nabla_{\mathcal{M}} \mathbf{X},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}},
+        \end{aligned}\]
 
         for all \((y, \mathbf{Q}, \sigma, \mathbf{\Lambda}) \in \mathbb{P}_{s-1}(T_n; \mathbb{V} \times \mathbb{V}^d \times \mathbb{V} \times \mathbb{V}^d)\). <br><br>
 
         The MDR tangential motion is encoded in the \(p\) variable.
-        The auxiliary variables \((\kappa, \mathbf{R})\) are introduced to preserve are dissipation;
-        for further motivation for the introduction of these variables, see the manuscript. <br><br>
+        The auxiliary variables \((\kappa, \mathbf{R})\) are introduced to preserve area dissipation;
+        for further discussion about why these variables are necessary, see the manuscript. <br><br>
         
         The SD scheme is practically identical, the difference being a modified first equation in which \((\nabla_{\mathcal{M}} \kappa,\, \nabla_{\mathcal{M}} y)_{\mathcal{M}}\) replaces \((\kappa, y)_{\mathcal{M}}\).
-        Volume conservation follows immediately from testing with \(y = 1\).
+        Volume conservation then follows immediately from testing with \(y = 1\).
     </div>
 </div>
 
@@ -97,9 +100,9 @@ The key innovations in our work lie in:
 
 ### Numerical results
 
-Several benchmark problems in the manuscript confirm both the structure-preserving properties and the expected convergence rates.
+Several benchmark problems in the manuscript confirm both the structure-preserving properties and the expected convergence rates, including SD on an \(8 \times 1 \times 1\) cuboid.
 Here's something that's not in the manuscript though:
-A video of SD on an \(8 \times 1 \times 1\) cuboid.
+a video!
 
 <video controls style="width: 100%; height: auto;">
     <source src="assets/vid/cuboid.mp4" type="video/mp4">
