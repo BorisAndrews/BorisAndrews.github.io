@@ -100,7 +100,7 @@ The key innovations in our work lie in:
 
 ### Numerical results
 
-Several benchmark problems in the manuscript confirm both the structure-preserving properties and the expected convergence rates, including SD on an \(8 \times 1 \times 1\) cuboid.
+Several benchmark problems in the manuscript confirm both the structure-preserving properties and the expected convergence rates, including SD on an 8x1x1 cuboid.
 Here's something that's not in the manuscript though:
 a video!
 
