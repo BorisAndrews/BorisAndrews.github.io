@@ -36,3 +36,5 @@ theme: jekyll-theme-minimal
 exclude:
   - CLAUDE.md
   - assets/ipynb/CLAUDE.md
+  - cv/CLAUDE.md
+  - cv/assets/pdf/CLAUDE.md

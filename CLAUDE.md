@@ -82,4 +82,4 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 
 ## Adding CLAUDE.md files
 
-Any new CLAUDE.md created inside this directory must be added to the `exclude` list in `_config.yml`. Jekyll processes all `.md` files it finds, and Liquid syntax in CLAUDE.md files will break the build. The current excludes are `CLAUDE.md` and `assets/ipynb/CLAUDE.md`.
+Any new CLAUDE.md created inside this directory must be added to the `exclude` list in `_config.yml`. Jekyll processes all `.md` files it finds, and Liquid syntax in CLAUDE.md files will break the build. The current excludes are `CLAUDE.md`, `assets/ipynb/CLAUDE.md`, `cv/CLAUDE.md`, and `cv/assets/pdf/CLAUDE.md`.
