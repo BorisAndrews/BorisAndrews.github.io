@@ -77,12 +77,12 @@ This strategy (using auxiliary variables and CPG to replicate preserve structure
         \[\begin{aligned}
             \int_{T_n} (\dot{\mathbf{X}} \cdot \mathbf{n},\, y)_{\mathcal{M}} &= -\int_{T_n} (\kappa,\, y)_{\mathcal{M}}, \\
             \int_{T_n} \big[(\nabla_{\mathcal{M}} \dot{\mathbf{X}},\, \nabla_{\mathcal{M}} \mathbf{Q})_{\mathcal{M}} + (p\mathbf{n},\, \mathbf{Q})_{\mathcal{M}}\big] &= 0, \\
-            \int_{T_n} (\mathbf{R} \cdot \mathbf{n},\, \sigma)_{\mathcal{M}} &= 0, \\
-            \int_{T_n} \big[(\nabla_{\mathcal{M}} \mathbf{R},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}} + (\kappa\,\mathbf{n},\, \mathbf{\Lambda})_{\mathcal{M}}\big] & \\
+            \int_{T_n} (\mathbf{R} \cdot \mathbf{n},\, s)_{\mathcal{M}} &= 0, \\
+            \int_{T_n} \big[(\nabla_{\mathcal{M}} \mathbf{R},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}} &+ (\kappa\,\mathbf{n},\, \mathbf{\Lambda})_{\mathcal{M}}\big]  \\
             &= -\int_{T_n} (\nabla_{\mathcal{M}} \mathbf{X},\, \nabla_{\mathcal{M}} \mathbf{\Lambda})_{\mathcal{M}},
         \end{aligned}\]
 
-        for all \((y, \mathbf{Q}, \sigma, \mathbf{\Lambda}) \in \mathbb{P}_{s-1}(T_n; \mathbb{V} \times \mathbb{V}^d \times \mathbb{V} \times \mathbb{V}^d)\). <br><br>
+        for all \((y, \mathbf{Q}, s, \mathbf{\Lambda}) \in \mathbb{P}_{s-1}(T_n; \mathbb{V} \times \mathbb{V}^d \times \mathbb{V} \times \mathbb{V}^d)\). <br><br>
 
         The MDR tangential motion is encoded in the \(p\) variable.
         The auxiliary variables \((\kappa, \mathbf{R})\) are introduced to preserve area dissipation;
@@ -117,6 +117,15 @@ a video!
 - <a href="mailto:ganghui.zhang@polyu.edu.hk">ganghui.zhang@polyu.edu.hk</a>
 - <a href="mailto:boris.andrews@maths.ox.ac.uk">boris.andrews@maths.ox.ac.uk</a>
 - <a href="mailto:patrick.farrell@maths.ox.ac.uk">patrick.farrell@maths.ox.ac.uk</a>
+
+## VIDEOS
+
+{% include collaborators/patrick/short.md %}'s opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (20.APR.2026) is primarily about the [general auxiliary variable framework](/publications/sp-integrators-a/), but briefly touches on geometric flows towards the end:
+
+{% include video-container.md %}
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/6Q2foG1AyPI" frameborder="0" allowfullscreen></iframe>
+</div><br>
 
 ## RELATED WORKS
 
