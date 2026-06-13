@@ -10,3 +10,6 @@
 
 - **S. H. Christiansen** and **F. Rapetti**, On high order finite element spaces of differential forms, *Mathematics of Computation*, 85.298 (2016), [doi:10.1090/mcom/3002](https://doi.org/10.1090/mcom/3002)
   {: #christiansen-rapetti-2016}
+
+- **R. C. Kirby** and **L. Mitchell**, Code generation for generally mapped finite elements, *ACM Transactions on Mathematical Software*, 45.4 (2019), [doi:10.1145/3361745](https://doi.org/10.1145/3361745)
+  {: #kirby-mitchell-2019}
