@@ -1,6 +1,7 @@
 <!--
 - Finite element systems, and why we split
 - Exotic complexes (Stokes complexes, the BGG construction (Incl. the isomorphism of symmetric trace-free matrices to complex numbers in 2D), and why you should care)
+- Supersmoothness (incl. the nice big triangle dot diagrams)
 - Trimming, enhanced smoothness, and Alfeld–Sorokina
 - Lie advection equations, and their topology-preserving properties
 - HDG/Static condensation
