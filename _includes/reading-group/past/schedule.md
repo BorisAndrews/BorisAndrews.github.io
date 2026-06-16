@@ -30,4 +30,17 @@ For prior years, see {% include collaborators/charlie/short.md %}'s page [here](
 | 7 | 06.MAR | [Unfitted FEM](/assets/pdf/reading-group/xinpei/unfitted-fem.pdf) ([Nitsche, 1972](/reading-group/past/references/#nitsche-1972); [Hansbo & Hansbo, 2002](/reading-group/past/references/#hansbo-hansbo-2002); [Burman, 2010](/reading-group/past/references/#burman-2010); [Burman et al., 2025](/reading-group/past/references/#burman-et-al-2025)) | Xinpei Zhang |
 | 8 | 13.MAR | Contact manifolds ([Arnold, 1989](/reading-group/past/references/#arnold-1989); [Rumin, 1994](/reading-group/past/references/#rumin-1994)) | {% include collaborators/yuechen/short.md %} |
 
+*Trinity term*
+
+| Week | Date | Topic | Presenter |
+| --- | --- | --- | --- |
+| 1 | 28.MAY | *(Break...)* | |
+| 2 | 05.MAY | *(Break...)* | |
+| 3 | 12.MAY | *(Break...)* | |
+| 4 | 19.MAY | *(Break...)* | |
+| 5 | 26.MAY | *(Break...)* | |
+| 6 | 02.JUN | [Material robustness in elasticity](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/material_robustness.ipynb) ([Brubeck, Parker & Zerbinati, 2026](/reading-group/references/#brubeck-parker-zerbinati-2026); [Arnold & Hu, 2021](/reading-group/references/#arnold-hu-2021)) | [Me (Boris Andrews)](/) |
+| 7 | 09.JUN | [High-order spaces of differential forms](/assets/pdf/reading-group/olav/high-order.pdf) ([Christiansen & Rapetti, 2016](/reading-group/references/#christiansen-rapetti-2016)) | {% include collaborators/olav/short.md %} |
+| 8 | 16.JUN | C¹ elements and the biharmonic problem ([Kirby & Mitchell, 2019](/reading-group/references/#kirby-mitchell-2019)) | {% include collaborators/tom/short.md %} |
+
 *Slides and notes can be found, when available, by clicking the topic titles.*
