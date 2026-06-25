@@ -8,8 +8,8 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/geometric-flows/';">
-    I RECENTLY SUBMITTED A PREPRINT WITH GANGHUI ZHANG AND PATRICK FARRELL ON STRUCTURE-PRESERVING METHODS FOR GEOMETRIC FLOWS <br><br>
+<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/irksome-galerkin/';">
+    I RECENTLY SUBMITTED A PAPER WITH PABLO BRUBECK, PATRICK FARRELL, ROB KIRBY AND SCOTT MACLACHLAN ON GALERKIN TIME STEPPING IN FIREDRAKE <br><br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
