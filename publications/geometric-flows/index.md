@@ -7,7 +7,7 @@ permalink: /publications/geometric-flows/
 
 ### {% include collaborators/ganghui/short.md %} <code>&#124;</code> Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### 19.MAY.2026 ([arXiv](https://doi.org/10.48550/arXiv.2605.20371)) <code>&#124;</code> In review ({% include journals/sisc.md %})
+### MAY.2026 ([arXiv](https://doi.org/10.48550/arXiv.2605.20371)) <code>&#124;</code> In review ({% include journals/sisc.md %})
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2605.20371';"><b>
@@ -122,7 +122,7 @@ a video!
 
 ## VIDEOS
 
-{% include collaborators/patrick/short.md %}'s opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (20.APR.2026) is primarily about the [general auxiliary variable framework](/publications/sp-integrators-a/), but briefly touches on this work during the motivation:
+{% include collaborators/patrick/short.md %}'s opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (APR.2026) is primarily about the [general auxiliary variable framework](/publications/sp-integrators-a/), but briefly touches on this work during the motivation:
 
 {% include video-container.md %}
 <div class="video-container">

@@ -7,7 +7,7 @@ permalink: /publications/parker/
 
 ### {% include collaborators/mingdong/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/kaibo/short.md %} <code>&#124;</code> Boris Andrews
 
-### 20.JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654)) <code>&#124;</code> 30.APR.2026 ([SISC](https://doi.org/10.1137/25M1727540))
+### JAN.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654)) <code>&#124;</code> APR.2026 ([SISC](https://doi.org/10.1137/25M1727540))
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.1137/25M1727540';"><b>
@@ -116,7 +116,7 @@ We hope our work can both **motivate the use of conservative/structure-preservin
 
 ## VIDEOS
 
-You can find some discussion of this work in Patrick's **Langtangen Seminar** (22.APR.2025) at [Simula](https://www.simula.no/), on our [earlier more general work on geometric numerical integrators](/publications/sp-integrators-a/), below:
+You can find some discussion of this work in Patrick's **Langtangen Seminar** (APR.2025) at [Simula](https://www.simula.no/), on our [earlier more general work on geometric numerical integrators](/publications/sp-integrators-a/), below:
 
 {% include video-container.md %}
 <div class="video-container">

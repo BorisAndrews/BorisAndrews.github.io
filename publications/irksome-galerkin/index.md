@@ -7,7 +7,7 @@ permalink: /publications/irksome-galerkin/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/pablo/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/rob/short.md %} <code>&#124;</code> {% include collaborators/scott/short.md %}
 
-### 25.JUN.2026 ([arXiv](https://doi.org/10.48550/arXiv.2606.27300)) <code>&#124;</code> In review ({% include journals/sisc.md %})
+### JUN.2026 ([arXiv](https://doi.org/10.48550/arXiv.2606.27300)) <code>&#124;</code> In review ({% include journals/sisc.md %})
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2606.27300';"><b>

@@ -7,7 +7,7 @@ permalink: /publications/sp-integrators-a/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### 29.APR.2025 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904)) <code>&#124;</code> 31.DEC.2025 ([SISC](https://doi.org/10.1137/25M1756673))
+### APR.2025 ([arXiv](https://doi.org/10.48550/arXiv.2407.11904)) <code>&#124;</code> DEC.2025 ([SISC](https://doi.org/10.1137/25M1756673))
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.1137/25M1756673';"><b>
@@ -155,14 +155,14 @@ If you're looking to build simulations that are both simple and physically meani
 
 ## VIDEOS
 
-Check out Patrick's opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (20.APR.2026) below:
+Check out Patrick's opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (APR.2026) below:
 
 {% include video-container.md %}
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/6Q2foG1AyPI" frameborder="0" allowfullscreen></iframe>
 </div><br>
 
-You can find his earlier **Langtangen seminar** (22.APR.2025) at [Simula](https://www.simula.no/) [here](https://www.youtube.com/watch?v=wfFcZsxicw0), and **ACM Colloquium** (13.NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
+You can find his earlier **Langtangen seminar** (APR.2025) at [Simula](https://www.simula.no/) [here](https://www.youtube.com/watch?v=wfFcZsxicw0), and **ACM Colloquium** (NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
 
 ## RELATED WORKS
 

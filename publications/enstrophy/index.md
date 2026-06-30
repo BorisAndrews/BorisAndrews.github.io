@@ -28,7 +28,7 @@ This represents a particularly exciting **application of my earlier work** with 
 
 ## VIDEOS
 
-Check out my talk at the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %} (06.MAY.2026) below:
+Check out my talk at the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %} (MAY.2026) below:
 
 {% include video-container.md %}
 <div class="video-container">

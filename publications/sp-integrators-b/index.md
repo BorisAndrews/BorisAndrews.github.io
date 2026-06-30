@@ -7,7 +7,7 @@ permalink: /publications/sp-integrators-b/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### 28.NOV.2025 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) <code>&#124;</code> In review ({% include journals/camwa.md %})
+### NOV.2025 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) <code>&#124;</code> In review ({% include journals/camwa.md %})
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
@@ -117,14 +117,14 @@ Preserving these properties is *crucial for accurately capturing the dynamics of
 
 ## VIDEOS
 
-Check out Patrick's opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (20.APR.2026) below:
+Check out Patrick's opening lecture for the {% include conferences/2026/esi.md %} at the {% include universities/vienna.md %} (APR.2026) below:
 
 {% include video-container.md %}
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/6Q2foG1AyPI" frameborder="0" allowfullscreen></iframe>
 </div><br>
 
-You can find his earlier **Langtangen seminar** (22.APR.2025) at [Simula](https://www.simula.no/) [here](https://www.youtube.com/watch?v=wfFcZsxicw0), and **ACM Colloquium** (13.NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
+You can find his earlier **Langtangen seminar** (APR.2025) at [Simula](https://www.simula.no/) [here](https://www.youtube.com/watch?v=wfFcZsxicw0), and **ACM Colloquium** (NOV.2024) at the {% include universities/edinburgh.md %} and {% include universities/heriot-watt.md %} [here](https://media.ed.ac.uk/media/13+11+2024+Patrick+Farrell+%28Oxford%29%3A+Designing+conservative+and+accurately+dissipative+numerical+integrators+in+time/1_o19b1nuj/245536282).
 
 ## RELATED WORKS
 
