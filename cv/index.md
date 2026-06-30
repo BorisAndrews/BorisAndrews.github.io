@@ -66,6 +66,8 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 <!-- ### {% include universities/oxford.md %} (2021–2025) -->
 
+- **2026–2027** <code>&#124;</code> Lecturer: *Mixed Finite Element Methods and Finite Element Complexes* (Graduate course at the [Taught Course Centre](https://www.maths.ox.ac.uk/groups/tcc))
+- **2024–2025** <code>&#124;</code> Tutor: [*Computational Mathematics*](https://courses.maths.ox.ac.uk/course/view.php?id=5471)
 - **2024–2025** <code>&#124;</code> Tutor: [*Computational Mathematics*](https://courses.maths.ox.ac.uk/course/view.php?id=5471)
 - **2023–2024** <code>&#124;</code> Tutor: *Prelims corner* / Teaching assistant: [*Numerical Linear Algebra*](https://courses.maths.ox.ac.uk/course/view.php?id=5024)
 - **2021–2022** <code>&#124;</code> Tutor: [*Analysis I*](https://courses.maths.ox.ac.uk/course/view.php?id=48) / Teaching assistant: [*Random Matrix Theory*](https://courses.maths.ox.ac.uk/course/view.php?id=160)
