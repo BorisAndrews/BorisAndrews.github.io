@@ -45,7 +45,7 @@ Check out my talk at the {% include conferences/2026/esi.md %} at the {% include
       <div class="info">
         <h3 class="title">2026</h3>
         <p><ul>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ FUTURE | PAST ⬇️</strong></div>
+          <div style="text-align: center; padding: 10px 0;"><strong>PAST ⬇️</strong></div>
           <li>SciCADE, <em>University of Edinburgh</em></li>
           <li>Programme on Differential Complexes, <em>Erwin Schrödinger International Institute (ESI), Vienna</em></li>
           <li>Workshop on Finite Element Tensor Calculus, <em>Tsinghua University</em></li>
