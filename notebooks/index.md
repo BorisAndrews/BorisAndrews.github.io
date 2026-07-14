@@ -17,6 +17,7 @@ permalink: /notebooks/
 
 ## CODE
 
+| [Ferrofluids](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/ferrofluids.ipynb) |
 | [Material robustness](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/material_robustness.ipynb) |
 | [Enstrophy testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/enstrophy.ipynb) |
 | [Onsager testing](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/code/onsager.ipynb) |
