@@ -71,7 +71,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ### 2027
 - **18–23.APR** <code>&#124;</code> **OBERWOLFACH** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
-- 
+
 - **APR–JUN** <code>&#124;</code> **TCC COURSE** <code>&#124;</code> Delivering a 16-hour graduate course on *Mixed Finite Element Methods and Finite Element Complexes* at the {% include universities/tcc.md %}
 
 - **05–09.JUL** <code>&#124;</code> **ICOSAHOM** <code>&#124;</code> Planning to attend {% include conferences/2027/icosahom.md %} at the {% include universities/milan.md %}, where I will be speaking in the minisymposium on material robustness organised by {% include collaborators/charlie/short.md %} and {% include collaborators/umberto/short.md %}
