@@ -207,7 +207,6 @@ For a neat and related application of these ideas to a problem in **magnetic rel
         <h3 class="title">2026</h3>
         <p><ul>
           <li>ECCOMAS WCCM, <em>Munich</em></li>
-          <div style="text-align: center; padding: 10px 0;"><strong>⬆️ UPCOMING | PAST ⬇️</strong></div>
           <li>Invited Seminar, <em>Chinese Academy of Sciences</em></li>
         </ul></p>
       </div>

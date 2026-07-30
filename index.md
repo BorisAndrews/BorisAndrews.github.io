@@ -65,8 +65,6 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ## UPCOMING
 
 ### 2026
-- **19–24.JUL** <code>&#124;</code> **ECCOMAS** <code>&#124;</code> Attending the [ECCOMAS World Congress on Computational Mechanics (WCCM)](https://wccm-eccomas2026.org/) at the [ICM International Congress Center Messe München](https://locations.messe-muenchen.de/en/icm/) in Munich, thanks to the kind invite of {% include collaborators/nils/short.md %} and {% include collaborators/peter/short.md %} <!-- where I will be presenting [my work on conservative and dissipative integrators](/publications/sp-integrators-a/) with {% include collaborators/patrick/short.md %} in the [minisymposium on space-time finite element discretisations](https://wccm-eccomas2026.org/event/area/85770903-ab83-11f0-bce5-000c29ddfc0c), -->
-
 - **14.SEP–18.DEC** <code>&#124;</code> **NACHDIPLOM** <code>&#124;</code> Visiting {% include universities/eth.md %} as co-editor of the {% include conferences/2026/nachdiplom.md %} on Finite Element Tensor Calculus with {% include collaborators/kaibo/short.md %} (contributed volume in preparation for publication)
 
 ### 2027
