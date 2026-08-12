@@ -4,9 +4,9 @@ Jekyll academic portfolio. Theme: `jekyll-theme-minimal` (heavily customised).
 
 ## Build
 
-```
-bundle exec jekyll serve   # local preview at localhost:4000
-```
+**There is no local build.** The repo has no `Gemfile` and no `_site/`, and Jekyll is not installed on this machine — `bundle exec jekyll serve` fails with "Could not locate Gemfile". The site is built and deployed by GitHub Pages on push to `main`.
+
+So changes cannot be previewed locally as things stand. Verify by inspection instead: every `{% include %}` path you write must correspond to an existing file under `_includes/` (a missing include is a hard build failure on Pages). The one thing that *is* locally buildable is the PDF CV — see `cv/assets/pdf/CLAUDE.md`.
 
 No Makefile. Edit source files directly; compiled CSS is in `assets/css/` (do not edit — regenerated from `_sass/`).
 
@@ -36,7 +36,7 @@ The site is data-driven via includes — avoid duplicating information by adding
 | Subdirectory | Content |
 |---|---|
 | `collaborators/<name>/full.md` + `short.md` | Collaborator profile (full and inline versions) |
-| `conferences/<name>.md` | Conference entry |
+| `conferences/<year>/<name>.md` | Conference entry, filed under the year it happens |
 | `publications/` | Publication lists by status (papers, review, drafts, other) |
 | `journals/<abbrev>.md` | Journal name/link |
 | `organisations/` | Funding bodies, universities |
@@ -72,7 +72,11 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 
 **New collaborator**: add `_includes/collaborators/<name>/short.md` and `full.md`; optionally add photo to `assets/img/collaborators/`.
 
-**New conference**: add `_includes/conferences/<name>.md` and include it in `index.md`.
+**New conference**: add `_includes/conferences/<year>/<name>.md` (one line: the linked event name, or plain text if it has no site yet) and include it wherever it is referenced — the `UPCOMING` list in `index.md`, the TALKS lines in `cv/index.md`, or a publication page.
+
+**New person**: `_includes/collaborators/<firstname>/short.md`, one line, `[Full Name](link)`. `full.md`, a photo under `assets/img/collaborators/` and an entry on `collaborators/index.md` are only for genuine research collaborators — people who appear merely as organisers or co-hosts (the Oberwolfach organisers, the GeoFEM workshop co-organisers) get `short.md` alone.
+
+**New organised event**: an event Boris co-organises goes in three places — the `UPCOMING` list in `index.md`, `_includes/minisymposia/<name>.md` for the CV page's HOSTED WORKSHOPS & MINISYMPOSIA section, and a matching `\cventry` in `cv/assets/pdf/components/minisymposia.tex` (the PDF CV duplicates the content in raw LaTeX with hardcoded `\href`s — it shares no includes with the site, so it must be edited by hand and rebuilt).
 
 ## What not to touch
 

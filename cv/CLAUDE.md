@@ -30,11 +30,15 @@ Sections in order:
 | TEACHING | Inline markdown (no include) |
 | SUPERVISION | `_includes/supervision/<name>.md` |
 | TALKS | Inline markdown using `_includes/conferences/` and `_includes/universities/` |
-| HOSTED MINISYMPOSIA | `_includes/minisymposia/<name>.md` |
+| HOSTED WORKSHOPS & MINISYMPOSIA | `_includes/minisymposia/<name>.md` |
 | OTHER EXPERIENCE | `_includes/experience/<name>.md` |
 | LANGUAGES | Inline markdown (no include) |
 
 Publications lists are shared with the main publications page (`_includes/publications/lists/`); updating a list file updates both pages.
+
+The `_includes/minisymposia/` directory is broader than its name: it backs the
+HOSTED WORKSHOPS & MINISYMPOSIA section, so organised workshops live there too
+(`geofem.md`). Don't add a parallel `_includes/workshops/`.
 
 ## Visual conventions
 

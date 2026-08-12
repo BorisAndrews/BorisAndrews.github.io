@@ -48,7 +48,10 @@ Dates are plain strings, e.g. `2025 -- 2027 \emph{(predicted)}` or `30 Apr 2026`
 
 Sections use `\section{\textsc{...}}`, subsections use `\subsection{...}` (plain or `\small{\textcolor{color0}{...}}` for parenthetical labels like "(In review)").
 `\vspace{0mm}` and `\vspace{1mm}` are used between entries for spacing.
-`\newpage` separates the three physical pages: page 1 (employment–prizes), page 2 (publications–supervision), page 3 (presentations–languages).
+
+Three explicit `\newpage`s in `cv.tex` divide it into four blocks: employment–teaching, supervision–publications, presentations, then minisymposia–languages. The CV currently runs to **four** pages, and the last block overflows onto its own extra page, so page breaks no longer line up with the blocks. Check the page count after adding an entry (`Output written on cv.pdf (N pages…)`) if length matters — but don't assume three.
+
+Note `prizes.tex` and `references.tex` are commented out in `cv.tex`; they are not in the PDF.
 
 ## Component files
 
@@ -64,7 +67,7 @@ Each section is a separate file under `components/`; order in `cv.tex` determine
 | `teaching.tex` | Teaching |
 | `supervision.tex` | Supervision |
 | `presentations.tex` | Talks (invited & other) |
-| `minisymposia.tex` | Hosted Minisymposia |
+| `minisymposia.tex` | Hosted Workshops & Minisymposia (organised workshops go here too) |
 | `experience.tex` | Other Experience |
 | `languages.tex` | Languages |
 | `references.tex` | References (commented out in cv.tex) |
