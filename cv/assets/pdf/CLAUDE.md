@@ -29,6 +29,20 @@ Build artefacts (`*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out`, `*.synctex
 | `color2` | `#B2B2B2` (grey) | Footer |
 | `linkcolour` | `#4C72B0` (seabornblue) | Hyperlinks |
 
+### The `\definecolor` block must come BEFORE `\moderncvstyle`
+
+This is order-sensitive and fails silently. `moderncvstyleclassic.sty` snapshots the scheme colours the moment it loads:
+
+```latex
+\colorlet{sectioncolor}{color1}   % and bodyrulecolor, namecolor, titlecolor, …
+```
+
+`\colorlet` copies the *current value*; it is not an alias. And `moderncv.cls` initialises `color0`–`color3` to **black**. So if `\definecolor{color1}{...}` comes after `\moderncvstyle{classic}`, the section headings and rules are already frozen black, and the CV builds clean but comes out looking greyscale — only the things that use `\textcolor{color1}` at point of use (the itemize bullets) stay red.
+
+This bit in Aug 2026 on a new machine: it was latent for years because older moderncv did not use `\colorlet` here. Fixed by moving the `\definecolor` block above `\moderncvstyle` (moderncv 2.5.1, TeX Live 2026). Do not reorder it back.
+
+Hyperlinks are unaffected either way — `linkcolour` is resolved by hyperref at use time, so blue links surviving while headings go black is the diagnostic signature of this bug, not evidence that colour is fine.
+
 ## Entry macro
 
 All CV entries use `\cventry`:
@@ -49,7 +63,7 @@ Dates are plain strings, e.g. `2025 -- 2027 \emph{(predicted)}` or `30 Apr 2026`
 Sections use `\section{\textsc{...}}`, subsections use `\subsection{...}` (plain or `\small{\textcolor{color0}{...}}` for parenthetical labels like "(In review)").
 `\vspace{0mm}` and `\vspace{1mm}` are used between entries for spacing.
 
-Three explicit `\newpage`s in `cv.tex` divide it into four blocks: employment–teaching, supervision–publications, presentations, then minisymposia–languages. The CV currently runs to **four** pages, and the last block overflows onto its own extra page, so page breaks no longer line up with the blocks. Check the page count after adding an entry (`Output written on cv.pdf (N pages…)`) if length matters — but don't assume three.
+Three explicit `\newpage`s in `cv.tex` divide it into four blocks, one page each, so the CV is **four** pages: employment–teaching, supervision–publications, presentations, then minisymposia–languages. (An older note here said three; a block has been added since.) Each block currently fits its page with little room, so check `Output written on cv.pdf (N pages…)` after adding an entry — a spill shows up as a fifth page.
 
 Note `prizes.tex` and `references.tex` are commented out in `cv.tex`; they are not in the PDF.
 

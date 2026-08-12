@@ -102,8 +102,9 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 *(\*upcoming)*
 
-## HOSTED MINISYMPOSIA
+## HOSTED WORKSHOPS & MINISYMPOSIA
 
+{% include minisymposia/geofem.md %}
 {% include minisymposia/scicade.md %}
 {% include minisymposia/strathclyde.md %}
 
