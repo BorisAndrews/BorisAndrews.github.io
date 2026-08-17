@@ -104,7 +104,7 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 ## HOSTED WORKSHOPS & MINISYMPOSIA
 
-{% include minisymposia/geofem.md %}
+{% include minisymposia/fetc.md %}
 {% include minisymposia/scicade.md %}
 {% include minisymposia/strathclyde.md %}
 

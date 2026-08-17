@@ -1,2 +1,2 @@
-- **MAY.2027** <code>&#124;</code> {% include conferences/2027/geofem.md %}, *{% include universities/oxford.md %}*
+- **MAY.2027** <code>&#124;</code> {% include conferences/2027/fetc.md %}, *{% include universities/oxford.md %}*
   - **CO-ORGANISERS** <code>&#124;</code> {% include collaborators/kaibo/short.md %}, {% include collaborators/jiajia/short.md %}, {% include collaborators/puchun/short.md %}

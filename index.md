@@ -72,7 +72,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 - **APR–JUN** <code>&#124;</code> **TCC COURSE** <code>&#124;</code> Delivering a 16-hour graduate course on *Mixed Finite Element Methods and Finite Element Complexes* at the {% include universities/tcc.md %}
 
-- **24–27.MAY** <code>&#124;</code> **GEOFEM WORKSHOP** <code>&#124;</code> Co-organising the {% include conferences/2027/geofem.md %} at the {% include universities/oxford.md %}, alongside {% include collaborators/kaibo/short.md %}, {% include collaborators/jiajia/short.md %} and {% include collaborators/puchun/short.md %}
+- **24–27.MAY** <code>&#124;</code> **FETC WORKSHOP** <code>&#124;</code> Co-organising the {% include conferences/2027/fetc.md %} at the {% include universities/oxford.md %}, alongside {% include collaborators/kaibo/short.md %}, {% include collaborators/jiajia/short.md %} and {% include collaborators/puchun/short.md %}
 
 - **28–29.MAY** <code>&#124;</code> **EFEF** <code>&#124;</code> Planning to attend the {% include conferences/2027/fe_fair.md %}, held at the {% include universities/oxford.md %}
 

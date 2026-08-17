@@ -1,1 +1,0 @@
-[ERC Workshop on Finite Element Tensor Calculus](/geofem-workshop/)

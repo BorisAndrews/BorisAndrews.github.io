@@ -38,7 +38,7 @@ Publications lists are shared with the main publications page (`_includes/public
 
 The `_includes/minisymposia/` directory is broader than its name: it backs the
 HOSTED WORKSHOPS & MINISYMPOSIA section, so organised workshops live there too
-(`geofem.md`). Don't add a parallel `_includes/workshops/`.
+(`fetc.md`). Don't add a parallel `_includes/workshops/`.
 
 ## Visual conventions
 

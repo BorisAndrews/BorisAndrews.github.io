@@ -1,6 +1,6 @@
 ---
-title: GEOFEM WORKSHOP
-permalink: /geofem-workshop/
+title: FETC WORKSHOP
+permalink: /fetc-workshop/
 ---
 
 # FINITE ELEMENT TENSOR CALCULUS: DISCRETE STRUCTURES AND COMPATIBLE DISCRETIZATIONS
@@ -10,7 +10,7 @@ permalink: /geofem-workshop/
 In May, {% include collaborators/kaibo/short.md %}, {% include collaborators/jiajia/short.md %}, {% include collaborators/puchun/short.md %} and I will be hosting a workshop, here at the {% include universities/oxford.md %}, exploring common structures arising in **finite element exterior and tensor calculus**, **discrete differential geometry**, **differential complexes**, **splines**, **topology** and **geometric PDEs**.
 A central aim is to bring together researchers from different backgrounds and career stages, identify connections between different approaches, and chart new research directions.
 
-The workshop will be help from the **24th to 27th of May 2027**.
+The workshop will be held from the **24th to 27th of May 2027**.
 We are currently finalising the venue and practical arrangements, and will send further details in due course.
 
 ## ABSTRACT
