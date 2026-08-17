@@ -1,11 +1,12 @@
 ---
 title: FETC WORKSHOP
 permalink: /fetc-workshop/
+layout: blank
 ---
 
 # FINITE ELEMENT TENSOR CALCULUS: DISCRETE STRUCTURES AND COMPATIBLE DISCRETIZATIONS
 
-### 24–27.MAY.2027 <code>&#124;</code> {% include universities/oxford.md %}
+### 24–27.MAY.2027 ({% include universities/oxford.md %})
 
 In May, {% include collaborators/kaibo/short.md %}, {% include collaborators/jiajia/short.md %}, {% include collaborators/puchun/short.md %} and I will be hosting a workshop, here at the {% include universities/oxford.md %}, exploring common structures arising in **finite element exterior and tensor calculus**, **discrete differential geometry**, **differential complexes**, **splines**, **topology** and **geometric PDEs**.
 A central aim is to bring together researchers from different backgrounds and career stages, identify connections between different approaches, and chart new research directions.
