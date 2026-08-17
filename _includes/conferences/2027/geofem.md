@@ -1,1 +1,1 @@
-[ERC Workshop on Geometric Finite Element Methods (GeoFEM)](/geofem-workshop/)
+[ERC Workshop on Finite Element Tensor Calculus](/geofem-workshop/)
