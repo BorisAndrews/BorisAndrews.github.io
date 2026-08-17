@@ -76,6 +76,19 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 
 **New person**: `_includes/collaborators/<firstname>/short.md`, one line, `[Full Name](link)`. `full.md`, a photo under `assets/img/collaborators/` and an entry on `collaborators/index.md` are only for genuine research collaborators — people who appear merely as organisers or co-hosts (the Oberwolfach organisers, the GeoFEM workshop co-organisers) get `short.md` alone.
 
+**Revised arXiv preprint** (a new vN of a paper already on the site) touches four places, and it is easy to stop after the first:
+
+1. `_includes/publications/all/<slug>.md` — the date in the table row.
+2. `_includes/publications/lists/4-review.md` — the lists are hand-ordered **newest first**, so a bumped date usually means moving the line.
+3. `publications/<slug>/index.md` — the date heading, *and both copies of the abstract*: the bolded pull-quote `> blockquote` and the full text inside the FULL ABSTRACT reveal-box. Check the surrounding prose too; it paraphrases the abstract, so a changed term needs changing there as well.
+4. `cv/assets/pdf/components/papers.tex` — the `\cventry` date, likely also reordered. Rebuild `cv.pdf`.
+
+The DOI link (`10.48550/arXiv.NNNN.NNNNN`) is versionless and never changes.
+
+Get the abstract and dates from the **API**, not the abs page — `https://export.arxiv.org/api/query?id_list=<id>` returns `<published>` (v1), `<updated>` (current version) and a verbatim `<summary>`, with no risk of a paraphrase creeping into a quoted abstract. Note plain `http://` returns an empty body; use `https` and `-L`.
+
+**The arXiv date is always the date of the most recent version**, never v1 — Boris settled this in Aug 2026, and all rows were brought into line then (`parker` JAN.2025→NOV.2025, `sp-integrators-a` APR.2025→SEP.2025, `sp-integrators-b` NOV.2025→AUG.2026). It applies to published papers too, where the arXiv date sits beside a separate journal date; only the arXiv half moves. Take it from the API's `<updated>`, not `<published>`.
+
 **New organised event**: an event Boris co-organises goes in three places — the `UPCOMING` list in `index.md`, `_includes/minisymposia/<name>.md` for the CV page's HOSTED WORKSHOPS & MINISYMPOSIA section, and a matching `\cventry` in `cv/assets/pdf/components/minisymposia.tex` (the PDF CV duplicates the content in raw LaTeX with hardcoded `\href`s — it shares no includes with the site, so it must be edited by hand and rebuilt).
 
 ## What not to touch
