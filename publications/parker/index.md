@@ -14,7 +14,7 @@ permalink: /publications/parker/
     CHECK OUT IN SISC!
 </b></div>
 
-> *[...] This work presents an **energy- and helicity-preserving** finite element discretization for the **magneto-frictional system**, for investigating the **Parker conjecture**. The algorithm **preserves a discrete version of the topological barrier** and a discrete Arnold inequality. [...]*
+> *[...] This work presents an **energy- and helicity-preserving** finite element discretization for the **magneto-frictional system** for investigating the **Parker conjecture**. The algorithm **preserves a discrete version of the topological barrier** and a discrete Arnold inequality. [...] Numerical experiments demonstrate that **helicity preservation is crucial** in obtaining **physically meaningful simulations** of magnetic relaxation [...]*
 
 {% include reveal-box.md %}
 <div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
@@ -23,9 +23,10 @@ permalink: /publications/parker/
         The Parker conjecture, which explores whether magnetic fields in perfectly conducting plasmas can develop tangential discontinuities during magnetic relaxation, remains an open question in astrophysics.
         Helicity conservation provides a topological barrier during relaxation, preventing topologically nontrivial initial data relaxing to trivial solutions;
         preserving this mechanism discretely over long time periods is therefore crucial for numerical simulation. <br><br>
-        This work presents an energy- and helicity-preserving finite element discretization for the magneto-frictional system, for investigating the Parker conjecture.
+        This work presents an energy- and helicity-preserving finite element discretization for the magneto-frictional system for investigating the Parker conjecture.
         The algorithm preserves a discrete version of the topological barrier and a discrete Arnold inequality.
-        We also discuss extensions to domains with nontrivial topology.
+        We also propose extensions of the notion of helicity and the Arnold inequality to certain kinds of topologically nontrivial domains.
+        Numerical experiments demonstrate that helicity preservation is crucial in obtaining physically meaningful simulations of magnetic relaxation, providing an example where structure-preserving schemes are necessary.
     </div>
 </div>
 
