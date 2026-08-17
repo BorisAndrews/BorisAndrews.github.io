@@ -15,7 +15,8 @@ No Makefile. Edit source files directly; compiled CSS is in `assets/css/` (do no
 | Path | Purpose |
 |---|---|
 | `_config.yml` | Site-wide settings (title, email, logo, theme) |
-| `_layouts/default.html` | Master template (header, nav, footer) |
+| `_layouts/default.html` | Master template (header, portrait, sidebar nav, footer) |
+| `_layouts/blank.html` | Stripped template: no sidebar, no nav, **no KaTeX/MathJax**, just a "Back to home" arrow |
 | `_sass/jekyll-theme-minimal.scss` | All custom styles — edit here |
 | `_sass/fonts.scss` | Font config (JetBrains Mono preferred) |
 | `_includes/` | Reusable Liquid components (see below) |
@@ -25,6 +26,7 @@ No Makefile. Edit source files directly; compiled CSS is in `assets/css/` (do no
 | `cv/` | CV page |
 | `reading-group/` | FEM reading group page |
 | `open-problems/` | Open problems page |
+| `geofem-workshop/` | Page for the ERC GeoFEM workshop Boris co-organises (Oxford, 24–27 May 2027) |
 | `assets/img/` | Images (portrait, collaborator photos, favicon) |
 | `assets/pdf/` | PDF files |
 | `assets/ipynb/` | Jupyter notebooks, referenced from the private `notebooks/` page |
@@ -71,6 +73,8 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 **New publication page**: create `publications/<slug>/index.md` following the pattern above; add entry to `_includes/publications/` list file for appropriate status.
 
 **New collaborator**: add `_includes/collaborators/<name>/short.md` and `full.md`; optionally add photo to `assets/img/collaborators/`.
+
+**New standalone page**: `<slug>/index.md` with front matter of just `title` and `permalink: /<slug>/` — **do not** add a `layout:` key. Jekyll applies `default` (sidebar, nav, maths) on its own, which is what every page here except `reading-group/` wants; that one opts into `layout: blank` deliberately. A new page is *not* automatically reachable: the sidebar nav is hardcoded in `_layouts/default.html`, so either add an `<li>` there or link the page from wherever it belongs (`geofem-workshop/` is reached from the `UPCOMING` list in `index.md`, the way paper pages are reached from the publication lists).
 
 **New conference**: add `_includes/conferences/<year>/<name>.md` (one line: the linked event name, or plain text if it has no site yet) and include it wherever it is referenced — the `UPCOMING` list in `index.md`, the TALKS lines in `cv/index.md`, or a publication page.
 

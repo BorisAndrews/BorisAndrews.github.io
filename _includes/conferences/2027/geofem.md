@@ -1,1 +1,1 @@
-ERC Workshop on {% include organisations/geofem/short.md %}
+[ERC Workshop on Geometric Finite Element Methods (GeoFEM)](/geofem-workshop/)
