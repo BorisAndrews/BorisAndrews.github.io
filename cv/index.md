@@ -40,9 +40,9 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 ### Preprints
 
-<!-- *(Accepted for publication)*
+*(Accepted for publication)*
 
-{% include publications/lists/3-accepted.md %} -->
+{% include publications/lists/3-accepted.md %}
 
 *(In review)*
 

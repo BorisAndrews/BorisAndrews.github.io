@@ -8,8 +8,8 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/irksome-galerkin/';">
-    I RECENTLY SUBMITTED A PAPER WITH PABLO BRUBECK, PATRICK FARRELL, ROB KIRBY AND SCOTT MACLACHLAN ON GALERKIN TIME STEPPING IN FIREDRAKE <br><br>
+<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/sp-integrators-b/';">
+    MY WORK WITH PATRICK FARRELL ON CONSERVATIVE AND DISSIPATIVE INTEGRATORS FOR MULTI-CONSERVATIVE ODEs AND GENERIC SYSTEMS WAS RECENTLY ACCEPTED AT CAMWA <br><br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
@@ -33,9 +33,9 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 ### Preprints
 
-<!-- *(Accepted for publication)* -->
+*(Accepted for publication)*
 
-<!-- {% include publications/lists/3-accepted.md %} -->
+{% include publications/lists/3-accepted.md %}
 
 *(In review)*
 

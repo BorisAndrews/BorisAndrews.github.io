@@ -93,6 +93,18 @@ Get the abstract and dates from the **API**, not the abs page — `https://expor
 
 **The arXiv date is always the date of the most recent version**, never v1 — Boris settled this in Aug 2026, and all rows were brought into line then (`parker` JAN.2025→NOV.2025, `sp-integrators-a` APR.2025→SEP.2025, `sp-integrators-b` NOV.2025→AUG.2026). It applies to published papers too, where the arXiv date sits beside a separate journal date; only the arXiv half moves. Take it from the API's `<updated>`, not `<published>`.
 
+**Paper accepted** (no DOI yet). Follow the precedent set by `parker` (Nov 2025) and `sp-integrators-b` (Sep 2026):
+
+1. `_includes/publications/all/<slug>.md` — status word `In&nbsp;review` → `Upcoming`, journal include kept.
+2. Move the include line from `lists/4-review.md` to `lists/3-accepted.md`.
+3. Uncomment the "Accepted for publication" heading *and* its `3-accepted.md` include in **three** pages — `index.md`, `cv/index.md`, `publications/index.md`. They are kept commented out while the list is empty, so an accepted paper is otherwise silently invisible. Re-comment them when the list empties again.
+4. `publications/<slug>/index.md` date heading — `In review (…)` → `Upcoming (…)`.
+5. `cv/assets/pdf/components/papers.tex` — uncomment the `(Accepted for publication)` subsection, move the `\cventry` under it, `In review:` → `Accepted:`. Rebuild.
+6. Homepage `highlight-box` banner — house wording is `MY WORK WITH … ON … WAS RECENTLY ACCEPTED AT <JOURNAL>`, linking to the paper page.
+7. Grep for prose elsewhere calling it "submitted" (e.g. `sp-integrators-a` cross-links to `-b`).
+
+**Once published** (DOI minted): replace `Upcoming (<journal include>)` with `MON.YYYY ([<JOURNAL>](https://doi.org/…))` as in `parker.md`, and move to `1-papers.md`. History shows an intermediate `2-upcoming` stage ("Papers (Upcoming)") was used when a DOI existed but the issue date didn't; it's optional.
+
 **New organised event**: an event Boris co-organises goes in three places — the `UPCOMING` list in `index.md`, `_includes/minisymposia/<name>.md` for the CV page's HOSTED WORKSHOPS & MINISYMPOSIA section, and a matching `\cventry` in `cv/assets/pdf/components/minisymposia.tex` (the PDF CV duplicates the content in raw LaTeX with hardcoded `\href`s — it shares no includes with the site, so it must be edited by hand and rebuilt).
 
 ## What not to touch
