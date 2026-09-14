@@ -1,1 +1,1 @@
-| Enstrophy-stable integrators for the incompressible Navier–Stokes equations | {% include collaborators/matin/short.md %}, <br> {% include collaborators/patrick/short.md %} |
+| SEP.2026 <br> (arXiv), <br> In&nbsp;review <br> ({% include journals/focm.md %}) | [Strongly enstrophy-stable integrators for the incompressible Navier–Stokes equations](/publications/enstrophy/) | {% include collaborators/matin/short.md %}, <br> {% include collaborators/patrick/short.md %} |

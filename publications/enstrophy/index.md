@@ -3,13 +3,30 @@ title: ENSTROPHY
 permalink: /publications/enstrophy/
 ---
 
-# ENSTROPHY-STABLE INTEGRATORS FOR THE INCOMPRESSIBLE NAVIER–STOKES EQUATIONS
+# STRONGLY ENSTROPHY-STABLE INTEGRATORS FOR THE INCOMPRESSIBLE NAVIER–STOKES EQUATIONS
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/matin/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### In preparation (Draft available on request)
+### SEP.2026 (arXiv) <code>&#124;</code> In review ({% include journals/focm.md %})
 
-*(Details available soon!)*
+> *We propose a mixed finite element discretisation for the incompressible Navier–Stokes equations that **preserves the evolution laws of both energy and enstrophy** [...]. In two dimensions, [this leads] to a **Reynolds-number-independent bound on the velocity gradient** that naturally **stabilises the scheme**, even on severely under-resolved meshes. In three dimensions, the scheme preserves both dissipation and the **generation of enstrophy through vortex stretching**. [...]*
+
+{% include reveal-box.md %}
+<div class="reveal-box" onclick="var details = this.querySelector('.details'); details.style.display = (details.style.display === 'block') ? 'none' : 'block';">
+    <b>FULL ABSTRACT</b>
+    <div class="details">
+        We propose a mixed finite element discretisation for the incompressible Navier–Stokes equations that preserves the evolution laws of both energy and enstrophy, in a stronger sense than previous discretisations.
+        In two dimensions, the evolution law for enstrophy only permits dissipation for thermodynamically isolated systems, leading to a Reynolds-number-independent bound on the velocity gradient that naturally stabilises the scheme, even on severely under-resolved meshes.
+        In three dimensions, the scheme preserves both dissipation and the generation of enstrophy through vortex stretching. <br><br>
+        We enforce these evolution laws by systematically introducing auxiliary variables into the discretisation.
+        While conforming implementations of these schemes require discrete Stokes complexes with enhanced regularity, we introduce both (i) equivalent reparametrisations and (ii) penalty formulations that require only the typical curl- and div-conforming spaces from the standard discrete de Rham complex.
+        The scheme handles different types of boundary conditions and curved domains.
+        The robust stabilisation properties of the proposed scheme are demonstrated through numerical simulations of a shear flow, a spherical vortex, and flow past an obstacle.
+        We observe numerically that preserving the discrete evolution of enstrophy in this way has a strong stabilising effect on the numerical solution, especially in two dimensions.
+    </div>
+</div>
+
+*(Further details available soon!)*
 
 ## RELATED WORKS
 

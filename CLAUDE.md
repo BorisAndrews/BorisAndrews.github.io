@@ -93,6 +93,16 @@ Get the abstract and dates from the **API**, not the abs page — `https://expor
 
 **The arXiv date is always the date of the most recent version**, never v1 — Boris settled this in Aug 2026, and all rows were brought into line then (`parker` JAN.2025→NOV.2025, `sp-integrators-a` APR.2025→SEP.2025, `sp-integrators-b` NOV.2025→AUG.2026). It applies to published papers too, where the arXiv date sits beside a separate journal date; only the arXiv half moves. Take it from the API's `<updated>`, not `<published>`.
 
+**Paper submitted, arXiv not out yet.** Precedent: `geometric-flows` (May 2026) and `enstrophy` (Sep 2026).
+
+- The row moves from a **2-column** list (`6-drafts`/`7-future`, `titles/thin.md`: title | coauthors) to the **3-column** `4-review` (`titles/wide.md`: date | title | coauthors), so the row must gain a date cell — moving the include line alone breaks the table.
+- Date cell: `MON.YYYY <br> (arXiv), <br> In&nbsp;review <br> ({% include journals/<j>.md %})` — "(arXiv)" as **unlinked** placeholder text until the DOI exists. The month is the expected arXiv month, which is normally the submission month.
+- Title becomes a link to `/publications/<slug>/`; remove the `*` (= "in preparation") after the title in coauthors' `collaborators/*/full.md` and link it there too.
+- Paper page: date/venue heading, pull-quote and full abstract (from the submitted `.tex`, converting `--` to `–` and dropping `~`). **Omit** the CHECK OUT ON ARXIV highlight-box until there is something to link to.
+- PDF CV: add a `\cventry` at the top of `(In review)` with a plain (un-`\href`'d) title.
+- **No homepage banner** until the arXiv DOI exists — Boris's call, since a banner needs a destination.
+- Once the DOI arrives: link "(arXiv)" in the row and page heading, add the arXiv highlight-box(es) to the page, `\href` the CV title, and then the banner.
+
 **Paper accepted** (no DOI yet). Follow the precedent set by `parker` (Nov 2025) and `sp-integrators-b` (Sep 2026):
 
 1. `_includes/publications/all/<slug>.md` — status word `In&nbsp;review` → `Upcoming`, journal include kept.
