@@ -11,20 +11,20 @@ permalink: /collaborators/
 
 ## {% include collaborators/kaibo/full.md %}
 
-## {% include collaborators/ganghui/full.md %}
-
-## {% include collaborators/mingdong/full.md %}
-
 ## {% include collaborators/rob/full.md %}
 
 ## {% include collaborators/scott/full.md %}
 
+## {% include collaborators/ganghui/full.md %}
+
 ## {% include collaborators/pablo/full.md %}
+
+## {% include collaborators/mingdong/full.md %}
+
+## {% include collaborators/matin/full.md %}
 
 ## {% include collaborators/maria/full.md %}
 
 ## {% include collaborators/aaron/full.md %}
 
 ## {% include collaborators/dennis/full.md %}
-
-## {% include collaborators/matin/full.md %}
