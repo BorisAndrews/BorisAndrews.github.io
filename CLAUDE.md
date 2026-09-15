@@ -117,6 +117,8 @@ Two ways the API fails, both silently: a paper posted in the last day or so can 
 
 **Once published** (DOI minted): replace `Upcoming (<journal include>)` with `MON.YYYY ([<JOURNAL>](https://doi.org/…))` as in `parker.md`, and move to `1-papers.md`. History shows an intermediate `2-upcoming` stage ("Papers (Upcoming)") was used when a DOI existed but the issue date didn't; it's optional.
 
+**Reading group organisers** (run jointly with Tom Higham, `collaborators/tom/`, since Sep 2026) are named in four places that must change together: the homepage section in `index.md`, `_includes/reading-group/intro.md` (shown on `/reading-group/` and `/reading-group/past/`, which use `layout: blank` with no sidebar, so Boris is named and linked there explicitly), `_includes/experience/reading_group.md` (web CV) and `cv/assets/pdf/components/experience.tex`.
+
 **New organised event**: an event Boris co-organises goes in three places — the `UPCOMING` list in `index.md`, `_includes/minisymposia/<name>.md` for the CV page's HOSTED WORKSHOPS & MINISYMPOSIA section, and a matching `\cventry` in `cv/assets/pdf/components/minisymposia.tex` (the PDF CV duplicates the content in raw LaTeX with hardcoded `\href`s — it shares no includes with the site, so it must be edited by hand and rebuilt).
 
 ## What not to touch
