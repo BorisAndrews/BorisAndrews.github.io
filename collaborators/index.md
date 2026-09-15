@@ -25,6 +25,8 @@ permalink: /collaborators/
 
 ## {% include collaborators/maria/full.md %}
 
-## {% include collaborators/aaron/full.md %}
+## {% include collaborators/aaron_brunk/full.md %}
+
+## {% include collaborators/aaron_baier-reinio/full.md %}
 
 ## {% include collaborators/dennis/full.md %}
