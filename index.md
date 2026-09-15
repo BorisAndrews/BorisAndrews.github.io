@@ -45,7 +45,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include publications/lists/5-other.md %} -->
 
-*(Click titles for further details and talks)*
+*(Click titles for further details)*
 
 [View all](/publications/)
 
