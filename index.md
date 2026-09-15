@@ -41,9 +41,9 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include publications/lists/4-review.md %}
 
-### Other works
+<!-- ### Other works
 
-{% include publications/lists/5-other.md %}
+{% include publications/lists/5-other.md %} -->
 
 *(Click titles for further details and talks)*
 
