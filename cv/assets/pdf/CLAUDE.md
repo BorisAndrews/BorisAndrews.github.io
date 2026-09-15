@@ -86,6 +86,19 @@ Each section is a separate file under `components/`; order in `cv.tex` determine
 | `languages.tex` | Languages |
 | `references.tex` | References (commented out in cv.tex) |
 
+## Where PDF links point
+
+The PDF goes out to people who won't browse the site, so its `\href`s point at
+**external, citable targets** — a DOI, or an arXiv DOI (`https://doi.org/10.48550/arXiv.<id>`) —
+not at `borisandrews.github.io/publications/...` pages. Boris removed a
+website-page link from Matin's supervision entry (Sep 2026) and asked for the
+arXiv link instead. The website CV is different: there, the same project title
+links to the internal paper page, and that's intended. So "keeping in sync"
+means the same entries, not identical link targets.
+
+(The FETC workshop entry in `minisymposia.tex` is the exception, since the
+workshop page is the only place its details live.)
+
 ## Keeping in sync with the website CV
 
 The LaTeX CV and `cv/index.md` cover the same information — keep them in sync when adding entries. The PDF is the authoritative version for layout; the website version uses Liquid includes for most sections.

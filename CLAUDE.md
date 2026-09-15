@@ -91,6 +91,8 @@ The DOI link (`10.48550/arXiv.NNNN.NNNNN`) is versionless and never changes.
 
 Get the abstract and dates from the **API**, not the abs page — `https://export.arxiv.org/api/query?id_list=<id>` returns `<published>` (v1), `<updated>` (current version) and a verbatim `<summary>`, with no risk of a paraphrase creeping into a quoted abstract. Note plain `http://` returns an empty body; use `https` and `-L`.
 
+Two ways the API fails, both silently: a paper posted in the last day or so can be **missing from the feed entirely** (a valid Atom response with no `<entry>`), and repeated calls get a plain-text `Rate exceeded.` instead of XML. WebFetch on the abs page is no substitute for a quoted abstract — it summarises. The verbatim fallback is `curl -sL -A "Mozilla/5.0" https://arxiv.org/abs/<id>` and taking the text of `<blockquote class="abstract ...">` (strip the `Abstract:` descriptor span); the submission history is on the same page.
+
 **The arXiv date is always the date of the most recent version**, never v1 — Boris settled this in Aug 2026, and all rows were brought into line then (`parker` JAN.2025→NOV.2025, `sp-integrators-a` APR.2025→SEP.2025, `sp-integrators-b` NOV.2025→AUG.2026). It applies to published papers too, where the arXiv date sits beside a separate journal date; only the arXiv half moves. Take it from the API's `<updated>`, not `<published>`.
 
 **Paper submitted, arXiv not out yet.** Precedent: `geometric-flows` (May 2026) and `enstrophy` (Sep 2026).

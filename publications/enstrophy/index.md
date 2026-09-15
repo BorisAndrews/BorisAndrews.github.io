@@ -7,7 +7,12 @@ permalink: /publications/enstrophy/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/matin/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### SEP.2026 (arXiv) <code>&#124;</code> In review ({% include journals/focm.md %})
+### SEP.2026 ([arXiv](https://doi.org/10.48550/arXiv.2609.15520)) <code>&#124;</code> In review ({% include journals/focm.md %})
+
+{% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2609.15520';"><b>
+    CHECK OUT ON ARXIV!
+</b></div>
 
 > *We propose a mixed finite element discretisation for the incompressible Navier–Stokes equations that **preserves the evolution laws of both energy and enstrophy** [...]. In two dimensions, [this leads] to a **Reynolds-number-independent bound on the velocity gradient** that naturally **stabilises the scheme**, even on severely under-resolved meshes. In three dimensions, the scheme preserves both dissipation and the **generation of enstrophy through vortex stretching**. [...]*
 

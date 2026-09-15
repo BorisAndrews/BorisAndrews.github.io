@@ -8,8 +8,8 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/sp-integrators-b/';">
-    MY WORK WITH PATRICK FARRELL ON CONSERVATIVE AND DISSIPATIVE INTEGRATORS FOR MULTI-CONSERVATIVE ODEs AND GENERIC SYSTEMS WAS RECENTLY ACCEPTED AT CAMWA <br><br>
+<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/enstrophy/';">
+    I RECENTLY SUBMITTED A PAPER WITH MATIN SHAMS AND PATRICK FARRELL ON ENSTROPHY-STABLE INTEGRATORS FOR NAVIER–STOKES <br><br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
