@@ -4,7 +4,7 @@ Jekyll academic portfolio. Theme: `jekyll-theme-minimal` (heavily customised).
 
 ## Build
 
-**There is no local build.** The repo has no `Gemfile` and no `_site/`, and Jekyll is not installed on this machine — `bundle exec jekyll serve` fails with "Could not locate Gemfile". The site is built and deployed by GitHub Pages on push to `main`.
+**There is no local build.** The repo has no `Gemfile` and no `_site/`, and Jekyll is not installed on this machine — `bundle exec jekyll serve` fails with "Could not locate Gemfile". The site is built and deployed by GitHub Pages on push to `main`, so **a push here publishes the public site**. Like every commit and push in this workspace, it needs Boris's explicit permission for that specific commit or push (root CLAUDE.md).
 
 So changes cannot be previewed locally as things stand. Verify by inspection instead: every `{% include %}` path you write must correspond to an existing file under `_includes/` (a missing include is a hard build failure on Pages). The one thing that *is* locally buildable is the PDF CV — see `cv/assets/pdf/CLAUDE.md`.
 
@@ -115,7 +115,11 @@ Two ways the API fails, both silently: a paper posted in the last day or so can 
 6. Homepage `highlight-box` banner — house wording is `MY WORK WITH … ON … WAS RECENTLY ACCEPTED AT <JOURNAL>`, linking to the paper page.
 7. Grep for prose elsewhere calling it "submitted" (e.g. `sp-integrators-a` cross-links to `-b`).
 
-**Once published** (DOI minted): replace `Upcoming (<journal include>)` with `MON.YYYY ([<JOURNAL>](https://doi.org/…))` as in `parker.md`, and move to `1-papers.md`. History shows an intermediate `2-upcoming` stage ("Papers (Upcoming)") was used when a DOI existed but the issue date didn't; it's optional.
+**Once published** — this happens in **two stages**, and Boris uses both (`sp-integrators-b`, Sep 2026):
+
+**Stage 1, DOI but no volume/issue/pages** (Elsevier "article in press"; Crossref carries only a month). The paper belongs in `2-upcoming`, *not* `1-papers`, with the `(Upcoming)` heading and include uncommented in all three pages, and its `\cventry` under the `(Upcoming)` subsection in `papers.tex` (kept commented out while empty, like the accepted one). **Stage 2, once the issue is assigned**: move to `1-papers` and the `\subsection{Papers}` block, and add `, <vol> (<issue>), pp.~<range>` to the CV item as the SISC entries do.
+
+Either way: replace `Upcoming (<journal include>)` with `MON.YYYY ([<JOURNAL>](https://doi.org/…))` as in `parker.md`, and move to `1-papers.md`, re-commenting the now-empty accepted sections in all three pages. In the PDF CV the `\cventry` moves up into `\subsection{Papers}` and its item becomes `Publication:`. Note Crossref may carry only a month for a new Elsevier DOI — no volume/issue/pages — so cite the journal name alone until they appear. History shows an intermediate `2-upcoming` stage ("Papers (Upcoming)") was used when a DOI existed but the issue date didn't; it's optional.
 
 **Reading group organisers** (run jointly with Tom Higham, `collaborators/tom/`, since Sep 2026) are named in four places that must change together: the homepage section in `index.md`, `_includes/reading-group/intro.md` (shown on `/reading-group/` and `/reading-group/past/`, which use `layout: blank` with no sidebar, so Boris is named and linked there explicitly), `_includes/experience/reading_group.md` (web CV) and `cv/assets/pdf/components/experience.tex`.
 

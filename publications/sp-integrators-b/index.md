@@ -7,11 +7,11 @@ permalink: /publications/sp-integrators-b/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### AUG.2026 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) <code>&#124;</code> Upcoming ({% include journals/camwa.md %})
+### AUG.2026 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) <code>&#124;</code> SEP.2026 ([CAMWA](https://doi.org/10.1016/j.camwa.2026.09.012))
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
-    CHECK OUT ON ARXIV!
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.1016/j.camwa.2026.09.012';"><b>
+    CHECK OUT IN CAMWA!
 </b></div>
 
 > *[...] we present two novel contributions: (i) an arbitrary-order time discretisation **inspired by the Nambu bracket** for **general conservative ordinary differential equations** that **conserves all prescribed invariants**, and (ii) an **energy-conserving** and **entropy-dissipating** scheme for [...] differential equations written in the **GENERIC** format [...]. We illustrate the advantages of our approximations with numerical examples of the **Kepler** and **Kovalevskaya problems**, a **combustion engine model**, and the **Benjamin–Bona–Mahony** equation.*
@@ -113,8 +113,8 @@ For a PDE example, the manuscript presents an integrator for the **Boltzmann equ
 
 Preserving these properties is *crucial for accurately capturing the dynamics of these systems*.
 
-<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2511.23266';"><b>
-    CHECK OUT ON ARXIV!
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.1016/j.camwa.2026.09.012';"><b>
+    CHECK OUT IN CAMWA!
 </b></div>
 
 *We would both gladly discuss it further!*

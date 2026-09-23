@@ -9,15 +9,15 @@ permalink: /publications/
 
 {% include publications/lists/1-papers.md %}
 
-<!-- ### (Upcoming) -->
+### (Upcoming)
 
-<!-- {% include publications/lists/2-upcoming.md %} -->
+{% include publications/lists/2-upcoming.md %}
 
 ## PREPRINTS
 
-### (Accepted for publication)
+<!-- ### (Accepted for publication) -->
 
-{% include publications/lists/3-accepted.md %}
+<!-- {% include publications/lists/3-accepted.md %} -->
 
 ### (In review)
 

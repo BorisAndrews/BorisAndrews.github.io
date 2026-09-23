@@ -4,7 +4,7 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 13.OCT | *(TBA...)* | *(TBA...)* |
+| 1 | 13.OCT | *(TBA...)* | {% include collaborators/tom/short.md %} |
 | 2 | 20.OCT | *(TBA...)* | *(TBA...)* |
 | 3 | 27.OCT | *(TBA...)* | *(TBA...)* |
 | 4 | 03.NOV | *(TBA...)* | *(TBA...)* |
