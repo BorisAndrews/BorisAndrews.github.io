@@ -95,10 +95,12 @@ Two ways the API fails, both silently: a paper posted in the last day or so can 
 
 **The arXiv date is always the date of the most recent version**, never v1 — Boris settled this in Aug 2026, and all rows were brought into line then (`parker` JAN.2025→NOV.2025, `sp-integrators-a` APR.2025→SEP.2025, `sp-integrators-b` NOV.2025→AUG.2026). It applies to published papers too, where the arXiv date sits beside a separate journal date; only the arXiv half moves. Take it from the API's `<updated>`, not `<published>`.
 
+**Never name the journal for a paper that is only in review.** Boris's policy since Sep 2026, in case of rejection: an in-review row reads just `In&nbsp;review`, its page heading just `In review`, and its PDF `\cventry` has no item block. The journal is added at acceptance (recipe below) and not before. Where a paper was sent is still recorded privately in the `Papers/` CLAUDE.md files — that's fine, they aren't published.
+
 **Paper submitted, arXiv not out yet.** Precedent: `geometric-flows` (May 2026) and `enstrophy` (Sep 2026).
 
 - The row moves from a **2-column** list (`6-drafts`/`7-future`, `titles/thin.md`: title | coauthors) to the **3-column** `4-review` (`titles/wide.md`: date | title | coauthors), so the row must gain a date cell — moving the include line alone breaks the table.
-- Date cell: `MON.YYYY <br> (arXiv), <br> In&nbsp;review <br> ({% include journals/<j>.md %})` — "(arXiv)" as **unlinked** placeholder text until the DOI exists. The month is the expected arXiv month, which is normally the submission month.
+- Date cell: `MON.YYYY <br> (arXiv), <br> In&nbsp;review` — **no journal** (see the policy below) — "(arXiv)" as **unlinked** placeholder text until the DOI exists. The month is the expected arXiv month, which is normally the submission month.
 - Title becomes a link to `/publications/<slug>/`; remove the `*` (= "in preparation") after the title in coauthors' `collaborators/*/full.md` and link it there too.
 - Paper page: date/venue heading, pull-quote and full abstract (from the submitted `.tex`, converting `--` to `–` and dropping `~`). **Omit** the CHECK OUT ON ARXIV highlight-box until there is something to link to.
 - PDF CV: add a `\cventry` at the top of `(In review)` with a plain (un-`\href`'d) title.
@@ -107,11 +109,11 @@ Two ways the API fails, both silently: a paper posted in the last day or so can 
 
 **Paper accepted** (no DOI yet). Follow the precedent set by `parker` (Nov 2025) and `sp-integrators-b` (Sep 2026):
 
-1. `_includes/publications/all/<slug>.md` — status word `In&nbsp;review` → `Upcoming`, journal include kept.
+1. `_includes/publications/all/<slug>.md` — `In&nbsp;review` → `Upcoming <br> ({% include journals/<j>.md %})`. This is the first point at which the journal appears.
 2. Move the include line from `lists/4-review.md` to `lists/3-accepted.md`.
 3. Uncomment the "Accepted for publication" heading *and* its `3-accepted.md` include in **three** pages — `index.md`, `cv/index.md`, `publications/index.md`. They are kept commented out while the list is empty, so an accepted paper is otherwise silently invisible. Re-comment them when the list empties again.
-4. `publications/<slug>/index.md` date heading — `In review (…)` → `Upcoming (…)`.
-5. `cv/assets/pdf/components/papers.tex` — uncomment the `(Accepted for publication)` subsection, move the `\cventry` under it, `In review:` → `Accepted:`. Rebuild.
+4. `publications/<slug>/index.md` date heading — `In review` → `Upcoming ({% include journals/<j>.md %})`.
+5. `cv/assets/pdf/components/papers.tex` — uncomment the `(Accepted for publication)` subsection, move the `\cventry` under it, and give it an item block `\begin{itemize} \item Accepted: \emph{<Journal name> (<ABBR>)} \end{itemize}` (in-review entries have an empty last argument, `{}`). Rebuild with `Software/latex-check`.
 6. Homepage `highlight-box` banner — house wording is `MY WORK WITH … ON … WAS RECENTLY ACCEPTED AT <JOURNAL>`, linking to the paper page.
 7. Grep for prose elsewhere calling it "submitted" (e.g. `sp-integrators-a` cross-links to `-b`).
 

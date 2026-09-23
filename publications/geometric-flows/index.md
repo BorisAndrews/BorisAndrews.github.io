@@ -7,7 +7,7 @@ permalink: /publications/geometric-flows/
 
 ### {% include collaborators/ganghui/short.md %} <code>&#124;</code> Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### MAY.2026 ([arXiv](https://doi.org/10.48550/arXiv.2605.20371)) <code>&#124;</code> In review ({% include journals/sisc.md %})
+### MAY.2026 ([arXiv](https://doi.org/10.48550/arXiv.2605.20371)) <code>&#124;</code> In review
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2605.20371';"><b>
