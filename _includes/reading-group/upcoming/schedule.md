@@ -8,7 +8,7 @@
 | 2 | 23.OCT | *(TBA...)* | [Me (Boris Andrews)](/) |
 | 3 | 30.OCT | *(TBA...)* | {% include collaborators/puchun/short.md %} |
 | 4 | 06.NOV | *(TBA...)* | *(TBA...)* |
-| 5 | 13.NOV | *(TBA...)* | John Papadopoulos |
+| 5 | 13.NOV | *(TBA...)* | {% include collaborators/john/short.md %} |
 | 6 | 20.NOV | *(TBA...)* | *(TBA...)* |
 | 7 | 27.NOV | *(TBA...)* | *(TBA...)* |
 | 8 | 04.DEC | *(TBA...)* | *(TBA...)* |
