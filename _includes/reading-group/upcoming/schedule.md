@@ -5,10 +5,10 @@
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
 | 1 | 16.OCT | *(TBA...)* | {% include collaborators/tom/short.md %} |
-| 2 | 23.OCT | *(TBA...)* | *(TBA...)* |
-| 3 | 30.OCT | *(TBA...)* | *(TBA...)* |
+| 2 | 23.OCT | *(TBA...)* | [Me (Boris Andrews)](/) |
+| 3 | 30.OCT | *(TBA...)* | {% include collaborators/puchun/short.md %} |
 | 4 | 06.NOV | *(TBA...)* | *(TBA...)* |
-| 5 | 13.NOV | *(TBA...)* | *(TBA...)* |
+| 5 | 13.NOV | *(TBA...)* | John Papadopoulos |
 | 6 | 20.NOV | *(TBA...)* | *(TBA...)* |
 | 7 | 27.NOV | *(TBA...)* | *(TBA...)* |
 | 8 | 04.DEC | *(TBA...)* | *(TBA...)* |
