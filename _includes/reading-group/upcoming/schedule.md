@@ -10,7 +10,7 @@
 | 4 | 06.NOV | *(TBA...)* | *(TBA...)* |
 | 5 | 13.NOV | *(TBA...)* | {% include collaborators/john/short.md %} |
 | 6 | 20.NOV | *(TBA...)* | *(TBA...)* |
-| 7 | 27.NOV | *(TBA...)* | *(TBA...)* |
+| 7 | 27.NOV | *(TBA...)* | {% include collaborators/tim/short.md %} |
 | 8 | 04.DEC | *(TBA...)* | *(TBA...)* |
 
 <!-- **Due to clashes, meetings marked with \* will be in S1.37. Those marked with \*\* will down in S0.29. Those marked with \*\*\* will be all the way in N3.12.* -->
