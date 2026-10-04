@@ -1,6 +1,7 @@
 ---
 title: OPEN PROBLEMS
 permalink: /open-problems/
+published: false
 ---
 
 # OPEN PROBLEMS & REWARDS

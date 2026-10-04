@@ -136,13 +136,14 @@ You can find his earlier **Langtangen seminar** (APR.2025) at [Simula](https://w
 
 As stated above, the construction of both the schemes in this manuscript employs the framework presented in my earlier work with {% include collaborators/patrick/short.md %}, on [conservative and dissipative finite element integrators](/publications/sp-integrators-a/).
 
-## RELATED OPEN PROBLEMS
+<!-- ## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
 {% include open-problems/all/conservative-pdes.md %}
 {% include open-problems/all/dissipative-odes.md %}
 {% include open-problems/all/viscoelastic.md %}
 {% include open-problems/all/compressible-mhd.md %}
+-->
 
 ## TALKS
 

@@ -128,11 +128,12 @@ You can find some discussion of this work in Patrick's **Langtangen Seminar** (A
 
 This scheme can be viewed as a **special case of my previous work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative finite element integrators](/publications/sp-integrators-a/).
 
-## RELATED OPEN PROBLEMS
+<!-- ## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
 {% include open-problems/all/5-field.md %}
 {% include open-problems/all/compressible-mhd.md %}
+-->
 
 ## CO-AUTHORS
 

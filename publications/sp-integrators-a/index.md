@@ -175,7 +175,7 @@ Notably, this includes the Boltzmann equation!
 
 For a neat and related application of these ideas to a problem in **magnetic relaxation** that really highlights their importance, check out my subsequent work with {% include collaborators/mingdong/short.md %}, {% include collaborators/patrick/short.md %} & {% include collaborators/kaibo/short.md %}, on [structure-preserving integrators for the magneto-frictional equations](/publications/parker/).
 
-## RELATED OPEN PROBLEMS
+<!-- ## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
 {% include open-problems/all/conservative-pdes.md %}
@@ -191,6 +191,7 @@ For a neat and related application of these ideas to a problem in **magnetic rel
 {% include open-problems/all/lie-groups.md %}
 {% include open-problems/all/roms.md %}
 {% include open-problems/all/compressible-mhd.md %}
+-->
 
 ## CO-AUTHORS
 

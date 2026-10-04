@@ -10,6 +10,8 @@
 - Dual-weighted residuals and adaptivity
 - Which integrator when
 - Multi-symplecticity
+- Hybridisation
+- Stabilisation (Gradient jump penalisation/SVV)
 -->
 
 N.B. I'm very poor at keeping this list up-to-date, so if you're looking for more recent recommendations then just shoot me a message!

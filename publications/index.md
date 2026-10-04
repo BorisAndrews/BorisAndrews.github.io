@@ -37,4 +37,5 @@ permalink: /publications/
 
 {% include publications/lists/7-future.md %} -->
 
-*(Click titles for further details, [open problems](/open-problems/), talks and more)*
+<!-- *(Click titles for further details, [open problems](/open-problems/), talks and more)* -->
+*(Click titles for further details, talks and more)*

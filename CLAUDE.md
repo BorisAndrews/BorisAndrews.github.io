@@ -20,12 +20,12 @@ No Makefile. Edit source files directly; compiled CSS is in `assets/css/` (do no
 | `_sass/jekyll-theme-minimal.scss` | All custom styles — edit here |
 | `_sass/fonts.scss` | Font config (JetBrains Mono preferred) |
 | `_includes/` | Reusable Liquid components (see below) |
-| `index.md` | Homepage (research, highlights, CV section, conferences, collaborators, reading group, open problems) |
+| `index.md` | Homepage (research, highlights, CV section, conferences, collaborators, reading group; open-problems section commented out) |
 | `publications/<slug>/index.md` | Individual paper pages |
 | `collaborators/` | Collaborator listing page |
 | `cv/` | CV page |
 | `reading-group/` | FEM reading group page |
-| `open-problems/` | Open problems page |
+| `open-problems/` | Open problems page — **hidden since Oct 2026**: `published: false` in its front matter, so Jekyll doesn't build it. To restore, remove that line *and* uncomment every link to it: the homepage section, the `<li>` in `_layouts/default.html`, the `RELATED OPEN PROBLEMS` block on six paper pages (`enstrophy`, `sp-integrators-a`/`-b`, `parker`, `bvps`, `ap-integrators`) and the footer note in `publications/index.md`. Liquid still runs inside HTML comments, so the commented includes must keep resolving. |
 | `fetc-workshop/` | Page for the FETC workshop Boris co-organises (Oxford, 24–27 May 2027) |
 | `assets/img/` | Images (portrait, collaborator photos, favicon) |
 | `assets/pdf/` | PDF files |

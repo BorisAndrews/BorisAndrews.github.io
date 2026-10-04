@@ -70,7 +70,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 ### 2027
 - **18–23.APR** <code>&#124;</code> **OBERWOLFACH** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
 
-- **APR–JUN** <code>&#124;</code> **TCC COURSE** <code>&#124;</code> Delivering a 16-hour graduate course on *Mixed Finite Element Methods and Finite Element Complexes* at the {% include universities/tcc.md %}
+- **APR–JUN** <code>&#124;</code> **TCC COURSE** <code>&#124;</code> Delivering a 16-hour graduate course on *[Mixed Finite Element Methods and Finite Element Complexes](https://www.maths.ox.ac.uk/groups/tcc/upcoming-courses-year)* at the {% include universities/tcc.md %}
 
 - **24–27.MAY** <code>&#124;</code> **FETC WORKSHOP** <code>&#124;</code> Co-organising the {% include conferences/2027/fetc.md %} at the {% include universities/oxford.md %}, alongside {% include collaborators/kaibo/short.md %}, {% include collaborators/jiajia/short.md %} and {% include collaborators/puchun/short.md %}
 
@@ -118,14 +118,14 @@ You can find information on upcoming presentations **[here](/reading-group/)**.
 
 <br>
 
-## [OPEN PROBLEMS](/open-problems/)
+<!-- ## [OPEN PROBLEMS](/open-problems/)
 
 I'm *(very intermittently...)* working on a list of **open problems** arising from my research that I'd be very keen to see turned into closed problems!
 You can find it **[here](/open-problems/)**.
 
 [View all](/open-problems/)
 
-<br>
+<br> -->
 
 ## OTHER INTERESTS
 

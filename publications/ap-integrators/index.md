@@ -17,11 +17,12 @@ In my [earlier work](/publications/sp-integrators-a/) with {% include collaborat
 This works uses the framework of this idea, but adapts it to the preservation of **adiabatic** invariants;
 one adiabatic invariant in particular in fact: the magnetic moment.
 
-## RELATED OPEN PROBLEMS
+<!-- ## RELATED OPEN PROBLEMS
 
 {% include open-problems/title.md %}
 {% include open-problems/all/drifts.md %}
 {% include open-problems/all/adiabatic.md %}
+-->
 
 ## TALKS
 
