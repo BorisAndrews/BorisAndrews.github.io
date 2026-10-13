@@ -7,6 +7,7 @@ permalink: /notebooks/
 
 ## NOTES
 
+| [Static condensation & hybridisation](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/hybridisation.ipynb) |
 | [FET in Irksome](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/fet_in_irksome.ipynb) |
 | [Mollifers & applications in FEMs](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/mollifiers.ipynb) |
 | [Euler vs. the inviscid limit of Navier–Stokes](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/euler.ipynb) |
