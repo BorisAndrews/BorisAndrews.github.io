@@ -43,6 +43,11 @@ As of Oct 2026 the laptop's Firedrake venv has **no Jupyter tooling** (no `ipyke
 
 Outputs saved in a notebook come from wherever it was last run. `notes/hybridisation.ipynb` was executed on the laptop's Firedrake (2026.4.1) by a stand-in runner, **not on Colab**. Its use of `finat.ufl`, odd-degree `"CR"` above 1, `variant="integral"` DG and Slate's `SCPC` is untested against the fem-on-colab release build.
 
-**Never name a notebook global `mesh`.** `from firedrake import *` also exports the `firedrake.mesh` submodule, so if the cell defining `mesh = ...` hasn't run (fresh runtime, cells run out of order), later cells silently pick up the module and fail deep inside Firedrake with `AttributeError: module 'firedrake.mesh' has no attribute 'topology'`. `notes/hybridisation` hit this on Colab; it now uses `demo_mesh`.
+**Don't give notebook globals names that `from firedrake import *` exports.** The star import brings in far more than it looks like, and whichever ran last wins: if the defining cell hasn't run (fresh runtime), or the Firedrake cell is re-run afterwards (common on Colab), later cells silently get Firedrake's object and fail deep inside it. `notes/hybridisation` hit this twice on Colab:
+
+- `mesh` is the `firedrake.mesh` submodule: `AttributeError: module 'firedrake.mesh' has no attribute 'topology'`. Now `demo_mesh`.
+- `rhs` is UFL's `rhs(form)`, so a helper `rhs(mesh)` became `as_form(mesh)`: `ValueError: Unable to convert object to a UFL form: Mesh(...)`. Now `forcing`.
+
+Other exported names that look free but aren't: `lhs`, `system`, `split`, `norm`, `solve`, `project`, `interpolate`, `derivative`, `action`, `adjoint`, `replace`, `dot`, `inner`, `sign`, `exp`, and the UFL indices `i`, `j`, `k`, `l`, `p`, `q`, `r`, `s`. To check a notebook, collect its top-level names with `ast` and intersect them with the namespace from `exec("from firedrake import *", ns)`.
 
 Interactive outputs (HTML + `<script>`, e.g. the click-a-DoF coupling diagrams in `notes/hybridisation`) render in Colab and Jupyter but not in GitHub's static notebook viewer.
