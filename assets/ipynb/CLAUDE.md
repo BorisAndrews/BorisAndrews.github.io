@@ -43,4 +43,6 @@ As of Oct 2026 the laptop's Firedrake venv has **no Jupyter tooling** (no `ipyke
 
 Outputs saved in a notebook come from wherever it was last run. `notes/hybridisation.ipynb` was executed on the laptop's Firedrake (2026.4.1) by a stand-in runner, **not on Colab**. Its use of `finat.ufl`, odd-degree `"CR"` above 1, `variant="integral"` DG and Slate's `SCPC` is untested against the fem-on-colab release build.
 
+**Never name a notebook global `mesh`.** `from firedrake import *` also exports the `firedrake.mesh` submodule, so if the cell defining `mesh = ...` hasn't run (fresh runtime, cells run out of order), later cells silently pick up the module and fail deep inside Firedrake with `AttributeError: module 'firedrake.mesh' has no attribute 'topology'`. `notes/hybridisation` hit this on Colab; it now uses `demo_mesh`.
+
 Interactive outputs (HTML + `<script>`, e.g. the click-a-DoF coupling diagrams in `notes/hybridisation`) render in Colab and Jupyter but not in GitHub's static notebook viewer.
