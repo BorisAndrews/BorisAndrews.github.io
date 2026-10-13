@@ -28,6 +28,6 @@ Click [here](/reading-group/past/) to hide references for upcoming presentations
 
 {% include reading-group/past/references.md %}
 
-## [SUGGESTED READS](/reading-group/suggested/)
+<!-- ## [SUGGESTED READS](/reading-group/suggested/)
 
-Click [here](/reading-group/suggested/) to view the list of suggested papers.
+Click [here](/reading-group/suggested/) to view the list of suggested papers. -->

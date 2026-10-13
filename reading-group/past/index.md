@@ -26,6 +26,6 @@ Click [here](/reading-group/) to hide the records of past presentations.
 
 Click [here](/reading-group/past/references/) to view references for past presentations.
 
-## [SUGGESTED READS](/reading-group/suggested/)
+<!-- ## [SUGGESTED READS](/reading-group/suggested/)
 
-Click [here](/reading-group/suggested/) to view the list of suggested papers.
+Click [here](/reading-group/suggested/) to view the list of suggested papers. -->

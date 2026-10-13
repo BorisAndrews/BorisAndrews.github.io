@@ -20,6 +20,6 @@ Click [here](/reading-group/references/) to view references for upcoming present
 
 Click [here](/reading-group/past/) to view the records of past presentations.
 
-## [SUGGESTED READS](/reading-group/suggested/)
+<!-- ## [SUGGESTED READS](/reading-group/suggested/)
 
-Click [here](/reading-group/suggested/) to view the list of suggested papers.
+Click [here](/reading-group/suggested/) to view the list of suggested papers. -->

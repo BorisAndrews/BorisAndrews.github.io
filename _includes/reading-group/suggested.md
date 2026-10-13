@@ -4,13 +4,12 @@
 - Supersmoothness (Incl. the nice big triangle dot diagrams)
 - Trimming, enhanced smoothness, and Alfeld–Sorokina
 - Lie advection equations, and their topology-preserving properties
-- HDG/Static condensation
+- Hybridisation/Static condensation
 - Non-conforming elements (What they are/When they're useful (Pathological BCs/Triangulated manifolds/Low DoF numbers))
 - Local (cellwise) structures (Why they matter/How we show them)
 - Dual-weighted residuals and adaptivity
 - Which integrator when
 - Multi-symplecticity
-- Hybridisation
 - Stabilisation (Upwinding/Gradient jump penalisation/SVV)
 -->
 
