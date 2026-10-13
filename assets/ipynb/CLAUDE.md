@@ -33,15 +33,17 @@ else:
 
 ## Running notebooks locally
 
-As of Oct 2026 the laptop's Firedrake venv has **no Jupyter tooling** (no `ipykernel`, `nbclient`, `nbformat` or `IPython`), so there is no kernel to execute a notebook with. Boris has offered to install it:
+The laptop's Firedrake venv has `ipykernel`, `nbclient` and `nbformat` (installed 13 Oct 2026; they don't touch the source-built PETSc, mpi4py or h5py), so notebooks can be executed with a real kernel. Run it through `Software/firedrake-run` so the kernel inherits Firedrake's environment, with `NotebookClient(nb, timeout=1800, kernel_name="python3", record_timing=False)`.
 
-```sh
-~/.firedrake/venv-firedrake/bin/python -m pip install ipykernel nbclient nbformat
-```
+Boris edits these notebooks in Colab, which saves JSON with **2-space indent** and **text split into lists of lines**. To write an executed notebook back without churning the whole diff:
 
-(None of these touch the source-built PETSc, mpi4py or h5py, so the Firedrake wheel rule in `Software/CLAUDE.md` doesn't bite.) Check whether it's there before improvising.
+- dump with `json.dumps(nb, indent=2, ensure_ascii=False)`, not `nbformat.write` (indent 1);
+- call `nbformat.v4.rwbase.split_lines(nb)` first, or every output becomes one long string;
+- restore the original top-level `metadata`, since the kernel fills `language_info` with the laptop's Python version.
 
-Outputs saved in a notebook come from wherever it was last run. `notes/hybridisation.ipynb` was executed on the laptop's Firedrake (2026.4.1) by a stand-in runner, **not on Colab**. Its use of `finat.ufl`, odd-degree `"CR"` above 1, `variant="integral"` DG and Slate's `SCPC` is untested against the fem-on-colab release build.
+Execute a copy, check it, and only then overwrite: Boris is often mid-edit in Colab, so `git fetch` first and confirm the local file hasn't changed since you copied it.
+
+Outputs saved in a notebook come from wherever it was last run. `notes/hybridisation.ipynb`'s saved outputs (13 Oct 2026) are from the laptop (Firedrake 2026.4.1, Python 3.14), not Colab; Colab runs the same code about 10× slower.
 
 **Don't give notebook globals names that `from firedrake import *` exports.** The star import brings in far more than it looks like, and whichever ran last wins: if the defining cell hasn't run (fresh runtime), or the Firedrake cell is re-run afterwards (common on Colab), later cells silently get Firedrake's object and fail deep inside it. `notes/hybridisation` hit this twice on Colab:
 
