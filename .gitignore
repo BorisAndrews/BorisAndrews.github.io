@@ -9,3 +9,9 @@
 *.csv
 *.synctex(busy)
 !**/CLAUDE.md
+# Local Jekyll build
+_site/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/

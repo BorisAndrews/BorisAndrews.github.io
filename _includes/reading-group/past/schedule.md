@@ -39,8 +39,8 @@ For prior years, see {% include collaborators/charlie/short.md %}'s page [here](
 | 3 | 12.MAY | *(Break...)* | |
 | 4 | 19.MAY | *(Break...)* | |
 | 5 | 26.MAY | *(Break...)* | |
-| 6 | 02.JUN | [Material robustness in elasticity](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/material_robustness.ipynb) ([Brubeck, Parker & Zerbinati, 2026](/reading-group/references/#brubeck-parker-zerbinati-2026); [Arnold & Hu, 2021](/reading-group/references/#arnold-hu-2021)) | [Me (Boris Andrews)](/) |
-| 7 | 09.JUN | [High-order spaces of differential forms](/assets/pdf/reading-group/olav/high-order.pdf) ([Christiansen & Rapetti, 2016](/reading-group/references/#christiansen-rapetti-2016)) | {% include collaborators/olav/short.md %} |
-| 8 | 16.JUN | C¹ elements and the biharmonic problem ([Kirby & Mitchell, 2019](/reading-group/references/#kirby-mitchell-2019)) | {% include collaborators/tom/short.md %} |
+| 6 | 02.JUN | [Material robustness in elasticity](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/material_robustness.ipynb) ([Brubeck, Parker & Zerbinati, 2026](/reading-group/past/references/#brubeck-parker-zerbinati-2026); [Arnold & Hu, 2021](/reading-group/past/references/#arnold-hu-2021)) | [Me (Boris Andrews)](/) |
+| 7 | 09.JUN | [High-order spaces of differential forms](/assets/pdf/reading-group/olav/high-order.pdf) ([Christiansen & Rapetti, 2016](/reading-group/past/references/#christiansen-rapetti-2016)) | {% include collaborators/olav/short.md %} |
+| 8 | 16.JUN | C¹ elements and the biharmonic problem ([Kirby & Mitchell, 2019](/reading-group/past/references/#kirby-mitchell-2019)) | {% include collaborators/tom/short.md %} |
 
 *Slides and notes can be found, when available, by clicking the topic titles.*

@@ -4,9 +4,26 @@ Jekyll academic portfolio. Theme: `jekyll-theme-minimal` (heavily customised).
 
 ## Build
 
-**There is no local build.** The repo has no `Gemfile` and no `_site/`, and Jekyll is not installed on this machine — `bundle exec jekyll serve` fails with "Could not locate Gemfile". The site is built and deployed by GitHub Pages on push to `main`, so **a push here publishes the public site**. Like every commit and push in this workspace, it needs Boris's explicit permission for that specific commit or push (root CLAUDE.md).
+**Build and check locally with `Software/site-check`** (from the workspace root, or by absolute path):
 
-So changes cannot be previewed locally as things stand. Verify by inspection instead: every `{% include %}` path you write must correspond to an existing file under `_includes/` (a missing include is a hard build failure on Pages). The one thing that *is* locally buildable is the PDF CV — see `cv/assets/pdf/CLAUDE.md`.
+```sh
+Software/site-check            # build out of tree, report Jekyll errors, broken internal links and missing `#anchor` targets
+Software/site-check --serve    # live preview at http://localhost:4000
+```
+
+Run it after any edit here. It catches what inspection can't — Liquid errors, missing includes, and links to pages that no longer build (it ignores links inside HTML comments). Output goes to `~/Library/Caches/claude-site/_site`, never to `_site/` in the repo.
+
+The deployed site is built by GitHub Pages on push to `main`, so **a push here publishes the public site**. Like every commit and push in this workspace, it needs Boris's explicit permission for that specific commit or push (root CLAUDE.md).
+
+How the local build is set up (Oct 2026), and the traps found doing it:
+
+- The `Gemfile` pins `github-pages` **= 232**, the version on `https://pages.github.com/versions.json` (Jekyll 3.10.0, jekyll-seo-tag 2.8.0, kramdown 2.4.0, Liquid 4.0.4). Re-check that file and bump the pin if Pages moves.
+- It **must run on Ruby 3.3** (Homebrew `ruby@3.3`, keg-only at `/opt/homebrew/opt/ruby@3.3/bin`), matching Pages' Ruby 3.3. Homebrew's default `ruby` is 4.0, where `github-pages` 232 cannot install (`commonmarker` 0.23 requires Ruby < 4.0); Bundler then silently resolves an old `github-pages` 223 that crashes on `require 'csv'`. macOS's `/usr/bin/ruby` (2.6) is too old. `site-check` calls ruby@3.3 by path, so PATH doesn't matter.
+- Gems live in `vendor/bundle` (via the repo-local `.bundle/config`); both gitignored.
+- **Jekyll 3 replaces its default `exclude` list** when `_config.yml` sets one (the comment in `_config.yml` describes Jekyll 4's behaviour, not this). So `Gemfile`, `Gemfile.lock`, `vendor/` and `.bundle/` are listed there explicitly; without them the build tries to render the gems' own templates and fails, and the Gemfile would be published as a static file.
+- `To use retry middleware with Faraday v2.0+...` and `GitHub Metadata: No GitHub API authentication...` are harmless; `site-check` filters them.
+
+The one other locally buildable thing is the PDF CV — see `cv/assets/pdf/CLAUDE.md`.
 
 No Makefile. Edit source files directly; compiled CSS is in `assets/css/` (do not edit — regenerated from `_sass/`).
 
@@ -122,6 +139,13 @@ Two ways the API fails, both silently: a paper posted in the last day or so can 
 **Stage 1, DOI but no volume/issue/pages** (Elsevier "article in press"; Crossref carries only a month). The paper belongs in `2-upcoming`, *not* `1-papers`, with the `(Upcoming)` heading and include uncommented in all three pages, and its `\cventry` under the `(Upcoming)` subsection in `papers.tex` (kept commented out while empty, like the accepted one). **Stage 2, once the issue is assigned**: move to `1-papers` and the `\subsection{Papers}` block, and add `, <vol> (<issue>), pp.~<range>` to the CV item as the SISC entries do.
 
 Either way: replace `Upcoming (<journal include>)` with `MON.YYYY ([<JOURNAL>](https://doi.org/…))` as in `parker.md`, and move to `1-papers.md`, re-commenting the now-empty accepted sections in all three pages. In the PDF CV the `\cventry` moves up into `\subsection{Papers}` and its item becomes `Publication:`. Note Crossref may carry only a month for a new Elsevier DOI — no volume/issue/pages — so cite the journal name alone until they appear. History shows an intermediate `2-upcoming` stage ("Papers (Upcoming)") was used when a DOI existed but the issue date didn't; it's optional.
+
+**Reading group references.** A talk's references go in `_includes/reading-group/upcoming/references.md` (grouped by `***<year>***` then `*<term> term*`), one list item each with an id, and the schedule row cites them as `Topic ([Author, Year](/reading-group/references/#<id>))`. Ids are `<surnames>-<year>` (`briggs-henson-mccormick-2000`, or `<first>-et-al-<year>`). Two traps, both silent — the link still loads the page, just not at the entry — and both found on the live site in Oct 2026:
+
+- **Write the id as `- {: #id} **A. Author**, ...`, i.e. right after the bullet.** The older entries put `{: #id}` on an indented line *after* the text, which only works because kramdown wraps items of a *loose* list (blank line between entries) in `<p>` and attaches the id to that. A list with one entry is never loose, so a lone entry silently loses its id. A missing `#` (`{: some-id}`) also fails silently.
+- **When a term ends and its rows and references move to `past/schedule.md` and `past/references.md`, repoint every `/reading-group/references/#…` link in the moved rows to `/reading-group/past/references/#…`.** Four were missed once.
+
+While the upcoming list has references, the "### [REFERENCES](/reading-group/references/)" toggle is uncommented on `reading-group/index.md`, `past/index.md` and `past/references/index.md`; comment it out again when there are none. `Software/site-check` checks every `#anchor`, so run it after any of this.
 
 **Reading group organisers** (run jointly with Tom Higham, `collaborators/tom/`, since Sep 2026) are named in four places that must change together: the homepage section in `index.md`, `_includes/reading-group/intro.md` (shown on `/reading-group/` and `/reading-group/past/`, which use `layout: blank` with no sidebar, so Boris is named and linked there explicitly), `_includes/experience/reading_group.md` (web CV) and `cv/assets/pdf/components/experience.tex`.
 

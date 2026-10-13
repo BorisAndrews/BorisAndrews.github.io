@@ -4,7 +4,7 @@
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 16.OCT | Geometric multigrid | {% include collaborators/tom/short.md %} |
+| 1 | 16.OCT | Geometric multigrid ([Briggs, Henson & McCormick, 2000](/reading-group/references/#briggs-henson-mccormick-2000)) | {% include collaborators/tom/short.md %} |
 | 2 | 23.OCT | Static condensation & hybridisation | [Me (Boris Andrews)](/) |
 | 3 | 30.OCT | *(TBA...)* | {% include collaborators/puchun/short.md %} |
 | 4 | 06.NOV | *(TBA...)* | *(TBA...)* |
