@@ -9,7 +9,7 @@
 | 3 | 30.OCT | *(TBA...)* | {% include collaborators/puchun/short.md %} |
 | 4 | 06.NOV | *(TBA...)* | {% include collaborators/benjamin/short.md %} |
 | 5 | 13.NOV | *(TBA...)* | {% include collaborators/john/short.md %} |
-| 6 | 20.NOV | *(TBA...)* | *(TBA...)* |
+| 6 | 20.NOV | *(TBA...)* | {% include collaborators/olav/short.md %} |
 | 7 | 27.NOV | *(TBA...)* | {% include collaborators/tim/short.md %} |
 | 8 | 04.DEC | *(TBA...)* | *(TBA...)* |
 
