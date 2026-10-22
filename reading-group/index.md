@@ -4,6 +4,9 @@ permalink: /reading-group/
 layout: blank
 ---
 
+<!-- Mailing list admin: https://lists.maths.ox.ac.uk/mailman/admin/fem-reading-group/general -->
+<!-- Password: platypus -->
+
 # OXFORD FEM READING GROUP
 
 {% include reading-group/intro.md %}
