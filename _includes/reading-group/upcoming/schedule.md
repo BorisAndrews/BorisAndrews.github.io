@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | 1 | 16.OCT | Geometric multigrid ([Briggs, Henson & McCormick, 2000](/reading-group/references/#briggs-henson-mccormick-2000)) | {% include collaborators/tom/short.md %} |
 | 2 | 23.OCT | [Static condensation & hybridisation](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/hybridisation.ipynb) | [Me (Boris Andrews)](/) |
-| 3 | 30.OCT | *(TBA...)* | {% include collaborators/puchun/short.md %} |
+| 3 | 30.OCT | The Regge complex | {% include collaborators/puchun/short.md %} |
 | 4 | 06.NOV | *(TBA...)* | {% include collaborators/benjamin/short.md %} |
 | 5 | 13.NOV | *(TBA...)* | {% include collaborators/john/short.md %} |
 | 6 | 20.NOV | Analysis for Maxwell's equations | {% include collaborators/olav/short.md %} |
