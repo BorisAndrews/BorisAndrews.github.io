@@ -97,6 +97,8 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 
 **New person**: `_includes/collaborators/<firstname>/short.md`, one line, `[Full Name](link)`. When two people share a first name, both switch to `<firstname>_<surname>` (lower case, surname hyphens kept), matching the photo filenames — `aaron_brunk/` and `aaron_baier-reinio/`, with `assets/img/collaborators/aaron_brunk.jpeg` and `aaron_baier-reinio.jpg`. Renaming an existing directory means grepping for every `collaborators/<old>/` include: they are spread across publication rows, minisymposia, the collaborators page and each person's own `full.md`. (The publication slug `aaron-brunk.md` was deliberately *not* renamed; slugs don't track coauthors.) `full.md`, a photo under `assets/img/collaborators/` and an entry on `collaborators/index.md` are only for genuine research collaborators — people who appear merely as organisers or co-hosts (the Oberwolfach organisers, the FETC workshop co-organisers) get `short.md` alone.
 
+**Publication row files (`_includes/publications/all/*.md`) must not end with a newline.** They are included one per line into the list files, so a trailing newline becomes a blank line inside the Markdown table, which ends the table: every row after it is rendered as a second, headerless table with its own column widths (seen Oct 2026, `irksome-galerkin.md`, which made the last In-review row's co-authors jump sideways). Write them with `printf`/`write_text` without a final `\n`; `Software/site-check` reports any headerless table.
+
 **Revised arXiv preprint** (a new vN of a paper already on the site) touches four places, and it is easy to stop after the first:
 
 1. `_includes/publications/all/<slug>.md` — the date in the table row.
