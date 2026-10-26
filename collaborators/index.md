@@ -11,9 +11,15 @@ permalink: /collaborators/
 
 ## {% include collaborators/kaibo/full.md %}
 
+## {% include collaborators/maria/full.md %}
+
 ## {% include collaborators/rob/full.md %}
 
 ## {% include collaborators/scott/full.md %}
+
+## {% include collaborators/aaron_brunk/full.md %}
+
+## {% include collaborators/aaron_baier-reinio/full.md %}
 
 ## {% include collaborators/ganghui/full.md %}
 
@@ -22,11 +28,5 @@ permalink: /collaborators/
 ## {% include collaborators/mingdong/full.md %}
 
 ## {% include collaborators/matin/full.md %}
-
-## {% include collaborators/maria/full.md %}
-
-## {% include collaborators/aaron_brunk/full.md %}
-
-## {% include collaborators/aaron_baier-reinio/full.md %}
 
 ## {% include collaborators/dennis/full.md %}
