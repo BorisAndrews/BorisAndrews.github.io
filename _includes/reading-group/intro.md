@@ -1,5 +1,5 @@
 Homepage for the **{% include universities/oxford.md %} finite element methods reading group**, run by {% include collaborators/tom/short.md %} and [me (Boris Andrews)](/).
-To hear about upcoming talks, subscribe to the mailing list **[here](mailto:fem-reading-group-join@maths.ox.ac.uk?subject=subscribe)**.
+To hear about upcoming talks, join the mailing list by emailing **[fem-reading-group-join@maths.ox.ac.uk](mailto:fem-reading-group-join@maths.ox.ac.uk?subject=subscribe)**.
 
 {% comment %}
 Mailing list admin: https://lists.maths.ox.ac.uk/mailman/admin/fem-reading-group/general
