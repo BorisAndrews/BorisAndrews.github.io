@@ -4,6 +4,16 @@ LaTeX source for the PDF CV, compiled to `cv.pdf` which is linked from the websi
 
 ## Build
 
+**Never run `latexmk` here** (root CLAUDE.md: Boris's VS Code rebuilds in this directory, and two builds at once corrupt `cv.aux`). When the tracked `cv.pdf` needs refreshing, build out of tree and copy the result in — only when Boris asks, since this is the PDF he reads and the site serves:
+
+```sh
+Software/latex-check --clean Mine/Other/Website/cv/assets/pdf/cv.tex
+cp ~/Library/Caches/claude-latex/cv-*/cv.pdf Mine/Other/Website/cv/assets/pdf/cv.pdf
+```
+
+The paragraph below about `latexmk --pdf cv.tex` is how Boris's editor builds it, not a command to run.
+
+
 ```
 latexmk --pdf cv.tex
 ```

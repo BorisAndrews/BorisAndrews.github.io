@@ -7,7 +7,7 @@ permalink: /publications/sp-integrators-b/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
 
-### AUG.2026 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) <code>&#124;</code> SEP.2026 ([CAMWA](https://doi.org/10.1016/j.camwa.2026.09.012))
+### AUG.2026 ([arXiv](https://doi.org/10.48550/arXiv.2511.23266)) <code>&#124;</code> DEC.2026 ([CAMWA](https://doi.org/10.1016/j.camwa.2026.09.012))
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.1016/j.camwa.2026.09.012';"><b>
