@@ -18,21 +18,23 @@ See `assets/pdf/CLAUDE.md` for details on the LaTeX source.
 Standard Jekyll page with YAML front matter (`title: CV`, `permalink: /cv/`).
 The page opens and closes with `cv-download.md` (a highlight-box linking to `cv.pdf`).
 
-Sections in order:
+Sections in order — the *ideal* order given by the `% N` comments in `assets/pdf/cv.tex`. The PDF shuffles its sections to fit pages; this page has no such constraint, so it keeps the ideal order:
 
 | Section | Source |
 |---|---|
 | EMPLOYMENT | `_includes/employment/oxford.md` |
 | EDUCATION | `_includes/education/phd.md` + `education/mmath.md` |
 | RESEARCH INTERESTS | `_includes/interests.md` |
-| PRIZES, AWARDS & SCHOLARSHIPS | Inline markdown (no include) |
 | PUBLICATIONS & PREPRINTS | `_includes/publications/lists/1-papers.md` etc. |
-| TEACHING | Inline markdown (no include) |
-| SUPERVISION | `_includes/supervision/<name>.md` |
+| PRIZES, AWARDS & SCHOLARSHIPS | Inline markdown (no include) |
 | TALKS | Inline markdown using `_includes/conferences/` and `_includes/universities/` |
 | HOSTED WORKSHOPS & MINISYMPOSIA | `_includes/minisymposia/<name>.md` |
+| TEACHING | Inline markdown (no include) |
+| SUPERVISION | `_includes/supervision/<name>.md` |
 | OTHER EXPERIENCE | `_includes/experience/<name>.md` |
 | LANGUAGES | Inline markdown (no include) |
+
+Sections the PDF leaves out are commented out here too, not deleted: Prizes (its `\input` is commented out in `cv.tex`), HTML under programming languages, and the 2023 Tokamak Energy internal presentation, which the PDF never listed (synced Oct 2026). Wording follows the PDF, which is authoritative; links may differ (the web links paper titles to the site's own pages, the PDF to DOIs).
 
 Publications lists are shared with the main publications page (`_includes/publications/lists/`); updating a list file updates both pages.
 

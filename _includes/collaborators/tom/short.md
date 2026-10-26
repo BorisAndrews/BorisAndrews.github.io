@@ -1,1 +1,1 @@
-[Tom Higham](https://thighamoxford.github.io/)
+[Thomas Higham](https://thighamoxford.github.io/)

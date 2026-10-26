@@ -23,11 +23,6 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 {% include interests.md %}
 
-## PRIZES, AWARDS & SCHOLARSHIPS
-
-- **2021–2025 (DPhil)** <code>&#124;</code> EPSRC studentship / UKAEA studentship
-- **2017–2021 (MMath)** <code>&#124;</code> Worcester College Foundation scholarship / Worcester College collection prizes
-
 ## [PUBLICATIONS & PREPRINTS](/publications/)
 
 ### Papers
@@ -62,26 +57,10 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 {% include publications/lists/7-future.md %} -->
 
-## TEACHING
+<!-- ## PRIZES, AWARDS & SCHOLARSHIPS
 
-<!-- ### {% include universities/oxford.md %} (2021–2025) -->
-
-- **2026–2027** <code>&#124;</code> Lecturer: *[Mixed Finite Element Methods and Finite Element Complexes](https://www.maths.ox.ac.uk/groups/tcc/upcoming-courses-year)* (Graduate course at the [Taught Course Centre](https://www.maths.ox.ac.uk/groups/tcc)) / Assistant lecturer: *Finite Element Tensor Calculus* ({% include conferences/2026/nachdiplom.md %} by {% include collaborators/kaibo/short.md %}, {% include universities/eth.md %})
-- **2024–2025** <code>&#124;</code> Tutor: [*Computational Mathematics*](https://courses.maths.ox.ac.uk/course/view.php?id=5471)
-- **2024–2025** <code>&#124;</code> Tutor: [*Computational Mathematics*](https://courses.maths.ox.ac.uk/course/view.php?id=5471)
-- **2023–2024** <code>&#124;</code> Tutor: *Prelims corner* / Teaching assistant: [*Numerical Linear Algebra*](https://courses.maths.ox.ac.uk/course/view.php?id=5024)
-- **2021–2022** <code>&#124;</code> Tutor: [*Analysis I*](https://courses.maths.ox.ac.uk/course/view.php?id=48) / Teaching assistant: [*Random Matrix Theory*](https://courses.maths.ox.ac.uk/course/view.php?id=160)
-
-## SUPERVISION
-
-### {% include universities/oxford.md %} (2025–2027)
-
-{% include supervision/oscar.md %}
-
-### {% include universities/oxford.md %} (2021–2025)
-
-{% include supervision/matin.md %}
-{% include supervision/sebastian.md %}
+- **2021–2025** <code>&#124;</code> DPhil studentship (EPSRC) / CASE award (UKAEA)
+- **2017–2021** <code>&#124;</code> Foundation scholarship (Worcester College) / Collection prizes (Worcester College) -->
 
 ## TALKS
 
@@ -97,7 +76,7 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 - **2026** <code>&#124;</code> {% include conferences/2026/firedrake.md %} *({% include universities/oxford.md %})* / {% include conferences/2026/esi.md %} *({% include universities/vienna.md %})* / {% include conferences/2026/tensor.md %} *({% include universities/tsinghua.md %})*
 - **2025** <code>&#124;</code> {% include conferences/2025/internal_seminar.md %} *({% include universities/oxford.md %})* / {% include conferences/2025/strathclyde.md %} *({% include universities/strathclyde.md %})*
 - **2024** <code>&#124;</code> Computing Division Technical Meeting *({% include organisations/ukaea/short.md %})* / {% include conferences/2024/firedrake.md %} *({% include universities/oxford.md %})* / {% include conferences/2024/pdesoft.md%} *({% include universities/cambridge.md %})* / {% include conferences/2024/fe_fair.md %} *({% include universities/ucl.md %})* / {% include conferences/2024/pisa_workshop.md %} *({% include universities/pisa.md %})* / UKAEA PhD Student Engagement Day *({% include organisations/ukaea/short.md %})* / Junior Applied Mathematical Seminar *({% include universities/warwick.md %})*
-- **2023** <code>&#124;</code> {% include conferences/2023/iciam.md %} *({% include universities/waseda.md %})* / {% include conferences/2023/internal_seminar.md %} *({% include universities/oxford.md %})* / {% include conferences/2023/jams.md %} *({% include universities/oxford.md %})* / Met Office Presentation *({% include universities/oxford.md %})* / Internal Presentation *({% include organisations/tokamak_energy.md %})*
+- **2023** <code>&#124;</code> {% include conferences/2023/iciam.md %} *({% include universities/waseda.md %})* / {% include conferences/2023/internal_seminar.md %} *({% include universities/oxford.md %})* / {% include conferences/2023/jams.md %} *({% include universities/oxford.md %})* / Met Office Presentation *({% include universities/oxford.md %})* <!-- / Internal Presentation *({% include organisations/tokamak_energy.md %})* -->
 - **2022** <code>&#124;</code> PRISM Workshop *(Missenden Abbey, UK)*
 
 *(\*upcoming)*
@@ -108,8 +87,29 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 {% include minisymposia/scicade.md %}
 {% include minisymposia/strathclyde.md %}
 
+## TEACHING
+
+<!-- ### {% include universities/oxford.md %} (2021–2025) -->
+
+- **2026–2027** <code>&#124;</code> Lecturer: *[Mixed Finite Element Methods and Finite Element Complexes](https://www.maths.ox.ac.uk/groups/tcc/upcoming-courses-year)* (16-hour graduate course at the [Taught Course Centre](https://www.maths.ox.ac.uk/groups/tcc)) / Assistant lecturer: *Finite Element Tensor Calculus* ({% include conferences/2026/nachdiplom.md %} by {% include collaborators/kaibo/short.md %}, {% include universities/eth.md %})
+- **2024–2025** <code>&#124;</code> Tutor: [*Computational Mathematics*](https://courses.maths.ox.ac.uk/course/view.php?id=5471)
+- **2023–2024** <code>&#124;</code> Tutor: *Prelims corner* / Teaching assistant: [*Numerical Linear Algebra*](https://courses.maths.ox.ac.uk/course/view.php?id=5024)
+- **2021–2022** <code>&#124;</code> Teaching assistant: [*Random Matrix Theory*](https://courses.maths.ox.ac.uk/course/view.php?id=160) / Tutor: [*Analysis I*](https://courses.maths.ox.ac.uk/course/view.php?id=48) (Oriel College)
+
+## SUPERVISION
+
+### {% include universities/oxford.md %} (2025–2027)
+
+{% include supervision/oscar.md %}
+
+### {% include universities/oxford.md %} (2021–2025)
+
+{% include supervision/matin.md %}
+{% include supervision/sebastian.md %}
+
 ## OTHER EXPERIENCE
 
+{% include experience/nachdiplom.md %}
 {% include experience/esi.md %}
 {% include experience/reading_group.md %}
 {% include experience/tokamak_energy.md %}
@@ -121,7 +121,7 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 ### Programming
 
 - **EXPERIENCED** <code>&#124;</code> Python *(Firedrake)* / MATLAB / LaTeX
-- **LIMITED** <code>&#124;</code> Julia / C / Fortran / HTML
+- **LIMITED** <code>&#124;</code> Julia / C / Fortran <!-- / HTML -->
 
 ### Spoken
 

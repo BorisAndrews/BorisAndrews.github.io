@@ -1,1 +1,3 @@
 - **AUG–OCT.2022** <code>&#124;</code> Physics: theory and modelling internship, *{% include organisations/tokamak_energy.md %}*
+    - **PROJECT** <code>&#124;</code> Implementation of non-Maxwellian backgrounds in the GENE gyrokinetic code
+    - **SUPERVISOR** <code>&#124;</code> [Salomon Janhunen](https://scholar.google.com/citations?user=E0fV6HAAAAAJ)

@@ -73,6 +73,8 @@ Dates are plain strings, e.g. `2025 -- 2027 \emph{(predicted)}` or `30 Apr 2026`
 Sections use `\section{\textsc{...}}`, subsections use `\subsection{...}` (plain or `\small{\textcolor{color0}{...}}` for parenthetical labels like "(In review)").
 `\vspace{0mm}` and `\vspace{1mm}` are used between entries for spacing.
 
+**The `% N` comments after each `\input` in `cv.tex` give the *ideal* section order**, the one Boris would use if page fitting weren't an issue: 1 employment, 2 education, 3 research interests, 4 publications, 5 prizes, 6a talks, 6b hosted workshops & minisymposia, 7a teaching, 7b supervision, 8 other experience, 9 languages. The actual `\input` order is that, shuffled to fit pages. So when reflowing, move sections as whole blocks and keep each one's number with it; when there's freedom (e.g. a page gains room), drift back towards the numbered order. The web CV (`cv/index.md`) has no page constraint, so the numbered order is what it should follow.
+
 Four explicit `\newpage`s in `cv.tex` divide it into five blocks, one page each, so the CV is **five** pages (Boris's layout since Oct 2026): (1) employment, education, research interests, languages; (2) publications; (3) talks; (4) hosted workshops & minisymposia, teaching, supervision; (5) other experience. Boris moved to this when the four-page layout ran out of room on page 1, so it is deliberate — don't try to squeeze it back to four. Check `Output written on cv.pdf (N pages…)` after adding an entry: a block that outgrows its page shows up as a sixth page.
 
 Note `prizes.tex` and `references.tex` are commented out in `cv.tex`; they are not in the PDF.
