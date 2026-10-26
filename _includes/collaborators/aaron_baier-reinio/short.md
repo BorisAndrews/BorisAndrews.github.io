@@ -1,1 +1,1 @@
-Aaron Baier-Reinio
+[Aaron Baier-Reinio](https://eng.ox.ac.uk/people/aaron-baier-reinio)

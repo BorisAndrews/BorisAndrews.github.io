@@ -121,7 +121,7 @@ Two ways the API fails, both silently: a paper posted in the last day or so can 
 - Title becomes a link to `/publications/<slug>/`; remove the `*` (= "in preparation") after the title in coauthors' `collaborators/*/full.md` and link it there too.
 - Paper page: date/venue heading, pull-quote and full abstract (from the submitted `.tex`, converting `--` to `–` and dropping `~`). **Omit** the CHECK OUT ON ARXIV highlight-box until there is something to link to.
 - PDF CV: add a `\cventry` at the top of `(In review)` with a plain (un-`\href`'d) title.
-- **No homepage banner** until the arXiv DOI exists — Boris's call, since a banner needs a destination.
+- **Banner:** a banner needs a destination, so for `enstrophy` Boris waited for the arXiv DOI. For Stefan–Maxwell (26 Oct 2026) he wanted it straight away, so the paper got its own page (title, authors, `In review` heading, abstract, no arXiv box) and the banner points there. Ask which he wants.
 - Once the DOI arrives: link "(arXiv)" in the row and page heading, add the arXiv highlight-box(es) to the page, `\href` the CV title, and then the banner.
 
 **Paper accepted** (no DOI yet). Follow the precedent set by `parker` (Nov 2025) and `sp-integrators-b` (Sep 2026):

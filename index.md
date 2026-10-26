@@ -8,8 +8,8 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
-<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/enstrophy/';">
-    I RECENTLY SUBMITTED A PAPER WITH MATIN SHAMS AND PATRICK FARRELL ON ENSTROPHY-STABLE INTEGRATORS FOR NAVIER–STOKES <br><br>
+<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/stefan-maxwell/';">
+    I RECENTLY SUBMITTED A PAPER WITH AARON BAIER-REINIO, AARON BRUNK, PATRICK FARRELL AND MÁRIA LUKÁČOVÁ-MEDVIĎOVÁ ON STRUCTURE-PRESERVING DISCRETISATIONS FOR MULTICOMPONENT FLOWS <br><br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
 </div>
 
