@@ -94,12 +94,12 @@ My work generally focuses on **structure-preserving / compatible numerical metho
         <div class="caption"><a href="https://kaibohu.github.io/"><b>Kaibo Hu</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/ganghui.jpg' | relative_url }}" alt="Ganghui Zhang">
-        <div class="caption"><a href="https://scholar.google.com/citations?user=DDKP7AgAAAAJ"><b>Ganghui Zhang</b></a>, <br> <a href="https://www.polyu.edu.hk/ama/"><em>Hong Kong Polytechnic University</em></a></div>
+        <img src="{{ '/assets/img/collaborators/rob.jpg' | relative_url }}" alt="Rob Kirby">
+        <div class="caption"><a href="https://math.artsandsciences.baylor.edu/person/robert-kirby-phd"><b>Rob Kirby</b></a>, <br> <a href="https://math.artsandsciences.baylor.edu/research/numerical-analysis-and-computational-mathematics/"><em>Baylor University</em></a></div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/mingdong.png' | relative_url }}" alt="Mingdong He">
-        <div class="caption"><a href="https://sites.google.com/view/mingdonghe/home/"><b>Mingdong He</b></a>, <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+        <img src="{{ '/assets/img/collaborators/aaron_brunk.jpeg' | relative_url }}" alt="Aaron Brunk">
+        <div class="caption"><a href="https://aaronbrunk1.github.io/"><b>Aaron Brunk</b></a>, <br> <a href="https://www.math.uni-mainz.de/"><em>Johannes Gutenberg University Mainz</em></a></div>
     </div>
 </div>
 
