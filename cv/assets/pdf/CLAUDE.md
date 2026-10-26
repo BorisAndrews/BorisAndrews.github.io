@@ -73,7 +73,7 @@ Dates are plain strings, e.g. `2025 -- 2027 \emph{(predicted)}` or `30 Apr 2026`
 Sections use `\section{\textsc{...}}`, subsections use `\subsection{...}` (plain or `\small{\textcolor{color0}{...}}` for parenthetical labels like "(In review)").
 `\vspace{0mm}` and `\vspace{1mm}` are used between entries for spacing.
 
-Three explicit `\newpage`s in `cv.tex` divide it into four blocks, one page each, so the CV is **four** pages: employment–teaching, supervision–publications, presentations, then minisymposia–languages. (An older note here said three; a block has been added since.) Each block currently fits its page with little room, so check `Output written on cv.pdf (N pages…)` after adding an entry — a spill shows up as a fifth page.
+Four explicit `\newpage`s in `cv.tex` divide it into five blocks, one page each, so the CV is **five** pages (Boris's layout since Oct 2026): (1) employment, education, research interests, languages; (2) publications; (3) talks; (4) hosted workshops & minisymposia, teaching, supervision; (5) other experience. Boris moved to this when the four-page layout ran out of room on page 1, so it is deliberate — don't try to squeeze it back to four. Check `Output written on cv.pdf (N pages…)` after adding an entry: a block that outgrows its page shows up as a sixth page.
 
 Note `prizes.tex` and `references.tex` are commented out in `cv.tex`; they are not in the PDF.
 
@@ -86,14 +86,14 @@ Each section is a separate file under `components/`; order in `cv.tex` determine
 | `employment.tex` | Employment |
 | `education.tex` | Education |
 | `interests.tex` | Research Interests |
-| `prizes.tex` | Prizes, Awards & Scholarships |
+| `languages.tex` | Languages |
 | `papers.tex` | Publications & Preprints |
-| `teaching.tex` | Teaching |
-| `supervision.tex` | Supervision |
 | `presentations.tex` | Talks (invited & other) |
 | `minisymposia.tex` | Hosted Workshops & Minisymposia (organised workshops go here too) |
+| `teaching.tex` | Teaching (grouped by academic year; a second role in the same year is a `\cventry` with an empty date) |
+| `supervision.tex` | Supervision |
 | `experience.tex` | Other Experience |
-| `languages.tex` | Languages |
+| `prizes.tex` | Prizes, Awards & Scholarships (commented out in cv.tex) |
 | `references.tex` | References (commented out in cv.tex) |
 
 ## Where PDF links point
