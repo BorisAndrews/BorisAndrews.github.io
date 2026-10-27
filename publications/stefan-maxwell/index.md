@@ -7,7 +7,12 @@ permalink: /publications/stefan-maxwell/
 
 ### Boris Andrews <code>&#124;</code> {% include collaborators/aaron_baier-reinio/short.md %} <code>&#124;</code> {% include collaborators/aaron_brunk/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/maria/short.md %}
 
-### OCT.2026 (arXiv) <code>&#124;</code> In review
+### OCT.2026 ([arXiv](https://doi.org/10.48550/arXiv.2610.35157)) <code>&#124;</code> In review
+
+{% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2610.35157';"><b>
+    CHECK OUT ON ARXIV!
+</b></div>
 
 > *We study a thermal **Maxwell–Stefan–Navier–Stokes** system modelling **miscible mixtures** under a **quasi-incompressibility constraint**. [...] The first method [...] **guarantees generation of entropy** and **enforces the quasi-incompressibility constraint pointwise** [...]. The second method employs a **continuous Petrov–Galerkin** discretisation in time, which also generates entropy and satisfies the constraint pointwise, and in addition **conserves the total energy** and allows **high-order time approximations**. [...]*
 
