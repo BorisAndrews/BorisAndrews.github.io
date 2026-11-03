@@ -33,7 +33,7 @@ No Makefile. Edit source files directly; compiled CSS is in `assets/css/` (do no
 |---|---|
 | `_config.yml` | Site-wide settings (title, email, logo, theme) |
 | `_layouts/default.html` | Master template (header, portrait, sidebar nav, footer) |
-| `_layouts/blank.html` | Stripped template: no sidebar, no nav, **no KaTeX/MathJax**, just a "Back to home" arrow |
+| `_layouts/blank.html` | Stripped template: no sidebar, no nav, **no maths rendering**, just a "Back to home" arrow. Used by the reading-group pages and `fetc-workshop/` |
 | `_sass/jekyll-theme-minimal.scss` | All custom styles — edit here |
 | `_sass/fonts.scss` | Font config (JetBrains Mono preferred) |
 | `_includes/` | Reusable Liquid components (see below) |
@@ -70,7 +70,7 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 ## Style conventions
 
 - **Headings**: ALL CAPS (consistent throughout site).
-- **Maths**: KaTeX + MathJax both loaded; use standard LaTeX in backtick fences or `$$...$$`.
+- **Maths**: **KaTeX only** (0.16.8, auto-render, loaded in `_layouts/default.html`). Delimiters are `\( \)`, `\[ \]` and `$$ $$`; a single `$` is not one. MathJax used to be loaded as well, but KaTeX ran first and rendered everything, so MathJax did nothing; it was removed in Nov 2026 after all 47 formulas on the site were rendered through KaTeX 0.16.8 in Node without error. To re-check after adding maths: extract `\(…\)`, `\[…\]`, `$$…$$` from the built pages and call `katex.renderToString(tex, {displayMode, throwOnError: true})` on each (Node is installed; put `npm install katex@0.16.8` in a scratch folder, not the repo). Anything KaTeX can't parse now shows up as raw LaTeX on the page.
 - **Colours** (defined in `_sass/jekyll-theme-minimal.scss`):
   - Background: warm beige `#FBF6E5`
   - Headings: brown `#B3532A`
@@ -91,7 +91,7 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 
 **New collaborator**: add `_includes/collaborators/<name>/short.md` and `full.md`; optionally add photo to `assets/img/collaborators/`.
 
-**New standalone page**: `<slug>/index.md` with front matter of just `title` and `permalink: /<slug>/` — **do not** add a `layout:` key. Jekyll applies `default` (sidebar, nav, maths) on its own, which is what every page here except `reading-group/` wants; that one opts into `layout: blank` deliberately. A new page is *not* automatically reachable: the sidebar nav is hardcoded in `_layouts/default.html`, so either add an `<li>` there or link the page from wherever it belongs (`fetc-workshop/` is reached from the `UPCOMING` list in `index.md`, the way paper pages are reached from the publication lists — its `conferences/2027/fetc.md` include *is* the link).
+**New standalone page**: `<slug>/index.md` with front matter of just `title` and `permalink: /<slug>/` — **do not** add a `layout:` key. Jekyll applies `default` (sidebar, nav, maths) on its own, which is what most pages want; the reading-group pages and `fetc-workshop/` opt into `layout: blank` deliberately (and so get no maths rendering). A new page is *not* automatically reachable: the sidebar nav is hardcoded in `_layouts/default.html`, so either add an `<li>` there or link the page from wherever it belongs (`fetc-workshop/` is reached from the `UPCOMING` list in `index.md`, the way paper pages are reached from the publication lists — its `conferences/2027/fetc.md` include *is* the link).
 
 **New conference**: add `_includes/conferences/<year>/<name>.md` (one line: the linked event name, or plain text if it has no site yet) and include it wherever it is referenced — the `UPCOMING` list in `index.md`, the TALKS lines in `cv/index.md`, or a publication page.
 
