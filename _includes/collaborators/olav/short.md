@@ -1,1 +1,1 @@
-[Olav Tyssvang](https://karltyssvang.github.io/)
+[Olav Tyssvang](https://www.maths.ox.ac.uk/people/karl.tyssvang)

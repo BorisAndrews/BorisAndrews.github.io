@@ -12,13 +12,13 @@ layout: blank
 
 {% include reading-group/upcoming/schedule.md %}
 
-<!-- ### [REFERENCES](/reading-group/references/)
+<!-- ### [REFERENCES](/reading-group/#references)
 
-Click [here](/reading-group/references/) to view references for upcoming presentations. -->
+Click [here](/reading-group/#references) to view references for upcoming presentations. -->
 
-## [PAST](/reading-group/past/)
+## [PAST](/reading-group/#past)
 
-Click [here](/reading-group/past/) to view the records of past presentations.
+Click [here](/reading-group/#past) to view the records of past presentations.
 
 ## [SUGGESTED READS](/reading-group/)
 

@@ -1,16 +1,46 @@
 .highlight-box {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
     width: 80%;
     padding: 20px;
     color: #FBF6E5;
-    background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px);
     text-align: center;
     cursor: pointer;
     margin: 20px auto;
     border: none;
     border-radius: 10px;
+    transition: box-shadow 0.15s ease;
 }
 
 .highlight-box:hover {
-    color: #FBF6E5;
-    background: repeating-linear-gradient(135deg, #78381C, #78381C 10px,	#673018 10px,	#673018 20px);
+    box-shadow: 0 0 0 1px #673018;
+    background-color: #673018;
+}
+
+/* Stripes sit on an oversized layer that slides by one period (20px across
+   135deg stripes = 20*sqrt(2) px horizontally) per cycle while hovered. */
+.highlight-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    right: 0;
+    z-index: -1;
+    background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px);
+    animation: stripe-slide 1.6s linear infinite paused;
+}
+
+.highlight-box:hover::before {
+    background: repeating-linear-gradient(135deg, #78381C, #78381C 10px, #673018 10px, #673018 20px);
+    animation-play-state: running;
+}
+
+@keyframes stripe-slide {
+    to { transform: translateX(28.2843px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .highlight-box::before { animation: none; }
 }

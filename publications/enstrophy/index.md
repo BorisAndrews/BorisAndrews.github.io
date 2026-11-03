@@ -45,9 +45,17 @@ This represents a particularly exciting **application of my earlier work** with 
 
 ## CO-AUTHORS
 
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/matin/full.md %}
 
+</div>
+
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/patrick/full.md %}
+
+</div>
 
 ## VIDEOS
 

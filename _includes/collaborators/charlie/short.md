@@ -1,1 +1,1 @@
-[Charlie Parker](https://sites.google.com/view/charlieparker2/about)
+[Charles Parker](https://sites.google.com/view/charlieparker2/about)

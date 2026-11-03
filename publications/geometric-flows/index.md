@@ -135,6 +135,14 @@ This paper represents an application of the **auxiliary variable framework** for
 
 ## CO-AUTHORS
 
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/ganghui/full.md %}
 
+</div>
+
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/patrick/full.md %}
+
+</div>

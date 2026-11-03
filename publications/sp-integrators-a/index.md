@@ -195,7 +195,11 @@ For a neat and related application of these ideas to a problem in **magnetic rel
 
 ## CO-AUTHORS
 
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/patrick/full.md %}
+
+</div>
 
 ## TALKS
 

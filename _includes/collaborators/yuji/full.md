@@ -1,4 +1,8 @@
 {% include collaborators/yuji/short.md %}
-<img src="/assets/img/collaborators/yuji.jpg" alt="Yuji Nakatsukasa" width="167" />
-- **Affiliation** <code>&#124;</code> {% include universities/oxford.md %}
+
+<div class="collab-photo"><img src="/assets/img/collaborators/yuji.jpg" alt="Yuji Nakatsukasa"></div>
+
+*{% include universities/oxford.md %}*
+{: .collab-affil}
+
 <!-- - **Role** <code>&#124;</code> Masters thesis supervisor -->

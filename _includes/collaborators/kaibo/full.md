@@ -1,4 +1,11 @@
 {% include collaborators/kaibo/short.md %}
-<img src="/assets/img/collaborators/kaibo.jpg" alt="Kaibo Hu" width="167" />
-- **Affiliation** <code>&#124;</code> {% include universities/oxford.md %}
-- **Joint publications** <code>&#124;</code> [Helicity-preserving finite element discretization for magnetic relaxation](/publications/parker/)
+
+<div class="collab-photo"><img src="/assets/img/collaborators/kaibo.jpg" alt="Kaibo Hu"></div>
+
+*{% include universities/oxford.md %}*
+{: .collab-affil}
+
+- [Helicity-preserving finite element discretization for magnetic relaxation](/publications/parker/)
+- Material robustness of strongly symmetric stress discretisations in thin domains*
+- Discrete energy spectra in finite element discretisations of the incompressible Navier–Stokes equations*
+{: .collab-pubs}

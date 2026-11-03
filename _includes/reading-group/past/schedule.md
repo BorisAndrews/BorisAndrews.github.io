@@ -8,39 +8,39 @@ For prior years, see {% include collaborators/charlie/short.md %}'s page [here](
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 17.OCT | [Long steps in gradient descent methods](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/long_steps.ipynb) ([Grimmer, 2024](/reading-group/past/references/#grimmer-2024); [Zhigljavsky, Pronzato & Bukina, 2013](/reading-group/past/references/#zhigljavsky-pronzato-bukina-2013)) | [Me (Boris Andrews)](/) |
-| 2 | 24.OCT | Sparse direct solvers ([Duff, Erisman & Reid, 2017](/reading-group/past/references/#duff-erisman-reid-2017)) | {% include collaborators/kars/short.md %} |
+| 1 | 17.OCT | [Long steps in gradient descent methods](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/long_steps.ipynb) ([Grimmer, 2024](/reading-group/#grimmer-2024); [Zhigljavsky, Pronzato & Bukina, 2013](/reading-group/#zhigljavsky-pronzato-bukina-2013)) | [Me (Boris Andrews)](/) |
+| 2 | 24.OCT | Sparse direct solvers ([Duff, Erisman & Reid, 2017](/reading-group/#duff-erisman-reid-2017)) | {% include collaborators/kars/short.md %} |
 | 3 | 31.OCT | Group meeting | Everyone |
-| 4 | 07.NOV | [Preconditioners for PDE timesteppers](/assets/pdf/reading-group/charlie/timestepper-preconditioning.pdf) ([Southworth *et al.*, 2022](/reading-group/past/references/#southworth-et-al-2022)) | {% include collaborators/charlie/short.md %} |
-| 5 | 14.NOV | [From classical thermodynamics to fluid motion](/assets/pdf/reading-group/jakub/thermodynamics.pdf) ([Málek & Průša, 2018](/reading-group/past/references/#malek-prusa-2018)) | {% include collaborators/jakub/short.md %} |
-| 6 | 21.NOV | [Turbulence](/assets/pdf/reading-group/mingdong/turbulence.pdf) ([Layton, 2018](/reading-group/past/references/#layton-2018)) | {% include collaborators/mingdong/short.md %} |
+| 4 | 07.NOV | [Preconditioners for PDE timesteppers](/assets/pdf/reading-group/charlie/timestepper-preconditioning.pdf) ([Southworth *et al.*, 2022](/reading-group/#southworth-et-al-2022)) | {% include collaborators/charlie/short.md %} |
+| 5 | 14.NOV | [From classical thermodynamics to fluid motion](/assets/pdf/reading-group/jakub/thermodynamics.pdf) ([Málek & Průša, 2018](/reading-group/#malek-prusa-2018)) | {% include collaborators/jakub/short.md %} |
+| 6 | 21.NOV | [Turbulence](/assets/pdf/reading-group/mingdong/turbulence.pdf) ([Layton, 2018](/reading-group/#layton-2018)) | {% include collaborators/mingdong/short.md %} |
 | 7 | 28.NOV | *(Break...)* | |
-| 8 | 05.DEC | [Grad–Shafranov: MHD equilibria and how to find them](/assets/pdf/reading-group/tom/grad-shafranov.pdf) ([Schnack, 2009](/reading-group/past/references/#schnack-2009); [He *et al.*, 2025](/reading-group/past/references/#he-et-al-2025); [Blickhan, Stratton & Kaptanoglu, 2025](/reading-group/past/references/#blickhan-stratton-kaptanoglu-2025)) | {% include collaborators/tom/short.md %} |
+| 8 | 05.DEC | [Grad–Shafranov: MHD equilibria and how to find them](/assets/pdf/reading-group/tom/grad-shafranov.pdf) ([Schnack, 2009](/reading-group/#schnack-2009); [He *et al.*, 2025](/reading-group/#he-et-al-2025); [Blickhan, Stratton & Kaptanoglu, 2025](/reading-group/#blickhan-stratton-kaptanoglu-2025)) | {% include collaborators/tom/short.md %} |
 
 *Hilary term*
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 23.JAN | [Differential forms and virtual elements](/assets/pdf/reading-group/olav/differential-forms.pdf) ([Arnold, 2018](/reading-group/past/references/#arnold-2018); [Beirao da Veiga *et al.*, 2023](/reading-group/past/references/#beiraodaveiga-et-al-2023)) | {% include collaborators/olav/short.md %} |
-| 2 | 30.JAN | [Finding equilibria of Hamiltonian systems](/assets/pdf/reading-group/mingdong/metriplectic-equilibria.pdf) ([Bressan *et al.*, 2025](/reading-group/past/references/#bressan-et-al-2025); [Bressan *et al.*, 2018](/reading-group/past/references/#bressan-et-al-2018)) | {% include collaborators/mingdong/short.md %} |
-| 3 | 06.FEB | [Mollifiers & applications in FEMs](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/mollifiers.ipynb) ([Evans, 2010](/reading-group/past/references/#evans-2010)) | [Me (Boris Andrews)](/) |
-| 4 | 13.FEB | [Free-boundary and two-phase MHD](/assets/pdf/reading-group/ganghui/mhd-extensions.pdf) ([Gerbeau, Le Bris & Lelièvre, 2006](/reading-group/past/references/#gerbeau-lebris-lelievre-2006); [Gu, Luo & Zhang, 2024](/reading-group/past/references/#gu-luo-zhang-2024)) | {% include collaborators/ganghui/short.md %} |
+| 1 | 23.JAN | [Differential forms and virtual elements](/assets/pdf/reading-group/olav/differential-forms.pdf) ([Arnold, 2018](/reading-group/#arnold-2018); [Beirao da Veiga *et al.*, 2023](/reading-group/#beiraodaveiga-et-al-2023)) | {% include collaborators/olav/short.md %} |
+| 2 | 30.JAN | [Finding equilibria of Hamiltonian systems](/assets/pdf/reading-group/mingdong/metriplectic-equilibria.pdf) ([Bressan *et al.*, 2025](/reading-group/#bressan-et-al-2025); [Bressan *et al.*, 2018](/reading-group/#bressan-et-al-2018)) | {% include collaborators/mingdong/short.md %} |
+| 3 | 06.FEB | [Mollifiers & applications in FEMs](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/mollifiers.ipynb) ([Evans, 2010](/reading-group/#evans-2010)) | [Me (Boris Andrews)](/) |
+| 4 | 13.FEB | [Free-boundary and two-phase MHD](/assets/pdf/reading-group/ganghui/mhd-extensions.pdf) ([Gerbeau, Le Bris & Lelièvre, 2006](/reading-group/#gerbeau-lebris-lelievre-2006); [Gu, Luo & Zhang, 2024](/reading-group/#gu-luo-zhang-2024)) | {% include collaborators/ganghui/short.md %} |
 | 5 | 20.FEB | *(Break...)* | |
-| 6 | 27.FEB | [Distributional elements](/assets/pdf/reading-group/yizhou/distributional-elements.pdf) ([Braess & Schöberl, 2008](/reading-group/past/references/#braess-schoberl-2008); [Christiansen, 2011](/reading-group/past/references/#christiansen-2011)) | {% include collaborators/yizhou/short.md %} |
-| 7 | 06.MAR | [Unfitted FEM](/assets/pdf/reading-group/xinpei/unfitted-fem.pdf) ([Nitsche, 1972](/reading-group/past/references/#nitsche-1972); [Hansbo & Hansbo, 2002](/reading-group/past/references/#hansbo-hansbo-2002); [Burman, 2010](/reading-group/past/references/#burman-2010); [Burman et al., 2025](/reading-group/past/references/#burman-et-al-2025)) | Xinpei Zhang |
-| 8 | 13.MAR | Contact manifolds ([Arnold, 1989](/reading-group/past/references/#arnold-1989); [Rumin, 1994](/reading-group/past/references/#rumin-1994)) | {% include collaborators/yuechen/short.md %} |
+| 6 | 27.FEB | [Distributional elements](/assets/pdf/reading-group/yizhou/distributional-elements.pdf) ([Braess & Schöberl, 2008](/reading-group/#braess-schoberl-2008); [Christiansen, 2011](/reading-group/#christiansen-2011)) | {% include collaborators/yizhou/short.md %} |
+| 7 | 06.MAR | [Unfitted FEM](/assets/pdf/reading-group/xinpei/unfitted-fem.pdf) ([Nitsche, 1972](/reading-group/#nitsche-1972); [Hansbo & Hansbo, 2002](/reading-group/#hansbo-hansbo-2002); [Burman, 2010](/reading-group/#burman-2010); [Burman et al., 2025](/reading-group/#burman-et-al-2025)) | Xinpei Zhang |
+| 8 | 13.MAR | Contact manifolds ([Arnold, 1989](/reading-group/#arnold-1989); [Rumin, 1994](/reading-group/#rumin-1994)) | {% include collaborators/yuechen/short.md %} |
 
 *Trinity term*
 
 | Week | Date | Topic | Presenter |
 | --- | --- | --- | --- |
-| 1 | 28.MAY | *(Break...)* | |
+| 1 | 28.APR | *(Break...)* | |
 | 2 | 05.MAY | *(Break...)* | |
 | 3 | 12.MAY | *(Break...)* | |
 | 4 | 19.MAY | *(Break...)* | |
 | 5 | 26.MAY | *(Break...)* | |
-| 6 | 02.JUN | [Material robustness in elasticity](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/material_robustness.ipynb) ([Brubeck, Parker & Zerbinati, 2026](/reading-group/past/references/#brubeck-parker-zerbinati-2026); [Arnold & Hu, 2021](/reading-group/past/references/#arnold-hu-2021)) | [Me (Boris Andrews)](/) |
-| 7 | 09.JUN | [High-order spaces of differential forms](/assets/pdf/reading-group/olav/high-order.pdf) ([Christiansen & Rapetti, 2016](/reading-group/past/references/#christiansen-rapetti-2016)) | {% include collaborators/olav/short.md %} |
-| 8 | 16.JUN | C¹ elements and the biharmonic problem ([Kirby & Mitchell, 2019](/reading-group/past/references/#kirby-mitchell-2019)) | {% include collaborators/tom/short.md %} |
+| 6 | 02.JUN | [Material robustness in elasticity](https://colab.research.google.com/github/BorisAndrews/BorisAndrews.github.io/blob/main/assets/ipynb/notes/material_robustness.ipynb) ([Brubeck, Parker & Zerbinati, 2026](/reading-group/#brubeck-parker-zerbinati-2026); [Arnold & Hu, 2021](/reading-group/#arnold-hu-2021)) | [Me (Boris Andrews)](/) |
+| 7 | 09.JUN | [High-order spaces of differential forms](/assets/pdf/reading-group/olav/high-order.pdf) ([Christiansen & Rapetti, 2016](/reading-group/#christiansen-rapetti-2016)) | {% include collaborators/olav/short.md %} |
+| 8 | 16.JUN | C¹ elements and the biharmonic problem ([Kirby & Mitchell, 2019](/reading-group/#kirby-mitchell-2019)) | {% include collaborators/tom/short.md %} |
 
 *Slides and notes can be found, when available, by clicking the topic titles.*

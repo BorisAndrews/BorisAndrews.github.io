@@ -1,20 +1,48 @@
 .reveal-box {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
     width: 80%;
     padding: 20px;
     color: #FBF6E5;
-    background: repeating-linear-gradient(135deg, #6C7A82, #6C7A82 10px, #68767d 10px, #68767d 20px);
     text-align: center;
     cursor: pointer;
     margin: 20px auto;
     border: none;
     border-radius: 10px;
-    transition: padding 0.4s ease;
+    transition: padding 0.4s ease, box-shadow 0.15s ease;
+}
+
+/* Stripes on a sliding layer, as in highlight-box.css. */
+.reveal-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    right: 0;
+    z-index: -1;
+    background: repeating-linear-gradient(135deg, #6C7A82, #6C7A82 10px, #68767d 10px, #68767d 20px);
+    animation: reveal-stripe-slide 1.6s linear infinite paused;
 }
 
 .reveal-box:hover {
-    color: #FBF6E5;
-    background: repeating-linear-gradient(135deg, #252A2C, #252A2C 10px, #202527 10px, #202527 20px);
     padding: 20px 20px 23px 20px;
+    box-shadow: 0 0 0 1px #202527;
+    background-color: #202527;
+}
+
+.reveal-box:hover::before {
+    background: repeating-linear-gradient(135deg, #252A2C, #252A2C 10px, #202527 10px, #202527 20px);
+    animation-play-state: running;
+}
+
+@keyframes reveal-stripe-slide {
+    to { transform: translateX(28.2843px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal-box::before { animation: none; }
 }
 
 .details {

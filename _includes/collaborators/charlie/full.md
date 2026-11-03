@@ -1,3 +1,9 @@
 {% include collaborators/charlie/short.md %}
-<img src="/assets/img/collaborators/charlie.jpg" alt="Charlie Parker" width="167" />
-- **Affiliation** <code>&#124;</code> {% include universities/oxford.md %}
+
+<div class="collab-photo"><img src="/assets/img/collaborators/charlie.jpg" alt="Charles Parker"></div>
+
+*{% include organisations/nrl.md %}*
+{: .collab-affil}
+
+- Material robustness of strongly symmetric stress discretisations in thin domains*
+{: .collab-pubs}

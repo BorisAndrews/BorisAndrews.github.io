@@ -32,10 +32,26 @@ permalink: /publications/stefan-maxwell/
 
 ## CO-AUTHORS
 
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/aaron_baier-reinio/full.md %}
+
+</div>
+
+<div class="collab-card" markdown="1">
 
 ### {% include collaborators/aaron_brunk/full.md %}
 
+</div>
+
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/patrick/full.md %}
 
+</div>
+
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/maria/full.md %}
+
+</div>

@@ -1,110 +1,128 @@
-/* Timeline Container */
+/* Talks timeline: a single line snaking down the column, turning at each
+   year. Odd cards draw its left half-loop, even cards its right one. */
+
 .timeline {
-  background: var(--primary-color);
+  --line: #CBB89A;   /* warm tan line */
+  --dot: #B3532A;    /* heading brown */
+  --ground: #FBF6E5; /* page background, used to cut a gap round each dot */
+  --w: 3px;          /* line width */
   margin: 20px auto;
   padding: 20px;
 }
 
-/* Card container */
 .card {
   position: relative;
-  max-width: 400px;
 }
 
-/* setting padding based on even or odd */
 .card:nth-child(odd) {
-  padding: 0 0 0 15px; /* Reduced padding */
+  padding: 0 0 0 15px;
 }
 .card:nth-child(even) {
-  padding: 0 15px 0 0; /* Reduced padding */
+  padding: 0 15px 0 0;
 }
-/* Global ::before */
+
 .card::before {
   content: "";
   position: absolute;
   width: 50%;
-  border: solid #727272;
+  border: solid var(--line);
 }
 
-/* Setting the border of top, bottom, left */
+/* Odd cards: top, left and bottom borders. Offsetting top and bottom by the
+   line width lays this card's horizontal runs exactly over the neighbouring
+   even cards', so the line is continuous. */
 .card:nth-child(odd)::before {
-  left: 0px;
-  top: -4.5px;
-  bottom: -4.5px;
-  border-width: 5px 0 5px 5px;
+  left: 0;
+  top: calc(-1 * var(--w));
+  bottom: calc(-1 * var(--w));
+  border-width: var(--w) 0 var(--w) var(--w);
   border-radius: 50px 0 0 50px;
 }
 
-/* Setting the top and bottom to "-5px" because earlier it was out of a pixel in mobile devices */
-@media only screen and (max-width: 400px) {
-  .card:nth-child(odd)::before {
-    top: -5px;
-    bottom: -5px;
-  }
-}
-
-/* Setting the border of top, bottom, right */
+/* Even cards: top, right and bottom borders. */
 .card:nth-child(even)::before {
   right: 0;
   top: 0;
   bottom: 0;
-  border-width: 5px 5px 5px 0;
+  border-width: var(--w) var(--w) var(--w) 0;
   border-radius: 0 50px 50px 0;
 }
 
-/* Removing the border if it is the first card */
+/* The line starts open at the top of the first card... */
 .card:first-child::before {
   border-top: 0;
   border-top-left-radius: 0;
 }
 
-/* Removing the border if it is the last card  and it's odd */
+/* ...and ends open at the bottom of the last. */
 .card:last-child:nth-child(odd)::before {
   border-bottom: 0;
   border-bottom-left-radius: 0;
 }
-
-/* Removing the border if it is the last card  and it's even */
 .card:last-child:nth-child(even)::before {
   border-bottom: 0;
   border-bottom-right-radius: 0;
 }
 
-/* Information about the timeline */
 .info {
   display: flex;
   flex-direction: column;
-  padding: 40px 5px 0px 5px; /* Reduced padding */
+  padding: 40px 5px 0 5px;
 }
 
-/* Title of the card */
+/* Year */
 .title {
   position: relative;
-  margin-bottom: -10px;
+  margin-bottom: -6px;
+  color: var(--dot);
+  letter-spacing: 0.04em;
 }
 
-/* Timeline dot  */
+/* Dot on the line: a brown disc with a ring of background colour round it,
+   centred on the line (20px = card padding + info padding to the line's
+   outer edge, less half the line width). */
 .title::before {
   content: "";
   position: absolute;
+  top: 50%;
   width: 10px;
   height: 10px;
-  background: #FEFCF3;
-  border-radius: 999px;
-  border: 3px solid #727272;
+  background: var(--dot);
+  border-radius: 50%;
+  border: 3px solid var(--ground);
+  transform: translateY(-50%);
+  transition: transform 0.2s ease;
 }
 
-/* text right if the card is even  */
+.card:nth-child(odd) > .info > .title::before {
+  left: calc(-20px + var(--w) / 2 - 8px);
+}
+
 .card:nth-child(even) > .info > .title {
   text-align: right;
 }
 
-/* setting dot to the left if the card is odd */
-.card:nth-child(odd) > .info > .title::before {
-  left: -25px; /* Adjusted positioning */
+.card:nth-child(even) > .info > .title::before {
+  right: calc(-20px + var(--w) / 2 - 8px);
 }
 
-/* setting dot to the right if the card is even */
-.card:nth-child(even) > .info > .title::before {
-  right: -25px; /* Adjusted positioning */
+.card:hover > .info > .title::before {
+  transform: translateY(-50%) scale(1.3);
+}
+
+/* Talks under each year */
+.info ul {
+  margin-top: 0;
+}
+
+.info li::marker {
+  color: var(--dot);
+}
+
+.card:nth-child(even) > .info ul {
+  padding-left: 25px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .title::before { transition: none; }
 }

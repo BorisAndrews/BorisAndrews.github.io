@@ -44,14 +44,43 @@ header nav {
     font-weight: bold;
     font-size: 13px;
     text-align: center;
-    background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px);
     border-radius: 8px;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    transition: box-shadow 0.15s ease;
+    // Stripes on an oversized layer that slides one period (20px across 135deg
+    // stripes = 20*sqrt(2) px horizontally) per cycle while hovered.
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -30px;
+      right: 0;
+      z-index: -1;
+      background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px);
+      animation: nav-stripe-slide 1.6s linear infinite paused;
+    }
     &:hover, &:focus {
       color: #FBF6E5;
-      background: repeating-linear-gradient(135deg, #78381C, #78381C 10px, #673018 10px, #673018 20px);
       font-weight: bold;
+      box-shadow: 0 0 0 1px #673018;
+      background-color: #673018;
+      &::before {
+        background: repeating-linear-gradient(135deg, #78381C, #78381C 10px, #673018 10px, #673018 20px);
+      }
     }
+    &:hover::before { animation-play-state: running; }
   }
+}
+
+@keyframes nav-stripe-slide {
+  to { transform: translateX(28.2843px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  header nav a::before { animation: none; }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,6 +90,21 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+}
+
+// Tables (publication cards, reading-group schedules) end in a rule, so the
+// next heading needs more room than it would after a paragraph.
+table {
+  margin-bottom:36px;
+}
+
+// Likewise the other blocks that end in a rule: CV entry lists and
+// collaborator cards.
+.cv > ul {
+  margin-bottom:36px;
+}
+.collab-card + h2, .collab-card + h3 {
+  margin-top:36px;
 }
 
 h1, h2, h3 {
@@ -101,7 +145,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  max-width:1060px;
   margin:0 auto;
 }
 
@@ -230,9 +274,59 @@ strong {
 }
 
 section {
-  width:500px;
+  width:calc(100% - 320px);
+  max-width:720px;
   float:right;
   padding-bottom:50px;
+}
+
+/*
+BDA:
+Publication lists as cards: date in a narrow column on the left, title and
+co-authors stacked on the right. The lists carry `{: .pubs}` (two-column
+draft lists: `{: .pubs .pubs-thin}`).
+*/
+table.pubs {
+  thead {
+    position:absolute;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    clip:rect(0 0 0 0);
+  }
+  tr {
+    display:grid;
+    grid-template-columns: 10.5em 1fr;
+    grid-template-areas: "date title" "date authors";
+    column-gap:20px;
+    padding:14px 0;
+    border-bottom:1px solid #e5e5e5;
+  }
+  td {
+    border:0;
+    padding:0;
+  }
+  td:nth-child(1) {
+    grid-area:date;
+    // Each date and its venue share a line ("NOV.2025 (arXiv),"): the cell is
+    // "date <br> (venue), <br> date <br> (venue)", so drop every other break.
+    br:nth-of-type(odd) { display:none; }
+  }
+  td:nth-child(2) {
+    grid-area:title;
+    font-weight:bold;
+  }
+  td:nth-child(3) {
+    grid-area:authors;
+    font-size:13px;
+    margin-top:4px;
+    br { display:none; }
+  }
+  &.pubs-thin {
+    tr { grid-template-areas: "title" "authors"; grid-template-columns: 1fr; }
+    td:nth-child(1) { grid-area:title; font-size:inherit; font-weight:bold; }
+    td:nth-child(2) { grid-area:authors; font-size:13px; font-weight:normal; margin-top:4px; br { display:none; } }
+  }
 }
 
 small {
@@ -316,6 +410,11 @@ footer {
     padding:15px;
   }
 
+  table.pubs tr {
+    grid-template-columns: 7.5em 1fr;
+    column-gap:12px;
+  }
+
   .downloads {
     width:99%;
   }
@@ -331,4 +430,272 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+/*
+BDA:
+Collaborator cards (collaborators page, and the co-author sections of paper
+pages): photo on the left; name, affiliation and joint papers on the right.
+Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
+`<div class="collab-card" markdown="1">`.
+*/
+.collab-card {
+  display:grid;
+  grid-template-columns: 112px 1fr;
+  grid-template-rows: auto auto auto 1fr;
+  column-gap:22px;
+  align-items:start;
+  padding:18px 0;
+  border-bottom:1px solid #e5e5e5;
+  > h2, > h3 {
+    grid-column:2;
+    margin:0 0 2px;
+    font-size:16px;
+    line-height:1.3;
+  }
+  > .collab-photo {
+    grid-column:1;
+    grid-row:1 / span 4;
+    img {
+      display:block;
+      width:112px;
+      aspect-ratio:1 / 1;
+      object-fit:cover;
+      border-radius:8px;
+    }
+  }
+  > .collab-affil {
+    grid-column:2;
+    margin:0 0 8px;
+    font-size:13px;
+  }
+  > .collab-pubs {
+    grid-column:2;
+    margin:0;
+    padding-left:18px;
+    font-size:13px;
+    li { margin:0 0 4px; }
+    li::marker { color:#B3532A; }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .collab-card {
+    grid-template-columns: 76px 1fr;
+    column-gap:14px;
+    > .collab-photo img { width:76px; }
+  }
+}
+
+// ---- Upcoming events: bullet colour and shape by kind ----
+// Shapes are drawn rather than typed, so they come out the same size and
+// height in every font and browser: triangle, square, circle. Sizes are
+// balanced by eye (a triangle looks smaller than a square of the same box).
+$up-kinds: (
+  conference: (#B3532A, 10px, 9px, polygon(50% 0, 100% 100%, 0 100%), 0),
+  teaching:   (#578ACC, 7px, 7px, none, 1px),
+  other:      (#6B9A4E, 8px, 8px, none, 50%),
+);
+
+@mixin up-shape($spec) {
+  width:nth($spec, 2);
+  height:nth($spec, 3);
+  background:nth($spec, 1);
+  clip-path:nth($spec, 4);
+  border-radius:nth($spec, 5);
+}
+
+@each $kind, $spec in $up-kinds {
+  li.up-#{$kind} {
+    list-style:none;
+    position:relative;
+    &::before {
+      content:"";
+      position:absolute;
+      left:-18px;
+      top:calc(0.75em - #{nth($spec, 3)} / 2);  // centred on the first line (line-height 1.5)
+      @include up-shape($spec);
+    }
+  }
+  .up-legend .up-#{$kind}::before { @include up-shape($spec); }
+  // On the homepage the list uses the CV date column (.cv-upcoming), and the
+  // shape sits at the left of that column, level with the date.
+  .cv-upcoming li.up-#{$kind}::before {
+    left:0;
+    top:calc(14px + 0.75em - #{nth($spec, 3)} / 2);
+  }
+}
+
+.up-legend {
+  font-size:13px;
+  margin:-6px 0 12px;
+  span { white-space:nowrap; margin-right:14px; }
+  span::before {
+    content:"";
+    display:inline-block;
+    margin-right:6px;
+    vertical-align:0;
+  }
+}
+
+// ---- Reading group: collapsible sections ----
+details.rg-toggle {
+  margin:0 0 20px;
+  > summary {
+    list-style:none;
+    cursor:pointer;
+    margin:0 0 20px;
+    &::-webkit-details-marker { display:none; }
+    h2, h3 {
+      color:#578ACC;
+      margin:0 0 20px;
+    }
+    &:hover h2, &:hover h3 { color:#3736EF; }
+    .rg-hint { display:block; }
+  }
+  .rg-when-open { display:none; }
+  &[open] > summary {
+    .rg-when-open { display:inline; }
+    .rg-when-closed { display:none; }
+  }
+}
+
+// ---- Paper pages: room above the talks timeline ----
+h2#talks { margin-top:44px; }
+
+// ---- CV page: dated entries laid out like the publication cards ----
+// Each entry is a list item "**DATE** <code>|</code> text", optionally with
+// sub-items "**LABEL** <code>|</code> text". The date is floated into the
+// item's left padding, so it forms a column without stretching the line next
+// to it, and the text wraps in its own column. The "|" is dropped, and
+// entries are divided by the same rule as the cards.
+$cv-date: 147px;  // 10.5em at 14px, as the cards' date column
+$cv-gap: 20px;
+$cv-label: 100px;
+$cv-label-gap: 8px;
+
+.cv {
+  > ul {
+    list-style:none;
+    padding:0;
+  }
+  > ul > li {
+    display:flow-root;
+    margin:0;
+    padding:14px 0 14px $cv-date + $cv-gap;
+    border-bottom:1px solid #e5e5e5;
+    > p { margin:0; }
+  }
+  > ul > li > strong:first-child,
+  > ul > li > p:first-child > strong:first-child {
+    float:left;
+    width:$cv-date;
+    margin-left:-($cv-date + $cv-gap);
+    font-weight:normal;
+  }
+  li strong:first-child + code { display:none; }
+
+  // Sub-items: a narrower label column inside the text column.
+  > ul > li ul {
+    list-style:none;
+    padding:0;
+    margin:6px 0 0;
+    font-size:13px;
+    > li {
+      display:flow-root;
+      margin:2px 0;
+      padding-left:$cv-label + $cv-label-gap;
+      > strong:first-child {
+        float:left;
+        width:$cv-label;
+        margin-left:-($cv-label + $cv-label-gap);
+        padding-top:2px;
+        font-size:11px;
+        letter-spacing:0.04em;
+        color:#888;
+      }
+    }
+  }
+
+  // Lists whose labels are too long for the date column (research
+  // interests): label on its own line above the text.
+  > ul.cv-stack > li {
+    padding-left:0;
+    > strong:first-child {
+      float:none;
+      display:block;
+      width:auto;
+      margin:0 0 4px;
+      font-weight:bold;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cv > ul > li {
+    padding-left:0;
+    > strong:first-child, > p:first-child > strong:first-child {
+      float:none;
+      display:block;
+      width:auto;
+      margin:0 0 4px;
+    }
+  }
+}
+
+// ---- Homepage: upcoming events in the CV layout ----
+// Date column as on the CV page, narrowed to leave room for the kind's shape
+// in front of it; the event name ("**NACHDIPLOM** |") becomes a title line.
+$up-shape-room: 18px;
+
+.cv-upcoming {
+  > ul > li > strong:first-child,
+  > ul > li > p:first-child > strong:first-child {
+    width:$cv-date - $up-shape-room;
+    margin-left:-($cv-date + $cv-gap - $up-shape-room);
+  }
+  li strong:first-child + code + strong {
+    display:block;
+    color:#222;
+  }
+  li strong:first-child + code + strong + code { display:none; }
+}
+
+@media screen and (max-width: 480px) {
+  .cv-upcoming > ul > li {
+    padding-left:$up-shape-room;
+    > strong:first-child, > p:first-child > strong:first-child { margin:0 0 4px; }
+  }
+}
+
+// ---- Homepage: other interests as a grid of tiles ----
+ul.interests {
+  list-style:none;
+  padding:0;
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  column-gap:28px;
+  font-size:13px;
+  > li {
+    position:relative;
+    margin:0;
+    padding:12px 0 12px 34px;
+    border-bottom:1px solid #e5e5e5;
+  }
+  .interest-emoji {
+    position:absolute;
+    left:0;
+    top:11px;
+    font-size:20px;
+    line-height:1.2;
+  }
+  strong {
+    display:block;
+    color:#222;
+  }
+  code { display:none; }
+}
+
+@media screen and (max-width: 600px) {
+  ul.interests { grid-template-columns:1fr; }
 }

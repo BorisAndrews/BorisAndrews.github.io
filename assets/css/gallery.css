@@ -1,15 +1,110 @@
+/* Collaborator carousel: two rows of square photos flowing column by column,
+   four columns in view (two on phones), panned with the arrow buttons or by
+   swiping. */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 167px);
-    gap: 20px;
+    grid-template-rows: repeat(2, auto);
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - 3 * 20px) / 4);
+    gap: 24px 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-item {
+    scroll-snap-align: start;
 }
 
 .gallery-item img {
-    width: 100%; /* Make the images fill their grid cell */
-    height: auto;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     display: block;
+    border-radius: 8px;
 }
 
 .caption {
     margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.gallery-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0 20px;
+}
+
+.gallery-arrows {
+    display: flex;
+    gap: 8px;
+}
+
+.gallery-arrows button {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    width: 40px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    color: #FBF6E5;
+    font: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease;
+}
+
+.gallery-arrows button:not(:disabled):hover,
+.gallery-arrows button:not(:disabled):focus-visible {
+    box-shadow: 0 0 0 1px #673018;
+    background-color: #673018;
+}
+
+/* Same sliding stripes as the nav buttons. */
+.gallery-arrows button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    right: 0;
+    z-index: -1;
+    background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px);
+    animation: gallery-stripe-slide 1.6s linear infinite paused;
+}
+
+.gallery-arrows button:not(:disabled):hover::before,
+.gallery-arrows button:not(:disabled):focus-visible::before {
+    background: repeating-linear-gradient(135deg, #78381C, #78381C 10px, #673018 10px, #673018 20px);
+    animation-play-state: running;
+}
+
+.gallery-arrows button:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+@keyframes gallery-stripe-slide {
+    to { transform: translateX(28.2843px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-arrows button::before { animation: none; }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery {
+        grid-auto-columns: calc((100% - 20px) / 2);
+    }
 }

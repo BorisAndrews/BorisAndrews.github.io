@@ -137,11 +137,23 @@ This scheme can be viewed as a **special case of my previous work** with {% incl
 
 ## CO-AUTHORS
 
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/mingdong/full.md %}
+
+</div>
+
+<div class="collab-card" markdown="1">
 
 ### {% include collaborators/patrick/full.md %}
 
+</div>
+
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/kaibo/full.md %}
+
+</div>
 
 ## TALKS
 

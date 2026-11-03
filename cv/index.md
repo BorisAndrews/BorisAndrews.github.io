@@ -8,8 +8,10 @@ permalink: /cv/
 {% include cv-download.md %}
 
 Below is an online version of my CV.
-You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
- 
+You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf){:target="_blank" rel="noopener"}.
+
+<div class="cv" markdown="1">
+
 ## EMPLOYMENT
 
 {% include employment/oxford.md %}
@@ -22,6 +24,7 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 ## RESEARCH INTERESTS
 
 {% include interests.md %}
+{: .cv-stack}
 
 ## [PUBLICATIONS & PREPRINTS](/publications/)
 
@@ -47,13 +50,13 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 
 {% include publications/lists/5-other.md %}
 
-### In preparation
+<!-- ### In preparation
 
 *(Drafts available on request)*
 
 {% include publications/lists/6-drafts.md %}
 
-<!-- *(Drafts not yet available)*
+*(Drafts not yet available)*
 
 {% include publications/lists/7-future.md %} -->
 
@@ -128,5 +131,7 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf).
 - **FLUENT** <code>&#124;</code> English
 - **INTERMEDIATE** <code>&#124;</code> Dutch
 - **BEGINNER** <code>&#124;</code> Japanese / German
+
+</div>
 
 {% include cv-download.md %}

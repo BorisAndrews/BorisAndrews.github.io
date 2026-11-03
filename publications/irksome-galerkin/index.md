@@ -66,10 +66,26 @@ this work fills that gap within the Firedrake ecosystem.
 
 ## CO-AUTHORS
 
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/pablo/full.md %}
+
+</div>
+
+<div class="collab-card" markdown="1">
 
 ### {% include collaborators/patrick/full.md %}
 
+</div>
+
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/rob/full.md %}
 
+</div>
+
+<div class="collab-card" markdown="1">
+
 ### {% include collaborators/scott/full.md %}
+
+</div>
