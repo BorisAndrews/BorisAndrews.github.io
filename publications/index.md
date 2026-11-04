@@ -9,17 +9,20 @@ permalink: /publications/
 
 {% include publications/lists/1-papers.md %}
 
-### (Upcoming)
+Upcoming
+{: .pubs-group}
 
 {% include publications/lists/2-upcoming.md %}
 
 ## PREPRINTS
 
-<!-- ### (Accepted for publication) -->
+<!-- Accepted for publication
+{: .pubs-group} -->
 
 <!-- {% include publications/lists/3-accepted.md %} -->
 
-### (In review)
+In review
+{: .pubs-group}
 
 {% include publications/lists/4-review.md %}
 
@@ -29,11 +32,13 @@ permalink: /publications/
 
 ## IN PREPARATION
 
-### (Drafts available on request)
+Drafts available on request
+{: .pubs-group}
 
 {% include publications/lists/6-drafts.md %}
 
-### (Drafts not yet available)
+Drafts not yet available
+{: .pubs-group}
 
 {% include publications/lists/7-future.md %}
 

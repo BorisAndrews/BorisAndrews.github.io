@@ -335,6 +335,18 @@ table.pubs {
   }
 }
 
+// Group labels inside a publication list ("Upcoming", "In review"), written
+// as a line with `{: .pubs-group}`. Small capitals in the heading brown, close
+// to the cards they label, since the first card row brings its own padding.
+p.pubs-group {
+  margin:0 0 2px;
+  font-size:11px;
+  font-weight:bold;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:#B3532A;
+}
+
 small {
   font-size:11px;
 }
@@ -813,7 +825,7 @@ section:has(> .band) {
   background:$band-ground;
   color:#AEB9BF;
 
-  h1 { color:#E0875C; }
+  h1, p.pubs-group { color:#E0875C; }
   h2 { color:#FBF6E5; }
   h3 { color:#D9CCB0; }
   strong, ul.interests strong { color:#FBF6E5; }

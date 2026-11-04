@@ -32,17 +32,20 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include publications/lists/1-papers.md %}
 
-*(Upcoming)*
+Upcoming
+{: .pubs-group}
 
 {% include publications/lists/2-upcoming.md %}
 
 ### Preprints
 
-<!-- *(Accepted for publication)* -->
+<!-- Accepted for publication
+{: .pubs-group} -->
 
 <!-- {% include publications/lists/3-accepted.md %} -->
 
-*(In review)*
+In review
+{: .pubs-group}
 
 {% include publications/lists/4-review.md %}
 
