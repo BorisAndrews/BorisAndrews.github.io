@@ -111,7 +111,7 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 - Line width, colours and dot positions all derive from the custom properties on `.timeline`. Change `--w` there, not the offsets: the odd cards' `top`/`bottom` and the dots' `left`/`right` are computed from it so the half-loops meet exactly.
 - The TALKS heading used to have a 44px top margin (`h2#talks`) to separate it from whatever preceded it. Now that every h2 starts a band, it has gone.
 
-**Previewing:** `Software/site-check --serve` (http://localhost:4000, rebuilds on save). Two things appear only in the local preview, because github-metadata can't authenticate and guesses a project page: a "View the Project on GitHub" link in the sidebar and a fixed "This project is maintained by" footer (which overlaps the nav on short windows). Neither is on the live site.
+**Previewing:** `Software/site-check --serve` (http://localhost:4000, rebuilds on save). Two things appear only in the local preview, because github-metadata can't authenticate and guesses a project page: a "View the Project on GitHub" link in the sidebar (now deleted from the layout, see "Sticky sidebar") and a fixed "This project is maintained by" footer (which overlaps the nav on short windows). Neither is on the live site.
 
 **Screenshots** for checking layout: Chrome is installed. Headless Chrome on the command line won't render narrower than 500px, so a `--window-size=390,...` "phone" shot is really a cropped 500px page. For true phone widths drive Chrome with `puppeteer-core` from a scratch folder (`npm install puppeteer-core`, `executablePath: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"`, `setViewport({width: 390, height: 844, deviceScaleFactor: 2, isMobile: true})`); it downloads no browser of its own.
 
@@ -210,7 +210,15 @@ Either way: replace `Upcoming (<journal include>)` with `MON.YYYY ([<JOURNAL>](h
 
 ## Sticky sidebar (Nov 2026)
 
-On desktop (above 960px) the sidebar stays in view while the page scrolls, **but only when all of it fits in the window** (Boris: the nav buttons must never poke out of the bottom). `assets/js/sidebar.js` sets `header.sticky` when `header.offsetHeight <= innerHeight`, rechecking on resize; the scss makes `header` `align-self:start` (so it is only as tall as its contents and has room to move) and `header.sticky` `position:sticky; top:0`. The sidebar is about 840px tall, so it sticks only in windows at least that tall: not on a 13-inch laptop's usual browser window. Adding a nav item raises that threshold.
+On desktop (above 960px) the sidebar stays in view while the page scrolls, **but only when all of it fits in the window** (Boris: the nav buttons must never poke out of the bottom). `assets/js/sidebar.js` sets `header.sticky` when the distance from the top of the sidebar to the bottom of its `nav`, plus 16px, is at most `innerHeight`, rechecking on resize and load. It measures to the nav, not `offsetHeight`, because the header's 50px bottom padding is only sand: the first version counted it and refused to stick in windows where every button was visible. The scss makes `header` `align-self:start` (so it is only as tall as its contents and has room to move) and `header.sticky` `position:sticky; top:0`. The buttons end about 766px down, so it sticks in windows at least ~785px tall. Adding a nav item raises that threshold.
+
+The local-only "View the Project on GitHub" line has been **deleted from `_layouts/default.html`** (it rendered only in local previews, and made the local sidebar taller than the live one, which changed where it starts sticking). Don't try hiding it with `header p.view`: the email and Oxford-profile lines are `p.view` too, and a first attempt hid them all.
+
+## Sidebar details (Nov 2026)
+
+- **Current page**: each nav link gets `aria-current="page"` when the first segment of `page.url` matches it (Liquid at the top of the `<nav>` in `_layouts/default.html`; `''` for the homepage). Paper pages therefore light up PUBLICATIONS. The scss gives `[aria-current="page"]` the darker hover stripes at rest.
+- **Portrait** (`header > img`): corners rounded to 8px, like the buttons and the gallery photos (Boris).
+- **Narrow screens** (960px and below, where the sidebar sits above the content): the header is a grid, with the portrait small on the left (150px, 96px below 480px) beside the name and tagline, then the email, icons and Oxford-profile link at full width, then the nav as a two-column grid of buttons, an odd last one spanning both. Before, a phone's whole first screen was the name, a full-width portrait and five stacked buttons (Boris asked for a better opening screen); now the page itself starts about halfway down the first screen. The theme's old `padding-right:320px` on the narrow header is gone.
 
 ## What not to touch
 

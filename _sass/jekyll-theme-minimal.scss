@@ -72,6 +72,14 @@ header nav {
       }
     }
     &:hover::before { animation-play-state: running; }
+    // The current page's button (`aria-current`, set in the layout; paper
+    // pages count as PUBLICATIONS) wears the darker hover stripes at rest.
+    &[aria-current="page"] {
+      background-color: #673018;
+      &::before {
+        background: repeating-linear-gradient(135deg, #78381C, #78381C 10px, #673018 10px, #673018 20px);
+      }
+    }
   }
 }
 
@@ -197,6 +205,11 @@ th {
 
 img {
   max-width:100%;
+}
+
+// The sidebar portrait: corners rounded like the nav buttons and gallery photos.
+header > img {
+  border-radius:8px;
 }
 
 kbd {
@@ -777,7 +790,7 @@ section {
 
 @media screen and (max-width: 960px) {
   .wrapper { display:block; }
-  header { padding:40px 320px 40px $page-pad; }
+  header { padding:40px $page-pad; }
   section {
     border:0;
     margin:0;
@@ -787,6 +800,39 @@ section {
 
 @media screen and (max-width: 720px) {
   header { padding:32px $page-pad; }
+}
+
+// Below 960px the sidebar is a block above the content. It is laid out
+// compactly so that a phone's first screen reaches the page itself: a small
+// portrait beside the name and tagline, the links beneath, and the nav as a
+// two-column grid of buttons (an odd last one spans both columns).
+@media screen and (max-width: 960px) {
+  header {
+    display:grid;
+    grid-template-columns:150px minmax(0, 1fr);
+    column-gap:24px;
+    > * { grid-column:1 / -1; }
+    > h1 { grid-column:2; grid-row:1; align-self:end; margin:0 0 6px; }
+    > img { grid-column:1; grid-row:1 / span 2; margin:0 0 20px; }
+    > p:not(.view) { grid-column:2; grid-row:2; align-self:start; margin:0 0 20px; }
+    > p.view { margin:0 0 10px; }
+    > .social-icons { margin:4px 0 10px; }
+  }
+  header nav {
+    margin:14px 0 0;
+    ul { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    li { margin:0; }
+    li:last-child:nth-child(odd) { grid-column:1 / -1; }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    grid-template-columns:96px minmax(0, 1fr);
+    column-gap:16px;
+    > h1 { font-size:26px; }
+    > p:not(.view) { font-size:13px; }
+  }
 }
 
 @media screen and (max-width: 480px) {

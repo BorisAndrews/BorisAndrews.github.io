@@ -36,10 +36,6 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
 <!--
 BDA:
         {% if site.github.is_user_page %}
@@ -80,12 +76,14 @@ BDA:
 
 <!-- BDA: Navigation. -->
         <nav>
+          {%- assign nav_here = page.url | split: '/' -%}
+          {%- assign nav_here = nav_here[1] | default: '' %}
           <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="/publications/">PUBLICATIONS</a></li>
-            <li><a href="/cv/">CV</a></li>
-            <li><a href="/collaborators/">COLLABORATORS</a></li>
-            <li><a href="/reading-group/">READING GROUP</a></li>
+            <li><a href="/"{% if nav_here == '' %} aria-current="page"{% endif %}>HOME</a></li>
+            <li><a href="/publications/"{% if nav_here == 'publications' %} aria-current="page"{% endif %}>PUBLICATIONS</a></li>
+            <li><a href="/cv/"{% if nav_here == 'cv' %} aria-current="page"{% endif %}>CV</a></li>
+            <li><a href="/collaborators/"{% if nav_here == 'collaborators' %} aria-current="page"{% endif %}>COLLABORATORS</a></li>
+            <li><a href="/reading-group/"{% if nav_here == 'reading-group' %} aria-current="page"{% endif %}>READING GROUP</a></li>
             <!-- <li><a href="/open-problems/">OPEN PROBLEMS</a></li> -->
           </ul>
         </nav>
