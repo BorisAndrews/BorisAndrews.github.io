@@ -1,1 +1,1 @@
-[Rob Kirby](https://math.artsandsciences.baylor.edu/person/robert-kirby-phd)
+[Robert Kirby](https://math.artsandsciences.baylor.edu/person/robert-kirby-phd)

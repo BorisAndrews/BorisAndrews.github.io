@@ -112,8 +112,8 @@ In review
         <div class="caption"><a href="https://kaibohu.github.io/"><b>Kaibo Hu</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
-        <a href="https://math.artsandsciences.baylor.edu/person/robert-kirby-phd" tabindex="-1"><img src="{{ '/assets/img/collaborators/rob.jpg' | relative_url }}" alt="Rob Kirby"></a>
-        <div class="caption"><a href="https://math.artsandsciences.baylor.edu/person/robert-kirby-phd"><b>Rob Kirby</b></a> <br> <a href="https://math.artsandsciences.baylor.edu/research/numerical-analysis-and-computational-mathematics/"><em>Baylor University</em></a></div>
+        <a href="https://math.artsandsciences.baylor.edu/person/robert-kirby-phd" tabindex="-1"><img src="{{ '/assets/img/collaborators/rob.jpg' | relative_url }}" alt="Robert Kirby"></a>
+        <div class="caption"><a href="https://math.artsandsciences.baylor.edu/person/robert-kirby-phd"><b>Robert Kirby</b></a> <br> <a href="https://math.artsandsciences.baylor.edu/research/numerical-analysis-and-computational-mathematics/"><em>Baylor University</em></a></div>
     </div>
     <div class="gallery-item">
         <a href="https://www.numerik.mathematik.uni-mainz.de/prof-dr-maria-lukacova-medvidova/" tabindex="-1"><img src="{{ '/assets/img/collaborators/maria.jpg' | relative_url }}" alt="Mária Lukáčová-Medviďová"></a>
