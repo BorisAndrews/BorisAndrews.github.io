@@ -21,13 +21,13 @@ permalink: /collaborators/
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/maria/full.md %}
+## {% include collaborators/rob/full.md %}
 
 </div>
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/rob/full.md %}
+## {% include collaborators/maria/full.md %}
 
 </div>
 
@@ -39,19 +39,7 @@ permalink: /collaborators/
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/aaron_brunk/full.md %}
-
-</div>
-
-<div class="collab-card" markdown="1">
-
 ## {% include collaborators/aaron_baier-reinio/full.md %}
-
-</div>
-
-<div class="collab-card" markdown="1">
-
-## {% include collaborators/ganghui/full.md %}
 
 </div>
 
@@ -63,7 +51,19 @@ permalink: /collaborators/
 
 <div class="collab-card" markdown="1">
 
+## {% include collaborators/aaron_brunk/full.md %}
+
+</div>
+
+<div class="collab-card" markdown="1">
+
 ## {% include collaborators/mingdong/full.md %}
+
+</div>
+
+<div class="collab-card" markdown="1">
+
+## {% include collaborators/ganghui/full.md %}
 
 </div>
 
@@ -93,24 +93,24 @@ permalink: /collaborators/
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/umberto/full.md %}
-
-</div>
-
-<div class="collab-card" markdown="1">
-
 ## {% include collaborators/dennis/full.md %}
 
 </div>
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/olav/full.md %}
+## {% include collaborators/umberto/full.md %}
 
 </div>
 
 <div class="collab-card" markdown="1">
 
 ## {% include collaborators/mark/full.md %}
+
+</div>
+
+<div class="collab-card" markdown="1">
+
+## {% include collaborators/olav/full.md %}
 
 </div>
