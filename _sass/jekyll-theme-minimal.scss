@@ -902,20 +902,18 @@ section.blank > .back-home + .band { padding-top:36px; }
 
 // ---- Paper pages: authors and dates under the title ----
 // Each is a list (`{: .byline}`, `{: .pub-dates}`) whose items are divided by
-// a light "|". The divider is drawn in front of every item, and the list is
-// pulled left by one divider's width and clipped there, so the divider in
-// front of whichever item starts a line is cut off: a wrapped line never
-// starts or ends with a stray "|".
+// a light "|". The divider is drawn after every item but the last, inside the
+// item, which doesn't break: so when the list wraps, the divider stays at the
+// end of the line, after the name it follows, and a line never starts with
+// one (Boris wants the "|" kept at the end of a wrapped line).
 $byline-sep: 1.6em;
 
 @mixin divided-items($items) {
   display:flex;
   flex-wrap:wrap;
-  margin-left:-$byline-sep;
-  clip-path:inset(0 0 0 $byline-sep);
   > #{$items} {
     white-space:nowrap;
-    &::before {
+    &:not(:last-child)::after {
       content:"|";
       display:inline-block;
       width:$byline-sep;

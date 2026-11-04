@@ -92,7 +92,7 @@ In review
 
 - {: .up-conference} **28–29.MAY** <code>&#124;</code> **EFEF** <code>&#124;</code> Planning to attend the {% include conferences/2027/fe_fair.md %}, held at the {% include universities/oxford.md %}
 
-- {: .up-conference} **05–09.JUL** <code>&#124;</code> **ICOSAHOM** <code>&#124;</code> Planning to attend {% include conferences/2027/icosahom.md %} at the {% include universities/milan.md %}, where I will be speaking in the minisymposium on material robustness organised by {% include collaborators/charlie/short.md %} and {% include collaborators/umberto/short.md %}
+- {: .up-conference} **05–09.JUL** <code>&#124;</code> **ICOSAHOM** <code>&#124;</code> Planning to attend {% include conferences/2027/icosahom.md %} at the {% include universities/milan.md %}, where I would be speaking in the minisymposium on material robustness organised by {% include collaborators/charlie/short.md %} and {% include collaborators/umberto/short.md %}
 
 </div>
 
