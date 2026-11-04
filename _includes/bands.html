@@ -13,6 +13,9 @@ page title, perhaps a line under it) joins the first section rather than
 making a thin light strip of its own, so that the first full section is the
 light one (Boris).
 
+Every third band also gets the class band-mesh: a faint triangular-mesh
+background, fixed to the window so that it stays still while the page scrolls.
+
 Parameters: content (rendered HTML), class (extra class on every band),
 start ("dark" to begin with a dark band; light by default).
 {%- endcomment -%}
@@ -41,8 +44,9 @@ start ("dark" to begin with a dark band; light by default).
     {%- if n == 0 and text_size < 200 and forloop.last == false -%}{%- assign hold = true -%}{%- endif -%}
     {%- if hold == false -%}
       {%- if text_size > 0 or buf contains '<img' or buf contains '<iframe' -%}
-        {%- assign parity = n | plus: shift | modulo: 2 %}
-<div class="band {% if parity == 0 %}band-light{% else %}band-dark{% endif %}{% if include.class %} {{ include.class }}{% endif %}">
+        {%- assign parity = n | plus: shift | modulo: 2 -%}
+        {%- assign mesh = n | plus: 1 | modulo: 3 %}
+<div class="band {% if parity == 0 %}band-light{% else %}band-dark{% endif %}{% if mesh == 0 %} band-mesh{% endif %}{% if include.class %} {{ include.class }}{% endif %}">
 {{ buf }}
 </div>
         {%- assign n = n | plus: 1 -%}

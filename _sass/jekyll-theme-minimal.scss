@@ -207,8 +207,9 @@ img {
   max-width:100%;
 }
 
-// The sidebar portrait: corners rounded like the nav buttons and gallery photos.
-header > img {
+// The sidebar portrait (a link home, like the name above it): corners rounded
+// like the nav buttons and gallery photos.
+header > .portrait img {
   border-radius:8px;
 }
 
@@ -805,7 +806,7 @@ section {
 // Below 960px the sidebar is a block above the content. It is laid out
 // compactly so that a phone's first screen reaches the page itself: a small
 // portrait beside the name and tagline, the links beneath, and the nav as a
-// two-column grid of buttons (an odd last one spans both columns).
+// two-column grid of buttons (with an odd number, HOME spans both columns).
 @media screen and (max-width: 960px) {
   header {
     display:grid;
@@ -813,7 +814,8 @@ section {
     column-gap:24px;
     > * { grid-column:1 / -1; }
     > h1 { grid-column:2; grid-row:1; align-self:end; margin:0 0 6px; }
-    > img { grid-column:1; grid-row:1 / span 2; margin:0 0 20px; }
+    > .portrait { grid-column:1; grid-row:1 / span 2; margin:0 0 20px; }
+    > .portrait img { display:block; }
     > p:not(.view) { grid-column:2; grid-row:2; align-self:start; margin:0 0 20px; }
     > p.view { margin:0 0 10px; }
     > .social-icons { margin:4px 0 10px; }
@@ -822,7 +824,7 @@ section {
     margin:14px 0 0;
     ul { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
     li { margin:0; }
-    li:last-child:nth-child(odd) { grid-column:1 / -1; }
+    li:first-child:nth-last-child(odd) { grid-column:1 / -1; }
   }
 }
 
@@ -1004,4 +1006,24 @@ ul.pub-dates {
   margin-bottom:28px;
   font-size:13px;
   letter-spacing:0.02em;
+}
+
+// ---- Mesh bands ----
+// Every third band (`band-mesh`, from _includes/bands.html) carries a faint
+// perturbed triangular mesh, a shade off the band's own colour. The tile is
+// seamless (960 x 880) and fixed to the window, so the mesh holds still while
+// the text scrolls over it. Browsers that ignore `fixed` (iOS Safari) scroll it.
+.band-mesh {
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-size:960px 880px;
+  &.band-light {
+    background-image:url("/assets/img/mesh-light.svg");
+    // Among the warm mesh lines the usual #e5e5e5 rules read as blue, so
+    // light mesh bands warm them to a grey of the same lightness.
+    hr { background:#E4DDCD; }
+    .cv > ul > li, &.cv > ul > li, ul.interests > li, table.pubs tr, th, td,
+    blockquote, .collab-card { border-color:#E4DDCD; }
+  }
+  &.band-dark { background-image:url("/assets/img/mesh-dark.svg"); }
 }

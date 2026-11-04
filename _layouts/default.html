@@ -31,7 +31,7 @@
 
 <!-- BDA: Changed the alt text here slightly. -->
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="portrait" />
+          <a class="portrait" href="{{ "/" | relative_url }}" tabindex="-1"><img src="{{site.logo | relative_url}}" alt="portrait" /></a>
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
