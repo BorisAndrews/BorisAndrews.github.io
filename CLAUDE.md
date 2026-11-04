@@ -91,7 +91,7 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
 - **A cut inside an unclosed `<div>` or `<details>` is skipped.** h2s inside collaborator cards (`## {% include …/full.md %}`) or inside a reading-group `<summary>` therefore don't cut. Where a page wants a cut that has no top-level h2, it says `<!-- band -->`. `collaborators/index.md` has one before every card (keep it when re-sorting), and `reading-group/index.md` has one before the PAST `<details>`.
 - **`{: .band-keep}` under an h2 keeps it in the band before** (the FETC page's subtitle).
 - **A short opening joins the first section.** The pre-h2 opening becomes a band of its own only if it has 200+ characters of text (the homepage, paper pages, the reading group). A bare title (Publications, Notebooks, CV, Collaborators) joins the first section instead, because Boris found a thin light strip followed by a dark first section odd: the first *full* section must be light.
-- `<p><br /></p>` spacers are stripped, since the bands separate the sections. `layout: blank` pages run their bands across the whole window, text included.
+- `<p><br /></p>` spacers are stripped, since the bands separate the sections. `layout: blank` pages run their bands across the whole window, text included, and start **dark** (`start="dark"` in `_layouts/blank.html`; preview for Boris, 4 Nov 2026), with the "Back to home" link on a cream strip above the first band (outside the bands) and the page title in a lighter brown (`.band-dark h1`, `#E0875C`) so it reads on the dark ground (Boris).
 - A page can add a class to every band with `band_class:` in its front matter. The CV uses `band_class: cv`, which is how the `.cv` rules (`.cv > ul > li` …) still apply now that the page has no single `<div class="cv">` wrapper (one div round every section would have stopped every cut). Because the band *is* the `.cv` element there, every `.band-dark .cv …` override needs a twin `.band-dark.cv …` (`&.cv` in the scss); missing that left the CV's dark sections with light-grey rules. The collaborators page uses `band-compact` for thinner bands (Boris wanted the cards closer).
 - The dark colours, and every component's dark variant (rules, `code`, `th`, timeline dot ring, reveal-box hover, reading-group summaries), are under `.band-dark` near the end of the scss. A new component that may land in a dark band needs its text and rule colours added there.
 - Boris wanted square-edged, full-width stripes, not rounded cards.
@@ -130,7 +130,7 @@ Usage in pages: Liquid include tags pointing to files under `_includes/`, e.g. `
   5. Optional `highlight-box` for arXiv/DOI link
   6. Pull-quote abstract snippet in `> blockquote`
   7. `reveal-box` for full abstract
-  8. Further sections as needed (Related Works, Open Problems, etc.)
+  8. Further `##` sections, **always in this order** (Boris asked for consistency, Nov 2026), leaving out any a page doesn't have: VIDEOS, RELATED WORKS, RELATED OPEN PROBLEMS (commented out while open problems are hidden), CO-AUTHORS, TALKS. Each `##` starts a new band (see "Every page is laid out as alternating light and dark bands"), so the order also decides which sections come out dark.
 
 ## Adding content
 

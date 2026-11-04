@@ -111,6 +111,12 @@ h1, h2, h3 {
   line-height:1.1;
 }
 
+// A page title followed straight by its first section heading (publications,
+// notebooks) needs a clear gap; a subtitle kept with it (FETC) doesn't.
+h1 + h2:not(.band-keep) {
+  margin-top:40px;
+}
+
 h1 {
   font-size:28px;
 }
@@ -807,6 +813,7 @@ section:has(> .band) {
   background:$band-ground;
   color:#AEB9BF;
 
+  h1 { color:#E0875C; }
   h2 { color:#FBF6E5; }
   h3 { color:#D9CCB0; }
   strong, ul.interests strong { color:#FBF6E5; }
@@ -866,10 +873,17 @@ body.blank-page {
   padding:0;
 }
 
+// The "Back to home" link sits on a light strip of its own above the first
+// band, which starts dark and so needs its usual top padding back.
+section.blank { padding-top:28px; }
 section.blank > .band { padding-right:$page-pad; }
+section.blank > .back-home + .band { padding-top:36px; }
 
-.back-home { margin:0 0 2em; }
+.back-home { margin:0 0 28px; }
 
 @media screen and (max-width: 480px) {
   section.blank > .band { padding-right:15px; }
+  section.blank { padding-top:20px; }
+  section.blank > .back-home + .band { padding-top:28px; }
+  .back-home { margin-bottom:20px; }
 }

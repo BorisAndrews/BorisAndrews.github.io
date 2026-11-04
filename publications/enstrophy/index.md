@@ -33,6 +33,15 @@ permalink: /publications/enstrophy/
 
 *(Further details available soon!)*
 
+## VIDEOS
+
+Check out my talk at the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %} (MAY.2026) below:
+
+{% include video-container.md %}
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/yi4hbj7jGeQ" frameborder="0" allowfullscreen></iframe>
+</div><br>
+
 ## RELATED WORKS
 
 This represents a particularly exciting **application of my earlier work** with {% include collaborators/patrick/short.md %}, on [general constructions for conservative and dissipative finite element integrators](/publications/sp-integrators-a/), using the ideas to help in stabilisation efforts at high Reynolds numbers.
@@ -56,15 +65,6 @@ This represents a particularly exciting **application of my earlier work** with 
 ### {% include collaborators/patrick/full.md %}
 
 </div>
-
-## VIDEOS
-
-Check out my talk at the {% include conferences/2026/esi.md %} at the {% include organisations/esi/full.md %} within the {% include universities/vienna.md %} (MAY.2026) below:
-
-{% include video-container.md %}
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/yi4hbj7jGeQ" frameborder="0" allowfullscreen></iframe>
-</div><br>
 
 ## TALKS
 

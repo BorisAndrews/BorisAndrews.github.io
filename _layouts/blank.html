@@ -10,14 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   </head>
   <body class="blank-page">
-    {%- capture page_body -%}
+    <section class="blank">
     <h3 class="back-home">
       <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-arrow-left-long" aria-hidden="true"></i> Back to home</a>
     </h3>
-    {{ content }}
-    {%- endcapture %}
-    <section class="blank">
-{% include bands.html content=page_body class=page.band_class %}
+{% include bands.html content=content class=page.band_class start="dark" %}
     </section>
   </body>
 </html>
