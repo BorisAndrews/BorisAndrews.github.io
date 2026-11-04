@@ -1,6 +1,6 @@
 {% include collaborators/patrick/short.md %}
 
-<div class="collab-photo"><img src="/assets/img/collaborators/patrick.jpg" alt="Patrick Farrell"></div>
+<div class="collab-photo"><a href="https://pefarrell.org/" tabindex="-1"><img src="/assets/img/collaborators/patrick.jpg" alt="Patrick Farrell"></a></div>
 
 *{% include universities/oxford.md %} / {% include universities/charles.md %}*
 {: .collab-affil}

@@ -47,23 +47,6 @@ this work fills that gap within the Firedrake ecosystem.
     CHECK OUT ON ARXIV!
 </b></div>
 
-## TALKS
-
-{% include timeline.md %}
-
-<div class="timeline">
-<div class="outer">
-    <div class="card">
-      <div class="info">
-        <h3 class="title">2026</h3>
-        <p><ul>
-          <li>Firedrake User Meeting, <em>University of Oxford</em></li>
-        </ul></p>
-      </div>
-    </div>
-  </div>
-</div>
-
 ## CO-AUTHORS
 
 <div class="collab-card" markdown="1">
@@ -88,4 +71,21 @@ this work fills that gap within the Firedrake ecosystem.
 
 ### {% include collaborators/scott/full.md %}
 
+</div>
+
+## TALKS
+
+{% include timeline.md %}
+
+<div class="timeline">
+<div class="outer">
+    <div class="card">
+      <div class="info">
+        <h3 class="title">2026</h3>
+        <p><ul>
+          <li>Firedrake User Meeting, <em>University of Oxford</em></li>
+        </ul></p>
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,0 +1,51 @@
+{%- comment -%}
+Lay a rendered page out as alternating light and dark bands, one per section.
+
+A band starts at every <h2>, or wherever the page has an `<!-- band -->`
+comment; an h2 with class "band-keep" (`{: .band-keep}`) stays in the band
+before it. A cut that would fall inside an unclosed <div> or <details> (a
+collaborator card, a collapsible reading-group section) is skipped, so the
+band runs on until the element closes. Paragraphs holding nothing but a <br>
+(old spacers between sections) are dropped, since the bands separate them.
+
+The first band is always light. An opening with little text of its own (a
+page title, perhaps a line under it) joins the first section rather than
+making a thin light strip of its own, so that the first full section is the
+light one (Boris).
+
+Parameters: content (rendered HTML), class (extra class on every band).
+{%- endcomment -%}
+{%- assign cut = '@@BAND@@' -%}
+{%- assign html = include.content
+    | replace: '<p><br /></p>', ''
+    | replace: '<h2', '@@BAND@@<h2'
+    | replace: '@@BAND@@<h2 class="band-keep"', '<h2 class="band-keep"'
+    | replace: '<!-- band -->', '@@BAND@@' -%}
+{%- assign parts = html | split: cut -%}
+{%- assign buf = '' -%}
+{%- assign n = 0 -%}
+{%- for part in parts -%}
+  {%- assign buf = buf | append: part -%}
+  {%- assign probe = buf | append: '~' -%}
+  {%- assign div_open = probe | split: '<div' | size -%}
+  {%- assign div_shut = probe | split: '</div' | size -%}
+  {%- assign det_open = probe | split: '<details' | size -%}
+  {%- assign det_shut = probe | split: '</details' | size -%}
+  {%- assign closed = false -%}
+  {%- if div_open == div_shut -%}{%- if det_open == det_shut -%}{%- assign closed = true -%}{%- endif -%}{%- endif -%}
+  {%- if closed or forloop.last -%}
+    {%- assign text_size = buf | strip_html | strip | size -%}
+    {%- assign hold = false -%}
+    {%- if n == 0 and text_size < 200 and forloop.last == false -%}{%- assign hold = true -%}{%- endif -%}
+    {%- if hold == false -%}
+      {%- if text_size > 0 or buf contains '<img' or buf contains '<iframe' -%}
+        {%- assign parity = n | modulo: 2 %}
+<div class="band {% if parity == 0 %}band-light{% else %}band-dark{% endif %}{% if include.class %} {{ include.class }}{% endif %}">
+{{ buf }}
+</div>
+        {%- assign n = n | plus: 1 -%}
+      {%- endif -%}
+      {%- assign buf = '' -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}

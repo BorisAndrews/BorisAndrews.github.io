@@ -456,6 +456,7 @@ Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
   > .collab-photo {
     grid-column:1;
     grid-row:1 / span 4;
+    a { display:block; }
     img {
       display:block;
       width:112px;
@@ -560,8 +561,6 @@ details.rg-toggle {
   }
 }
 
-// ---- Paper pages: room above the talks timeline ----
-h2#talks { margin-top:44px; }
 
 // ---- CV page: dated entries laid out like the publication cards ----
 // Each entry is a list item "**DATE** <code>|</code> text", optionally with
@@ -698,4 +697,179 @@ ul.interests {
 
 @media screen and (max-width: 600px) {
   ul.interests { grid-template-columns:1fr; }
+}
+
+// ---- Page frame: content column between sidebar-coloured margins ----
+// The sidebar is a full-height panel in a colour between the light and dark
+// bands, so that it reads as neither. The pair is centred in the window and
+// the same colour fills the margins, so the sand on the left (margin plus
+// panel) is always wider than on the right (margin alone). The column's text is
+// held to at most $text-width by the right padding (a percentage padding is
+// of the containing block's width), so that blocks centred with auto margins
+// stay centred on the text; this matters once the sidebar stacks on top.
+$page-pad: 50px;
+$text-width: 720px;
+$side-ground: #E9DDBF;
+
+@mixin content-padding($pad) {
+  padding-left:$pad;
+  padding-right:unquote("max(#{$pad}, calc(100% - #{$text-width + $pad}))");  // CSS max(), not Sass's
+}
+
+// Pages on `layout: blank` (the reading group) have no wrapper and keep the
+// plain padded body.
+body:has(> .wrapper) {
+  margin:0;
+  padding:0;
+}
+
+.wrapper {
+  max-width:none;
+  margin:0;
+  display:grid;
+  grid-template-columns:270px + 2 * $page-pad minmax(0, $text-width + 2 * $page-pad);
+  justify-content:center;
+  min-height:100vh;
+  background:$side-ground;
+}
+
+header {
+  float:none;
+  width:auto;
+  padding:$page-pad;
+  background:$side-ground;
+}
+
+section {
+  float:none;
+  width:auto;
+  max-width:none;
+  background:#FBF6E5;
+  padding-block:$page-pad;
+  @include content-padding($page-pad);
+}
+
+@media screen and (max-width: 960px) {
+  .wrapper { display:block; }
+  header { padding:40px 320px 40px $page-pad; }
+  section {
+    border:0;
+    margin:0;
+    padding-block:40px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  header { padding:32px $page-pad; }
+}
+
+@media screen and (max-width: 480px) {
+  header { padding:24px 15px; }
+  section {
+    padding-block:24px;
+    @include content-padding(15px);
+  }
+}
+
+// ---- Homepage: sections as alternating light and dark bands ----
+// `_layouts/home.html` wraps each section in `.band`. The section drops its
+// right padding so each band spans the content column; the band's own
+// padding then holds its contents to the text width.
+$band-ground: #252A2C;
+$band-rule: rgba(251, 246, 229, 0.14);
+
+@mixin band-padding($pad) {
+  margin:0 0 0 (-$pad);
+  padding-left:$pad;
+  padding-right:unquote("max(#{$pad}, calc(100% - #{$text-width}))");
+}
+
+section:has(> .band) {
+  padding-right:0;
+  padding-bottom:0;
+}
+
+.band {
+  padding-block:36px;
+  @include band-padding($page-pad);
+  &:first-child { padding-top:0; }
+  > :last-child, > :last-child > :last-child { margin-bottom:0; }
+}
+
+@media screen and (max-width: 480px) {
+  .band {
+    padding-block:28px;
+    @include band-padding(15px);
+  }
+}
+
+.band-dark {
+  background:$band-ground;
+  color:#AEB9BF;
+
+  h2 { color:#FBF6E5; }
+  h3 { color:#D9CCB0; }
+  strong, ul.interests strong { color:#FBF6E5; }
+  a { color:#8DB3E8; }
+  a:hover, a:focus { color:#C7DAF8; }
+  em { color:#C3CCD1; }
+
+  code { color:#C3CCD1; }
+  th { color:#FBF6E5; }
+  hr { background:$band-rule; }
+
+  // `.cv` can be the band itself (the CV page's `band_class: cv`) or inside it.
+  .cv > ul > li, &.cv > ul > li, ul.interests > li, table.pubs tr, th, td,
+  blockquote, .collab-card { border-color:$band-rule; }
+  .cv > ul > li ul > li > strong:first-child,
+  &.cv > ul > li ul > li > strong:first-child { color:#8C989E; }
+
+  details.rg-toggle > summary {
+    h2, h3 { color:#8DB3E8; }
+    &:hover h2, &:hover h3 { color:#C7DAF8; }
+  }
+
+  // The timeline cuts a ring of background colour round each dot.
+  .timeline { --ground:#{$band-ground}; }
+
+  // A reveal box's hover state is the dark ground itself, so on a dark band
+  // it darkens to a slate a step lighter instead.
+  .reveal-box:hover {
+    box-shadow:0 0 0 1px #3D464B;
+    background-color:#3D464B;
+    &::before {
+      background:repeating-linear-gradient(135deg, #434D52, #434D52 10px, #3D464B 10px, #3D464B 20px);
+    }
+  }
+}
+
+// At the edges of a band the band's own padding and edge do the work of the
+// card's padding and rule (the collaborators page gives each card a band of
+// its own). Between cards sharing a band (CO-AUTHORS on paper pages) both stay.
+.band > .collab-card:first-child { padding-top:0; }
+
+// The collaborators page (`band_class: band-compact`): one card per band, so
+// thinner bands keep the list compact.
+.band-compact {
+  padding-block:20px;
+  &:first-child { padding-top:0; }
+}
+.band > .collab-card:last-child {
+  padding-bottom:0;
+  border-bottom:0;
+}
+
+// ---- Pages on `layout: blank` (reading group, FETC workshop) ----
+// No sidebar: the bands run the full width of the window, text included.
+body.blank-page {
+  margin:0;
+  padding:0;
+}
+
+section.blank > .band { padding-right:$page-pad; }
+
+.back-home { margin:0 0 2em; }
+
+@media screen and (max-width: 480px) {
+  section.blank > .band { padding-right:15px; }
 }

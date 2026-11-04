@@ -21,6 +21,11 @@
     scroll-snap-align: start;
 }
 
+/* The photo links to the person's site, like their name in the caption. */
+.gallery-item > a {
+    display: block;
+}
+
 .gallery-item img {
     width: 100%;
     aspect-ratio: 1 / 1;

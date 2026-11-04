@@ -1,6 +1,6 @@
 {% include collaborators/yasha/short.md %}
 
-<div class="collab-photo"><img src="/assets/img/collaborators/yasha.jpg" alt="Yakov Berchenko-Kogan"></div>
+<div class="collab-photo"><a href="https://yashabk.github.io/" tabindex="-1"><img src="/assets/img/collaborators/yasha.jpg" alt="Yakov Berchenko-Kogan"></a></div>
 
 *{% include universities/florida-tech.md %}*
 {: .collab-affil}

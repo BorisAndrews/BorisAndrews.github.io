@@ -99,9 +99,7 @@ BDA:
         {% endif %}
       </header>
       <section>
-
-      {{ content }}
-
+{% include bands.html content=content class=page.band_class %}
       </section>
       <footer>
         {% if site.github.is_project_page %}

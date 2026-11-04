@@ -1,16 +1,15 @@
 ---
 title: CV
 permalink: /cv/
+band_class: cv
 ---
 
 # CV
 
 {% include cv-download.md %}
 
-Below is an online version of my CV.
-You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf){:target="_blank" rel="noopener"}.
-
-<div class="cv" markdown="1">
+<!-- Below is an online version of my CV.
+You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf){:target="_blank" rel="noopener"}. -->
 
 ## EMPLOYMENT
 
@@ -131,7 +130,5 @@ You can access a PDF version using the [link above](/cv/assets/pdf/cv.pdf){:targ
 - **FLUENT** <code>&#124;</code> English
 - **INTERMEDIATE** <code>&#124;</code> Dutch
 - **BEGINNER** <code>&#124;</code> Japanese / German
-
-</div>
 
 {% include cv-download.md %}

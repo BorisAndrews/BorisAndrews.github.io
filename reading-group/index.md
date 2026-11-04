@@ -24,6 +24,7 @@ layout: blank
 </details>
 {% endif %}
 
+<!-- band -->
 <details class="rg-toggle" id="past" markdown="1">
 <summary><h2>PAST</h2><span class="rg-hint">Click to <span class="rg-when-closed">view</span><span class="rg-when-open">hide</span> the records of past presentations.</span></summary>
 

@@ -7,6 +7,7 @@ layout: blank
 # WORKSHOP on FINITE ELEMENT TENSOR CALCULUS
 
 ## DISCRETE STRUCTURES AND COMPATIBLE DISCRETIZATIONS
+{: .band-keep}
 
 ### 24–27.MAY.2027 ({% include universities/oxford.md %})
 

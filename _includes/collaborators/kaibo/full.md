@@ -1,6 +1,6 @@
 {% include collaborators/kaibo/short.md %}
 
-<div class="collab-photo"><img src="/assets/img/collaborators/kaibo.jpg" alt="Kaibo Hu"></div>
+<div class="collab-photo"><a href="https://kaibohu.github.io/" tabindex="-1"><img src="/assets/img/collaborators/kaibo.jpg" alt="Kaibo Hu"></a></div>
 
 *{% include universities/oxford.md %}*
 {: .collab-affil}

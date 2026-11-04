@@ -1,6 +1,6 @@
 {% include collaborators/rob/short.md %}
 
-<div class="collab-photo"><img src="/assets/img/collaborators/rob.jpg" alt="Rob Kirby"></div>
+<div class="collab-photo"><a href="https://math.artsandsciences.baylor.edu/person/robert-kirby-phd" tabindex="-1"><img src="/assets/img/collaborators/rob.jpg" alt="Rob Kirby"></a></div>
 
 *{% include universities/baylor.md %}*
 {: .collab-affil}
