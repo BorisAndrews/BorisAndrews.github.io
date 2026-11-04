@@ -1,6 +1,12 @@
 ---
-title: MAGNETIC RELAXATION
+title: "Helicity-preserving finite element discretization for magnetic relaxation"
 permalink: /publications/parker/
+description: "An energy- and helicity-preserving finite element discretization of the magneto-frictional system, for investigating the Parker conjecture. With Mingdong He, Patrick Farrell and Kaibo Hu (SISC, 2026)."
+image:
+  path: /publications/parker/assets/img/corona.jpg
+  alt: "The solar corona during a total eclipse"
+twitter:
+  card: summary_large_image
 ---
 
 # HELICITY-PRESERVING FINITE ELEMENT DISCRETIZATION FOR MAGNETIC RELAXATION

@@ -2,6 +2,7 @@
 title: COLLABORATORS
 permalink: /collaborators/
 band_class: band-compact
+description: "The people Boris Andrews works with, and their joint papers."
 ---
 
 # COLLABORATORS

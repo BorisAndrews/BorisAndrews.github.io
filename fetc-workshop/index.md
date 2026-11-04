@@ -2,6 +2,7 @@
 title: FETC WORKSHOP
 permalink: /fetc-workshop/
 layout: blank
+description: "Workshop on Finite Element Tensor Calculus: Discrete Structures and Compatible Discretisations. University of Oxford, 24–27 May 2027."
 ---
 
 # WORKSHOP on FINITE ELEMENT TENSOR CALCULUS

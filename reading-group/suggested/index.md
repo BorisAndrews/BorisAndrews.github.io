@@ -2,6 +2,7 @@
 title: READING GROUP
 permalink: /reading-group/suggested/
 layout: blank
+sitemap: false
 ---
 
 # OXFORD FEM READING GROUP

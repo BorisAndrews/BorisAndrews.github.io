@@ -1,6 +1,7 @@
 ---
 title: BVPs
 permalink: /publications/bvps/
+sitemap: false
 ---
 
 # GLOBALLY AND LOCALLY STRUCTURE-PRESERVING MIXED FINITE ELEMENT METHODS FOR BOUNDARY-VALUE PROBLEMS

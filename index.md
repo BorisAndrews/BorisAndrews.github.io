@@ -1,5 +1,5 @@
 ---
-title: HOME
+description: "Boris Andrews is a postdoctoral research associate in the Numerical Analysis Group at the University of Oxford, working on structure-preserving numerical methods for PDEs."
 ---
 
 Hi!

@@ -2,6 +2,7 @@
 title: READING GROUP
 permalink: /reading-group/
 layout: blank
+description: "The Oxford finite element methods reading group: upcoming talks, their references, and past sessions."
 ---
 
 <script defer src="{{ '/assets/js/reading-group.js' | relative_url }}"></script>

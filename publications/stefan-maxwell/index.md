@@ -1,6 +1,7 @@
 ---
-title: STEFAN–MAXWELL
+title: "Structure-preserving discretisations for the quasi-incompressible, thermal Maxwell–Stefan equations"
 permalink: /publications/stefan-maxwell/
+description: "Two structure-preserving discretisations of a thermal Maxwell–Stefan–Navier–Stokes system for miscible mixtures, which generate entropy and enforce quasi-incompressibility pointwise. With Aaron Baier-Reinio, Aaron Brunk, Patrick Farrell and Mária Lukáčová-Medviďová (preprint, 2026)."
 ---
 
 # STRUCTURE-PRESERVING DISCRETISATIONS FOR THE QUASI-INCOMPRESSIBLE, THERMAL MAXWELL–STEFAN EQUATIONS

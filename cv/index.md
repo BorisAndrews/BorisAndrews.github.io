@@ -2,6 +2,7 @@
 title: CV
 permalink: /cv/
 band_class: cv
+description: "CV of Boris Andrews: employment, education, publications, talks, workshops, teaching and supervision."
 ---
 
 # CV

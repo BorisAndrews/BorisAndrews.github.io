@@ -1,6 +1,7 @@
 ---
-title: SP INTEGRATORS (PART 1)
+title: "Enforcing conservation laws and dissipation inequalities numerically via auxiliary variables"
 permalink: /publications/sp-integrators-a/
+description: "A general strategy, via auxiliary variables, for enforcing multiple conservation laws and dissipation inequalities in the numerical solution of initial value problems. With Patrick Farrell (SISC, 2025)."
 ---
 
 # ENFORCING CONSERVATION LAWS AND DISSIPATION INEQUALITIES NUMERICALLY VIA AUXILIARY VARIABLES

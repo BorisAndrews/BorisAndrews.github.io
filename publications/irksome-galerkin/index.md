@@ -1,6 +1,7 @@
 ---
-title: IRKSOME GALERKIN
+title: "Automated Galerkin time stepping in Irksome"
 permalink: /publications/irksome-galerkin/
+description: "Automated discontinuous Galerkin and continuous Petrov–Galerkin time stepping in Irksome, with minimal changes to user code. With Pablo Brubeck, Patrick Farrell, Robert Kirby and Scott MacLachlan (preprint, 2026)."
 ---
 
 # AUTOMATED GALERKIN TIME STEPPING IN IRKSOME

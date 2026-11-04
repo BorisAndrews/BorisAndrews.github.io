@@ -1,6 +1,7 @@
 ---
 title: PYTHON NOTEBOOKS
 permalink: /notebooks/
+sitemap: false
 ---
 
 # PYTHON NOTEBOOKS

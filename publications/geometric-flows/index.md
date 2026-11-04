@@ -1,6 +1,7 @@
 ---
-title: GEOMETRIC FLOWS
+title: "Arbitrary-order structure-preserving discretizations for geometric curvature flows"
 permalink: /publications/geometric-flows/
+description: "The first discretization of geometric curvature flows that preserves the evolution of area and volume at arbitrary order in space and time. With Ganghui Zhang and Patrick Farrell (preprint, 2026)."
 ---
 
 # ARBITRARY-ORDER STRUCTURE-PRESERVING DISCRETIZATIONS FOR GEOMETRIC CURVATURE FLOWS

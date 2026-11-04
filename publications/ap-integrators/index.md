@@ -1,6 +1,7 @@
 ---
 title: AP INTEGRATORS
 permalink: /publications/ap-integrators/
+sitemap: false
 ---
 
 # UNIFORMLY ACCURATE ASYMPTOTIC-PRESERVING INTEGRATORS FOR CHARGED PARTICLES

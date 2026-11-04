@@ -1,6 +1,7 @@
 ---
-title: ENSTROPHY
+title: "Strongly enstrophy-stable integrators for the incompressible Navier–Stokes equations"
 permalink: /publications/enstrophy/
+description: "A mixed finite element discretisation of the incompressible Navier–Stokes equations that preserves the evolution laws of both energy and enstrophy. With Matin Shams and Patrick Farrell (preprint, 2026)."
 ---
 
 # STRONGLY ENSTROPHY-STABLE INTEGRATORS FOR THE INCOMPRESSIBLE NAVIER–STOKES EQUATIONS

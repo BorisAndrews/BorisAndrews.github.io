@@ -758,6 +758,14 @@ header {
   background:$side-ground;
 }
 
+// The sidebar stays in view on scrolling when it fits in the window
+// (`header.sticky`, set by assets/js/sidebar.js). It is only as tall as its
+// contents, so that it has room to move; the wrapper's sand fills below it.
+@media screen and (min-width: 961px) {
+  header { align-self:start; }
+  header.sticky { position:sticky; top:0; }
+}
+
 section {
   float:none;
   width:auto;

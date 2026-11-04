@@ -1,6 +1,12 @@
 ---
-title: SP INTEGRATORS (PART 2)
+title: "Conservative and dissipative discretisations of multi-conservative ODEs and GENERIC systems"
 permalink: /publications/sp-integrators-b/
+description: "Arbitrary-order time discretisations that conserve every prescribed invariant of a conservative ODE, and conserve energy while dissipating entropy for GENERIC systems. With Patrick Farrell (CAMWA, 2026)."
+image:
+  path: /publications/sp-integrators-b/assets/img/engine.png
+  alt: "Combustion engine model: angular displacement, energy error and entropy, compared with the Gauss method"
+twitter:
+  card: summary_large_image
 ---
 
 # CONSERVATIVE AND DISSIPATIVE DISCRETISATIONS OF MULTI-CONSERVATIVE ODEs AND GENERIC SYSTEMS

@@ -1,6 +1,7 @@
 ---
 title: PUBLICATIONS
 permalink: /publications/
+description: "Papers and preprints by Boris Andrews on structure-preserving discretisations of differential equations."
 ---
 
 # PUBLICATIONS & PREPRINTS
