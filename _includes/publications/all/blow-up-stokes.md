@@ -1,1 +1,1 @@
-| Blow-up Stokes complexes on Alfeld splits | {% include collaborators/yasha/short.md %} <code>&#124;</code> <br> {% include collaborators/evan/short.md %} |
+| Blow-up Stokes complexes on Alfeld splits | <span class="au">{% include collaborators/yasha/short.md %}</span><span class="au">{% include collaborators/evan/short.md %}</span> |

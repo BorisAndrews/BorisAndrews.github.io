@@ -5,9 +5,11 @@ permalink: /publications/bvps/
 
 # GLOBALLY AND LOCALLY STRUCTURE-PRESERVING MIXED FINITE ELEMENT METHODS FOR BOUNDARY-VALUE PROBLEMS
 
-### Boris Andrews
+- Boris Andrews
+{: .byline}
 
-### In preparation (Draft available on request)
+- In preparation (Draft available on request)
+{: .pub-dates}
 
 *(Details available soon!)*
 

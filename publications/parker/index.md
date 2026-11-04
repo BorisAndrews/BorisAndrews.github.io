@@ -5,9 +5,15 @@ permalink: /publications/parker/
 
 # HELICITY-PRESERVING FINITE ELEMENT DISCRETIZATION FOR MAGNETIC RELAXATION
 
-### {% include collaborators/mingdong/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/kaibo/short.md %} <code>&#124;</code> Boris Andrews
+- {% include collaborators/mingdong/short.md %}
+- {% include collaborators/patrick/short.md %}
+- {% include collaborators/kaibo/short.md %}
+- Boris Andrews
+{: .byline}
 
-### NOV.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654)) <code>&#124;</code> APR.2026 ([SISC](https://doi.org/10.1137/25M1727540))
+- NOV.2025 ([arXiv](https://doi.org/10.48550/arXiv.2501.11654))
+- APR.2026 ([SISC](https://doi.org/10.1137/25M1727540))
+{: .pub-dates}
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.1137/25M1727540';"><b>

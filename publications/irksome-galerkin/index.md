@@ -5,9 +5,16 @@ permalink: /publications/irksome-galerkin/
 
 # AUTOMATED GALERKIN TIME STEPPING IN IRKSOME
 
-### Boris Andrews <code>&#124;</code> {% include collaborators/pablo/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/rob/short.md %} <code>&#124;</code> {% include collaborators/scott/short.md %}
+- Boris Andrews
+- {% include collaborators/pablo/short.md %}
+- {% include collaborators/patrick/short.md %}
+- {% include collaborators/rob/short.md %}
+- {% include collaborators/scott/short.md %}
+{: .byline}
 
-### JUN.2026 ([arXiv](https://doi.org/10.48550/arXiv.2606.27300)) <code>&#124;</code> In review
+- JUN.2026 ([arXiv](https://doi.org/10.48550/arXiv.2606.27300))
+- In review
+{: .pub-dates}
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2606.27300';"><b>

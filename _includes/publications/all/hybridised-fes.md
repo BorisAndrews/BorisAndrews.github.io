@@ -1,1 +1,1 @@
-| Finite element sheaves: Every finite element can be hybridised | {% include collaborators/olav/short.md %} |
+| Finite element sheaves: Every finite element can be hybridised | <span class="au">{% include collaborators/olav/short.md %}</span> |

@@ -1,1 +1,1 @@
-| Discrete energy spectra in finite element discretisations of the incompressible Navier–Stokes equations | {% include collaborators/mark/short.md %} <code>&#124;</code> <br> {% include collaborators/kaibo/short.md %} |
+| Discrete energy spectra in finite element discretisations of the incompressible Navier–Stokes equations | <span class="au">{% include collaborators/mark/short.md %}</span><span class="au">{% include collaborators/kaibo/short.md %}</span> |

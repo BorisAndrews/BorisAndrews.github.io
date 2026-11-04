@@ -5,9 +5,14 @@ permalink: /publications/geometric-flows/
 
 # ARBITRARY-ORDER STRUCTURE-PRESERVING DISCRETIZATIONS FOR GEOMETRIC CURVATURE FLOWS
 
-### {% include collaborators/ganghui/short.md %} <code>&#124;</code> Boris Andrews <code>&#124;</code> {% include collaborators/patrick/short.md %}
+- {% include collaborators/ganghui/short.md %}
+- Boris Andrews
+- {% include collaborators/patrick/short.md %}
+{: .byline}
 
-### MAY.2026 ([arXiv](https://doi.org/10.48550/arXiv.2605.20371)) <code>&#124;</code> In review
+- MAY.2026 ([arXiv](https://doi.org/10.48550/arXiv.2605.20371))
+- In review
+{: .pub-dates}
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2605.20371';"><b>
@@ -54,7 +59,7 @@ tangential velocity is redundant and unspecified.
 In a spatial discretisation, however, tangential motion redistributes mesh nodes and must be specified;
 left unchecked, a bad choice of tangential motion can degrade mesh quality *significantly*.
 
-The **minimal deformation rate (MDR)** strategy ([Hu & Li, 2022](https://doi.org/10.1007/s00211-022-01309-9)) addresses this by choosing the tangential motion to minimise a certain *deformation energy* (\(\int_{\mathcal{M}} \|\nabla_{\mathcal{M}} \dot{\mathbf{X}}\|^2\)) modelling the rate at which the mesh quality degrades.
+The **minimal deformation rate (MDR)** strategy ([Hu & Li, 2022](https://doi.org/10.1007/s00211-022-01309-9)) addresses this by choosing the tangential motion to minimise a certain *deformation energy* ($$\int_{\mathcal{M}} \|\nabla_{\mathcal{M}} \dot{\mathbf{X}}\|^2$$) modelling the rate at which the mesh quality degrades.
 This is known to give vastly improved mesh quality comparable to classical method, but at the cost of the stability in area and volume.
 
 ### Our approach: auxiliary variables

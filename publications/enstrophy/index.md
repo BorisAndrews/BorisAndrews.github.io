@@ -5,9 +5,14 @@ permalink: /publications/enstrophy/
 
 # STRONGLY ENSTROPHY-STABLE INTEGRATORS FOR THE INCOMPRESSIBLE NAVIER–STOKES EQUATIONS
 
-### Boris Andrews <code>&#124;</code> {% include collaborators/matin/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %}
+- Boris Andrews
+- {% include collaborators/matin/short.md %}
+- {% include collaborators/patrick/short.md %}
+{: .byline}
 
-### SEP.2026 ([arXiv](https://doi.org/10.48550/arXiv.2609.15520)) <code>&#124;</code> In review
+- SEP.2026 ([arXiv](https://doi.org/10.48550/arXiv.2609.15520))
+- In review
+{: .pub-dates}
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2609.15520';"><b>

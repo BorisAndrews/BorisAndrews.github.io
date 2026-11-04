@@ -5,9 +5,16 @@ permalink: /publications/stefan-maxwell/
 
 # STRUCTURE-PRESERVING DISCRETISATIONS FOR THE QUASI-INCOMPRESSIBLE, THERMAL MAXWELL–STEFAN EQUATIONS
 
-### Boris Andrews <code>&#124;</code> {% include collaborators/aaron_baier-reinio/short.md %} <code>&#124;</code> {% include collaborators/aaron_brunk/short.md %} <code>&#124;</code> {% include collaborators/patrick/short.md %} <code>&#124;</code> {% include collaborators/maria/short.md %}
+- Boris Andrews
+- {% include collaborators/aaron_baier-reinio/short.md %}
+- {% include collaborators/aaron_brunk/short.md %}
+- {% include collaborators/patrick/short.md %}
+- {% include collaborators/maria/short.md %}
+{: .byline}
 
-### OCT.2026 ([arXiv](https://doi.org/10.48550/arXiv.2610.35157)) <code>&#124;</code> In review
+- OCT.2026 ([arXiv](https://doi.org/10.48550/arXiv.2610.35157))
+- In review
+{: .pub-dates}
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://doi.org/10.48550/arXiv.2610.35157';"><b>

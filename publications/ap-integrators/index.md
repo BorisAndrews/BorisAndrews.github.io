@@ -5,9 +5,11 @@ permalink: /publications/ap-integrators/
 
 # UNIFORMLY ACCURATE ASYMPTOTIC-PRESERVING INTEGRATORS FOR CHARGED PARTICLES
 
-### Boris Andrews
+- Boris Andrews
+{: .byline}
 
-### In preparation (Draft available on request)
+- In preparation (Draft available on request)
+{: .pub-dates}
 
 *(Details available soon!)*
 
