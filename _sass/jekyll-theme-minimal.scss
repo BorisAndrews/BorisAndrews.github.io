@@ -1,6 +1,11 @@
 @import "fonts";
 @import "rouge-github";
 
+// Rules (table and list dividers, blockquote bars, hr) on light grounds: a warm
+// grey that sits with the beige palette. Neutral #e5e5e5 read as blue to Boris,
+// above all beside the warm lines of the mesh bands.
+$light-rule: #E4DDCD;
+
 /*
 BDA:
 Font specification, in order of preference dependent on availability.
@@ -164,7 +169,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid $light-rule;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -179,7 +184,7 @@ pre {
   padding:8px 15px;
   background: #f8f8f8;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid $light-rule;
   overflow-x: auto;
 }
 
@@ -191,7 +196,7 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid $light-rule;
 }
 
 dt {
@@ -320,7 +325,7 @@ table.pubs {
     grid-template-areas: "date title" "date authors";
     column-gap:20px;
     padding:14px 0;
-    border-bottom:1px solid #e5e5e5;
+    border-bottom:1px solid $light-rule;
   }
   td {
     border:0;
@@ -367,7 +372,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:$light-rule;
   height:1px;
   margin:0 0 20px;
 }
@@ -398,7 +403,7 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid $light-rule;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -478,7 +483,7 @@ Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
   column-gap:22px;
   align-items:start;
   padding:18px 0;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid $light-rule;
   > h2, > h3 {
     grid-column:2;
     margin:0 0 2px;
@@ -614,7 +619,7 @@ $cv-label-gap: 8px;
     display:flow-root;
     margin:0;
     padding:14px 0 14px $cv-date + $cv-gap;
-    border-bottom:1px solid #e5e5e5;
+    border-bottom:1px solid $light-rule;
     > p { margin:0; }
   }
   > ul > li > strong:first-child,
@@ -711,7 +716,7 @@ ul.interests {
     position:relative;
     margin:0;
     padding:12px 0 12px 34px;
-    border-bottom:1px solid #e5e5e5;
+    border-bottom:1px solid $light-rule;
   }
   .interest-emoji {
     position:absolute;
@@ -1019,11 +1024,6 @@ ul.pub-dates {
   background-size:960px 880px;
   &.band-light {
     background-image:url("/assets/img/mesh-light.svg");
-    // Among the warm mesh lines the usual #e5e5e5 rules read as blue, so
-    // light mesh bands warm them to a grey of the same lightness.
-    hr { background:#E4DDCD; }
-    .cv > ul > li, &.cv > ul > li, ul.interests > li, table.pubs tr, th, td,
-    blockquote, .collab-card { border-color:#E4DDCD; }
   }
   &.band-dark { background-image:url("/assets/img/mesh-dark.svg"); }
 }
