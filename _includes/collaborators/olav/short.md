@@ -1,1 +1,1 @@
-[Olav Tyssvang](https://www.maths.ox.ac.uk/people/karl.tyssvang)
+[K. Olav Tyssvang](https://www.maths.ox.ac.uk/people/karl.tyssvang)

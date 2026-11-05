@@ -172,8 +172,8 @@ In review
         <div class="caption"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes"><b>Mark Alvares</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
-        <a href="https://www.maths.ox.ac.uk/people/karl.tyssvang" tabindex="-1"><img src="{{ '/assets/img/collaborators/olav.jpg' | relative_url }}" alt="Olav Tyssvang"></a>
-        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/karl.tyssvang"><b>Olav Tyssvang</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+        <a href="https://www.maths.ox.ac.uk/people/karl.tyssvang" tabindex="-1"><img src="{{ '/assets/img/collaborators/olav.jpg' | relative_url }}" alt="K. Olav Tyssvang"></a>
+        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/karl.tyssvang"><b>K. Olav Tyssvang</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
 </div>
 <div class="gallery-controls">
