@@ -83,7 +83,7 @@ In review
 ### 2026
 - {: .up-other} **14.SEP–18.DEC** <code>&#124;</code> **NACHDIPLOM** <code>&#124;</code> Visiting {% include universities/eth.md %} as co-editor of the {% include conferences/2026/nachdiplom.md %} on Finite Element Tensor Calculus with {% include collaborators/kaibo/short.md %} (contributed volume in preparation for publication)
 
-- {: .up-conference} **25.NOV** <code>&#124;</code> **ZHACM** <code>&#124;</code> Speaking at the {% include conferences/2026/zhacm.md %} at {% include universities/eth.md %} on material robustness, my work with {% include collaborators/charlie/short.md %}, {% include collaborators/umberto/short.md %} and {% include collaborators/kaibo/short.md %}, thanks to the invite of {% include collaborators/ralf/short.md %}
+- {: .up-conference} **11.NOV** <code>&#124;</code> **ZHACM** <code>&#124;</code> Speaking at the {% include conferences/2026/zhacm.md %} at {% include universities/eth.md %} on material robustness, my work with {% include collaborators/charlie/short.md %}, {% include collaborators/umberto/short.md %} and {% include collaborators/kaibo/short.md %}, thanks to the invite of {% include collaborators/ralf/short.md %}
 
 ### 2027
 - {: .up-conference} **18–23.APR** <code>&#124;</code> **OBERWOLFACH** <code>&#124;</code> Planning to present at the {% include conferences/2027/oberwolfach.md %}, thanks to the kind invite of the organisers: {% include collaborators/elena/short.md %}, {% include collaborators/chris/short.md %}, {% include collaborators/sina/short.md %}, {% include collaborators/artur/short.md %} and {% include collaborators/ari/short.md %}
