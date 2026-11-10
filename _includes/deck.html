@@ -1,0 +1,14 @@
+{%- comment -%}
+An embedded manim-slides (reveal.js) deck that grows to fill the window when clicked.
+Parameters: src (URL of the deck's index.html folder), title (accessible name).
+{%- endcomment -%}
+<div class="deck">
+<link rel="stylesheet" href="{{ '/assets/css/deck.css' | relative_url }}">
+<script src="{{ '/assets/js/deck.js' | relative_url }}" defer></script>
+<div class="deck-backdrop"></div>
+<div class="deck-frame">
+<iframe src="{{ include.src }}" title="{{ include.title }}" tabindex="-1" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<button type="button" class="deck-open" aria-label="Open {{ include.title }} full screen"><span class="deck-badge"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5"/></svg>FULL SCREEN</span></button>
+</div>
+<button type="button" class="deck-close" aria-label="Close the slides">&times;</button>
+</div>

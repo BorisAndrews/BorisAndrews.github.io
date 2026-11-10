@@ -11,7 +11,9 @@ band runs on until the element closes. Paragraphs holding nothing but a <br>
 The first band is light unless start is "dark". An opening with little text of its own (a
 page title, perhaps a line under it) joins the first section rather than
 making a thin light strip of its own, so that the first full section is the
-light one (Boris).
+light one (Boris). An opening containing `<!-- own-band -->` keeps its band
+however short it is: a paper page whose details are still to come, with its
+first section (SLIDES) meant to come out dark.
 
 Every third band also gets the class band-mesh: a faint triangular-mesh
 background, fixed to the window so that it stays still while the page scrolls.
@@ -41,7 +43,7 @@ start ("dark" to begin with a dark band; light by default).
   {%- if closed or forloop.last -%}
     {%- assign text_size = buf | strip_html | strip | size -%}
     {%- assign hold = false -%}
-    {%- if n == 0 and text_size < 200 and forloop.last == false -%}{%- assign hold = true -%}{%- endif -%}
+    {%- if n == 0 and text_size < 200 and forloop.last == false -%}{%- unless buf contains '<!-- own-band -->' -%}{%- assign hold = true -%}{%- endunless -%}{%- endif -%}
     {%- if hold == false -%}
       {%- if text_size > 0 or buf contains '<img' or buf contains '<iframe' -%}
         {%- assign parity = n | plus: shift | modulo: 2 -%}

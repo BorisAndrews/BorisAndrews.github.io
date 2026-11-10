@@ -50,6 +50,10 @@ defaults:
       path: "assets/pdf/reading-group"
     values:
       sitemap: false
+  - scope:
+      path: "publications/material-robustness/zhacm"
+    values:
+      sitemap: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -68,3 +72,4 @@ exclude:
   - Gemfile.lock
   - vendor/
   - .bundle/
+  - website preview.command

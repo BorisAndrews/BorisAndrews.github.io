@@ -1,0 +1,191 @@
+/* Embedded slide deck (_includes/deck.html, assets/js/deck.js). At rest it is a
+   16:9 preview with shaded edges and a striped badge; clicked, its frame is
+   fixed to the viewport and scaled up from the preview to fill the window. */
+
+.deck {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin: 0 0 20px;
+}
+
+.deck-frame {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #FBF6E5;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
+    transition: box-shadow 0.25s ease;
+}
+
+.deck:hover .deck-frame {
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.5);
+}
+
+.deck-frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+/* Covers the preview, so a click opens the deck rather than reaching it. */
+.deck-open {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: inherit;
+    background: transparent;
+    cursor: zoom-in;
+    box-shadow: inset 0 0 30px 6px rgba(37, 42, 44, 0.30);
+    transition: box-shadow 0.25s ease;
+}
+
+.deck-open:hover,
+.deck-open:focus-visible {
+    box-shadow: inset 0 0 52px 14px rgba(37, 42, 44, 0.50);
+    outline: none;
+}
+
+.deck-badge {
+    position: absolute;
+    top: 7%;
+    right: 3%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 11px;
+    color: #FBF6E5;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    border-radius: 8px;
+    isolation: isolate;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.deck-badge svg {
+    width: 13px;
+    height: 13px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+
+/* The site's button stripes, sliding one period per cycle on hover. */
+.deck-badge::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    right: 0;
+    z-index: -1;
+    background: repeating-linear-gradient(135deg, #B3532A, #B3532A 10px, #9d4925 10px, #9d4925 20px);
+    animation: deck-stripe-slide 1.6s linear infinite paused;
+}
+
+.deck-open:hover .deck-badge,
+.deck-open:focus-visible .deck-badge {
+    box-shadow: 0 0 0 1px #673018, 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #673018;
+}
+
+.deck-open:hover .deck-badge::before,
+.deck-open:focus-visible .deck-badge::before {
+    background: repeating-linear-gradient(135deg, #78381C, #78381C 10px, #673018 10px, #673018 20px);
+    animation-play-state: running;
+}
+
+@keyframes deck-stripe-slide {
+    to { transform: translateX(28.2843px); }
+}
+
+/* Open: deck.js fixes the frame to the viewport; the backdrop is the deck's
+   own letterbox colour, so the slides read as filling the window. */
+.deck-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: #FBF6E5;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.45s ease;
+}
+
+.deck.open .deck-backdrop {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.deck.open .deck-frame,
+.deck.closing .deck-frame {
+    z-index: 1001;
+    box-shadow: none;
+}
+
+.deck.open .deck-open {
+    display: none;
+}
+
+/* Hidden while shrinking back, then faded in, so the badge isn't seen scaled. */
+.deck.closing .deck-badge {
+    opacity: 0;
+}
+
+.deck-badge {
+    transition: box-shadow 0.15s ease, opacity 0.2s ease;
+}
+
+/* Phones: the icon alone, so the badge doesn't cover the slide title. */
+@media (max-width: 600px) {
+    .deck-badge {
+        padding: 6px;
+        font-size: 0;
+        gap: 0;
+        border-radius: 6px;
+    }
+}
+
+.deck-close {
+    position: fixed;
+    top: 8px;
+    right: 12px;
+    z-index: 1002;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(37, 42, 44, 0.55);
+    color: #FBF6E5;
+    font-size: 26px;
+    line-height: 40px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s 0.3s, background-color 0.15s ease;
+}
+
+.deck-close:hover,
+.deck-close:focus-visible {
+    background: rgba(37, 42, 44, 0.85);
+}
+
+.deck.open .deck-close {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease 0.3s, visibility 0s, background-color 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .deck-badge::before { animation: none; }
+    .deck-backdrop, .deck-close { transition: none; }
+}

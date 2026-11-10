@@ -18,6 +18,14 @@ description: "Work in preparation on the material robustness of strongly symmetr
 
 *(Details available soon!)*
 
+<!-- own-band -->
+
+## SLIDES
+
+Check out the slides from my talk at the {% include conferences/2026/zhacm.md %} at {% include universities/eth.md %} (NOV.2026) below. Click them to open full screen, step through with the arrow keys, and press Esc to return.
+
+{% include deck.html src="/publications/material-robustness/zhacm/" title="ZHACM slides" %}
+
 ## CO-AUTHORS
 
 <div class="collab-card" markdown="1">
@@ -56,9 +64,11 @@ description: "Work in preparation on the material robustness of strongly symmetr
       <div class="info">
         <h3 class="title">2026</h3>
         <p><ul>
-          <li>Colloquium in Applied and Computational Mathematics, <em>ETH Zurich</em></li>
+          <li>Colloquium in Applied and Computational Mathematics, <em>ETH Zurich</em> (<a href="/publications/material-robustness/zhacm/" target="_blank">slides</a>)</li>
         </ul></p>
       </div>
     </div>
   </div>
 </div>
+
+<!-- *Images in the ETH Zurich slides: metal foam by SecretDisc ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Image-Metal_Foam_in_Scanning_Electron_Microscope,_magnification_10x_b.GIF)); bone by David Gregory & Debbie Marshall ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [Wellcome Collection](https://wellcomecollection.org/works/ar4v3rkx)); sand from Marine d'Albo, Corsica (public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sand_from_Marine_d%27Albo,_Corsica,_France.jpg)). All cropped.* -->
