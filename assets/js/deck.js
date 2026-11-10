@@ -1,6 +1,8 @@
 // Embedded slide decks (_includes/deck.html): clicking the preview grows it to
 // the largest 16:9 box that fits the window; Esc or the close button shrinks it
-// back.
+// back, and a tap or click on the open deck steps it. The close button shows
+// for a moment on opening, then only while the pointer is in the window's
+// top-right corner (always, on touchscreens).
 //
 // The frame is given its final, full-window size at once and scaled down to sit
 // exactly over the preview, then the scale is animated away. Animating a
@@ -11,6 +13,7 @@
   var DURATION = 450;
   var EASE = 'cubic-bezier(0.2, 0.7, 0.2, 1)';
   var RADIUS = 8;
+  var CLOSE_SHOWN = 2500;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   function fit() {
@@ -37,6 +40,7 @@
     var openButton = deck.querySelector('.deck-open');
     var closeButton = deck.querySelector('.deck-close');
     var state = 'closed';
+    var hideTimer;
 
     function animate() {
       return reduce.matches ? 'none' :
@@ -55,6 +59,11 @@
       frame.style.transform = shrinkTo(from, to);
       frame.style.borderRadius = RADIUS * to.width / from.width + 'px';
       deck.classList.add('open');
+      deck.classList.add('show-close');
+      window.clearTimeout(hideTimer);
+      hideTimer = window.setTimeout(function () {
+        deck.classList.remove('show-close');
+      }, (reduce.matches ? 0 : DURATION) + CLOSE_SHOWN);
       document.documentElement.style.overflow = 'hidden';
       frame.getBoundingClientRect();
       frame.style.transition = animate();
@@ -76,6 +85,8 @@
       frame.style.transition = animate();
       frame.style.transform = shrinkTo(from, to);
       frame.style.borderRadius = RADIUS * to.width / from.width + 'px';
+      window.clearTimeout(hideTimer);
+      deck.classList.remove('show-close');
       deck.classList.remove('open');
       deck.classList.add('closing');
       window.setTimeout(function () {
@@ -97,11 +108,28 @@
       }
     }
 
+    // reveal.js moves on only by swiping on a touchscreen, so a tap (or click)
+    // on the open deck steps it: back on the left third, forward elsewhere.
+    function onTap(event) {
+      var reveal = iframe.contentWindow.Reveal;
+      if (state !== 'open' || !reveal || event.button !== 0) return;
+      if (event.clientX < iframe.contentWindow.innerWidth / 3) reveal.prev();
+      else reveal.next();
+    }
+
     function listenInside() {
-      try { iframe.contentWindow.addEventListener('keydown', onKey, true); } catch (e) {}
+      try {
+        iframe.contentWindow.addEventListener('keydown', onKey, true);
+        iframe.contentDocument.addEventListener('click', onTap);
+      } catch (e) {}
     }
 
     openButton.addEventListener('click', open);
+    // Clicks on the margins or in the close button's corner would otherwise take
+    // focus from the deck, and the arrow keys would stop advancing the slides.
+    deck.querySelectorAll('.deck-backdrop, .deck-corner').forEach(function (el) {
+      el.addEventListener('mousedown', function (event) { event.preventDefault(); });
+    });
     closeButton.addEventListener('click', close);
     document.addEventListener('keydown', onKey, true);
     iframe.addEventListener('load', listenInside);

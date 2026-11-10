@@ -21,11 +21,14 @@
   padding: 0 15px 0 0;
 }
 
+/* The line's box covers half the card, over its text, so it must let clicks
+   through to any links there. */
 .card::before {
   content: "";
   position: absolute;
   width: 50%;
   border: solid var(--line);
+  pointer-events: none;
 }
 
 /* Odd cards: top, left and bottom borders. Offsetting top and bottom by the

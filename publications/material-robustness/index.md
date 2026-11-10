@@ -22,7 +22,7 @@ description: "Work in preparation on the material robustness of strongly symmetr
 
 ## SLIDES
 
-Check out the slides from my talk at the {% include conferences/2026/zhacm.md %} at {% include universities/eth.md %} (NOV.2026) below. Click them to open full screen, step through with the arrow keys, and press Esc to return.
+Check out the slides from my talk at the {% include conferences/2026/zhacm.md %} at {% include universities/eth.md %} (NOV.2026) below:
 
 {% include deck.html src="/publications/material-robustness/zhacm/" title="ZHACM slides" %}
 
