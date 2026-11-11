@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+#
+# site-check -- build Boris's Jekyll website out of tree, and report what matters.
+#
+#   _tools/site-check              # build, then check internal links, #anchors and split tables
+#   _tools/site-check --serve      # live preview at http://localhost:4000 (Ctrl-C to stop)
+#
+# This site (BorisAndrews.github.io, the repository above _tools/) is deployed by GitHub
+# Pages, which builds with the `github-pages` gem on Ruby 3.3. That gem set
+# cannot be installed on Ruby 4 (commonmarker 0.23 caps Ruby below 4.0), and
+# Bundler then silently falls back to an old github-pages that doesn't start.
+# So this always uses Homebrew's keg-only ruby@3.3, never the default `ruby`.
+#
+# The build goes to a private cache directory, never to _site/ in the repo, and
+# the gems live in the repo's gitignored vendor/bundle. Exit status is
+# Jekyll's, or 1 if any internal link or #anchor is broken.
+
+set -uo pipefail
+
+SITE="$(cd "$(dirname "$0")/.." && pwd)"
+RUBY_BIN=/opt/homebrew/opt/ruby@3.3/bin
+OUT="$HOME/Library/Caches/claude-site/_site"
+
+if [ ! -x "$RUBY_BIN/ruby" ]; then
+    echo "site-check: $RUBY_BIN/ruby not found -- run: brew install ruby@3.3" >&2
+    exit 2
+fi
+export PATH="$RUBY_BIN:$PATH"
+cd "$SITE" || exit 2
+
+if [ ! -d vendor/bundle ]; then
+    bundle config set --local path vendor/bundle >/dev/null
+    bundle install --quiet || exit 2
+fi
+
+if [ "${1:-}" = "--serve" ]; then
+    exec bundle exec jekyll serve --destination "$OUT"
+fi
+
+mkdir -p "$(dirname "$OUT")"
+LOG="$(dirname "$OUT")/build.log"
+bundle exec jekyll build --destination "$OUT" >"$LOG" 2>&1
+STATUS=$?
+
+echo "site-check: $SITE"
+echo "  output:   $OUT"
+echo "  jekyll:   exit $STATUS"
+grep -E -i "error|warning|deprecat" "$LOG" \
+    | grep -v -E "faraday-retry|GitHub Metadata: No GitHub API authentication" \
+    | sed 's/^/  /'
+[ $STATUS -ne 0 ] && { tail -20 "$LOG"; exit $STATUS; }
+
+python3 - "$OUT" <<'PY'
+import html, pathlib, re, sys
+
+root = pathlib.Path(sys.argv[1])
+pages = list(root.rglob("*.html"))
+ids = {}
+
+def ids_of(path):
+    if path not in ids:
+        ids[path] = set(re.findall(r"""\bid=["']([^"']+)["']""", path.read_text(errors="ignore")))
+    return ids[path]
+
+link = re.compile(r"""(?:href|src)=["']([^"']+)|window\.location\.href=['"]([^'"]+)""")
+bad, badfrag = {}, {}
+for p in pages:
+    # Commented-out links are invisible to readers, so skip them.
+    text = re.sub(r"<!--.*?-->", "", p.read_text(errors="ignore"), flags=re.S)
+    src = p.relative_to(root).as_posix()
+    for m in link.finditer(text):
+        url = html.unescape(m.group(1) or m.group(2))
+        if url.startswith(("mailto:", "data:", "javascript:")):
+            continue
+        if url.startswith(("http://", "https://", "//")):
+            if "borisandrews.github.io" not in url:
+                continue
+            url = url.split("borisandrews.github.io", 1)[1] or "/"
+        url, _, frag = url.partition("#")
+        url = url.split("?", 1)[0]
+        if url == "":
+            target_page = p
+        else:
+            if not url.startswith("/"):
+                url = "/" + (p.parent.relative_to(root) / url).as_posix().lstrip("./")
+            target = root / url.lstrip("/")
+            target_page = next((c for c in (target, target / "index.html", target.with_suffix(".html"))
+                                if c.is_file()), None)
+            if target_page is None:
+                bad.setdefault(url, set()).add(src)
+                continue
+        # An #anchor with no matching id fails silently in a browser: the page
+        # loads, but at the top. Kramdown drops `{: #id}` on a lone list item.
+        if frag and target_page.suffix == ".html" and frag not in ids_of(target_page):
+            badfrag.setdefault(f"{url or '(same page)'}#{frag}", set()).add(src)
+
+# A blank line inside a Markdown table ends it, so a row include with a
+# trailing newline splits one table into two: a header-less table straight
+# after another one. (Header-less tables on their own are deliberate, e.g. the
+# one-column lists on notebooks/.)
+split = []
+for p in pages:
+    text = re.sub(r"<!--.*?-->", "", p.read_text(errors="ignore"), flags=re.S)
+    tails = re.findall(r"</table>\s*<table>(.*?)</table>", text, flags=re.S)
+    n = sum(1 for tb in tails if "<thead>" not in tb)
+    if n:
+        split.append((p.relative_to(root).as_posix(), n))
+
+print(f"  pages:    {len(pages)}")
+print(f"  broken internal links: {len(bad)}")
+for url, srcs in sorted(bad.items()):
+    print(f"    {url}  <-  {', '.join(sorted(srcs)[:3])}")
+print(f"  missing #anchors:      {len(badfrag)}")
+for url, srcs in sorted(badfrag.items()):
+    print(f"    {url}  <-  {', '.join(sorted(srcs)[:3])}")
+print(f"  headerless (split) tables: {sum(n for _, n in split)}")
+for src, n in split:
+    print(f"    {src}: {n}")
+sys.exit(1 if (bad or badfrag or split) else 0)
+PY

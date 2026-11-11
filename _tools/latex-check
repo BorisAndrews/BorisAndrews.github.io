@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+#
+# latex-check -- build a LaTeX document out of tree, and report what matters.
+#
+#   latex-check main.tex                 # build, print a summary
+#   latex-check main.tex --lualatex      # extra arguments go to latexmk
+#   latex-check --clean main.tex         # discard this document's build first
+#
+# Why: Boris edits in VS Code, whose LaTeX Workshop rebuilds on every change to
+# a .tex file, writing main.aux / main.pdf / main.bbl beside the source. A second
+# latexmk in the same directory at the same time interleaves its writes with
+# that one, truncating main.aux ("File ended while scanning use of \@newl@bel"
+# at \begin{document}) and leaving hundreds of spurious undefined references.
+#
+# This script never touches the source directory's build files. It runs latexmk
+# from the source directory (so relative \input, \includegraphics, .bib, .cls
+# and .latexmkrc paths all resolve as usual), but sends every output to a
+# private directory keyed on the document's path. The two builds then share
+# nothing, and can run at the same time. Boris's PDF is still the one in the
+# source directory, rebuilt by VS Code; the PDF here is only for checking.
+#
+# Exit status is latexmk's.
+
+set -uo pipefail
+
+CLEAN=0
+if [ "${1:-}" = "--clean" ]; then CLEAN=1; shift; fi
+
+if [ $# -lt 1 ]; then
+    echo "usage: latex-check [--clean] FILE.tex [latexmk args...]" >&2
+    exit 2
+fi
+
+TEX="$1"; shift
+if [ ! -f "$TEX" ]; then echo "latex-check: no such file: $TEX" >&2; exit 2; fi
+
+SRCDIR="$(cd "$(dirname "$TEX")" && pwd)"
+JOB="$(basename "$TEX" .tex)"
+KEY="$(printf '%s' "$SRCDIR/$JOB" | shasum | cut -c1-12)"
+OUT="${CLAUDE_LATEX_DIR:-$HOME/Library/Caches/claude-latex}/${JOB}-${KEY}"
+
+if [ "$CLEAN" = 1 ]; then rm -rf "$OUT"; fi
+mkdir -p "$OUT"
+printf '%s\n' "$SRCDIR/$JOB.tex" > "$OUT/SOURCE"
+
+cd "$SRCDIR" || exit 2
+latexmk -pdf -interaction=nonstopmode \
+    -outdir="$OUT" -auxdir="$OUT" "$@" "$JOB.tex" > "$OUT/latexmk.out" 2>&1
+STATUS=$?
+
+LOG="$OUT/$JOB.log"
+echo "latex-check: $SRCDIR/$JOB.tex"
+echo "  build dir:  $OUT"
+echo "  latexmk:    exit $STATUS"
+if [ ! -f "$LOG" ]; then
+    echo "  no log produced; tail of latexmk output:"
+    tail -20 "$OUT/latexmk.out" | sed 's/^/    /'
+    exit "$STATUS"
+fi
+
+# TeX hard-wraps log lines at 79 characters, splitting long paths; rejoin first.
+# TeX says "(1 page," in the singular, so the plural must be optional.
+# TeX can split a UTF-8 character at that wrap, so read the log as bytes.
+PAGES="$(LC_ALL=C tr -d '\n' < "$LOG" | LC_ALL=C grep -o 'Output written on .*([0-9]* pages\{0,1\}' | grep -o '([0-9]* pages\{0,1\}' | tr -d '(')"
+echo "  output:     ${PAGES:-no PDF written}${PAGES:+, $OUT/$JOB.pdf}"
+
+ERRS="$(grep -c '^!' "$LOG")"
+echo "  errors:     $ERRS"
+if [ "$ERRS" -gt 0 ]; then
+    grep -A3 '^!' "$LOG" | head -30 | sed 's/^/    /'
+fi
+
+UNDEF="$(grep -E "(Reference|Citation) .* undefined" "$LOG" | sed -E "s/.*(Reference|Citation) [\`']([^']*)'.*/\1 \2/" | sort -u)"
+echo "  undefined:  $(printf '%s' "$UNDEF" | grep -c . )"
+[ -n "$UNDEF" ] && printf '%s\n' "$UNDEF" | head -20 | sed 's/^/    /'
+
+OVER="$(grep -E '^Overfull \\hbox \(([0-9.]+)pt' "$LOG" | awk '{v=$3; gsub(/[^0-9.]/,"",v); if (v+0 > 5) print}')"
+echo "  overfull:   $(printf '%s' "$OVER" | grep -c . ) wider than 5pt"
+[ -n "$OVER" ] && printf '%s\n' "$OVER" | head -15 | sed 's/^/    /'
+
+BIB="$OUT/$JOB.blg"
+if [ -f "$BIB" ]; then
+    BW="$(grep -cE 'WARN|ERROR' "$BIB")"
+    [ "$BW" -gt 0 ] && echo "  bib log:    $BW warning/error lines in $BIB"
+fi
+
+exit "$STATUS"

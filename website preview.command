@@ -20,4 +20,4 @@ fi
     done
 ) &
 
-exec "$HERE/../../../Software/site-check" --serve
+exec "$HERE/_tools/site-check" --serve
