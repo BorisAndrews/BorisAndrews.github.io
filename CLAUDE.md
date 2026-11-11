@@ -2,6 +2,20 @@
 
 Jekyll academic portfolio. Theme: `jekyll-theme-minimal` (heavily customised).
 
+## TODO for the next local session: move `site-check` into this repo
+
+Note left by a cloud session on 11 Nov 2026, at Boris's request. **Raise this with Boris at the start of the next session on his laptop, do it with him, then delete this section.**
+
+`site-check` lives in the workspace's `Software/` directory, outside this repository. So a session with only this repo (a cloud session, for one) has no way to build or check the site. Boris: "It makes no sense not to be in this repository for reasons like this." More generally, **`Software/` is the wrong place for it. Boris wants a project's tools kept local, in the project they serve.** Treat that as a standing rule: a script that serves only this site belongs in this repo.
+
+The move:
+
+1. Copy `Software/site-check` into this repo and commit it. One option is `_tools/site-check`: Jekyll skips directories that start with `_`, so it wouldn't be published. If it goes anywhere else, add it to the `exclude` list in `_config.yml`, the way `website preview.command` is. Check for paths it resolves relative to its own location (the repo, `vendor/bundle`, the cache output directory) and fix them for the new location.
+2. Point `website preview.command` at the new path. It currently reaches the script via `../../../Software/`.
+3. Update every mention in this file: the Build section, "Previewing", and the `site-check` mentions elsewhere. Also update the root workspace CLAUDE.md and anything else under the workspace that refers to `Software/site-check` (grep for it).
+4. Delete it from `Software/` once nothing refers to it there.
+5. Ask Boris whether `Software/latex-check`, used for the PDF CV (`cv/assets/pdf/CLAUDE.md`), should move here too under the same rule, or stays in `Software/` because other projects (papers, talks) use it.
+
 ## Build
 
 **Build and check locally with `Software/site-check`** (from the workspace root, or by absolute path):
