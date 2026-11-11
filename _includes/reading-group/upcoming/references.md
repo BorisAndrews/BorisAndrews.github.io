@@ -11,3 +11,7 @@
 - {: #christiansen-munthekaas-owren-2011} **S. H. Christiansen**, **H. Z. Munthe-Kaas** and **B. Owren**, Topics in structure-preserving discretization, *Acta Numerica*, 20 (2011), [doi:10.1017/S096249291100002X](https://doi.org/10.1017/S096249291100002X)
 
 - {: #christiansen-winther-2008} **S. H. Christiansen** and **R. Winther**, Smoothed projections in finite element exterior calculus, *Mathematics of Computation*, 77 (2008), [doi:10.1090/S0025-5718-07-02081-9](https://doi.org/10.1090/S0025-5718-07-02081-9)
+
+- {: #hintermuller-ito-kunisch-2002} **M. Hintermüller**, **K. Ito** and **K. Kunisch**, The primal-dual active set strategy as a semismooth Newton method, *SIAM Journal on Optimization*, 13 (2002), [doi:10.1137/S1052623401383558](https://doi.org/10.1137/S1052623401383558)
+
+- {: #papadopoulos-hintermuller-2026} **I. Papadopoulos** and **M. Hintermüller**, Mesh-dependent iteration count growth in primal-dual active set strategies, *arXiv* (2026), [doi:10.48550/arXiv.2607.26622](https://doi.org/10.48550/arXiv.2607.26622)
