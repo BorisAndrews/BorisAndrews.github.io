@@ -13,6 +13,23 @@
 | 7 | 27.NOV | *(TBA...)* | {% include collaborators/tim/short.md %} |
 | 8 | 04.DEC | *(TBA...)* | *(TBA...)* |
 
+*Hilary term*
+
+{% comment %}
+Offered, date not yet fixed: Yue Wu, on the Čech–de Rham complex (Slack DM to Boris, 18 Nov 2026; Yue asked for next term rather than week 8 of Michaelmas). Give Yue a week below once agreed.
+{% endcomment %}
+
+| Week | Date | Topic | Presenter |
+| --- | --- | --- | --- |
+| 1 | 22.JAN | *(TBA...)* | *(TBA...)* |
+| 2 | 29.JAN | *(TBA...)* | *(TBA...)* |
+| 3 | 05.FEB | *(TBA...)* | *(TBA...)* |
+| 4 | 12.FEB | *(TBA...)* | *(TBA...)* |
+| 5 | 19.FEB | *(TBA...)* | *(TBA...)* |
+| 6 | 26.FEB | *(TBA...)* | *(TBA...)* |
+| 7 | 05.MAR | *(TBA...)* | *(TBA...)* |
+| 8 | 12.MAR | *(TBA...)* | *(TBA...)* |
+
 <!-- **Due to clashes, meetings marked with \* will be in S1.37. Those marked with \*\* will down in S0.29. Those marked with \*\*\* will be all the way in N3.12.* -->
 
 <!-- *Slides and notes can be found, when available, by clicking the topic titles.* -->
