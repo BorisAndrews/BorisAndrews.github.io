@@ -5,5 +5,5 @@
 *{% include universities/oxford.md %}*
 {: .collab-affil}
 
-- Discrete energy spectra in finite element discretisations of the incompressible Navier–Stokes equations*
+- {% include publications/hints/turbulence.md %}*
 {: .collab-pubs}

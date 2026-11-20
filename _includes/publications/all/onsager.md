@@ -1,1 +1,1 @@
-| Discrete Besov norms and discrete Onsager conjectures | |
+| {% include publications/hints/onsager.md %} | |

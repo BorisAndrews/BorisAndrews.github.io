@@ -14,5 +14,5 @@
 - [Automated Galerkin time stepping in Irksome](/publications/irksome-galerkin/)
 - [Strongly enstrophy-stable integrators for the incompressible Navier–Stokes equations](/publications/enstrophy/)
 - [Structure-preserving discretisations for the quasi-incompressible, thermal Maxwell–Stefan equations](/publications/stefan-maxwell/)
-- Arbitrary-order energy-stable discretizations of viscoelastic fluids*
+- {% include publications/hints/viscoelasticity.md %}*
 {: .collab-pubs}

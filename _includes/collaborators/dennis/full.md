@@ -5,5 +5,5 @@
 *{% include universities/regensburg.md %}*
 {: .collab-affil}
 
-- Arbitrary-order energy-stable discretizations of viscoelastic fluids*
+- {% include publications/hints/viscoelasticity.md %}*
 {: .collab-pubs}

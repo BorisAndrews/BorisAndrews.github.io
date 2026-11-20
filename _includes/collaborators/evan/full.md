@@ -5,5 +5,5 @@
 *{% include universities/santa-clara.md %}*
 {: .collab-affil}
 
-- Blow-up Stokes complexes on Alfeld splits*
+- {% include publications/hints/blow-up-stokes.md %}*
 {: .collab-pubs}

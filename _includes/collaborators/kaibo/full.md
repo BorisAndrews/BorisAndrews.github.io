@@ -6,6 +6,6 @@
 {: .collab-affil}
 
 - [Helicity-preserving finite element discretization for magnetic relaxation](/publications/parker/)
-- Material robustness of strongly symmetric stress discretisations in thin domains*
-- Discrete energy spectra in finite element discretisations of the incompressible Navier–Stokes equations*
+- {% include publications/hints/material-robustness.md %}*
+- {% include publications/hints/turbulence.md %}*
 {: .collab-pubs}

@@ -5,5 +5,5 @@
 *{% include universities/vienna.md %}*
 {: .collab-affil}
 
-- Determinant-preserving discretisations of matrix advection*
+- {% include publications/hints/matrix-advection.md %}*
 {: .collab-pubs}

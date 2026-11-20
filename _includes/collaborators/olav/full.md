@@ -5,5 +5,5 @@
 *{% include universities/oxford.md %}*
 {: .collab-affil}
 
-- Finite element sheaves: Every finite element can be hybridised*
+- {% include publications/hints/hybridised-fes.md %}*
 {: .collab-pubs}

@@ -5,5 +5,5 @@
 *{% include organisations/nrl.md %}*
 {: .collab-affil}
 
-- Material robustness of strongly symmetric stress discretisations in thin domains*
+- {% include publications/hints/material-robustness.md %}*
 {: .collab-pubs}

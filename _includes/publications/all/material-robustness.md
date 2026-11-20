@@ -1,1 +1,1 @@
-| Material robustness of strongly symmetric stress discretisations in thin domains | <span class="au">{% include collaborators/charlie/short.md %}</span><span class="au">{% include collaborators/umberto/short.md %}</span><span class="au">{% include collaborators/kaibo/short.md %}</span> |
+| {% include publications/hints/material-robustness.md %} | <span class="au">{% include collaborators/charlie/short.md %}</span><span class="au">{% include collaborators/umberto/short.md %}</span><span class="au">{% include collaborators/kaibo/short.md %}</span> |

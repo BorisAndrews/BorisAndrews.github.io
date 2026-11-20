@@ -1,1 +1,1 @@
-| Arbitrary-order energy-stable discretizations of viscoelastic fluids | <span class="au">{% include collaborators/dennis/short.md %}</span><span class="au">{% include collaborators/patrick/short.md %}</span> |
+| {% include publications/hints/viscoelasticity.md %} | <span class="au">{% include collaborators/dennis/short.md %}</span><span class="au">{% include collaborators/patrick/short.md %}</span> |
