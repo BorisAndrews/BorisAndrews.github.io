@@ -9,8 +9,6 @@ description: "The people Boris Andrews works with, and their joint papers."
 
 <p class="pub-legend"><span class="pub-published">Published</span> <span class="pub-preprint">Preprint</span> <span class="pub-draft">In preparation</span></p>
 
-<!-- own-band -->
-
 <!-- band -->
 <div class="collab-card" markdown="1">
 
