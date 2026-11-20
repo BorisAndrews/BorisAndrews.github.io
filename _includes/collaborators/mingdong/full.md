@@ -5,5 +5,5 @@
 *{% include universities/oxford.md %}*
 {: .collab-affil}
 
-- [Helicity-preserving finite element discretization for magnetic relaxation](/publications/parker/)
+- {: .pub-published} [Helicity-preserving finite element discretization for magnetic relaxation](/publications/parker/)
 {: .collab-pubs}

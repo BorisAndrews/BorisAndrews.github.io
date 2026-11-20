@@ -5,5 +5,5 @@
 *{% include universities/santa-clara.md %}*
 {: .collab-affil}
 
-- {% include publications/hints/blow-up-stokes.md %}*
+- {: .pub-draft} {% include publications/hints/blow-up-stokes.md %}
 {: .collab-pubs}

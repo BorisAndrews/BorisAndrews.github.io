@@ -33,8 +33,10 @@ if [ ! -d vendor/bundle ]; then
     bundle install --quiet || exit 2
 fi
 
+# The live preview gets a destination of its own: a one-off build cleans and
+# rewrites $OUT, which would pull pages out from under a running preview.
 if [ "${1:-}" = "--serve" ]; then
-    exec bundle exec jekyll serve --destination "$OUT"
+    exec bundle exec jekyll serve --destination "$(dirname "$OUT")/_serve"
 fi
 
 mkdir -p "$(dirname "$OUT")"

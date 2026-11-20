@@ -5,5 +5,5 @@
 *{% include universities/regensburg.md %}*
 {: .collab-affil}
 
-- {% include publications/hints/viscoelasticity.md %}*
+- {: .pub-draft} {% include publications/hints/viscoelasticity.md %}
 {: .collab-pubs}

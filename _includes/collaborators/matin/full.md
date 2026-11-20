@@ -5,5 +5,5 @@
 *{% include universities/oxford.md %}*
 {: .collab-affil}
 
-- [Strongly enstrophy-stable integrators for the incompressible Navier–Stokes equations](/publications/enstrophy/)
+- {: .pub-preprint} [Strongly enstrophy-stable integrators for the incompressible Navier–Stokes equations](/publications/enstrophy/)
 {: .collab-pubs}

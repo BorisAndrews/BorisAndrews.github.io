@@ -5,5 +5,5 @@
 *{% include universities/oxford.md %}*
 {: .collab-affil}
 
-- {% include publications/hints/hybridised-fes.md %}*
+- {: .pub-draft} {% include publications/hints/hybridised-fes.md %}
 {: .collab-pubs}

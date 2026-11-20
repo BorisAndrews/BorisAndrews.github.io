@@ -564,7 +564,31 @@ $up-kinds: (
   }
 }
 
-.up-legend {
+// Collaborator cards mark each joint work by status with the same shapes:
+// published (incl. upcoming/accepted), preprint (online, in review), and in
+// preparation. Classes `pub-<kind>` on each list item, legend `.pub-legend`.
+$pub-kinds: (
+  published: map-get($up-kinds, other),
+  preprint:  map-get($up-kinds, teaching),
+  draft:     map-get($up-kinds, conference),
+);
+
+@each $kind, $spec in $pub-kinds {
+  li.pub-#{$kind} {
+    list-style:none;
+    position:relative;
+    &::before {
+      content:"";
+      position:absolute;
+      left:-18px;
+      top:calc(0.75em - #{nth($spec, 3)} / 2);
+      @include up-shape($spec);
+    }
+  }
+  .pub-legend .pub-#{$kind}::before { @include up-shape($spec); }
+}
+
+.up-legend, .pub-legend {
   font-size:13px;
   margin:-6px 0 12px;
   span { white-space:nowrap; margin-right:14px; }
@@ -575,6 +599,7 @@ $up-kinds: (
     vertical-align:0;
   }
 }
+.pub-legend { margin:0 0 4px; }
 
 // ---- Reading group: collapsible sections ----
 details.rg-toggle {

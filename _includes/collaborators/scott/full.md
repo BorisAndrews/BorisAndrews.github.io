@@ -5,5 +5,5 @@
 *{% include universities/newfoundland.md %}*
 {: .collab-affil}
 
-- [Automated Galerkin time stepping in Irksome](/publications/irksome-galerkin/)
+- {: .pub-preprint} [Automated Galerkin time stepping in Irksome](/publications/irksome-galerkin/)
 {: .collab-pubs}

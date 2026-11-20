@@ -5,5 +5,5 @@
 *{% include organisations/nrl.md %}*
 {: .collab-affil}
 
-- {% include publications/hints/material-robustness.md %}*
+- {: .pub-draft} {% include publications/hints/material-robustness.md %}
 {: .collab-pubs}

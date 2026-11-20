@@ -5,5 +5,5 @@
 *{% include universities/hong-kong.md %}*
 {: .collab-affil}
 
-- [Arbitrary-order structure-preserving discretizations for geometric curvature flows](/publications/geometric-flows/)
+- {: .pub-preprint} [Arbitrary-order structure-preserving discretizations for geometric curvature flows](/publications/geometric-flows/)
 {: .collab-pubs}

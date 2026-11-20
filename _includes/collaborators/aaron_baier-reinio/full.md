@@ -5,5 +5,5 @@
 *{% include universities/oxford.md %}*
 {: .collab-affil}
 
-- [Structure-preserving discretisations for the quasi-incompressible, thermal Maxwell–Stefan equations](/publications/stefan-maxwell/)
+- {: .pub-preprint} [Structure-preserving discretisations for the quasi-incompressible, thermal Maxwell–Stefan equations](/publications/stefan-maxwell/)
 {: .collab-pubs}

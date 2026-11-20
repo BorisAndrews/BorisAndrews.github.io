@@ -5,5 +5,5 @@
 *{% include universities/vienna.md %}*
 {: .collab-affil}
 
-- {% include publications/hints/matrix-advection.md %}*
+- {: .pub-draft} {% include publications/hints/matrix-advection.md %}
 {: .collab-pubs}

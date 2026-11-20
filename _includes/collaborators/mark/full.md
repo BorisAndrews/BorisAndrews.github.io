@@ -5,5 +5,5 @@
 *{% include universities/oxford.md %}*
 {: .collab-affil}
 
-- {% include publications/hints/turbulence.md %}*
+- {: .pub-draft} {% include publications/hints/turbulence.md %}
 {: .collab-pubs}
