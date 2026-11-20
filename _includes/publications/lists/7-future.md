@@ -4,6 +4,7 @@
 {% include publications/all/hybridised-fes.md %}
 {% include publications/all/blow-up-stokes.md %}
 {% include publications/all/onsager.md %}
+{% include publications/all/matrix-advection.md %}
 {: .pubs .pubs-thin}
 {% comment %}
 {% include publications/all/enstrophy-nsv.md %}

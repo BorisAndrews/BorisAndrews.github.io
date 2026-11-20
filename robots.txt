@@ -1,0 +1,11 @@
+---
+layout: null
+permalink: /robots.txt
+---
+# Crawlers are welcome everywhere except the pages kept out of the sitemap
+# (front matter `sitemap: false`): drafts still in preparation, private pages
+# and redirect stubs. Generated from that flag, so the two lists can't drift.
+User-agent: *
+{% for p in site.html_pages %}{% if p.sitemap == false %}Disallow: {{ p.url }}
+{% endif %}{% endfor %}
+Sitemap: {{ "/sitemap.xml" | absolute_url }}

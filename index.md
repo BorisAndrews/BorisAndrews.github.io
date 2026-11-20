@@ -114,6 +114,50 @@ In review
         <div class="caption"><a href="https://kaibohu.github.io/"><b>Kaibo Hu</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
+        <a href="https://sites.google.com/view/enricozampa/home-page" tabindex="-1"><img src="{{ '/assets/img/collaborators/enrico.jpg' | relative_url }}" alt="Enrico Zampa"></a>
+        <div class="caption"><a href="https://sites.google.com/view/enricozampa/home-page"><b>Enrico Zampa</b></a> <br> <a href="https://mathematik.univie.ac.at/en/welcome/"><em>University of Vienna</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://www.maths.ox.ac.uk/people/karl.tyssvang" tabindex="-1"><img src="{{ '/assets/img/collaborators/olav.jpg' | relative_url }}" alt="Olav Tyssvang"></a>
+        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/karl.tyssvang"><b>Olav Tyssvang</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://scholar.google.com/citations?user=DDKP7AgAAAAJ" tabindex="-1"><img src="{{ '/assets/img/collaborators/ganghui.jpg' | relative_url }}" alt="Ganghui Zhang"></a>
+        <div class="caption"><a href="https://scholar.google.com/citations?user=DDKP7AgAAAAJ"><b>Ganghui Zhang</b></a> <br> <a href="https://www.polyu.edu.hk/ama/"><em>Hong Kong Polytechnic University</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/img/collaborators/matin.jpeg' | relative_url }}" alt="Matin Shams">
+        <div class="caption"><b>Matin Shams</b> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://yashabk.github.io/" tabindex="-1"><img src="{{ '/assets/img/collaborators/yasha.jpg' | relative_url }}" alt="Yakov Berchenko-Kogan"></a>
+        <div class="caption"><a href="https://yashabk.github.io/"><b>Yakov Berchenko-Kogan</b></a> <br> <a href="https://www.fit.edu/"><em>Florida Institute of Technology</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://webpages.scu.edu/ftp/egawlik/" tabindex="-1"><img src="{{ '/assets/img/collaborators/evan.jpg' | relative_url }}" alt="Evan Gawlik"></a>
+        <div class="caption"><a href="https://webpages.scu.edu/ftp/egawlik/"><b>Evan Gawlik</b></a> <br> <a href="https://www.scu.edu/"><em>Santa Clara University</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://scholar.google.com/citations?user=MgSwDcoAAAAJ&amp;hl=de" tabindex="-1"><img src="{{ '/assets/img/collaborators/dennis.jpg' | relative_url }}" alt="Dennis Trautwein"></a>
+        <div class="caption"><a href="https://scholar.google.com/citations?user=MgSwDcoAAAAJ&amp;hl=de"><b>Dennis Trautwein</b></a> <br> <a href="https://www.uni-regensburg.de/mathematik/fakultaet"><em>University of Regensburg</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes" tabindex="-1"><img src="{{ '/assets/img/collaborators/mark.jpg' | relative_url }}" alt="Mark Alvares"></a>
+        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes"><b>Mark Alvares</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://sites.google.com/view/mingdonghe/home/" tabindex="-1"><img src="{{ '/assets/img/collaborators/mingdong.png' | relative_url }}" alt="Mingdong He"></a>
+        <div class="caption"><a href="https://sites.google.com/view/mingdonghe/home/"><b>Mingdong He</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://sites.google.com/view/charlieparker2/about" tabindex="-1"><img src="{{ '/assets/img/collaborators/charlie.jpg' | relative_url }}" alt="Charles Parker"></a>
+        <div class="caption"><a href="https://sites.google.com/view/charlieparker2/about"><b>Charles Parker</b></a> <br> <a href="https://www.nrl.navy.mil/"><em>U.S. Naval Research Laboratory</em></a></div>
+    </div>
+    <div class="gallery-item">
+        <a href="https://www.uzerbinati.eu/" tabindex="-1"><img src="{{ '/assets/img/collaborators/umberto.jpeg' | relative_url }}" alt="Umberto Zerbinati"></a>
+        <div class="caption"><a href="https://www.uzerbinati.eu/"><b>Umberto Zerbinati</b></a> <br> <a href="https://www.simula.no/"><em>Simula Research Laboratory</em></a></div>
+    </div>
+    <div class="gallery-item">
         <a href="https://math.artsandsciences.baylor.edu/person/robert-kirby-phd" tabindex="-1"><img src="{{ '/assets/img/collaborators/rob.jpg' | relative_url }}" alt="Robert Kirby"></a>
         <div class="caption"><a href="https://math.artsandsciences.baylor.edu/person/robert-kirby-phd"><b>Robert Kirby</b></a> <br> <a href="https://math.artsandsciences.baylor.edu/research/numerical-analysis-and-computational-mathematics/"><em>Baylor University</em></a></div>
     </div>
@@ -136,46 +180,6 @@ In review
     <div class="gallery-item">
         <a href="https://aaronbrunk1.github.io/" tabindex="-1"><img src="{{ '/assets/img/collaborators/aaron_brunk.jpeg' | relative_url }}" alt="Aaron Brunk"></a>
         <div class="caption"><a href="https://aaronbrunk1.github.io/"><b>Aaron Brunk</b></a> <br> <a href="https://www.math.uni-mainz.de/"><em>Johannes Gutenberg University Mainz</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://scholar.google.com/citations?user=DDKP7AgAAAAJ" tabindex="-1"><img src="{{ '/assets/img/collaborators/ganghui.jpg' | relative_url }}" alt="Ganghui Zhang"></a>
-        <div class="caption"><a href="https://scholar.google.com/citations?user=DDKP7AgAAAAJ"><b>Ganghui Zhang</b></a> <br> <a href="https://www.polyu.edu.hk/ama/"><em>Hong Kong Polytechnic University</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://sites.google.com/view/mingdonghe/home/" tabindex="-1"><img src="{{ '/assets/img/collaborators/mingdong.png' | relative_url }}" alt="Mingdong He"></a>
-        <div class="caption"><a href="https://sites.google.com/view/mingdonghe/home/"><b>Mingdong He</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/matin.jpeg' | relative_url }}" alt="Matin Shams">
-        <div class="caption"><b>Matin Shams</b> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://yashabk.github.io/" tabindex="-1"><img src="{{ '/assets/img/collaborators/yasha.jpg' | relative_url }}" alt="Yakov Berchenko-Kogan"></a>
-        <div class="caption"><a href="https://yashabk.github.io/"><b>Yakov Berchenko-Kogan</b></a> <br> <a href="https://www.fit.edu/"><em>Florida Institute of Technology</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://webpages.scu.edu/ftp/egawlik/" tabindex="-1"><img src="{{ '/assets/img/collaborators/evan.jpg' | relative_url }}" alt="Evan Gawlik"></a>
-        <div class="caption"><a href="https://webpages.scu.edu/ftp/egawlik/"><b>Evan Gawlik</b></a> <br> <a href="https://www.scu.edu/"><em>Santa Clara University</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://sites.google.com/view/charlieparker2/about" tabindex="-1"><img src="{{ '/assets/img/collaborators/charlie.jpg' | relative_url }}" alt="Charles Parker"></a>
-        <div class="caption"><a href="https://sites.google.com/view/charlieparker2/about"><b>Charles Parker</b></a> <br> <a href="https://www.nrl.navy.mil/"><em>U.S. Naval Research Laboratory</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://scholar.google.com/citations?user=MgSwDcoAAAAJ&amp;hl=de" tabindex="-1"><img src="{{ '/assets/img/collaborators/dennis.jpg' | relative_url }}" alt="Dennis Trautwein"></a>
-        <div class="caption"><a href="https://scholar.google.com/citations?user=MgSwDcoAAAAJ&amp;hl=de"><b>Dennis Trautwein</b></a> <br> <a href="https://www.uni-regensburg.de/mathematik/fakultaet"><em>University of Regensburg</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://www.uzerbinati.eu/" tabindex="-1"><img src="{{ '/assets/img/collaborators/umberto.jpeg' | relative_url }}" alt="Umberto Zerbinati"></a>
-        <div class="caption"><a href="https://www.uzerbinati.eu/"><b>Umberto Zerbinati</b></a> <br> <a href="https://www.simula.no/"><em>Simula Research Laboratory</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes" tabindex="-1"><img src="{{ '/assets/img/collaborators/mark.jpg' | relative_url }}" alt="Mark Alvares"></a>
-        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes"><b>Mark Alvares</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://www.maths.ox.ac.uk/people/karl.tyssvang" tabindex="-1"><img src="{{ '/assets/img/collaborators/olav.jpg' | relative_url }}" alt="Olav Tyssvang"></a>
-        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/karl.tyssvang"><b>Olav Tyssvang</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
 </div>
 <div class="gallery-controls">

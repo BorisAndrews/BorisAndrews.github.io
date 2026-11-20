@@ -1,0 +1,9 @@
+{% include collaborators/enrico/short.md %}
+
+<div class="collab-photo"><a href="https://sites.google.com/view/enricozampa/home-page" tabindex="-1"><img src="/assets/img/collaborators/enrico.jpg" alt="Enrico Zampa"></a></div>
+
+*{% include universities/vienna.md %}*
+{: .collab-affil}
+
+- Determinant-preserving discretisations of matrix advection*
+{: .collab-pubs}
