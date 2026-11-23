@@ -1,2 +1,3 @@
 - **FEB–AUG.2025** <code>&#124;</code> {% include collaborators/matin/short.md %}, MMSC special project & dissertation
     - **PROJECT** <code>&#124;</code> [Enstrophy-stable integrators for the incompressible Navier–Stokes equations](/publications/enstrophy/)
+    - **CO-SUPERVISOR** <code>&#124;</code> {% include collaborators/patrick/short.md %}

@@ -22,13 +22,15 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/oscar/full.md date="FEB–AUG.2026" project="Numerical evolution of magnetic field topologies" %}
+{% capture cosupervisor %}{% include collaborators/kaibo/short.md %}{% endcapture %}
+## {% include collaborators/oscar/full.md cosupervisor=cosupervisor date="FEB–AUG.2026" project="Numerical evolution of magnetic field topologies" %}
 
 </div>
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/matin/full.md date="FEB–AUG.2025" project="Enstrophy-stable integrators for Navier–Stokes" %}
+{% capture cosupervisor %}{% include collaborators/patrick/short.md %}{% endcapture %}
+## {% include collaborators/matin/full.md cosupervisor=cosupervisor date="FEB–AUG.2025" project="Enstrophy-stable integrators for Navier–Stokes" %}
 
 </div>
 
@@ -36,6 +38,7 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/sebastian/full.md date="SEP–OCT.2024" project="Stability study of conservative vs. symplectic integrators on the Toda lattice" %}
+{% capture cosupervisor %}{% include collaborators/patrick/short.md %}{% endcapture %}
+## {% include collaborators/sebastian/full.md cosupervisor=cosupervisor date="SEP–OCT.2024" project="Stability study of conservative vs. symplectic integrators on the Toda lattice" %}
 
 </div>
