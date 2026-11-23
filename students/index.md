@@ -28,7 +28,7 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/matin/full.md role="FEB–AUG.2025" project="<a href='/publications/enstrophy/'>Enstrophy-stable integrators for the incompressible Navier–Stokes equations</a>" %}
+## {% include collaborators/matin/full.md role="FEB–AUG.2025" project="Enstrophy-stable integrators" project_note=", which became the paper below" %}
 
 </div>
 
