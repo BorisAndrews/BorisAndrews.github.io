@@ -515,10 +515,10 @@ Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
     grid-template-columns:100px 1fr;  // $cv-label, defined further down
     column-gap:8px;  // $cv-label-gap
     row-gap:2px;
-    // Pulled up into the affiliation's 8px bottom margin so that name ->
-    // affiliation -> DATE are evenly spaced (3.8px between the text boxes,
-    // measured; Boris asked for even spacing there).
-    margin:-6.7px 0 8px;
+    // Pulled up into the affiliation's 8px bottom margin, leaving 5.8px
+    // between the affiliation and DATE text boxes (measured): 2px more than
+    // name -> affiliation, which Boris found a touch tight at 3.8px.
+    margin:-4.7px 0 8px;
     font-size:13px;
     dt {
       padding-top:2px;
