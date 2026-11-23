@@ -57,6 +57,12 @@
     gap: 8px;
 }
 
+/* Set by gallery.js when every photo is already in view. Hidden rather than
+   removed, so "View all" keeps its place. */
+.gallery-static .gallery-arrows {
+    visibility: hidden;
+}
+
 .gallery-arrows button {
     position: relative;
     isolation: isolate;

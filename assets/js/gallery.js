@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var update = function () {
       prev.disabled = track.scrollLeft <= 1;
       next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 1;
+      // Everything in view (the students row on a wide screen): no arrows.
+      controls.classList.toggle("gallery-static", prev.disabled && next.disabled);
     };
     prev.addEventListener("click", function () { step(-1); });
     next.addEventListener("click", function () { step(1); });
