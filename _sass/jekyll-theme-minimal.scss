@@ -506,6 +506,9 @@ Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
     grid-column:2;
     margin:0 0 8px;
     font-size:13px;
+    // Students page: a little air between the affiliation and the
+    // Date / Co-supervisor / Project lines under it.
+    .collab-role:first-of-type { display:inline-block; margin-top:6px; }
   }
   > .collab-pubs {
     grid-column:2;
