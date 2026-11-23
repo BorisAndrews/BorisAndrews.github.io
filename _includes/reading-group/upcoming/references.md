@@ -17,3 +17,5 @@
 - {: #hintermuller-ito-kunisch-2002} **M. Hintermüller**, **K. Ito** and **K. Kunisch**, The primal-dual active set strategy as a semismooth Newton method, *SIAM Journal on Optimization*, 13 (2002), [doi:10.1137/S1052623401383558](https://doi.org/10.1137/S1052623401383558)
 
 - {: #papadopoulos-hintermuller-2026} **I. Papadopoulos** and **M. Hintermüller**, Mesh-dependent iteration count growth in primal-dual active set strategies, *arXiv* (2026), [doi:10.48550/arXiv.2607.26622](https://doi.org/10.48550/arXiv.2607.26622)
+
+- {: #spence-2023} **E. A. Spence**, A simple proof that the hp-FEM does not suffer from the pollution effect for the constant-coefficient full-space Helmholtz equation, *Advances in Computational Mathematics*, 49 (2023), [doi:10.1007/s10444-023-10025-3](https://doi.org/10.1007/s10444-023-10025-3)
