@@ -98,9 +98,26 @@ In review
 
 <br>
 
-## [RECENT COLLABORATORS](/collaborators/)
+## [STUDENTS](/collaborators/)
 
 {% include gallery.md %}
+
+<div class="gallery gallery-single">
+    <div class="gallery-item">
+        <a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes" tabindex="-1"><img src="{{ '/assets/img/collaborators/mark.jpg' | relative_url }}" alt="Mark Alvares"></a>
+        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes"><b>Mark Alvares</b></a> <br> <em>DPhil student</em></div>
+    </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/img/collaborators/matin.jpeg' | relative_url }}" alt="Matin Shams">
+        <div class="caption"><b>Matin Shams</b> <br> <em>MMSC student (2025)</em></div>
+    </div>
+</div>
+
+[View all](/collaborators/)
+
+<br>
+
+## [RECENT COLLABORATORS](/collaborators/)
 
 <div class="gallery">
     <div class="gallery-item">
@@ -124,10 +141,6 @@ In review
         <div class="caption"><a href="https://scholar.google.com/citations?user=DDKP7AgAAAAJ"><b>Ganghui Zhang</b></a> <br> <a href="https://www.polyu.edu.hk/ama/"><em>Hong Kong Polytechnic University</em></a></div>
     </div>
     <div class="gallery-item">
-        <img src="{{ '/assets/img/collaborators/matin.jpeg' | relative_url }}" alt="Matin Shams">
-        <div class="caption"><b>Matin Shams</b> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
-    </div>
-    <div class="gallery-item">
         <a href="https://yashabk.github.io/" tabindex="-1"><img src="{{ '/assets/img/collaborators/yasha.jpg' | relative_url }}" alt="Yakov Berchenko-Kogan"></a>
         <div class="caption"><a href="https://yashabk.github.io/"><b>Yakov Berchenko-Kogan</b></a> <br> <a href="https://www.fit.edu/"><em>Florida Institute of Technology</em></a></div>
     </div>
@@ -138,10 +151,6 @@ In review
     <div class="gallery-item">
         <a href="https://scholar.google.com/citations?user=MgSwDcoAAAAJ&amp;hl=de" tabindex="-1"><img src="{{ '/assets/img/collaborators/dennis.jpg' | relative_url }}" alt="Dennis Trautwein"></a>
         <div class="caption"><a href="https://scholar.google.com/citations?user=MgSwDcoAAAAJ&amp;hl=de"><b>Dennis Trautwein</b></a> <br> <a href="https://www.uni-regensburg.de/mathematik/fakultaet"><em>University of Regensburg</em></a></div>
-    </div>
-    <div class="gallery-item">
-        <a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes" tabindex="-1"><img src="{{ '/assets/img/collaborators/mark.jpg' | relative_url }}" alt="Mark Alvares"></a>
-        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes"><b>Mark Alvares</b></a> <br> <a href="https://www.maths.ox.ac.uk/"><em>University of Oxford</em></a></div>
     </div>
     <div class="gallery-item">
         <a href="https://sites.google.com/view/mingdonghe/home/" tabindex="-1"><img src="{{ '/assets/img/collaborators/mingdong.png' | relative_url }}" alt="Mingdong He"></a>

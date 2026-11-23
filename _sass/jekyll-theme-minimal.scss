@@ -600,9 +600,6 @@ $pub-kinds: (
   }
 }
 .pub-legend { margin:0 0 4px; }
-// The collaborators page's "Doctoral students" group label follows the legend
-// directly (the short opening shares the first band), so give it room.
-.pub-legend + p.pubs-group { margin-top:22px; }
 
 // ---- Reading group: collapsible sections ----
 details.rg-toggle {
@@ -966,6 +963,10 @@ section:has(> .band) {
   padding-bottom:0;
   border-bottom:0;
 }
+// Group headings on the students & collaborators page (DOCTORAL STUDENTS,
+// MASTER'S STUDENTS, COLLABORATORS) each open a band. The first shares its
+// band with the page title, so it needs room under the legend.
+.pub-legend + h2 { margin-top:36px; }
 
 // ---- Pages on `layout: blank` (reading group, FETC workshop) ----
 // No sidebar: the bands run the full width of the window, text included.

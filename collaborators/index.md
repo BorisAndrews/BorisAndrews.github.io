@@ -9,9 +9,7 @@ description: "Boris Andrews's doctoral students and collaborators, and their joi
 
 <p class="pub-legend"><span class="pub-published">Published</span> <span class="pub-preprint">Preprint</span> <span class="pub-draft">In preparation</span></p>
 
-<!-- band -->
-Doctoral students
-{: .pubs-group}
+## DOCTORAL STUDENTS
 
 <div class="collab-card" markdown="1">
 
@@ -19,9 +17,21 @@ Doctoral students
 
 </div>
 
-<!-- band -->
-Collaborators
-{: .pubs-group}
+## MASTER'S STUDENTS
+
+<div class="collab-card" markdown="1">
+
+## {% include collaborators/oscar/full.md %}
+
+</div>
+
+<div class="collab-card" markdown="1">
+
+## {% include collaborators/matin/full.md %}
+
+</div>
+
+## COLLABORATORS
 
 <div class="collab-card" markdown="1">
 
@@ -54,13 +64,6 @@ Collaborators
 <div class="collab-card" markdown="1">
 
 ## {% include collaborators/ganghui/full.md %}
-
-</div>
-
-<!-- band -->
-<div class="collab-card" markdown="1">
-
-## {% include collaborators/matin/full.md %}
 
 </div>
 
