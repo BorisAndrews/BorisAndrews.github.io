@@ -70,18 +70,6 @@ Drafts not yet available
 - **2021–2025** <code>&#124;</code> DPhil studentship (EPSRC) / CASE award (UKAEA)
 - **2017–2021** <code>&#124;</code> Foundation scholarship (Worcester College) / Collection prizes (Worcester College) -->
 
-## SUPERVISION
-
-### Doctoral students
-
-{% include supervision/mark.md %}
-
-### Master's & undergraduate projects
-
-{% include supervision/oscar.md %}
-{% include supervision/matin.md %}
-{% include supervision/sebastian.md %}
-
 ## TALKS
 
 ### Invited talks & minisymposium presentations 
@@ -101,11 +89,17 @@ Drafts not yet available
 
 *(\*upcoming)*
 
-## HOSTED WORKSHOPS & MINISYMPOSIA
+## SUPERVISION
 
-{% include minisymposia/fetc.md %}
-{% include minisymposia/scicade.md %}
-{% include minisymposia/strathclyde.md %}
+### Doctoral students
+
+{% include supervision/mark.md %}
+
+### Master's & undergraduate projects
+
+{% include supervision/oscar.md %}
+{% include supervision/matin.md %}
+{% include supervision/sebastian.md %}
 
 ## TEACHING
 
@@ -115,6 +109,12 @@ Drafts not yet available
 - **2024–2025** <code>&#124;</code> Tutor: [*Computational Mathematics*](https://courses.maths.ox.ac.uk/course/view.php?id=5471)
 - **2023–2024** <code>&#124;</code> Tutor: *Prelims corner* / Teaching assistant: [*Numerical Linear Algebra*](https://courses.maths.ox.ac.uk/course/view.php?id=5024)
 - **2021–2022** <code>&#124;</code> Teaching assistant: [*Random Matrix Theory*](https://courses.maths.ox.ac.uk/course/view.php?id=160) / Tutor: [*Analysis I*](https://courses.maths.ox.ac.uk/course/view.php?id=48) (Oriel College)
+
+## HOSTED WORKSHOPS & MINISYMPOSIA
+
+{% include minisymposia/fetc.md %}
+{% include minisymposia/scicade.md %}
+{% include minisymposia/strathclyde.md %}
 
 ## OTHER EXPERIENCE
 

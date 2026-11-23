@@ -119,6 +119,10 @@ table {
 .collab-card + h2, .collab-card + h3 {
   margin-top:36px;
 }
+// The CV page's DOWNLOAD FULL PDF box, straight above EMPLOYMENT.
+.highlight-box + h2 {
+  margin-top:36px;
+}
 
 h1, h2, h3 {
   line-height:1.1;

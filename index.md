@@ -9,7 +9,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://www.maths.ox.ac.uk/people/mark.alvaresperes';">
-    I'M DELIGHTED TO WELCOME <b>MARK&nbsp;ALVARES</b> AS MY FIRST DPHIL STUDENT! KAIBO HU AND I WILL BE SUPERVISING HIS WORK ON TURBULENCE AND NAVIER–&#8288;STOKES REGULARITY
+    I'M EXCITED TO WELCOME <b>MARK&nbsp;ALVARES</b> AS MY FIRST DPHIL STUDENT! <br> KAIBO HU AND I WILL BE SUPERVISING HIS WORK ON TURBULENCE AND NAVIER–&#8288;STOKES REGULARITY
 </div>
 
 <br>
@@ -92,6 +92,8 @@ In review
 - {: .up-conference} **28–29.MAY** <code>&#124;</code> **EFEF** <code>&#124;</code> Planning to attend the {% include conferences/2027/fe_fair.md %}, held at the {% include universities/oxford.md %}
 
 - {: .up-conference} **05–09.JUL** <code>&#124;</code> **ICOSAHOM** <code>&#124;</code> Planning to attend {% include conferences/2027/icosahom.md %} at the {% include universities/milan.md %}, where I would be speaking in the minisymposium on material robustness organised by {% include collaborators/charlie/short.md %} and {% include collaborators/umberto/short.md %}
+
+- {: .up-conference} **12–16.JUL** <code>&#124;</code> **ICIAM** <code>&#124;</code> Planning to attend {% include conferences/2027/iciam.md %} in The Hague, Netherlands
 
 </div>
 
