@@ -110,6 +110,10 @@ In review
         <img src="{{ '/assets/img/collaborators/matin.jpeg' | relative_url }}" alt="Matin Shams">
         <div class="caption"><b>Matin Shams</b> <br> <em>MMSC student (2025)</em></div>
     </div>
+    <div class="gallery-item">
+        <a href="https://www.linkedin.com/in/sebastian-ohlig-4013ab212/" tabindex="-1"><img src="{{ '/assets/img/collaborators/sebastian.jpeg' | relative_url }}" alt="Sebastian Ohlig"></a>
+        <div class="caption"><a href="https://www.linkedin.com/in/sebastian-ohlig-4013ab212/"><b>Sebastian Ohlig</b></a> <br> <em>Undergraduate intern (2024)</em></div>
+    </div>
 </div>
 
 [View all](/students/)
