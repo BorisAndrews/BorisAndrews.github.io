@@ -13,7 +13,8 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/mark/full.md %}
+{% capture role %}NOV.2026–PRESENT, co-supervised with {% include collaborators/kaibo/short.md %}{% endcapture %}
+## {% include collaborators/mark/full.md role=role %}
 
 </div>
 
@@ -21,13 +22,13 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/oscar/full.md %}
+## {% include collaborators/oscar/full.md role="FEB–AUG.2026, <em>Numerical evolution of magnetic field topologies</em>" %}
 
 </div>
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/matin/full.md %}
+## {% include collaborators/matin/full.md role="FEB–AUG.2025" %}
 
 </div>
 
@@ -35,6 +36,6 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/sebastian/full.md %}
+## {% include collaborators/sebastian/full.md role="SEP–OCT.2024, <em>Stability study of conservative vs. symplectic integrators on the Toda lattice</em>" %}
 
 </div>
