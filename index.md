@@ -9,7 +9,7 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 
 {% include highlight-box.md %}
 <div class="highlight-box" onclick="window.location.href='https://www.maths.ox.ac.uk/people/mark.alvaresperes';">
-    I'M EXCITED TO WELCOME <b>MARK&nbsp;ALVARES</b> AS MY FIRST DPHIL STUDENT! <br> KAIBO HU AND I WILL BE SUPERVISING HIS WORK ON TURBULENCE AND NAVIER–&#8288;STOKES REGULARITY
+    I'M EXCITED TO WELCOME <b>MARK&nbsp;ALVARES</b> AS MY FIRST PHD STUDENT! <br> KAIBO HU AND I WILL BE SUPERVISING HIS WORK ON TURBULENCE AND NAVIER–&#8288;STOKES REGULARITY
 </div>
 
 <br>
