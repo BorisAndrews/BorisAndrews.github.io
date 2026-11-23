@@ -8,6 +8,10 @@ I'm Boris, and I'm a **postdoc (postdoctoral research associate)** in the [Numer
 My work generally focuses on **structure-preserving / compatible numerical methods** for **PDEs**.
 
 {% include highlight-box.md %}
+<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/collaborators/#doctoral-students';">
+    I'M DELIGHTED TO WELCOME MARK ALVARES AS MY FIRST DPHIL STUDENT! KAIBO HU AND I WILL BE SUPERVISING HIS WORK ON TURBULENCE AND NAVIER–&#8288;STOKES REGULARITY <br><br>
+    <b>CLICK HERE TO MEET MY STUDENTS!</b>
+</div>
 <div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/stefan-maxwell/';">
     I RECENTLY SUBMITTED A PAPER WITH AARON BAIER-REINIO, AARON BRUNK, PATRICK FARRELL AND MÁRIA LUKÁČOVÁ-MEDVIĎOVÁ ON STRUCTURE-PRESERVING DISCRETISATIONS FOR MULTICOMPONENT FLOWS <br><br>
     <b>CLICK HERE TO CHECK IT OUT!</b>
