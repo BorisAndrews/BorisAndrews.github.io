@@ -2,7 +2,7 @@
 
 <div class="collab-photo"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes" tabindex="-1"><img src="/assets/img/collaborators/mark.jpg" alt="Mark Alvares"></a></div>
 
-*{% include universities/oxford.md %}*
+*{% include universities/oxford.md %}* <br> <span class="collab-role">DPhil student, co-supervised with {% include collaborators/kaibo/short.md %}</span>
 {: .collab-affil}
 
 - {: .pub-draft} {% include publications/hints/turbulence.md %}

@@ -27,12 +27,14 @@ Sections in order — the *ideal* order given by the `% N` comments in `assets/p
 | RESEARCH INTERESTS | `_includes/interests.md` |
 | PUBLICATIONS & PREPRINTS | `_includes/publications/lists/1-papers.md` etc. |
 | PRIZES, AWARDS & SCHOLARSHIPS | Inline markdown (no include) |
+| SUPERVISION | `_includes/supervision/<name>.md`, under *Doctoral students* and *Master's & undergraduate projects* |
 | TALKS | Inline markdown using `_includes/conferences/` and `_includes/universities/` |
 | HOSTED WORKSHOPS & MINISYMPOSIA | `_includes/minisymposia/<name>.md` |
 | TEACHING | Inline markdown (no include) |
-| SUPERVISION | `_includes/supervision/<name>.md` |
 | OTHER EXPERIENCE | `_includes/experience/<name>.md` |
 | LANGUAGES | Inline markdown (no include) |
+
+SUPERVISION moved up from between TEACHING and OTHER EXPERIENCE to straight after PUBLICATIONS on 23 Nov 2026, when Boris took on his first DPhil student (Mark); it was split by level instead of by Oxford position at the same time, since a DPhil outlasts the postdoc dates the old headings carried.
 
 Sections the PDF leaves out are commented out here too, not deleted: Prizes (its `\input` is commented out in `cv.tex`), HTML under programming languages, and the 2023 Tokamak Energy internal presentation, which the PDF never listed (synced Oct 2026). Wording follows the PDF, which is authoritative; links may differ (the web links paper titles to the site's own pages, the PDF to DOIs).
 

@@ -1,15 +1,28 @@
 ---
-title: COLLABORATORS
+title: STUDENTS & COLLABORATORS
 permalink: /collaborators/
 band_class: band-compact
-description: "The people Boris Andrews works with, and their joint papers."
+description: "Boris Andrews's doctoral students and collaborators, and their joint papers."
 ---
 
-# COLLABORATORS
+# STUDENTS & COLLABORATORS
 
 <p class="pub-legend"><span class="pub-published">Published</span> <span class="pub-preprint">Preprint</span> <span class="pub-draft">In preparation</span></p>
 
 <!-- band -->
+Doctoral students
+{: .pubs-group}
+
+<div class="collab-card" markdown="1">
+
+## {% include collaborators/mark/full.md %}
+
+</div>
+
+<!-- band -->
+Collaborators
+{: .pubs-group}
+
 <div class="collab-card" markdown="1">
 
 ## {% include collaborators/patrick/full.md %}
@@ -69,13 +82,6 @@ description: "The people Boris Andrews works with, and their joint papers."
 <div class="collab-card" markdown="1">
 
 ## {% include collaborators/dennis/full.md %}
-
-</div>
-
-<!-- band -->
-<div class="collab-card" markdown="1">
-
-## {% include collaborators/mark/full.md %}
 
 </div>
 

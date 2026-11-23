@@ -1,0 +1,3 @@
+- **NOV.2026–PRESENT** <code>&#124;</code> {% include collaborators/mark/short.md %}, PhD (DPhil), *{% include universities/oxford.md %}*
+    - **PROJECT** <code>&#124;</code> Turbulence and Navier–Stokes regularity
+    - **CO-SUPERVISOR** <code>&#124;</code> {% include collaborators/kaibo/short.md %}

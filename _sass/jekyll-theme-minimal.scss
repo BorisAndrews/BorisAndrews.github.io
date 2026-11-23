@@ -600,6 +600,9 @@ $pub-kinds: (
   }
 }
 .pub-legend { margin:0 0 4px; }
+// The collaborators page's "Doctoral students" group label follows the legend
+// directly (the short opening shares the first band), so give it room.
+.pub-legend + p.pubs-group { margin-top:22px; }
 
 // ---- Reading group: collapsible sections ----
 details.rg-toggle {
