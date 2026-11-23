@@ -14,7 +14,7 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 <div class="collab-card" markdown="1">
 
 {% capture role %}NOV.2026–PRESENT, co-supervised with {% include collaborators/kaibo/short.md %}{% endcapture %}
-## {% include collaborators/mark/full.md role=role %}
+## {% include collaborators/mark/full.md role=role project="Turbulence and Navier–Stokes regularity" %}
 
 </div>
 
@@ -22,13 +22,13 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/oscar/full.md role="FEB–AUG.2026, <em>Numerical evolution of magnetic field topologies</em>" %}
+## {% include collaborators/oscar/full.md role="FEB–AUG.2026" project="Numerical evolution of magnetic field topologies" %}
 
 </div>
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/matin/full.md role="FEB–AUG.2025" %}
+## {% include collaborators/matin/full.md role="FEB–AUG.2025" project="<a href='/publications/enstrophy/'>Enstrophy-stable integrators for the incompressible Navier–Stokes equations</a>" %}
 
 </div>
 
@@ -36,6 +36,6 @@ description: "Boris Andrews's doctoral, master's and undergraduate students."
 
 <div class="collab-card" markdown="1">
 
-## {% include collaborators/sebastian/full.md role="SEP–OCT.2024, <em>Stability study of conservative vs. symplectic integrators on the Toda lattice</em>" %}
+## {% include collaborators/sebastian/full.md role="SEP–OCT.2024" project="Stability study of conservative vs. symplectic integrators on the Toda lattice" %}
 
 </div>
