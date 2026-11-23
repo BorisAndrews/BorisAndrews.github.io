@@ -2,7 +2,7 @@
 
 <div class="collab-photo"><img src="/assets/img/collaborators/matin.jpeg" alt="Matin Shams"></div>
 
-*{% include universities/oxford.md %}*{% if include.role %} <br> <span class="collab-role">{{ include.role }}</span>{% endif %}{% if include.project %} <br> <span class="collab-role">Project: <em>{{ include.project }}</em>{{ include.project_note }}</span>{% endif %}
+*{% include universities/oxford.md %}*{% if include.role %} <br> <span class="collab-role">{{ include.role }}</span>{% endif %}{% if include.project %} <br> <span class="collab-role">Project: <em>{{ include.project }}</em></span>{% endif %}
 {: .collab-affil}
 
 - {: .pub-preprint} [Strongly enstrophy-stable integrators for the incompressible Navier–Stokes equations](/publications/enstrophy/)
