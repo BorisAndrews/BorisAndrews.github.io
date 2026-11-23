@@ -104,7 +104,7 @@ In review
 <div class="gallery gallery-single">
     <div class="gallery-item">
         <a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes" tabindex="-1"><img src="{{ '/assets/img/collaborators/mark.jpg' | relative_url }}" alt="Mark Alvares"></a>
-        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes"><b>Mark Alvares</b></a> <br> <em>DPhil student</em></div>
+        <div class="caption"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes"><b>Mark Alvares</b></a> <br> <em>DPhil student (2026–&#8288;present)</em></div>
     </div>
     <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/matin.jpeg' | relative_url }}" alt="Matin Shams">
