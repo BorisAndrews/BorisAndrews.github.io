@@ -11,10 +11,6 @@ My work generally focuses on **structure-preserving / compatible numerical metho
 <div class="highlight-box" onclick="window.location.href='https://www.maths.ox.ac.uk/people/mark.alvaresperes';">
     I'M DELIGHTED TO WELCOME <b>MARK&nbsp;ALVARES</b> AS MY FIRST DPHIL STUDENT! KAIBO HU AND I WILL BE SUPERVISING HIS WORK ON TURBULENCE AND NAVIER–&#8288;STOKES REGULARITY
 </div>
-<div class="highlight-box" onclick="window.location.href='https://borisandrews.github.io/publications/stefan-maxwell/';">
-    I RECENTLY SUBMITTED A PAPER WITH AARON BAIER-REINIO, AARON BRUNK, PATRICK FARRELL AND MÁRIA LUKÁČOVÁ-MEDVIĎOVÁ ON STRUCTURE-PRESERVING DISCRETISATIONS FOR MULTICOMPONENT FLOWS <br><br>
-    <b>CLICK HERE TO CHECK IT OUT!</b>
-</div>
 
 <br>
 
