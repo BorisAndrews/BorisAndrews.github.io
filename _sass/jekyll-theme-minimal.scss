@@ -508,9 +508,11 @@ Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
     font-size:13px;
     // Students page: the Date / Co-supervisor / Project lines under the
     // affiliation, one block each (inline-blocks or <br>s left the gaps
-    // between them uneven), with a little air above the first.
+    // between them uneven). The margin above the first makes the gap from
+    // affiliation to Date match the gap from name to affiliation (3.8px
+    // between the text boxes, measured), as Boris asked; 6px was too much.
     .collab-role { display:block; }
-    .collab-role:first-of-type { margin-top:6px; }
+    .collab-role:first-of-type { margin-top:1.3px; }
   }
   > .collab-pubs {
     grid-column:2;
