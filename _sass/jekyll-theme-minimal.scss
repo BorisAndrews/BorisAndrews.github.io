@@ -963,9 +963,9 @@ section:has(> .band) {
   padding-bottom:0;
   border-bottom:0;
 }
-// Group headings on the students & collaborators page (DOCTORAL STUDENTS,
-// MASTER'S STUDENTS, COLLABORATORS) each open a band. The first shares its
-// band with the page title, so it needs room under the legend.
+// Group headings on the students page (DOCTORAL, MASTER'S, UNDERGRADUATE
+// STUDENTS) each open a band. The first shares its band with the page title,
+// so it needs room under the legend.
 .pub-legend + h2 { margin-top:36px; }
 
 // ---- Pages on `layout: blank` (reading group, FETC workshop) ----

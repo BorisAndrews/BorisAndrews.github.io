@@ -1,38 +1,15 @@
 ---
-title: STUDENTS & COLLABORATORS
+title: COLLABORATORS
 permalink: /collaborators/
 band_class: band-compact
-description: "Boris Andrews's doctoral students and collaborators, and their joint papers."
+description: "The people Boris Andrews works with, and their joint papers."
 ---
 
-# STUDENTS & COLLABORATORS
+# COLLABORATORS
 
 <p class="pub-legend"><span class="pub-published">Published</span> <span class="pub-preprint">Preprint</span> <span class="pub-draft">In preparation</span></p>
 
-## DOCTORAL STUDENTS
-
-<div class="collab-card" markdown="1">
-
-## {% include collaborators/mark/full.md %}
-
-</div>
-
-## MASTER'S STUDENTS
-
-<div class="collab-card" markdown="1">
-
-## {% include collaborators/oscar/full.md %}
-
-</div>
-
-<div class="collab-card" markdown="1">
-
-## {% include collaborators/matin/full.md %}
-
-</div>
-
-## COLLABORATORS
-
+<!-- band -->
 <div class="collab-card" markdown="1">
 
 ## {% include collaborators/patrick/full.md %}
@@ -70,6 +47,13 @@ description: "Boris Andrews's doctoral students and collaborators, and their joi
 <!-- band -->
 <div class="collab-card" markdown="1">
 
+## {% include collaborators/matin/full.md %}
+
+</div>
+
+<!-- band -->
+<div class="collab-card" markdown="1">
+
 ## {% include collaborators/yasha/full.md %}
 
 </div>
@@ -85,6 +69,13 @@ description: "Boris Andrews's doctoral students and collaborators, and their joi
 <div class="collab-card" markdown="1">
 
 ## {% include collaborators/dennis/full.md %}
+
+</div>
+
+<!-- band -->
+<div class="collab-card" markdown="1">
+
+## {% include collaborators/mark/full.md %}
 
 </div>
 

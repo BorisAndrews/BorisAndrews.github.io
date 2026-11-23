@@ -97,7 +97,7 @@ In review
 
 <br>
 
-## [STUDENTS](/collaborators/)
+## [STUDENTS](/students/)
 
 {% include gallery.md %}
 
@@ -112,7 +112,7 @@ In review
     </div>
 </div>
 
-[View all](/collaborators/)
+[View all](/students/)
 
 <br>
 
