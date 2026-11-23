@@ -115,8 +115,13 @@ In review
         <div class="caption"><a href="https://www.linkedin.com/in/sebastian-ohlig-4013ab212/"><b>Sebastian Ohlig</b></a> <br> <em>Undergraduate intern (2024)</em></div>
     </div>
 </div>
-
-[View all](/students/)
+<div class="gallery-controls">
+    <a href="/students/">View all</a>
+    <div class="gallery-arrows">
+        <button type="button" class="gallery-prev" aria-label="Previous students">&#8249;</button>
+        <button type="button" class="gallery-next" aria-label="Next students">&#8250;</button>
+    </div>
+</div>
 
 <br>
 

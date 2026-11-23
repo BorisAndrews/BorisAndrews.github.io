@@ -13,15 +13,9 @@
     scrollbar-width: none;
 }
 
-/* The homepage's STUDENTS section: the same photos and captions, but no
-   carousel. It fills rows of four (two on phones) and wraps onto further
-   rows, so nobody is hidden off to the side with no arrows to reach them. */
+/* The homepage's STUDENTS section: the same carousel, one row deep. */
 .gallery-single {
-    grid-template-rows: none;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    overflow-x: visible;
-    margin-bottom: 18px;
+    grid-template-rows: auto;
 }
 
 .gallery::-webkit-scrollbar {
@@ -122,8 +116,5 @@
 @media screen and (max-width: 600px) {
     .gallery {
         grid-auto-columns: calc((100% - 20px) / 2);
-    }
-    .gallery-single {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
