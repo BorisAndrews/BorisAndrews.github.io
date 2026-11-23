@@ -107,6 +107,10 @@ In review
         <div class="caption"><a href="https://www.maths.ox.ac.uk/people/mark.alvaresperes"><b>Mark Alvares</b></a> <br> <em>DPhil student (2026–&#8288;present)</em></div>
     </div>
     <div class="gallery-item">
+        <a href="https://www.linkedin.com/in/oscar-benton-642393254" tabindex="-1"><img src="{{ '/assets/img/collaborators/oscar.jpg' | relative_url }}" alt="Oscar Benton"></a>
+        <div class="caption"><a href="https://www.linkedin.com/in/oscar-benton-642393254"><b>Oscar Benton</b></a> <br> <em>MMSC student (2026)</em></div>
+    </div>
+    <div class="gallery-item">
         <img src="{{ '/assets/img/collaborators/matin.jpeg' | relative_url }}" alt="Matin Shams">
         <div class="caption"><b>Matin Shams</b> <br> <em>MMSC student (2025)</em></div>
     </div>
@@ -125,7 +129,7 @@ In review
 
 <br>
 
-## [RECENT COLLABORATORS](/collaborators/)
+## [OTHER COLLABORATORS](/collaborators/)
 
 <div class="gallery">
     <div class="gallery-item">
