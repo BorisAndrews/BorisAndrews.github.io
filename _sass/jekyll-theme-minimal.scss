@@ -479,7 +479,7 @@ Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
 .collab-card {
   display:grid;
   grid-template-columns: 112px 1fr;
-  grid-template-rows: auto auto auto 1fr;
+  grid-template-rows: auto auto auto auto 1fr;
   column-gap:22px;
   align-items:start;
   padding:18px 0;
@@ -492,7 +492,7 @@ Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
   }
   > .collab-photo {
     grid-column:1;
-    grid-row:1 / span 4;
+    grid-row:1 / span 5;
     a { display:block; }
     img {
       display:block;
@@ -506,13 +506,29 @@ Each profile is `_includes/collaborators/<name>/full.md`, wrapped in a
     grid-column:2;
     margin:0 0 8px;
     font-size:13px;
-    // Students page: the Date / Co-supervisor / Project lines under the
-    // affiliation, one block each (inline-blocks or <br>s left the gaps
-    // between them uneven). The margin above the first makes the gap from
-    // affiliation to Date match the gap from name to affiliation (3.8px
-    // between the text boxes, measured), as Boris asked; 6px was too much.
-    .collab-role { display:block; }
-    .collab-role:first-of-type { margin-top:1.3px; }
+  }
+  // Students page: DATE / CO-SUPERVISOR / PROJECT, laid out like the CV
+  // page's sub-items (small grey label column, value beside it).
+  > .collab-details {
+    grid-column:2;
+    display:grid;
+    grid-template-columns:100px 1fr;  // $cv-label, defined further down
+    column-gap:8px;  // $cv-label-gap
+    row-gap:2px;
+    // Pulled up into the affiliation's 8px bottom margin so that name ->
+    // affiliation -> DATE are evenly spaced (3.8px between the text boxes,
+    // measured; Boris asked for even spacing there).
+    margin:-6.7px 0 8px;
+    font-size:13px;
+    dt {
+      padding-top:2px;
+      font-size:11px;
+      font-weight:bold;
+      letter-spacing:0.04em;
+      text-transform:uppercase;
+      color:#888;
+    }
+    dd { margin:0; }
   }
   > .collab-pubs {
     grid-column:2;
@@ -934,7 +950,8 @@ section:has(> .band) {
   .cv > ul > li, &.cv > ul > li, ul.interests > li, table.pubs tr, th, td,
   blockquote, .collab-card { border-color:$band-rule; }
   .cv > ul > li ul > li > strong:first-child,
-  &.cv > ul > li ul > li > strong:first-child { color:#8C989E; }
+  &.cv > ul > li ul > li > strong:first-child,
+  .collab-details dt { color:#8C989E; }
 
   details.rg-toggle > summary {
     h2, h3 { color:#8DB3E8; }
